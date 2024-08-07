@@ -942,3 +942,7 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 22 more
+[17:25:51] [Server thread/INFO]: ProHaxLeaks issued server command: /pex groups user
+[17:25:53] [Server thread/INFO]: ProHaxLeaks issued server command: /pex groups user add
+[17:25:55] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group user add
+[17:26:00] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner add
