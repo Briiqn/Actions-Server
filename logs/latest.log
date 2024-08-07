@@ -1135,3 +1135,9 @@ Caused by: java.lang.NullPointerException
 [23:30:50] [Craft Scheduler Thread - 136/INFO]: [AuthMe] The user Briiqn has 12 accounts:
 [23:30:50] [Craft Scheduler Thread - 136/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, §aGriddyGaymer23§7, ef4etf4, prohaxleaks.
 [23:30:50] [Craft Scheduler Thread - 136/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[23:31:15] [Thread-37/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[23:31:15] [Server thread/INFO]: ShortyDev[/127.16.144.220:45543] logged in with entity id 8877 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[23:31:23] [Craft Scheduler Thread - 140/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
+[23:31:23] [Craft Scheduler Thread - 140/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
+[23:31:23] [Craft Scheduler Thread - 140/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[23:31:25] [Server thread/INFO]: ShortyDev issued server command: /bungee
