@@ -290,7 +290,7 @@ Outroduction:
   team_kills: 0
   team_wins: 0
   solo_status: 'false'
-  solo_wins_status: 'false'
+  solo_wins_status: 'true'
   team_status: 'false'
   team_wins_status: 'false'
   total_kills: 0

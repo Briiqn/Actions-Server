@@ -1018,3 +1018,5 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:49:01] [Server thread/INFO]: Outroduction issued server command: /grimac
 [16:49:05] [Server thread/INFO]: Outroduction issued server command: /sus
 [16:50:19] [Server thread/INFO]: aeeasd41 lost connection: Disconnected
+[16:50:46] [Server thread/INFO]: Outroduction issued server command: /hub
+[16:50:49] [Server thread/INFO]: Outroduction issued server command: /leave
