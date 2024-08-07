@@ -702,3 +702,37 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:03:33] [Craft Scheduler Thread - 35/INFO]: [AuthMe] The user ltZ_Lvcky has 9 accounts:
 [09:03:33] [Craft Scheduler Thread - 35/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7.
 [09:03:33] [Craft Scheduler Thread - 35/INFO]: [AuthMe] ltZ_Lvcky logged in 127.30.38.147
+[09:04:21] [Thread-22/INFO]: UUID of player GriddyGaymer23 is 6fad573b-3b2a-3cd3-9371-2c9e33f133b2
+[09:04:21] [Server thread/INFO]: [Polar] Detected 1.8.x for GriddyGaymer23
+[09:04:21] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:54309] logged in with entity id 1258 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/GriddyGaymer23
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/GriddyGaymer23
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[09:04:21] [Craft Scheduler Thread - 28/WARN]: 	... 7 more
+[09:04:25] [Server thread/INFO]: [AuthMe] GriddyGaymer23 registered 127.30.38.147
+[09:04:25] [Craft Scheduler Thread - 28/INFO]: [AuthMe] The user GriddyGaymer23 has 10 accounts:
+[09:04:25] [Craft Scheduler Thread - 28/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7.
+[09:04:25] [Craft Scheduler Thread - 28/INFO]: [AuthMe] GriddyGaymer23 logged in 127.30.38.147
