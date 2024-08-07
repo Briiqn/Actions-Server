@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    - cron: '0 */5 * *'*  # Run every 5 hours
+    - cron: '0 */5 * * *'  # Run every 5 hours
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -38,7 +38,7 @@ jobs:
           SPIGOT_PID=$!
           echo "Spigot started with PID $SPIGOT_PID"
           echo "Starting playit..."
-          ./playit-linux-amd64 2>&1 | sed '/login:/s/.*/<REDACTED>/' & disown
+          ./playit-linux-amd64 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           PLAYIT_PID=$!
           echo "playit started with PID $PLAYIT_PID"
           # Function to commit and push changes
