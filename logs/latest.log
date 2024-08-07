@@ -1024,3 +1024,4 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:52:45] [Server thread/INFO]: ProHaxLeaks issued server command: /lost
 [16:52:46] [Server thread/INFO]: ProHaxLeaks issued server command: /lostsw
 [16:52:51] [Server thread/INFO]: ProHaxLeaks issued server command: /lostsw start
+[16:53:18] [Server thread/INFO]: ProHaxLeaks issued server command: /lsw
