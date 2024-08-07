@@ -151,3 +151,17 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [06:27:13] [Server thread/INFO]: Fag issued server command: /pl
 [06:28:22] [Server thread/INFO]: Fag lost connection: Disconnected
 [06:28:22] [Server thread/INFO]: Fag left the game.
+[06:28:27] [Thread-9/INFO]: UUID of player Fag is 2d50877b-1185-3b8e-a3c1-b455dead15f8
+[06:28:27] [Server thread/INFO]: Fag[/127.30.38.147:37199] logged in with entity id 24 at ([world]1404.0145931504217, 4.0, 51.07064304137026)
+[06:28:30] [Server thread/INFO]: Fag issued server command: /mem
+[06:28:30] [Server thread/INFO]: §cFag §4was denied access to command.
+[06:28:36] [Server thread/INFO]: Fag lost connection: Disconnected
+[06:28:36] [Server thread/INFO]: Fag left the game.
+[06:28:45] [Thread-10/INFO]: UUID of player konsolas is 8fd9df6e-4170-3e71-b6b1-1156dfa6e24e
+[06:28:45] [Server thread/INFO]: konsolas[/127.30.38.147:42555] logged in with entity id 26 at ([world]1446.5, 4.0, 41.5)
+[06:28:48] [Server thread/INFO]: konsolas issued server command: /fly
+[06:28:48] [Server thread/INFO]: §ckonsolas §4was denied access to command.
+[06:28:50] [Server thread/INFO]: konsolas issued server command: /gamemode
+[06:28:50] [Server thread/INFO]: §ckonsolas §4was denied access to command.
+[06:28:52] [Server thread/INFO]: konsolas lost connection: Disconnected
+[06:28:52] [Server thread/INFO]: konsolas left the game.
