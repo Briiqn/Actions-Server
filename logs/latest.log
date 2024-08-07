@@ -1041,3 +1041,6 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:54:41] [Craft Scheduler Thread - 78/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
 [16:54:41] [Craft Scheduler Thread - 78/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [16:54:43] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner user remove ShortyDev
+[16:57:35] [Server thread/INFO]: ProHaxLeaks issued server command: /polar
+[16:57:58] [Server thread/INFO]: Outroduction issued server command: /polar
+[16:58:01] [Server thread/INFO]: Outroduction issued server command: /ncp
