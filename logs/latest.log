@@ -649,3 +649,78 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:26:21] [Craft Scheduler Thread - 12/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las.
 [08:26:21] [Craft Scheduler Thread - 12/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [08:26:22] [Server thread/INFO]: Briiqn issued server command: /gmc
+[08:26:23] [Head Conversion Thread - 3/WARN]: Exception in thread "Head Conversion Thread - 3" 
+[08:26:23] [Head Conversion Thread - 3/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[08:26:23] [Head Conversion Thread - 3/WARN]: Caused by: java.lang.NullPointerException
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[08:26:23] [Head Conversion Thread - 3/WARN]: 	... 8 more
+[08:26:27] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[08:26:28] [Head Conversion Thread - 4/WARN]: Exception in thread "Head Conversion Thread - 4" 
+[08:26:28] [Head Conversion Thread - 4/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[08:26:28] [Head Conversion Thread - 4/WARN]: Caused by: java.lang.NullPointerException
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[08:26:28] [Head Conversion Thread - 4/WARN]: 	... 8 more
+[08:26:29] [Head Conversion Thread - 2/WARN]: Exception in thread "Head Conversion Thread - 2" 
+[08:26:29] [Head Conversion Thread - 2/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[08:26:29] [Head Conversion Thread - 2/WARN]: Caused by: java.lang.NullPointerException
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[08:26:29] [Head Conversion Thread - 2/WARN]: 	... 8 more
+[08:26:29] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[08:26:29] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
+[08:26:29] [Server thread/INFO]: Briiqn[/127.30.38.147:46323] logged in with entity id 181 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[08:26:30] [Server thread/INFO]: Briiqn issued server command: /gmc
+[08:26:32] [Server thread/INFO]: Briiqn issued server command: /gmc
+[08:26:34] [Server thread/INFO]: Briiqn issued server command: /kill
+[08:26:39] [Server thread/INFO]: Briiqn issued server command: /minecraft:kill
+[08:26:41] [Server thread/INFO]: Briiqn issued server command: /fly
+[08:26:43] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user Briiqn has 6 accounts:
+[08:26:43] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las.
+[08:26:43] [Craft Scheduler Thread - 17/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[08:26:45] [Server thread/INFO]: Briiqn issued server command: /gmc
+[08:26:46] [Server thread/INFO]: Briiqn issued server command: /aac
+[08:26:50] [Server thread/INFO]: Briiqn issued server command: /aac help
