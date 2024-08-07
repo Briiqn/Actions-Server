@@ -167,3 +167,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [09:02:23] [Server thread/INFO]: fff[/127.30.38.147:41323] logged in with entity id 118 at ([world]1435.5290806115893, 4.0, 39.35488082016664)
 [09:02:26] [Server thread/INFO]: fff lost connection: Disconnected
 [09:02:26] [Server thread/INFO]: fff left the game.
+[09:03:19] [Thread-12/INFO]: UUID of player ltZ_Lvcky is 383582cd-f3c2-3936-abf3-baa4b94527f8
+[09:03:19] [Server thread/INFO]: ltZ_Lvcky[/127.30.38.147:47267] logged in with entity id 119 at ([world]1437.304292997798, 4.0, 48.20790802512664)
+[09:03:21] [Server thread/INFO]: ltZ_Lvcky lost connection: Disconnected
+[09:03:21] [Server thread/INFO]: ltZ_Lvcky left the game.
