@@ -2,7 +2,7 @@ multiserver:
   use-netevents: true
 permissions:
   debug: false
-  allowOps: false
+  allowOps: true
   user-add-groups-last: false
   log-players: false
   createUserRecords: false
