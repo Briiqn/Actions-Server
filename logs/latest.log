@@ -180,3 +180,6 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
 [04:08:44] [Thread-12/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [04:08:44] [Server thread/INFO]: Briiqn[/127.30.38.147:42093] logged in with entity id 64 at ([world]1712.0736230599393, 4.0, 36.85463522611224)
 [04:08:51] [Server thread/INFO]: Briiqn issued server command: /mem
+[04:09:06] [Server thread/INFO]: Briiqn issued server command: /mem
+[04:09:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:09:17] [Server thread/INFO]: Briiqn left the game.
