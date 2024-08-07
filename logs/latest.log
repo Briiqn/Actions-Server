@@ -145,3 +145,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [15:50:04] [Server thread/INFO]: ef4etf4[/127.30.38.147:43269] logged in with entity id 26 at ([world]1437.5, 4.0, 41.5)
 [15:50:06] [Server thread/INFO]: ef4etf4 lost connection: Disconnected
 [15:50:06] [Server thread/INFO]: ef4etf4 left the game.
+[16:11:26] [Thread-8/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
+[16:11:26] [Server thread/INFO]: Sigma5[/127.30.38.147:50723] logged in with entity id 27 at ([world]1404.2589801426566, 9.0, 53.56562584888113)
+[16:11:32] [Server thread/INFO]: Sigma5 lost connection: Disconnected
+[16:11:32] [Server thread/INFO]: Sigma5 left the game.
