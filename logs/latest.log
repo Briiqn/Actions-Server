@@ -785,3 +785,8 @@ Caused by: java.lang.NullPointerException
 [20:43:45] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
 [20:43:47] [Server thread/INFO]: ProHaxLeaks issued server command: /effect ProHaxLeaks minecraft:regeneration 9999 255 true
 [20:43:47] [Server thread/INFO]: [ProHaxLeaks: Given Regeneration (ID 10) * 255 to ProHaxLeaks for 9999 seconds]
+[20:47:48] [Server thread/WARN]: Briiqn was kicked for floating too long!
+[20:47:48] [Server thread/INFO]: Briiqn lost connection: Flying is not enabled on this server
+[20:47:48] [Server thread/WARN]: handleDisconnection() called twice
+[20:47:58] [Thread-19/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:47:58] [Server thread/INFO]: Briiqn[/127.30.38.147:59131] logged in with entity id 881 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
