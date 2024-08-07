@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723001501518
-  login: 1723001500342
+  logout: 1723021346214
+  login: 1723021343915
 money: '0'
 last-account-name: fff
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: 1435.5290806115893
   y: 4.0
   z: 39.35488082016664
-  yaw: -6.840957164764404
-  pitch: 7.838596820831299
+  yaw: -0.07125966250896454
+  pitch: 5.415757656097412
