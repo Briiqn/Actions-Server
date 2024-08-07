@@ -5027,3 +5027,22 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [05:05:07] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/8fd9df6e-4170-3e71-b6b1-1156dfa6e24e.yml
 [05:05:13] [Server thread/INFO]:  AAC konsolas - Spectate
 [05:05:13] [Server thread/INFO]: konsolas lost connection: Disconnected
+[05:05:20] [Thread-22/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[05:05:20] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
+[05:05:20] [Server thread/INFO]: Briiqn[/127.30.38.147:48933] logged in with entity id 767 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[05:05:22] [Server thread/INFO]: Briiqn issued server command: /op konsolas
+[05:05:22] [Server thread/INFO]: [Briiqn: Opped konsolas]
+[05:05:23] [Server thread/INFO]: Briiqn issued server command: /op konsolas
+[05:05:23] [Server thread/INFO]: [Briiqn: Opped konsolas]
+[05:05:24] [Server thread/INFO]: Briiqn issued server command: /op konsolas
+[05:05:24] [Server thread/INFO]: [Briiqn: Opped konsolas]
+[05:05:24] [Server thread/INFO]: Briiqn issued server command: /op konsolas
+[05:05:24] [Server thread/INFO]: [Briiqn: Opped konsolas]
+[05:05:26] [Server thread/INFO]: Briiqn issued server command: /op konsolas
+[05:05:26] [Server thread/INFO]: [Briiqn: Opped konsolas]
+[05:05:27] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[05:05:31] [Thread-23/INFO]: UUID of player konsolas is 8fd9df6e-4170-3e71-b6b1-1156dfa6e24e
+[05:05:31] [Server thread/INFO]: [AAC5] Detected 1.8.x for konsolas
+[05:05:31] [Server thread/INFO]: konsolas[/127.30.38.147:35877] logged in with entity id 779 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[05:05:43] [Server thread/WARN]: konsolas moved too quickly! 0.37227792887422595,-10.24521420095283,0.40052215353116516 (0.37227792887422595, -10.24521420095283, 0.40052215353116516)
+[05:05:43] [Server thread/WARN]: konsolas moved too quickly! 0.38778066616955975,-10.23052736891296,0.41720106260839795 (0.38778066616955975, -10.23052736891296, 0.41720106260839795)

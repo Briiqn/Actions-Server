@@ -444,6 +444,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "8fd9df6e-4170-3e71-b6b1-1156dfa6e24e",
+    "name": "konsolas",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "4e42cefd-d3fc-387e-a2ca-4525c432c47b",
     "name": "AGC_Tester",
     "level": 4,
