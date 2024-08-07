@@ -632,3 +632,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:10:26] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:11:47] [Server thread/INFO]: Briiqn issued server command: //wand
 [04:11:53] [Server thread/INFO]: Briiqn issued server command: /gmc
+[04:13:28] [Server thread/INFO]: Briiqn issued server command: /v
