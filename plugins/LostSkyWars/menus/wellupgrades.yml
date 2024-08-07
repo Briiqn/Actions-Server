@@ -1,0 +1,55 @@
+# Actions:
+# NOTHING
+# OPEN:soulwin
+# OPEN:soulmax
+# OPEN:soulwell
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Soul Upgrades'
+rows: 4
+items:
+ soulwin:
+  slot: 12
+  action: 'OPEN:soulwin'
+  stack: 'GOLD_INGOT : 1 : display={color1}{name1} : lore=&7Get &c{amount1} &7extra soul on\n&7win.\n \n&7Cost: &6{price1}\n{message1}'
+ soulmax:
+  slot: 14
+  action: 'OPEN:soulmax'
+  stack: 'GHAST_TEAR : 1 : display={color2}{name2} : lore=&7Increase the maximum number\n&7of souls you can have to\n&c{amount2}&7.\n \n&7Cost: &6{price2}\n{message2}'
+ back:
+  slot: 30
+  action: 'OPEN:soulwell'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To Soul Well'
+ coins:
+  slot: 31
+  action: 'NOTHING'
+  stack: 'EMERALD : 1 : display=&7Total Coins: &6{coins} : lore=&6http://store.example.net'
+extras:
+ buy: '&6You purchased &a{name}&6!'
+ max-item: 'BARRIER : 1 : display=&cAlready in max level'
+ have-enough-coins: '&eClick to purchase!'
+ dont-have-enough-coins: '&cDon''t have enough coins!'
+winupgrades:
+ 1:
+  # The number of current souls per win for allow the upgrade
+  requires: 0
+  name: 'Xezbeth Luck I'
+  amount: 1
+  price: 2500
+ 2:
+  requires: 1
+  name: 'Xezbeth Luck II'
+  amount: 2
+  price: 5000
+maxupgrades:
+ 1:
+  # The number of current max souls for allow the upgrade
+  requires: 100
+  name: 'Harvesting Season I'
+  amount: 130
+  price: 50000
+ 2:
+  requires: 130
+  name: 'Harvesting Season II'
+  amount: 160
+  price: 100000

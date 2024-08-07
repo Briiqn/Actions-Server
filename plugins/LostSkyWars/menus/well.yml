@@ -1,0 +1,40 @@
+# Actions:
+# NOTHING
+# OPEN:harvesters
+# OPEN:roll
+# OPEN:upgrades
+# OPEN:settings
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Soul Well'
+rows: 6
+items:
+ roll:
+  slot: 13
+  action: 'OPEN:roll'
+  stack: 'ENDER_PORTAL_FRAME : 1 : display={color}Roll Soul Well : lore=&7Rolls for a random kit, perk,\n&7or coin bonus.\n \n&7Cost: &b{cost} Souls\n \n{message}'
+ harvesters:
+  slot: 30
+  action: 'OPEN:harvesters'
+  stack: 'PAPER : 1 : display=&aSoul Harvesters : lore=&7Use &6coins &7to hire\n&7harvesters to gather\n&bSouls &7for your.\n \n&eClick to browse!'
+ upgrades:
+  slot: 32
+  action: 'OPEN:upgrades'
+  stack: 'GHAST_TEAR : 1 : display=&aSoul Upgrades : lore=&7Upgrade your ability to\n&7find more &bSouls&7.\n \n&eClick to browse!'
+ close:
+  slot: 49
+  action: 'OPEN:closeinv'
+  stack: 'BARRIER : 1 : display=&cClose'
+ settings:
+  slot: 50
+  action: 'OPEN:settings'
+  stack: 'ENCHANTMENT_TABLE : 1 : display=&6Soul Well Settings : lore=&7Allows you to modify\n&7aspects of how your Soul\n&7Well works.'
+extras:
+ # Back arrow when enter the menu using Shop Menu
+ back: 'ARROW : 1 : display=&aGo Back : lore=&7To SkyWars Shop'
+ back-slot: 48
+ max-souls: '&cYou already have max souls'
+ have-enough-souls: '&eClick to roll!'
+ dont-have-enough-souls: '&cYou don''t have enough Souls!'
+ 

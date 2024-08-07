@@ -120,6 +120,9 @@ scoreboard:
   waiting: 'Waiting...'
   starting: 'Starting in &a{time}s'
 options:
+ ranks:
+  tab: true
+  chat: true
  mode:
   solo: 'Solo'
   doubles: 'Doubles'
@@ -198,8 +201,26 @@ lobby:
     - '&fDoubles &7[Normal/Insane]'
     - '&e&l{players} Players'
    connecting: '&aSending you to {world}!\n \n '
+  deliveryman:
+   skin-value: 'eyJ0aW1lc3RhbXAiOjE1NzE1OTI3NjkzMjYsInByb2ZpbGVJZCI6ImU0MDE1NTBiZjNkNzRlMThiMzYxNWQzNDNjNTliMjA3IiwicHJvZmlsZU5hbWUiOiJaZWFsb2NrIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDAyZDY4MGRhNjZjMmQyNTBiNjVlM2ZlNDZhNzE5YzM1MWFjMzQ2NzhkYTM5NjNmNzcxNjVmYWQzZWY2MzhjIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0='
+   skin-signature: 'l8vl8BjvErK++4xnKharcxJv+Z71GqA0MYXxPbCYB2PAoKCxC+gYsIDm7aG2/cKZuz8RcANLxSp2NNMlqSUcMp8lBptVHdLtB7J+NG+QmGRvgZUd5S7wMU3jQu7VH5XIxn5qgZNZ9ef9naa9v3R9A66WmWOGuKjEJaSW4hKuxZ821zjS1QkeESAYgNzyU7EwSb3MSIuHXPvmAaYH7pUZyoZTh2sTqXTYOAZmJD5k6DWxqVuGinl1fbU07WNPJk/8frlgHWhuhtqYc7Zvx2RV9kDsWJ8Spcex6VQmEk+MJNB/VmPjXrke3YQKEF5udq3C9nJstiM6V/VgduYZTSSkTcP3lfcCwcvROYaVpsydCNS6Hn2Zp953lZseK/p3/W8Zic5zhcUbEwrNiPs37ZO9Ktz/O2YZR98djR95zqv+QImXi35mIelYuLdDEUeGZNPC41jHoeCR952T8i4l5ilN0hXoZPLPq+5NV/m4GP180gxGASVTwD4wkDmDtwjo22XT9d7dr92KTBdNndak2slJ5+hRukpNtUcRyJTsCDz8A3E6hFNjS4pIyCe0gSRIrx2xoDBwqV16ELDtrX2yv8ofQd2b6scxMBJ3zUW16mEDrbON/N8OWACYwD8jdtlExETXP7bDhtdotlaIRmd+pW7s1BZmShCKxKjrOiv/ZCMA5X0='
+   holograms:
+   - '&bThe Delivery Man'
+   - '&e&lRIGHT CLICK'
+  well:
+   holograms:
+   - '&bSoul Well'
+   - '&e&lRIGHT CLICK'
+  box:
+   holograms:
+   - '&bMystery Vault'
+   - '&e&lRIGHT CLICK'
+   duplicate: '&aYou''ve received &b{frags} Mystery Dusts for already have {prefix} {item}&a!'
  speed:
   enabled: true
+  level: 1
+ jump-boost:
+  enabled: false
   level: 1
  motd:
   enabled: true
@@ -209,8 +230,12 @@ lobby:
   enabled: true
   header: '&bYou are playing on &e&lMC.HYPIXEL.NET\n '
   footer: ' \n&aRanks, Boosters & MORE! &c&lSTORE.HYPIXEL.NET'
+ connecting:
+  party:
+   not-leader: '&cOnly the Party leader can find a match.'
 game:
  regen:
+  world-reload: false
   blocks-per-tick: 20000
  rewards:
   coins-per-play: 5
@@ -236,6 +261,9 @@ game:
   quit:
    slot: 8
    name: '&c&lReturn to Lobby &7(Right Click)'
+  compass:
+   slot: 0
+   name: '&a&lTeleporter &7(Right Click)'
   quit-spectator:
    slot: 5
    name: '&c&lReturn to Lobby &7(Right Click)'
@@ -267,6 +295,7 @@ game:
      void: '{colored} &ewas thrown into the void by {colored2}&e.'
  player:
   ingame:
+   receive-box: '&aYou''ve received a {stars} Star{s} Mystery Box!'
    titles:
     refill:
      up: ''
@@ -297,3 +326,8 @@ command:
   args: '&cUse /stats <username>'
   permission: '&cYou must be &bMVP &cor higher to use this command!'
   user-not-found: '&cUser not found!'
+ watch:
+  args: '&cUse /watch <username>'
+  permission: '&cYou must be &bMVP &cor higher to use this command!'
+  user-not-found: '&cUser not found!'
+  user-not-in-match: '&cUser isn''t playing a match.'

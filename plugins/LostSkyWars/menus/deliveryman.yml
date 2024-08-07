@@ -1,0 +1,26 @@
+# Actions:
+# NOTHING
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'The Delivery Man'
+rows: 6
+items: {}
+extras:
+ m1: 'January'
+ m2: 'February'
+ m3: 'March'
+ m4: 'April'
+ m5: 'May'
+ m6: 'June'
+ m7: 'July'
+ m8: 'August'
+ m9: 'September'
+ m10: 'October'
+ m11: 'November'
+ m12: 'December'
+ lore-can: '&aClick here to claim!'
+ lore-cant: '&cClick here to claim!'
+ lore-claimed: '&7You already picked up this\n&7delivery, come back later!\n \n&7Next Delivery: {next}'
+ warn-cant: '&cYou do not have the rank required for this bonus! Purchase ranks at &bhttps://store.example.net'
+ warn-claimed: '&cYou have already claimed this delivery! Check back in {time}!'

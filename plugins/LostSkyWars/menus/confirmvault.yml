@@ -1,0 +1,21 @@
+# Actions:
+# NOTHING
+# OPEN:confirm
+# OPEN:vault
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Confirm'
+rows: 5
+items:
+ box:
+  slot: 13
+  action: 'NOTHING'
+  stack: '{box}'
+ confirm:
+  slot: 29
+  action: 'OPEN:confirm'
+  stack: 'STAINED_CLAY:13 : 1 : display=&aConfirm : lore=&7Open the Mystery Box.\n \n&7This cannot be undone.'
+ cancel:
+  slot: 33
+  action: 'OPEN:vault'
+  stack: 'STAINED_CLAY:14 : 1 : display=&cCancel : lore=&7Takes you back to the\n&7Mystery Box listing.'

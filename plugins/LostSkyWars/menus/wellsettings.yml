@@ -1,0 +1,27 @@
+# Actions:
+# NOTHING
+# OPEN:increase
+# OPEN:decrease
+# OPEN:soulwell
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Soul Well Settings'
+rows: 4
+items:
+ decrease:
+  slot: 10
+  action: 'OPEN:decrease'
+  stack: 'ARROW : 1 : display=&aDecrease Wheels : lore=&7Decreases the total\n&7number of spinnings wheels\n&7in a roll (Minimum: &a1&7).'
+ increase:
+  slot: 16
+  action: 'OPEN:increase'
+  stack: 'ARROW : 1 : display=&aIncrease Wheels : lore=&7Increases the total\n&7number of spinnings wheels\n&7in a roll (Maximum: &a5&7).'
+ back:
+  slot: 31
+  action: 'OPEN:soulwell'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To Soul Well'
+extras:
+ # Only 5 slots
+ slots: [11, 12, 13, 14, 15]
+ empty: 'STAINED_GLASS:8 : 1 : display=&7 '
+ full: 'STAINED_CLAY:8 : 1 : display=&c{wells} Well{s}'

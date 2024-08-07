@@ -1,0 +1,10 @@
+# Actions:
+# NOTHING
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Teleporter'
+# Don't change this here
+rows: 1
+items: {}
+extras:
+ head: 'SKULL_ITEM:3 : 1 : display={displayName} : lore=&7Health: &f{hp}%\n&7Food: &f{food}\n \n&7Left-click to spectate!'

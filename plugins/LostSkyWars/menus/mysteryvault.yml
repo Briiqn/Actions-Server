@@ -1,0 +1,20 @@
+# Actions:
+# NOTHING
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Mystery Vault'
+#Don't change this here
+rows: 6
+items:
+ info:
+  slot: 49
+  action: 'NOTHING'
+  stack: 'BOOK : 1 : display=&aMystery Box Information : lore=&bMystery Boxes &7can contain almost any\n&7lobby cosmetic feature and Housing block.\n&7To earn &bMystery Boxes&7, all you have to\n&7do is play minigames on the server!\n \n&eYour 5 most recent items found are:{last_rewards}'
+extras:
+ empty: 'STAINED_GLASS_PANE:14 : 1 : display=&cYou don''t have MysteryBoxes!'
+ empty-slot: 22
+ previous-slot: 45
+ next-slot: 53
+ previous-page: 'ARROW : 1 : display=&aPrevious Page : lore=&7Go to page {page}&7.'
+ next-page: 'ARROW : 1 : display=&aNext Page : lore=&7Go to page {page}&7.'

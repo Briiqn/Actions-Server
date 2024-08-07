@@ -1,0 +1,17 @@
+# Actions:
+# NOTHING
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Soul Well'
+# Don't change this here
+rows: 5
+items: {}
+extras:
+ # Repeated reward give coins!
+ coins-common: 75
+ coins-rare: 125
+ coins-epic: 250
+ coins-legendary: 350
+ glass: 'STAINED_GLASS:15 : 1 : display=&r '
+ received: '&3&lYou found a {name} &3&lin the well!'
+ already-have: '&3&lYou already have {name} &3&lreceived &6{coins} &3&lcoins!'

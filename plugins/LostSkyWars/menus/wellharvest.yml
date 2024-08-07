@@ -1,0 +1,43 @@
+# Actions:
+# NOTHING
+# OPEN:pack1
+# OPEN:pack2
+# OPEN:pack3
+# OPEN:soulwell
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Soul Harvesters'
+rows: 4
+items:
+ pack1:
+  slot: 11
+  action: 'OPEN:pack1'
+  stack: 'PAPER : 5 : display={color1}Hire: Warlock : lore=&7Hire a Warlock to go to\n&7battle and harvest &b{amount1}\n&bSouls &7for you.\n \n&7Cost: &6{price1}\n{message1}'
+ pack2:
+  slot: 13
+  action: 'OPEN:pack2'
+  stack: 'PAPER : 10 : display={color2}Hire: Necromancer : lore=&7Hire a Necromancer to go to\n&7battle and harvest &b{amount2}\n&bSouls &7for you.\n \n&7Cost: &6{price2}\n{message2}'
+ pack3:
+  slot: 15
+  action: 'OPEN:pack3'
+  stack: 'PAPER : 50 : display={color3}Hire: Death God : lore=&7Hire a Death God to go to\n&7battle and harvest &b{amount3}\n&bSouls &7for you.\n \n&7Cost: &6{price3}\n{message3}'
+ back:
+  slot: 30
+  action: 'OPEN:soulwell'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To Soul Well'
+ coins:
+  slot: 31
+  action: 'NOTHING'
+  stack: 'EMERALD : 1 : display=&7Total Coins: &6{coins} : lore=&6http://store.example.net'
+extras:
+ pack1-price: 600
+ pack1-amount: 5
+ pack1-name: 'Hire: Warlock'
+ pack2-price: 1000
+ pack2-amount: 10
+ pack2-name: 'Hire: Necromancer'
+ pack3-price: 4500
+ pack3-amount: 50
+ pack3-name: 'Hire: Death God'
+ have-enough-coins: '&eClick to purchase!'
+ dont-have-enough-coins: '&cDon''t have enough coins!'

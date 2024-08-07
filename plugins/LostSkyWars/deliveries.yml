@@ -1,0 +1,59 @@
+# Rewards:
+# EXP:<amount>
+# COINS:<amount>
+# SOULS:<amount>
+# MYSTERY_BOX:<amount>
+# MYSTERY_DUST:<amount>
+# COMMAND:<command without "/"> - {player} = Player Name
+deliveries:
+ member:
+  days: 30
+  slot: 20
+  permission: 'none'
+  rewards:
+  - 'MYSTERY_BOX:1'
+  icon: 'ENDER_CHEST : 1 : display={color}Mystery Box Delivery : lore=&7Your free monthly &b1 &7(Total of &b1&7)\n&7Mystery Boxes for {month} have arrived!\n \n{lore}'
+  claim: '&aYou have successfully claimed &b1 Mystery Box&a!'
+ vip:
+  days: 30
+  slot: 21
+  permission: 'deliveryman.vip'
+  rewards:
+  - 'MYSTERY_BOX:5'
+  icon: 'ENDER_CHEST : 5 : display={color}Mystery Box Delivery : lore=&7Your free monthly &b5 &7(Total of &b5&7)\n&7Mystery Boxes for {month} have arrived!\n \n&7Requires &eVIP\n \n{lore}'
+  claim: '&aYou have successfully claimed &b5 Mystery Boxes&a!'
+ vipplus:
+  days: 30
+  slot: 22
+  permission: 'deliveryman.vipplus'
+  rewards:
+  - 'MYSTERY_BOX:5'
+  icon: 'ENDER_CHEST : 5 : display={color}Mystery Box Delivery : lore=&7Your free monthly &b5 &7(Total of &b10&7)\n&7Mystery Boxes for {month} have arrived!\n \n&7Requires &eVIP&6+\n \n{lore}'
+  claim: '&aYou have successfully claimed &b5 Mystery Boxes&a!'
+ mvp:
+  days: 30
+  slot: 23
+  rank: 'deliveryman.mvp'
+  permission: 'deliveryman.mvp'
+  rewards:
+  - 'MYSTERY_BOX:5'
+  icon: 'ENDER_CHEST : 5 : display={color}Mystery Box Delivery : lore=&7Your free monthly &b5 &7(Total of &b15&7)\n&7Mystery Boxes for {month} have arrived!\n \n&7Requires &bMVP\n \n{lore}'
+  claim: '&aYou have successfully claimed &b5 Mystery Boxes&a!'
+ mvpplus:
+  days: 30
+  slot: 24
+  permission: 'deliveryman.mvpplus'
+  rewards:
+  - 'MYSTERY_BOX:5'
+  icon: 'ENDER_CHEST : 5 : display={color}Mystery Box Delivery : lore=&7Your free monthly &b5 &7(Total of &b20&7)\n&7Mystery Boxes for {month} have arrived!\n \n&7Requires &bMVP&c+\n \n{lore}'
+  claim: '&aYou have successfully claimed &b5 Mystery Boxes&a!'
+ daily:
+  days: 1
+  slot: 33
+  permission: 'none'
+  rewards:
+  - 'EXP:200'
+  - 'COINS:300'
+  icon: 'STORAGE_MINECART : 1 : display={color}Daily Reward : lore=&7Free &3200 SkyWars\n&3Experience &7and &6300 Coins&7!\n \n{lore}'
+  claim: '&aYou have successfully claimed &3200 SkyWars Experience &aand &6300 Coins&a!'
+ 
