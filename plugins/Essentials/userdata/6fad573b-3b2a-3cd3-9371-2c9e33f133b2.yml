@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723021447584
-  login: 1723021444926
+  logout: 1723070472087
+  login: 1723070470696
 money: '0'
 last-account-name: GriddyGaymer23
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: 1435.8223945099064
   y: 4.0
   z: 40.5768620632725
-  yaw: 170.5247039794922
-  pitch: 5.772045135498047
+  yaw: 176.7241973876953
+  pitch: -0.926392138004303
