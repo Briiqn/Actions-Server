@@ -716,3 +716,6 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:10:29] [Server thread/INFO]: ShortyDev[/127.16.144.220:58447] logged in with entity id 1488 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [16:10:29] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/b2dacc6e-4a1b-3315-aea8-dae16ae0a448.yml
 [16:10:33] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[16:14:10] [Thread-22/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[16:14:10] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
+[16:14:10] [Server thread/INFO]: ShortyDev[/127.16.144.220:53545] logged in with entity id 1667 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
