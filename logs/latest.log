@@ -1044,3 +1044,12 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:57:35] [Server thread/INFO]: ProHaxLeaks issued server command: /polar
 [16:57:58] [Server thread/INFO]: Outroduction issued server command: /polar
 [16:58:01] [Server thread/INFO]: Outroduction issued server command: /ncp
+[16:58:04] [Server thread/INFO]: Outroduction issued server command: /ac
+[16:58:04] [Server thread/INFO]: §cOutroduction §4was denied access to command.
+[16:58:07] [Server thread/INFO]: Outroduction issued server command: /ac
+[16:58:07] [Server thread/INFO]: §cOutroduction §4was denied access to command.
+[16:58:22] [Server thread/INFO]: Outroduction issued server command: /ac
+[16:58:22] [Server thread/INFO]: §cOutroduction §4was denied access to command.
+[16:58:25] [Server thread/INFO]: ShortyDev issued server command: /ac
+[16:58:25] [Server thread/INFO]: §cShortyDev §4was denied access to command.
+[16:58:26] [Server thread/INFO]: ShortyDev issued server command: /aac
