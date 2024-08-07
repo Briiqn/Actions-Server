@@ -811,3 +811,5 @@ java.lang.AbstractMethodError
 [06:00:58] [Craft Scheduler Thread - 10/INFO]: [AuthMe] The user Fag has 6 accounts:
 [06:00:58] [Craft Scheduler Thread - 10/INFO]: [AuthMe] §7§akonsolas§7, §aFag§7, efefe, 1zun4, briiqn, kons0las.
 [06:00:58] [Craft Scheduler Thread - 10/INFO]: [AuthMe] Fag logged in 127.30.38.147
+[06:02:09] [Server thread/INFO]: konsolas issued server command: /fly
+[06:02:09] [Server thread/INFO]: §ckonsolas §4was denied access to command.
