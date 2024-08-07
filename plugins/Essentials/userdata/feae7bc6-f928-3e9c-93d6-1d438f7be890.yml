@@ -20,3 +20,11 @@ timestamps:
   login: 1723048164871
 money: '0'
 last-account-name: odragclicker
+lastlocation:
+  world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
+  world-name: world
+  x: 1398.892533160885
+  y: 13.497280342654452
+  z: 55.42025014398364
+  yaw: -128.54840087890625
+  pitch: 32.400054931640625
