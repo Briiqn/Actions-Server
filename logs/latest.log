@@ -752,3 +752,14 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
 [17:44:26] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[17:45:45] [Server thread/INFO]: CONSOLE issued server command: /ban Briiqn &9&lVerus &8> &fCheating
+[17:45:45] [Server thread/INFO]: Briiqn lost connection: §cYou have been banned:
+§r§9§lVerus §8> §fCheating
+[17:45:45] [Server thread/INFO]: §6Player§c Console §6banned§c Briiqn §6for: §c§cYou have been banned:
+§r§9§lVerus §8> §fCheating§6.
+[17:45:45] [Server thread/WARN]: handleDisconnection() called twice
+[17:46:04] [Thread-22/INFO]: UUID of player kons0las is c9168e3f-bb84-35c1-9060-80553c088367
+[17:46:04] [Server thread/INFO]: kons0las[/127.30.38.147:43459] logged in with entity id 603 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:46:08] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user kons0las has 12 accounts:
+[17:46:08] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, §akons0las§7, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[17:46:08] [Craft Scheduler Thread - 17/INFO]: [AuthMe] kons0las logged in 127.30.38.147
