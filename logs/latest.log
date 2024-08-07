@@ -1008,3 +1008,7 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 5 more
 [16:47:54] [Server thread/INFO]: aeeasd41 issued server command: /lsw
+[16:47:57] [Server thread/INFO]: aeeasd41 issued server command: /lsw 2
+[16:48:01] [Server thread/INFO]: Outroduction issued server command: /plugins
+[16:48:05] [Server thread/INFO]: aeeasd41 issued server command: /lsw
+[16:48:21] [Server thread/INFO]: aeeasd41 issued server command: /strike
