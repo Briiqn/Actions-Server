@@ -1,4 +1,12 @@
 lastAccountName: Outroduction
 timestamps:
   login: 1723048869800
+  logout: 1723050036537
 ipAddress: 127.206.171.212
+logoutlocation:
+  world: Mini31E
+  x: 1.5
+  y: 95.0
+  z: -38.5
+  yaw: 0.0
+  pitch: 0.0

@@ -1059,3 +1059,6 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:59:59] [Server thread/INFO]: Outroduction issued server command: /aac
 [17:00:03] [Server thread/INFO]: Outroduction issued server command: /aac help
 [17:00:07] [Server thread/INFO]: Outroduction issued server command: /aac check
+[17:00:16] [Server thread/INFO]: Outroduction issued server command: /aac status
+[17:00:24] [Server thread/INFO]: Outroduction issued server command: /aac reset
+[17:00:38] [Server thread/INFO]: Outroduction lost connection: Disconnected
