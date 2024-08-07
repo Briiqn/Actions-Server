@@ -3612,3 +3612,10 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [05:01:59] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [05:01:59] [Server thread/INFO]: Error: Player not found.
 [05:01:59] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
+[05:02:15] [Server thread/WARN]: efefe moved too quickly! -0.5214741955153386,-10.24521420095283,0.09697478363603906 (-0.5214741955153386, -10.24521420095283, 0.09697478363603906)
+[05:02:16] [Server thread/WARN]: efefe moved too quickly! -0.5849977844716356,-10.155232004516606,0.10878780592515547 (-0.5849977844716356, -10.155232004516606, 0.10878780592515547)
+[05:02:16] [Server thread/WARN]: efefe moved too quickly! -0.556203762511462,-10.30431682745754,0.10343318996599038 (-0.556203762511462, -10.30431682745754, 0.10343318996599038)
+[05:02:17] [Server thread/WARN]: efefe moved too quickly! -0.48441267697071844,-11.195069711383766,0.04217770388746089 (-0.48441267697071844, -11.195069711383766, 0.04217770388746089)
+[05:02:18] [Server thread/WARN]: efefe moved too quickly! -0.4605695281097688,-10.30431682745754,0.04010168622687793 (-0.4605695281097688, -10.30431682745754, 0.04010168622687793)
+[05:02:36] [Server thread/INFO]: Fag issued server command: /aac
+[05:02:37] [Server thread/INFO]: Fag issued server command: /aac
