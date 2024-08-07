@@ -843,3 +843,11 @@ Caused by: java.lang.NullPointerException
 [20:50:28] [Server thread/WARN]: handleDisconnection() called twice
 [20:51:24] [Server thread/INFO]: ProHaxLeaks lost connection: disconnect.spam
 [20:51:24] [Server thread/WARN]: handleDisconnection() called twice
+[22:40:05] [Thread-25/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[22:40:05] [Server thread/INFO]: Briiqn[/127.30.38.147:60277] logged in with entity id 6287 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[22:40:08] [Craft Scheduler Thread - 89/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[22:40:08] [Craft Scheduler Thread - 89/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[22:40:08] [Craft Scheduler Thread - 89/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[22:40:09] [Server thread/INFO]: Briiqn issued server command: /verus
+[22:40:26] [Server thread/INFO]: Briiqn issued server command: /verus alerts
+[22:40:29] [Server thread/INFO]: Briiqn issued server command: /verus alerts
