@@ -811,3 +811,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:27:32] [Craft Scheduler Thread - 54/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [16:31:01] [Server thread/INFO]: Briiqn issued server command: /v
 [16:31:06] [Server thread/INFO]: ShortyDev issued server command: /v
+[16:33:16] [Server thread/WARN]: Briiqn moved wrongly!
+[16:33:28] [Server thread/INFO]: Briiqn issued server command: /mem
