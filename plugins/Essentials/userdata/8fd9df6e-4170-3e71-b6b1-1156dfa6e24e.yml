@@ -1,12 +1,12 @@
 lastAccountName: konsolas
 timestamps:
   login: 1723011019240
-  logout: 1723008118183
+  logout: 1723011059408
 ipAddress: 127.30.38.147
 logoutlocation:
   world: world
-  x: 14.353694406027266
+  x: 7.550698941458198
   y: 63.0
-  z: -4.20627182540509
-  yaw: 253.68085
-  pitch: 16.90894
+  z: -0.7738798025855227
+  yaw: 81.302475
+  pitch: 19.100914
