@@ -1677,3 +1677,13 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 12 more
+[09:28:43] [Thread-45/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[09:28:43] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[09:28:43] [Server thread/INFO]: Briiqn[/127.30.38.147:53065] logged in with entity id 2486 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:28:49] [Craft Scheduler Thread - 46/INFO]: [AuthMe] The user Briiqn has 11 accounts:
+[09:28:49] [Craft Scheduler Thread - 46/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
+[09:28:49] [Craft Scheduler Thread - 46/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[09:28:56] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
+[09:29:06] [Server thread/INFO]: Briiqn issued server command: /restart
+[09:29:06] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[09:29:06] [Thread-3/INFO]: Stopping server

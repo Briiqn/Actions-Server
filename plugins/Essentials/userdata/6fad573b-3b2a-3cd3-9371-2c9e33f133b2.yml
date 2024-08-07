@@ -1,12 +1,12 @@
 lastAccountName: GriddyGaymer23
 timestamps:
   login: 1723022893128
-  logout: 1723022618186
+  logout: 1723022935882
 ipAddress: 127.30.38.147
 logoutlocation:
-  world: Mini81Q
-  x: -20.5
-  y: 81.0
-  z: 4.5
-  yaw: 0.0
-  pitch: 0.0
+  world: world
+  x: 22.214310417777533
+  y: 63.0
+  z: -10.96557741733667
+  yaw: -135.4853
+  pitch: 6.0772314
