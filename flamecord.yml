@@ -1,0 +1,113 @@
+logger:
+  initialhandler: false
+  exceptions: false
+  dump: false
+  haproxy: false
+  detailed-connect-errors: true
+custom-motd:
+  motd:
+    enabled: false
+    motds:
+    - |-
+      &eDefault &cFlameCord&e server &7(%onlineplayers%/%maxplayers%)
+      &eEdit on &cflamecord.yml&7 (IridiumColorAPI HEX)
+  sample:
+    enabled: false
+    samples:
+    - |-
+      &eDefault &cFlameCord&e server &7(%onlineplayers%/%maxplayers%)
+      &eEdit on &cflamecord.yml&7 (IridiumColorAPI HEX)
+  protocol:
+    enabled: false
+    name: '&c&lMaintenance'
+    always-show: false
+  maxplayers:
+    enabled: false
+    amount: 1000
+    justonemore: false
+  fakeplayers:
+    enabled: false
+    amount: 3
+    mode: DIVISION
+tcp-fast-open: 3
+antibot:
+  accounts:
+    enabled: true
+    firewall: true
+    limit: 3
+    log: true
+    whitelist:
+    - Nickname
+  country:
+    enabled: true
+    firewall: true
+    blacklist:
+    - CN
+    - HK
+    - RU
+    - IN
+    - TH
+    - ID
+    - DZ
+    - VN
+    - IR
+    - PK
+    log: true
+  fastchat:
+    enabled: true
+    firewall: true
+    time: 1000
+    log: true
+  firewall:
+    enabled: true
+    exceptions:
+    - BadPacketException
+    - QuietException
+    - IllegalStateConfig
+    - FastException
+    time: 60
+    log: true
+    whitelist:
+    - 127.0.0.1
+    ipset: true
+  nickname:
+    enabled: true
+    firewall: true
+    blacklist:
+    - mcstorm
+    - mcdown
+    - mcbot
+    - theresa_bot
+    - dropbot
+    - kingbot
+    log: true
+  password:
+    enabled: true
+    firewall: true
+    limit: 3
+    log: true
+  ratelimit:
+    enabled: true
+    firewall: true
+    connections-per-second: 3
+    pings-per-second: 8
+    log: true
+    whitelist:
+    - 127.0.0.1
+  reconnect:
+    enabled: true
+    attempts: 2
+    pings: 0
+    max-time: 10000
+    connection-threshold: 1
+    connection-threshold-limit: 8000
+    log: true
+  packets:
+    enabled: true
+    log: true
+    debug: false
+    vls-per-byte: 0.0017
+    vls-per-packet: 0.1
+    vls-to-kick: 100.0
+allow-invalid-names: false
+compression-level: 6

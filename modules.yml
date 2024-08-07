@@ -1,0 +1,18 @@
+alert:
+  enabled: true
+find:
+  enabled: true
+ip:
+  enabled: true
+list:
+  enabled: true
+perms:
+  enabled: true
+reload:
+  enabled: true
+send:
+  enabled: true
+server:
+  enabled: true
+reconnect:
+  enabled: false

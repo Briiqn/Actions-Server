@@ -1,0 +1,129 @@
+flamecord_reload: '&aAll files had been successfully reloaded!'
+flamecord_help: |-
+  &aFlameCord&b {0}&a by&b LinsaFTW
+  &e /flamecord reload&7 >&b Reloads FlameCord files!
+  &e /flamecord firewall <add/remove> <ip>&7 >&b Firewall certain ips!
+  &e /bplugins&7 >&b Show the plugin list!
+  &e /bip <player>&7 >&b Show the ip and info of a player!
+  &e /flamecord help&7 >&b Shows this message!
+flamecord_nopermission: '&cYou don''t have permission to do this!'
+alert: '&8[&4Alert&8]&r '
+already_connected: '&cYou are already connected to this server!'
+already_connected_proxy: '&cYou are already connected to this proxy!'
+already_connecting: '&cAlready connecting to this server!'
+command_list: '&a[{0}] &e({1}): &r{2}'
+connect_kick: '&cKicked whilst connecting to {0}: {1}'
+current_server: '&6You are currently connected to {0}.'
+fallback_kick: '&cCould not connect to a default or fallback server, please try again
+  later: {0}'
+fallback_lobby: '&cCould not connect to target server, you have been moved to a fallback
+  server.'
+lost_connection: '[Proxy] Lost connection to server.'
+mojang_fail: Error occurred while contacting login servers, are they down?
+no_permission: '&cYou do not have permission to execute this command!'
+no_server: '&cThe specified server does not exist.'
+no_server_permission: '&cYou don''t have permission to access this server.'
+outdated_client: Outdated client! Please use {0}
+outdated_server: Outdated server! I'm still on {0}
+proxy_full: Server is full!
+restart: '[Proxy] Proxy restarting.'
+server_list: '&6You may connect to the following servers at this time: '
+server_went_down: '&cThe server you were previously on went down, you have been connected
+  to a fallback server'
+total_players: 'Total players online: {0}'
+name_invalid: Username contains invalid characters.
+ping_cannot_connect: '&c[Bungee] Can''t connect to server.'
+offline_mode_player: Not authenticated with Minecraft.net
+secure_profile_required: A secure profile is required to join this server.
+secure_profile_expired: Secure profile expired.
+secure_profile_invalid: Secure profile invalid.
+message_needed: '&cYou must supply a message.'
+error_occurred_player: '&cAn error occurred while parsing your message. (Hover for
+  details)'
+error_occurred_console: '&cAn error occurred while parsing your message: {0}'
+server_command_hover_players: '{0} players'
+click_to_connect: Click to connect to the server
+username_needed: '&cPlease follow this command by a user name.'
+user_not_online: '&cThat user is not online.'
+user_online_at: '&a{0} &ris online at {1}'
+send_cmd_usage: '&cNot enough arguments, usage: /send <server|player|all|current>
+  <target>'
+player_only: '&cOnly in game players can use this command'
+you_got_summoned: '&6Summoned to {0} by {1}'
+command_perms_groups: '&6You have the following groups: {0}'
+command_perms_permission: '&9- {0}'
+command_ip: '&9IP of {0} is {1}'
+illegal_chat_characters: '&cIllegal characters in chat ({0})'
+antibot_accounts: |-
+  &c&lFlameCord
+
+  &cYou have too many accounts! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_fastchat: |-
+  &c&lFlameCord
+
+  &cYou are chatting too fast!
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_firewall: |-
+  &c&lFlameCord
+
+  &cYou are blocked from this server!
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_nickname: |-
+  &c&lFlameCord
+
+  &cYour nickname was detected as bot! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_password: |-
+  &c&lFlameCord
+
+  &cYour password is used by other players! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_ratelimit: |-
+  &c&lFlameCord
+
+  &cYou are connecting too fast! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_reconnect: |-
+  &c&lFlameCord
+
+  &cReconnect {0} more times to enter!
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_country: |-
+  &c&lFlameCord
+
+  &cYour country {0} is blacklisted!
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_stats: |-
+  &c&lFlameCord Antibot Stats
+   &7■ Total Pings: &a{0}
+   &7■ Total Connections: &b{1}
+
+   &7■ Current Pings: &a{2}
+   &7■ Current Connections: &b{3}
+flamecord_firewall_help: '&c/flamecord firewall <add/remove> <ip>'
+flamecord_firewall_add: '&cThe ip {0} was added to the firewall!'
+flamecord_firewall_remove: '&cThe ip {0} was removed from the firewall!'
+flamecord_bplugins_nopermission: '&cYou don''t have permission to do this!'
+flamecord_bplugins_separator: ', '
+flamecord_bplugins_header: '&aPlugins ({0}): '
+flamecord_bip_nopermission: '&cYou don''t have permission to do this!'
+flamecord_bip_offline: '&cThe player is not online!'
+flamecord_bip_usage: '&c/bip <player>'
+flamecord_bip: |-
+  &aInformation about {0}&a:
+  &aUUID: &b{1}
+  &aIP: &b{2}
+  &aPing: &b{3}ms
+  &aLocale: &b{4}
+  &aView Distance: &b{5}
+  &aCurrent Server: &b{6}
+command_list_format: '&aServers:&r'
