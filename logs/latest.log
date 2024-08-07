@@ -602,3 +602,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:35:08] [Server thread/INFO]: Briiqn issued server command: /spark
 [04:39:00] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:43:14] [Server thread/INFO]: Briiqn issued server command: /mem
+[04:43:50] [Server thread/INFO]: Briiqn lost connection: Disconnected
