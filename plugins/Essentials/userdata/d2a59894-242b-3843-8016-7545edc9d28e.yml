@@ -11,3 +11,11 @@ logoutlocation:
   yaw: 163.52118
   pitch: 18.120165
 afk: false
+lastlocation:
+  world: Mini9E
+  x: 4.703415537011798
+  y: -66.61161695406112
+  z: -22.30000001192093
+  yaw: 117.93025
+  pitch: -47.346134
+money: '5.0'
