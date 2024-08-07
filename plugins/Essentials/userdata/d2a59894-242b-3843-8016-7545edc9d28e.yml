@@ -10,7 +10,7 @@ logoutlocation:
   z: -50.30000001192093
   yaw: 13.681947
   pitch: 37.554096
-afk: false
+afk: true
 lastlocation:
   world: Mini81Q
   x: -15.749185716729652
