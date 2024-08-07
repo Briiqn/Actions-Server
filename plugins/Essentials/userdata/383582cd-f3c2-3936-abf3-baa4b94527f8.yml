@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1722999781131
+  logout: 1723000076952
+  login: 1723000069987
 money: '0'
 last-account-name: ltZ_Lvcky
+logoutlocation:
+  world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
+  world-name: world
+  x: 1437.304292997798
+  y: 4.0
+  z: 48.20790802512664
+  yaw: 6.199616432189941
+  pitch: 9.762613296508789

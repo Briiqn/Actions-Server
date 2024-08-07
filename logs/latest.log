@@ -110,3 +110,8 @@
 [03:07:22] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
 [03:07:22] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [03:07:22] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[03:07:49] [Thread-7/INFO]: UUID of player ltZ_Lvcky is 383582cd-f3c2-3936-abf3-baa4b94527f8
+[03:07:49] [Server thread/INFO]: ltZ_Lvcky[/127.30.38.147:58263] logged in with entity id 27 at ([world]1437.5, 4.0, 46.5)
+[03:07:51] [Server thread/INFO]: ltZ_Lvcky issued server command: /tps
+[03:07:56] [Server thread/INFO]: ltZ_Lvcky lost connection: Disconnected
+[03:07:56] [Server thread/INFO]: ltZ_Lvcky left the game.
