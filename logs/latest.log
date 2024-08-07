@@ -783,3 +783,5 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
 [20:43:45] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[20:43:47] [Server thread/INFO]: ProHaxLeaks issued server command: /effect ProHaxLeaks minecraft:regeneration 9999 255 true
+[20:43:47] [Server thread/INFO]: [ProHaxLeaks: Given Regeneration (ID 10) * 255 to ProHaxLeaks for 9999 seconds]
