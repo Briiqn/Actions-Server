@@ -874,3 +874,37 @@ Caused by: java.lang.NullPointerException
 [17:23:53] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3b0e414[id=d2a59894-242b-3843-8016-7545edc9d28e,name=Briiqn,properties={},legacy=false] (/127.30.38.147:52007): §4The same username is already playing on the server!
 [17:23:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@3b0e414[id=d2a59894-242b-3843-8016-7545edc9d28e,name=Briiqn,properties={},legacy=false] (/127.30.38.147:52007) lost connection: §4The same username is already playing on the server!
 [17:23:57] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[17:24:31] [Thread-25/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[17:24:31] [Server thread/INFO]: [Polar] Detected 1.8.x for ProHaxLeaks
+[17:24:31] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:45603] logged in with entity id 501 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ProHaxLeaks
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ProHaxLeaks
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[17:24:31] [Craft Scheduler Thread - 19/WARN]: 	... 7 more
+[17:24:34] [Craft Scheduler Thread - 22/INFO]: [AuthMe] The user ProHaxLeaks has 12 accounts:
+[17:24:34] [Craft Scheduler Thread - 22/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[17:24:34] [Craft Scheduler Thread - 22/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
+[17:24:54] [Server thread/INFO]: ProHaxLeaks issued server command: /lsw fstart
