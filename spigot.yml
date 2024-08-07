@@ -12,7 +12,6 @@
 
 config-version: 8
 settings:
-  debug: false
   save-user-cache-on-stop-only: false
   bungeecord: false
   late-bind: false
@@ -34,11 +33,19 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  debug: false
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
   moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
   log-named-deaths: true
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
 commands:
   tab-complete: 0
   log: true
@@ -51,13 +58,6 @@ commands:
   - testforblock
   - tellraw
   send-namespaced: true
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
 stats:
   disable-saving: false
   forced-stats: {}
@@ -148,10 +148,10 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
+    arrow-despawn-rate: 1200
     view-distance: default
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
