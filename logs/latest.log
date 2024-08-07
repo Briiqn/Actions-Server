@@ -591,3 +591,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:27:04] [Server thread/INFO]: Briiqn issued server command: /hologram movehere g
 [04:27:05] [Server thread/INFO]: Briiqn issued server command: /hologram movehere g
 [04:27:24] [Server thread/INFO]: Briiqn issued server command: /holo help
+[04:27:38] [Server thread/INFO]: Briiqn issued server command: /holo edit githubactions
