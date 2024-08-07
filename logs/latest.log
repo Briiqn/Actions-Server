@@ -1144,3 +1144,71 @@ Caused by: java.lang.NullPointerException
 [23:31:58] [Server thread/INFO]: ShortyDev lost connection: Disconnected
 [23:32:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 5 Minutes!
 [23:36:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 1 Minutes!
+[23:37:14] [Server thread/INFO]: [AutoRestart] Server is restarting in 5 Seconds!
+[23:37:15] [Server thread/INFO]: [AutoRestart] Server is restarting in 4 Seconds!
+[23:37:16] [Server thread/INFO]: [AutoRestart] Server is restarting in 3 Seconds!
+[23:37:17] [Server thread/INFO]: [AutoRestart] Server is restarting in 2 Seconds!
+[23:37:18] [Server thread/INFO]: [AutoRestart] Server is restarting in 1 Seconds!
+[23:37:18] [Server thread/INFO]: [AutoRestart] Server Restarting!
+[23:37:18] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[23:37:18] [Server thread/INFO]: GriddyGaymer23 lost connection: §cServer Restarting! We will be back up any minute!
+[23:37:18] [Server thread/INFO]: Briiqn lost connection: §cServer Restarting! We will be back up any minute!
+[23:37:18] [Server thread/INFO]: Kicked all players from server.
+[23:37:18] [Server thread/INFO]: Attempting to restart with ./start.sh
+[23:37:18] [Server thread/INFO]: Stopping server
+[23:37:18] [Server thread/INFO]: [ItemJoin] Disabling ItemJoin v5.0.2
+[23:37:18] [Server thread/INFO]: [ItemJoin] has been Disabled!
+[23:37:18] [Server thread/INFO]: [LeaderHeads] Disabling LeaderHeads v3.1.6
+[23:37:18] [Server thread/INFO]: [LeaderHeads] Shutting down database connection.
+[23:37:18] [Server thread/INFO]: [QuestMaster] Disabling QuestMaster v0.1
+[23:37:18] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.1.13
+[23:37:18] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[23:37:18] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[23:37:18] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[23:37:18] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.3.11
+[23:37:18] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder hook for placeholder: gadgetsmenu
+[23:37:18] [Server thread/INFO]: [LostSkyWars] Disabling LostSkyWars v1.5.26
+[23:37:18] [Server thread/INFO]: [Losted:SW] [CitizensHook] Citizens found, destroying NPCs...
+[23:37:18] [Server thread/INFO]: [Losted:SW] The plugin has been disabled!
+[23:37:18] [Server thread/INFO]: [RankCommand] Disabling RankCommand v1.4
+[23:37:18] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.16-SNAPSHOT (build 1267)
+[23:37:18] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.0
+[23:37:18] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v8.6.8
+[23:37:18] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.4.0
+[23:37:18] [Server thread/INFO]: [LeakParkour] Disabling LeakParkour v2.4
+[23:37:18] [Server thread/INFO]: [BlockParticles] Disabling BlockParticles v1.9.7.2
+[23:37:18] [Server thread/INFO]: [Vault] Disabling Vault v1.6.1
+[23:37:18] [Server thread/INFO]: [CustomHelp] Disabling CustomHelp v1.1
+[23:37:18] [Server thread/INFO]: [CustomHelp] CustomHelp has been disabled!
+[23:37:18] [Server thread/INFO]: [ItemList] Disabling ItemList v1.0.4
+[23:37:18] [Server thread/INFO]: [UltimateBossBar] Disabling UltimateBossBar v1.5.0
+[23:37:18] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[23:37:18] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[23:37:18] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[23:37:18] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[23:37:18] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[23:37:18] [Server thread/INFO]: [KillsCounter] Disabling KillsCounter v1.0
+[23:37:18] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.2
+[23:37:18] [Server thread/INFO]: [MVdWPlaceholderAPI] Disabling MVdWPlaceholderAPI v2.5.1
+[23:37:18] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[23:37:18] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[23:37:18] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v1.1
+[23:37:18] [Server thread/INFO]: [MySkin] Disabling MySkin v2.4
+[23:37:18] [Server thread/INFO]: [AutoSmelt] Disabling AutoSmelt v1.0
+[23:37:18] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.9.2
+[23:37:18] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[23:37:18] [Server thread/INFO]: [Verus] Disabling Verus vb2484
+[23:37:18] [Server thread/INFO]: [Verus] Verus shutdown successfully
+[23:37:18] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.7-SNAPSHOT;3662-a8d04c2
+[23:37:18] [Server thread/INFO]: [AnimationLib] Disabling AnimationLib v1.6.9
+[23:37:18] [Server thread/INFO]: [ChatClear] Disabling ChatClear v2.6
+[23:37:18] [Server thread/INFO]: ChatClear Disable By Peebbong
+[23:37:18] [Server thread/INFO]:    Version 2.6
+[23:37:18] [Server thread/INFO]: [ChatReplace] Disabling ChatReplace v1.0.1
+[23:37:18] [Server thread/INFO]: Saving players
+[23:37:18] [Server thread/INFO]: Saving worlds
+[23:37:18] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:37:18] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[23:37:18] [Server thread/INFO]: Saving chunks for level 'Mini9E'/Overworld
+[23:37:18] [Server thread/INFO]: Saving chunks for level 'Mini81Q'/Overworld
+[23:37:18] [Server thread/INFO]: Saving chunks for level 'Mini31E'/Overworld
