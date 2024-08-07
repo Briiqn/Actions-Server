@@ -600,3 +600,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:35:06] [Server thread/INFO]: Briiqn issued server command: /memw
 [04:35:07] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:35:08] [Server thread/INFO]: Briiqn issued server command: /spark
+[04:39:00] [Server thread/INFO]: Briiqn issued server command: /mem
