@@ -132,3 +132,42 @@
 [03:41:53] [Server thread/INFO]: Sigma5 issued server command: /mem
 [03:48:42] [Server thread/INFO]: Sigma5 issued server command: /mem
 [03:48:57] [Server thread/INFO]: Sigma5 issued server command: /spark profiler
+[03:49:00] [Server thread/INFO]: Sigma5 issued server command: /spark profiler open
+[03:49:01] [Craft Scheduler Thread - 9/WARN]: Exception in thread "Craft Scheduler Thread - 9" 
+[03:49:01] [Craft Scheduler Thread - 9/WARN]: org.apache.commons.lang.UnhandledException: Plugin spark v1.10.59 generated an exception while executing task 1496
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:113)
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:210)
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:198)
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:178)
+	at me.lucko.spark.lib.bytesocks.ws.client.WebSocketClient.<init>(WebSocketClient.java:185)
+	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl$1.<init>(BytesocksClientImpl.java:88)
+	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl.connect(BytesocksClientImpl.java:88)
+	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl.createAndConnect(BytesocksClientImpl.java:54)
+	at me.lucko.spark.common.ws.ViewerSocketConnection.<init>(ViewerSocketConnection.java:60)
+	at me.lucko.spark.common.ws.ViewerSocket.<init>(ViewerSocket.java:71)
+	at me.lucko.spark.common.command.modules.SamplerModule.handleOpen(SamplerModule.java:465)
+	at me.lucko.spark.common.command.modules.SamplerModule.profilerOpen(SamplerModule.java:353)
+	at me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:124)
+	at me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:431)
+	at me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:336)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 20 more
+
+[03:49:04] [Server thread/INFO]: Sigma5 issued server command: /spark profiler stop
+[03:49:04] [Craft Scheduler Thread - 10/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[03:49:06] [Craft Scheduler Thread - 10/INFO]: [⚡] Profiler stopped & upload complete!
+[03:49:06] [Craft Scheduler Thread - 10/INFO]: https://spark.lucko.me/ykfiYJjN6p
+[03:49:06] [Craft Scheduler Thread - 10/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
