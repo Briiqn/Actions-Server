@@ -646,3 +646,7 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:17:51] [Server thread/INFO]: Briiqn issued server command: /hologram remove g
 [04:18:15] [Server thread/INFO]: Briiqn issued server command: /hologram create g &l✦&3Running on Github Actions&l✦&e&n https://github.com/Briiqn/Actions-Server
 [04:18:19] [Server thread/INFO]: Briiqn issued server command: /hologram remove g
+[04:18:36] [Server thread/INFO]: Briiqn issued server command: /hologram create g &l✦&3Running on Github Actions&e&l✦&e&n https://github.com/Briiqn/Actions-Server
+[04:18:40] [Server thread/INFO]: Briiqn issued server command: /hologram remove g
+[04:18:55] [Server thread/INFO]: Briiqn issued server command: /hologram create g &l✦&3Running on Github Actions&w&l✦&e&n https://github.com/Briiqn/Actions-Server
+[04:18:58] [Server thread/INFO]: Briiqn issued server command: /hologram remove g
