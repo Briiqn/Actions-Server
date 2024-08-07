@@ -624,3 +624,9 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:31:46] [Craft Scheduler Thread - 19/INFO]: [AuthMe] Briiqn used the wrong password
 [09:31:46] [Server thread/INFO]: Briiqn lost connection: §cWrong password!
 [09:31:46] [Server thread/WARN]: handleDisconnection() called twice
+[09:31:50] [Thread-18/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[09:31:50] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[09:31:50] [Server thread/INFO]: Briiqn[/127.30.38.147:49329] logged in with entity id 178 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:31:52] [Craft Scheduler Thread - 0/INFO]: [AuthMe] The user Briiqn has 11 accounts:
+[09:31:52] [Craft Scheduler Thread - 0/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
+[09:31:52] [Craft Scheduler Thread - 0/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
