@@ -706,3 +706,15 @@ Reason: §9§lVerus §8> §fCheating
 [20:19:56] [Server thread/INFO]: ProHaxLeaks issued server command: /verus 2
 [20:19:59] [Server thread/INFO]: ProHaxLeaks issued server command: /verus help 2
 [20:20:01] [Server thread/INFO]: ProHaxLeaks issued server command: /verus help 4
+[20:20:05] [Server thread/INFO]: ProHaxLeaks issued server command: /verus gui
+[20:20:10] [Server thread/INFO]: ProHaxLeaks issued server command: /unban
+[20:20:12] [Server thread/INFO]: ProHaxLeaks issued server command: /unban Briiqn
+[20:20:12] [Server thread/INFO]: §6Player§c §4[Owner] ProHaxLeaks§r §6unbanned§c Briiqn.
+[20:20:16] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:20:16] [Server thread/INFO]: Briiqn[/127.30.38.147:53615] logged in with entity id 965 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[20:20:21] [Craft Scheduler Thread - 24/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[20:20:21] [Craft Scheduler Thread - 24/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[20:20:21] [Craft Scheduler Thread - 24/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[20:20:24] [Server thread/INFO]: Briiqn issued server command: /verus alerts
+[20:20:30] [Server thread/INFO]: Briiqn issued server command: /verus commands
+[20:20:35] [Server thread/INFO]: Briiqn issued server command: /verus alerts
