@@ -1115,3 +1115,4 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [17:06:33] [Server thread/WARN]: ProHaxLeaks moved wrongly!
 [17:06:40] [Server thread/INFO]: ProHaxLeaks issued server command: /m,em
 [17:06:44] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
+[17:07:52] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
