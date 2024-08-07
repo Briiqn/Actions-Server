@@ -1,189 +1,128 @@
-[03:34:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[03:34:50] [Server thread/INFO]: Loading properties
-[03:34:50] [Server thread/INFO]: Default game type: SURVIVAL
-[03:34:50] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[03:34:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:34:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:34:50] [Server thread/INFO]: Debug logging is disabled
-[03:34:50] [Server thread/INFO]: Generating keypair
-[03:34:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:34:51] [Server thread/INFO]: Using default channel type
-[03:34:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[03:34:51] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3036)
-[03:34:51] [Server thread/INFO]: [spark] Loading spark v1.10.59
-[03:34:51] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+25-fbfd7e9
-[03:34:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:34:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:34:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:34:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:34:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[03:34:51] [Server thread/INFO]: Preparing level "world"
-[03:34:51] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:34:51] [Server thread/INFO]: Mob Spawn Range: 4
-[03:34:51] [Server thread/INFO]: Anti X-Ray: true
-[03:34:51] [Server thread/INFO]: 	Engine Mode: 1
-[03:34:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:34:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:34:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:34:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:34:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:34:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[03:34:51] [Server thread/INFO]: Random Lighting Updates: false
-[03:34:51] [Server thread/INFO]: Structure Info Saving: true
-[03:34:51] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:34:51] [Server thread/INFO]: Max Entity Collisions: 8
-[03:34:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:34:51] [Server thread/INFO]: Max TNT Explosions: 100
-[03:34:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:34:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:34:51] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:34:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:34:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:34:51] [Server thread/INFO]: View Distance: 10
-[03:34:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:34:51] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:34:51] [Server thread/INFO]: Clear tick list: false
-[03:34:51] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:34:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:34:51] [Server thread/INFO]: Mob Spawn Range: 4
-[03:34:51] [Server thread/INFO]: Anti X-Ray: true
-[03:34:51] [Server thread/INFO]: 	Engine Mode: 1
-[03:34:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:34:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:34:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:34:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:34:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:34:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:34:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[03:34:51] [Server thread/INFO]: Random Lighting Updates: false
-[03:34:51] [Server thread/INFO]: Structure Info Saving: true
-[03:34:51] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:34:51] [Server thread/INFO]: Max Entity Collisions: 8
-[03:34:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:34:51] [Server thread/INFO]: Max TNT Explosions: 100
-[03:34:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:34:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:34:51] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:34:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:34:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:34:51] [Server thread/INFO]: View Distance: 10
-[03:34:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:34:51] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:34:51] [Server thread/INFO]: Clear tick list: false
-[03:34:51] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:34:51] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6449644148566793192)
-[03:34:52] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6449644148566793192)
-[03:34:52] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3036)
-[03:34:52] [Server thread/INFO]: [Citizens] Loading external libraries
-[03:34:53] [Server thread/INFO]: [spark] Enabling spark v1.10.59
-[03:34:53] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
-[03:34:53] [Server thread/INFO]: [spark] Starting background profiler...
-[03:34:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
-[03:34:53] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[03:34:54] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[03:34:54] [Server thread/INFO]: No kits found to migrate.
-[03:34:54] [Server thread/INFO]: Loaded 853 items from items.csv.
-[03:34:54] [Server thread/INFO]: Using locale en
-[03:34:54] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[03:34:54] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[03:34:54] [Server thread/INFO]: Using superperms-based permissions.
-[03:34:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:34:54] [Server thread/INFO]: Done (3.456s)! For help, type "help" or "?"
-[03:34:54] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[03:34:54] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[03:34:55] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
-[03:34:55] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[03:35:09] [Thread-7/INFO]: UUID of player GriddyGaymer23 is 6fad573b-3b2a-3cd3-9371-2c9e33f133b2
-[03:35:09] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:58489] logged in with entity id 27 at ([world]1438.5, 4.0, 43.5)
-[03:35:12] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
-[03:35:12] [Server thread/INFO]: GriddyGaymer23 left the game.
-[03:35:14] [Thread-8/INFO]: UUID of player GriddyGaymer23 is 6fad573b-3b2a-3cd3-9371-2c9e33f133b2
-[03:35:14] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:44327] logged in with entity id 28 at ([world]1437.669092088199, 4.0, 46.670542975910955)
-[03:35:16] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
-[03:35:16] [Server thread/INFO]: GriddyGaymer23 left the game.
-[03:36:58] [Thread-9/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
-[03:36:58] [Server thread/INFO]: Briiqn[/127.30.38.147:41017] logged in with entity id 29 at ([world]1712.0736230599393, 4.0, 36.85463522611224)
-[03:37:01] [Server thread/INFO]: Briiqn lost connection: Disconnected
-[03:37:01] [Server thread/INFO]: Briiqn left the game.
-[03:38:14] [Thread-10/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
-[03:38:14] [Server thread/INFO]: Sigma5[/127.30.38.147:51457] logged in with entity id 59 at ([world]1442.5, 4.0, 41.5)
-[03:38:36] [Server thread/WARN]: Sigma5 was kicked for floating too long!
-[03:38:36] [Server thread/INFO]: Sigma5 lost connection: Flying is not enabled on this server
-[03:38:36] [Server thread/INFO]: Sigma5 left the game.
-[03:38:36] [Server thread/WARN]: handleDisconnection() called twice
-[03:38:45] [Thread-11/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
-[03:38:45] [Server thread/INFO]: Sigma5[/127.30.38.147:41033] logged in with entity id 63 at ([world]1446.5207615186666, 11.786936057578243, 16.038880218874937)
-[03:41:51] [Server thread/INFO]: Sigma5 issued server command: /tps
-[03:41:53] [Server thread/INFO]: Sigma5 issued server command: /mem
-[03:48:42] [Server thread/INFO]: Sigma5 issued server command: /mem
-[03:48:57] [Server thread/INFO]: Sigma5 issued server command: /spark profiler
-[03:49:00] [Server thread/INFO]: Sigma5 issued server command: /spark profiler open
-[03:49:01] [Craft Scheduler Thread - 9/WARN]: Exception in thread "Craft Scheduler Thread - 9" 
-[03:49:01] [Craft Scheduler Thread - 9/WARN]: org.apache.commons.lang.UnhandledException: Plugin spark v1.10.59 generated an exception while executing task 1496
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
-	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:113)
-	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:210)
-	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:198)
-	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:178)
-	at me.lucko.spark.lib.bytesocks.ws.client.WebSocketClient.<init>(WebSocketClient.java:185)
-	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl$1.<init>(BytesocksClientImpl.java:88)
-	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl.connect(BytesocksClientImpl.java:88)
-	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl.createAndConnect(BytesocksClientImpl.java:54)
-	at me.lucko.spark.common.ws.ViewerSocketConnection.<init>(ViewerSocketConnection.java:60)
-	at me.lucko.spark.common.ws.ViewerSocket.<init>(ViewerSocket.java:71)
-	at me.lucko.spark.common.command.modules.SamplerModule.handleOpen(SamplerModule.java:465)
-	at me.lucko.spark.common.command.modules.SamplerModule.profilerOpen(SamplerModule.java:353)
-	at me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:124)
-	at me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:431)
-	at me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:336)
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
-	... 3 more
-Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101)
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 20 more
-
-[03:49:04] [Server thread/INFO]: Sigma5 issued server command: /spark profiler stop
-[03:49:04] [Craft Scheduler Thread - 10/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
-[03:49:06] [Craft Scheduler Thread - 10/INFO]: [⚡] Profiler stopped & upload complete!
-[03:49:06] [Craft Scheduler Thread - 10/INFO]: https://spark.lucko.me/ykfiYJjN6p
-[03:49:06] [Craft Scheduler Thread - 10/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
-[03:50:45] [Server thread/INFO]: Sigma5 issued server command: /i dirt 64
-[03:52:24] [Server thread/INFO]: Sigma5 issued server command: /kill
-[03:52:25] [Server thread/INFO]: Sigma5 issued server command: /kill
-[03:52:28] [Server thread/INFO]: Sigma5 issued server command: /killall
-[03:57:13] [Server thread/INFO]: Sigma5 lost connection: Disconnected
-[03:57:13] [Server thread/INFO]: Sigma5 left the game.
-[04:08:44] [Thread-12/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
-[04:08:44] [Server thread/INFO]: Briiqn[/127.30.38.147:42093] logged in with entity id 64 at ([world]1712.0736230599393, 4.0, 36.85463522611224)
-[04:08:51] [Server thread/INFO]: Briiqn issued server command: /mem
-[04:09:06] [Server thread/INFO]: Briiqn issued server command: /mem
-[04:09:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
-[04:09:17] [Server thread/INFO]: Briiqn left the game.
-[04:09:33] [Thread-13/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
-[04:09:33] [Server thread/INFO]: Briiqn[/127.30.38.147:46139] logged in with entity id 95 at ([world]1598.935932357743, 4.0, 96.67404598691223)
-[04:09:35] [Server thread/INFO]: Briiqn lost connection: Disconnected
-[04:09:35] [Server thread/INFO]: Briiqn left the game.
+[04:22:41] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[04:22:41] [Server thread/INFO]: Loading properties
+[04:22:41] [Server thread/INFO]: Default game type: SURVIVAL
+[04:22:41] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[04:22:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:22:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:22:41] [Server thread/INFO]: Debug logging is disabled
+[04:22:41] [Server thread/INFO]: Generating keypair
+[04:22:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:22:42] [Server thread/INFO]: Using default channel type
+[04:22:42] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[04:22:42] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
+[04:22:42] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3036)
+[04:22:42] [Server thread/INFO]: [spark] Loading spark v1.10.59
+[04:22:42] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+25-fbfd7e9
+[04:22:42] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
+[04:22:43] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
+[04:22:43] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
+[04:22:43] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
+[04:22:43] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
+[04:22:43] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
+[04:22:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:22:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:22:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:22:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:22:43] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[04:22:43] [Server thread/INFO]: Preparing level "world"
+[04:22:43] [Server thread/INFO]: -------- World Settings For [world] --------
+[04:22:43] [Server thread/INFO]: Mob Spawn Range: 4
+[04:22:43] [Server thread/INFO]: Anti X-Ray: true
+[04:22:43] [Server thread/INFO]: 	Engine Mode: 1
+[04:22:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[04:22:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[04:22:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:22:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[04:22:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:22:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:22:43] [Server thread/INFO]: Random Lighting Updates: false
+[04:22:43] [Server thread/INFO]: Structure Info Saving: true
+[04:22:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[04:22:43] [Server thread/INFO]: Max Entity Collisions: 8
+[04:22:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[04:22:43] [Server thread/INFO]: Max TNT Explosions: 100
+[04:22:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:22:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:22:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:22:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:22:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:22:43] [Server thread/INFO]: View Distance: 10
+[04:22:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:22:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[04:22:43] [Server thread/INFO]: Clear tick list: false
+[04:22:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:22:43] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[04:22:43] [Server thread/INFO]: Mob Spawn Range: 4
+[04:22:43] [Server thread/INFO]: Anti X-Ray: true
+[04:22:43] [Server thread/INFO]: 	Engine Mode: 1
+[04:22:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[04:22:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[04:22:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:22:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:22:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[04:22:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:22:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:22:43] [Server thread/INFO]: Random Lighting Updates: false
+[04:22:43] [Server thread/INFO]: Structure Info Saving: true
+[04:22:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[04:22:43] [Server thread/INFO]: Max Entity Collisions: 8
+[04:22:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[04:22:43] [Server thread/INFO]: Max TNT Explosions: 100
+[04:22:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:22:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:22:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:22:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:22:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:22:43] [Server thread/INFO]: View Distance: 10
+[04:22:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:22:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[04:22:43] [Server thread/INFO]: Clear tick list: false
+[04:22:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:22:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6449644148566793192)
+[04:22:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6449644148566793192)
+[04:22:44] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3036)
+[04:22:44] [Server thread/INFO]: [Citizens] Loading external libraries
+[04:22:44] [Server thread/INFO]: [spark] Enabling spark v1.10.59
+[04:22:45] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
+[04:22:45] [Server thread/INFO]: [spark] Starting background profiler...
+[04:22:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
+[04:22:45] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[04:22:45] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[04:22:45] [Server thread/INFO]: No kits found to migrate.
+[04:22:45] [Server thread/INFO]: Loaded 853 items from items.csv.
+[04:22:45] [Server thread/INFO]: Using locale en
+[04:22:45] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[04:22:45] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[04:22:45] [Server thread/INFO]: Using superperms-based permissions.
+[04:22:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:22:46] [Server thread/INFO]: Done (2.675s)! For help, type "help" or "?"
+[04:22:46] [Craft Scheduler Thread - 4/INFO]: §6Fetching version information...
+[04:22:46] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[04:22:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[04:22:46] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
+[04:22:46] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
