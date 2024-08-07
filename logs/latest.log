@@ -570,3 +570,5 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:24:45] [Server thread/INFO]: Briiqn issued server command: /hologram -h
 [04:24:46] [Server thread/INFO]: Briiqn issued server command: /hologram -d
 [04:24:48] [Server thread/INFO]: Briiqn issued server command: /hologram elp
+[04:24:50] [Server thread/INFO]: Briiqn issued server command: /hologram help
+[04:25:19] [Server thread/INFO]: Briiqn issued server command: /hologram align 7.5 65.5 0.5 githubactions
