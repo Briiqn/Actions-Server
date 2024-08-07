@@ -78,6 +78,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "dacc8030-0ba4-4c62-bf9a-87f1db29ff99",
+    "name": "konsolas",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "b0a79b54-8bd3-34de-b86c-7e927f777a07",
     "name": "Shoelicker",
     "level": 4,
