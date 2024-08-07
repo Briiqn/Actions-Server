@@ -960,3 +960,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:44:08] [Server thread/INFO]: Outroduction issued server command: /help
 [16:44:08] [Server thread/INFO]: ProHaxLeaks issued server command: /pl
 [16:44:33] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner user add aeeasd41
+[16:44:48] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner user add aeeasd41
+[16:45:00] [Server thread/INFO]: Outroduction issued server command: /help
