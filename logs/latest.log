@@ -821,3 +821,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:37:08] [Server thread/INFO]: Briiqn issued server command: /aac status
 [16:37:22] [Server thread/INFO]: ShortyDev issued server command: /aac
 [16:37:25] [Server thread/INFO]: ShortyDev issued server command: /aac help
+[16:38:09] [Server thread/INFO]: Briiqn issued server command: /holograms remove g
+[16:38:12] [Server thread/INFO]: Briiqn issued server command: /holograms remove githubactions
