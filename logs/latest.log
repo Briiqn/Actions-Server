@@ -595,3 +595,9 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:53:26] [Server thread/INFO]: efefe issued server command: /aac check efefe
 [04:53:29] [Server thread/INFO]: efefe issued server command: /aac status efefe
 [04:53:33] [Server thread/INFO]: efefe issued server command: /fly
+[04:53:41] [Server thread/INFO]: efefe issued server command: /aac exempt efefe
+[04:53:42] [Server thread/INFO]: efefe issued server command: /aac exempt efefe
+[04:53:47] [Server thread/INFO]: efefe issued server command: /aac exempt efefe
+[04:53:54] [Server thread/INFO]: efefe issued server command: /aac alerts
+[04:53:56] [Server thread/INFO]: efefe issued server command: /aac alerts
+[04:53:57] [Server thread/INFO]: efefe issued server command: /aac alerts
