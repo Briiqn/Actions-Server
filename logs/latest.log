@@ -819,3 +819,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:36:57] [Server thread/INFO]: Briiqn issued server command: /aac ver
 [16:36:59] [Server thread/INFO]: Briiqn issued server command: /aac help
 [16:37:08] [Server thread/INFO]: Briiqn issued server command: /aac status
+[16:37:22] [Server thread/INFO]: ShortyDev issued server command: /aac
+[16:37:25] [Server thread/INFO]: ShortyDev issued server command: /aac help
