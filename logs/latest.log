@@ -567,3 +567,6 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:23:47] [Server thread/INFO]: Briiqn issued server command: /whois Briiqn
 [04:23:48] [Server thread/INFO]: Briiqn issued server command: /whois Briiqn
 [04:24:13] [Server thread/INFO]: Briiqn issued server command: /mem
+[04:24:45] [Server thread/INFO]: Briiqn issued server command: /hologram -h
+[04:24:46] [Server thread/INFO]: Briiqn issued server command: /hologram -d
+[04:24:48] [Server thread/INFO]: Briiqn issued server command: /hologram elp
