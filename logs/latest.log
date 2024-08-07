@@ -708,3 +708,6 @@ By running this plugin, you agree to be bound by our TOS
 [17:42:06] [Server thread/WARN]: handleDisconnection() called twice
 [17:42:23] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [17:42:23] [Server thread/INFO]: Briiqn[/127.30.38.147:42381] logged in with entity id 385 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:42:25] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[17:42:25] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[17:42:25] [Craft Scheduler Thread - 17/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
