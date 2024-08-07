@@ -106,6 +106,23 @@ world-settings:
       bamboo-modifier: 100
       sweetberry-modifier: 100
       kelp-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      raiders: 48
+      tick-inactive-villagers: true
+      ignore-spectators: false
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 10
@@ -127,31 +144,14 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      raiders: 48
-      tick-inactive-villagers: true
-      ignore-spectators: false
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
-    view-distance: default
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
+    view-distance: default
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
