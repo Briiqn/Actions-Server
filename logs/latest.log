@@ -1322,3 +1322,9 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 12 more
+[09:24:19] [Thread-37/INFO]: UUID of player fff is 59832df8-e750-3bd2-8cf7-0375f7efdb2f
+[09:24:19] [Server thread/INFO]: [Polar] Detected 1.8.x for fff
+[09:24:19] [Server thread/INFO]: fff[/127.30.38.147:56069] logged in with entity id 2252 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:24:21] [Craft Scheduler Thread - 47/INFO]: [AuthMe] The user fff has 11 accounts:
+[09:24:21] [Craft Scheduler Thread - 47/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
+[09:24:21] [Craft Scheduler Thread - 47/INFO]: [AuthMe] fff logged in 127.30.38.147
