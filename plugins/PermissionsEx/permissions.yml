@@ -135,7 +135,8 @@ users:
     options:
       name: Briiqn
   b2dacc6e-4a1b-3315-aea8-dae16ae0a448:
-    group: []
+    group:
+    - Owner
     options:
       name: ShortyDev
   7ae292e8-c138-3b90-af4c-37ef05ba9a54:
