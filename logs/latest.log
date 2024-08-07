@@ -171,3 +171,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [09:03:19] [Server thread/INFO]: ltZ_Lvcky[/127.30.38.147:47267] logged in with entity id 119 at ([world]1437.304292997798, 4.0, 48.20790802512664)
 [09:03:21] [Server thread/INFO]: ltZ_Lvcky lost connection: Disconnected
 [09:03:21] [Server thread/INFO]: ltZ_Lvcky left the game.
+[09:04:04] [Thread-13/INFO]: UUID of player GriddyGaymer23 is 6fad573b-3b2a-3cd3-9371-2c9e33f133b2
+[09:04:04] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:58609] logged in with entity id 120 at ([world]1437.669092088199, 4.0, 46.670542975910955)
+[09:04:07] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
+[09:04:07] [Server thread/INFO]: GriddyGaymer23 left the game.
