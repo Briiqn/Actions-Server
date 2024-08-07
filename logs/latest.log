@@ -582,3 +582,7 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:26:00] [Server thread/INFO]: Briiqn issued server command: /hologram align 0 githubactions
 [04:26:06] [Server thread/INFO]: Briiqn issued server command: /hologram align 0 githubactions
 [04:26:15] [Server thread/INFO]: Briiqn issued server command: /hologram align 0 githubactions g
+[04:26:26] [Server thread/INFO]: Briiqn issued server command: /hologram align 6 65 6.5 githubactions g
+[04:26:33] [Server thread/INFO]: Briiqn issued server command: /hologram align githubactions g
+[04:26:48] [Server thread/INFO]: Briiqn issued server command: /hologram movehere githubactions
+[04:26:52] [Server thread/INFO]: Briiqn issued server command: /hologram movehere githubactions

@@ -13,7 +13,7 @@ quest:
   lines:
   - '&cWill update later'
 githubactions:
-  location: world, 6.945, 65.673, 0.467
+  location: world, 6.774, 67.343, 0.520
   lines:
   - '&b&l✦ &3Running on Github Actions &b&l✦'
 g:
