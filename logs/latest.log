@@ -802,3 +802,10 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:24:46] [Server thread/INFO]: Briiqn issued server command: /pl
 [16:25:05] [Server thread/INFO]: Briiqn issued server command: /aac
 [16:27:02] [Server thread/INFO]: ShortyDev issued server command: /l
+[16:27:05] [Server thread/INFO]: ShortyDev issued server command: /leave
+[16:27:08] [Server thread/INFO]: ShortyDev issued server command: /hub
+[16:27:17] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[16:27:20] [Thread-33/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[16:27:20] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
+[16:27:20] [Server thread/INFO]: ShortyDev[/127.16.144.220:42611] logged in with entity id 2325 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:27:32] [Craft Scheduler Thread - 54/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
