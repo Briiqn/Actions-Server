@@ -175,3 +175,5 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [09:04:04] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:58609] logged in with entity id 120 at ([world]1437.669092088199, 4.0, 46.670542975910955)
 [09:04:07] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
 [09:04:07] [Server thread/INFO]: GriddyGaymer23 left the game.
+[09:09:19] [Thread-14/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[09:09:19] [Server thread/INFO]: Briiqn[/127.30.38.147:45009] logged in with entity id 121 at ([world]1622.5561492216482, 4.0, 73.61265068555734)
