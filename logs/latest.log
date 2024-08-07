@@ -171,3 +171,5 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [06:29:34] [Server thread/INFO]: Briiqn issued server command: /aac help
 [06:29:36] [Server thread/INFO]: Briiqn issued server command: /aac
 [06:29:37] [Server thread/INFO]: Briiqn issued server command: /aa
+[06:32:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[06:32:17] [Server thread/INFO]: Briiqn left the game.
