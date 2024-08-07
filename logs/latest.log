@@ -9465,3 +9465,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [06:26:18] [Craft Scheduler Thread - 33/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
 [06:26:18] [Craft Scheduler Thread - 33/WARN]: 	... 7 more
 [06:26:37] [Server thread/INFO]: Fag lost connection: Disconnected
+[06:27:20] [Server thread/INFO]: konsolas issued server command: /pl
