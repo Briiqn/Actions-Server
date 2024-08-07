@@ -688,3 +688,5 @@ By running this plugin, you agree to be bound by our TOS
 [17:40:39] [Server thread/INFO]: §6Player§c Console §6banned§c konsolas §6for: §c§cYou have been banned:
 §r§9§lVerus §8> §fCheating§6.
 [17:40:39] [Server thread/WARN]: handleDisconnection() called twice
+[17:41:15] [Server thread/INFO]: ShortyDev issued server command: /unban
+[17:41:15] [Server thread/INFO]: §cShortyDev §4was denied access to command.
