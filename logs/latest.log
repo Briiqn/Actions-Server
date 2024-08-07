@@ -734,3 +734,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:28:42] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNER
 [08:28:45] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNERd
 [08:28:46] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNER
+[08:29:12] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas group set Owner
+[08:29:13] [Server thread/INFO]: Briiqn lost connection: Disconnected

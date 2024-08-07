@@ -127,3 +127,5 @@ users:
     permissions:
     - OWNER
     - OWNERd
+    group:
+    - Owner
