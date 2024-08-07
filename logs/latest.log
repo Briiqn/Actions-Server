@@ -730,3 +730,9 @@ Reason: §9§lVerus §8> §fCheating
 [20:21:30] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
 [20:21:31] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
 [20:21:38] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[20:22:33] [Server thread/INFO]: CONSOLE issued server command: /ban Briiqn &9&lVerus &8> &fCheating
+[20:22:33] [Server thread/INFO]: Briiqn lost connection: §cYou have been banned:
+§r§9§lVerus §8> §fCheating
+[20:22:33] [Server thread/INFO]: §6Player§c Console §6banned§c Briiqn §6for: §c§cYou have been banned:
+§r§9§lVerus §8> §fCheating§6.
+[20:22:33] [Server thread/WARN]: handleDisconnection() called twice
