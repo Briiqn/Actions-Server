@@ -722,3 +722,10 @@ Reason: §9§lVerus §8> §fCheating
 [20:20:40] [Server thread/INFO]: Briiqn issued server command: /verus commands
 [20:20:48] [Server thread/INFO]: Briiqn issued server command: /verus ping ProHaxLeaks
 [20:20:51] [Server thread/INFO]: Briiqn issued server command: /alerts
+[20:21:07] [Server thread/INFO]: ProHaxLeaks issued server command: /alerts
+[20:21:18] [Server thread/INFO]: Briiqn issued server command: /verus
+[20:21:19] [Server thread/INFO]: Briiqn issued server command: /verus ping
+[20:21:22] [Server thread/INFO]: Briiqn issued server command: /ping Briiqn
+[20:21:26] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[20:21:30] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[20:21:31] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
