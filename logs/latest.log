@@ -872,3 +872,51 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
 [16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
 [16:40:55] [Craft Scheduler Thread - 56/WARN]: 	... 7 more
+[16:41:00] [Server thread/INFO]: [AuthMe] ProHaxLeaks registered 127.30.38.147
+[16:41:00] [Craft Scheduler Thread - 65/INFO]: [AuthMe] The user ProHaxLeaks has 12 accounts:
+[16:41:00] [Craft Scheduler Thread - 65/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[16:41:00] [Craft Scheduler Thread - 65/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
+[16:41:09] [Thread-37/INFO]: UUID of player Outroduction is 8cfe031b-0a37-3d20-a776-04972e4bcd61
+[16:41:09] [Server thread/INFO]: [Polar] Detected 1.8.x for Outroduction
+[16:41:09] [Server thread/INFO]: Outroduction[/127.206.171.212:41633] logged in with entity id 2996 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:41:09] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/8cfe031b-0a37-3d20-a776-04972e4bcd61.yml
+[16:41:11] [Server thread/INFO]: Briiqn issued server command: /pex group Owner user add ProHaxLeaks
+[16:41:12] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[16:41:16] [Thread-38/INFO]: UUID of player aeeasd41 is 2a66f901-f15e-36c8-861d-ec3f316737e7
+[16:41:16] [Server thread/INFO]: [Polar] Detected 1.8.x for aeeasd41
+[16:41:16] [Server thread/INFO]: aeeasd41[/127.16.144.220:58353] logged in with entity id 3004 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:41:16] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/2a66f901-f15e-36c8-861d-ec3f316737e7.yml
+[16:41:16] [Craft Scheduler Thread - 65/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/aeeasd41
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/aeeasd41
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[16:41:17] [Craft Scheduler Thread - 65/WARN]: 	... 7 more
+[16:41:17] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[16:41:21] [Server thread/INFO]: [AuthMe] Outroduction registered 127.206.171.212
+[16:41:21] [Craft Scheduler Thread - 64/INFO]: [AuthMe] Outroduction logged in 127.206.171.212
+[16:41:28] [Server thread/INFO]: [AuthMe] aeeasd41 registered 127.16.144.220
+[16:41:28] [Craft Scheduler Thread - 66/INFO]: [AuthMe] The user aeeasd41 has 2 accounts:
+[16:41:28] [Craft Scheduler Thread - 66/INFO]: [AuthMe] §7shortydev, §aaeeasd41§7.
+[16:41:28] [Craft Scheduler Thread - 66/INFO]: [AuthMe] aeeasd41 logged in 127.16.144.220
