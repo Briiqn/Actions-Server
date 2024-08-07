@@ -690,3 +690,5 @@ By running this plugin, you agree to be bound by our TOS
 [17:40:39] [Server thread/WARN]: handleDisconnection() called twice
 [17:41:15] [Server thread/INFO]: ShortyDev issued server command: /unban
 [17:41:15] [Server thread/INFO]: §cShortyDev §4was denied access to command.
+[17:41:52] [Thread-18/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
+[17:41:52] [Server thread/INFO]: efefe[/127.30.38.147:53381] logged in with entity id 357 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
