@@ -613,3 +613,8 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:46:38] [Server thread/INFO]: efefe issued server command: /fly
 [04:46:40] [Server thread/INFO]: efefe issued server command: /gmc
 [04:46:48] [Server thread/INFO]: efefe issued server command: /npc create Briiqn
+[04:46:54] [Server thread/INFO]: efefe issued server command: /npc skin Briiqn
+[04:47:00] [Server thread/INFO]: efefe issued server command: /npc rotate
+[04:47:04] [Server thread/INFO]: efefe lost connection: Disconnected
+[04:47:05] [Thread-20/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
+[04:47:05] [Server thread/INFO]: efefe[/127.30.38.147:59485] logged in with entity id 1342 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
