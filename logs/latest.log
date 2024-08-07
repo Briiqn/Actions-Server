@@ -637,3 +637,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:32:56] [Server thread/WARN]: Briiqn moved wrongly!
 [09:33:16] [Server thread/INFO]: Briiqn issued server command: /pl
 [09:33:19] [Server thread/INFO]: Briiqn issued server command: /tps
+[09:48:12] [Server thread/INFO]: Briiqn lost connection: Disconnected
