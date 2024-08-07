@@ -581,3 +581,5 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:30:12] [Head Conversion Thread - 1/WARN]: 	... 8 more
 [03:30:28] [Server thread/INFO]: fff issued server command: /tps
 [03:30:32] [Server thread/INFO]: fff issued server command: /mem
+[03:30:49] [Server thread/INFO]: fff issued server command: /mem
+[03:30:49] [Server thread/INFO]: fff issued server command: /mem
