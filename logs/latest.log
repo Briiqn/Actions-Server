@@ -705,3 +705,9 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [15:51:14] [Craft Scheduler Thread - 16/INFO]: [AuthMe] The user ef4etf4 has 11 accounts:
 [15:51:14] [Craft Scheduler Thread - 16/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, §aef4etf4§7.
 [15:51:14] [Craft Scheduler Thread - 16/INFO]: [AuthMe] ef4etf4 logged in 127.30.38.147
+[16:02:30] [Server thread/INFO]: ef4etf4 issued server command: //desel
+[16:02:36] [Server thread/INFO]: ef4etf4 issued server command: /hologram
+[16:02:37] [Server thread/INFO]: ef4etf4 issued server command: /hologram hide
+[16:02:39] [Server thread/INFO]: ef4etf4 issued server command: /hologram help
+[16:02:41] [Server thread/INFO]: ef4etf4 issued server command: /hologram help
+[16:02:44] [Server thread/INFO]: ef4etf4 lost connection: Disconnected
