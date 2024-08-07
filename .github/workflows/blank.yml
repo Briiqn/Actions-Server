@@ -42,7 +42,7 @@ jobs:
           echo "Spigot started with PID $SPIGOT_PID"
 
           echo "Starting playit..."
-          playit-linux-amd64
+          playit-linux-amd64 & disown
           PLAYIT_PID=$!
           echo "playit started with PID $PLAYIT_PID"
 
