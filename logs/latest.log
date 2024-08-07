@@ -679,3 +679,21 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
 [20:39:19] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[20:40:09] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:12] [Server thread/WARN]: Briiqn moved too quickly! 8.969327993916515,0.45000000000000284,5.9227177334170165 (8.969327993916515, 0.45000000000000284, 5.9227177334170165)
+[20:40:14] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:14] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:15] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:16] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:16] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:16] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:18] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:19] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:19] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:20] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:21] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:21] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:21] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:22] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:22] [Server thread/WARN]: Briiqn moved wrongly!
+[20:40:22] [Server thread/WARN]: Briiqn moved wrongly!
