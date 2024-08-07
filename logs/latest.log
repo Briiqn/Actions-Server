@@ -135,3 +135,5 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [17:53:21] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
 [19:42:28] [Thread-7/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
 [19:42:29] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:53847] logged in with entity id 26 at ([world]1437.5, 4.0, 42.5)
+[19:42:30] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[19:42:30] [Server thread/INFO]: ProHaxLeaks left the game.
