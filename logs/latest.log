@@ -601,3 +601,34 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:53:54] [Server thread/INFO]: efefe issued server command: /aac alerts
 [04:53:56] [Server thread/INFO]: efefe issued server command: /aac alerts
 [04:53:57] [Server thread/INFO]: efefe issued server command: /aac alerts
+[04:54:31] [Thread-19/INFO]: UUID of player Fag is 2d50877b-1185-3b8e-a3c1-b455dead15f8
+[04:54:31] [Server thread/INFO]: [AAC5] Detected 1.8.x for Fag
+[04:54:31] [Server thread/INFO]: Fag[/127.30.38.147:34537] logged in with entity id 245 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[04:54:31] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/2d50877b-1185-3b8e-a3c1-b455dead15f8.yml
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Fag
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Fag
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[04:54:31] [Craft Scheduler Thread - 1/WARN]: 	... 7 more
