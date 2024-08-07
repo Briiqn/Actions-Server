@@ -648,3 +648,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:52:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [12:16:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 15 Minutes!
 [12:21:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 10 Minutes!
+[12:26:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 5 Minutes!
