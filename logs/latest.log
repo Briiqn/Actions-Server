@@ -169,3 +169,5 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:30:03] [Async Chat Thread - #0/INFO]: <odragclicker> best server
 [16:30:08] [Server thread/INFO]: odragclicker issued server command: /stonecutter
 [16:30:15] [Server thread/INFO]: odragclicker issued server command: /translate
+[16:31:09] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode survival
+[16:31:12] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
