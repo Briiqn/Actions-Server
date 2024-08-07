@@ -157,3 +157,10 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:13:23] [Server thread/INFO]: Sigma5[/127.30.38.147:41613] logged in with entity id 32 at ([world]1408.1752180704786, 7.0, 53.58899998017976)
 [16:13:25] [Server thread/INFO]: Sigma5 lost connection: Disconnected
 [16:13:25] [Server thread/INFO]: Sigma5 left the game.
+[16:29:24] [Thread-11/INFO]: UUID of player odragclicker is feae7bc6-f928-3e9c-93d6-1d438f7be890
+[16:29:24] [Server thread/INFO]: odragclicker[/127.234.38.98:60317] logged in with entity id 33 at ([world]1450.5, 4.0, 52.5)
+[16:29:27] [Async Chat Thread - #0/INFO]: <odragclicker> is thi
+[16:29:33] [Async Chat Thread - #0/INFO]: <odragclicker> is this the antihake
+[16:29:36] [Async Chat Thread - #0/INFO]: <odragclicker> ??
+[16:29:38] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
+[16:29:40] [Server thread/INFO]: odragclicker issued server command: /pl
