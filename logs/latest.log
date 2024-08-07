@@ -10475,3 +10475,6 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [06:28:15] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [06:28:15] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [06:28:32] [Server thread/INFO]: konsolas lost connection: Disconnected
+[06:32:20] [Thread-54/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[06:32:20] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
+[06:32:20] [Server thread/INFO]: Briiqn[/127.30.38.147:46305] logged in with entity id 1425 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
