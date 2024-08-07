@@ -133,3 +133,10 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [20:34:59] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [20:34:59] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [20:34:59] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[22:36:29] [Thread-7/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[22:36:29] [Server thread/INFO]: Briiqn[/127.30.38.147:38973] logged in with entity id 25 at ([world]1683.61186248778, 12.0, -114.32802827245875)
+[22:36:34] [Server thread/INFO]: Briiqn issued server command: /spark profiler stop
+[22:36:34] [Craft Scheduler Thread - 6/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[22:36:35] [Craft Scheduler Thread - 6/INFO]: [⚡] Profiler stopped & upload complete!
+[22:36:35] [Craft Scheduler Thread - 6/INFO]: https://spark.lucko.me/6pSTJkhegm
+[22:36:35] [Craft Scheduler Thread - 6/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
