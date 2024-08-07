@@ -172,3 +172,6 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
 [03:49:06] [Craft Scheduler Thread - 10/INFO]: https://spark.lucko.me/ykfiYJjN6p
 [03:49:06] [Craft Scheduler Thread - 10/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
 [03:50:45] [Server thread/INFO]: Sigma5 issued server command: /i dirt 64
+[03:52:24] [Server thread/INFO]: Sigma5 issued server command: /kill
+[03:52:25] [Server thread/INFO]: Sigma5 issued server command: /kill
+[03:52:28] [Server thread/INFO]: Sigma5 issued server command: /killall
