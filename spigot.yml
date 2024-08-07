@@ -64,6 +64,7 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -85,7 +86,6 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
