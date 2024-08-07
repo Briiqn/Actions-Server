@@ -1062,3 +1062,13 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [17:00:16] [Server thread/INFO]: Outroduction issued server command: /aac status
 [17:00:24] [Server thread/INFO]: Outroduction issued server command: /aac reset
 [17:00:38] [Server thread/INFO]: Outroduction lost connection: Disconnected
+[17:02:31] [Server thread/INFO]: ShortyDev issued server command: /gmsp
+[17:02:31] [Server thread/INFO]: §cShortyDev §4was denied access to command.
+[17:02:36] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[17:02:37] [Thread-44/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[17:02:37] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
+[17:02:37] [Server thread/INFO]: ShortyDev[/127.16.144.220:51667] logged in with entity id 4048 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:02:39] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[17:02:46] [Craft Scheduler Thread - 77/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
+[17:02:46] [Craft Scheduler Thread - 77/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
+[17:02:46] [Craft Scheduler Thread - 77/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
