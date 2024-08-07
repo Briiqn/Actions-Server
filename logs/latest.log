@@ -621,3 +621,7 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:37:09] [Server thread/INFO]: GriddyGaymer23 issued server command: /mem
 [03:39:57] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
 [03:47:11] [Server thread/INFO]: fff issued server command: /mem
+[03:48:22] [Server thread/INFO]: fff issued server command: /tps
+[03:48:23] [Server thread/INFO]: fff issued server command: /mem
+[03:48:25] [Server thread/INFO]: fff issued server command: /cpu
+[03:48:26] [Server thread/INFO]: fff issued server command: /lag
