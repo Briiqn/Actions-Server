@@ -736,3 +736,6 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:15:27] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
 [16:15:27] [Server thread/INFO]: ShortyDev[/127.16.144.220:39515] logged in with entity id 1732 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [16:15:40] [Craft Scheduler Thread - 44/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[16:15:57] [Server thread/INFO]: ShortyDev issued server command: /tps
+[16:15:59] [Server thread/INFO]: ShortyDev issued server command: /ping
+[16:15:59] [Server thread/INFO]: §cShortyDev §4was denied access to command.
