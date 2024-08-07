@@ -1012,3 +1012,6 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:48:01] [Server thread/INFO]: Outroduction issued server command: /plugins
 [16:48:05] [Server thread/INFO]: aeeasd41 issued server command: /lsw
 [16:48:21] [Server thread/INFO]: aeeasd41 issued server command: /strike
+[16:48:40] [Server thread/INFO]: Outroduction issued server command: /daddy
+[16:48:56] [Server thread/INFO]: Outroduction issued server command: /polar
+[16:48:58] [Server thread/INFO]: Outroduction issued server command: /grim
