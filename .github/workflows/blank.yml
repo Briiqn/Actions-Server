@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    - cron: '0 */5 * * *'  # Run every 5 hours
+    - cron: '0 */5 * *'*  # Run every 5 hours
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,17 +15,14 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for all branches and tags
           token: ${{ secrets.FINE_GRAINED_PAT }}  # Use fine-grained PAT for checkout
-
       - name: Setup GraalVM
         uses: graalvm/setup-graalvm@v1.2.2
         with:
           java-version: '22'
           distribution: 'graalvm'
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Debug - List directory contents
         run: ls -la
-
       - name: Run Spigot and playit with 30-second commits and workflow deletion
         if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds')"
         env:
@@ -37,15 +34,13 @@ jobs:
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
           echo "Starting Spigot..."
-          java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms8G -Xmx8G -jar spigot.jar nogui &
+          java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms8G -Xmx8G -jar spigot.jar nogui 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           SPIGOT_PID=$!
           echo "Spigot started with PID $SPIGOT_PID"
-
           echo "Starting playit..."
-          ./playit-linux-amd64 & disown
+          ./playit-linux-amd64 2>&1 | sed '/login:/s/.*/<REDACTED>/' & disown
           PLAYIT_PID=$!
           echo "playit started with PID $PLAYIT_PID"
-
           # Function to commit and push changes
           commit_and_push() {
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -56,7 +51,6 @@ jobs:
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
           }
-
           # Function to delete auto-commit workflow runs
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
@@ -68,13 +62,11 @@ jobs:
                 "https://api.github.com/repos/${REPO}/actions/runs/$id"
             done
           }
-
           # Loop to commit and delete workflows every 30 seconds
           while true; do
             sleep 30
             commit_and_push
             delete_auto_commit_workflows
-
             # Check if processes are still running
             if ! kill -0 $SPIGOT_PID 2>/dev/null || ! kill -0 $PLAYIT_PID 2>/dev/null; then
               echo "One of the processes has finished. Terminating the workflow."
