@@ -730,3 +730,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:27:39] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Briiqn > konsolas/konsolas): User are not in this ladder
 [08:27:40] [Server thread/INFO]: Briiqn issued server command: /pex promote konsolas
 [08:27:40] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Briiqn > konsolas/konsolas): User are not in this ladder
+[08:28:38] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add
+[08:28:42] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNER
+[08:28:45] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNERd
+[08:28:46] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNER

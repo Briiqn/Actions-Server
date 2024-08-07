@@ -123,3 +123,7 @@ users:
     - Owner
     options:
       name: Briiqn
+  konsolas:
+    permissions:
+    - OWNER
+    - OWNERd
