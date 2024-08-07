@@ -258,3 +258,16 @@ ef4etf4:
   total_kills_status: 'false'
   time_status: 1723021504382
   time_weekly: 1723021504382
+ShortyDev:
+  solo_kills: 0
+  solo_wins: 0
+  team_kills: 0
+  team_wins: 0
+  solo_status: 'false'
+  solo_wins_status: 'false'
+  team_status: 'false'
+  team_wins_status: 'false'
+  total_kills: 0
+  total_kills_status: 'false'
+  time_status: 1723047029136
+  time_weekly: 1723047029136
