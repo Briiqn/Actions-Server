@@ -634,3 +634,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:11:53] [Server thread/INFO]: Briiqn issued server command: /gmc
 [04:13:28] [Server thread/INFO]: Briiqn issued server command: /v
 [04:14:11] [Server thread/INFO]: Briiqn issued server command: /hologram
+[04:14:14] [Server thread/INFO]: Briiqn issued server command: /hologram create
