@@ -1141,3 +1141,4 @@ Caused by: java.lang.NullPointerException
 [23:31:23] [Craft Scheduler Thread - 140/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
 [23:31:23] [Craft Scheduler Thread - 140/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [23:31:25] [Server thread/INFO]: ShortyDev issued server command: /bungee
+[23:31:58] [Server thread/INFO]: ShortyDev lost connection: Disconnected
