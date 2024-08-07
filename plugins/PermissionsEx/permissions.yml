@@ -120,6 +120,7 @@ groups:
         - ShortyDev
   Owners:
     permissions:
+    - ShortyDev
     - Shorty
 schema-version: 1
 users:
