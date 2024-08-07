@@ -42,7 +42,7 @@ jobs:
           echo "Spigot started with PID $SPIGOT_PID"
 
           echo "Starting playit..."
-          nohup ./playit-linux-amd64
+          ./playit-linux-amd64 -l playit.log
           PLAYIT_PID=$!
           echo "playit started with PID $PLAYIT_PID"
 
@@ -52,6 +52,7 @@ jobs:
             git config --local user.name "github-actions[bot]"
             git add -A  # Stage all changes
             git reset -- playit.toml  # Unstage playit.toml
+            git reset -- playit.log
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
           }
