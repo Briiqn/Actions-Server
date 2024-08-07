@@ -108,6 +108,7 @@ groups:
         - essentials.fly
   Owner:
     permissions:
+    - Shorty
     - ShortyDev
     - '*'
     options:
@@ -117,6 +118,9 @@ groups:
       Owner:
         permissions:
         - ShortyDev
+  Owners:
+    permissions:
+    - Shorty
 schema-version: 1
 users:
   7ea28941-2d2c-334d-894c-86c61e8a6ec5:

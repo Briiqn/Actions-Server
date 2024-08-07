@@ -2403,3 +2403,6 @@ java.lang.NullPointerException
 [17:28:38] [Server thread/INFO]: konsolas issued server command: /pex groups Owner
 [17:28:39] [Server thread/INFO]: konsolas issued server command: /pex groups Owner add
 [17:29:13] [Server thread/INFO]: konsolas issued server command: /pex group
+[17:29:19] [Server thread/INFO]: konsolas issued server command: /pex group Owners
+[17:29:24] [Server thread/INFO]: konsolas issued server command: /pex group Owners add Shorty
+[17:29:27] [Server thread/INFO]: konsolas issued server command: /pex group Owner add Shorty
