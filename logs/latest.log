@@ -171,3 +171,8 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:30:15] [Server thread/INFO]: odragclicker issued server command: /translate
 [16:31:09] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode survival
 [16:31:12] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
+[16:31:41] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode survival
+[16:31:42] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
+[16:31:43] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
+[16:31:44] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode survival
+[16:31:46] [Server thread/INFO]: odragclicker issued server command: /minecraft:gamemode creative
