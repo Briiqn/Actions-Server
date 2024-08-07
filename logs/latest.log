@@ -108,3 +108,7 @@
 [03:27:56] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
 [03:27:57] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [03:27:57] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[03:31:40] [Thread-7/INFO]: UUID of player fff is 59832df8-e750-3bd2-8cf7-0375f7efdb2f
+[03:31:40] [Server thread/INFO]: fff[/127.30.38.147:50583] logged in with entity id 27 at ([world]1435.5, 4.0, 38.5)
+[03:31:41] [Server thread/INFO]: fff lost connection: Disconnected
+[03:31:41] [Server thread/INFO]: fff left the game.
