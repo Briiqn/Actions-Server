@@ -1,15 +1,15 @@
 lastAccountName: ProHaxLeaks
 timestamps:
   login: 1723063069573
-  logout: 1723062206853
+  logout: 1723063883122
 ipAddress: 127.30.38.147
 logoutlocation:
-  world: Mini31E
-  x: -15.5
-  y: 90.0
-  z: -35.5
-  yaw: 0.0
-  pitch: 0.0
+  world: world
+  x: 17.269613640489155
+  y: 63.0
+  z: -4.8835514076041
+  yaw: -162.35005
+  pitch: -1.2625456
 afk: false
 money: '430.0'
 lastlocation:

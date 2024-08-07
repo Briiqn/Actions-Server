@@ -841,3 +841,5 @@ Caused by: java.lang.NullPointerException
 [20:49:09] [Server thread/INFO]: Briiqn issued server command: /verus:ping
 [20:50:28] [Server thread/INFO]: Briiqn lost connection: disconnect.spam
 [20:50:28] [Server thread/WARN]: handleDisconnection() called twice
+[20:51:24] [Server thread/INFO]: ProHaxLeaks lost connection: disconnect.spam
+[20:51:24] [Server thread/WARN]: handleDisconnection() called twice
