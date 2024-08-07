@@ -634,3 +634,8 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:54:31] [Craft Scheduler Thread - 1/WARN]: 	... 7 more
 [04:54:54] [Server thread/INFO]:  AAC Fag - Spectate
 [04:55:11] [Server thread/INFO]:  AAC Fag - Spectate
+[04:55:14] [Server thread/INFO]: efefe issued server command: /aac spec Fag
+[04:55:15] [Server thread/INFO]: efefe issued server command: /aac spec Fag
+[04:55:18] [Server thread/WARN]: efefe moved too quickly! 0.0,-10.040609384013663,0.0 (0.0, -10.040609384013663, 0.0)
+[04:55:24] [Server thread/INFO]: efefe issued server command: /gms
+[04:55:34] [Server thread/INFO]: Fag issued server command: /aac
