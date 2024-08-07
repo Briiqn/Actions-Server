@@ -1,13 +1,13 @@
-enforce_secure_profile: false
+enforce_secure_profile: true
 listeners:
 - query_port: 25577
-  motd: '&1Another FlameCord server'
+  motd: '&1Hypixel Network'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
   forced_hosts:
     pvp.md-5.net: pvp
-  ping_passthrough: false
+  ping_passthrough: true
   priorities:
   - lobby
   bind_local_address: true
@@ -33,7 +33,7 @@ server_connect_timeout: 5000
 timeout: 17000
 stats: aa25a43e-c3ee-4e69-9487-4223d2b6271f
 player_limit: -1
-ip_forward: false
+ip_forward: true
 groups:
   md_5:
   - admin
