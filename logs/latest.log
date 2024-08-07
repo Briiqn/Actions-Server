@@ -192,3 +192,5 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
 [20:12:28] [Server thread/INFO]: Briiqn issued server command: /spark ping --player
 [20:12:32] [Server thread/INFO]: Briiqn issued server command: /spark ping --player
 [20:12:33] [Server thread/INFO]: Briiqn issued server command: /spark ping --player 1
+[20:18:33] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[20:18:33] [Server thread/INFO]: Briiqn left the game.
