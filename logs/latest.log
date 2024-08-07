@@ -793,3 +793,8 @@ Caused by: java.lang.NullPointerException
 [17:46:41] [Craft Scheduler Thread - 17/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
 [17:46:41] [Craft Scheduler Thread - 17/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
 [17:46:41] [Craft Scheduler Thread - 17/WARN]: 	... 7 more
+[17:46:43] [Craft Scheduler Thread - 20/INFO]: [AuthMe] The user ProHaxLeaks has 12 accounts:
+[17:46:43] [Craft Scheduler Thread - 20/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[17:46:43] [Craft Scheduler Thread - 20/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
+[17:46:55] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[17:47:05] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
