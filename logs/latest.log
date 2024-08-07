@@ -783,3 +783,31 @@ java.lang.AbstractMethodError
 [06:00:30] [Server thread/INFO]: konsolas issued server command: /aac
 [06:00:32] [Server thread/INFO]: konsolas issued server command: /aac version
 [06:00:34] [Server thread/INFO]: konsolas issued server command: /aac help
+[06:00:40] [Server thread/INFO]: konsolas issued server command: /flu
+[06:00:41] [Server thread/INFO]: konsolas issued server command: /fly
+[06:00:41] [Server thread/INFO]: §ckonsolas §4was denied access to command.
+[06:00:42] [Head Conversion Thread - 9/WARN]: Exception in thread "Head Conversion Thread - 9" 
+[06:00:42] [Head Conversion Thread - 9/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[06:00:42] [Head Conversion Thread - 9/WARN]: Caused by: java.lang.NullPointerException
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[06:00:42] [Head Conversion Thread - 9/WARN]: 	... 8 more
+[06:00:53] [Thread-17/INFO]: UUID of player Fag is 2d50877b-1185-3b8e-a3c1-b455dead15f8
+[06:00:53] [Server thread/INFO]: Fag[/127.30.38.147:59169] logged in with entity id 213 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[06:00:58] [Craft Scheduler Thread - 10/INFO]: [AuthMe] The user Fag has 6 accounts:
+[06:00:58] [Craft Scheduler Thread - 10/INFO]: [AuthMe] §7§akonsolas§7, §aFag§7, efefe, 1zun4, briiqn, kons0las.
+[06:00:58] [Craft Scheduler Thread - 10/INFO]: [AuthMe] Fag logged in 127.30.38.147
