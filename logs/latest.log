@@ -1055,3 +1055,7 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:58:26] [Server thread/INFO]: ShortyDev issued server command: /aac
 [16:59:09] [Server thread/INFO]: Outroduction issued server command: /aac
 [16:59:33] [Server thread/INFO]: ShortyDev issued server command: /ver Polar
+[16:59:55] [Server thread/INFO]: Outroduction issued server command: /aac help
+[16:59:59] [Server thread/INFO]: Outroduction issued server command: /aac
+[17:00:03] [Server thread/INFO]: Outroduction issued server command: /aac help
+[17:00:07] [Server thread/INFO]: Outroduction issued server command: /aac check
