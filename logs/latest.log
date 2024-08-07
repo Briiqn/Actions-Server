@@ -142,3 +142,12 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [22:36:35] [Craft Scheduler Thread - 6/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
 [22:39:23] [Server thread/INFO]: Briiqn issued server command: /pl
 [22:39:24] [Server thread/INFO]: Briiqn issued server command: /mem
+[22:39:35] [Server thread/INFO]: Briiqn issued server command: /mem\
+[22:39:36] [Server thread/INFO]: Briiqn issued server command: /mem
+[22:39:49] [Server thread/INFO]: Briiqn issued server command: /verus
+[22:39:52] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[22:39:52] [Server thread/INFO]: Briiqn left the game.
+[22:39:54] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[22:39:54] [Server thread/INFO]: Briiqn[/127.30.38.147:55539] logged in with entity id 61 at ([world]1673.2189405048846, 4.0, -93.49424750122441)
+[22:39:55] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[22:39:55] [Server thread/INFO]: Briiqn left the game.
