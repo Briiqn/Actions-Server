@@ -1,12 +1,12 @@
 lastAccountName: efefe
 timestamps:
-  login: 1723019391800
-  logout: 1723019400950
+  login: 1723047387331
+  logout: 1723047390030
 ipAddress: 127.30.38.147
 logoutlocation:
   world: world
-  x: 10.449765963989975
-  y: 63.0
-  z: 0.48505222183010327
-  yaw: -79.724304
-  pitch: 2.2362008
+  x: 0.4805297752731945
+  y: 65.0
+  z: 0.4876591904060934
+  yaw: 4.724298
+  pitch: 1.9863466

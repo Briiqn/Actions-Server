@@ -739,3 +739,9 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:15:57] [Server thread/INFO]: ShortyDev issued server command: /tps
 [16:15:59] [Server thread/INFO]: ShortyDev issued server command: /ping
 [16:15:59] [Server thread/INFO]: §cShortyDev §4was denied access to command.
+[16:16:27] [Thread-25/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
+[16:16:27] [Server thread/INFO]: [Polar] Detected 1.8.x for efefe
+[16:16:27] [Server thread/INFO]: efefe[/127.30.38.147:59463] logged in with entity id 1789 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:16:32] [Server thread/INFO]: efefe lost connection: Disconnected
+[16:16:33] [Server thread/INFO]: ShortyDev issued server command: /üö
+[16:16:34] [Server thread/INFO]: ShortyDev issued server command: /pl
