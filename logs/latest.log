@@ -1,14 +1,14 @@
-[06:04:44] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[06:04:44] [Server thread/INFO]: Loading properties
-[06:04:44] [Server thread/INFO]: Default game type: SURVIVAL
-[06:04:44] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[06:04:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:04:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:04:44] [Server thread/INFO]: Debug logging is disabled
-[06:04:44] [Server thread/INFO]: Generating keypair
-[06:04:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:04:44] [Server thread/INFO]: Using epoll channel type
-[06:04:44] [Server thread/ERROR]: Could not load 'plugins/Verus-1.0-SNAPSHOT.jar' in folder 'plugins'
+[06:06:56] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[06:06:56] [Server thread/INFO]: Loading properties
+[06:06:56] [Server thread/INFO]: Default game type: SURVIVAL
+[06:06:56] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[06:06:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:06:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:06:57] [Server thread/INFO]: Debug logging is disabled
+[06:06:57] [Server thread/INFO]: Generating keypair
+[06:06:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:06:57] [Server thread/INFO]: Using epoll channel type
+[06:06:57] [Server thread/ERROR]: Could not load 'plugins/Verus-1.0-SNAPSHOT.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot.jar:git-Spigot-db6de12-18fbb24]
@@ -24,22 +24,22 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 	at java.util.jar.JarFile.<init>(JarFile.java:133) ~[?:1.8.0_422]
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 5 more
-[06:04:44] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-4.0.2.jar' in folder 'plugins'
+[06:06:57] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-4.0.2.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ViaBackwards
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
-[06:04:44] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[06:04:44] [Server thread/ERROR]: Could not load 'plugins/AACAdditionPro 4.6.2.jar' in folder 'plugins'
+[06:06:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[06:06:57] [Server thread/ERROR]: Could not load 'plugins/AACAdditionPro 4.6.2.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: AAC
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
-[06:04:44] [Server thread/ERROR]: Could not load 'plugins/ViaVersion-5.0.2.jar' in folder 'plugins'
+[06:06:57] [Server thread/ERROR]: Could not load 'plugins/ViaVersion-5.0.2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
@@ -67,58 +67,58 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 6 more
-[06:04:45] [Server thread/INFO]: [ChatReplace] Loading ChatReplace v1.0.1
-[06:04:45] [Server thread/INFO]: [ChatClear] Loading ChatClear v2.6
-[06:04:45] [Server thread/INFO]: [AnimationLib] Loading AnimationLib v1.6.9
-[06:04:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7-SNAPSHOT;3662-a8d04c2
-[06:04:45] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
-[06:04:45] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
-[06:04:45] [Server thread/INFO]: [AutoSmelt] Loading AutoSmelt v1.0
-[06:04:45] [Server thread/INFO]: [MySkin] Loading MySkin v2.4
-[06:04:45] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v1.1
-[06:04:45] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
-[06:04:45] [Server thread/INFO]: [MVdWPlaceholderAPI] Loading MVdWPlaceholderAPI v2.5.1
-[06:04:45] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.2
-[06:04:45] [Server thread/INFO]: [KillsCounter] Loading KillsCounter v1.0
-[06:04:45] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
-[06:04:45] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[06:04:45] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[06:04:45] [Server thread/INFO]: [UltimateBossBar] Loading UltimateBossBar v1.5.0
-[06:04:45] [Server thread/INFO]: [ItemList] Loading ItemList v1.0.4
-[06:04:45] [Server thread/INFO]: [CustomHelp] Loading CustomHelp v1.1
-[06:04:45] [Server thread/INFO]: [Vault] Loading Vault v1.6.1
-[06:04:45] [Server thread/INFO]: [BlockParticles] Loading BlockParticles v1.9.7.2
-[06:04:45] [Server thread/INFO]: [LeakParkour] Loading LeakParkour v2.4
-[06:04:45] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
-[06:04:45] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v8.6.8
-[06:04:45] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
-[06:04:45] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1267)
-[06:04:45] [Server thread/INFO]: [RankCommand] Loading RankCommand v1.4
-[06:04:45] [Server thread/INFO]: [AAC5] Loading AAC5 v5.0.0-pre9
-[06:04:45] [Server thread/INFO]: [LostSkyWars] Loading LostSkyWars v1.2.7
-[06:04:45] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.3.11
-[06:04:45] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
-[06:04:45] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.1.13
-[06:04:45] [Server thread/INFO]: [QuestMaster] Loading QuestMaster v0.1
-[06:04:45] [Server thread/INFO]: [LeaderHeads] Loading LeaderHeads v3.1.6
-[06:04:45] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.0.2
-[06:04:45] [Server thread/INFO]: [AnimationLib] Enabling AnimationLib v1.6.9
-[06:04:45] [Server thread/INFO]: [Vault] Enabling Vault v1.6.1
-[06:04:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[06:04:45] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[06:04:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:04:45] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[06:04:46] [Server thread/INFO]: [Vault] Plugin enabled (57ms)
-[06:04:46] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
-[06:04:46] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[06:04:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
-[06:04:46] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
-[06:04:47] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
-[06:04:47] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
-[06:04:47] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
-[06:04:47] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
-[06:04:47] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
-[06:04:47] [Server thread/INFO]: [AAC5] Enabling AAC5 v5.0.0-pre9
-[06:04:47] [Server thread/INFO]: [AAC5] No stale entries to remove
-[06:04:58] [Server thread/WARN]: [AAC5] Connection failedjava.net.SocketTimeoutException
-[06:04:58] [Server thread/WARN]: [AAC5] Server will start in 20 seconds
+[06:06:58] [Server thread/INFO]: [ChatReplace] Loading ChatReplace v1.0.1
+[06:06:58] [Server thread/INFO]: [ChatClear] Loading ChatClear v2.6
+[06:06:58] [Server thread/INFO]: [AnimationLib] Loading AnimationLib v1.6.9
+[06:06:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7-SNAPSHOT;3662-a8d04c2
+[06:06:58] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[06:06:58] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
+[06:06:58] [Server thread/INFO]: [AutoSmelt] Loading AutoSmelt v1.0
+[06:06:58] [Server thread/INFO]: [MySkin] Loading MySkin v2.4
+[06:06:58] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v1.1
+[06:06:58] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
+[06:06:58] [Server thread/INFO]: [MVdWPlaceholderAPI] Loading MVdWPlaceholderAPI v2.5.1
+[06:06:58] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.2
+[06:06:58] [Server thread/INFO]: [KillsCounter] Loading KillsCounter v1.0
+[06:06:58] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[06:06:58] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[06:06:58] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[06:06:58] [Server thread/INFO]: [UltimateBossBar] Loading UltimateBossBar v1.5.0
+[06:06:58] [Server thread/INFO]: [ItemList] Loading ItemList v1.0.4
+[06:06:58] [Server thread/INFO]: [CustomHelp] Loading CustomHelp v1.1
+[06:06:58] [Server thread/INFO]: [Vault] Loading Vault v1.6.1
+[06:06:58] [Server thread/INFO]: [BlockParticles] Loading BlockParticles v1.9.7.2
+[06:06:58] [Server thread/INFO]: [LeakParkour] Loading LeakParkour v2.4
+[06:06:58] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[06:06:58] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v8.6.8
+[06:06:58] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
+[06:06:58] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1267)
+[06:06:58] [Server thread/INFO]: [RankCommand] Loading RankCommand v1.4
+[06:06:58] [Server thread/INFO]: [AAC5] Loading AAC5 v5.0.0-pre9
+[06:06:58] [Server thread/INFO]: [LostSkyWars] Loading LostSkyWars v1.2.7
+[06:06:58] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.3.11
+[06:06:58] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[06:06:58] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.1.13
+[06:06:58] [Server thread/INFO]: [QuestMaster] Loading QuestMaster v0.1
+[06:06:58] [Server thread/INFO]: [LeaderHeads] Loading LeaderHeads v3.1.6
+[06:06:58] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.0.2
+[06:06:58] [Server thread/INFO]: [AnimationLib] Enabling AnimationLib v1.6.9
+[06:06:58] [Server thread/INFO]: [Vault] Enabling Vault v1.6.1
+[06:06:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[06:06:58] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[06:06:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:06:58] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[06:06:58] [Server thread/INFO]: [Vault] Plugin enabled (36ms)
+[06:06:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[06:06:58] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[06:06:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
+[06:06:59] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
+[06:07:00] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[06:07:00] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
+[06:07:00] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
+[06:07:00] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
+[06:07:00] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
+[06:07:00] [Server thread/INFO]: [AAC5] Enabling AAC5 v5.0.0-pre9
+[06:07:01] [Server thread/INFO]: [AAC5] No stale entries to remove
+[06:07:11] [Server thread/WARN]: [AAC5] Connection failedjava.net.SocketTimeoutException
+[06:07:11] [Server thread/WARN]: [AAC5] Server will start in 20 seconds
