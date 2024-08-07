@@ -1,12 +1,12 @@
 lastAccountName: ef4etf4
 timestamps:
-  login: 1723022580118
-  logout: 1723022575618
+  login: 1723022607635
+  logout: 1723022603149
 ipAddress: 127.30.38.147
 logoutlocation:
-  world: Mini9E
-  x: -31.5
-  y: 74.0
-  z: -28.5
+  world: Mini31E
+  x: 1.5
+  y: 95.0
+  z: -38.5
   yaw: 0.0
   pitch: 0.0
