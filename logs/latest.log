@@ -140,3 +140,5 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [22:36:35] [Craft Scheduler Thread - 6/INFO]: [⚡] Profiler stopped & upload complete!
 [22:36:35] [Craft Scheduler Thread - 6/INFO]: https://spark.lucko.me/6pSTJkhegm
 [22:36:35] [Craft Scheduler Thread - 6/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
+[22:39:23] [Server thread/INFO]: Briiqn issued server command: /pl
+[22:39:24] [Server thread/INFO]: Briiqn issued server command: /mem
