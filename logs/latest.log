@@ -138,3 +138,46 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [20:10:26] [Server thread/INFO]: ProHaxLeaks issued server command: /spark
 [20:10:27] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
 [20:10:27] [Server thread/INFO]: ProHaxLeaks left the game.
+[20:11:14] [Thread-8/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[20:11:14] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:33139] logged in with entity id 27 at ([world]1437.5, 4.0, 42.5)
+[20:11:18] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[20:11:18] [Server thread/INFO]: ProHaxLeaks left the game.
+[20:11:25] [Thread-9/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:11:25] [Server thread/INFO]: Briiqn[/127.30.38.147:54885] logged in with entity id 28 at ([world]1679.456099999049, 4.0, 10.971009431067971)
+[20:11:28] [Server thread/INFO]: Briiqn issued server command: /ping
+[20:11:30] [Server thread/INFO]: Briiqn issued server command: /mem
+[20:11:32] [Server thread/INFO]: Briiqn issued server command: /spark profiler
+[20:11:34] [Server thread/INFO]: Briiqn issued server command: /spark profiler open
+[20:11:35] [Craft Scheduler Thread - 7/WARN]: Exception in thread "Craft Scheduler Thread - 7" 
+[20:11:35] [Craft Scheduler Thread - 7/WARN]: org.apache.commons.lang.UnhandledException: Plugin spark v1.10.59 generated an exception while executing task 827
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:113)
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:210)
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:198)
+	at me.lucko.spark.lib.bytesocks.ws.drafts.Draft_6455.<init>(Draft_6455.java:178)
+	at me.lucko.spark.lib.bytesocks.ws.client.WebSocketClient.<init>(WebSocketClient.java:185)
+	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl$1.<init>(BytesocksClientImpl.java:88)
+	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl.connect(BytesocksClientImpl.java:88)
+	at me.lucko.spark.lib.bytesocks.BytesocksClientImpl.createAndConnect(BytesocksClientImpl.java:54)
+	at me.lucko.spark.common.ws.ViewerSocketConnection.<init>(ViewerSocketConnection.java:60)
+	at me.lucko.spark.common.ws.ViewerSocket.<init>(ViewerSocket.java:71)
+	at me.lucko.spark.common.command.modules.SamplerModule.handleOpen(SamplerModule.java:465)
+	at me.lucko.spark.common.command.modules.SamplerModule.profilerOpen(SamplerModule.java:353)
+	at me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:124)
+	at me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:431)
+	at me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:336)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 20 more
+
