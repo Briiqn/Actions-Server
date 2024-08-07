@@ -560,3 +560,5 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:23:11] [Craft Scheduler Thread - 3/INFO]: [GadgetsMenu]   You have an old version of the GadgetsMenu plugin.
 [04:23:11] [Craft Scheduler Thread - 3/INFO]: [GadgetsMenu]     Please download the latest version on spigot.
 [04:23:11] [Craft Scheduler Thread - 3/INFO]: [GadgetsMenu] ------------------------------------------------------
+[04:23:38] [Server thread/INFO]: Briiqn issued server command: /whois Briiqn
+[04:23:44] [Server thread/INFO]: Briiqn lost connection: Disconnected
