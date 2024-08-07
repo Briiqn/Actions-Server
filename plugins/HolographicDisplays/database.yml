@@ -12,7 +12,3 @@ quest:
   location: world, 33.519, 65.013, 0.497
   lines:
   - '&cWill update later'
-githubactions:
-  location: world, -0.246, 66.200, -0.464
-  lines:
-  - '&b&l✦ &3Running on Github Actions &b&l✦&e&nhttps://github.com/Briiqn/'

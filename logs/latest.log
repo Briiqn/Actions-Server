@@ -638,3 +638,6 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:14:52] [Server thread/INFO]: Briiqn issued server command: /hologram create githubactions Running on Github Actions https://github.com/Briiqn/Actions-Server
 [04:15:15] [Server thread/INFO]: Briiqn issued server command: /hologram remove githubactions
 [04:16:51] [Server thread/INFO]: Briiqn issued server command: /hologram create githubactions &b&l✦ &3Running on Github Actions &b&l✦&e&nhttps://github.com/Briiqn/
+[04:16:56] [Server thread/INFO]: Briiqn issued server command: /hologram remove githubactions
+[04:16:59] [Server thread/INFO]: Briiqn issued server command: /hologram create githubactions &b&l✦ &3Running on Github Actions &b&l✦&e&nhttps://github.com/Briiqn/
+[04:17:06] [Server thread/INFO]: Briiqn issued server command: /hologram remove githubactions
