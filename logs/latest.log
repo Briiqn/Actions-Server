@@ -155,3 +155,7 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [22:41:10] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:33429] logged in with entity id 91 at ([world]1435.8223945099064, 4.0, 40.5768620632725)
 [22:41:12] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
 [22:41:12] [Server thread/INFO]: GriddyGaymer23 left the game.
+[23:50:58] [Thread-10/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[23:50:58] [Server thread/INFO]: Briiqn[/127.30.38.147:56267] logged in with entity id 92 at ([world]1673.2189405048846, 4.0, -93.49424750122441)
+[23:51:02] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[23:51:02] [Server thread/INFO]: Briiqn left the game.
