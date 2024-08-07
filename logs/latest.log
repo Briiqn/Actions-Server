@@ -794,3 +794,8 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:21:25] [Craft Scheduler Thread - 51/INFO]: [AuthMe] The user Briiqn has 11 accounts:
 [16:21:25] [Craft Scheduler Thread - 51/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
 [16:21:25] [Craft Scheduler Thread - 51/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[16:21:48] [Server thread/WARN]: Briiqn moved wrongly!
+[16:21:52] [Server thread/INFO]: Briiqn issued server command: /holograms
+[16:21:54] [Server thread/INFO]: Briiqn issued server command: /holograms help
+[16:22:07] [Server thread/INFO]: Briiqn issued server command: /holograms help 2
+[16:22:09] [Server thread/INFO]: Briiqn issued server command: /holograms help 3
