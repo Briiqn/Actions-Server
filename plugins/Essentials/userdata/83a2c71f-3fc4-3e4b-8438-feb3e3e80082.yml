@@ -1,12 +1,12 @@
 lastAccountName: 1zun4
 timestamps:
-  login: 1723008444735
-  logout: 1723008440934
+  login: 1723008606552
+  logout: 1723008601051
 ipAddress: 127.30.38.147
 logoutlocation:
   world: world
-  x: 22.689374393517074
-  y: 63.0
-  z: 8.03608896700636
-  yaw: 154.18211
-  pitch: 21.511066
+  x: 16.43875462502085
+  y: 64.01512578688697
+  z: -5.734212179193396
+  yaw: -257.43213
+  pitch: 18.472519
