@@ -1,4 +1,12 @@
 lastAccountName: ltZ_Lvcky
 timestamps:
-  login: 1723021409031
+  login: 1723021928279
+  logout: 1723021925429
 ipAddress: 127.30.38.147
+logoutlocation:
+  world: Mini31E
+  x: -35.5
+  y: 95.0
+  z: -17.5
+  yaw: 0.0
+  pitch: 0.0
