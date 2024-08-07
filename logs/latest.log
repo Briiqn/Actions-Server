@@ -705,3 +705,4 @@ Caused by: java.lang.NullPointerException
 [20:41:07] [Server thread/WARN]: Briiqn moved wrongly!
 [20:41:08] [Server thread/WARN]: Briiqn moved wrongly!
 [20:41:24] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[20:42:31] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
