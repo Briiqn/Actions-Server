@@ -1076,3 +1076,6 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 18 more
 [09:21:03] [Server thread/WARN]: handleDisconnection() called twice
+[09:22:40] [Thread-31/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[09:22:40] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[09:22:40] [Server thread/INFO]: Briiqn[/127.30.38.147:37659] logged in with entity id 2160 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
