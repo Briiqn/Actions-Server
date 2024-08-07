@@ -7323,3 +7323,8 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [06:19:42] [Server thread/INFO]: Error: Player not found.
 [06:19:42] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [06:19:42] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
+[06:20:10] [Server thread/INFO]: Fag lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[06:20:10] [Server thread/WARN]: handleDisconnection() called twice
+[06:20:16] [Thread-43/INFO]: UUID of player Fag is 2d50877b-1185-3b8e-a3c1-b455dead15f8
+[06:20:16] [Server thread/INFO]: [AAC5] Detected 1.8.x for Fag
+[06:20:16] [Server thread/INFO]: Fag[/127.30.38.147:53695] logged in with entity id 824 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
