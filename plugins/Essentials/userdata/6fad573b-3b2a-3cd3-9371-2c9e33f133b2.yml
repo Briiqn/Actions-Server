@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.30.38.147
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723001716013
+  login: 1723001714707
+money: '0'
+last-account-name: GriddyGaymer23
+logoutlocation:
+  world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
+  world-name: world
+  x: 1437.669092088199
+  y: 4.0
+  z: 46.670542975910955
+  yaw: 129.26536560058594
+  pitch: 22.304344177246094
