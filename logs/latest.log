@@ -1478,3 +1478,5 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [17:11:07] [Server thread/INFO]: Error: Player not found.
 [17:11:07] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [17:11:12] [Server thread/INFO]: ShortyDev issued server command: /lsw fstart
+[17:11:28] [Server thread/INFO]: ProHaxLeaks issued server command: /lsw fstart
+[17:11:31] [Server thread/INFO]: ProHaxLeaks issued server command: /lsw start
