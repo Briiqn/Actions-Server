@@ -1126,3 +1126,4 @@ Caused by: java.lang.NullPointerException
 [23:09:53] [Server thread/INFO]: Briiqn issued server command: /mem
 [23:15:37] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [23:22:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 15 Minutes!
+[23:27:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 10 Minutes!
