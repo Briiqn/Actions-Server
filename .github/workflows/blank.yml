@@ -50,11 +50,11 @@ jobs:
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
           }
-          # Function to delete auto-commit workflow runs
-          delete_auto_commit_workflows() {
+          # Function to delete auto-commit workflows and stopped/failed jobs
+          delete_workflows_and_jobs() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
               "https://api.github.com/repos/${REPO}/actions/runs" | \
-              jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 30 seconds")) | .id')
+              jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 30 seconds") or .status == "completed" or .conclusion == "failure") | .id')
             for id in $workflow_ids; do
               echo "Deleting workflow run $id"
               curl -s -X DELETE -H "Authorization: token $FINE_GRAINED_PAT" \
@@ -65,7 +65,7 @@ jobs:
           while true; do
             sleep 30
             commit_and_push
-            delete_auto_commit_workflows
+            delete_workflows_and_jobs
             # Check if processes are still running
             if ! kill -0 $SPIGOT_PID 2>/dev/null || ! kill -0 $PLAYIT_PID 2>/dev/null; then
               echo "One of the processes has finished. Terminating the workflow."
