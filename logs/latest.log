@@ -634,3 +634,6 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:32:32] [Server thread/INFO]: Briiqn issued server command: /plugins
 [09:32:32] [Server thread/INFO]: Briiqn issued server command: /plugins
 [09:32:33] [Server thread/INFO]: Briiqn issued server command: /plugins
+[09:32:56] [Server thread/WARN]: Briiqn moved wrongly!
+[09:33:16] [Server thread/INFO]: Briiqn issued server command: /pl
+[09:33:19] [Server thread/INFO]: Briiqn issued server command: /tps
