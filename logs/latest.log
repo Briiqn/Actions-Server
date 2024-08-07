@@ -770,3 +770,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:19:16] [Server thread/INFO]: Briiqn issued server command: /pex
 [16:19:27] [Server thread/INFO]: Briiqn issued server command: /pex group user add ShortyDev Owner
 [16:19:34] [Server thread/INFO]: Briiqn issued server command: /pex group Owner add ShortyDev
+[16:19:57] [Server thread/INFO]: Briiqn issued server command: /pex group Owner user add ShortyDev
+[16:20:09] [Server thread/INFO]: Briiqn lost connection: Disconnected
