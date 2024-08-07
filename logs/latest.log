@@ -1093,3 +1093,5 @@ Caused by: java.lang.NullPointerException
 [23:06:36] [Server thread/INFO]: Briiqn issued server command: /pex group add
 [23:06:38] [Server thread/INFO]: Briiqn issued server command: /pex group add Owner
 [23:06:42] [Server thread/INFO]: Briiqn issued server command: /pex group Owner
+[23:06:49] [Server thread/INFO]: Briiqn issued server command: /pex user group
+[23:06:56] [Server thread/INFO]: Briiqn issued server command: /pex user group Owner add ShortyDev
