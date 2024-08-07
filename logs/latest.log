@@ -736,3 +736,11 @@ Reason: §9§lVerus §8> §fCheating
 [20:22:33] [Server thread/INFO]: §6Player§c Console §6banned§c Briiqn §6for: §c§cYou have been banned:
 §r§9§lVerus §8> §fCheating§6.
 [20:22:33] [Server thread/WARN]: handleDisconnection() called twice
+[20:22:47] [Server thread/INFO]: ProHaxLeaks issued server command: /unban Briiqn
+[20:22:47] [Server thread/INFO]: §6Player§c §4[Owner] ProHaxLeaks§r §6unbanned§c Briiqn.
+[20:22:49] [Thread-21/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:22:50] [Server thread/INFO]: Briiqn[/127.30.38.147:35751] logged in with entity id 1129 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[20:22:53] [Craft Scheduler Thread - 18/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[20:22:53] [Craft Scheduler Thread - 18/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[20:22:53] [Craft Scheduler Thread - 18/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[20:23:06] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
