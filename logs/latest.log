@@ -1106,3 +1106,10 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [17:05:28] [Craft Scheduler Thread - 91/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
 [17:05:32] [Server thread/WARN]: ProHaxLeaks moved wrongly!
 [17:05:49] [Server thread/WARN]: ProHaxLeaks moved wrongly!
+[17:06:03] [Server thread/INFO]: ProHaxLeaks issued server command: /aac
+[17:06:04] [Server thread/INFO]: ProHaxLeaks issued server command: /aac
+[17:06:17] [Server thread/WARN]: ProHaxLeaks moved wrongly!
+[17:06:19] [Server thread/WARN]: ProHaxLeaks moved wrongly!
+[17:06:21] [Server thread/WARN]: ProHaxLeaks moved wrongly!
+[17:06:28] [Server thread/WARN]: ProHaxLeaks moved wrongly!
+[17:06:33] [Server thread/WARN]: ProHaxLeaks moved wrongly!
