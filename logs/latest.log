@@ -648,3 +648,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:42:19] [Server thread/INFO]: Briiqn issued server command: /pl
 [08:44:14] [Craft Scheduler Thread - 0/ERROR]: [ItemList] Error when checking for a new update!
 [08:56:08] [Server thread/INFO]: Briiqn issued server command: /mem
+[09:01:41] [Thread-19/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
+[09:01:41] [Server thread/INFO]: [Polar] Detected 1.8.x for Sigma5
+[09:01:41] [Server thread/INFO]: Sigma5[/127.30.38.147:52167] logged in with entity id 1125 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:01:47] [Server thread/INFO]: [AuthMe] Sigma5 registered 127.30.38.147
+[09:01:47] [Craft Scheduler Thread - 30/INFO]: [AuthMe] The user Sigma5 has 7 accounts:
+[09:01:47] [Craft Scheduler Thread - 30/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7.
+[09:01:47] [Craft Scheduler Thread - 30/INFO]: [AuthMe] Sigma5 logged in 127.30.38.147
+[09:01:48] [Server thread/INFO]: Sigma5 issued server command: /gmc
+[09:01:48] [Server thread/INFO]: §cSigma5 §4was denied access to command.
