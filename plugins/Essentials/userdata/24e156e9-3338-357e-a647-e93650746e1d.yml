@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723047092354
+  logout: 1723047139612
   login: 1723047122706
 money: '0'
 last-account-name: Sigma5
@@ -24,7 +24,7 @@ logoutlocation:
   world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
   world-name: world
   x: 1408.1752180704786
-  y: 8.0
+  y: 7.0
   z: 53.58899998017976
-  yaw: 271.1307678222656
-  pitch: 60.569698333740234
+  yaw: 273.62481689453125
+  pitch: 71.18732452392578
