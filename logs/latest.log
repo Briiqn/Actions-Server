@@ -920,3 +920,40 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:41:28] [Craft Scheduler Thread - 66/INFO]: [AuthMe] The user aeeasd41 has 2 accounts:
 [16:41:28] [Craft Scheduler Thread - 66/INFO]: [AuthMe] §7shortydev, §aaeeasd41§7.
 [16:41:28] [Craft Scheduler Thread - 66/INFO]: [AuthMe] aeeasd41 logged in 127.16.144.220
+[16:41:37] [Thread-39/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[16:41:37] [Server thread/INFO]: [Polar] Detected 1.8.x for ProHaxLeaks
+[16:41:37] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:40533] logged in with entity id 3023 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ProHaxLeaks
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.reflect.GeneratedConstructorAccessor130.newInstance(Unknown Source)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ProHaxLeaks
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[16:41:38] [Craft Scheduler Thread - 68/WARN]: 	... 7 more
+[16:41:38] [Server thread/INFO]: aeeasd41 issued server command: /polar
+[16:41:41] [Server thread/INFO]: aeeasd41 issued server command: /aac
+[16:41:43] [Craft Scheduler Thread - 56/INFO]: [AuthMe] The user ProHaxLeaks has 12 accounts:
+[16:41:43] [Craft Scheduler Thread - 56/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[16:41:43] [Craft Scheduler Thread - 56/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
+[16:41:44] [Server thread/INFO]: aeeasd41 issued server command: /pl
+[16:41:47] [Server thread/INFO]: aeeasd41 issued server command: /ver Polar
+[16:41:47] [Server thread/INFO]: Outroduction issued server command: /plugins
