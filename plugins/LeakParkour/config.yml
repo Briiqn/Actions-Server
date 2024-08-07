@@ -1,0 +1,35 @@
+Language: en_US
+Settings:
+  max-time: 10
+  newsound: block_note_bass
+  oldsound: note_bass_guitar
+  sound: note_bass
+Reward:
+  enable: false
+  command: say This is reward for %player. (<- Edit it)
+Permissions:
+  permission-checkpoint: parkour.use
+  permission-setpoint: parkour.create
+  permission-setspawn: parkour.create
+  permission-setstart: parkour.create
+  permission-create: parkour.create
+  permission-parkour: parkour.parkour
+  permission-delete: parkour.delete
+  permission-reset: parkour.use
+  permission-list: parkour.list
+  permission-save: parkour.save
+Update:
+  1'8:
+    message: false
+  1'9:
+    message: false
+  2'0:
+    message: false
+  2'1:
+    message: false
+  2'2:
+    message: false
+  2'3:
+    message: false
+  2'4:
+    message: false

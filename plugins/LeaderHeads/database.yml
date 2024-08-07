@@ -1,0 +1,38 @@
+#-----------------------------------------#
+#                                         #
+#              LeaderHeads 3 to manage    #
+#    statistics and create leaderboards   #
+#          (R) RobiRami 2017              #
+#                                         #
+#-----------------------------------------#
+#                                         #
+#            Database config              #
+#                                         #
+#-----------------------------------------#
+
+# Server name
+# If you want to display statistics from this server on another
+# server then you will have to change this. Please use a lowercased word
+# without any spaces. If you do not enable MySQL, this feature is useless.
+server: default
+
+# MySQL details
+mysql-enabled: false
+mysql-host: localhost
+mysql-port: 3306
+mysql-database: database
+mysql-username: username
+mysql-password: password
+mysql-batch-size: 256
+mysql-connections: 10
+mysql-timeout: 120000
+mysql-ssl: false
+
+
+# SQLite Batch size
+# Setting this higher than 500 will cause issues
+sqlite-batch-size: 256
+
+# Version of the config
+# Do NOT change this
+config-version: 1

@@ -1,0 +1,48 @@
+spawn:
+  spawnpoint:
+    world: world
+    x: 0
+    y: 65
+    z: 0
+    yaw: -90.16894
+    pitch: -1.3500241
+  start:
+    world: world
+    x: -19
+    y: 48
+    z: -20
+    yaw: -12.76883
+    pitch: 89.85
+  checkpoint:
+    '0':
+      location:
+        world: world
+        x: 21
+        y: 45
+        z: 16
+        yaw: -179.56882
+        pitch: 90.0
+    '1':
+      location:
+        world: world
+        x: 32
+        y: 40
+        z: 1
+        yaw: 75.731346
+        pitch: 90.0
+    '2':
+      location:
+        world: world
+        x: 14
+        y: 45
+        z: -33
+        yaw: -238.21857
+        pitch: 90.0
+    '3':
+      location:
+        world: world
+        x: 0
+        y: 57
+        z: -45
+        yaw: -248.71861
+        pitch: 90.0

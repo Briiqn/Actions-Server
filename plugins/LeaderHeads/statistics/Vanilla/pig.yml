@@ -1,0 +1,94 @@
+# -----------------------------------------
+# 
+# 		    Statistic config
+# 
+#            Name: pig
+#     	   Plugin: Vanilla
+# 
+# -----------------------------------------
+# 
+#     Explanation of options:
+# 
+#     force-update: whether the plugin should update the data
+# 	of this statistic even if no sign is made for its leaderboard or not.
+# 
+#     enable-commas: whether to add commas to the format of the statistic (e.g. 9,000,000)
+# 
+#     update-interval: the time in seconds between updates of a statistic and leaderboard.
+#     There's no update-interval for the sub-statistics because these update when the main statistic updates.
+# 
+#     sign-lines: the lines on the sign of the leaderboard. Variables: {rank}, {name}, {amount}
+# 
+#     menu-lines: the lines on the skulls in the menu of the leaderboard
+# 
+#     online-only: whether the plugin should only save this statistic to the database for online players
+# 
+# -----------------------------------------
+force-update: false
+online-only: true
+enable-commas: true
+all-time:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+  update-interval: 30
+  menu-enabled: true
+  menu-command: /toppig
+  menu-size: 90
+  menu-name: '&4Top Pig Riders Page {page}'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+daily:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+  menu-enabled: true
+  menu-command: /toppigdaily
+  menu-size: 90
+  menu-name: '&4Top Pig Riders Page {page} Daily'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+weekly:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+  menu-enabled: true
+  menu-command: /toppigweekly
+  menu-size: 90
+  menu-name: '&4Top Pig Riders Page {page} Weekly'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+monthly:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'
+  menu-enabled: true
+  menu-command: /toppigmonthly
+  menu-size: 90
+  menu-name: '&4Top Pig Riders Page {page} Monthly'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&e{amount} blocks'
+  - '&c&m------------'

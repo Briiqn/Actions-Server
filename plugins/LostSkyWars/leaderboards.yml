@@ -1,0 +1,16 @@
+boards:
+  '2':
+    type: HOLOGRAM
+    stats: WINS
+    ranking: 0
+    location: world; 28.5; 64.0; -32.5; -187.22911; 90.0
+  '1':
+    type: HOLOGRAM
+    stats: KILLS
+    ranking: 0
+    location: world; 24.5; 64.0; -32.5; -200.8778; 90.0
+  '3':
+    type: HOLOGRAM
+    stats: LEVEL
+    ranking: 0
+    location: world; 20.5; 64.0; -32.5; -186.92766; 86.70009

@@ -1,0 +1,26 @@
+# Actions:
+# NOTHING
+# OPEN:normal
+# OPEN:insane
+# OPEN:shop
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Kits'
+rows: 4
+items:
+ normal:
+  slot: 12
+  action: 'OPEN:normal'
+  stack: 'STONE_SWORD : 1 : display=&aNormal Kits : lore=&7Selection of unique kits\n&7for Normal games.\n \n&eClick to browse!'
+ insane:
+  slot: 14
+  action: 'OPEN:insane'
+  stack: 'IRON_SWORD : 1 : display=&aInsane Kits  : lore=&7Selection of unique kits\n&7for Insane games.\n \n&eClick to browse!'
+ back:
+  slot: 30
+  action: 'OPEN:shop'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To SkyWars Shop'
+ coins:
+  slot: 31
+  action: 'NOTHING'
+  stack: 'EMERALD : 1 : display=&7Total Coins: &6{coins} : lore=&6http://store.hypixel.net'

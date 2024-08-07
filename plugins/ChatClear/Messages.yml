@@ -1,0 +1,6 @@
+Messages:
+  Prefix: ''
+  NoPermission: '&cYou don''t have permission this command!'
+  ChatClear: ''
+  NoConsole: '&cYou must be a player to use this command!'
+  ConfigReload: '&aSuccessfully reloaded Config!'

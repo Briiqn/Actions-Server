@@ -1,0 +1,910 @@
+Gadgets:
+  Fun And Games:
+    Name: '&eFun & Games'
+    Material: head:b89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7
+    Enabled: true
+    Lore:
+    - '&7Play games or just'
+    - '&7generally mess around in'
+    - '&7lobbies with these fun'
+    - '&7gadgets!'
+    Types:
+      Magic 9 Ball:
+        Name: '&aMagic 9 Ball Gadget'
+        Material: BLACK_WOOL
+        Cooldown: 3
+        Mystery Dust: 22
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+        - '&eThe Cat says: &fFEED ME.'
+        - '&eThe Troll says: &fTrololololololol'
+        - '&eThe staff says: &fPlease dont break rules.'
+        - '&eYour mom says: &fYou should stop playing so much games.'
+        - '&eKevin fisherman says: &fLets catch a fish!'
+        - '&eBryan Mills says: &fI will find you, and I will kill you.'
+        - '&eAnna says: &fDo you wanna build a snowman?'
+        - '&eMinion says: &fBEE DO BEE DO BEE DO!'
+        - '&eHerobrine says: &fNo one will survive!'
+        - '&eDog says: &fMeow!'
+        - '&eDarth Vader says: &fI am your father.'
+        - '&eElsa says: &fThe cold never bothered me anyway.'
+        - '&eThe Creeper says: &fNo don''t worry. I won''t blow up in your face'
+        - '&eNotch says: &fLife is more fun if you play minecraft.'
+        - '&eMario says: &fIt''s me, Mario!'
+        - '&eCat says: &fBark!'
+        - 'Bob Ross says: There are no mistakes, only happy accidents.'
+        Lore:
+        - '&7Learn the answers to your'
+        - '&7problems through some of'
+        - '&7the world''s greatest'
+        - '&7leaders.'
+      Fortune Cookie:
+        Name: '&aFortune Cookie Gadget'
+        Material: COOKIE
+        Cooldown: 0
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Player:
+          - '&e{PLAYER}&f: Oh look, a cookie!'
+          - '&e{PLAYER}&f: That cookie was delicious!'
+          - '&e{PLAYER}&f: But wait, there was a piece of paper in it! What does itsay?'
+          Fortune Cookie:
+          - '&eFortune Cookie&f: If you''re not happy where you are, take a few steps
+            to the left. If you''re still not happy then we cannot help you.'
+          - '&eFortune Cookie&f: Some of uslearn from the mistakes of others; the
+            rest are others.'
+          - '&eFortune Cookie&f: Tomorrow, take a left turn. Then a right turn. Then
+            another left turn. You have now reached your destination.'
+          - '&eFortune Cookie&f: You are unique, just like everybody else.'
+          - '&eFortune Cookie&f: You may or may not be an indecisive person.'
+          - '&eFortune Cookie&f: The fortune you seek is inside another cookie.'
+          - '&eFortune Cookie&f: There are three kinds of people in the world : those
+            who can count, and those who can''t.'
+          - '&eFortune Cookie&f: In a hairdressing shop with 2 hairdressers, choose
+            the one with the worst haircut.'
+          - '&eFortune Cookie&f: A clean bedroom is the sign of a broken computer.'
+          - '&eFortune Cookie&f: The early bird gets the work, but that''s gross who
+            would want a worm???'
+          - '&eFortune Cookie&f: 34% of statistics found on the internet are completely
+            made up!'
+          - '&eFortune Cookie&f: If you don''t want someone to ask you to do something
+            again, do it terribly the first time!'
+          - '&eFortune Cookie&f: Strong people don''t put others down. They lift them
+            up and slam them on the ground for maximum damage.'
+          - '&eFortune Cookie&f: Don''t worry about stats too much - what matters
+            is the fun you have!'
+          - '&eFortune Cookie&f: The next sentence is a lie. The previous sentence
+            is the truth.'
+          - '&eFortune Cookie&f: If you push hard enough you can get through any obstacle
+            - except a door marked ''''pull''''!'
+          - '&eFortune Cookie&f: If you need to get your family''s attention, just
+            turn off the WiFi for a minute!'
+          - '&eFortune Cookie&f: Nothing ruins a Friday more then realising it''s
+            actually a Tuesday.'
+          - '&eFortune Cookie&f: You started out with nothing, and you still have
+            most of it.'
+          - '&eFortune Cookie&f: Do it! Just do it! Don''t let your dreams be dreams,
+            just do it!'
+          - '&eFortune Cookie&f: Life is like a box of chocolates. Some people are
+            soft-centered, some are tough and chewy, and a few are just plain nuts!'
+          - '&eFortune Cookie&f: If Mom says no, ask Dad!'
+          - '&eFortune Cookie&f: The universe contains protons, neutrons, electrons
+            and morons.'
+          - '&eFortune Cookie&f: Take regular breaks from playing - it''s good for
+            your health!'
+          - '&eFortune Cookie&f: If there aren''t any open doors, try a window. If
+            there aren''t any open windows, stop trying to break into my house!'
+          - '&eFortune Cookie&f: If you think that nobody cares about you, try not
+            paying your bills!'
+          - '&eFortune Cookie&f: Only listen to advice gained from cookies - do not
+            trust other fortune-telling foods!'
+          - '&eFortune Cookie&f: Never give up, unless you have entered the International
+            Giving Up competition.'
+          - '&eFortune Cookie&f: Make someone else''s day by being a good sport, and
+            somebody will make yours!'
+          - '&eFortune Cookie&f: When life gives you lemons, make lemonade. When life
+            gives you limes, throw the limes out the window and buy some damn lemonade!'
+          - '&eFortune Cookie&f: If you''re not supposed to eat after dark, why is
+            there a light in the refrigerator?'
+          - '&eFortune Cookie&f: Change your password to ''''incorrect''''. That way
+            if you forget it, your computer will tell you what it is!'
+          - '&eFortune Cookie&f: If you forget what you look like, just look into
+            a mirror. If the mirror doesn''t look back, it''s a window!'
+          - '&eFortune Cookie&f: You''ll win that *insert game* game. Just keep trying
+            until you succeed!'
+          - '&eFortune Cookie&f: The only substitute for good manners is fast reflexes.'
+          - '&eFortune Cookie&f: Relationships are like algebra. You look at your
+            X and wonder Y?'
+        Lore:
+        - '&7What''s better than a'
+        - '&7cookie? A cookie that gives'
+        - '&7solid life advice! Enjoy a'
+        - '&7sweet treat and wise words'
+        - '&7with this Fortune Cookie'
+        - '&7gadget.'
+      Tetherball:
+        Name: '&5Tetherball Gadget'
+        Material: OAK_FENCE
+        Cooldown: 90
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Spawns a pole, complete'
+        - '&7with a tether ball - '
+        - '&7prefect for a quick game of'
+        - '&7tetherball!'
+      Diving Board:
+        Name: '&6Diving Board Gadget'
+        Material: CAULDRON
+        Cooldown: 60
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+        - '&eBackflip!'
+        - '&eFrontflip!'
+        - '&eSwan Dive'
+        - '&eBelly Flop!'
+        - '&eCannonball!'
+        Lore:
+        - '&7Everything was going'
+        - '&7swimmingly, until'
+        - '&7suddenly... CANNONBALL!'
+        - '&7Show off your aquatic'
+        - '&7skills with this Diving'
+        - '&7Board gadget.'
+      Trampoline:
+        Name: '&6Trampoline Gadget'
+        Material: HOPPER
+        Cooldown: 80
+        Mystery Dust: 92
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Constructs a trampoline'
+        - '&7that sends you into the'
+        - '&7air. Invite your friends!'
+      Flower Giver:
+        Name: '&9Flower Giver Gadget'
+        Material: FLOWER_POT
+        Cooldown: 5
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Target-A-Player: '&cRight click a player to give them a flower!'
+          Already-Had-A-Flower: '&cThat player already had a flower.'
+          Sent-A-Flower: '&eYou sent &r{PLAYER} &ea flower!'
+          Already-Sent-A-Request: '&cYou''ve already sent a flower request to &r{PLAYER}&c.'
+          Received-Flower: '{PLAYER} &ehas given you a flower!'
+          Accept: '&a&l[ACCEPT]'
+          Decline: '&c&l[DECLINE]'
+          Accept-Json-message: '&7Click here to accept the flower.'
+          Decline-Json-message: '&7Click here to decline the flower.'
+          No-Pending-Invite: '&cYou don''t have a pending invite from that player.'
+          Accepted-Flower: '{PLAYER} &aaccepted your flower!'
+          Declined-Flower: '{PLAYER} &cdeclined your flower!'
+          Right-Click-To-Remove-Flower: '&eRight-Click to remove your flower!'
+        Lore:
+        - '&7Spread the good vibes by'
+        - '&7giving flowers to everyone'
+        - '&7around you!'
+      Sand Castle:
+        Name: '&9Sand Castle Gadget'
+        Material: head:9918b3b7516b1946566fd7b287f82ef44afafea9a2c3bd385691f7f0f42097f8
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Build your own castle with'
+        - '&7real sand!'
+      BBQ Grill:
+        Name: '&5BBQ Grill Gadget'
+        Material: OBSIDIAN
+        Cooldown: 45
+        Mystery Dust: 58
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Come on, you earned it!'
+        - '&7Celebrate a real party BBQ'
+        - '&7style!'
+      Pocket Beach:
+        Name: '&5Pocket Beach Gadget'
+        Material: SAND
+        Cooldown: 60
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Can''t go to the beach? No'
+        - '&7problem! Carry your own'
+        - '&7spot in your pocket!'
+      Ice Cream Stand:
+        Name: '&6Ice Cream Stand Gadget'
+        Material: head:239299c36b54bb11e57c686bfe53a5c1c441310f90f69347bacddbf343609d
+        Cooldown: 30
+        Mystery Dust: 68
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+        - '&eIce Cream Guy&f: Hazelnuts topping... Double chcolate... And vanilla...
+          Forgot anything?'
+        - '&eIce Cream Guy&f: Strawberry icecream, my favorite!'
+        - '&eIce Cream Guy&f: I''m afraid I don''t have change at the minute :('
+        - '&eIce Cream Guy&f: Sorry, we only accept cash for now!'
+        Lore:
+        - '&7"I''ll have a vanilla fudge'
+        - '&7ice cream, thanks!".'
+      Tic Tac Toe:
+        Name: '&6Tic Tac Toe Gadget'
+        Material: head:a6864136e374f5d676fb4f5b03e10a7bcdb4190b376378ae9492045fb4adf9d
+        Cooldown: 30
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Target-A-Player: '&cRight click a player to initiate a game of Tic Tac Toe
+            with them!'
+          Target-Other-Player: '&cThat player currently playing Tic Tac Toe. Please
+            right click other player to initiate a game of Tic Tac Toe with them!'
+          Challenge: '&eYou challenged {PLAYER} &eto a game of Tic Tac Toe.'
+          Already-Sent-A-Request: '&cYou''ve already sent a challenge request to &r{PLAYER}&c.'
+          Received-Challenge: '{PLAYER} &ehas challenged you to a game of Tic Tac
+            Toe.'
+          Accept: '&a&l[ACCEPT]'
+          Decline: '&c&l[DECLINE]'
+          Accept-Json-message: '&7Click here to accept the challenge.'
+          Decline-Json-message: '&7Click here to decline the challenge.'
+          No-Pending-Challenge: '&cYou don''t have a pending challenge from that player.'
+          Accepted-Challenge: '{PLAYER} &aaccepted your challenge!'
+          Declined-Challenge: '{PLAYER} &cdeclined your challenge!'
+          Draw: '&cThe Tic Tac Toe game with &r{PLAYER} &cended in a draw.'
+          Win: '&aYou defeated &r{PLAYER} &ain Tic Tac Toe!'
+          Loss: '{PLAYER} &cdefeated you in Tic Tac Toe!'
+          Opponent-Left-Game: '&cYour opponent left the Tic Tac Toe game!'
+          Player-Left-Game: '&cYou left the Tic Tac Toe game!'
+        Items:
+          GUI-Name: Tic Tac Toe - {OPPONENT}
+          Place-Symbol:
+            Name: '&aClick here!'
+            Material: ITEM_FRAME
+            Lore:
+            - '&7Click here to place your'
+            - '&7symbol here.'
+          Not-Your-Turn:
+            Name: '&cIt''s not your turn!'
+            Material: PAINTING
+            Lore:
+            - '&7It''s currently not your'
+            - '&7turn - you can''t do'
+            - '&7anything.'
+          Challenger:
+            Name: '&6Orange: &f{PLAYER}'
+            Material: ORANGE_TERRACOTTA
+            Lore:
+            - '&7Orange player is'
+            - '&7{PLAYER}&7.'
+          Opponent:
+            Name: '&bBlue: &f{PLAYER}'
+            Material: LIGHT_BLUE_TERRACOTTA
+            Lore:
+            - '&7Blue player is'
+            - '&7{PLAYER}&7.'
+          Challenger-Symbol:
+            Name: '&6Orange'
+            Material: ORANGE_TERRACOTTA
+            Lore:
+            - '&7This slot belongs to'
+            - '&7Orange.'
+          Opponent-Symbol:
+            Name: '&bBlue'
+            Material: LIGHT_BLUE_TERRACOTTA
+            Lore:
+            - '&7This slot belongs to Blue.'
+        Lore:
+        - '&7Challenge your friends to a'
+        - '&7tic-tac-toe game. Who will'
+        - '&7be the winner?'
+  Mobs And NPCs:
+    Name: '&eMobs & NPCs'
+    Material: CREEPER_HEAD
+    Enabled: true
+    Lore:
+    - '&7Spawn and play with wacky'
+    - '&7creatures using these Mobs'
+    - '&7& NPC gadgets!'
+    Types:
+      CATapult:
+        Name: '&9CATapult Gadget'
+        Material: OCELOT_SPAWN_EGG
+        Cooldown: 50
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Attack your enemies with'
+        - '&7their worst fear, cats!'
+        - '&7Launches 5 exploding cats'
+        - '&7in the direction you aim.'
+      When Pigs Fly:
+        Name: '&9When Pigs Fly Gadget'
+        Material: SADDLE
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Spawns a flying pig with'
+        - '&7you riding it into battle!'
+      Creeper Astronaut:
+        Name: '&9Creeper Astronaut Gadget'
+        Material: CREEPER_SPAWN_EGG
+        Cooldown: 40
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Shoot a creeper into the'
+        - '&7air, if it makes it to the'
+        - '&7top, enjoy the spectacular'
+        - '&7show!'
+      Exploding Sheep:
+        Name: '&9Exploding Sheep Gadget'
+        Material: SHEARS
+        Cooldown: 15
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Right out of Farm Hunt,'
+        - '&7it''s the one and only'
+        - '&7Explosive Sheep back and'
+        - '&7more explosive that ever.'
+      Bat Launcher:
+        Name: '&9Bat Launcher Gadget'
+        Material: IRON_HORSE_ARMOR
+        Affect-Players: true
+        Cooldown: 10
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Launcher a wave of bats'
+        - '&7to which people you do'
+        - '&7not like!'
+      Scarecrow:
+        Name: '&6Scarecrow Gadget'
+        Material: JACK_O_LANTERN
+        Cooldown: 30
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Jack-O-Lantern-DisplayName: '&cScarecrow'
+        Lore:
+        - '&7Spawns a scarecrow that'
+        - '&7changes the head of nearby'
+        - '&7players into a pumpkin.'
+  Movement:
+    Name: '&eMovement'
+    Material: GOLDEN_BOOTS
+    Enabled: true
+    Lore:
+    - '&7Change the way you walk,'
+    - '&7run or fly around lobbies'
+    - '&7with these movement-altering'
+    - '&7gadgets!'
+    Types:
+      Cowboy:
+        Name: '&5Cowboy Gadget'
+        Material: CACTUS
+        Cooldown: 5
+        Mystery Dust: 30
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Allows you to ride the'
+        - '&7nearest player. Create'
+        - '&7towers by riding other'
+        - '&7players!'
+      Teleport Stick:
+        Name: '&9Teleport Stick Gadget'
+        Material: STICK
+        Cooldown: 5
+        Mystery Dust: 18
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Range: 30
+        Lore:
+        - '&7Allows you to teleport'
+        - '&7anywhere by right-clicking'
+        - '&7and pointing with this'
+        - '&7magical stick!'
+      Fire Trail:
+        Name: '&9Fire Trail Gadget'
+        Material: BLAZE_POWDER
+        Cooldown: 50
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Gives you Speed II and'
+        - '&7give a trail of blazing'
+        - '&7fire behind you.'
+      Paint Trail:
+        Name: '&9Paint Trail Gadget'
+        Material: MAGENTA_DYE
+        BlackList:
+        - SPAWNER
+        Cooldown: 35
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Leaves a trail of randomly'
+        - '&7colored clay behind you'
+        - '&7that disappears a few'
+        - '&7seconds later.'
+      Parachute:
+        Name: '&5Parachute Gadget'
+        Material: LEAD
+        Cooldown: 60
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Rockets you into the sky,'
+        - '&7shortly before deploying'
+        - '&7your parachute for a soft'
+        - '&7landing.'
+      Teleporter:
+        Name: '&5Teleporter Gadget'
+        Material: ENDER_EYE
+        Cooldown: 30
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Initiating-Teleport-Sequence: '&e&lInitiating teleport sequence. Please
+            stand by!'
+          Scanning-Players: '&e&lScanning players for a target to teleport to...'
+          Target-Acquired: '&e&lTarget acquired: &k&lRANDOMCHARATERS&e&l!'
+          Teleport-Initiating: '&e&lBuckle up! Teleport initiating...'
+          Teleport-Complete: '&e&lTeleport complete! Thank you for using Teleporter
+            Fast Travel!'
+          Process-Failed: '&c&lProcess "find target" failed! Could not locate a valid
+            target!'
+          Aborted-Teleport-Sequence: '&c&lAborted teleporting sequence...'
+        Lore:
+        - '&7In the blink of an eye you'
+        - '&7vanish, and magically'
+        - '&7appear somewhere else.'
+        - '&7Traverse the space-time'
+        - '&7continuum with this'
+        - '&7Teleporter gadget.'
+      Rocket:
+        Name: '&6Rocket Gadget'
+        Material: FIREWORK_ROCKET
+        Cooldown: 120
+        Mystery Dust: 125
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Blast off to the moon with'
+        - '&7this large scale rocket'
+        - '&7complete with countdown,'
+        - '&7sounds and an explosive'
+        - '&7ending.'
+      Let It Snow:
+        Name: '&9Let It Snow Gadget'
+        Material: SNOW_BLOCK
+        Cooldown: 80
+        Mystery Dust: 60
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Release a small snowstorm'
+        - '&7around you, covering the'
+        - '&7area in white for a short'
+        - '&7amount of time!'
+  Musical:
+    Name: '&eMusical'
+    Material: JUKEBOX
+    Enabled: true
+    Lore:
+    - '&7Make some noise with these'
+    - '&7sound-emitting musical'
+    - '&7gadgets!'
+    Types:
+      Jukebox:
+        Name: '&5Jukebox Gadget'
+        Material: MUSIC_DISC_CAT
+        Cooldown: 3
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Allows you to open a music'
+        - '&7player where you can select'
+        - '&7from various C418 hit'
+        - '&7singles to play.'
+        Items:
+          GUI-Name: Jukebox
+          Track:
+            Name: '&b{TRACK}'
+            Lore:
+            - ''
+            - '&eClick to play!'
+          Stop-Track:
+            Name: '&cStop Track'
+            Material: RED_WOOL
+            Lore:
+            - '&7Stop playing the current track.'
+      Radio:
+        Name: '&6Radio Gadget'
+        Material: MUSIC_DISC_13
+        Cooldown: 3
+        Mystery Dust: 105
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Listen to your favourite'
+        - '&7Noteblock hits with this'
+        - '&7patented Radio gadget!'
+        Items:
+          GUI-Name: Radio
+          Track:
+            Name: '&b{TRACK}'
+            Material: NOTE_BLOCK
+            Lore:
+            - ''
+            - '&eClick to play!'
+          Stop-Track:
+            Name: '&cStop Track'
+            Material: RED_WOOL
+            Lore:
+            - '&7Stop playing the current track.'
+      Disco Ball:
+        Name: '&5Disco Ball Gadget'
+        Material: LIGHT_BLUE_STAINED_GLASS
+        Duration-Seconds: 60
+        Cooldown: 80
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Spawns a Disco Ball,'
+        - '&7complete with fancy effects'
+        - '&7and music.'
+      DJ Booth:
+        Name: '&6DJ Booth Gadget'
+        Material: NOTE_BLOCK
+        Duration-Seconds: 60
+        Cooldown: 60
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7If you ever wanted to'
+        - '&7become a DJ, it''s now or'
+        - '&7never! Mesmerize your'
+        - '&7friends with this DJ set'
+        - '&7and dance floor.'
+  Projectile:
+    Name: '&eProjectile'
+    Material: BOW
+    Enabled: true
+    Lore:
+    - '&7Fire at will! Shoot your'
+    - '&7way around the lobbies with'
+    - '&7these fun projectile'
+    - '&7gadgets!'
+    Types:
+      MobGun:
+        Name: '&9MobGun Gadget'
+        Material: BLAZE_ROD
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Launch exploding'
+        - '&7projectiles using 18'
+        - '&7different types of mobs.'
+        Actionbar-Message: '{GADGET} &r- {MOB}'
+        Mob-Name:
+          Pig: Pig
+          Villager: Villager
+          Ocelot: Ocelot
+          Cow: Cow
+          Creeper: Creeper
+          Spider: Spider
+          Squid: Squid
+          Chicken: Chicken
+          Sheep: Sheep
+          Wolf: Wolf
+          Witch: Witch
+          Blaze: Blaze
+          Horse: Horse
+          Zombie: Zombie
+          Skeleton: Skeleton
+          MushroomCow: MushroomCow
+          CaveSpider: CaveSpider
+          PigZombie: PigZombie
+      Railgun:
+        Name: '&aRailgun Gadget'
+        Material: LEVER
+        Cooldown: 5
+        Mystery Dust: 16
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7It''s the basic railgun'
+        - '&7ready to fire at will!'
+      Paintball Gun:
+        Name: '&aPaintball Gun Gadget'
+        Material: DIAMOND_HORSE_ARMOR
+        Radius: 3
+        BlackList:
+        - SAND
+        - GRAVEL
+        - SPAWNER
+        Cooldown: 3
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7What better way to spruce up'
+        - '&7the lobby than with a'
+        - '&7little color? Or a lot,'
+        - '&7who''''s counting?'
+      Explosive Bow:
+        Name: '&aExplosive Bow Gadget'
+        Material: BOW
+        Cooldown: 8
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Teleport Sticks are for'
+        - '&7losers. All the cool kids'
+        - '&7use the Explosive Bow'
+      Melon Launcher:
+        Name: '&aMelon Launcher Gadget'
+        Material: MELON
+        Cooldown: 3
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Eat the melon slices for'
+        - '&7a temporary speed boost!'
+  Visual:
+    Name: '&eVisual'
+    Material: head:fec5963e1f78f2f05943f4dd32224661374c220ecfde1e54754f5ee1e555dd
+    Enabled: true
+    Lore:
+    - '&7Change the way you or the'
+    - '&7lobby looks with these'
+    - '&7visual gadgets!'
+    Types:
+      Kookie Fountain:
+        Name: '&5Kookie Fountain Gadget'
+        Material: COOKIE
+        Cooldown: 60
+        Mystery Dust: 62
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Makes kookies rain around'
+        - '&7you!'
+      Pyromaniac:
+        Name: '&9Pyromaniac Gadget'
+        Material: FLINT_AND_STEEL
+        Cooldown: 30
+        Mystery Dust: 35
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Ignites you into a ball of'
+        - '&7fire for 10 seconds, before'
+        - '&7cooling off.'
+      Diamond Shower:
+        Name: '&5Diamond Shower Gadget'
+        Material: DIAMOND
+        Cooldown: 60
+        Mystery Dust: 75
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Showers you in Diamonds,'
+        - '&7fantastic for showing off'
+        - '&7your amazing wealth.'
+      Gold Fountain:
+        Name: '&9Gold Fountain Gadget'
+        Material: GOLD_NUGGET
+        Cooldown: 60
+        Mystery Dust: 70
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7What''s the best thing to do'
+        - '&7with Gold? Making it rain'
+        - '&7Gold.'
+      Kawarimi No Jutsu:
+        Name: '&9Kawarimi No Jutsu Gadget'
+        Material: OAK_LOG
+        Cooldown: 30
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7With this technique, users'
+        - '&7replace their own body with'
+        - '&7a block of wood.'
+      Cryotube:
+        Name: '&9Cryotube Gadget'
+        Material: SNOWBALL
+        Cooldown: 45
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Freezes you inside ice,'
+        - '&7great if you''re planning on'
+        - '&7surviving any random'
+        - '&7apocalypses.'
+      Ghosts:
+        Name: '&9Ghosts Gadget'
+        Material: WITHER_SKELETON_SKULL
+        Cooldown: 40
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Spawns floating ghost heads'
+        - '&7that fly away before'
+        - '&7disappearing as soon as'
+        - '&7they came.'
+      Party Popper:
+        Name: '&9Party Popper Gadget'
+        Material: ENDER_CHEST
+        Affect-Players: true
+        Cooldown: 60
+        Mystery Dust: 50
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Explodes you into a confetti'
+        - '&7complete with noises and!'
+        - '&7everything to make your lobby'
+        - '&7party amazing.'
+      Poop Bomb:
+        Name: '&5Poop Bomb Gadget'
+        Material: COCOA_BEANS
+        Cooldown: 40
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7If the name doesn''t say'
+        - '&7enough, this is pretty much'
+        - '&7just a bomb that explodes'
+        - '&7releasing poop everywhere.'
+        - '&7Yup.'
+      TNT Fountain:
+        Name: '&6TNT Fountain Gadget'
+        Material: TNT
+        Cooldown: 80
+        Mystery Dust: 90
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Spawns an animated fountain'
+        - '&7that rains down primed TNT.'
+      Dracula:
+        Name: '&aDracula Gadget'
+        Material: GHAST_TEAR
+        Cooldown: 30
+        Mystery Dust: 15
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&7Launcher a wave of bats'
+        - '&7and give you a temporary'
+        - '&7invisibility.'

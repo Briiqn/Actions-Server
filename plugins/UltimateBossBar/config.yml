@@ -1,0 +1,22 @@
+Bars:
+- Title:
+    1: "&e&lWELCOME TO &a&lNETWORK &6&lHYPIXEL &f➨ &b&lHYPIXEL.NET"
+    2: "&e&lWELCOME TO &6&lNETWORK &a&lHYPIXEL &f➨ &b&lHYPIXEL.NET"
+    3: "&e&lWELCOME TO &a&lNETWORK &6&lHYPIXEL &f➨ &b&lHYPIXEL.NET"
+    4: "&e&lWELCOME TO &6&lNETWORK &a&lHYPIXEL &f➨ &b&lHYPIXEL.NET"
+    5: "&e&lWELCOME TO &a&lNETWORK &6&lHYPIXEL &f➨ &b&lHYPIXEL.NET"
+    6: "&e&lWELCOME TO &a&lNETWORK &6&lHYPIXEL &f➨ &b&lHYPIXEL.NET"
+  Color:
+    1: red
+    2: blue
+    3: pink
+    4: yellow
+    5: purple
+    6: white
+  Update-Delay: 5
+- Title: '&cHealth (%player_health%/%player_max_health%)'
+  Health: '%player_health%'
+  Max-Health: '%player_max_health%'
+  Color: '25=red, 50=yellow, 100=green'
+Enabled-Worlds:
+- world

@@ -1,0 +1,17 @@
+Prefix: '&8[&eChatReplace&8] '
+Replace: true
+ChatReplace:
+  Replace:
+    - fuck:****
+    - fuckyou:****
+    - fuck you:****
+    - bitch:****
+    - shit:****
+  #khi chat "server lag vc" thì nó sẽ thay lại thành "server mượt vl"
+  Messages:
+    NotPlayer: '&cBạn phải là người chơi để thực hiện lệnh này'
+    NoPermissions: '&4You don''t have permissions'
+    Reload: '&aĐã nạp lại config thành công!'
+    Command:
+      - '&f/cr reload: &aĐể nạp lại config'
+      - '  &9Permission: &ecr.reload'

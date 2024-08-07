@@ -1,0 +1,11 @@
+Custom-Particles:
+  End Rod:
+    Name: '&5End Rod Particle'
+    Material: END_ROD
+    Mystery Dust: 32
+    Rarity: Epic
+    Effect: END_ROD
+    Enabled: false
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''

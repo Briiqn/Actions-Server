@@ -1,0 +1,26 @@
+# Actions:
+# NOTHING
+# OPEN:profile
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+#
+# {target} = '- PlayerName' if the player uses /stats <username>
+title: 'Statistics {target}'
+rows: 4
+items:
+ solo:
+  slot: 12
+  action: 'NOTHING'
+  stack: 'IRON_SWORD : 1 : display=&aSolo : lore=&7Kills:\n &a* &7Total: &e{solokills}\n &a* &7Melee: &e{solomelee}\n &a* &7Void: &e{solovoid}\n &a* &7Bow: &e{solobow}\n&7Wins: &e{solowins}\n&7Deaths: &e{solodeaths}\n&7Assists: &e{soloassists}\n&7Games: &e{sologames}'
+ team:
+  slot: 14
+  action: 'NOTHING'
+  stack: 'DIAMOND_SWORD : 1 : display=&aDoubles : lore=&7Kills:\n &a* &7Total: &e{teamkills}\n &a* &7Melee: &e{teammelee}\n &a* &7Void: &e{teamvoid}\n &a* &7Bow: &e{teambow}\n&7Wins: &e{teamwins}\n&7Deaths: &e{teamdeaths}\n&7Assists: &e{teamassists}\n&7Games: &e{teamgames}'
+ back:
+  slot: 30
+  action: 'OPEN:profile'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To My Profile'
+ total:
+  slot: 31
+  action: 'NOTHING'
+  stack: 'BOOK : 1 : display=&aTotal Stats : lore=&7Kills:\n &a* &7Total: &e{kills}\n &a* &7Melee: &e{melee}\n &a* &7Void: &e{void}\n &a* &7Bow: &e{bow}\n&7Wins: &e{wins}\n&7Deaths: &e{deaths}\n&7Assists: &e{assists}\n&7Games: &e{games}'

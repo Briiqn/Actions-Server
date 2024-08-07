@@ -1,0 +1,72 @@
+#-----------------------------------------#
+#                                         #
+#              LeaderHeads 3              #
+#    A full-fledged solution to manage    #
+#    statistics and create leaderboards   #
+#          (R) RobiRami 2017              #
+#                                         #
+#-----------------------------------------#
+#                                         #
+#       Automatic-rewards config          #
+#                                         #
+#-----------------------------------------#
+
+
+# This is the delay in seconds before the commands are executed when a player 
+# joins and he hasn't received his reward yet. This way the messages don't get 
+# lost between the other join messages.
+delay: 10
+# Automatic rewards
+# Change this to "rewards: []" and remove the things under it to have no rewards.
+rewards:
+  # Name of this automatic reward.
+  # Used for logging in console
+  kills: 
+    time-interval: weekly
+    type: kills
+    identifier: weekly
+    queue-commands: true
+    commands:
+      1:
+        - "broadcast {name} is the killer of the week with {score} kills"
+        - "/give {name} minecraft:diamond 10"
+      2: 
+        - "broadcast {name} is the second best voter of the month with {score} kills"
+        - "/give {name} minecraft:diamond 8"
+      3: 
+        - "broadcast {name} is the third best voter of the month with {score} kills"
+        - "/give {name} minecraft:diamond 6"
+      4:
+        - "broadcast {name} is the fourth best killer of the month with {score} kills"
+        - "/give {name} minecraft:diamond 4"
+      5: 
+        - "broadcast {name} is the fifth best killer of the month with {score} kills"
+        - "/give {name} minecraft:diamond 2"
+  votes: 
+    # Time interval to execute this automatic reward.
+    # Options: daily, weekly or monthly
+    # (Example: month would execute this reward at the end of every month)
+    time-interval: monthly
+    # The type of the leaderboard of this reward
+    type: gal-votes
+    # Identifier of this leaderboard: 
+    # Options: all-time, daily, weekly, monthly
+    identifier: monthly
+    # Whether it should wait until the player is online to execute the commands
+    queue-commands: true
+    # Commands
+    # You can set up a command rewards per rank in the leaderboard (Example: 1 is the first in the leaderboard)
+    # You can use any number between 1 and 10
+    # Variables: {name}, {score}
+    # Use 'broadcast' without a slash to broadcast a message
+    commands:
+      1:
+        - "broadcast {name} is the top voter of the month with {score} votes"
+        - "/give {name} minecraft:diamond 10"
+      2:
+        - "broadcast {name} is the second best voter of the month with {score} votes"
+        - "/give {name} minecraft:diamond"
+        
+# Version of the config
+# Do NOT change this
+config-version: 1

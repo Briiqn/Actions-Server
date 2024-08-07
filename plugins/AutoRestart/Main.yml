@@ -1,0 +1,21 @@
+## Main configuration values
+main:
+    ## restart modes availiable 'interval', and 'timestamp'
+    restart_mode: 'interval'
+    ## restart mode specific settings
+    modes:
+        ## Interval in Hours (DECIMALS ALLOWED)
+        interval: 3.0
+        ## Set the timestamp in 24 hour time format HH:MM
+        ## Multiple timestamps allowed
+        timestamp:
+            - '0:00'
+            - '6:00'
+            - '12:00'
+            - '18:00'
+    ## Server wide prefix for all chat broadcasts
+    prefix: '&f[&7AutoRestart&f] &e'
+    ## Client restart message in game chat
+    kick_message: '&cServer Restarting! We will be back up any minute!'
+## DO NOT TOUCH!!
+version: 3

@@ -1,0 +1,267 @@
+Emotes:
+  Smile:
+    Name: '&aSmile Emote'
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fsmiles'
+    Lore:
+    - '&7Feeling great? Show the'
+    - '&7world how happy you are'
+    - '&7with this animated Smile'
+    - '&7emote!'
+  Cool:
+    Name: '&aCool Emote'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fB)'
+    Lore:
+    - '&7Feel like the coolest cat'
+    - '&7on the server? Strut your'
+    - '&7stuff with this animated'
+    - '&7Cool emote!'
+  Wink:
+    Name: '&aWink Emote'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fwinks'
+    Lore:
+    - '&7Having fun? Let someone'
+    - '&7know you''re in on the joke'
+    - '&7with this animated Wink'
+    - '&7emote!'
+  Grin:
+    Name: '&aGrin Emote'
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fYay!'
+    Lore:
+    - '&7If you are feeling amazing,'
+    - '&7there''s no better way to'
+    - '&7show it than with this'
+    - '&7animated Grin emote!'
+  Surprised:
+    Name: '&aSurprised Emote'
+    Cooldown: 10
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fOMG'
+    Lore:
+    - '&7Has something shocked you?'
+    - '&7Let the lobby know with'
+    - '&7this animated Surprised'
+    - '&7emote!'
+  Cry:
+    Name: '&9Cry Emote'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fWaaaaa!'
+    Lore:
+    - '&7You feel sad? Shed tears'
+    - '&7with this animated Crying'
+    - '&7emote!'
+  Sleepy:
+    Name: '&9Sleepy Emote'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fZZzzzz'
+    Lore:
+    - '&7Stayed up all night playing'
+    - '&7your favorite game? Fall'
+    - '&7asleep with this animated'
+    - '&7Sleepy emote!'
+  Rage:
+    Name: '&9Rage Emote'
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&cGRRRRR!!!'
+    Lore:
+    - '&7Is something boiling your'
+    - '&7blood? Let off steam with'
+    - '&7this animated Rage Emote!'
+  Frown:
+    Name: '&9Frown Emote'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fsniff'
+    Lore:
+    - '&7Has something got you down?'
+    - '&7Let the world know with'
+    - '&7this animated Frown Emote!'
+  Cheeky:
+    Name: '&9Cheeky Emote'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f:P'
+    Lore:
+    - '&7Up to some mischief? Warn'
+    - '&7everyone how you''re feeling'
+    - '&7with this animated Cheeky'
+    - '&7Emote!'
+  Sun Tan:
+    Name: '&9Sun Tan Emote'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fSunny'
+    Lore:
+    - '&7Did you forget your sun'
+    - '&7screen when you went to the'
+    - '&7beach? Let others know how'
+    - '&7crispy you are with this'
+    - '&7Sun Tan Emote!'
+  Heart Eyes:
+    Name: '&9Heart Eye Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&d❤  ❤'
+    Lore:
+    - '&7Feeling good? Spread the'
+    - '&7good vibes with the Heart'
+    - '&7Eyes Emote!'
+  Dizzy:
+    Name: '&9Dizzy Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fx_x'
+    Lore:
+    - '&7The rollercoaster is not'
+    - '&7for you? Show others how'
+    - '&7you feel with the Dizzy'
+    - '&7Emote!'
+  RIP:
+    Name: '&9RIP Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fRest In Pepperoni'
+    Lore:
+    - '&7Did you get that final'
+    - '&7blow? Show mercy to your'
+    - '&7opponents with this Rest In'
+    - '&7Pepperoni Emote!'
+  Relax:
+    Name: '&9Relax Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fPhew'
+    Lore:
+    - '&7Feeling cozy? You surely'
+    - '&7will with the Relax Emote!'
+  Spicy:
+    Name: '&9Spicy Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fBurns!'
+    Lore:
+    - '&7Did that habanero pepper'
+    - '&7get to you? Let the rest'
+    - '&7know with this Spicy Emote!'
+  Deal With It:
+    Name: '&9Deal With It Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fDeal With It :)'
+    Lore:
+    - '&7Do you feel like showing'
+    - '&7off? Let others see how'
+    - '&7cool you feel with the real'
+    - '&7Deal With It Emote!'

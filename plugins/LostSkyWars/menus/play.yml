@@ -1,0 +1,22 @@
+# Actions:
+# NOTHING
+# OPEN:play
+# OPEN:maps
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Play Skywars'
+rows: 4
+items:
+ play:
+  slot: 11
+  action: 'OPEN:play'
+  stack: 'ENDER_PEARL : 1 : display=&aSkyWars ({mode}) : lore=&7Play {mode} SkyWars!\n \n&7{players} currently playing\n&eClick to play!'
+ maps:
+  slot: 15
+  action: 'OPEN:maps'
+  stack: 'SIGN : 1 : display=&aMap Selector ({mode}) : lore=&7Pick wich map you want to play\n&7from a list of avaible servers.\n \n&eClick to browse!'
+ close:
+  slot: 31
+  action: 'OPEN:closeinv'
+  stack: 'BARRIER : 1 : display=&cClose'

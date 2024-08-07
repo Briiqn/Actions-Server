@@ -1,0 +1,14 @@
+## THIS FILE IS DIABLED TILL FURTHER NOTICE
+
+
+## This will stop your server from shutting down if you have more than X amount of players configured in "amount".
+max_players:
+    ## Enable or Disable this feature
+    enabled: false
+    ## The max amount of players allow for a restart. If you set this to 10, and your server has 11 people online
+    ## your server will not shutdown until there is LESS THAN 10 players.
+    amount: 10
+    ## The delay for the server to restart once player count as been met. In seconds!
+    delay: 10
+## DO NOT TOUCH!!
+version: 2

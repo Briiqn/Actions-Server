@@ -1,0 +1,17 @@
+Custom-Animated-Hats:
+  Smiles:
+    Name: '&aSmiles Animated Hat'
+    Mystery Dust: 15
+    Rarity: Common
+    Texture: 41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    Enabled: false
+    CanBeFound: true
+    Purchasable: true
+    TicksPerFrame: 5
+    Frames:
+    - 11:41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    - 1:4168b716281635ceafc3268dfa7d5f46466c8032e11c1cfb7db711a9f647d
+    - 11:41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    - 1:4168b716281635ceafc3268dfa7d5f46466c8032e11c1cfb7db711a9f647d
+    - 3:41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    Lore: ''

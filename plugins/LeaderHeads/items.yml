@@ -1,0 +1,30 @@
+#-----------------------------------------#
+#                                         #
+#              LeaderHeads 3              #
+#    A full-fledged solution to manage    #
+#    statistics and create leaderboards   #
+#          (R) RobiRami 2017              #
+#                                         #
+#-----------------------------------------#
+
+
+# Back item for the leaderboard menu's
+back-item:
+    material: arrow
+    data: 0
+    amount: 1
+    name: "&e{small_arrow_left} &c&lPrevious page"
+    lore: []
+    
+# Next item for the leaderboard menu's
+next-item:
+    material: arrow
+    data: 0
+    amount: 1
+    name: "&c&lNext page &e{small_arrow_right}"
+    lore: []
+    
+    
+# Version of the config
+# Do NOT change this
+config-version: 1

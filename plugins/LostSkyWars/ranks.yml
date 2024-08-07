@@ -1,0 +1,29 @@
+ranks:
+ OWNER:
+  name: '&c[OWNER]'
+  prefix: '&c[OWNER] '
+  permission: 'rank.mvp+'
+ YT:
+  name: '&6YT'
+  prefix: '&6[YT] '
+  permission: 'rank.yt'
+ MVP+:
+  name: '&bMVP&c+'
+  prefix: '&b[MVP&c+&b] '
+  permission: 'rank.mvp+'
+ MVP:
+  name: '&bMVP'
+  prefix: '&b[MVP] '
+  permission: 'rank.mvp'
+ VIP+:
+  name: '&aVIP&6+'
+  prefix: '&a[VIP&6+&a] '
+  permission: 'rank.vip+'
+ VIP:
+  name: '&aVIP'
+  prefix: '&a[VIP] '
+  permission: 'rank.vip'
+ Default:
+  name: '&7Default'
+  prefix: '&7'
+  permission: 'none'

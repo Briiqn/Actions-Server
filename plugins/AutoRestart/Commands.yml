@@ -1,0 +1,12 @@
+## This section will allow you to execute commands before the server restarts
+commands:
+    ## Enable or disable this feature
+    enabled: false
+    ## The seconds before restart to execute list
+    seconds: 5
+    ## the amount of seconds before restart to execute commands
+    list:
+        - 'say This is a test command'
+        - 'say I think it works?'
+## DO NOT TOUCH!!
+version: 1

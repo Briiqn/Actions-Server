@@ -1,0 +1,115 @@
+groups:
+  Default:
+    options:
+      default: true
+      prefix: '&7'
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - itemjoin.1
+    - autosmelt.mine
+    - myskin.skincommand
+  VIP:
+    permissions:
+    - rank.vip
+    - lostskywars.mapselector.infinite
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - lostskywars.chat.color
+    - itemjoin.1
+    - autosmelt.mine
+    - lostskywars.lobby.fly
+    - myskin.skincommand
+    options:
+      prefix: '&a[VIP] '
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+  VIP+:
+    permissions:
+    - rank.vip+
+    - lostskywars.mapselector.infinite
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - lostskywars.chat.color
+    - itemjoin.1
+    - autosmelt.mine
+    - lostskywars.lobby.fly
+    - myskin.skincommand
+    options:
+      prefix: '&a[VIP&6+&a] '
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+  MVP:
+    inheritance:
+    - Default
+    permissions:
+    - rank.mvp
+    - lostskywars.mapselector.infinite
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - lostskywars.chat.color
+    - itemjoin.1
+    - autosmelt.mine
+    - lostskywars.lobby.fly
+    - myskin.skincommand
+    options:
+      prefix: '&b[MVP] '
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+  MVP+:
+    inheritance:
+    - Default
+    permissions:
+    - rank.mvp+
+    - lostskywars.mapselector.infinite
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - lostskywars.chat.color
+    - itemjoin.1
+    - autosmelt.mine
+    - lostskywars.lobby.fly
+    - myskin.skincommand
+    options:
+      prefix: '&b[MVP&c+&b] '
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+  YT:
+    inheritance:
+    - Default
+    permissions:
+    - rank.yt
+    - lostskywars.mapselector.infinite
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - lostskywars.chat.color
+    - itemjoin.1
+    - autosmelt.mine
+    - lostskywars.lobby.fly
+    - myskin.skincommand
+    options:
+      prefix: '&6[YT] '
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+schema-version: 1
+users:
+  7ea28941-2d2c-334d-894c-86c61e8a6ec5:
+    group:
+    - MVP+
+    options:
+      name: MiniFlex

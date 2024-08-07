@@ -1,0 +1,64 @@
+Auto-Download-Placeholders: false
+#Here you can combine multiple number placeholders into one!
+#Operator precedence is taken into account, so these are the same:
+#5 + (3 * %player_health%)
+#5 + 3 * %player_health%
+#And multiplication operators can usually be left out:
+#5 + 3%player_health%
+Formulas:
+  #Shows what you can do, though it's completely pointless:
+  #square(x) is a shortcut for (x * x)
+  #mod is modulus. 128 mod 100 = 28, 7 mod 4 = 3
+  overkill: '101(((4(5 + 3%player_food_level%) / square(2)) - 5) / 3) mod 100'
+  useless:
+    #sqrt(x) is the square root of x, so sqrt(4) gives 2 and sqrt(16) gives 4
+    value: 'sqrt(%player_health% * %player_health%)'
+    #You can specify format per-formula, or (see the bottom) use the global format
+    #A documentation on this:
+    #https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
+    format: '#.##' #Number rounded to 2 decimals
+  reversed-food: '-%player_food_level% + 20'
+  server-sum: '%bungeecord_server1% + %bungeecord_server2%'
+
+#Use MVdWPlaceholderAPI for placeholders instead of clip's PlaceholderAPI
+Use-MVdWPlaceholderAPI: false
+
+#Here you can declare your SQL databases
+#Databases:
+#  testdb:
+#    # Should start with jdbc:mysql:// for mysql databases
+#    url: 'jdbc:mysql://localhost/test'
+#    user: 'host'
+#    password: ''
+
+#Sql-Queries:
+#  #5 second refresh delay (default value)
+#  Refresh-Delay: 5
+#  #How to use:
+#  #Use %animlib_sql_test% to retrieve the last stored value
+#  #Use %animlib_sqlrefresh_test% to retrieve the last value, and request it to be refreshed for the player
+#  test:
+#    #The database name, as specified under Databases
+#    Database: testdb
+#    #The SQL query, very important ;3
+#    Query: "SELECT `Name` FROM `test` WHERE `UUID`='%player_uuid%'"
+#    Default: '%player_name%'
+#    #The amount of times the value can be used before forgetting it.
+#    #When 0 (the default value), it will not expire until the player leaves
+#    Lifespan: 1
+#    #Should this be requested when a player joins?
+#    Request-On-Join: true
+#    #Should it automatically be refreshed as specified by Refresh-Delay?
+#    Auto-Refresh: true
+#    #The processor of the received data. You get a variable called 'sql' which is a ResultSet
+#    #See http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html
+#    Script:
+#    - "sql.next();" #Go to the first result
+#    - "sql.getString('Name');" #The last line specifies what to return, in this case the Name field
+#The formula locale to use (default, even when not specified, is english)
+#This can make, for example:
+#100,000.123 in english
+#100.000,123 in german
+#100 000,123 in french
+
+#Formula-Locale: en_EN

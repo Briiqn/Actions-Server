@@ -1,0 +1,7 @@
+URL:
+  IPv6Database: http://geolite.maxmind.com/download/geoip/database/GeoIPv6.dat.gz
+  CityDatabase: http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+  CountryDatabase: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+Update:lastUpdated: '0'
+Update:disabled: true
+Update:daysBetweenUpdates: '10'

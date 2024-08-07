@@ -1,0 +1,14 @@
+parkour:
+  location: world, -1.500, 67.017, -15.500
+  lines:
+  - '&e&lParkour starts this way!'
+  - '&bGo ahead into the care.'
+quest:
+  location: world, 9.514, 65.565, 6.480
+  lines:
+  - '&bQuest Master'
+  - '&e&lRight Click'
+'1':
+  location: world, 33.519, 65.013, 0.497
+  lines:
+  - '&cWill update later'

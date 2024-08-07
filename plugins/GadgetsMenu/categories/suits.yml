@@ -1,0 +1,628 @@
+Suits:
+  Frog:
+    Name: '&6Frog Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7One of the rarest suits around.'
+    - '&7Browse dank memes from far above'
+    - '&7when you equip this Frog Suit.'
+    - ''
+    - '&7Full Set Ability: Super high'
+    - '&7jump.'
+    Equipments:
+      Frog Helmet:
+        Name: '&6Frog Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Frog Chestplate:
+        Name: '&5Frog Suit Chestplate'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Frog Leggings:
+        Name: '&9Frog Suit Leggings'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Frog Boots:
+        Name: '&aFrog Suit Boots'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Ninja:
+    Name: '&6Ninja Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7Silent but deadly, skulk around'
+    - '&7your favourite lobby with this'
+    - '&7Ninja Suit.'
+    - ''
+    - '&7Full Set Ability: Click to throw'
+    - '&7a Ninja Shuriken!'
+    Equipments:
+      Ninja Helmet:
+        Name: '&6Ninja Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ninja Chestplate:
+        Name: '&5Ninja Suit Chestplate'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ninja Leggings:
+        Name: '&9Ninja Suit Leggings'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ninja Boots:
+        Name: '&aNinja Suit Boots'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Speedster:
+    Name: '&6Speedster Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7Nothing move faster than the'
+    - '&7speed of light... except you'
+    - '&7when you''re wearing this'
+    - '&7Speedster Suit!'
+    - ''
+    - '&7Full Set Ability: Sprint to run'
+    - '&7extremely fast.'
+    Equipments:
+      Speedster Helmet:
+        Name: '&6Speedster Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Speedster Chestplate:
+        Name: '&5Speedster Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Speedster Leggings:
+        Name: '&9Speedster Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Speedster Boots:
+        Name: '&aSpeedster Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Ghostly:
+    Name: '&6Ghostly Skeleton Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7Are you feeling spooky? Then'
+    - '&7equip this spooky scary Ghostly'
+    - '&7Skeleton Suit!'
+    - ''
+    - '&7Full Set Ability: Makes the'
+    - '&7wearer invisible under the suit!'
+    Equipments:
+      Ghostly Helmet:
+        Name: '&6Ghostly Skeleton Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ghostly Chestplate:
+        Name: '&5Ghostly Skeleton Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ghostly Leggings:
+        Name: '&9Ghostly Skeleton Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ghostly Boots:
+        Name: '&aGhostly Skeleton Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Disco:
+    Name: '&6Disco Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7It was your Dad''s favourite'
+    - '&7dance movement - bring back'
+    - '&7boogle with this Disco Suit!'
+    - ''
+    - '&7Full Set Ability: Changes colors'
+    - '&7when equipped!'
+    Equipments:
+      Disco Helmet:
+        Name: '&6Disco Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Disco Chestplate:
+        Name: '&5Disco Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Disco Leggings:
+        Name: '&9Disco Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Disco Boots:
+        Name: '&aDisco Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Mermaid:
+    Name: '&6Mermaid Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7Everything''s better down where'
+    - '&7it''s wetter! Head under the sea'
+    - '&7with this Mermaid Suit!'
+    - ''
+    - '&7Full Set Ability: Transform into'
+    - '&7a beautiful Squid when under'
+    - '&7water.'
+    Equipments:
+      Mermaid Helmet:
+        Name: '&6Mermaid Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Mermaid Chestplate:
+        Name: '&5Mermaid Suit Chestplate'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Mermaid Leggings:
+        Name: '&9Mermaid Suit Leggings'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Mermaid Boots:
+        Name: '&aMermaid Suit Boots'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Spooderman:
+    Name: '&6Spooderman Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7With great power come great'
+    - '&7responsibility. Save the day with'
+    - '&7this Spooderman Suit.'
+    - ''
+    - '&7Full Set Ability: Click to swing'
+    - '&7around lobbies!'
+    Equipments:
+      Spooderman Helmet:
+        Name: '&6Spooderman Suit Helmet'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Spooderman Chestplate:
+        Name: '&5Spooderman Suit Chestplate'
+        Mystery Dust: 33
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Spooderman Leggings:
+        Name: '&9Spooderman Suit Leggings'
+        Mystery Dust: 17
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Spooderman Boots:
+        Name: '&aSpooderman Suit Boots'
+        Mystery Dust: 8
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Warrior:
+    Name: '&6Warrior Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7The Warrior''s way is one of'
+    - '&7honour, resilience, and'
+    - '&7butt-kicking special abilities!'
+    - ''
+    - '&7Full Set Ability: Left click and'
+    - '&7look down to Ground Slam. or'
+    - '&7look ahead to Seismic Wave.'
+    Equipments:
+      Warrior Helmet:
+        Name: '&6Warrior Suit Helmet'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Warrior Chestplate:
+        Name: '&5Warrior Suit Chestplate'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Warrior Leggings:
+        Name: '&9Warrior Suit Leggings'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Warrior Boots:
+        Name: '&aWarrior Suit Boots'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Necromancer:
+    Name: '&6Necromancer Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7Put the RAVE in graveyard and'
+    - '&7bring back the dead with this'
+    - '&7Necromancer Suit!'
+    - ''
+    - '&7Full Set Ability: Click to raise'
+    - '&7the dead.'
+    Equipments:
+      Necromancer Helmet:
+        Name: '&6Necromancer Suit Helmet'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Necromancer Chestplate:
+        Name: '&5Necromancer Suit Chestplate'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Necromancer Leggings:
+        Name: '&9Necromancer Suit Leggings'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Necromancer Boots:
+        Name: '&aNecromancer Suit Boots'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Thor:
+    Name: '&6Thor Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7"I like this suit. ANOTHER!"'
+    - '&7Wield the power of the God of'
+    - '&7Thunder with this Thor Suit.'
+    - ''
+    - '&7Full Set Ability: Click to'
+    - '&7strike lightning.'
+    Equipments:
+      Thor Helmet:
+        Name: '&6Thor Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Thor Chestplate:
+        Name: '&5Thor Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Thor Leggings:
+        Name: '&9Thor Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Thor Boots:
+        Name: '&aThor Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Baker:
+    Name: '&6Baker Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7What''s better than a cookie? A'
+    - '&7man who can bake a million'
+    - '&7cookies!'
+    - ''
+    - '&7Full Set Ability: Click to'
+    - '&7deliver baked goods around the'
+    - '&7lobby.'
+    Equipments:
+      Baker Helmet:
+        Name: '&6Baker Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Baker Chestplate:
+        Name: '&5Baker Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Baker Leggings:
+        Name: '&9Baker Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Baker Boots:
+        Name: '&aBaker Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Bumblebee:
+    Name: '&6Bumblebee Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7We aren''t sure what all the buzz'
+    - '&7is about this suit.'
+    - ''
+    - '&7Full Set Ability: This Suit will'
+    - '&7play a classical song when you'
+    - '&7fly or left click!'
+    Equipments:
+      Bumblebee Helmet:
+        Name: '&6Bumblebee Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Bumblebee Chestplate:
+        Name: '&5Bumblebee Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Bumblebee Leggings:
+        Name: '&9Bumblebee Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Bumblebee Boots:
+        Name: '&aBumblebee Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Plumber:
+    Name: '&6Plumber Suit'
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7We''re sorry, your Princess is in'
+    - '&7another lobby!'
+    - ''
+    - '&7Full Set Ability: Click to throw'
+    - '&7fireballs!'
+    Equipments:
+      Plumber Helmet:
+        Name: '&6Plumber Suit Helmet'
+        Mystery Dust: 73
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Plumber Chestplate:
+        Name: '&5Plumber Suit Chestplate'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Plumber Leggings:
+        Name: '&9Plumber Suit Leggings'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Plumber Boots:
+        Name: '&aPlumber Suit Boots'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Ice Walker:
+    Name: '&6Ice Walker Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7No, she doesn''t want to build a'
+    - '&7snow man... and don''t tell her'
+    - '&7to "Let it go!".'
+    - ''
+    - '&7Full Set Ability: Absorb heat'
+    - '&7and chill the world around you'
+    - '&7by walking.'
+    Equipments:
+      Ice Walker Helmet:
+        Name: '&6Ice Walker Suit Helmet'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ice Walker Chestplate:
+        Name: '&5Ice Walker Suit Chestplate'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ice Walker Leggings:
+        Name: '&9Ice Walker Suit Leggings'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ice Walker Boots:
+        Name: '&aIce Walker Suit Boots'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+  Vampire:
+    Name: '&6Vampire Suit'
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&7Like a bat out of hell, become a'
+    - '&7blood-craving villain with this'
+    - '&7Vampire Suit!'
+    - ''
+    - '&7Full Set Ability: Transform into'
+    - '&7a bat when you fly.'
+    Equipments:
+      Vampire Helmet:
+        Name: '&6Vampire Suit Helmet'
+        Mystery Dust: 74
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Vampire Chestplate:
+        Name: '&5Vampire Suit Chestplate'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Vampire Leggings:
+        Name: '&9Vampire Suit Leggings'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Vampire Boots:
+        Name: '&aVampire Suit Boots'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''

@@ -1,0 +1,76 @@
+## Private popups
+private_popups:
+    ## Enable or Disable the Popups!
+    enabled:
+        ## Show the pop ups when type /autore time
+        time: true
+        ## Show the pop ups when typed /autore start or /autore pause
+        ## [Duplicated in Global_Messages]
+        status:
+            start: true
+            pause: true
+        ## Show the pop ups when the server time has been changed!
+        ## [Duplicated in Global_Messages]
+        change: true
+        ## "/autore pause" reminder
+        pause_reminder: true
+    ## This section is for the customization of the popup messages!
+    messages:
+        time: ## %h - hours, %m - minutes, %s - seconds
+            title:
+                text: '&cServer Restarting In'
+                fadein: 20
+                stay: 40
+                fadeout: 20
+            subtitle:
+                text: '&f%h&cH &f%m&cM &f%s&cS!'
+                fadein: 20
+                stay: 40
+                fadeout: 20
+        status: ## There are no tags for this section
+            start:
+                title:
+                    text: '&cYou started AutoRestart back up!'
+                    fadein: 20
+                    stay: 40
+                    fadeout: 20
+                subtitle:
+                    text: ''
+                    fadein: 20
+                    stay: 40
+                    fadeout: 20
+            pause:
+                title:
+                    text: '&cYou have paused AutoRestart!'
+                    fadein: 20
+                    stay: 40
+                    fadeout: 20
+                subtitle:
+                    text: ''
+                    fadein: 20
+                    stay: 40
+                    fadeout: 20
+        change: ## %h - hours, %m - minutes, %s - seconds
+            title:
+                text: '&cYou Changed Restart Time to'
+                fadein: 20
+                stay: 40
+                fadeout: 20
+            subtitle:
+                text: '&f%h&cH &f%m&cM &f%s&cS!'
+                fadein: 20
+                stay: 40
+                fadeout: 20
+        pause_reminder: ## There are no tags for this section
+            title:
+                text: '&cDont forget that'
+                fadein: 20
+                stay: 40
+                fadeout: 20
+            subtitle:
+                text: '&cAutoRestart timer is still paused!'
+                fadein: 20
+                stay: 40
+                fadeout: 20
+## DO NOT TOUCH!!
+version: 1

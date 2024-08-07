@@ -1,0 +1,19 @@
+# Actions:
+# NOTHING
+# OPEN:buy
+# OPEN:shop
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Are you sure?'
+rows: 3
+items:
+ confirm:
+  slot: 11
+  action: 'OPEN:buy'
+  stack: 'STAINED_CLAY:13 : 1 : display=&aConfirm : lore=&7Purchase {name}\n&7for {price} coins.'
+ cancel:
+  slot: 15
+  action: 'OPEN:shop'
+  stack: 'STAINED_CLAY:14 : 1 : display=&cCancel : lore=&7Return to previous menu.'
+extras:
+ buy: '&6You purchased &a{name}&6!'

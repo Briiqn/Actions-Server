@@ -1,0 +1,207 @@
+#                                         #
+#                ItemList                 #
+#                   by                    #
+#                MathiasMC                #
+#  Any ideas for the plugin or need help? #
+#           contact me on spigot          #
+#                                         #
+player:
+  itemlist:
+    command:
+      permission:
+      - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+      unknown:
+      - '&7[&6ItemList&7] &cUnknown sub command &f{itemlist_command}'
+      message:
+      - '&8&m---------------------------------------------'
+      - '&7&l> &6ItemList &ccreated by &eMathiasMC'
+      - '&7&l> &6Version: &e{itemlist_version}'
+      - '&7&l> &f/itemlist help for list of commands'
+      - '&7&l> &eAny ideas for the plugin or need help?'
+      - '&7&l> &eContact me on spigot'
+      - '&8&m---------------------------------------------'
+    help:
+      permission:
+      - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+      message:
+      - '&8&m---------------------------------------------'
+      - '&7&l> &f/itemlist add placement <name> <group>'
+      - '&7&l> &f/itemlist add break <name> <group>'
+      - '&7&l> &f/itemlist add inventoryClick <name> <group>'
+      - '&7&l> &f/itemlist add inventoryDrag <name> <group>'
+      - '&7&l> &f/itemlist add InventoryScanner <name>'
+      - '&7&l> &f/itemlist add pickupItem <name> <group>'
+      - '&7&l> &f/itemlist message <player> <text>'
+      - '&7&l> &f/itemlist reload'
+      - '&8&m---------------------------------------------'
+    reload:
+      permission:
+      - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+      reloaded:
+      - '&7[&6ItemList&7] &aReloaded all configs!'
+    message:
+      permission:
+      - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+      usage:
+      - '&7[&6ItemList&7] &cUsage: /itemlist message <player> <text>'
+      online:
+      - '&7[&6ItemList&7] &cThe player is not online!'
+    add:
+      permission:
+      - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+      usage:
+      - '&7[&6ItemList&7] &cUsage: /itemlist add <placement, break, inventoryClick,
+        inventoryDrag, pickupItem> <name> <group>'
+      found:
+      - '&7[&6ItemList&7] &cYou can only use placement, break'
+      placement:
+        permission:
+        - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+        usage:
+        - '&7[&6ItemList&7] &cUsage: /itemlist add placement <name> <group>'
+        air:
+        - '&7[&6ItemList&7] &cYou need to have an block in your hand.'
+        with:
+        - '&7[&6ItemList&7] &cName already found for that block'
+        array:
+        - '&7[&6ItemList&7] &cYou already have that block.'
+        group:
+        - '&7[&6ItemList&7] &cYou already have one with that group name.'
+        add:
+        - '&7[&6ItemList&7] &aAdded &e{itemlist_type} &awith group &c( &e{itemlist_group}
+          &c)'
+        change:
+        - '&7[&6ItemList&7] &aAdded group &e{itemlist_group} &ato array &c( &e{itemlist_type}
+          &c)'
+      break:
+        permission:
+        - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+        usage:
+        - '&7[&6ItemList&7] &cUsage: /itemlist add break <name> <group>'
+        air:
+        - '&7[&6ItemList&7] &cYou need to look at an block.'
+        with:
+        - '&7[&6ItemList&7] &cName already found for that block'
+        array:
+        - '&7[&6ItemList&7] &cYou already have that block.'
+        group:
+        - '&7[&6ItemList&7] &cYou already have one with that group name.'
+        add:
+        - '&7[&6ItemList&7] &aAdded &e{itemlist_type} &awith group &c( &e{itemlist_group}
+          &c)'
+        change:
+        - '&7[&6ItemList&7] &aAdded group &e{itemlist_group} &ato array &c( &e{itemlist_type}
+          &c)'
+      inventory:
+        click:
+          permission:
+          - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+          usage:
+          - '&7[&6ItemList&7] &cUsage: /itemlist add inventoryClick <name> <group>'
+          air:
+          - '&7[&6ItemList&7] &cYou need to have an item in your hand.'
+          with:
+          - '&7[&6ItemList&7] &cName already found for that block'
+          array:
+          - '&7[&6ItemList&7] &cYou already have that block.'
+          group:
+          - '&7[&6ItemList&7] &cYou already have one with that group name.'
+          add:
+          - '&7[&6ItemList&7] &aAdded &e{itemlist_type} &awith group &c( &e{itemlist_group}
+            &c)'
+          change:
+          - '&7[&6ItemList&7] &aAdded group &e{itemlist_group} &ato array &c( &e{itemlist_type}
+            &c)'
+        drag:
+          permission:
+          - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+          usage:
+          - '&7[&6ItemList&7] &cUsage: /itemlist add inventoryDrag <name> <group>'
+          air:
+          - '&7[&6ItemList&7] &cYou need to have an item in your hand.'
+          with:
+          - '&7[&6ItemList&7] &cName already found for that block'
+          array:
+          - '&7[&6ItemList&7] &cYou already have that block.'
+          group:
+          - '&7[&6ItemList&7] &cYou already have one with that group name.'
+          add:
+          - '&7[&6ItemList&7] &aAdded &e{itemlist_type} &awith group &c( &e{itemlist_group}
+            &c)'
+          change:
+          - '&7[&6ItemList&7] &aAdded group &e{itemlist_group} &ato array &c( &e{itemlist_type}
+            &c)'
+        scanner:
+          permission:
+          - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+          usage:
+          - '&7[&6ItemList&7] &cUsage: /itemlist add inventoryScanner <name>'
+          air:
+          - '&7[&6ItemList&7] &cYou need to have an item in your hand.'
+          with:
+          - '&7[&6ItemList&7] &cName already found for that block'
+          array:
+          - '&7[&6ItemList&7] &cYou already have that block.'
+          world:
+          - '&7[&6ItemList&7] &cThis world is already added.'
+          add:
+          - '&7[&6ItemList&7] &aAdded &e{itemlist_type} &awith world &c( &e{itemlist_world}
+            &c)'
+          change:
+          - '&7[&6ItemList&7] &aAdded world &e{itemlist_world} &ato array &c( &e{itemlist_type}
+            &c)'
+      pickupitem:
+        permission:
+        - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+        usage:
+        - '&7[&6ItemList&7] &cUsage: /itemlist add pickupItem <permission> <name>
+          <group> <command>'
+        air:
+        - '&7[&6ItemList&7] &cYou need to have an item in your hand.'
+        with:
+        - '&7[&6ItemList&7] &cName already found for that block'
+        array:
+        - '&7[&6ItemList&7] &cYou already have that block.'
+        group:
+        - '&7[&6ItemList&7] &cYou already have one with that group name.'
+        add:
+        - '&7[&6ItemList&7] &aAdded &e{itemlist_type} &awith group &c( &e{itemlist_group}
+          &c)'
+        change:
+        - '&7[&6ItemList&7] &aAdded group &e{itemlist_group} &ato array &c( &e{itemlist_type}
+          &c)'
+    list:
+      permission:
+      - '&7[&6ItemList&7] &cYou dont have permission to use this command!'
+      usage:
+      - '&7[&6ItemList&7] &cUsage: /itemlist list <placement, break, inventory.click,
+        inventory.drag, inventory.scanner, pickupitem'
+      name:
+      - '&7[&6ItemList&7] &cName not found.'
+console:
+  itemlist:
+    command:
+      unknown:
+      - '&7[&6ItemList&7] &cUnknown sub command &f{itemlist_command}'
+      message:
+      - '&8&m---------------------------------------------'
+      - '&7&l> &6ItemList &ccreated by &eMathiasMC'
+      - '&7&l> &6Version: &e{itemlist_version}'
+      - '&7&l> &f/itemlist help for list of commands'
+      - '&7&l> &eAny ideas for the plugin or need help?'
+      - '&7&l> &eContact me on spigot'
+      - '&8&m---------------------------------------------'
+    help:
+      message:
+      - '&8&m---------------------------------------------'
+      - '&7&l> &f/itemlist message <player> <text>'
+      - '&7&l> &f/itemlist reload'
+      - '&8&m---------------------------------------------'
+    reload:
+      reloaded:
+      - '&7[&6ItemList&7] &aReloaded all configs!'
+    message:
+      usage:
+      - '&7[&6ItemList&7] &cUsage: /itemlist message <player> <text>'
+      online:
+      - '&7[&6ItemList&7] &cThe player is not online!'

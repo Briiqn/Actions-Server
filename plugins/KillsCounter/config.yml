@@ -1,0 +1,22 @@
+MySQL:
+  enabled: false
+  ip: localhost
+  port: 3306
+  database: questmasteplugindb #same as QuestMaster Plugin
+  username: username
+  password: password
+#Choose between 'solo_kills' or 'team_kills' 
+kills_table: solo_kills
+wins_table: solo_wins
+
+#SkyWars Plugins WIn Counter
+SkyWarsReloaded: false
+
+
+#Messages
+Messages:
+  SoloKillsQuestDone: '&aDaily Quest: SkyWars Solo Kills Completed! /n &8+&c2000 &7Experience /n &8+&e1500 &7Coins /n &8+&a1500 &7Credits'
+  SoloWinsQuestDone: '&aDaily Quest: SkyWars Solo Wins Completed! /n &8+&c2000 &7Experience /n &8+&e1500 &7Coins /n &8+&a1500 &7Credits'
+  TeamKillsQuestDone: '&aDaily Quest: SkyWars Team Kills Completed! /n &8+&c2000 &7Experience /n &8+&e1500 &7Coins /n &8+&a1500 &7Credits'
+  TeamWinsQuestDone:'&aDaily Quest: SkyWars Team Wins Completed! /n &8+&c2000 &7Experience /n &8+&e1500 &7Coins /n &8+&a1500 &7Credits'
+  TotalKillsQuestDone: '&aDaily Quest: SkyWars Weekly Kills Completed! /n &8+&c2000 &7Experience /n &8+&e1500 &7Coins /n &8+&a1500 &7Credits'

@@ -1,0 +1,20 @@
+## Reminders will popup in the specified times to let players know when is the next restart
+reminder:
+    ## Enables or Disables restart reminder
+    enabled:
+        minutes: true
+        seconds: true
+    ## minutes before restart
+    minutes:
+        - 15
+        - 10
+        - 5
+        - 1
+    ## AutoRestart will countdown the seconds to restart starting at the entered value
+    seconds: 5
+    ## This will remind you that the server timer is paused! This message will be sent to
+    ## people with autorestart.start permission!
+    ## This is set in minutes!
+    pause_reminder: 10
+## DO NOT TOUCH!!
+version: 1

@@ -1,0 +1,106 @@
+Cloaks:
+  Superhero:
+    Name: '&6Superhero Cloak'
+    Material: ROSE_RED
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Straight from the comic'
+    - '&7books comes that signature'
+    - '&7red cloak!'
+  Mystical:
+    Name: '&6Mystical Cloak'
+    Material: BOOK
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Shrouded in mystery, this'
+    - '&7cloak is the center of'
+    - '&7numerous legends concerning'
+    - '&7its powers.'
+  Firewings:
+    Name: '&6Firewings Cloak'
+    Material: BLAZE_POWDER
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Rise from the ashes like a'
+    - '&7phoenix in this display of'
+    - '&7flames!'
+  Vampire Wings:
+    Name: '&6Vampire Wings Cloak'
+    Material: REDSTONE
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Giant black and red wings'
+    - '&7extend from your back to'
+    - '&7form menacing vampire'
+    - '&7wings!'
+  Frosty:
+    Name: '&6Frosty Cloak'
+    Material: SNOWBALL
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7The cold never bothered me'
+    - '&7anyway!'
+  Icewings:
+    Name: '&6Icewings Cloak'
+    Material: ICE
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Is it just me or is it cold'
+    - '&7here?'
+  Shaman:
+    Name: '&6Shaman Cloak'
+    Material: BONE
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Be surrounded by a tornado,'
+    - '&7similar to Shaman''s Tornado'
+  Firerings:
+    Name: '&6Firerings Cloak'
+    Material: BLAZE_ROD
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Be surrounded by flames, '
+    - '&7maybe the way you walk is'
+    - '&7burnt to ashes.'
+  Scanner:
+    Name: '&6Scanner Cloak'
+    Material: BEACON
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Bleep Bloop!'

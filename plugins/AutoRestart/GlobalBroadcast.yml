@@ -1,0 +1,74 @@
+## Global Broadcast and Private Messages adds flexibility on what you want your players to see!
+## You have the option of having the player who executed the event to see a message while other dont, or
+## have the player who executed the event see a global message but not a private message, or both!
+## you can have the server see a global message while the player who executed the command will see
+## his own message.
+
+## The reason why you can enable or disable broadcasts and popups, is to give you the flexibility to
+## choose whether you want your players to see a broadcast or a popup of the event. Or both! If you have
+## both popups and broadcasts disabled, broadcasts are automaticlly enabled. If broadcasts, private messages,
+## and popups are all disabled, then it will aswell be automaticlly enabled in broadcasts. If broadcasts and
+## private messages are disabled, but popups are enabled, console will get a private message for logs. Since
+## command line cant recieve popups.
+    
+## These are global broadcasts the everyone sees. If the same task is enabled in "private_message"
+##  the player who initiated the event will not see the broadcast, but will see his own broadcast.
+##  Global broadcasts include the prefix in "main.prefix" config.
+global_broadcast:
+    ## Enable or Disable the broadcast
+    enabled:
+        ## Show the broadcast on the minute reminders!
+        minutes: true
+        ## Show the broadcast on the last seconds of a server restart!
+        seconds: true
+        ## Show the broadcast when typed /autore start or /autore pause
+        ## [Duplicated in Private_Messages]
+        status:
+            start: true
+            pause: true
+        ## Show the broadcast when the server time has been changed!
+        ## [Duplicated in Private_Messages]
+        change: true
+        ## Show the Maxplayers broadcast
+        max_players:
+            ## The message broadcasted when too many players are online on restart!
+            alert: true
+            ## This message appears when the amount of players requirement is met!
+            pre_shutdown: true
+        ## Global shutdown message
+        shutdown: true
+    ## The configuration for broadcast messages
+    ## Messages have multi line support!
+    messages:
+        ## %m - minutes
+        minutes:
+            - 'Server Will Restart In %m Minutes!'
+        ## %s - seconds
+        seconds:
+            - 'Server is restarting in %s Seconds!'
+        ## There are no tags for this section.
+        ## [Duplicated in Private_Messages]
+        status:
+            start:
+                - '&cAutoRestart timer has started!'
+            pause:
+                - '&cAutoRestart timer has been paused'
+        ## %h - hours, %m - minutes, %s - seconds.
+        ## [Duplicated in Private_Messages]
+        change:
+            - '&cServer now is restarting in &f%h&cH &f%m&cM &f%s&cS!'
+        ## Maxplayers broadcast settings
+        max_players:
+            ## The message broadcasted when too many players are online on restart!
+            ## %a - amount
+            alert:
+                - '&bToo many players online for restart. Max &f%a&b amount of players allowed for a restart. Waiting for people to leave!'
+            ## This message appears when the amount of players requirement is met!
+            ## %d - delay
+            pre_shutdown:
+                - '&aServer now restarting in &f%d&a seconds!'
+        ## Client restart message in game chat
+        shutdown: 
+            - '&cServer Restarting!'
+## DO NOT TOUCH!!
+version: 1

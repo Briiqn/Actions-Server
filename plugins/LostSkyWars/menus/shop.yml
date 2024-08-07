@@ -1,0 +1,22 @@
+# Actions:
+# NOTHING
+# OPEN:kits
+# OPEN:cages
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'SkyWars Shop'
+rows: 4
+items:
+ kits:
+  slot: 11
+  action: 'OPEN:kits'
+  stack: 'EYE_OF_ENDER : 1 : display=&aKits : lore=&7Change the way you play by\n&7picking kits.\n \n&7Unlocked: &a{kits_has}/{kits_max} &8({kits_percentage})\n \n&eClick to browse!'
+ cages:
+  slot: 15
+  action: 'OPEN:cages'
+  stack: 'STAINED_GLASS:0 : 1 : display=&aCages : lore=&7Change the color of your\n&7spawning cell.\n \n&7Unlocked: &a{cages_has}/{cages_max} &8({cages_percentage})\n&7Currently Selected:\n&a{cages_current}\n \n&eClick to view!'
+ close:
+  slot: 31
+  action: 'OPEN:closeinv'
+  stack: 'BARRIER : 1 : display=&cClose'

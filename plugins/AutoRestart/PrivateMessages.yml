@@ -1,0 +1,37 @@
+## These are private messages sent to the player when the event is triggered. If the same task is enabled in
+##  "global_broadcast", this player will not see the global message, but his own.
+##  Private messages do not include the prefix in "main.prefix" config.
+private_messages:
+    ## Enable or Disable the chat message
+    enabled:
+        ## Show the message when type /autore time
+        time: true
+        ## Show the message when typed /autore start or /autore pause
+        ## [Duplicated in Global_Messages]
+        status:
+            start: true
+            pause: true
+        ## Show the broadcast when the server time has been changed!
+        ## [Duplicated in Global_Messages]
+        change: true
+        ## "/autore pause" reminder
+        pause_reminder: true
+    ## Messages have multi line support!
+    messages:
+        ## %h - hours, %m - minutes, %s - seconds
+        time:
+            - '&cServer restarting in &f%h&cH &f%m&cM &f%s&cS!'
+        ## There are no tags for this section. [Duplicated in Global_Messages]
+        status:
+            start:
+                - '&cYou have started AutoRestart timer!'
+            pause:
+                - '&cYou have paused AutoRestart timer'
+        ## %h - hours, %m - minutes, %s - seconds [Duplicated in Global_Messages]
+        change:
+            - '&cServer now is restarting in &f%h&cH &f%m&cM &f%s&cS!'
+        ## "/autore pause" reminder
+        pause_reminder:
+            - '&cDont forget that the server countdown is still paused!'
+## DO NOT TOUCH!!
+version: 1

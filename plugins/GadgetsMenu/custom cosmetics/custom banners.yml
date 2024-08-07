@@ -1,0 +1,17 @@
+Custom-Banners:
+  Wolf:
+    Name: '&5Wolf Banner'
+    Mystery Dust: 15
+    Rarity: Epic
+    Enabled: false
+    CanBeFound: true
+    Purchasable: true
+    Base-Color: WHITE
+    Patterns:
+    - BLACK:RHOMBUS_MIDDLE
+    - BLACK:RHOMBUS_MIDDLE
+    - LIGHT_BLUE:CURLY_BORDER
+    - LIGHT_BLUE:CIRCLE_MIDDLE
+    - LIGHT_BLUE:CREEPER
+    - LIGHT_BLUE:TRIANGLE_TOP
+    Lore: ''

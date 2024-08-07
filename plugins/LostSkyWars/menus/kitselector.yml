@@ -1,0 +1,28 @@
+# Actions:
+# NOTHING
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Kit Selector'
+# Don't change this here
+rows: 6
+items:
+ back:
+  slot: 49
+  action: 'OPEN:closeinv'
+  stack: 'BARRIER : 1 : display=&cClose'
+extras:
+ select: '&6You selected &a{name}&6!'
+ deselect: '&6You deselected &a{name}&6!'
+ previous-page: 'ARROW : 1 : display=&aPrevious Page : lore=&7Go to page {page}&7.'
+ next-page: 'ARROW : 1 : display=&aNext Page : lore=&7Go to page {page}&7.'
+ description-locked:
+ - ''
+ - '&cNot unlocked yet!'
+ description-unlocked:
+ - ''
+ - '&eClick to select!'
+ description-selected:
+ - '&7Select the {name} Kit.'
+ - ''
+ - '&eSELECTED!'

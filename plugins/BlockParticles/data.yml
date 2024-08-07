@@ -1,0 +1,7 @@
+Locations:
+  '1':
+    World: world
+    X: 33
+    Y: 63
+    Z: 0
+    Particle: BigSoulWell

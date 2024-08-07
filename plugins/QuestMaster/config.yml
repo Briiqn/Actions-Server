@@ -1,0 +1,240 @@
+MySQL:
+  enabled: false
+  ip: localhost
+  port: 3306
+  database: databasename
+  username: user
+  password: pass
+
+NPC:
+  name: '&e&lRight Click'
+  type: VILLAGER
+  skin: 'false'
+  skin_name: Zealock
+Inventory:
+  name: SkyWars
+  size: 36
+
+'1':
+  name: '&aDaily Quest: Skywars Solo Kills'
+  startmsg: '&eQuest Started!'
+  material: PAPER;null
+  material-true: PAPER;ARROW_INFINITE
+  material-done: EMPTY_MAP;null
+  Commands:
+  - sw add coins %player% 1000
+  - exp give %player% 1500
+  - credits give %player% 5
+  lore:
+  - '&7Kill 15 players in Solo Mode'
+  - '&b(&60&b/&615&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&eClick to start this quest!'
+  lore-true:
+  - '&7'
+  - '&7Kill 15 players in Solo Mode'
+  - '&b(&6%kills%&b/&615&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&aYou''ve already started this quest!'
+  lore-done:
+  - '&7'
+  - '&7Kill 15 players in Solo Mode'
+  - '&b(&615&b/&615&b)'
+  - '&7'
+  - '%time%'
+  kills: 15
+  slot: 12
+'2':
+  name: '&aDaily Quest: Skywars Solo Win'
+  startmsg: '&eQuest Started!'
+  material: PAPER;null
+  material-true: PAPER;ARROW_INFINITE
+  material-done: EMPTY_MAP;null
+  Commands:
+  - sw add coins %player% 1000
+  - exp give %player% 1500
+  - credits give %player% 5
+  lore:
+  - '&7Win a game in Solo Mode' 
+  - '&b(&60&b/&61&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&eClick to start this quest!'
+  lore-true:
+  - '&7'
+  - '&7Win a game in Solo Mode' 
+  - '&b(&60&b/&61&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&aYou''ve already started this quest!'
+  lore-done:
+  - '&7'
+  - '&7Kill 15 players in Solo Mode' 
+  - '&b(&615&b/&615&b)'
+  - '&7'
+  - '%time%'
+  wins: 1
+  slot: 11
+'3':
+  name: '&aDaily Quest: Skywars Team Kills'
+  startmsg: '&eQuest Started!'
+  material: PAPER;null
+  material-true: PAPER;ARROW_INFINITE
+  material-done: EMPTY_MAP;null
+  Commands:
+  - sw add coins %player% 1000
+  - exp give %player% 1500
+  - credits give %player% 5
+  lore:
+  - '&7Kill 15 players in Team Mode'
+  - '&b(&60&b/&615&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&eClick to start this quest!'
+  lore-true:
+  - '&7'
+  - '&7Kill 15 players in Team Mode' 
+  - '&b(&6%kills%&b/&615&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&aYou''ve already started this quest!'
+  lore-done:
+  - '&7'
+  - '&7Kill 15 players in Team Mode'
+  - '&b(&615&b/&615&b)'
+  - '&7'
+  - '%time%'
+  kills: 15
+  slot: 14
+'4':
+  name: '&aDaily Quest: Skywars Team Win'
+  startmsg: '&eQuest Started!'
+  material: PAPER;null
+  material-true: PAPER;ARROW_INFINITE
+  material-done: EMPTY_MAP;null
+  Commands:
+  - sw add coins %player% 1000
+  - exp give %player% 1500
+  - credits give %player% 5
+  lore:
+  - '&7Win a game in Team Mode' 
+  - '&b(&60&b/&61&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&eClick to start this quest!'
+  lore-true:
+  - '&7'
+  - '&7Win a game in Team Mode' 
+  - '&b(&60&b/&61&b)'
+  - '&7'
+  - '&7Rewards:'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b1 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&aYou''ve already started this quest!'
+  lore-done:
+  - '&7'
+  - '&7Win a game in Team Mode' 
+  - '&b(&61&b/&61&b)'
+  - '&7'
+  - '%time%'
+  wins: 1
+  slot: 13
+'5':
+  name: '&aWeekly Quest: Skywars Weekly Kills'
+  startmsg: '&eQuest Started!'
+  material: PAPER;null
+  material-true: PAPER;ARROW_INFINITE
+  material-done: EMPTY_MAP;null
+  Commands:
+  - sw add coins %player% 1000
+  - exp give %player% 1500
+  - credits give %player% 5
+  lore:
+  - '&7Kill a total of 150 players in any mode'
+  - '&b(&60&b/&6150&b)'
+  - '&7'
+  - '&8+&315,000 &7Hypixel Experience'
+  - '&8+&63,000 &7Skywars Coins'
+  - '&8+&b3 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&eClick to start this quest!'
+  lore-true:
+  - '&7'
+  - '&7Kill a total of 150 players in any mode' 
+  - '&b(&6%kills%&b/&6150&b)'
+  - '&7'
+  - '&8+&32,500 &7Hypixel Experience'
+  - '&8+&61,500 &7Skywars Coins'
+  - '&8+&b3 &7Soul '
+  - '&7'
+  - '&8&oDaily Quests can be completed'
+  - '&8oonce every day.'
+  - '&7'
+  - '&aYou''ve already started this quest!'
+  lore-done:
+  - '&7'
+  - '&7Kill a total of 150 players in any mode'
+  - '&b(&6150&b/&6150&b)'
+  - '&7'
+  - '%time%'
+  kills: 150
+  slot: 15

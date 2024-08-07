@@ -1,0 +1,30 @@
+# Actions:
+# NOTHING
+# OPEN:player
+# OPEN:gore
+# OPEN:profile
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Settings'
+rows: 5
+items:
+ player:
+  slot: 12
+  action: 'NOTHING'
+  stack: 'WATCH : 1 : display={player_color}Player Visibility : lore=&7Toggles ability to see\n&7players.'
+ gore:
+  slot: 14
+  action: 'NOTHING'
+  stack: 'REDSTONE : 1 : display={gore_color}Blood & Gore : lore=&7Toggles ability to see\n&7blood and gore.'
+ player_2:
+  slot: 21
+  action: 'OPEN:player'
+  stack: 'INK_SACK:{player_durability} : 1 : display={player_color}Player Visibility : lore=&7Click to toggle!'
+ gore_2:
+  slot: 23
+  action: 'OPEN:gore'
+  stack: 'INK_SACK:{gore_durability} : 1 : display={gore_color}Blood & Gore : lore=&7Click to toggle!'
+ back:
+  slot: 40
+  action: 'OPEN:profile'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To My Profile'

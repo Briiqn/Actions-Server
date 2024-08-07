@@ -1,0 +1,58 @@
+#// <>==<>==<> ItemJoin's Settings, by RockinChaos  <>==<>==<> //#
+#// See the Documentations page for a more in-depth tutorial; https://www.spigotmc.org/wiki/itemjoin/ //#
+#// For per-world support this best works with Multiverse-Inventories! http://dev.bukkit.org/bukkit-plugins/multiverse-inventories //#
+config-Version: 6
+
+ #// English is currently the only support language at the moment! //#
+Language: 'English'
+CheckForUpdates: true
+Log-Coloration: true
+Log-Commands: true
+Items-Permissions: true
+OPItems-Permissions: false
+OPCommands-Permissions: false
+GetItem-Permissions: false
+Debugging-Mode: false
+
+
+#// Global Settings for ItemJoin. //#
+Prevent-Pickups: false
+HeldItem-Slot: None
+NewNBT-System: true
+#// If you change NewNBT-System from true/false, it is recommended to clear all old ItemJoin items. //#
+
+#// Global Clear Items for ItemJoin. //#
+#// Set Clear-Items to ItemJoin or to All, ItemJoin clears only the ItemJoin items and All will clear all items. //#
+#// If you want one of these functions to only clear specific worlds, replace false with the world names separated by commas.  //#
+Clear-Items: ItemJoin
+Clear-On-Join: false
+Clear-On-WorldChanged: false
+AllowOPBypass: false
+CreativeBypass: false
+
+
+#// Global Commands for ItemJoin on join, these commands are executed by console. //#
+enabled-global-commands: false
+enabled-worlds: world, world_nether
+global-commands:
+  - 'itemjoin get <item> <player>'
+  - 'first-join: say This is a command only executed once per world, per player.'
+  
+  
+#// Itemflag Bypass Permissions //#
+InventoryBypass-Permission: false
+
+#// These are optional dependencies, only change these if you are looking to use them in conjunction with ItemJoin, changing the values will require a server restart. //#
+Vault: false
+PlaceholderAPI: false
+Multiverse-Core: false
+Multiverse-Inventories: false
+PerWorldInventory: false
+PerWorldPlugins: false
+xInventories: false
+TokenEnchant: false
+HeadDatabase: false
+WorldGuard: false
+BetterNick: false
+MyWorlds: false
+AuthMe: false

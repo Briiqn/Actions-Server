@@ -1,0 +1,32 @@
+# Actions:
+# NOTHING
+# OPEN:play
+# OPEN:random
+# OPEN:favorites
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'SkyWars {mode}'
+# Don't change this here
+rows: 6
+items:
+ random:
+  slot: 39
+  action: 'OPEN:random'
+  stack: 'FIREWORK : 1 : display=&aRandom Map : lore=&8{mode}\n \n&e{tick} Click to play!'
+ favorite:
+  slot: 41
+  action: 'OPEN:favorites'
+  stack: 'DIAMOND : 1 : display=&aMap Favourite : lore=&8{mode}\n \n&e{tick} Click to play!'
+ info:
+  slot: 53
+  action: 'SENDMESSAGE:&aWebstore &bhttps://store.hypixel.net/'
+  stack: 'BOOK : 1 : display=&aMap Selection : lore=&7Each day you can choose\n&7wich map you want to play\n&71 time. Unlock unlimited\n&7map selection by upgrading\n&7to &bMVP&c+ &7rank on our\n&7store!\n \n&ehttp://store.hypixel.net\n&eClick here to visit the store!'
+ goback:
+  slot: 49
+  action: 'OPEN:play'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To Play SkyWars'
+extras:
+ color-normal: 'RED'
+ color-favorite: 'AQUA'
+ map: 'FIREWORK_CHARGE : 1 : display={color}{map} : color={bukkit_color} : lore=&8{mode}\n \n&7Avaiable Servers: &a{avaiable}\n \n&e{tick} Click to Play\n&eRight click to toggle favorite!'

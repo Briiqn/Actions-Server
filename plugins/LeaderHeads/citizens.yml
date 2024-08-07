@@ -1,0 +1,41 @@
+# This is the configuration file where you can change the name tags of the NPCs created by Citizens.
+
+
+# Name tags of the non-player NPCs.
+# The number defines the rank in the leaderboard
+# These name tags can be any length
+# Variables: {name}, {number}
+
+npc-name-tag:
+  '1': '&6&l#{number} &b{name}'
+  '2': '&6&l#{number} &b{name}'
+  '3': '&6&l#{number} &b{name}'
+  '4': '&6&l#{number} &b{name}'
+  '5': '&6&l#{number} &b{name}'
+  '6': '&6&l#{number} &b{name}'
+  '7': '&6&l#{number} &b{name}'
+  '8': '&6&l#{number} &b{name}'
+  '9': '&6&l#{number} &b{name}'
+  '10': '&6&l#{number} &b{name}'
+  
+# Names of the player NPC's.
+# The number defines the rank in the leaderboard
+# These name tags can be any length
+# Variables: {name}, {number}
+
+player-name-tag:
+  '1': '&a{name}'
+  '2': '&6{name}'
+  '3': '&c{name}'
+  '4': '&b{name}'
+  '5': '&b{name}'
+  '6': '&b{name}'
+  '7': '&b{name}'
+  '8': '&b{name}'
+  '9': '&b{name}'
+  '10': '&b{name}'
+
+
+# Version of the config
+# Do NOT change this
+config-version: 1

@@ -1,0 +1,36 @@
+Bars:
+- Title:
+    1: "&aRanks, &bBoosters, &eMysteryBoxes &7& more &f\u27A4 &6&lSTORE.HYPIXEL.NET"
+    2: "&cRanks, &bBoosters, &eMysteryBoxes &7& more &f\u27A4 &e&lSTORE.HYPIXEL.NET"
+    3: "&aRanks, &cBoosters, &eMysteryBoxes &7& more &f\u27A4 &a&lSTORE.HYPIXEL.NET"
+    4: "&aRanks, &bBoosters, &cMysteryBoxes &7& more &f\u27A4 &f&lSTORE.HYPIXEL.NET"
+    5: "&aRanks, &bBoosters, &eMysteryBoxes &c& more &f\u27A4 &b&lSTORE.HYPIXEL.NET"
+    6: "&aRanks, &bBoosters, &eMysteryBoxes &7& more &f\u27A4 &c&lSTORE.HYPIXEL.NET"
+  #Cycles between colors red and blue
+  Color:
+    1: red
+    2: blue
+    3: pink
+    4: yellow
+    5: purple
+    6: white
+  #Updates every 100 ticks (= 5 seconds)
+  Update-Delay: 5
+- Title: '&cHealth (%player_health%/%player_max_health%)'
+  #Set the bar's health and max health to that of the player
+  Health: '%player_health%'
+  Max-Health: '%player_max_health%'
+  #Color depending on progress!
+  Color: '25=red, 50=yellow, 100=green'
+  #You can have Enabled-Worlds and Disabled-Worlds on each bar.
+  #If the bar has one of these keys specified, it will not look at the keys in the main config (bottom of this file)
+  #Enabled-Worlds:
+  #- world
+#Use Enabled-Worlds to create a whitelist that will only allow the bars to show in those worlds
+Enabled-Worlds:
+- world
+#- world_nether
+#Use Disabled-Worlds to create a blacklist that will hide the bossbar in those worlds
+#If Enabled-Worlds is specified, this does nothing
+#Disabled-Worlds:
+#- world_the_end

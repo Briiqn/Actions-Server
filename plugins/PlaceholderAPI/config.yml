@@ -1,0 +1,11 @@
+# PlaceholderAPI version 2.8.2
+# Created by extended_clip
+
+check_updates: true
+cloud_enabled: true
+cloud_enable_unverified_expansions: false
+auto_install_expansions: true
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss

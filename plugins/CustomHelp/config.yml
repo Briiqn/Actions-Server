@@ -1,0 +1,65 @@
+#Set help-message as a list!
+#Follow the format down below!
+#Remember to Start a new message like this:
+# - "<message>"
+# ^^^^^^^^^^^^^ is very important!
+invalid-page: "&6Use command: /help"
+help-reload: "&aRELOAD!"
+no-permission: ""
+help-message-1:
+- ''
+- '&eFor questions or issues related to payments visit &bsupport.hypixel.net'
+- '&eReport server issues or bugs on the forums: &bhypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section: &bhypixel.net/forums/5/'
+# -------------------------------------------------------------
+# IMPORTANT!
+# -------------------------------------------------------------
+# Setting help-page-2 as true is going to let players type in 
+# /help 2. Setting this as false is going to result in sending
+# invalid-page message! (You can find this up). 
+# true = visible / false = not-visible
+# -------------------------------------------------------------
+#Enable /help 2
+help-page-2: false
+help-message-2:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 2 of /help"
+- "&7>&7&m------------------------------------&7<"
+#Enable /help 3
+help-page-3: false
+help-message-3:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 3 of /help"
+- "&7>&7&m------------------------------------&7<"
+#Enable /help 4
+help-page-4: false
+help-message-4:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 4 of /help"
+- "&7>&7&m------------------------------------&7<"
+#Enable /help 5
+help-page-5: false
+help-message-5:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 5 of /help"
+- "&7>&7&m------------------------------------&7<"
+#Enable /help 6
+help-page-6: false
+help-message-6:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 6 of /help"
+- "&7>&7&m------------------------------------&7<"
+#Enable /help 7
+help-page-7: false
+help-message-7:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 7 of /help"
+- "&7>&7&m------------------------------------&7<"
+#Enable /help 8
+help-page-8: false
+help-message-8:
+- "&7>&7&m------------------------------------&7<"
+- "&6Page 8 of /help"
+- "&7>&7&m------------------------------------&7<"

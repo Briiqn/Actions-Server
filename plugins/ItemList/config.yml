@@ -1,0 +1,77 @@
+#                                         #
+#                ItemList                 #
+#                   by                    #
+#                MathiasMC                #
+#  Any ideas for the plugin or need help? #
+#           contact me on spigot          #
+#                                         #
+update-check: true
+blacklist:
+  inventory:
+    scanner:
+      time: 0
+      message:
+        Memorial:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Shire:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Palette:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Plateau:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        RailRoad:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Sentiel:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Skychurch:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Tribal:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Tribute:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+        Winterhelm:
+          permission: itemlist.inventory.scanner.message
+          commands:
+          - itemlist message {itemlist_player} &cRemoved {itemlist_amount} banned items from your inventory.
+      list:
+        '1':
+          array:
+            type: GLASS_BOTTLE
+          Winterhelm:
+            permission: itemlist.blacklist
+          Shire:
+            permission: itemlist.blacklist
+          Tribute:
+            permission: itemlist.blacklist
+          Tribal:
+            permission: itemlist.blacklist
+          Skychurch:
+            permission: itemlist.blacklist
+          Sentiel:
+            permission: itemlist.blacklist
+          RailRoad:
+            permission: itemlist.blacklist
+          Plateau:
+            permission: itemlist.blacklist
+          Palette:
+            permission: itemlist.blacklist
+          Memorial:
+            permission: itemlist.blacklist

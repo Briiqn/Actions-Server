@@ -1,0 +1,42 @@
+# Actions:
+# NOTHING
+# OPEN:buy
+# OPEN:shop
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: '{kit}'
+rows: 4
+items:
+ contents:
+  slot: 12
+  action: 'NOTHING'
+  stack: '{kit_icon}'
+ buy:
+  slot: 13
+  action: 'OPEN:buy'
+  stack: '{buy}'
+ back:
+  slot: 30
+  action: 'OPEN:shop'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To Kits'
+ coins:
+  slot: 31
+  action: 'NOTHING'
+  stack: 'EMERALD : 1 : display=&7Total Coins: &6{coins} : lore=&6http://store.hypixel.net'
+extras:
+ buy-material: 'STAINED_GLASS_PANE'
+ buy-can: 14
+ buy-cant: 5
+ enough-coins: '&cYou don''t have enough coins to buy that!'
+ already-unlocked: '&cYou have already unlocked that!'
+ description-unlocked:
+ - ''
+ - '&7Rarity: {rarity}'
+ - '&aUNLOCKED'
+ description-locked:
+ - ''
+ - '&7Rarity: {rarity}'
+ - '&7Cost: &6{price}'
+ - '&bAlso found in the Soul Well!'
+ - ''
+ - '&eClick to unlock!'

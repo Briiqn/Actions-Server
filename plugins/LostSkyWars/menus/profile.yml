@@ -1,0 +1,22 @@
+# Actions:
+# NOTHING
+# OPEN:statistics
+# OPEN:settings
+# OPEN:leveling
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'My Profile'
+rows: 3
+items:
+ settings:
+  slot: 10
+  action: 'OPEN:settings'
+  stack: 'REDSTONE_COMPARATOR : 1 : display=&aSettings & Visibility : lore=&7Allows you to edit and control\n&7various personal settings.\n \n&eClick to edit your settings!'
+ player:
+  slot: 13
+  action: 'SENDMESSAGE:&aWebstore &bhttps://store.hypixel.net/'
+  stack: 'SKULL_ITEM:3 : 1 : display=&aCharacter Information : lore=&7Rank: {rank}\n&7Level: &6{level}\n&7Experience until next level: &6{until}\n&7Mystery Dust: &b{dusts}\n \n&eClick to see the Store link.'
+ statistics:
+  slot: 16
+  action: 'OPEN:statistics'
+  stack: 'PAPER : 1 : display=&aStats Viewer : lore=&7Showcases your stats for each\n&7game and an overview of all.\n \n&7Players ranked &bMVP &7or higher\n&7can use &b/stats (username) &7to view\n&7other player''s stats.\n \n&eClick to view stats!'

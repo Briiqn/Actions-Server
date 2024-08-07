@@ -1,0 +1,36 @@
+# Actions:
+# NOTHING
+# OPEN:shop
+# OPEN:closeinv
+# SENDMESSAGE:&aHi
+# PERFORMCOMMAND:/command
+title: 'Normal Kits'
+# Don't change this here
+rows: 6
+items:
+ back:
+  slot: 48
+  action: 'OPEN:shop'
+  stack: 'ARROW : 1 : display=&aGo Back : lore=&7To shop.'
+ coins:
+  slot: 49
+  action: 'NOTHING'
+  stack: 'EMERALD : 1 : display=&7Total Coins: &6{coins} : lore=&6http://store.example.net'
+extras:
+ select: '&6You selected &a{name}&6!'
+ deselect: '&6You deselected &a{name}&6!'
+ previous-page: 'ARROW : 1 : display=&aPrevious Page : lore=&7Go to page {page}&7.'
+ next-page: 'ARROW : 1 : display=&aNext Page : lore=&7Go to page {page}&7.'
+ description-locked:
+ - ''
+ - '&7Rarity: {rarity}'
+ - '&7Cost: &6{price}'
+ - '&bAlso found in the Soul Well!'
+ - ''
+ - '&eClick to view!'
+ description-unlocked:
+ - ''
+ - '&7Rarity: {rarity}'
+ - '&aUNLOCKED'
+ - ''
+ - '&eClick to view!'

@@ -1,0 +1,10 @@
+Prefix: ''
+NoPermission: '&7You do not have permission to use this command!'
+WrongArgs: '&7Use the command like this: /rank <player> <rank>'
+SetRank: '&7Set &a%player%&7''s rank to &a%rank%'
+YourRankWasSet: '&7Your rank was set to &a%rank%'
+
+#Permission for staff to receive messages is rankcommand.msg
+StaffMessage:
+  enabled: false
+  message: '&a%player% &7set &a%playerchanged%&7''s rank to &e%rankset%'

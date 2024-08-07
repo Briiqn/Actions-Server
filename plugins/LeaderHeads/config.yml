@@ -1,0 +1,66 @@
+#-----------------------------------------#
+#                                         #
+#              LeaderHeads 3              #
+#    A full-fledged solution to manage    #
+#    statistics and create leaderboards   #
+#          (R) RobiRami 2017              #
+#                                         #
+#-----------------------------------------#
+
+
+# LeaderHeads will search for stats in the folder of this world. 
+# If no stats are found for this world, LeaderHeads will look through the folders of the other worlds.
+stats-world: "world"
+
+# No permission message. Used when players try to execute a command without permission.
+no-permission: "&cYou do not have permission to execute this command"
+
+# The format of the statistics related to money
+money-format:
+  # Commas in the format. (Example: 1234967 becomes 1,234,967 )
+  # Enabling this will disable the enable-custom feature.
+  enable-commas: false
+  # Format high numbers properly. (Example: 9000000 becomes 9M)
+  # This feature will be disabled if enable-commas is enabled
+  enable-custom: false
+  custom:
+    thousands-format: k
+    millions-format: M
+    billions-format: B
+    trillions-format: T
+    quadrillions-format: QD
+    quintillions-format: QT
+    sextillions-format: SX
+    septillions-format: SP
+# The format of the statistic related to time.
+# %d is the placeholder for the amount of days
+# %h is the placeholder for the amount of hours
+# %m is the placeholder for the amount of minutes
+time-format: "%d days, %h hours, %m minutes"
+
+# Some servers run on machines that are not in the same timezone as the playerbase of the server
+# With this option you can set the timezone of all statistics and automatic rewards.
+# Check this document for a full list of available timezones: http://bit.ly/LeaderHeadsTimezones
+# The option 'default' will use the machine's timezone.
+timezone: "default"
+
+# This option will update all statistics, even if no signs are made for its leaderboard
+# This option is NOT recommended and may use a lot of memory
+# This option should only be used to check if all statistics work properly
+force-update-all: false
+
+# This option sends all available data to the LeaderHeads database, even if the player that the data is related to is not online 
+# This option is NOT recommended and may use a lot of memory
+# This option should only be used to check if the database system works properly
+force-send-all: false
+
+# Whether LeaderHeads should output useful information in the console.
+debug: false
+
+# Enable or disable the experimental features. It's not recommended to turn this on.
+experimental: false
+
+
+# Version of the config
+# Do NOT change this
+config-version: 1

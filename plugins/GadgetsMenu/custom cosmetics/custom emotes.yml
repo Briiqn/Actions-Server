@@ -1,0 +1,23 @@
+Custom-Emotes:
+  Smiles:
+    Name: '&aSmiles Emote'
+    Mystery Dust: 10
+    Cooldown: 10
+    Rarity: Common
+    Hologram:
+      Enabled: false
+      Text: ''
+    Texture: 60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
+    Enabled: false
+    CanBeFound: true
+    Purchasable: true
+    TicksPerFrame: 5
+    Frames:
+    - 5:264614ad4bb2eb61b06b1a8b5d57f02448a975a8217ec16571f87c49227cbd
+    - 1:60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
+    - 11:41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    - 1:4168b716281635ceafc3268dfa7d5f46466c8032e11c1cfb7db711a9f647d
+    - 11:41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    - 1:4168b716281635ceafc3268dfa7d5f46466c8032e11c1cfb7db711a9f647d
+    - 3:41ac21d93ce17f2b7ee2e0e07a983eeb4a539e341ce5c77c36c722f77a2235
+    Lore: ''
