@@ -42,7 +42,8 @@ This repository contains the configuration for automatically deploying and manag
 
 Public repositories get 16 GB of memory for GitHub Actions, while private repositories only get 8 GB.
 ## Demos
-   main => overview-manufacturer.gl.joinmc.link 
+   main => overview-manufacturer.gl.joinmc.link
+   
    hypixel => 
 ## Contributing
 
