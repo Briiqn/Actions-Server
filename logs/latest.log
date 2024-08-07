@@ -589,3 +589,9 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:53:02] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [04:53:02] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [04:53:02] [Head Conversion Thread - 1/WARN]: 	... 8 more
+[04:53:08] [Server thread/INFO]: efefe issued server command: /aac
+[04:53:10] [Server thread/INFO]: efefe issued server command: /aac5
+[04:53:12] [Server thread/INFO]: efefe issued server command: /aac help
+[04:53:26] [Server thread/INFO]: efefe issued server command: /aac check efefe
+[04:53:29] [Server thread/INFO]: efefe issued server command: /aac status efefe
+[04:53:33] [Server thread/INFO]: efefe issued server command: /fly
