@@ -841,3 +841,34 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:39:50] [Craft Scheduler Thread - 56/INFO]: [AuthMe] The user Briiqn has 11 accounts:
 [16:39:50] [Craft Scheduler Thread - 56/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
 [16:39:50] [Craft Scheduler Thread - 56/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[16:40:54] [Thread-36/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[16:40:55] [Server thread/INFO]: [Polar] Detected 1.8.x for ProHaxLeaks
+[16:40:55] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:38605] logged in with entity id 2983 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:40:55] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/7ae292e8-c138-3b90-af4c-37ef05ba9a54.yml
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ProHaxLeaks
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ProHaxLeaks
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[16:40:55] [Craft Scheduler Thread - 56/WARN]: 	... 7 more
