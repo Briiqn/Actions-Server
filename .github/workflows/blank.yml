@@ -15,12 +15,11 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for all branches and tags
           token: ${{ secrets.FINE_GRAINED_PAT }}  # Use fine-grained PAT for checkout
-      - name: Setup GraalVM
-        uses: graalvm/setup-graalvm@v1.2.2
+      - name: Set up OpenJDK 8
+        uses: actions/setup-java@v3
         with:
-          java-version: '22'
-          distribution: 'graalvm'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          java-version: '8'
+          distribution: 'adopt'
       - name: Debug - List directory contents
         run: ls -la
       - name: Run Spigot and playit with 30-second commits and workflow deletion
