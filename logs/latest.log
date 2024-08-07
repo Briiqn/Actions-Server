@@ -115,3 +115,7 @@
 [03:07:51] [Server thread/INFO]: ltZ_Lvcky issued server command: /tps
 [03:07:56] [Server thread/INFO]: ltZ_Lvcky lost connection: Disconnected
 [03:07:56] [Server thread/INFO]: ltZ_Lvcky left the game.
+[03:08:16] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[03:08:16] [Server thread/INFO]: Briiqn[/127.30.38.147:57803] logged in with entity id 28 at ([world]1712.0736230599393, 4.0, 36.85463522611224)
+[03:08:22] [Server thread/INFO]: Briiqn issued server command: /tps
+[03:08:23] [Server thread/INFO]: Briiqn issued server command: /mem
