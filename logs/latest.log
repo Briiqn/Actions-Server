@@ -766,3 +766,8 @@ Reason: §9§lVerus §8> §fCheating
 Reason: §9§lVerus §8> §fCheating
 [20:24:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@4255d64d[id=7ae292e8-c138-3b90-af4c-37ef05ba9a54,name=ProHaxLeaks,properties={},legacy=false] (/127.30.38.147:34337) lost connection: You are banned from this server!
 Reason: §9§lVerus §8> §fCheating
+[20:25:06] [Thread-24/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[20:25:06] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@14664588[id=7ae292e8-c138-3b90-af4c-37ef05ba9a54,name=ProHaxLeaks,properties={},legacy=false] (/127.30.38.147:49299): You are banned from this server!
+Reason: §9§lVerus §8> §fCheating
+[20:25:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@14664588[id=7ae292e8-c138-3b90-af4c-37ef05ba9a54,name=ProHaxLeaks,properties={},legacy=false] (/127.30.38.147:49299) lost connection: You are banned from this server!
+Reason: §9§lVerus §8> §fCheating
