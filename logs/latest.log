@@ -1020,3 +1020,5 @@ Caused by: java.lang.NullPointerException
 [23:03:19] [Craft Scheduler Thread - 112/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
 [23:03:19] [Craft Scheduler Thread - 112/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
 [23:03:19] [Craft Scheduler Thread - 112/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[23:03:56] [Server thread/WARN]: Briiqn moved wrongly!
+[23:04:04] [Server thread/INFO]: Briiqn issued server command: /mem
