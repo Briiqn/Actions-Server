@@ -1551,3 +1551,11 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [05:24:51] [Server thread/WARN]: efefe moved too quickly! 1151.8965851806931,0.0,1151.94400771048 (1151.8965851806931, 0.0, 1151.94400771048)
 [05:24:51] [Server thread/WARN]: efefe moved too quickly! 1151.9827641978522,0.0,1151.990667952326 (1151.9827641978522, 0.0, 1151.990667952326)
 [05:25:16] [Server thread/INFO]: efefe lost connection: Disconnected
+[05:25:40] [Thread-25/INFO]: UUID of player 1zun4 is 83a2c71f-3fc4-3e4b-8438-feb3e3e80082
+[05:25:40] [Server thread/INFO]: [AAC5] Detected 1.8.x for 1zun4
+[05:25:40] [Server thread/INFO]: 1zun4[/127.30.38.147:50293] logged in with entity id 395 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[05:25:40] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/83a2c71f-3fc4-3e4b-8438-feb3e3e80082.yml
+[05:25:46] [Server thread/INFO]: [AuthMe] 1zun4 registered 127.30.38.147
+[05:25:46] [Craft Scheduler Thread - 21/INFO]: [AuthMe] The user 1zun4 has 4 accounts:
+[05:25:46] [Craft Scheduler Thread - 21/INFO]: [AuthMe] §7konsolas, §aFag§7, efefe, §a1zun4§7.
+[05:25:46] [Craft Scheduler Thread - 21/INFO]: [AuthMe] 1zun4 logged in 127.30.38.147
