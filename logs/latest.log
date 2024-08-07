@@ -632,3 +632,5 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
 [04:54:31] [Craft Scheduler Thread - 1/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
 [04:54:31] [Craft Scheduler Thread - 1/WARN]: 	... 7 more
+[04:54:54] [Server thread/INFO]:  AAC Fag - Spectate
+[04:55:11] [Server thread/INFO]:  AAC Fag - Spectate
