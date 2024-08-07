@@ -771,3 +771,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:30:39] [Thread-24/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [08:30:39] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
 [08:30:39] [Server thread/INFO]: Briiqn[/127.30.38.147:41573] logged in with entity id 387 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[08:30:46] [Craft Scheduler Thread - 1/INFO]: [AuthMe] The user Briiqn has 6 accounts:
+[08:30:46] [Craft Scheduler Thread - 1/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las.
+[08:30:46] [Craft Scheduler Thread - 1/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[08:30:56] [Server thread/INFO]: Briiqn issued server command: //wand
