@@ -2616,3 +2616,4 @@ Caused by: java.lang.NullPointerException
 [17:31:42] [Craft Scheduler Thread - 6/INFO]: [AuthMe] The user ProHaxLeaks has 12 accounts:
 [17:31:42] [Craft Scheduler Thread - 6/INFO]: [AuthMe] §7§akonsolas§7, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
 [17:31:42] [Craft Scheduler Thread - 6/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
+[17:31:57] [Server thread/INFO]: konsolas issued server command: /lsw fstart
