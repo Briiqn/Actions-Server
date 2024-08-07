@@ -627,3 +627,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:48:26] [Server thread/INFO]: fff issued server command: /lag
 [03:48:28] [Server thread/INFO]: fff issued server command: /spark
 [03:48:30] [Server thread/INFO]: fff lost connection: Disconnected
+[04:09:54] [Thread-21/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
