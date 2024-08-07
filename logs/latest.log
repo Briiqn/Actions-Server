@@ -755,3 +755,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:17:09] [Craft Scheduler Thread - 39/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [16:17:20] [Server thread/INFO]: Briiqn issued server command: /pex user group
 [16:17:23] [Server thread/INFO]: Briiqn issued server command: /pex user group add
+[16:17:37] [Server thread/INFO]: Briiqn issued server command: /start
+[16:17:43] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[16:17:46] [Thread-28/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[16:17:46] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[16:17:46] [Server thread/INFO]: Briiqn[/127.30.38.147:60329] logged in with entity id 1856 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:17:52] [Server thread/INFO]: Briiqn issued server command: /login
+[16:17:54] [Craft Scheduler Thread - 18/INFO]: [AuthMe] The user Briiqn has 11 accounts:
+[16:17:54] [Craft Scheduler Thread - 18/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
+[16:17:54] [Craft Scheduler Thread - 18/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
