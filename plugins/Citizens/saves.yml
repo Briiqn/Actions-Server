@@ -21,7 +21,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: owner,type,spawned,location
+    traitnames: location,owner,type,spawned
     navigator:
       pathfindingrange: '25.0'
       stationaryticks: -1
