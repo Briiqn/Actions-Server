@@ -1015,3 +1015,5 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:48:40] [Server thread/INFO]: Outroduction issued server command: /daddy
 [16:48:56] [Server thread/INFO]: Outroduction issued server command: /polar
 [16:48:58] [Server thread/INFO]: Outroduction issued server command: /grim
+[16:49:01] [Server thread/INFO]: Outroduction issued server command: /grimac
+[16:49:05] [Server thread/INFO]: Outroduction issued server command: /sus
