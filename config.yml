@@ -1,4 +1,4 @@
-enforce_secure_profile: true
+enforce_secure_profile: false
 listeners:
 - query_port: 25577
   motd: '&1Hypixel Network'
