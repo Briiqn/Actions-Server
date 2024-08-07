@@ -1095,3 +1095,13 @@ Caused by: java.lang.NullPointerException
 [23:06:42] [Server thread/INFO]: Briiqn issued server command: /pex group Owner
 [23:06:49] [Server thread/INFO]: Briiqn issued server command: /pex user group
 [23:06:56] [Server thread/INFO]: Briiqn issued server command: /pex user group Owner add ShortyDev
+[23:07:21] [Server thread/INFO]: ShortyDev issued server command: /parkour reset
+[23:07:23] [Server thread/INFO]: ShortyDev issued server command: /spawn
+[23:07:28] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[23:07:31] [Thread-32/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[23:07:31] [Server thread/INFO]: ShortyDev[/127.16.144.220:51083] logged in with entity id 7729 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[23:07:35] [Craft Scheduler Thread - 112/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
+[23:07:35] [Craft Scheduler Thread - 112/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
+[23:07:35] [Craft Scheduler Thread - 112/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[23:07:48] [Server thread/INFO]: Briiqn issued server command: /user ShortyDev set Owner
+[23:07:51] [Server thread/INFO]: Briiqn issued server command: /pex user ShortyDev set Owner
