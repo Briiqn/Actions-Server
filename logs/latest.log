@@ -1550,3 +1550,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [05:24:50] [Server thread/WARN]: efefe moved too quickly! 1151.8965851806931,0.0,1151.94400771048 (1151.8965851806931, 0.0, 1151.94400771048)
 [05:24:51] [Server thread/WARN]: efefe moved too quickly! 1151.8965851806931,0.0,1151.94400771048 (1151.8965851806931, 0.0, 1151.94400771048)
 [05:24:51] [Server thread/WARN]: efefe moved too quickly! 1151.9827641978522,0.0,1151.990667952326 (1151.9827641978522, 0.0, 1151.990667952326)
+[05:25:16] [Server thread/INFO]: efefe lost connection: Disconnected
