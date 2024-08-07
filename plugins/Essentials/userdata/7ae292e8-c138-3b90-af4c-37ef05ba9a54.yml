@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723061478197
-  login: 1723061474297
+  logout: 1723062268494
+  login: 1723062266347
 money: '0'
 last-account-name: ProHaxLeaks
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: 1434.5934125879187
   y: 4.0
   z: 44.56377041326419
-  yaw: 54.65629959106445
-  pitch: 6.840975284576416
+  yaw: 56.36653518676758
+  pitch: 6.698455333709717

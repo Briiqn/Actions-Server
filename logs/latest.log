@@ -194,3 +194,7 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
 [20:12:33] [Server thread/INFO]: Briiqn issued server command: /spark ping --player 1
 [20:18:33] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [20:18:33] [Server thread/INFO]: Briiqn left the game.
+[20:24:26] [Thread-10/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[20:24:26] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:46971] logged in with entity id 88 at ([world]1434.5934125879187, 4.0, 44.56377041326419)
+[20:24:28] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[20:24:28] [Server thread/INFO]: ProHaxLeaks left the game.
