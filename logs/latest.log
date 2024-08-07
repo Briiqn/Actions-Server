@@ -10489,3 +10489,8 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:07:52] [Server thread/INFO]: Briiqn issued server command: /fly
 [08:07:52] [Server thread/INFO]: §cBriiqn §4was denied access to command.
 [08:08:46] [Server thread/INFO]: Briiqn issued server command: /pl
+[08:09:09] [Server thread/INFO]: Briiqn issued server command: /tps
+[08:09:10] [Server thread/INFO]: Briiqn issued server command: /lag
+[08:09:10] [Server thread/INFO]: §cBriiqn §4was denied access to command.
+[08:09:14] [Server thread/INFO]: Briiqn issued server command: /ping
+[08:09:14] [Server thread/INFO]: §cBriiqn §4was denied access to command.
