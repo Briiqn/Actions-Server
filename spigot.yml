@@ -64,7 +64,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -144,6 +143,7 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    mob-spawn-range: 4
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
