@@ -4571,3 +4571,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [05:31:50] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [05:31:50] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [05:31:50] [Server thread/INFO]: Fag lost connection: Disconnected
+[05:32:49] [Server thread/INFO]: Briiqn issued server command: /gmsp
+[05:32:49] [Server thread/INFO]: §cBriiqn §4was denied access to command.
