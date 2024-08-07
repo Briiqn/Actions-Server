@@ -647,3 +647,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:42:13] [Server thread/INFO]: Briiqn issued server command: /aac
 [08:42:19] [Server thread/INFO]: Briiqn issued server command: /pl
 [08:44:14] [Craft Scheduler Thread - 0/ERROR]: [ItemList] Error when checking for a new update!
+[08:56:08] [Server thread/INFO]: Briiqn issued server command: /mem
