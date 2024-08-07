@@ -108,9 +108,15 @@ groups:
         - essentials.fly
   Owner:
     permissions:
+    - ShortyDev
     - '*'
     options:
       prefix: '&4[Owner] '
+  user:
+    worlds:
+      Owner:
+        permissions:
+        - ShortyDev
 schema-version: 1
 users:
   7ea28941-2d2c-334d-894c-86c61e8a6ec5:
