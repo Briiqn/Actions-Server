@@ -1143,3 +1143,4 @@ Caused by: java.lang.NullPointerException
 [23:31:25] [Server thread/INFO]: ShortyDev issued server command: /bungee
 [23:31:58] [Server thread/INFO]: ShortyDev lost connection: Disconnected
 [23:32:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 5 Minutes!
+[23:36:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 1 Minutes!
