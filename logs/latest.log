@@ -180,3 +180,5 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [08:05:25] [Thread-13/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [08:05:26] [Server thread/INFO]: Briiqn[/127.30.38.147:43599] logged in with entity id 121 at ([world]1714.3599632362354, 4.021002560286569, 38.05032759882814)
 [08:05:31] [Server thread/INFO]: Briiqn issued server command: /fly
+[08:07:43] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[08:07:43] [Server thread/INFO]: Briiqn left the game.
