@@ -744,3 +744,20 @@ Reason: §9§lVerus §8> §fCheating
 [20:22:53] [Craft Scheduler Thread - 18/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
 [20:22:53] [Craft Scheduler Thread - 18/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [20:23:06] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[20:23:22] [Server thread/INFO]: CONSOLE issued server command: /ban Briiqn &9&lVerus &8> &fCheating
+[20:23:22] [Server thread/INFO]: Briiqn lost connection: §cYou have been banned:
+§r§9§lVerus §8> §fCheating
+[20:23:22] [Server thread/INFO]: §6Player§c Console §6banned§c Briiqn §6for: §c§cYou have been banned:
+§r§9§lVerus §8> §fCheating§6.
+[20:23:22] [Server thread/WARN]: handleDisconnection() called twice
+[20:23:28] [Server thread/INFO]: CONSOLE issued server command: /ban ProHaxLeaks &9&lVerus &8> &fCheating
+[20:23:28] [Server thread/INFO]: ProHaxLeaks lost connection: §cYou have been banned:
+§r§9§lVerus §8> §fCheating
+[20:23:28] [Server thread/INFO]: §6Player§c Console §6banned§c ProHaxLeaks §6for: §c§cYou have been banned:
+§r§9§lVerus §8> §fCheating§6.
+[20:23:28] [Server thread/WARN]: handleDisconnection() called twice
+[20:23:40] [Thread-22/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:23:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6918fb29[id=d2a59894-242b-3843-8016-7545edc9d28e,name=Briiqn,properties={},legacy=false] (/127.30.38.147:43215): You are banned from this server!
+Reason: §9§lVerus §8> §fCheating
+[20:23:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@6918fb29[id=d2a59894-242b-3843-8016-7545edc9d28e,name=Briiqn,properties={},legacy=false] (/127.30.38.147:43215) lost connection: You are banned from this server!
+Reason: §9§lVerus §8> §fCheating
