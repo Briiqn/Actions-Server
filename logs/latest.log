@@ -606,3 +606,10 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:45:50] [Thread-19/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
 [04:45:50] [Server thread/INFO]: efefe[/127.30.38.147:57261] logged in with entity id 1275 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [04:45:50] [pool-10-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/687c9328-6cea-37d2-89bb-3baf9e483095.yml
+[04:46:22] [Server thread/WARN]: efefe moved too quickly! -0.2803428116368494,-10.0,0.14143511776349982 (-0.2803428116368494, -10.0, 0.14143511776349982)
+[04:46:27] [Server thread/WARN]: efefe moved too quickly! -0.26145270881394467,-10.516947949104974,-0.12426237578074506 (-0.26145270881394467, -10.516947949104974, -0.12426237578074506)
+[04:46:28] [Server thread/WARN]: efefe moved too quickly! -0.26417527397919827,-10.30431682745754,-0.11836422391834667 (-0.26417527397919827, -10.30431682745754, -0.11836422391834667)
+[04:46:28] [Server thread/WARN]: efefe moved too quickly! 0.0,10.000000000000007,0.0 (0.0, 10.000000000000007, 0.0)
+[04:46:38] [Server thread/INFO]: efefe issued server command: /fly
+[04:46:40] [Server thread/INFO]: efefe issued server command: /gmc
+[04:46:48] [Server thread/INFO]: efefe issued server command: /npc create Briiqn
