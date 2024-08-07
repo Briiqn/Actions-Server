@@ -1053,3 +1053,5 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:58:25] [Server thread/INFO]: ShortyDev issued server command: /ac
 [16:58:25] [Server thread/INFO]: §cShortyDev §4was denied access to command.
 [16:58:26] [Server thread/INFO]: ShortyDev issued server command: /aac
+[16:59:09] [Server thread/INFO]: Outroduction issued server command: /aac
+[16:59:33] [Server thread/INFO]: ShortyDev issued server command: /ver Polar
