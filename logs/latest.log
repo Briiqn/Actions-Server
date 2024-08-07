@@ -122,3 +122,5 @@
 [02:56:22] [Thread-9/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [02:56:22] [Server thread/INFO]: Briiqn[/127.30.38.147:57791] logged in with entity id 53 at ([world]1667.5981418396245, 4.0, 28.97327118054768)
 [02:56:25] [Server thread/INFO]: Briiqn issued server command: /tps
+[02:57:13] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[02:57:13] [Server thread/INFO]: Briiqn left the game.
