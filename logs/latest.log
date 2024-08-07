@@ -4480,3 +4480,10 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [05:30:07] [Server thread/INFO]: Error: Player not found.
 [05:30:07] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
 [05:30:07] [AAC Report Generator Thread/INFO]:  AAC Cleared 0 entries for %player_name% from database
+[05:30:11] [Craft Scheduler Thread - 23/INFO]: [AuthMe] The user 1zun4 has 4 accounts:
+[05:30:11] [Craft Scheduler Thread - 23/INFO]: [AuthMe] §7konsolas, §aFag§7, efefe, §a1zun4§7.
+[05:30:11] [Craft Scheduler Thread - 23/INFO]: [AuthMe] 1zun4 logged in 127.30.38.147
+[05:30:23] [Server thread/INFO]: 1zun4 lost connection: Disconnected
+[05:30:38] [Thread-28/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[05:30:38] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
+[05:30:38] [Server thread/INFO]: Briiqn[/127.30.38.147:38553] logged in with entity id 639 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
