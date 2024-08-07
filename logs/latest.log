@@ -675,3 +675,15 @@ By running this plugin, you agree to be bound by our TOS
 [23:57:34] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [23:57:34] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [23:57:34] [Head Conversion Thread - 2/WARN]: 	... 8 more
+[23:58:12] [Thread-16/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[23:58:12] [Server thread/WARN]: Using offline mode UUID file for player Briiqn as it is the only copy we can find.
+[23:58:12] [Server thread/INFO]: [Essentials] Found new UUID for Briiqn. Replacing d2a59894-242b-3843-8016-7545edc9d28e with cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[23:58:12] [Server thread/INFO]: Briiqn[/127.30.38.147:39379] logged in with entity id 202 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[23:58:12] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973.yml
+[23:58:14] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[23:58:17] [Thread-17/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[23:58:17] [Server thread/INFO]: Briiqn[/127.30.38.147:45627] logged in with entity id 208 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[23:58:20] [Craft Scheduler Thread - 9/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[23:58:20] [Craft Scheduler Thread - 9/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[23:58:20] [Craft Scheduler Thread - 9/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[23:58:23] [Server thread/INFO]: Briiqn issued server command: /bungeecord
