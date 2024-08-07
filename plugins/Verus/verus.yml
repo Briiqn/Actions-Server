@@ -13,7 +13,7 @@ verus:
     commands:
     - ban {player} &9&lVerus &8> &fCheating
     message: '&9&lVerus &8> &f{player} &7has been removed from the network'
-    enabled: true
+    enabled: false
     announce: false
   recentlogs:
     message: '{time} {name} &7Failed &f{type} Type {subType} &7VL: &f{vl} &7P: &f{ping}'
