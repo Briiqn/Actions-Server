@@ -2394,3 +2394,11 @@ java.lang.NullPointerException
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
 [17:27:51] [Server thread/INFO]: ProHaxLeaks lost connection: Timed out
+[17:28:15] [Server thread/INFO]: konsolas issued server command: /aac exempt ShortyDev
+[17:28:17] [Server thread/INFO]: konsolas issued server command: /aac exempt ShortyDev
+[17:28:18] [Server thread/INFO]: konsolas issued server command: /aac exempt ShortyDev
+[17:28:22] [Server thread/INFO]: konsolas issued server command: /pex help
+[17:28:32] [Server thread/INFO]: konsolas issued server command: /pex groups
+[17:28:36] [Server thread/INFO]: konsolas issued server command: /pex groups add
+[17:28:38] [Server thread/INFO]: konsolas issued server command: /pex groups Owner
+[17:28:39] [Server thread/INFO]: konsolas issued server command: /pex groups Owner add
