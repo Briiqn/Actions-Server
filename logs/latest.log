@@ -657,3 +657,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:01:47] [Craft Scheduler Thread - 30/INFO]: [AuthMe] Sigma5 logged in 127.30.38.147
 [09:01:48] [Server thread/INFO]: Sigma5 issued server command: /gmc
 [09:01:48] [Server thread/INFO]: §cSigma5 §4was denied access to command.
+[09:01:54] [Server thread/INFO]: Sigma5 issued server command: /gmc
+[09:01:54] [Server thread/INFO]: §cSigma5 §4was denied access to command.
+[09:01:58] [Server thread/INFO]: Sigma5 issued server command: /gmc
+[09:01:58] [Server thread/INFO]: §cSigma5 §4was denied access to command.
