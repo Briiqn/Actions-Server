@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723012028027
+  logout: 1723012102669
   login: 1723012030324
 money: '0'
 last-account-name: Fag
 logoutlocation:
   world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
   world-name: world
-  x: 1417.6288913916267
-  y: 10.599999999999996
-  z: 51.84114415028845
-  yaw: 84.6581802368164
-  pitch: 27.50670051574707
+  x: 1404.0145931504217
+  y: 4.0
+  z: 51.07064304137026
+  yaw: 169.7438507080078
+  pitch: 6.339471340179443
