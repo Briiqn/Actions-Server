@@ -771,3 +771,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:05:07] [Craft Scheduler Thread - 36/INFO]: [AuthMe] The user ef4etf4 has 11 accounts:
 [09:05:07] [Craft Scheduler Thread - 36/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
 [09:05:07] [Craft Scheduler Thread - 36/INFO]: [AuthMe] ef4etf4 logged in 127.30.38.147
+[09:06:14] [Server thread/INFO]: Briiqn issued server command: /tps
