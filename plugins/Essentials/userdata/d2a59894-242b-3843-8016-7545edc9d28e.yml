@@ -4,10 +4,10 @@ timestamps:
   logout: 1723021745274
 ipAddress: 127.30.38.147
 logoutlocation:
-  world: Mini31E
-  x: 1.5
-  y: 95.0
-  z: -38.5
-  yaw: 0.0
-  pitch: 0.0
+  world: Mini9E
+  x: 33.01302577190643
+  y: 74.95778788029506
+  z: -28.26525559212078
+  yaw: 114.5625
+  pitch: 60.02697
 afk: false
