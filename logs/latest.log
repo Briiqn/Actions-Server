@@ -1127,3 +1127,8 @@ Caused by: java.lang.NullPointerException
 [23:15:37] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [23:22:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 15 Minutes!
 [23:27:19] [Server thread/INFO]: [AutoRestart] Server Will Restart In 10 Minutes!
+[23:30:21] [Thread-35/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[23:30:21] [Server thread/INFO]: Briiqn[/127.30.38.147:56231] logged in with entity id 8829 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[23:30:31] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[23:30:35] [Thread-36/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[23:30:35] [Server thread/INFO]: Briiqn[/127.30.38.147:52525] logged in with entity id 8842 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
