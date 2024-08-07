@@ -133,3 +133,8 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [19:58:50] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [19:58:50] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [19:58:50] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[20:10:24] [Thread-7/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[20:10:24] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:55493] logged in with entity id 26 at ([world]1437.5, 4.0, 42.5)
+[20:10:26] [Server thread/INFO]: ProHaxLeaks issued server command: /spark
+[20:10:27] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
+[20:10:27] [Server thread/INFO]: ProHaxLeaks left the game.
