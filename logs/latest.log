@@ -198,3 +198,8 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [16:40:37] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:48089] logged in with entity id 60 at ([world]1437.5, 4.0, 42.5)
 [16:40:38] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
 [16:40:38] [Server thread/INFO]: ProHaxLeaks left the game.
+[16:43:09] [Thread-14/INFO]: UUID of player odragclicker is feae7bc6-f928-3e9c-93d6-1d438f7be890
+[16:43:09] [Server thread/INFO]: odragclicker[/127.167.198.120:45995] logged in with entity id 61 at ([world]2.999999395633752E7, 4.870000003278255, 3.0000009266415518E7)
+[16:43:09] [Server thread/INFO]: odragclicker lost connection: Illegal position
+[16:43:09] [Server thread/INFO]: odragclicker left the game.
+[16:43:09] [Server thread/WARN]: handleDisconnection() called twice
