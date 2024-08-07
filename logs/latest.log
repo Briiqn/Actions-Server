@@ -10480,3 +10480,11 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [06:32:20] [Server thread/INFO]: Briiqn[/127.30.38.147:46305] logged in with entity id 1425 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [06:32:50] [Server thread/INFO]: Briiqn lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
 [06:32:50] [Server thread/WARN]: handleDisconnection() called twice
+[08:07:47] [Thread-60/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[08:07:47] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
+[08:07:47] [Server thread/INFO]: Briiqn[/127.30.38.147:58277] logged in with entity id 6008 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[08:07:51] [Craft Scheduler Thread - 101/INFO]: [AuthMe] The user Briiqn has 6 accounts:
+[08:07:51] [Craft Scheduler Thread - 101/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las.
+[08:07:51] [Craft Scheduler Thread - 101/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[08:07:52] [Server thread/INFO]: Briiqn issued server command: /fly
+[08:07:52] [Server thread/INFO]: §cBriiqn §4was denied access to command.
