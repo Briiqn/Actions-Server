@@ -650,3 +650,13 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [12:21:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 10 Minutes!
 [12:26:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 5 Minutes!
 [12:30:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 1 Minutes!
+[12:31:37] [Server thread/INFO]: [AutoRestart] Server is restarting in 5 Seconds!
+[12:31:38] [Server thread/INFO]: [AutoRestart] Server is restarting in 4 Seconds!
+[12:31:39] [Server thread/INFO]: [AutoRestart] Server is restarting in 3 Seconds!
+[12:31:40] [Server thread/INFO]: [AutoRestart] Server is restarting in 2 Seconds!
+[12:31:41] [Server thread/INFO]: [AutoRestart] Server is restarting in 1 Seconds!
+[12:31:41] [Server thread/INFO]: [AutoRestart] Server Restarting!
+[12:31:41] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[12:31:41] [Server thread/INFO]: Kicked all players from server.
+[12:31:41] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[12:31:41] [Thread-3/INFO]: Stopping server
