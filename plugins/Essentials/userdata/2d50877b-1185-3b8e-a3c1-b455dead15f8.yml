@@ -1,4 +1,12 @@
 lastAccountName: Fag
 timestamps:
-  login: 1723008071720
+  login: 1723008708824
+  logout: 1723008706124
 ipAddress: 127.30.38.147
+logoutlocation:
+  world: world
+  x: 0.4805297752731945
+  y: 65.0
+  z: 0.4876591904060934
+  yaw: -90.09297
+  pitch: -1.7613653
