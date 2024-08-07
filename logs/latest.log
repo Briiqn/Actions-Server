@@ -1025,3 +1025,10 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:52:46] [Server thread/INFO]: ProHaxLeaks issued server command: /lostsw
 [16:52:51] [Server thread/INFO]: ProHaxLeaks issued server command: /lostsw start
 [16:53:18] [Server thread/INFO]: ProHaxLeaks issued server command: /lsw
+[16:53:52] [Server thread/INFO]: ProHaxLeaks issued server command: /pex user group
+[16:53:57] [Thread-42/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[16:53:57] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
+[16:53:57] [Server thread/INFO]: ShortyDev[/127.16.144.220:54967] logged in with entity id 3627 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:54:07] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner user remove ShortyDev
+[16:54:18] [Server thread/INFO]: ProHaxLeaks issued server command: /fly
+[16:54:19] [Server thread/INFO]: ProHaxLeaks issued server command: /fly
