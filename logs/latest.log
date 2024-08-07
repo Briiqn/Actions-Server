@@ -159,3 +159,7 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [08:42:03] [Server thread/INFO]: Briiqn issued server command: /aac help
 [08:42:04] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [08:42:04] [Server thread/INFO]: Briiqn left the game.
+[09:01:25] [Thread-10/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
+[09:01:25] [Server thread/INFO]: Sigma5[/127.30.38.147:48771] logged in with entity id 117 at ([world]1404.2589801426566, 9.0, 53.56562584888113)
+[09:01:27] [Server thread/INFO]: Sigma5 lost connection: Disconnected
+[09:01:27] [Server thread/INFO]: Sigma5 left the game.
