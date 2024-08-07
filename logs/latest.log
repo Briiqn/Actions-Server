@@ -128,3 +128,5 @@
 [03:38:36] [Server thread/WARN]: handleDisconnection() called twice
 [03:38:45] [Thread-11/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
 [03:38:45] [Server thread/INFO]: Sigma5[/127.30.38.147:41033] logged in with entity id 63 at ([world]1446.5207615186666, 11.786936057578243, 16.038880218874937)
+[03:41:51] [Server thread/INFO]: Sigma5 issued server command: /tps
+[03:41:53] [Server thread/INFO]: Sigma5 issued server command: /mem
