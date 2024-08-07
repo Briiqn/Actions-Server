@@ -1022,3 +1022,6 @@ Caused by: java.lang.NullPointerException
 [23:03:19] [Craft Scheduler Thread - 112/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [23:03:56] [Server thread/WARN]: Briiqn moved wrongly!
 [23:04:04] [Server thread/INFO]: Briiqn issued server command: /mem
+[23:04:10] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[23:04:16] [Server thread/INFO]: Briiqn issued server command: /walkspeed 1
+[23:04:27] [Server thread/INFO]: Briiqn issued server command: /spark
