@@ -1,12 +1,12 @@
 lastAccountName: Sigma5
 timestamps:
-  login: 1723022768206
-  logout: 1723022192962
+  login: 1723047259112
+  logout: 1723047284954
 ipAddress: 127.30.38.147
 logoutlocation:
-  world: Mini31E
-  x: -15.5
-  y: 95.0
-  z: -35.5
-  yaw: 0.0
-  pitch: 0.0
+  world: world
+  x: 11.152926925497484
+  y: 63.0
+  z: 0.8339437561072687
+  yaw: 331.9789
+  pitch: 9.426489

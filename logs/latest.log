@@ -719,3 +719,15 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:14:10] [Thread-22/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
 [16:14:10] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
 [16:14:10] [Server thread/INFO]: ShortyDev[/127.16.144.220:53545] logged in with entity id 1667 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:14:19] [Thread-23/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
+[16:14:19] [Server thread/INFO]: [Polar] Detected 1.8.x for Sigma5
+[16:14:19] [Server thread/INFO]: Sigma5[/127.30.38.147:41805] logged in with entity id 1676 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:14:28] [Craft Scheduler Thread - 38/INFO]: [AuthMe] The user Sigma5 has 11 accounts:
+[16:14:28] [Craft Scheduler Thread - 38/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, kons0las, §aSigma5§7, fff, ltz_lvcky, griddygaymer23, ef4etf4.
+[16:14:28] [Craft Scheduler Thread - 38/INFO]: [AuthMe] Sigma5 logged in 127.30.38.147
+[16:14:29] [Server thread/INFO]: [AuthMe] ShortyDev registered 127.16.144.220
+[16:14:29] [Craft Scheduler Thread - 44/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[16:14:35] [Server thread/INFO]: Sigma5 issued server command: /pl
+[16:14:43] [Server thread/INFO]: Sigma5 issued server command: /ping
+[16:14:43] [Server thread/INFO]: §cSigma5 §4was denied access to command.
+[16:14:45] [Server thread/INFO]: Sigma5 lost connection: Disconnected
