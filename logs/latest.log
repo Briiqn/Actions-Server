@@ -687,3 +687,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:23:06] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [08:23:06] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [08:23:06] [Head Conversion Thread - 4/WARN]: 	... 8 more
+[08:23:10] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[08:23:11] [Server thread/INFO]: [AAC5] Detected 1.8.x for Briiqn
+[08:23:11] [Server thread/INFO]: Briiqn[/127.30.38.147:38829] logged in with entity id 176 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[08:23:17] [Craft Scheduler Thread - 20/INFO]: [AuthMe] The user Briiqn has 6 accounts:
+[08:23:17] [Craft Scheduler Thread - 20/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las.
+[08:23:17] [Craft Scheduler Thread - 20/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[08:23:19] [Server thread/INFO]: Briiqn issued server command: /gmc
+[08:23:19] [Server thread/INFO]: §cBriiqn §4was denied access to command.
+[08:23:22] [Server thread/INFO]: Briiqn issued server command: /op
