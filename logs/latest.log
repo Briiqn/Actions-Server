@@ -633,3 +633,7 @@ By running this plugin, you agree to be bound by our TOS
 [20:37:33] [Craft Scheduler Thread - 19/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [20:37:49] [Thread-17/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
 [20:37:49] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:50539] logged in with entity id 199 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[20:37:54] [Craft Scheduler Thread - 0/INFO]: [AuthMe] The user ProHaxLeaks has 12 accounts:
+[20:37:54] [Craft Scheduler Thread - 0/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, §aProHaxLeaks§7.
+[20:37:54] [Craft Scheduler Thread - 0/INFO]: [AuthMe] ProHaxLeaks logged in 127.30.38.147
+[20:38:06] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
