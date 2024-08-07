@@ -181,3 +181,9 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 20 more
 
+[20:11:38] [Server thread/INFO]: Briiqn issued server command: /spark profiler stop
+[20:11:38] [Craft Scheduler Thread - 8/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[20:11:39] [Craft Scheduler Thread - 8/INFO]: [⚡] Profiler stopped & upload complete!
+[20:11:39] [Craft Scheduler Thread - 8/INFO]: https://spark.lucko.me/sI5eOlQwvP
+[20:11:39] [Craft Scheduler Thread - 8/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
+[20:12:03] [Server thread/INFO]: Briiqn issued server command: /play
