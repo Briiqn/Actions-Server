@@ -187,3 +187,8 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
 [20:11:39] [Craft Scheduler Thread - 8/INFO]: https://spark.lucko.me/sI5eOlQwvP
 [20:11:39] [Craft Scheduler Thread - 8/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
 [20:12:03] [Server thread/INFO]: Briiqn issued server command: /play
+[20:12:11] [Server thread/INFO]: Briiqn issued server command: /lag
+[20:12:26] [Server thread/INFO]: Briiqn issued server command: /spark ping
+[20:12:28] [Server thread/INFO]: Briiqn issued server command: /spark ping --player
+[20:12:32] [Server thread/INFO]: Briiqn issued server command: /spark ping --player
+[20:12:33] [Server thread/INFO]: Briiqn issued server command: /spark ping --player 1
