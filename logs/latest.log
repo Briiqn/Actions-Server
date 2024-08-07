@@ -1010,3 +1010,35 @@ Caused by: java.lang.NullPointerException
 [09:12:26] [Craft Scheduler Thread - 35/INFO]: [AuthMe] The user fff has 11 accounts:
 [09:12:26] [Craft Scheduler Thread - 35/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
 [09:12:26] [Craft Scheduler Thread - 35/INFO]: [AuthMe] fff logged in 127.30.38.147
+[09:16:35] [Server thread/INFO]: Sigma5 lost connection: Disconnected
+[09:16:35] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to LostSkyWars v1.2.7
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.disconnect(PlayerList.java:348) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:871) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.NetworkManager.l(NetworkManager.java:314) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:145) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:814) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
+Caused by: java.lang.NullPointerException
+	at io.github.losteddev.skywars.IiiiIIiiiIIIiII.if(SoloServer.java:64) ~[?:?]
+	at io.github.losteddev.skywars.IiiiIIiiiIIIiII.do(SoloServer.java:311) ~[?:?]
+	at io.github.losteddev.skywars.iiIiiIIIIiIIiII.onPlayerQuit(PlayerQuitListener.java:23) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_422]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_422]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_422]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 12 more
+[09:16:37] [Thread-30/INFO]: UUID of player Sigma5 is 24e156e9-3338-357e-a647-e93650746e1d
+[09:16:37] [Server thread/INFO]: [Polar] Detected 1.8.x for Sigma5
+[09:16:37] [Server thread/INFO]: Sigma5[/127.30.38.147:53473] logged in with entity id 1868 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:16:39] [Craft Scheduler Thread - 47/INFO]: [AuthMe] The user Sigma5 has 11 accounts:
+[09:16:39] [Craft Scheduler Thread - 47/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
+[09:16:39] [Craft Scheduler Thread - 47/INFO]: [AuthMe] Sigma5 logged in 127.30.38.147
