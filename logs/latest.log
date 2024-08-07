@@ -731,3 +731,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:14:43] [Server thread/INFO]: Sigma5 issued server command: /ping
 [16:14:43] [Server thread/INFO]: §cSigma5 §4was denied access to command.
 [16:14:45] [Server thread/INFO]: Sigma5 lost connection: Disconnected
+[16:15:17] [Server thread/INFO]: ShortyDev lost connection: Disconnected
