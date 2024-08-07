@@ -1021,3 +1021,6 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:50:46] [Server thread/INFO]: Outroduction issued server command: /hub
 [16:50:49] [Server thread/INFO]: Outroduction issued server command: /leave
 [16:52:04] [Server thread/INFO]: ProHaxLeaks issued server command: /lost
+[16:52:45] [Server thread/INFO]: ProHaxLeaks issued server command: /lost
+[16:52:46] [Server thread/INFO]: ProHaxLeaks issued server command: /lostsw
+[16:52:51] [Server thread/INFO]: ProHaxLeaks issued server command: /lostsw start
