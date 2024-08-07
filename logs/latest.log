@@ -1122,3 +1122,5 @@ Caused by: java.lang.NullPointerException
 [23:08:40] [Server thread/INFO]: ShortyDev issued server command: /tps
 [23:08:44] [Server thread/INFO]: Briiqn issued server command: /alerts
 [23:08:46] [Server thread/INFO]: Briiqn issued server command: /alertss
+[23:09:34] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[23:09:53] [Server thread/INFO]: Briiqn issued server command: /mem
