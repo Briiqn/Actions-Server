@@ -1539,3 +1539,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [05:23:48] [Thread-23/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
 [05:23:48] [Server thread/INFO]: [AAC5] Detected 1.8.x for efefe
 [05:23:49] [Server thread/INFO]: efefe[/127.30.38.147:54055] logged in with entity id 304 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[05:23:57] [Server thread/INFO]: [AuthMe] efefe registered 127.30.38.147
+[05:24:05] [Craft Scheduler Thread - 20/INFO]: [AuthMe] The user efefe has 3 accounts:
+[05:24:05] [Craft Scheduler Thread - 20/INFO]: [AuthMe] §7konsolas, §aFag§7, §aefefe§7.
+[05:24:05] [Craft Scheduler Thread - 20/INFO]: [AuthMe] efefe logged in 127.30.38.147
