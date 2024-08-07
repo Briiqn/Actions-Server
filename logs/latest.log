@@ -1032,3 +1032,12 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 49, Size: 45
 [16:54:07] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner user remove ShortyDev
 [16:54:18] [Server thread/INFO]: ProHaxLeaks issued server command: /fly
 [16:54:19] [Server thread/INFO]: ProHaxLeaks issued server command: /fly
+[16:54:27] [Server thread/INFO]: ShortyDev lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[16:54:27] [Server thread/WARN]: handleDisconnection() called twice
+[16:54:38] [Thread-43/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[16:54:38] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
+[16:54:38] [Server thread/INFO]: ShortyDev[/127.16.144.220:54417] logged in with entity id 3662 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:54:41] [Craft Scheduler Thread - 78/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
+[16:54:41] [Craft Scheduler Thread - 78/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
+[16:54:41] [Craft Scheduler Thread - 78/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[16:54:43] [Server thread/INFO]: ProHaxLeaks issued server command: /pex group Owner user remove ShortyDev
