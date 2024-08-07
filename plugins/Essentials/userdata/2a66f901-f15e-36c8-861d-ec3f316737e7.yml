@@ -1,4 +1,12 @@
 lastAccountName: aeeasd41
 timestamps:
   login: 1723048876901
+  logout: 1723049418806
 ipAddress: 127.16.144.220
+logoutlocation:
+  world: Mini31E
+  x: 1.5
+  y: 95.0
+  z: -38.5
+  yaw: 0.0
+  pitch: 0.0
