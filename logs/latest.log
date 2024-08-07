@@ -625,3 +625,5 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:48:23] [Server thread/INFO]: fff issued server command: /mem
 [03:48:25] [Server thread/INFO]: fff issued server command: /cpu
 [03:48:26] [Server thread/INFO]: fff issued server command: /lag
+[03:48:28] [Server thread/INFO]: fff issued server command: /spark
+[03:48:30] [Server thread/INFO]: fff lost connection: Disconnected
