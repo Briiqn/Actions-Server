@@ -736,3 +736,38 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:04:25] [Craft Scheduler Thread - 28/INFO]: [AuthMe] The user GriddyGaymer23 has 10 accounts:
 [09:04:25] [Craft Scheduler Thread - 28/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7.
 [09:04:25] [Craft Scheduler Thread - 28/INFO]: [AuthMe] GriddyGaymer23 logged in 127.30.38.147
+[09:05:04] [Thread-23/INFO]: UUID of player ef4etf4 is c9dbac73-35e4-3e6e-9a63-e8841b79991a
+[09:05:04] [Server thread/INFO]: [Polar] Detected 1.8.x for ef4etf4
+[09:05:04] [Server thread/INFO]: ef4etf4[/127.30.38.147:45559] logged in with entity id 1295 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:05:04] [pool-11-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/c9dbac73-35e4-3e6e-9a63-e8841b79991a.yml
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ef4etf4
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/ef4etf4
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[09:05:04] [Craft Scheduler Thread - 28/WARN]: 	... 7 more
+[09:05:07] [Server thread/INFO]: [AuthMe] ef4etf4 registered 127.30.38.147
+[09:05:07] [Craft Scheduler Thread - 36/INFO]: [AuthMe] The user ef4etf4 has 11 accounts:
+[09:05:07] [Craft Scheduler Thread - 36/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
+[09:05:07] [Craft Scheduler Thread - 36/INFO]: [AuthMe] ef4etf4 logged in 127.30.38.147
