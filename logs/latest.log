@@ -1065,3 +1065,11 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
+[23:05:30] [Server thread/INFO]: Briiqn issued server command: /pex group Owner add ShortyDev
+[23:05:34] [Server thread/INFO]: Briiqn issued server command: /spawn
+[23:05:35] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[23:05:37] [Thread-30/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[23:05:37] [Server thread/INFO]: Briiqn[/127.30.38.147:53615] logged in with entity id 7634 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[23:05:42] [Craft Scheduler Thread - 113/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[23:05:42] [Craft Scheduler Thread - 113/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, §aGriddyGaymer23§7, ef4etf4, prohaxleaks.
+[23:05:42] [Craft Scheduler Thread - 113/INFO]: [AuthMe] Briiqn logged in 127.30.38.147

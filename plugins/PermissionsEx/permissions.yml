@@ -108,8 +108,8 @@ groups:
         - essentials.fly
   Owner:
     permissions:
-    - Shorty
     - ShortyDev
+    - Shorty
     - '*'
     options:
       prefix: '&4[Owner] '
