@@ -825,3 +825,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:38:12] [Server thread/INFO]: Briiqn issued server command: /holograms remove githubactions
 [16:38:47] [Server thread/INFO]: Briiqn issued server command: /vm
 [16:38:49] [Server thread/INFO]: Briiqn issued server command: /vm
+[16:38:58] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[16:39:02] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[16:39:15] [Thread-34/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[16:39:16] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[16:39:16] [Server thread/INFO]: Briiqn[/127.30.38.147:36591] logged in with entity id 2900 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[16:39:19] [Craft Scheduler Thread - 65/INFO]: [AuthMe] The user Briiqn has 11 accounts:
+[16:39:19] [Craft Scheduler Thread - 65/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
+[16:39:19] [Craft Scheduler Thread - 65/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[16:39:21] [Server thread/INFO]: Briiqn issued server command: /v
