@@ -661,3 +661,5 @@ By running this plugin, you agree to be bound by our TOS
 [20:04:50] [Server thread/INFO]: ProHaxLeaks issued server command: /help
 [20:04:51] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
 [20:04:58] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
+[20:10:08] [Server thread/INFO]: ProHaxLeaks issued server command: /tps
+[20:10:09] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
