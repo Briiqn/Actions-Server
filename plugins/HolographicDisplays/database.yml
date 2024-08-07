@@ -16,3 +16,7 @@ githubactions:
   location: world, 6.945, 65.673, 0.467
   lines:
   - '&b&l✦ &3Running on Github Actions &b&l✦'
+g:
+  location: world, 6.613, 64.904, -0.084
+  lines:
+  - '&e&n https://github.com/Briiqn/Actions-Server'
