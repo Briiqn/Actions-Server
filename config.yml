@@ -1,29 +1,4 @@
-server_connect_timeout: 5000
 enforce_secure_profile: false
-remote_ping_cache: -1
-forge_support: true
-player_limit: -1
-permissions:
-  default:
-  - bungeecord.command.server
-  - bungeecord.command.list
-  admin:
-  - bungeecord.command.alert
-  - bungeecord.command.end
-  - bungeecord.command.ip
-  - bungeecord.command.reload
-  - bungeecord.command.kick
-timeout: 17000
-log_commands: false
-network_compression_threshold: 256
-online_mode: true
-disabled_commands:
-- disabledcommandhere
-servers:
-  lobby:
-    motd: '&1Hypixel.networking'
-    address: 147.185.221.21:56392
-    restricted: false
 listeners:
 - query_port: 25577
   motd: '&1Another FlameCord server'
@@ -40,13 +15,38 @@ listeners:
   max_players: 1
   tab_size: 60
   force_default_server: false
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 17000
+stats: aa25a43e-c3ee-4e69-9487-4223d2b6271f
+player_limit: -1
 ip_forward: false
-remote_ping_timeout: 5000
-prevent_proxy_connections: false
 groups:
   md_5:
   - admin
+remote_ping_timeout: 5000
 connection_throttle: 4000
-stats: aa25a43e-c3ee-4e69-9487-4223d2b6271f
-connection_throttle_limit: 3
-log_pings: true
+log_commands: false
+prevent_proxy_connections: false
+online_mode: true
+forge_support: true
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: '&1Hypixel.networking'
+    address: 147.185.221.21:56392
+    restricted: false
