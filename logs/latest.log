@@ -853,3 +853,35 @@ Caused by: java.lang.NullPointerException
 [22:40:29] [Server thread/INFO]: Briiqn issued server command: /verus alerts
 [22:40:31] [Server thread/INFO]: Briiqn issued server command: /alerts
 [22:40:33] [Server thread/INFO]: Briiqn issued server command: /alerts
+[22:41:20] [Thread-26/INFO]: UUID of player GriddyGaymer23 is 6fad573b-3b2a-3cd3-9371-2c9e33f133b2
+[22:41:20] [Server thread/INFO]: GriddyGaymer23[/127.30.38.147:38989] logged in with entity id 6349 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/GriddyGaymer23
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1952)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1947)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at java.security.AccessController.doPrivileged(Native Method)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1946)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1516)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:82)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.getUUID(MojangAPI.java:24)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at eu.blackfire62.myskin.bukkit.listener.OnLogin$1.run(OnLogin.java:51)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: Caused by: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/GriddyGaymer23
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
+[22:41:20] [Craft Scheduler Thread - 89/WARN]: 	... 7 more
+[22:41:30] [Craft Scheduler Thread - 91/INFO]: [AuthMe] The user GriddyGaymer23 has 12 accounts:
+[22:41:30] [Craft Scheduler Thread - 91/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, §aGriddyGaymer23§7, ef4etf4, prohaxleaks.
+[22:41:30] [Craft Scheduler Thread - 91/INFO]: [AuthMe] GriddyGaymer23 logged in 127.30.38.147
