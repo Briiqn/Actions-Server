@@ -11,4 +11,11 @@ logoutlocation:
   yaw: 0.0
   pitch: 0.0
 afk: false
-money: '5.0'
+money: '10.0'
+lastlocation:
+  world: Mini81Q
+  x: -0.5
+  y: 81.0
+  z: -9.5
+  yaw: 0.0
+  pitch: 0.0
