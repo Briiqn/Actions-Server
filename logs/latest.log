@@ -646,3 +646,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [09:52:11] [Server thread/INFO]: Briiqn issued server command: /fl
 [09:52:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[12:16:42] [Server thread/INFO]: [AutoRestart] Server Will Restart In 15 Minutes!
