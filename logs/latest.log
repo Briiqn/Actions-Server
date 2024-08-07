@@ -661,3 +661,10 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:01:54] [Server thread/INFO]: §cSigma5 §4was denied access to command.
 [09:01:58] [Server thread/INFO]: Sigma5 issued server command: /gmc
 [09:01:58] [Server thread/INFO]: §cSigma5 §4was denied access to command.
+[09:02:44] [Thread-20/INFO]: UUID of player fff is 59832df8-e750-3bd2-8cf7-0375f7efdb2f
+[09:02:44] [Server thread/INFO]: [Polar] Detected 1.8.x for fff
+[09:02:44] [Server thread/INFO]: fff[/127.30.38.147:40135] logged in with entity id 1177 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:02:51] [Server thread/INFO]: [AuthMe] fff registered 127.30.38.147
+[09:02:51] [Craft Scheduler Thread - 30/INFO]: [AuthMe] The user fff has 8 accounts:
+[09:02:51] [Craft Scheduler Thread - 30/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7.
+[09:02:51] [Craft Scheduler Thread - 30/INFO]: [AuthMe] fff logged in 127.30.38.147
