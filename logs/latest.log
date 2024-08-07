@@ -4,3 +4,5 @@
 [23:50:23] [main/INFO]: Epoll is working, utilising it!
 [23:50:23] [main/WARN]: Forced host server pvp is not defined
 [23:50:23] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[23:51:16] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: Could not connect to a default or fallback server, please try again later: io.netty.channel.ConnectTimeoutException
+[23:51:43] [Netty Worker IO Thread #5/INFO]: [Briiqn] disconnected with: Could not connect to a default or fallback server, please try again later: io.netty.channel.ConnectTimeoutException
