@@ -1105,3 +1105,8 @@ Caused by: java.lang.NullPointerException
 [23:07:35] [Craft Scheduler Thread - 112/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [23:07:48] [Server thread/INFO]: Briiqn issued server command: /user ShortyDev set Owner
 [23:07:51] [Server thread/INFO]: Briiqn issued server command: /pex user ShortyDev set Owner
+[23:08:05] [Server thread/INFO]: Briiqn issued server command: /op ShortyDev
+[23:08:05] [Server thread/INFO]: [Briiqn: Opped ShortyDev]
+[23:08:07] [Server thread/INFO]: ShortyDev issued server command: /tps
+[23:08:14] [Server thread/INFO]: ShortyDev issued server command: /spark:tps
+[23:08:18] [Server thread/INFO]: ShortyDev issued server command: /tps
