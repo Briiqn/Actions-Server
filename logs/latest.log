@@ -638,3 +638,9 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:33:16] [Server thread/INFO]: Briiqn issued server command: /pl
 [09:33:19] [Server thread/INFO]: Briiqn issued server command: /tps
 [09:48:12] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[09:51:10] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[09:51:10] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[09:51:10] [Server thread/INFO]: Briiqn[/127.30.38.147:48937] logged in with entity id 1108 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] The user Briiqn has 11 accounts:
+[09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
+[09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
