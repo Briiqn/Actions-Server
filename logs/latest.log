@@ -724,3 +724,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:26:45] [Server thread/INFO]: Briiqn issued server command: /gmc
 [08:26:46] [Server thread/INFO]: Briiqn issued server command: /aac
 [08:26:50] [Server thread/INFO]: Briiqn issued server command: /aac help
+[08:26:59] [Server thread/INFO]: Briiqn issued server command: /pex
