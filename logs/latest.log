@@ -736,3 +736,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:28:46] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas add OWNER
 [08:29:12] [Server thread/INFO]: Briiqn issued server command: /pex user konsolas group set Owner
 [08:29:13] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[08:29:51] [Thread-21/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
+[08:29:51] [Server thread/INFO]: [AAC5] Detected 1.8.x for efefe
+[08:29:51] [Server thread/INFO]: efefe[/127.30.38.147:33429] logged in with entity id 345 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[08:29:57] [Craft Scheduler Thread - 1/INFO]: [AuthMe] The user efefe has 6 accounts:
+[08:29:57] [Craft Scheduler Thread - 1/INFO]: [AuthMe] §7konsolas, fag, §aefefe§7, 1zun4, briiqn, kons0las.
+[08:29:57] [Craft Scheduler Thread - 1/INFO]: [AuthMe] efefe logged in 127.30.38.147
+[08:29:58] [Server thread/INFO]: efefe issued server command: /gmc
+[08:29:58] [Server thread/INFO]: §cefefe §4was denied access to command.
+[08:30:01] [Server thread/INFO]: efefe lost connection: Disconnected
