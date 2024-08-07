@@ -809,3 +809,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:27:20] [Server thread/INFO]: [Polar] Detected 1.8.x for ShortyDev
 [16:27:20] [Server thread/INFO]: ShortyDev[/127.16.144.220:42611] logged in with entity id 2325 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [16:27:32] [Craft Scheduler Thread - 54/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[16:31:01] [Server thread/INFO]: Briiqn issued server command: /v
+[16:31:06] [Server thread/INFO]: ShortyDev issued server command: /v
