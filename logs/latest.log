@@ -616,3 +616,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:35:18] [Craft Scheduler Thread - 12/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
 [03:35:18] [Craft Scheduler Thread - 12/WARN]: 	at eu.blackfire62.myskin.shared.util.MojangAPI.readURL(MojangAPI.java:74)
 [03:35:18] [Craft Scheduler Thread - 12/WARN]: 	... 7 more
+[03:36:11] [Server thread/INFO]: GriddyGaymer23 issued server command: /mem
