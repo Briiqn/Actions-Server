@@ -586,3 +586,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:31:36] [Server thread/INFO]: fff lost connection: Disconnected
 [03:31:43] [Thread-17/INFO]: UUID of player fff is 59832df8-e750-3bd2-8cf7-0375f7efdb2f
 [03:31:43] [Server thread/INFO]: fff[/127.30.38.147:38991] logged in with entity id 247 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[03:32:23] [Craft Scheduler Thread - 0/ERROR]: [ItemList] Error when checking for a new update!
