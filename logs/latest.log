@@ -1543,3 +1543,10 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [05:24:05] [Craft Scheduler Thread - 20/INFO]: [AuthMe] The user efefe has 3 accounts:
 [05:24:05] [Craft Scheduler Thread - 20/INFO]: [AuthMe] §7konsolas, §aFag§7, §aefefe§7.
 [05:24:05] [Craft Scheduler Thread - 20/INFO]: [AuthMe] efefe logged in 127.30.38.147
+[05:24:49] [Server thread/WARN]: efefe moved too quickly! 1152.0,0.33319999363422426,1152.0 (1152.0, 0.33319999363422426, 1152.0)
+[05:24:49] [Server thread/WARN]: efefe moved too quickly! 1152.0,0.0,1152.0 (1152.0, 0.0, 1152.0)
+[05:24:50] [Server thread/WARN]: efefe moved too quickly! 1152.0,0.0,1152.0 (1152.0, 0.0, 1152.0)
+[05:24:50] [Server thread/WARN]: efefe moved too quickly! 1151.8965851806931,0.0,1151.94400771048 (1151.8965851806931, 0.0, 1151.94400771048)
+[05:24:50] [Server thread/WARN]: efefe moved too quickly! 1151.8965851806931,0.0,1151.94400771048 (1151.8965851806931, 0.0, 1151.94400771048)
+[05:24:51] [Server thread/WARN]: efefe moved too quickly! 1151.8965851806931,0.0,1151.94400771048 (1151.8965851806931, 0.0, 1151.94400771048)
+[05:24:51] [Server thread/WARN]: efefe moved too quickly! 1151.9827641978522,0.0,1151.990667952326 (1151.9827641978522, 0.0, 1151.990667952326)
