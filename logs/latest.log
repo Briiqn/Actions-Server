@@ -856,3 +856,9 @@ Caused by: java.lang.NullPointerException
 [09:09:16] [Craft Scheduler Thread - 36/INFO]: [AuthMe] The user ef4etf4 has 11 accounts:
 [09:09:16] [Craft Scheduler Thread - 36/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, briiqn, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
 [09:09:16] [Craft Scheduler Thread - 36/INFO]: [AuthMe] ef4etf4 logged in 127.30.38.147
+[09:09:27] [Thread-25/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[09:09:27] [Server thread/INFO]: [Polar] Detected 1.8.x for Briiqn
+[09:09:27] [Server thread/INFO]: Briiqn[/127.30.38.147:51299] logged in with entity id 1509 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[09:09:33] [Craft Scheduler Thread - 38/INFO]: [AuthMe] The user Briiqn has 11 accounts:
+[09:09:33] [Craft Scheduler Thread - 38/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, §aSigma5§7, §afff§7, §altZ_Lvcky§7, §aGriddyGaymer23§7, §aef4etf4§7.
+[09:09:33] [Craft Scheduler Thread - 38/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
