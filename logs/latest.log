@@ -674,3 +674,10 @@ By running this plugin, you agree to be bound by our TOS
 [17:39:31] [Craft Scheduler Thread - 4/INFO]: [AuthMe] §7§akonsolas§7, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
 [17:39:31] [Craft Scheduler Thread - 4/INFO]: [AuthMe] konsolas logged in 127.30.38.147
 [17:39:39] [Server thread/INFO]: konsolas issued server command: /verus
+[17:39:49] [Thread-17/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[17:39:49] [Server thread/INFO]: ShortyDev[/127.16.144.220:59641] logged in with entity id 209 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:40:02] [Server thread/INFO]: konsolas issued server command: /lsw fstart
+[17:40:04] [Craft Scheduler Thread - 10/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
+[17:40:04] [Craft Scheduler Thread - 10/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
+[17:40:04] [Craft Scheduler Thread - 10/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[17:40:12] [Server thread/INFO]: konsolas issued server command: /ghub
