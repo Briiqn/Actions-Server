@@ -140,3 +140,12 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [06:05:12] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [06:05:12] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [06:05:12] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[06:27:03] [Thread-7/INFO]: UUID of player Fag is 2d50877b-1185-3b8e-a3c1-b455dead15f8
+[06:27:03] [Server thread/INFO]: Fag[/127.30.38.147:41577] logged in with entity id 22 at ([world]1449.5, 4.0, 41.5)
+[06:27:08] [Server thread/WARN]: Fag was kicked for floating too long!
+[06:27:08] [Server thread/INFO]: Fag lost connection: Flying is not enabled on this server
+[06:27:08] [Server thread/INFO]: Fag left the game.
+[06:27:08] [Server thread/WARN]: handleDisconnection() called twice
+[06:27:10] [Thread-8/INFO]: UUID of player Fag is 2d50877b-1185-3b8e-a3c1-b455dead15f8
+[06:27:10] [Server thread/INFO]: Fag[/127.30.38.147:37925] logged in with entity id 23 at ([world]1417.6288913916267, 10.599999999999996, 51.84114415028845)
+[06:27:13] [Server thread/INFO]: Fag issued server command: /pl
