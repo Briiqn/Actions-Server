@@ -58,6 +58,7 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -114,7 +115,6 @@ world-settings:
       sprint-exhaustion: 0.8
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
-    mob-spawn-range: 4
     max-tnt-per-tick: 100
     max-tick-time:
       tile: 50
@@ -125,8 +125,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
