@@ -800,3 +800,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [16:22:07] [Server thread/INFO]: Briiqn issued server command: /holograms help 2
 [16:22:09] [Server thread/INFO]: Briiqn issued server command: /holograms help 3
 [16:24:46] [Server thread/INFO]: Briiqn issued server command: /pl
+[16:25:05] [Server thread/INFO]: Briiqn issued server command: /aac
