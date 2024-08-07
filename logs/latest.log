@@ -10488,3 +10488,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:07:51] [Craft Scheduler Thread - 101/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [08:07:52] [Server thread/INFO]: Briiqn issued server command: /fly
 [08:07:52] [Server thread/INFO]: §cBriiqn §4was denied access to command.
+[08:08:46] [Server thread/INFO]: Briiqn issued server command: /pl
