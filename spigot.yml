@@ -48,7 +48,6 @@ messages:
   restart: Server is restarting
 commands:
   tab-complete: 0
-  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: true
@@ -57,6 +56,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
   send-namespaced: true
 stats:
   disable-saving: false
