@@ -21,8 +21,8 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another FlameCord - Forced Host'
-    address: localhost:25565
+    motd: '&1Hypixel.networking'
+    address: 147.185.221.21:56392
     restricted: false
 listeners:
 - query_port: 25577
