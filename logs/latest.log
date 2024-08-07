@@ -851,3 +851,5 @@ Caused by: java.lang.NullPointerException
 [22:40:09] [Server thread/INFO]: Briiqn issued server command: /verus
 [22:40:26] [Server thread/INFO]: Briiqn issued server command: /verus alerts
 [22:40:29] [Server thread/INFO]: Briiqn issued server command: /verus alerts
+[22:40:31] [Server thread/INFO]: Briiqn issued server command: /alerts
+[22:40:33] [Server thread/INFO]: Briiqn issued server command: /alerts
