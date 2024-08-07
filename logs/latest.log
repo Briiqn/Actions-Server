@@ -622,3 +622,14 @@ By running this plugin, you agree to be bound by our TOS
 [20:37:17] [Craft Scheduler Thread - 2/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.3.11, available version 4.15.0.
 [20:37:19] [Craft Scheduler Thread - 0/INFO]: [ItemList] Checking for an update...
 [20:37:19] [Craft Scheduler Thread - 0/ERROR]: [ItemList] Error when checking for a new update!
+[20:37:21] [Craft Scheduler Thread - 0/INFO]: [GadgetsMenu] ------------------------------------------------------
+[20:37:21] [Craft Scheduler Thread - 0/INFO]: [GadgetsMenu]   You have an old version of the GadgetsMenu plugin.
+[20:37:21] [Craft Scheduler Thread - 0/INFO]: [GadgetsMenu]     Please download the latest version on spigot.
+[20:37:21] [Craft Scheduler Thread - 0/INFO]: [GadgetsMenu] ------------------------------------------------------
+[20:37:28] [Thread-16/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:37:29] [Server thread/INFO]: Briiqn[/127.30.38.147:57603] logged in with entity id 175 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[20:37:33] [Craft Scheduler Thread - 19/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[20:37:33] [Craft Scheduler Thread - 19/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[20:37:33] [Craft Scheduler Thread - 19/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[20:37:49] [Thread-17/INFO]: UUID of player ProHaxLeaks is 7ae292e8-c138-3b90-af4c-37ef05ba9a54
+[20:37:49] [Server thread/INFO]: ProHaxLeaks[/127.30.38.147:50539] logged in with entity id 199 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
