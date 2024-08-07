@@ -663,3 +663,5 @@ By running this plugin, you agree to be bound by our TOS
 [20:04:58] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
 [20:10:08] [Server thread/INFO]: ProHaxLeaks issued server command: /tps
 [20:10:09] [Server thread/INFO]: ProHaxLeaks issued server command: /mem
+[20:10:20] [Server thread/INFO]: ProHaxLeaks issued server command: /spakr
+[20:10:22] [Server thread/INFO]: ProHaxLeaks lost connection: Disconnected
