@@ -232,3 +232,16 @@ konsolas:
   total_kills_status: 'false'
   time_status: 1723008340903
   time_weekly: 1723008340903
+kons0las:
+  solo_kills: 0
+  solo_wins: 0
+  team_kills: 0
+  team_wins: 0
+  solo_status: 'false'
+  solo_wins_status: 'false'
+  team_status: 'false'
+  team_wins_status: 'false'
+  total_kills: 0
+  total_kills_status: 'false'
+  time_status: 1723008793088
+  time_weekly: 1723008793088
