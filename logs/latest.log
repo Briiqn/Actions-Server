@@ -624,3 +624,53 @@ By running this plugin, you agree to be bound by our TOS
 [17:39:04] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
 [17:39:06] [Craft Scheduler Thread - 0/INFO]: [ItemList] Checking for an update...
 [17:39:07] [Craft Scheduler Thread - 0/ERROR]: [ItemList] Error when checking for a new update!
+[17:39:10] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu] ------------------------------------------------------
+[17:39:10] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu]   You have an old version of the GadgetsMenu plugin.
+[17:39:10] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu]     Please download the latest version on spigot.
+[17:39:10] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu] ------------------------------------------------------
+[17:39:11] [Head Conversion Thread - 1/WARN]: Exception in thread "Head Conversion Thread - 1" 
+[17:39:11] [Head Conversion Thread - 1/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[17:39:11] [Head Conversion Thread - 1/WARN]: Caused by: java.lang.NullPointerException
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[17:39:11] [Head Conversion Thread - 1/WARN]: 	... 8 more
+[17:39:11] [Head Conversion Thread - 2/WARN]: Exception in thread "Head Conversion Thread - 2" 
+[17:39:11] [Head Conversion Thread - 2/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[17:39:11] [Head Conversion Thread - 2/WARN]: Caused by: java.lang.NullPointerException
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[17:39:11] [Head Conversion Thread - 2/WARN]: 	... 8 more
+[17:39:27] [Thread-16/INFO]: UUID of player konsolas is 8fd9df6e-4170-3e71-b6b1-1156dfa6e24e
+[17:39:27] [Server thread/INFO]: konsolas[/127.30.38.147:54553] logged in with entity id 185 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:39:31] [Craft Scheduler Thread - 4/INFO]: [AuthMe] The user konsolas has 12 accounts:
+[17:39:31] [Craft Scheduler Thread - 4/INFO]: [AuthMe] §7§akonsolas§7, fag, efefe, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[17:39:31] [Craft Scheduler Thread - 4/INFO]: [AuthMe] konsolas logged in 127.30.38.147
+[17:39:39] [Server thread/INFO]: konsolas issued server command: /verus
