@@ -646,3 +646,4 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [08:42:12] [Craft Scheduler Thread - 10/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [08:42:13] [Server thread/INFO]: Briiqn issued server command: /aac
 [08:42:19] [Server thread/INFO]: Briiqn issued server command: /pl
+[08:44:14] [Craft Scheduler Thread - 0/ERROR]: [ItemList] Error when checking for a new update!
