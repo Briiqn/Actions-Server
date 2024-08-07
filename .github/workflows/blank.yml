@@ -27,7 +27,7 @@ jobs:
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
-          PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
+          PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET_2 }}
         run: |
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
