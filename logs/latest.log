@@ -595,3 +595,5 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [04:28:01] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:28:54] [Server thread/INFO]: Briiqn issued server command: /gmsp
 [04:28:57] [Server thread/INFO]: Briiqn issued server command: /gmc
+[04:34:12] [Server thread/INFO]: Briiqn issued server command: /hub
+[04:34:16] [Server thread/INFO]: Briiqn issued server command: /mem
