@@ -141,3 +141,5 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [15:18:20] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [15:18:20] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [15:18:20] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[15:50:03] [Thread-7/INFO]: UUID of player ef4etf4 is c9dbac73-35e4-3e6e-9a63-e8841b79991a
+[15:50:04] [Server thread/INFO]: ef4etf4[/127.30.38.147:43269] logged in with entity id 26 at ([world]1437.5, 4.0, 41.5)
