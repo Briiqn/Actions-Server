@@ -644,3 +644,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] The user Briiqn has 11 accounts:
 [09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4.
 [09:51:15] [Craft Scheduler Thread - 34/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[09:52:11] [Server thread/INFO]: Briiqn issued server command: /fl
+[09:52:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
