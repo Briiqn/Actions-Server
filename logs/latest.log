@@ -619,3 +619,4 @@ Caused by: java.util.zip.ZipException: invalid END header (bad central directory
 [03:36:11] [Server thread/INFO]: GriddyGaymer23 issued server command: /mem
 [03:37:08] [Server thread/INFO]: GriddyGaymer23 issued server command: /tps
 [03:37:09] [Server thread/INFO]: GriddyGaymer23 issued server command: /mem
+[03:39:57] [Server thread/INFO]: GriddyGaymer23 lost connection: Disconnected
