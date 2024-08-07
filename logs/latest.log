@@ -140,3 +140,20 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [08:41:19] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [08:41:19] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [08:41:19] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[08:41:31] [Thread-7/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[08:41:31] [Server thread/INFO]: Briiqn[/127.30.38.147:60881] logged in with entity id 23 at ([world]1639.472327181978, 4.0, 64.89246453458016)
+[08:41:38] [Server thread/INFO]: Briiqn issued server command: /aac
+[08:41:39] [Server thread/INFO]: Briiqn issued server command: /polar
+[08:41:41] [Server thread/INFO]: Briiqn issued server command: /aac
+[08:41:43] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[08:41:43] [Server thread/INFO]: Briiqn left the game.
+[08:41:47] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[08:41:47] [Server thread/INFO]: Briiqn[/127.30.38.147:34281] logged in with entity id 55 at ([world]1622.5561492216482, 4.0, 73.61265068555734)
+[08:41:47] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[08:41:47] [Server thread/INFO]: Briiqn left the game.
+[08:41:55] [Thread-9/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[08:41:55] [Server thread/INFO]: Briiqn[/127.30.38.147:55889] logged in with entity id 86 at ([world]1622.5561492216482, 4.0, 73.61265068555734)
+[08:41:58] [Server thread/INFO]: Briiqn issued server command: /polar
+[08:41:59] [Server thread/INFO]: Briiqn issued server command: /aac
+[08:42:00] [Server thread/INFO]: Briiqn issued server command: /aac
+[08:42:03] [Server thread/INFO]: Briiqn issued server command: /aac help
