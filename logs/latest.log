@@ -692,3 +692,19 @@ By running this plugin, you agree to be bound by our TOS
 [17:41:15] [Server thread/INFO]: §cShortyDev §4was denied access to command.
 [17:41:52] [Thread-18/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
 [17:41:52] [Server thread/INFO]: efefe[/127.30.38.147:53381] logged in with entity id 357 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:41:58] [Craft Scheduler Thread - 17/INFO]: [AuthMe] efefe used the wrong password
+[17:41:58] [Server thread/INFO]: efefe lost connection: §cWrong password!
+[17:41:58] [Server thread/WARN]: handleDisconnection() called twice
+[17:42:01] [Thread-19/INFO]: UUID of player efefe is 687c9328-6cea-37d2-89bb-3baf9e483095
+[17:42:01] [Server thread/INFO]: efefe[/127.30.38.147:34473] logged in with entity id 366 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[17:42:05] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user efefe has 12 accounts:
+[17:42:05] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7konsolas, fag, §aefefe§7, 1zun4, briiqn, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[17:42:05] [Craft Scheduler Thread - 17/INFO]: [AuthMe] efefe logged in 127.30.38.147
+[17:42:06] [Server thread/INFO]: CONSOLE issued server command: /ban efefe &9&lVerus &8> &fCheating
+[17:42:06] [Server thread/INFO]: efefe lost connection: §cYou have been banned:
+§r§9§lVerus §8> §fCheating
+[17:42:06] [Server thread/INFO]: §6Player§c Console §6banned§c efefe §6for: §c§cYou have been banned:
+§r§9§lVerus §8> §fCheating§6.
+[17:42:06] [Server thread/WARN]: handleDisconnection() called twice
+[17:42:23] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[17:42:23] [Server thread/INFO]: Briiqn[/127.30.38.147:42381] logged in with entity id 385 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
