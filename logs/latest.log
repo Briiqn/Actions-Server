@@ -706,3 +706,8 @@ By running this plugin, you agree to be bound by our TOS
 [00:34:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@4ad2b81c[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@7b91a405]},legacy=false] (/127.124.125.35:32939) lost connection: §cgay.
 [00:34:59] [Thread-30/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
 [00:34:59] [Server thread/INFO]: Briiqn[/127.30.38.147:51761] logged in with entity id 619 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:35:17] [Thread-31/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[00:35:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@8bbb5a3[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@2af1489b]},legacy=false] (/127.16.144.220:56521): §cgay.
+[00:35:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@8bbb5a3[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@2af1489b]},legacy=false] (/127.16.144.220:56521) lost connection: §cgay.
+[00:35:29] [Server thread/INFO]: Briiqn lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[00:35:29] [Server thread/WARN]: handleDisconnection() called twice
