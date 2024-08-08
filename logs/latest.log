@@ -128,3 +128,4 @@ The Ban Hammer has spoken!
 [21:49:00] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
 [22:09:46] [Netty Worker IO Thread #5/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
 [22:09:46] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
+[22:13:53] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
