@@ -676,3 +676,8 @@ By running this plugin, you agree to be bound by our TOS
 [00:29:08] [Server thread/INFO]: Briiqn[/127.30.38.147:58127] logged in with entity id 326 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [00:29:38] [Server thread/INFO]: Briiqn lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
 [00:29:38] [Server thread/WARN]: handleDisconnection() called twice
+[00:30:15] [Thread-21/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:30:15] [Server thread/INFO]: Briiqn[/127.30.38.147:49811] logged in with entity id 382 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:30:20] [Craft Scheduler Thread - 3/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[00:30:20] [Craft Scheduler Thread - 3/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[00:30:20] [Craft Scheduler Thread - 3/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
