@@ -16,3 +16,13 @@
 [00:01:47] [Server thread/INFO]: Briiqn lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
 [00:01:47] [Server thread/WARN]: handleDisconnection() called twice
 [00:02:03] [Server thread/INFO]: /127.30.38.147:50469 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:04:02] [Server thread/INFO]: /127.30.38.147:48873 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:04:19] [Thread-24/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[00:04:19] [Server thread/INFO]: Briiqn[/127.0.0.1:41679] logged in with entity id 513 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:04:19] [Server thread/INFO]: [Essentials] Found new UUID for Briiqn. Replacing cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973 with d2a59894-242b-3843-8016-7545edc9d28e
+[00:04:23] [Thread-25/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:04:23] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@741fb03c[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@40ab9f2a]},legacy=false] (/127.30.38.147:56407): §4The same username is already playing on the server!
+[00:04:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@741fb03c[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@40ab9f2a]},legacy=false] (/127.30.38.147:56407) lost connection: §4The same username is already playing on the server!
+[00:04:30] [Thread-26/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:04:30] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@37247b2[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@4bd797a5]},legacy=false] (/127.30.38.147:53151): §4The same username is already playing on the server!
+[00:04:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@37247b2[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@4bd797a5]},legacy=false] (/127.30.38.147:53151) lost connection: §4The same username is already playing on the server!
