@@ -316,3 +316,4 @@
 [22:22:27] [pool-18-thread-1/INFO]: [❀] Briiqn failed Strafe (A)  VL: 4/15, Ping: 0ms, TPS: 20, Version: v1.8
 [22:22:27] [pool-18-thread-1/INFO]: [❀] Briiqn failed Strafe (A)  VL: 6/15, Ping: 0ms, TPS: 20, Version: v1.8
 [22:22:30] [Server thread/INFO]: Briiqn issued server command: /gmc
+[22:22:59] [Server thread/INFO]: Created a User for Skywars (1286e2a1-334b-2361-a1f5-eed6f1195bad) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
