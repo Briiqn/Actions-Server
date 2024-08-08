@@ -519,3 +519,20 @@
 [19:37:39] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:33020] logged in with entity id 34 at ([world]-1226.5278049852313, 56.03941838674782, -380.52553124913567)
 [19:37:41] [Server thread/INFO]: Briiqn issued server command: //pos1
 [19:37:42] [Async Chat Thread - #0/INFO]: <xNotJames> I fix
+[19:37:49] [Server thread/INFO]: xNotJames issued server command: /rg flag __global build denty
+[19:37:50] [Server thread/INFO]: xNotJames issued server command: /rg flag __global build deny
+[19:37:51] [Server thread/INFO]: Briiqn issued server command: /fly
+[19:37:53] [Server thread/INFO]: Briiqn issued server command: /fly
+[19:37:55] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ build deny
+[19:37:58] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ pvp deny
+[19:38:02] [Timer-2/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[19:38:02] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ block-break deny
+[19:38:03] [Server thread/INFO]: Briiqn issued server command: /fly
+[19:38:05] [Server thread/INFO]: Briiqn issued server command: /fly
+[19:38:05] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ block-place deny
+[19:38:07] [Server thread/INFO]: Briiqn issued server command: //pos2
+[19:38:11] [Server thread/INFO]: Briiqn issued server command: //replace air water
+[19:38:13] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ interact deny
+[19:38:14] [Server thread/INFO]: Briiqn issued server command: //wea
+[19:38:15] [Server thread/INFO]: Briiqn issued server command: //replace air water
+[19:38:17] [Server thread/INFO]: xNotJames issued server command: /citizens save

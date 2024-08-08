@@ -8,3 +8,54 @@
 
 
 
+
+last-created-npc-id: 1
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: d662a2dc-305c-4bbc-9f2f-11b85ff55599
+      cached-skin-uuid-name: skywars
+    name: '&dSkywars'
+    uuid: 1286e2a1-334b-4361-a1f5-eed6f1195bad
+    traits:
+      inventory: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ecEu31KTlR4AGA979jJ1z0QEg0b7/WtG3CM4FDhcdflyvEvy2DSDAL1wI5bgwZB0TvO++JRw2SEcd9fgCwkhNYg32A8ueEs79JbYTZFwjSDWjlmfgZ6dZ+JpQr9hOj9B1ozplRWwO6kjYw5GKK4CyYGpRteYmS/bFZlHW01/2ia49R8+P4BeM+kzLftK9uCME+azDaps+lFco63bI+zGfgrEmwsc8Bi9BSa3aUbpnM119ztGpigiptmj1Vlm6Gy4JaDYBCzqYw82AgsEH6diyX8qWydedthzmpmZcxwSSDSaXlxLFdzj/bEj7PdjWZNl2YSuAFoHLonOzOuBPHRLBEi5m0Mh9EdiAf6vj6AbfAqJYTd9A1qbvg//pQ+lfNOEgSkdB+MrvxFKsTApnB1NpTCgdY8S+AYqfle+w45pVuLUlkiFeRHRwr4jAVXw+PMeqH8xhtz5jm6xxdRYjk43+xUAxLxY7uH7xah7LqJC5ox3px+dgCa4G2MQTipaEzBqoNhglH5HRKYWE2EHxZslOfBUsL4xGuwMJ9y6iSnaPjV+dLpSRr5p0gR3nK8MxRS+YYABag46lFJSlhsN3UrDLVsBXOOLN0mhxSWBkP+VKgYXdfD5gGh+ww1tlhYRysiC4JnwTrnwicAiWc2FonpuIYLDWzlJ4PhbYawVoBGEydQ=
+        skinName: skywars
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE0NTg1MTgzNCwKICAicHJvZmlsZUlkIiA6ICJkNjYyYTJkYzMwNWM0YmJjOWYyZjExYjg1ZmY1NTU5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3l3YXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZTQzYzRhNjUyNGU5YWU4MjdjMGI2MGQzOTI3ZDU2YTVjYzMxNjE3M2RlM2IwOGEwYmI0ODYyMTVmNGMwODYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZGZlYTE2ZGM4M2M5N2RmMDFhMTJmYWJiZDEyMTYzNTljMGNkMGVhNDJmOTk5OWI2ZTk3YzU4NDk2M2U5ODAiCiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: -359.79123
+        world: world
+        x: '-1118.4538'
+        y: '68.0'
+        z: '-281.2256'
+        yaw: '-359.7912'
+        pitch: '5.8811'
+      type: PLAYER
+      owner:
+        uuid: be317d90-8585-31d4-b983-cc75820d94de
+      scoreboardtrait: {}
+      commandtrait:
+        commands:
+          '0':
+            command: server skywars
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      spawned: true
+    traitnames: mounttrait,inventory,skintrait,location,type,owner,scoreboardtrait,commandtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
