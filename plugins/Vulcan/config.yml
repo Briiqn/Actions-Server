@@ -2027,9 +2027,9 @@ checks:
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
-        minimum-tps: 19.0
+        minimum-tps: 17.5
         punishment-commands:
-        - kick %player% &c[Vulcan] Unfair Advantage
+        - kick %player% &c[AC] Skill Issue Detected
         buffer:
           max: 2
           multiple: 0.25
@@ -2387,9 +2387,9 @@ checks:
         alert-interval: 1
         dont-alert-until: 2
         maximum-ping: 100000
-        minimum-tps: 19.0
+        minimum-tps: 17.5
         punishment-commands:
-        - kick %player% &c[Vulcan] Unfair Advantage
+        - kick %player% &c[AC] Skill Issue Detected
         buffer:
           max: 3
           multiple: 0.25
