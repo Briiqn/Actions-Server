@@ -241,3 +241,5 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:06:44] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 68.349951ms. Summary: Getting group for Briiqn
 [21:06:49] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> a
 [21:06:50] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> a
+[21:10:42] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[21:10:42] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
