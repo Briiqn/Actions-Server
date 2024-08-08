@@ -1,7 +1,7 @@
 lastAccountName: PyrB
 timestamps:
   login: 1723089822343
-  logout: 1723089738015
+  logout: 1723091548658
 ipAddress: 127.220.84.169
 money: '10.0'
 lastlocation:
@@ -13,8 +13,8 @@ lastlocation:
   pitch: -47.10008
 logoutlocation:
   world: world
-  x: 13.317450585015111
-  y: 64.0
-  z: -13.178235206366587
-  yaw: 346.85678
-  pitch: 11.1388
+  x: 29.009660405710825
+  y: 65.0
+  z: -28.43548669892653
+  yaw: 156.95712
+  pitch: 31.988695
