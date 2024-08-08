@@ -740,3 +740,4 @@ Caused by: java.lang.NullPointerException
 [18:31:56] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames permission
 [18:31:58] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames
 [18:33:37] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames add *
+[18:34:00] [Server thread/INFO]: xNotJames issued server command: /ram
