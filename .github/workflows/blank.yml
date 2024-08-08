@@ -41,7 +41,6 @@ jobs:
           mkdir ~/.cloudflared
           echo "${CF_TUNNEL_CERT}" > ~/.cloudflared/cert.pem
           touch tunnel-config.yml
-          echo "${CF_TUNNEL_CONF}" > tunnel-config.yml
           touch ~/.cloudflared/${CF_TUNNEL_UUID}.json && echo "${CF_TUNNEL_UUID_CONTENT}" > ~/.cloudflared/${CF_TUNNEL_UUID}.json
           echo "url: tcp://localhost:25565\ntunnel: ${CF_TUNNEL_UUID}\ncredentials-file: ~/.cloudflared/${CF_TUNNEL_UUID}.json" > tunnel-config.yml
           cloudflared tunnel --config tunnel-config.yml run ${CF_TUNNEL_UUID} &
