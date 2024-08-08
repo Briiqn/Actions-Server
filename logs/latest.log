@@ -238,3 +238,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:40:45] [Async Chat Thread - #1/INFO]: <RayAar> it looks like 400+
 [03:40:50] [Server thread/INFO]: RayAar issued server command: /ping
 [03:40:50] [Server thread/INFO]: §cRayAar §4was denied access to command.
+[03:41:25] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[03:41:25] [Server thread/INFO]: Briiqn left the game.
