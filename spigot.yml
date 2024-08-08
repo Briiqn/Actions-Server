@@ -34,7 +34,7 @@ commands:
   - tellraw
   send-namespaced: true
 settings:
-  bungeecord: false
+  bungeecord: true
   late-bind: false
   sample-count: 12
   player-shuffle: 0
@@ -47,7 +47,7 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  netty-threads: 4
+  netty-threads: 6
   attribute:
     maxHealth:
       max: 2048.0
