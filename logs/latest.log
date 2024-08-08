@@ -255,3 +255,11 @@
 [20:46:38] [Server thread/INFO]: xNotJames issued server command: /papi
 [20:46:45] [Server thread/INFO]: xNotJames issued server command: /papi ecloud download luckperms
 [20:46:45] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:46:48] [Server thread/INFO]: xNotJames issued server command: /papi reload
+[20:46:48] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:46:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:46:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:46:58] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[20:46:58] [Server thread/INFO]: [+] xNotJames disconnected to the lobby server.
+[20:47:18] [Thread-16/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[20:47:19] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:48206] logged in with entity id 37 at ([world]-1118.627245411867, 69.0155550727022, -278.38613884512904)
