@@ -989,3 +989,6 @@ Caused by: java.lang.NullPointerException
 [04:01:36] [Server thread/INFO]: RayAar issued server command: /mysterydust set RayAar 9999
 [04:01:51] [Server thread/INFO]: RayAar issued server command: /mysterydust set Pyrb 9999
 [04:02:18] [Server thread/INFO]: PyrB lost connection: Disconnected
+[04:03:14] [Server thread/INFO]: RayAar issued server command: /tps
+[04:03:18] [Server thread/INFO]: RayAar issued server command: /spark healthreport
+[04:03:19] [Server thread/INFO]: RayAar issued server command: /spark
