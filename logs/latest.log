@@ -776,3 +776,6 @@ Caused by: java.lang.NullPointerException
 [03:49:41] [Server thread/INFO]: [Essentials] Found new UUID for PyrB. Replacing b4eb69ef-5562-39ec-a408-3eed5bd1f907 with 71032472-f9fa-4801-8609-191dd51b51b3
 [03:49:41] [Server thread/INFO]: PyrB[/127.220.84.169:38730] logged in with entity id 644 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [03:49:41] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/71032472-f9fa-4801-8609-191dd51b51b3.yml
+[03:49:50] [Server thread/INFO]: [AuthMe] PyrB registered 127.220.84.169
+[03:49:50] [Craft Scheduler Thread - 2/INFO]: [AuthMe] PyrB logged in 127.220.84.169
+[03:50:05] [Server thread/INFO]: PyrB issued server command: /pl
