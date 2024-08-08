@@ -1020,3 +1020,4 @@ Caused by: java.lang.NullPointerException
 [04:07:53] [Server thread/INFO]: Using locale en
 [04:08:03] [Server thread/INFO]: RayAar issued server command: /setblock lit_tnt
 [04:16:18] [Server thread/INFO]: RayAar issued server command: /afk
+[04:22:43] [Server thread/WARN]: Briiqn moved wrongly!
