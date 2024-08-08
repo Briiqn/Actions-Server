@@ -558,3 +558,5 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 [19:32:04] [Server thread/INFO]: xNotJames issued server command: /fawe
 [19:32:07] [Server thread/INFO]: xNotJames issued server command: /pl
 [19:32:14] [Server thread/INFO]: xNotJames issued server command: /ncp
+[19:32:45] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[19:32:45] [Server thread/INFO]: - xNotJames Disconnected
