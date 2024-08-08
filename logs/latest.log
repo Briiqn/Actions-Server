@@ -177,3 +177,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [19:06:15] [Server thread/INFO]: Briiqn died
 [19:06:15] [Server thread/INFO]: xNotJames died
 [19:06:24] [Async Chat Thread - #0/INFO]: <Briiqn> it would be @ 0 0
+[19:06:35] [Async Chat Thread - #0/INFO]: <Briiqn> bad chunks
+[19:06:43] [Async Chat Thread - #0/INFO]: <Briiqn> i think your supposed to copy whole thing
+[19:06:48] [Async Chat Thread - #0/INFO]: <xNotJames> ok
+[19:06:51] [Server thread/INFO]: xNotJames issued server command: /gamemode c
