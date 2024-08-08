@@ -694,3 +694,5 @@ By running this plugin, you agree to be bound by our TOS
 [00:31:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@21f8ba7d[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@61e88439]},legacy=false] (/127.16.144.220:35467): §cgay.
 [00:31:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@21f8ba7d[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@61e88439]},legacy=false] (/127.16.144.220:35467) lost connection: §cgay.
 [00:32:24] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[00:32:45] [Thread-27/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:32:45] [Server thread/INFO]: Briiqn[/127.30.38.147:40191] logged in with entity id 507 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
