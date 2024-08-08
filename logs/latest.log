@@ -711,3 +711,5 @@ By running this plugin, you agree to be bound by our TOS
 [00:18:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@617a1516[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@31589f77]},legacy=false] (/127.30.38.147:47703): §cgay.
 [00:18:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@617a1516[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@31589f77]},legacy=false] (/127.30.38.147:47703) lost connection: §cgay.
 [00:19:12] [Server thread/INFO]: /127.30.38.147:49465 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:19:29] [Server thread/INFO]: /127.30.38.147:45703 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:19:36] [Server thread/INFO]: /127.30.38.147:58071 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
