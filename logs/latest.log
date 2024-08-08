@@ -704,3 +704,7 @@ By running this plugin, you agree to be bound by our TOS
 [03:34:28] [Server thread/INFO]: [AuthMe] RayAar registered 127.39.31.13
 [03:34:28] [Craft Scheduler Thread - 3/INFO]: [AuthMe] RayAar logged in 127.39.31.13
 [03:34:30] [Server thread/INFO]: RayAar issued server command: /polar
+[03:35:01] [Server thread/INFO]: RayAar issued server command: /msg
+[03:35:01] [Server thread/INFO]: §cRayAar §4was denied access to command.
+[03:35:12] [Server thread/INFO]: RayAar issued server command: /ping
+[03:35:12] [Server thread/INFO]: §cRayAar §4was denied access to command.
