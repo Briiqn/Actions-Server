@@ -58,6 +58,8 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
+    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -77,7 +79,6 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    nerf-spawner-mobs: false
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
@@ -86,7 +87,18 @@ world-settings:
     save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
-    mob-spawn-range: 4
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -107,26 +119,14 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.3
-      regen-exhaustion: 3.0
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
+    item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
