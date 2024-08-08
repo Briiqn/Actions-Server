@@ -11,6 +11,34 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
+settings:
+  debug: false
+  bungeecord: false
+  late-bind: false
+  sample-count: 12
+  player-shuffle: 0
+  filter-creative-items: true
+  user-cache-size: 1000
+  save-user-cache-on-stop-only: false
+  int-cache-limit: 1024
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-threshold: 100.0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  baby-zombie-movement-speed: 0.5
+  limit-player-interactions: true
+  moved-too-quickly-multiplier: 10.0
+  log-villager-deaths: true
+  log-named-deaths: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -33,34 +61,6 @@ commands:
   - testforblock
   - tellraw
   send-namespaced: true
-settings:
-  bungeecord: false
-  late-bind: false
-  sample-count: 12
-  player-shuffle: 0
-  filter-creative-items: true
-  user-cache-size: 1000
-  save-user-cache-on-stop-only: false
-  int-cache-limit: 1024
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-threshold: 100.0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
-  attribute:
-    maxHealth:
-      max: 2048.0
-    movementSpeed:
-      max: 2048.0
-    attackDamage:
-      max: 2048.0
-  debug: false
-  baby-zombie-movement-speed: 0.5
-  limit-player-interactions: true
-  moved-too-quickly-multiplier: 10.0
-  log-villager-deaths: true
-  log-named-deaths: true
 timings:
   enabled: true
   verbose: true
@@ -78,28 +78,6 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    nerf-spawner-mobs: false
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
-    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -155,6 +133,28 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tnt-per-tick: 100
+    mob-spawn-range: 4
+    nerf-spawner-mobs: false
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
