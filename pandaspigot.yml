@@ -1,0 +1,77 @@
+# This is the configuration file for PandaSpigot.
+# Use caution when modifying settings, as some may impact gameplay in non-obvious ways.
+---
+
+# On servers with plugins that constantly churn through scoreboards, there is a risk of
+# degraded GC performance due to the number of scoreboards held on by weak references.
+# Most plugins don't even need the (vanilla) functionality that requires all plugin
+# scoreboards to be tracked by the server. Instead, only track scoreboards when an
+# objective is added with a non-dummy criteria.
+trackPluginScoreboards: false
+# Instructs the server how to handle player UUIDs and data when behind a proxy. Set to
+# match your proxy's online-mode setting.
+proxyOnlineMode: true
+maxBookPageSize: 2560
+maxBookTotalSizeMultiplier: 0.98
+# Limits incoming packets from players. See Paper's documentation for more info:
+# https://docs.papermc.io/paper/reference/paper-global-configuration#packet-limiter
+# (note that "max-packet-rate" is renamed to "maxPacketRate")
+packetLimiter:
+  kickMessage: "&cSent too many packets."
+  limits:
+    all:
+      interval: 7.0
+      maxPacketRate: 500.0
+# Whether player IP addresses should be logged by the server. This does not impact
+# the ability of plugins to log the IP addresses of players.
+logPlayerIpAddresses: true
+# The worlds section is for settings which can be configured per-world.
+# 
+# Any settings in the "default" world will provide default values for
+# other worlds which don't explicitly specify settings.
+# 
+# To specify settings for a specific world, just add a new section with the world's name.
+worlds:
+  default:
+    # How many ticks in between sending time updates to players?
+    # 
+    # The vanilla option is 20 (every second), but PandaSpigot sets the default
+    # to 100 (every 5 seconds). You would probably be fine setting this even
+    # higher, unless you're constantly changing the time, or the server is lagging.
+    timeUpdateFrequency: 100
+    # This option makes it so that when players are teleported to a location
+    # with the same rotation they currently have, the server will send a special
+    # packet indicating that the client should not update it's rotation at all.
+    # 
+    # For example, normally constantly teleporting a player to their own location
+    # will make moving their head very difficult, especially for players with higher latency.
+    # With this option enabled, they will be able to move their head just like normal.
+    smoothTeleportation: false
+    # When enabled, this option disables reading and writing player data such as:
+    # - Position
+    # - Inventory
+    # - Enderchest
+    disablePlayerData: false
+    # When enabled, this option will disable saving world chunks.
+    disableChunkSaving: false
+    # When enabled, entity AI will be disabled.
+    # 
+    # This has the same effect as Spigot's "nerf-spawner-mobs" option, but applies to all entities.
+    disableEntityAi: false
+    # This option controls whether or not to add a bit of randomness to an arrow's trajectory.
+    # By default, this is true (vanilla behaviour)
+    randomArrowTrajectory: true
+    # These options control velocity players receive when damaged.
+    knockback:
+      friction: 2.0
+      horizontal: 0.4
+      vertical: 0.4
+      verticalLimit: 0.4000000059604645
+      extraHorizontal: 0.5
+      extraVertical: 0.1
+    optimizeTntMovement: false
+    optimizeLiquidExplosions: true
+    optimizeArmorStandMovement: false
+    # This option controls whether or not there is a chance for arrow crits to deal extra damage.
+    # By default, this is true (vanilla behaviour)
+    randomArrowDamage: true
