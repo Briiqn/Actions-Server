@@ -308,3 +308,11 @@
 [22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Motion (A)  VL: 1/15, Ping: 413ms, TPS: 20, Version: v1.8
 [22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 6/25, Ping: 413ms, TPS: 20, Version: v1.8
 [22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Motion (A)  VL: 2/15, Ping: 413ms, TPS: 20, Version: v1.8
+[22:22:23] [User Authenticator #2/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[22:22:23] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:51778] logged in with entity id 25 at ([world]-1119.012609873268, 68.0, -273.3834783527607)
+[22:22:26] [pool-18-thread-1/INFO]: [❀] Briiqn failed Speed (B)  VL: 2/20, Ping: 0ms, TPS: 20, Version: v1.8
+[22:22:26] [pool-18-thread-1/INFO]: [❀] Briiqn failed Speed (C)  VL: 2/15, Ping: 0ms, TPS: 20, Version: v1.8
+[22:22:26] [pool-18-thread-1/INFO]: [❀] Briiqn failed Strafe (A)  VL: 2/15, Ping: 0ms, TPS: 20, Version: v1.8
+[22:22:27] [pool-18-thread-1/INFO]: [❀] Briiqn failed Strafe (A)  VL: 4/15, Ping: 0ms, TPS: 20, Version: v1.8
+[22:22:27] [pool-18-thread-1/INFO]: [❀] Briiqn failed Strafe (A)  VL: 6/15, Ping: 0ms, TPS: 20, Version: v1.8
+[22:22:30] [Server thread/INFO]: Briiqn issued server command: /gmc
