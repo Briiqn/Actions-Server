@@ -24,11 +24,6 @@ world-settings:
   default:
     verbose: true
     keep-spawn-loaded: true
-    allow-block-location-tab-completion: true
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
     generator-settings:
       canyon: true
       caves: true
@@ -40,6 +35,11 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
+    allow-block-location-tab-completion: true
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
@@ -49,10 +49,23 @@ world-settings:
     optimize-explosions: false
     portal-search-radius: 128
     remove-invalid-mob-spawner-tile-entities: true
-    nether-ceiling-void-damage: false
+    mob-spawner-tick-rate: 1
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    player-blocking-damage-multiplier: 0.5
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -62,31 +75,18 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    falling-block-height-nerf: 0
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    mob-spawner-tick-rate: 1
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
     fast-drain:
       lava: false
       water: false
     lava-flow-speed:
       normal: 30
       nether: 10
+    falling-block-height-nerf: 0
+    nether-ceiling-void-damage: false
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    player-blocking-damage-multiplier: 0.5
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
