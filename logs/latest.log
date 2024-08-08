@@ -763,3 +763,4 @@ By running this plugin, you agree to be bound by our TOS
 [13:28:02] [Craft Scheduler Thread - 15/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [13:35:21] [Server thread/INFO]: ShortyDev lost connection: Disconnected
 [15:43:07] [Server thread/INFO]: [ProtocolLib] The updater found an update, and has readied it to be loaded the next time the server restarts/reloads.
+[15:57:38] [Server thread/INFO]: [AutoRestart] Server Will Restart In 15 Minutes!
