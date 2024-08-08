@@ -40,10 +40,10 @@ jobs:
           mkdir ~/.cloudflared
           echo "${CF_TUNNEL_CERT}" > ~/.cloudflared/cert.pem
           touch tunnel-config.yml
-          echo "${CF_TUNNEL_UUID_CONTENT}" >> ~/.cloudflared/${CF_TUNNEL_UUID}.json
+          echo "${CF_TUNNEL_UUID_CONTENT}" > credentials.json
           echo "url: tcp://localhost:25565" >> tunnel-config.yml
           echo "tunnel: ${CF_TUNNEL_UUID}" >> tunnel-config.yml
-          echo "credentials-file: ~/.cloudflared/${CF_TUNNEL_UUID}.json" > tunnel-config.yml
+          echo "credentials-file: credentials.json" >> tunnel-config.yml
           cloudflared tunnel --config tunnel-config.yml run ${CF_TUNNEL_UUID} &
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
@@ -63,6 +63,7 @@ jobs:
             git reset -- playit.toml  # Unstage playit.toml
             git reset -- playit.log
             git reset -- tunnel-config.yml
+            git reset -- credentials.json
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
           }
