@@ -30,7 +30,6 @@ jobs:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET_3 }}
           HOSTNAME: ${{secrets.CF_TUNNEL_HOSTNAME}}
           HOSTNAME_2: ${{secrets.CF_TUNNEL_HOSTNAME_2}}
-
         run: |
           curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
           echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
@@ -40,7 +39,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
-          echo "Starting Spigot..."
+          echo "Starting BungeeCord..."
           java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms16G -Xmx16G -jar FlameCord-JDK8.jar nogui 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           SPIGOT_PID=$!
           echo "BungeeCord started with PID $SPIGOT_PID"
@@ -48,6 +47,7 @@ jobs:
           ./playit-linux-amd64 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           PLAYIT_PID=$!
           echo "playit started with PID $PLAYIT_PID"
+          
           # Function to commit and push changes
           commit_and_push() {
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -58,6 +58,7 @@ jobs:
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:bungeecord
           }
+          
           # Function to delete auto-commit workflow runs
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
@@ -69,14 +70,16 @@ jobs:
                 "https://api.github.com/repos/${REPO}/actions/runs/$id"
             done
           }
+          
           # Loop to commit and delete workflows every 30 seconds
           while true; do
             sleep 30
             commit_and_push
             delete_auto_commit_workflows
+            
             # Check if processes are still running
             if ! kill -0 $SPIGOT_PID 2>/dev/null || ! kill -0 $PLAYIT_PID 2>/dev/null; then
-              echo "One of the processes has finished. Terminating the workflow."
-              break
+              echo "One of the processes has finished. Restarting the workflow."
+              exit 1  # Exit with error code to trigger a workflow restart
             fi
           done
