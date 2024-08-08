@@ -980,3 +980,9 @@ Caused by: java.lang.NullPointerException
 [04:00:24] [Server thread/INFO]: Briiqn issued server command: /mysterydust
 [04:00:26] [Server thread/INFO]: RayAar issued server command: /skywars
 [04:00:27] [Server thread/INFO]: RayAar issued server command: /pl
+[04:00:29] [Server thread/INFO]: Briiqn issued server command: /mysterydust set PyrB 9999
+[04:00:30] [Server thread/INFO]: RayAar issued server command: /lostskywars
+[04:00:34] [Server thread/INFO]: RayAar issued server command: /lostskywars 2
+[04:00:36] [Server thread/INFO]: Briiqn issued server command: /mysterydust set Briiqn 9999
+[04:00:38] [Server thread/INFO]: RayAar issued server command: /lostskywars give
+[04:00:44] [Server thread/INFO]: RayAar issued server command: /lostskywars give souls Pyrb 100000
