@@ -651,3 +651,8 @@ By running this plugin, you agree to be bound by our TOS
 [18:18:10] [Server thread/INFO]: [Essentials] Found new UUID for xNotJames. Replacing 01daf9cb-e608-36e3-9c19-8196b5a284d5 with be6d2a29-3a11-40c4-a4fb-7b970d6aa48f
 [18:18:10] [Server thread/INFO]: xNotJames[/127.254.212.77:37986] logged in with entity id 1343 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [18:18:10] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/be6d2a29-3a11-40c4-a4fb-7b970d6aa48f.yml
+[18:18:17] [Craft Scheduler Thread - 29/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[18:18:17] [Craft Scheduler Thread - 29/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[18:18:17] [Craft Scheduler Thread - 29/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[18:18:28] [Server thread/INFO]: [AuthMe] xNotJames registered 127.254.212.77
+[18:18:28] [Craft Scheduler Thread - 29/INFO]: [AuthMe] xNotJames logged in 127.254.212.77
