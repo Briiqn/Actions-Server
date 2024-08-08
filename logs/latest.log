@@ -237,3 +237,9 @@
 [20:17:34] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:54290] logged in with entity id 35 at ([world_the_end]101.16735166087341, 49.0, 0.681159788270223)
 [20:17:44] [Server thread/INFO]: Briiqn issued server command: /kill Briiqn
 [20:18:34] [Server thread/WARN]: Briiqn moved wrongly!
+[20:19:37] [Server thread/WARN]: Briiqn was kicked for floating too long!
+[20:19:37] [Server thread/INFO]: Briiqn lost connection: Flying is not enabled on this server
+[20:19:37] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
+[20:19:37] [Server thread/WARN]: handleDisconnection() called twice
+[20:20:04] [Thread-14/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:20:04] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:40420] logged in with entity id 40 at ([world]-1118.8293143695091, 106.86572379623937, -271.4555606356157)
