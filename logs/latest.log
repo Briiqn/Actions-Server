@@ -286,3 +286,25 @@
 [22:13:14] [Async Chat Thread - #0/INFO]: [Manager] Briiqn: oh
 [22:13:19] [Async Chat Thread - #0/INFO]: [Manager] xNotJames: i assume its straight forward
 [22:13:25] [Async Chat Thread - #0/INFO]: [Manager] Briiqn: hopefully
+[22:13:50] [Server thread/INFO]: xNotJames issued server command: /deop xNotJames
+[22:13:52] [Server thread/INFO]: xNotJames issued server command: /deop Briiqn
+[22:13:53] [pool-19-thread-1/INFO]: [Vulcan] Briiqn was kicked for not replying to Keep Alive Packets! (130497ms)
+[22:13:53] [Server thread/INFO]: Briiqn lost connection: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[22:13:53] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
+[22:13:53] [pool-18-thread-1/INFO]: [❀] xNotJames failed Speed (C)  VL: 2/15, Ping: 429ms, TPS: 20, Version: v1.8
+[22:13:53] [pool-18-thread-1/INFO]: [❀] xNotJames failed Speed (C)  VL: 4/15, Ping: 429ms, TPS: 20, Version: v1.8
+[22:13:53] [pool-18-thread-1/INFO]: [❀] xNotJames failed Strafe (A)  VL: 2/15, Ping: 429ms, TPS: 20, Version: v1.8
+[22:13:53] [pool-18-thread-1/INFO]: [❀] xNotJames failed Strafe (A)  VL: 4/15, Ping: 429ms, TPS: 20, Version: v1.8
+[22:13:54] [pool-18-thread-1/INFO]: [❀] xNotJames failed Strafe (A)  VL: 6/15, Ping: 429ms, TPS: 20, Version: v1.8
+[22:13:54] [pool-18-thread-1/INFO]: [❀] xNotJames failed Speed (C)  VL: 6/15, Ping: 429ms, TPS: 20, Version: v1.8
+[22:14:02] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 1/25, Ping: 374ms, TPS: 20, Version: v1.8
+[22:14:03] [pool-18-thread-1/INFO]: [❀] xNotJames failed Speed (B)  VL: 2/20, Ping: 374ms, TPS: 20, Version: v1.8
+[22:14:03] [pool-18-thread-1/INFO]: [❀] xNotJames failed Speed (C)  VL: 8/15, Ping: 374ms, TPS: 20, Version: v1.8
+[22:14:03] [pool-18-thread-1/INFO]: [❀] xNotJames failed Speed (B)  VL: 3/20, Ping: 374ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 2/25, Ping: 413ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 3/25, Ping: 413ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 4/25, Ping: 413ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 5/25, Ping: 413ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Motion (A)  VL: 1/15, Ping: 413ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Jump (A)  VL: 6/25, Ping: 413ms, TPS: 20, Version: v1.8
+[22:14:04] [pool-18-thread-1/INFO]: [❀] xNotJames failed Motion (A)  VL: 2/15, Ping: 413ms, TPS: 20, Version: v1.8
