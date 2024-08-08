@@ -1174,3 +1174,9 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:34:30] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 1 &c[Manager]
 [20:34:33] [Async Chat Thread - #3/INFO]: <xNotJames> a
 [20:34:36] [Async Chat Thread - #3/INFO]: <xNotJames> wtf
+[20:34:40] [Async Chat Thread - #3/INFO]: <xNotJames> oh
+[20:34:49] [Server thread/INFO]: xNotJames issued server command: /lp editor
+[20:34:57] [Async Chat Thread - #3/INFO]: <Briiqn> is it possible to migrate pex to lp?
+[20:35:05] [Server thread/INFO]: xNotJames issued server command: /lp
+[20:35:07] [Async Chat Thread - #3/INFO]: <Briiqn> like without doing much
+[20:35:09] [Async Chat Thread - #3/INFO]: <xNotJames> i think so
