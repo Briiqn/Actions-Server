@@ -701,3 +701,6 @@ By running this plugin, you agree to be bound by our TOS
 [03:34:12] [Server thread/INFO]: [Essentials] Found new UUID for RayAar. Replacing cde6802d-f301-3ad2-9eb6-9cee1d3074f8 with 795f307d-1f48-4697-aae8-46a109b534d1
 [03:34:12] [Server thread/INFO]: RayAar[/127.39.31.13:44930] logged in with entity id 234 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [03:34:12] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/795f307d-1f48-4697-aae8-46a109b534d1.yml
+[03:34:28] [Server thread/INFO]: [AuthMe] RayAar registered 127.39.31.13
+[03:34:28] [Craft Scheduler Thread - 3/INFO]: [AuthMe] RayAar logged in 127.39.31.13
+[03:34:30] [Server thread/INFO]: RayAar issued server command: /polar

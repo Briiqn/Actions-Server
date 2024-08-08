@@ -991,3 +991,5 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
 
+[08-08 03:34:28]: [FINE] RayAar registered 127.39.31.13
+[08-08 03:34:28]: [FINE] RayAar logged in 127.39.31.13
