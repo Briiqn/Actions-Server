@@ -43,6 +43,7 @@ messages:
   restart: Server is restarting
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -51,14 +52,12 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -79,7 +78,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -105,6 +103,8 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
+    mob-spawn-range: 4
+    nerf-spawner-mobs: false
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
