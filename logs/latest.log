@@ -823,3 +823,11 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
 [03:51:17] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[03:51:22] [Server thread/INFO]: RayAar issued server command: /tp Pyrbu
+[03:51:23] [Thread-21/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[03:51:23] [Server thread/INFO]: Briiqn[/127.30.38.147:52974] logged in with entity id 800 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[03:51:27] [Craft Scheduler Thread - 19/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[03:51:27] [Craft Scheduler Thread - 19/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[03:51:27] [Craft Scheduler Thread - 19/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[03:51:42] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[03:51:43] [Server thread/WARN]: Briiqn moved wrongly!
