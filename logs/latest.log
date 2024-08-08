@@ -1047,3 +1047,4 @@ Caused by: java.lang.NullPointerException
 [04:31:10] [Craft Scheduler Thread - 49/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [04:31:55] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:32:30] [Server thread/INFO]: PyrB lost connection: Disconnected
+[04:33:10] [Server thread/WARN]: Briiqn moved wrongly!
