@@ -1,3 +1,5 @@
+# 
+#    Vulcan Anti-Cheat Configuration File    #
 prefix: '&7[&c&l❀&7]'
 alerts:
   format: '%prefix% &f%player% failed &c%check% (%type%) %dev% &7VL: %vl%/%max-vl%,
@@ -2015,8 +2017,8 @@ checks:
           multiple: 0.25
           decay: 0.15
       c:
-        enabled: false
-        punishable: false
+        enabled: true
+        punishable: true
         discord-alert-interval: 1
         setback: false
         min-vl-to-setback: 1
@@ -2025,9 +2027,9 @@ checks:
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
-        minimum-tps: 19.0
+        minimum-tps: 17.5
         punishment-commands:
-        - kick %player% &c[Vulcan] Unfair Advantage
+        - kick %player% &c[AC] Skill Issue Detected
         buffer:
           max: 2
           multiple: 0.25
@@ -2375,8 +2377,8 @@ checks:
           multiple: 0.25
           decay: 0.1
       n:
-        enabled: false
-        punishable: false
+        enabled: true
+        punishable: true
         discord-alert-interval: 1
         setback: false
         min-vl-to-setback: 1
@@ -2385,9 +2387,9 @@ checks:
         alert-interval: 1
         dont-alert-until: 2
         maximum-ping: 100000
-        minimum-tps: 19.0
+        minimum-tps: 17.5
         punishment-commands:
-        - kick %player% &c[Vulcan] Unfair Advantage
+        - kick %player% &c[AC] Skill Issue Detected
         buffer:
           max: 3
           multiple: 0.25
