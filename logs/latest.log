@@ -735,3 +735,7 @@ Caused by: java.lang.NullPointerException
 [18:28:33] [Server thread/INFO]: xNotJames issued server command: /pl
 [18:30:57] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [18:31:33] [Server thread/INFO]: xNotJames issued server command: /op
+[18:31:43] [Server thread/INFO]: xNotJames issued server command: /pex
+[18:31:53] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames permission set *
+[18:31:56] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames permission
+[18:31:58] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames
