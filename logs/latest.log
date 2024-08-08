@@ -4,3 +4,7 @@
 [13:11:58] [main/INFO]: Epoll is working, utilising it!
 [13:11:58] [main/WARN]: Forced host server pvp is not defined
 [13:11:59] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[13:17:33] [Netty Worker IO Thread #0/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[13:17:33] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.134.178.31:46403] is firewalled from the server. (QuietException)
+[13:17:33] [Netty Worker IO Thread #4/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[13:17:34] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
