@@ -1168,3 +1168,9 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:32:58] [Server thread/INFO]: Briiqn issued server command: /lp editor
 [20:33:49] [Server thread/INFO]: xNotJames issued server command: /lp group owner meta
 [20:34:03] [Server thread/INFO]: xNotJames issued server command: /lp group owner addprefix &c[Manager]
+[20:34:17] [Server thread/INFO]: xNotJames issued server command: /lp group owner addprefix 1 &c[Manager]
+[20:34:30] [Server thread/INFO]: xNotJames issued server command: /lp group owner meta addprefix 1 &c[Manager]
+[20:34:30] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[20:34:30] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 1 &c[Manager]
+[20:34:33] [Async Chat Thread - #3/INFO]: <xNotJames> a
+[20:34:36] [Async Chat Thread - #3/INFO]: <xNotJames> wtf
