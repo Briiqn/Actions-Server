@@ -34,3 +34,7 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [03:31:55] [Netty Worker IO Thread #4/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [03:38:02] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
 [03:38:02] [Netty Worker IO Thread #7/INFO]: [RayAar] disconnected with: [Proxy] Lost connection to server.
+[04:12:26] [Netty Worker IO Thread #1/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[04:12:27] [Netty Worker IO Thread #4/INFO]: [FlameCord] [/127.134.178.31:38603] is firewalled from the server. (QuietException)
+[04:12:27] [Netty Worker IO Thread #5/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[04:12:27] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
