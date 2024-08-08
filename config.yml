@@ -50,3 +50,7 @@ servers:
     motd: '&1Hypixel.networking'
     address: localhost:25566
     restricted: false
+  skywars:
+    motd: '&1Hypixel.networking'
+    address: localhost:25569
+    restricted: false
