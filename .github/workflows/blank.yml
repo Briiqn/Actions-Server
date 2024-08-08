@@ -31,7 +31,6 @@ jobs:
           CF_TUNNEL_CERT: ${{secrets.CF_CERT}}
           CF_TUNNEL_UUID: ${{secrets.CF_TUNNEL_UUID_1}}
           CF_TUNNEL_UUID_CONTENT: ${{secrets.CF_TUNNEL_UUID_CONTENT}}
-
         run: |
           curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
           echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
@@ -54,6 +53,7 @@ jobs:
           SPIGOT_PID=$!
           echo "Spigot started with PID $SPIGOT_PID"    
           echo "Cloudflare Tunnel started with PID $PLAYIT_PID"
+          
           # Function to commit and push changes
           commit_and_push() {
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -66,6 +66,7 @@ jobs:
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
           }
+          
           # Function to delete auto-commit workflow runs
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
@@ -77,14 +78,16 @@ jobs:
                 "https://api.github.com/repos/${REPO}/actions/runs/$id"
             done
           }
+          
           # Loop to commit and delete workflows every 30 seconds
           while true; do
             sleep 30
             commit_and_push
             delete_auto_commit_workflows
+            
             # Check if processes are still running
             if ! kill -0 $SPIGOT_PID 2>/dev/null || ! kill -0 $PLAYIT_PID 2>/dev/null; then
-              echo "One of the processes has finished. Terminating the workflow."
-              break
+              echo "One of the processes has finished. Restarting the workflow."
+              exit 1  # Exit with error code to trigger a workflow restart
             fi
           done
