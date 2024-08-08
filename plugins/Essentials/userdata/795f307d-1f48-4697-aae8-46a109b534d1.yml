@@ -2,6 +2,7 @@ lastAccountName: RayAar
 timestamps:
   login: 1723088489418
   lastteleport: 1723090037003
+  logout: 1723095344604
 ipAddress: 127.39.31.13
 money: '240.0'
 lastlocation:
@@ -11,4 +12,11 @@ lastlocation:
   z: -15.841978455835818
   yaw: 25.25582
   pitch: 22.949993
-afk: true
+afk: false
+logoutlocation:
+  world: world
+  x: 22.391526688393053
+  y: 74.97818094454621
+  z: 12.453355295367029
+  yaw: 23.239044
+  pitch: 0.9000057
