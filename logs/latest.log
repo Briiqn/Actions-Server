@@ -767,3 +767,4 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
 [03:47:14] [Server thread/INFO]: Briiqn issued server command: /ping
+[03:49:10] [Server thread/INFO]: RayAar issued server command: /kit
