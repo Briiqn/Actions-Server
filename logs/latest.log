@@ -8,3 +8,6 @@
 [19:05:17] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
 [19:05:42] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.30.38.147:39493] is firewalled from the server. (Too many connections)
 [19:05:42] [Netty Worker IO Thread #4/INFO]: [FlameCord] [/127.30.38.147:41583] is firewalled from the server. (Too many connections)
+[19:07:23] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: You have been banned:
+The Ban Hammer has spoken!
+[19:07:29] [Netty Worker IO Thread #7/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
