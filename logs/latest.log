@@ -225,3 +225,7 @@
 [19:51:35] [Server thread/INFO]: Briiqn issued server command: /kill Briiqn
 [19:51:41] [Server thread/INFO]: Briiqn issued server command: /gamemode c
 [19:51:46] [Server thread/INFO]: Briiqn issued server command: /flyspeed 10
+[19:51:57] [Server thread/INFO]: Briiqn issued server command: /setspawn
+[19:52:02] [Server thread/INFO]: Briiqn issued server command: /setworldspawn
+[19:52:16] [Server thread/WARN]: Briiqn moved too quickly! -6.817388506548241,0.0,-7.421305836924091 (-6.817388506548241, 0.0, -7.421305836924091)
+[19:52:20] [Server thread/INFO]: Briiqn issued server command: //wand
