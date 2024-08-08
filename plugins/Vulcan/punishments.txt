@@ -154,3 +154,50 @@ Potion Effects: [SPEED:(2147482841t-x0)]
 ---------------------------------------------------------------------------
 
 
+--------------[ Briiqn was punished for Bad Packets (Type I) ]--------------
+
+Location:
+ - World: world
+ - X: -0.06451888969854491
+ - Y: 65.0
+ - Z: -0.19242449442948922
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 145
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 21.75 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 309
+ - Since Riptide Ticks: 200
+ - Flying Delay: 76
+ - Since Velocity Ticks: 435
+ - Since Firework Ticks: 288
+ - Ticks Existed: 335
+ - Since Vehicle Ticks: 188
+ - Since Liquid Ticks: 188
+ - Queued Transactions: 1
+ - Joined: 16 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Bad Packets (Type I) [VL: 3] (Sent EntityAction while attacking.)
+
+Blocks Nearby: [STONE, STONE, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, GOLD_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=xNotJames}]
+Potion Effects: [SPEED:(2147483318t-x0)]
+---------------------------------------------------------------------------
+
+
