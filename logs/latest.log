@@ -780,3 +780,6 @@ By running this plugin, you agree to be bound by our TOS
 [02:51:43] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [02:51:43] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [02:51:43] [Head Conversion Thread - 6/WARN]: 	... 8 more
+[02:52:13] [Thread-17/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[02:52:13] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@c85742c[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@30927b53]},legacy=false] (/127.16.144.220:38168): §cgay.
+[02:52:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@c85742c[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@30927b53]},legacy=false] (/127.16.144.220:38168) lost connection: §cgay.
