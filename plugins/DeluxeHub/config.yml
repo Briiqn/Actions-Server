@@ -90,7 +90,7 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&lDeluxeHub 3 &7(%online%/%online_max%)"
+  title: "&f&lOcto&0&lNet &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
     - "&e&lPlayer:"
@@ -116,14 +116,15 @@ tablist:
   # Modify the header of the tablist
   header:
     - ""
-    - "&d&lDeluxeHub &7(%online%/%online_max%)"
+    - "&f&lOcto&0&lNet &7(%online%/%online_max%)"
     - ""
 
   # Modify the footer of the tablist
   footer:
     - ""
-    - "&6&lWebsite &fwww.examplemc.net"
-    - "&e&lStore &fbuy.examplemc.net"
+    - "&6&lWebsite &fgithubservers.org"
+    - "&e&lGithub &fgithub.com/Briiqn/Actions-Server"
+    - "&7&ogithubservers.org"
     - ""
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -148,21 +149,12 @@ announcements:
 
   # Announcement list
   announcements:
-    test1:
+    main:
       - "&r"
       - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Rate this plugin 5 stars on Spigot!</center>"
+      - "<center>&7Rate this project on Github!</center>"
       - "&r"
-    test2:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7This plugin was created by &eItsLewizzz</center>"
-      - "&r"
-    test3:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Configure these messages in the &bconfig.yml</center>"
-      - "&r"
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | LAUNCHPAD                                |
@@ -190,7 +182,7 @@ launchpad:
 
 double_jump:
   # Should the double jump feature be enabled?
-  enabled: true
+  enabled: false
 
   # Launch power for double jump (max 4.0)
   launch_power: 1.0
@@ -231,9 +223,17 @@ anti_swear:
 
   # List of words that will be blocked
   blocked_words:
-    - fuck
-    - shit
-    - bitch
+    - vulcan
+    - carwho
+    - karhu
+    - aac
+    - ncp
+    - uncp
+    - nocheatplus
+    - updated nocheatplus
+    - grim
+    - grimac
+    - watchdog
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | WORLD EVENT SETTINGS                     |
@@ -276,8 +276,8 @@ join_leave_messages:
   enabled: true
 
   # Set to '' if you want silent join/quit messages
-  join_message: "&2&l+ &6%player% &7Connected"
-  quit_message: "&4&l- &6%player% &7Disconnected"
+  join_message: "&f[+] %player% connected to the lobby server."
+  quit_message: "&e[+] %player% disconnected to the lobby server."
 
 # Actions executed upon join
 join_events:
@@ -285,16 +285,14 @@ join_events:
   - "[MESSAGE] &r"
   - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fwww.examplemc.net"
-  - "[MESSAGE] &r  &3&lSTORE &fstore.examplemc.net"
-  - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
+  - "[MESSAGE] &r  &2&lWEBSITE &fgithubservers.org"
+  - "[MESSAGE] &r  &3&lGithub &fgithub.com/Briiqn/Actions-Server"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
+  - "[MESSAGE] &r            &7&oPowered By Github"
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
   - "[GAMEMODE] survival"
-  - "[EFFECT] SPEED;1"
 
 join_settings:
   # Should we teleport the player to the spawn point (if set) on join?
@@ -304,7 +302,7 @@ join_settings:
   # Should we extinguish the player?
   extinguish: true
   # Should we clear their inventory?
-  clear_inventory: false
+  clear_inventory: true
   # Spawn a firework on join
   firework:
     # Should we send a firework on join?
@@ -340,9 +338,8 @@ custom_join_items:
         - "[MESSAGE] &r"
         - "[MESSAGE] &e&lServer Information"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fwww.examplemc.net"
-        - "[MESSAGE] &cStore: &fbuy.examplemc.net"
-        - "[MESSAGE] &dDiscord: &fdiscord.examplemc.net"
+        - "[MESSAGE] &bWebsite: &fgithubservers.orgt"
+        - "[MESSAGE] &cGithub: &fgithub.com/Briiqn/Actions-Server"
         - "[MESSAGE] &r"
     server_selector:
       material: NETHER_STAR
@@ -365,7 +362,7 @@ player_hider:
   slot: 8
   # Should we prevent them from moving/dropping the item?
   disable_inventory_movement: true
-  # Cooldown in seconds
+  # Cooldown in seconds\
   # Set to 0 to disable
   cooldown: 3
 
