@@ -21,3 +21,8 @@
 [00:34:22] [Netty Worker IO Thread #6/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: gay.
 [00:35:17] [Netty Worker IO Thread #4/INFO]: [ShortyDev] disconnected with: Kicked whilst connecting to lobby: gay.
 [00:35:29] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: Login timeout exceeded, you have been kicked from the server, please try again!
+[00:52:44] [Netty Worker IO Thread #5/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[00:52:44] [Netty Worker IO Thread #7/INFO]: [FlameCord] [/127.134.178.31:34339] is firewalled from the server. (QuietException)
+[00:52:44] [Netty Worker IO Thread #0/INFO]: [FlameCord] [/127.134.178.31:47087] is firewalled from the server. (QuietException)
+[00:52:45] [Netty Worker IO Thread #1/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[00:52:45] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
