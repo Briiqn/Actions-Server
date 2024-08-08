@@ -229,3 +229,9 @@
 [19:52:02] [Server thread/INFO]: Briiqn issued server command: /setworldspawn
 [19:52:16] [Server thread/WARN]: Briiqn moved too quickly! -6.817388506548241,0.0,-7.421305836924091 (-6.817388506548241, 0.0, -7.421305836924091)
 [19:52:20] [Server thread/INFO]: Briiqn issued server command: //wand
+[19:52:25] [Server thread/WARN]: Briiqn moved too quickly! 6.520349371609882,0.0,7.646648975801554 (6.520349371609882, 0.0, 7.646648975801554)
+[19:52:27] [Server thread/WARN]: Briiqn moved too quickly! 6.686381664209648,0.0,7.473389506602018 (6.686381664209648, 0.0, 7.473389506602018)
+[19:52:51] [Server thread/INFO]: Briiqn issued server command: //set air
+[19:52:55] [Server thread/INFO]: Briiqn issued server command: //confirm
+[19:52:57] [Server thread/INFO]: Briiqn issued server command: /wea
+[19:52:58] [Server thread/INFO]: Briiqn issued server command: //confirm
