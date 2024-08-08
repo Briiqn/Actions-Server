@@ -141,3 +141,6 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [03:00:16] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:43774] logged in with entity id 25 at ([world]1679.3416892844405, 4.0, -116.45917923487936)
 [03:00:24] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [03:00:24] [Server thread/INFO]: Briiqn left the game.
+[03:04:07] [Thread-9/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[03:04:07] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:47036] logged in with entity id 33 at ([world]1435.6589899976839, 4.0, 22.765069101992097)
+[03:04:09] [Server thread/INFO]: ShortyDev issued server command: /tps
