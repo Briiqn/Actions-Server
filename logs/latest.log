@@ -8,3 +8,8 @@
 [13:17:33] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.134.178.31:46403] is firewalled from the server. (QuietException)
 [13:17:33] [Netty Worker IO Thread #4/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
 [13:17:34] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
+[13:47:27] [Netty Worker IO Thread #5/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[13:47:28] [Netty Worker IO Thread #0/INFO]: [FlameCord] [/127.134.178.31:58021] is firewalled from the server. (QuietException)
+[13:47:28] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
+[13:47:28] [Netty Worker IO Thread #1/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[13:47:29] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
