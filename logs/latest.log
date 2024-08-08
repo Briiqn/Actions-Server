@@ -1159,3 +1159,9 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.owner true
 [20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
 [20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove group.default true
+[20:32:29] [Server thread/INFO]: xNotJames issued server command: /lp
+[20:32:31] [Server thread/INFO]: xNotJames issued server command: /lp help
+[20:32:34] [Async Chat Thread - #2/INFO]: <Briiqn> i dont think the webeditor would work
+[20:32:39] [Async Chat Thread - #2/INFO]: <xNotJames> it did
+[20:32:43] [Async Chat Thread - #2/INFO]: <Briiqn> send
+[20:32:47] [Async Chat Thread - #2/INFO]: <Briiqn> how do it
