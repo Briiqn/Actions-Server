@@ -1011,3 +1011,4 @@ Caused by: java.lang.NullPointerException
 [04:04:37] [Server thread/INFO]: RayAar issued server command: /summon blaze
 [04:04:37] [Server thread/WARN]: Skipping Entity with id blaze
 [04:04:37] [Server thread/INFO]: [RayAar: Unable to summon object]
+[04:07:17] [Server thread/INFO]: RayAar issued server command: /tp Briiqn
