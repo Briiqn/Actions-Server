@@ -277,7 +277,7 @@ join_leave_messages:
 
   # Set to '' if you want silent join/quit messages
   join_message: "&a[+] %player% connected to the lobby server."
-  quit_message: "&e[+] %player% disconnected to the lobby server."
+  quit_message: "&e[+] %player% disconnected from the lobby server."
 
 # Actions executed upon join
 join_events:
