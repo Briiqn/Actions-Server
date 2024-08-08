@@ -734,3 +734,4 @@ Caused by: java.lang.NullPointerException
 [18:27:19] [Server thread/INFO]: xNotJames issued server command: /fly
 [18:28:33] [Server thread/INFO]: xNotJames issued server command: /pl
 [18:30:57] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[18:31:33] [Server thread/INFO]: xNotJames issued server command: /op
