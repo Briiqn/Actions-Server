@@ -155,3 +155,15 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:37:45] [Async Chat Thread - #0/INFO]: <Briiqn> yes
 [02:37:46] [Server thread/INFO]: ShortyDev lost connection: Disconnected
 [02:37:46] [Server thread/INFO]: ShortyDev left the game.
+[02:37:55] [Thread-12/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[02:37:55] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:52688] logged in with entity id 74 at ([world]1462.11215281334, 4.0, 3.398614147374106)
+[02:37:57] [Async Chat Thread - #0/INFO]: <ShortyDev> ok
+[02:37:58] [Async Chat Thread - #0/INFO]: <ShortyDev> perfect
+[02:38:00] [Server thread/INFO]: ShortyDev issued server command: /ping
+[02:38:00] [Server thread/INFO]: §cShortyDev §4was denied access to command.
+[02:38:07] [Async Chat Thread - #0/INFO]: <ShortyDev> this is so funny xD
+[02:38:10] [Async Chat Thread - #0/INFO]: <Briiqn> XD
+[02:38:11] [Async Chat Thread - #0/INFO]: <ShortyDev> now do the same for the other tunnel
+[02:38:15] [Async Chat Thread - #0/INFO]: <ShortyDev> server*
+[02:38:20] [Async Chat Thread - #0/INFO]: <ShortyDev> hypig
+[02:38:21] [Async Chat Thread - #0/INFO]: <Briiqn> just change uuid and hostname
