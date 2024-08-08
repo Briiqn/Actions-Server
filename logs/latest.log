@@ -240,3 +240,5 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [20:59:29] [Thread-13/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
 [20:59:29] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:38212] logged in with entity id 34 at ([world]-1118.627245411867, 69.0155550727022, -278.38613884512904)
 [20:59:29] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 27.588704ms. Summary: Getting prefix for xNotJames
+[20:59:45] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
+[20:59:52] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
