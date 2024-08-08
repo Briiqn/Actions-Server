@@ -64,3 +64,5 @@ The Ban Hammer has spoken!
 [20:37:37] [Netty Worker IO Thread #0/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
 [20:37:37] [Netty Worker IO Thread #5/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
 [20:37:45] [Netty Worker IO Thread #1/INFO]: [xNotJames] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:42:16] [Netty Worker IO Thread #2/WARN]: No client connected for pending server!
+[20:42:24] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: [AC] Skill Issue Detected
