@@ -251,3 +251,4 @@ org.bukkit.plugin.UnknownDependencyException: FacilitisAPI
 [21:45:04] [User Authenticator #1/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
 [21:45:05] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:54832] logged in with entity id 28 at ([world]-1117.3973745273515, 68.0, -267.9693450700055)
 [21:45:19] [Async Chat Thread - #0/INFO]: <xNotJames> a
+[21:45:49] [Server thread/INFO]: xNotJames issued server command: /pl
