@@ -286,3 +286,17 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [04:48:57] [Server thread/INFO]: Briiqn left the game.
 [04:49:01] [Thread-20/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [04:49:01] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:51248] logged in with entity id 413 at ([world]1810.297239289838, 10.0, -159.0734984598241)
+[04:49:22] [Server thread/INFO]: Briiqn issued server command: /mem
+[04:49:35] [Server thread/INFO]: Briiqn issued server command: /spark profiler close
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡] Starting a new profiler, please wait...
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡] Profiler is now running! (async)
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡] It will run in the background until it is stopped by an admin.
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡] To stop the profiler and upload the results, run:
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡]   /spark profiler stop
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡] To view the profiler while it's running, run:
+[04:49:35] [Craft Scheduler Thread - 37/INFO]: [⚡]   /spark profiler open
+[04:49:39] [Server thread/INFO]: Briiqn issued server command: /spark profiler stop
+[04:49:39] [Craft Scheduler Thread - 37/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[04:49:40] [Craft Scheduler Thread - 37/INFO]: [⚡] Profiler stopped & upload complete!
+[04:49:40] [Craft Scheduler Thread - 37/INFO]: https://spark.lucko.me/atvXCE2bVq
+[04:49:40] [Craft Scheduler Thread - 37/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
