@@ -701,3 +701,6 @@ By running this plugin, you agree to be bound by our TOS
 [00:33:31] [Thread-28/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
 [00:33:31] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4bace721[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@2223d851]},legacy=false] (/127.16.144.220:60755): §cgay.
 [00:33:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@4bace721[id=f5fbd54b-ba6d-43b6-bfac-859a453623a8,name=ShortyDev,properties={textures=[com.mojang.authlib.properties.Property@2223d851]},legacy=false] (/127.16.144.220:60755) lost connection: §cgay.
+[00:34:22] [Thread-29/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:34:22] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4ad2b81c[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@7b91a405]},legacy=false] (/127.124.125.35:32939): §cgay.
+[00:34:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@4ad2b81c[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@7b91a405]},legacy=false] (/127.124.125.35:32939) lost connection: §cgay.
