@@ -35,8 +35,8 @@ jobs:
           curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
           echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
           sudo apt-get update && sudo apt-get install cloudflared
-          cloudflared access tcp --hostname ${HOSTNAME} --url localhost:25566 > /dev/null 2>&1 &
-          cloudflared access tcp --hostname ${HOSTNAME_2} --url localhost:25569 > /dev/null 2>&1 &
+          cloudflared access tcp --hostname ${HOSTNAME} --url localhost:25566 > /dev/null &
+          cloudflared access tcp --hostname ${HOSTNAME_2} --url localhost:25569 > /dev/null &
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
