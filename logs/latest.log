@@ -16,3 +16,5 @@
 [13:53:02] [Netty Worker IO Thread #3/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [13:53:05] [Netty Worker IO Thread #4/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [13:53:09] [Netty Worker IO Thread #6/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[14:44:53] [Netty Worker IO Thread #2/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[14:44:57] [Netty Worker IO Thread #3/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
