@@ -6,3 +6,5 @@
 [19:05:09] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
 [19:05:16] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.30.38.147:47301] is connecting too fast
 [19:05:17] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
+[19:05:42] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.30.38.147:39493] is firewalled from the server. (Too many connections)
+[19:05:42] [Netty Worker IO Thread #4/INFO]: [FlameCord] [/127.30.38.147:41583] is firewalled from the server. (Too many connections)
