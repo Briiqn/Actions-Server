@@ -1021,3 +1021,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
 
+[08-08 03:41:29]: [FINE] The user Briiqn has 12 accounts:
+[08-08 03:41:29]: [FINE] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[08-08 03:41:29]: [FINE] Briiqn logged in 127.30.38.147
+[08-08 03:41:37]: [FINE] RayAar logged in 127.39.31.13
