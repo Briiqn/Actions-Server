@@ -721,3 +721,6 @@ Caused by: java.lang.NullPointerException
 [18:23:50] [Craft Scheduler Thread - 33/INFO]: [AuthMe] xNotJames logged in 127.254.212.77
 [18:23:59] [Server thread/INFO]: xNotJames issued server command: /lp
 [18:24:03] [Server thread/INFO]: xNotJames issued server command: /ipban briiqn
+[18:24:07] [Server thread/INFO]: xNotJames issued server command: /ban briiqn
+[18:24:18] [Server thread/INFO]: xNotJames issued server command: /alerts
+[18:24:21] [Server thread/INFO]: xNotJames issued server command: /alerts
