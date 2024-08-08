@@ -1,562 +1,465 @@
-[19:26:51] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[19:26:51] [Server thread/INFO]: Loading properties
-[19:26:51] [Server thread/INFO]: Default game type: SURVIVAL
-[19:26:51] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[19:26:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:26:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:26:52] [Server thread/INFO]: Debug logging is disabled
-[19:26:52] [Server thread/INFO]: Generating keypair
-[19:26:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:26:52] [Server thread/INFO]: Using default channel type
-[19:26:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[19:26:52] [Server thread/ERROR]: Could not load 'plugins/worldguard-6.2.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/Injector
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:135) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [spigot.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot.jar:git-Spigot-db6de12-18fbb24]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
-Caused by: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/Injector
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_422]
-	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_422]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	... 6 more
-Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.Injector
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_422]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_422]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_422]
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_422]
-	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_422]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
-	... 6 more
-[19:26:53] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.17.1-SNAPSHOT-Updated-b192
-[19:26:53] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
-[19:26:53] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
-[19:26:53] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
-[19:26:53] [Server thread/INFO]: [spark] Loading spark v1.10.59
-[19:26:53] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
-[19:26:53] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[19:26:53] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[19:26:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:26:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:26:54] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[19:26:54] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.137
-[19:26:57] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
-[19:26:57] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3036)
-[19:26:57] [Server thread/INFO]: [Vulcan] Loading Vulcan v2.8.5
-[19:26:58] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+25-fbfd7e9
-[19:26:58] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
-[19:26:58] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 525 for URL: https://addons.cursecdn.com/files/2431/372/worldedit-bukkit-6.1.7.2.jar
-[19:26:58] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1902)
-[19:26:58] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1500)
-[19:26:58] [Server thread/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
-[19:26:58] [Server thread/WARN]: 	at com.boydti.fawe.util.Jars.download(Jars.java:48)
-[19:26:58] [Server thread/WARN]: 	at com.boydti.fawe.bukkit.BukkitMain.onEnable(BukkitMain.java:62)
-[19:26:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
-[19:26:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
-[19:26:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
-[19:26:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
-[19:26:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
-[19:26:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:199)
-[19:26:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
-[19:26:58] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
-[19:26:58] [Server thread/INFO]: §8(§4§lFAWE§8)§r§7 ====== INSTALL WORLDEDIT ======
-[19:26:58] [Server thread/INFO]: §8(§4§lFAWE§8)§r§7 FAWE requires WorldEdit to function correctly
-[19:26:58] [Server thread/INFO]: §8(§4§lFAWE§8)§r§7 Info: https://github.com/boy0001/FastAsyncWorldedit/releases/
-[19:26:58] [Server thread/INFO]: §8(§4§lFAWE§8)§r§7 ===============================
-[19:26:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.137
-[19:26:59] [Server thread/INFO]:         __    
-[19:26:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
-[19:26:59] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[19:26:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:27:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:27:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:27:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:27:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3451ms)
-[19:27:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
-[19:27:03] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
-[19:27:03] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
-[19:27:03] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
-[19:27:03] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
-[19:27:03] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
-[19:27:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:27:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:27:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:27:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:27:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[19:27:03] [Server thread/INFO]: Preparing level "world"
-[19:27:03] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:27:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:27:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:27:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:27:03] [Server thread/INFO]: Random Lighting Updates: false
-[19:27:03] [Server thread/INFO]: Structure Info Saving: true
-[19:27:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:27:03] [Server thread/INFO]: Anti X-Ray: true
-[19:27:03] [Server thread/INFO]: 	Engine Mode: 1
-[19:27:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:27:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:27:03] [Server thread/INFO]: Mob Spawn Range: 4
-[19:27:03] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:27:03] [Server thread/INFO]: Max Entity Collisions: 8
-[19:27:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:27:03] [Server thread/INFO]: Max TNT Explosions: 100
-[19:27:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:27:03] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:27:03] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:27:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:27:03] [Server thread/INFO]: View Distance: 10
-[19:27:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:27:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:27:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:27:03] [Server thread/INFO]: Clear tick list: false
-[19:27:03] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:27:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:27:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:27:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:27:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:27:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:27:03] [Server thread/INFO]: Random Lighting Updates: false
-[19:27:03] [Server thread/INFO]: Structure Info Saving: true
-[19:27:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:27:03] [Server thread/INFO]: Anti X-Ray: true
-[19:27:03] [Server thread/INFO]: 	Engine Mode: 1
-[19:27:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:27:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:27:03] [Server thread/INFO]: Mob Spawn Range: 4
-[19:27:03] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:27:03] [Server thread/INFO]: Max Entity Collisions: 8
-[19:27:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:27:03] [Server thread/INFO]: Max TNT Explosions: 100
-[19:27:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:27:03] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:27:03] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:27:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:27:03] [Server thread/INFO]: View Distance: 10
-[19:27:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:27:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:27:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:27:03] [Server thread/INFO]: Clear tick list: false
-[19:27:03] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:27:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1715728558090943377)
-[19:27:03] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
-[19:27:03] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
-[19:27:03] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
-[19:27:03] [Server thread/WARN]: Skipping Entity with id minecraft:pig
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:03] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:chicken
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:item
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:chicken
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:cow
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:chicken
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:item
-[19:27:04] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
-[19:27:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6449644148566793192)
-[19:27:04] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.17.1-SNAPSHOT-Updated-b192
-[19:27:04] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
-[19:27:05] [Server thread/INFO]: [NoCheatPlus] Applied block patches for multi client protocol support: water_lily, soil, vine, shulker_box
-[19:27:05] [Server thread/INFO]: [NoCheatPlus] Update block-info: Block shape patch for multi client protocol support.
-[19:27:05] [Server thread/WARN]: [NoCheatPlus] Bad block id (compatibility.blocks.overrideflags): moving_piston
-[19:27:05] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
-[19:27:05] [Server thread/INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
-[19:27:05] [Server thread/INFO]: [NoCheatPlus] Version 3.17.1-SNAPSHOT-Updated-b192 is enabled.
-[19:27:05] [Server thread/INFO]: [spark] Enabling spark v1.10.59
-[19:27:05] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
-[19:27:05] [Server thread/INFO]: [spark] Starting background profiler...
-[19:27:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[19:27:06] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[19:27:06] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[19:27:06] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[19:27:06] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[19:27:06] [Server thread/INFO]: [DeluxeHub] 
-[19:27:06] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[19:27:06] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[19:27:06] [Server thread/INFO]: [DeluxeHub] 
-[19:27:06] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[19:27:06] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
-[19:27:06] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
-[19:27:06] [Server thread/INFO]: [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[19:27:06] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
-[19:27:06] [Server thread/INFO]: [DeluxeHub] 
-[19:27:06] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 238ms
-[19:27:06] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3036)
-[19:27:06] [Server thread/INFO]: [Citizens] Loading external libraries
-[19:27:07] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.8.5
-[19:27:07] [Server thread/INFO]: [Vulcan] Server Version: 1.8.8 detected!
-[19:27:07] [Server thread/INFO]: [Vulcan] BStats enabled!
-[19:27:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
-[19:27:07] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[19:27:07] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[19:27:07] [Server thread/INFO]: No kits found to migrate.
-[19:27:07] [Server thread/INFO]: Loaded 853 items from items.csv.
-[19:27:07] [Server thread/INFO]: Using locale en
-[19:27:08] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[19:27:08] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[19:27:08] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
-[19:27:08] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[19:27:08] [Server thread/INFO]: Using superperms-based permissions.
-[19:27:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:27:08] [Server thread/INFO]: Done (4.616s)! For help, type "help" or "?"
-[19:27:08] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
-[19:27:08] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
-[19:27:08] [Craft Scheduler Thread - 2/INFO]: §6Fetching version information...
-[19:27:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
-[19:27:08] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[19:27:08] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 1.8.0_422).
-[19:27:08] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
-[19:27:08] [Craft Scheduler Thread - 3/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
-[19:27:08] [Craft Scheduler Thread - 3/INFO]: [NoCheatPlus] Added hook: ViolationFrequency(NCP) [1.0].
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:27:08] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[19:27:08] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[19:27:08] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
-[19:27:08] [Craft Scheduler Thread - 2/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
-[19:27:08] [Craft Scheduler Thread - 2/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[19:27:17] [Thread-11/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
-[19:27:18] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:50568] logged in with entity id 19 at ([world]-1127.5, 68.0, -267.5)
-[19:27:29] [Thread-12/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
-[19:27:29] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:56000] logged in with entity id 21 at ([world]-1116.5, 69.0, -283.5)
-[19:27:48] [Server thread/INFO]: Briiqn issued server command: /pl
-[19:28:16] [Async Chat Thread - #0/INFO]: <xNotJames> 0/5
-[19:28:19] [Async Chat Thread - #0/INFO]: <xNotJames> too bad
-[19:28:26] [Server thread/INFO]: xNotJames issued server command: /npc create a
-[19:28:35] [Server thread/INFO]: Briiqn issued server command: /npc create jiden
-[19:28:36] [Server thread/INFO]: xNotJames issued server command: /npc cmd add server skywards
-[19:28:38] [Server thread/INFO]: xNotJames issued server command: /npc cmd add server skywars
-[19:28:43] [Server thread/INFO]: xNotJames issued server command: /npc cmd remove 0
-[19:28:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:45] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:54] [Async Chat Thread - #0/INFO]: <xNotJames> is skywars work
-[19:28:54] [Server thread/INFO]: Briiqn issued server command: /vulcan
-[19:28:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:29:00] [Server thread/INFO]: xNotJames issued server command: /npc cmd remove 1
-[19:29:04] [Server thread/INFO]: xNotJames issued server command: /npc cmd add server skywars -p
-[19:29:05] [Server thread/INFO]: Created a User for jiden (fc9dda7d-facf-2f64-be45-81175405dff3) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
-[19:29:07] [Server thread/INFO]: Briiqn issued server command: /alerts
-[19:29:09] [Server thread/INFO]: Briiqn issued server command: /alerts
-[19:29:10] [Async Chat Thread - #0/INFO]: <xNotJames> right click
-[19:29:18] [Server thread/INFO]: xNotJames issued server command: /npc sel
-[19:29:19] [Async Chat Thread - #0/INFO]: <Briiqn> the other server is off
-[19:29:20] [Server thread/INFO]: xNotJames issued server command: /npc remove
-[19:29:22] [Async Chat Thread - #0/INFO]: <xNotJames> yes
-[19:29:24] [Server thread/INFO]: Created a User for a (2e4d15da-c3dd-26a7-a18f-dc25bd322e8d) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
-[19:29:31] [Async Chat Thread - #0/INFO]: <Briiqn> ok make it look cool
-[19:29:32] [Server thread/INFO]: xNotJames issued server command: /npc tphere
-[19:29:35] [Server thread/INFO]: xNotJames issued server command: /npc sel
-[19:29:38] [Async Chat Thread - #0/INFO]: <Briiqn> i will download vault
-[19:29:38] [Server thread/INFO]: xNotJames issued server command: /npc tphere
-[19:29:46] [Server thread/INFO]: xNotJames issued server command: /npc rename &fSkyWars
-[19:29:49] [Server thread/INFO]: xNotJames issued server command: /npc rename &dSkyWars
-[19:29:53] [Async Chat Thread - #0/INFO]: <xNotJames> loool
-[19:30:00] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ pvp deny
-[19:30:05] [Async Chat Thread - #0/INFO]: <xNotJames> where is worldedit
-[19:30:08] [Async Chat Thread - #0/INFO]: <Briiqn> also worldguard failed
-[19:30:08] [Server thread/INFO]: Briiqn issued server command: //wand
-[19:30:09] [Async Chat Thread - #0/INFO]: <xNotJames> I mean worldguard
-[19:30:11] [Async Chat Thread - #0/INFO]: <Briiqn> idk
-[19:30:12] [Server thread/INFO]: Briiqn issued server command: /pl
-[19:30:15] [Server thread/INFO]: Briiqn issued server command: /wand
-[19:30:16] [Server thread/INFO]: Briiqn issued server command: //wand
-[19:30:18] [Async Chat Thread - #0/INFO]: <xNotJames> did u download 1.8
-[19:30:19] [Async Chat Thread - #0/INFO]: <Briiqn> worldedit is loaded
-[19:30:19] [Async Chat Thread - #0/INFO]: <xNotJames> one
-[19:30:22] [Server thread/INFO]: xNotJames issued server command: //wand
-[19:30:24] [Async Chat Thread - #0/INFO]: <Briiqn> i downloaded 6.2
-[19:30:25] [Server thread/INFO]: xNotJames issued server command: //wand
-[19:30:26] [Async Chat Thread - #0/INFO]: <Briiqn> bukkit
-[19:30:28] [Async Chat Thread - #0/INFO]: <xNotJames> 6.1
-[19:30:37] [Async Chat Thread - #0/INFO]: <xNotJames> isnt it like 6.1.9
-[19:30:40] [Async Chat Thread - #0/INFO]: <xNotJames> for 1.8
-[19:30:47] [Server thread/INFO]: xNotJames issued server command: /pl
-[19:30:54] [Server thread/INFO]: xNotJames issued server command: //wabd
-[19:30:57] [Async Chat Thread - #0/INFO]: <Briiqn> but it says
-[19:31:01] [Async Chat Thread - #0/INFO]: <xNotJames> fawe needs normal worledit
-[19:31:02] [Async Chat Thread - #0/INFO]: <Briiqn> 6.2 is mc 1.8 -1.11
-[19:31:02] [Async Chat Thread - #0/INFO]: <xNotJames> lmao
-[19:31:10] [Async Chat Thread - #0/INFO]: <xNotJames> uhm
-[19:31:13] [Async Chat Thread - #0/INFO]: <Briiqn> lemme show you error
-[19:31:44] [Async Chat Thread - #0/INFO]: <Briiqn> disc
-[19:32:04] [Server thread/INFO]: xNotJames issued server command: /fawe
-[19:32:07] [Server thread/INFO]: xNotJames issued server command: /pl
-[19:32:14] [Server thread/INFO]: xNotJames issued server command: /ncp
-[19:32:45] [Server thread/INFO]: xNotJames lost connection: Disconnected
-[19:32:45] [Server thread/INFO]: - xNotJames Disconnected
+[19:35:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:35:50] [Server thread/INFO]: Loading properties
+[19:35:50] [Server thread/INFO]: Default game type: SURVIVAL
+[19:35:51] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:35:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:35:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:35:51] [Server thread/INFO]: Debug logging is disabled
+[19:35:51] [Server thread/INFO]: Generating keypair
+[19:35:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:35:51] [Server thread/INFO]: Using default channel type
+[19:35:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:35:52] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.17.1-SNAPSHOT-Updated-b192
+[19:35:52] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[19:35:52] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[19:35:52] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
+[19:35:52] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[19:35:52] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[19:35:52] [Server thread/INFO]: [spark] Loading spark v1.10.59
+[19:35:52] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[19:35:52] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[19:35:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:35:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:35:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.137
+[19:35:53] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
+[19:35:53] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[19:35:53] [Server thread/INFO]: [Vulcan] Loading Vulcan v2.8.5
+[19:35:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:35:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[19:35:54] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3036)
+[19:35:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+25-fbfd7e9
+[19:35:54] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[19:35:54] [Server thread/INFO]: ====== USE PAPER ======
+[19:35:54] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/
+[19:35:54] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/
+[19:35:54] [Server thread/INFO]:  - This is only a recommendation
+[19:35:54] [Server thread/INFO]: ==============================
+[19:35:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.137
+[19:35:54] [Server thread/INFO]:         __    
+[19:35:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
+[19:35:54] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[19:35:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:35:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:35:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:35:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:35:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1514ms)
+[19:35:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
+[19:35:56] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
+[19:35:57] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
+[19:35:57] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
+[19:35:57] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
+[19:35:57] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
+[19:35:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:35:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:35:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:35:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:35:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:35:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:35:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:35:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:35:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:35:57] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:35:57] [Server thread/INFO]: Preparing level "world"
+[19:35:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:35:57] [Server thread/INFO]: Random Lighting Updates: false
+[19:35:57] [Server thread/INFO]: Structure Info Saving: true
+[19:35:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:35:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:35:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Max Entity Collisions: 8
+[19:35:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:35:57] [Server thread/INFO]: Max TNT Explosions: 100
+[19:35:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:35:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:35:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:35:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:35:57] [Server thread/INFO]: Anti X-Ray: true
+[19:35:57] [Server thread/INFO]: 	Engine Mode: 1
+[19:35:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:35:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:35:57] [Server thread/INFO]: Mob Spawn Range: 4
+[19:35:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:35:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:35:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:35:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:35:57] [Server thread/INFO]: View Distance: 10
+[19:35:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:35:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:35:57] [Server thread/INFO]: Clear tick list: false
+[19:35:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:35:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:35:57] [Server thread/INFO]: Random Lighting Updates: false
+[19:35:57] [Server thread/INFO]: Structure Info Saving: true
+[19:35:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:35:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:35:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:35:57] [Server thread/INFO]: Max Entity Collisions: 8
+[19:35:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:35:57] [Server thread/INFO]: Max TNT Explosions: 100
+[19:35:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:35:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:35:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:35:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:35:57] [Server thread/INFO]: Anti X-Ray: true
+[19:35:57] [Server thread/INFO]: 	Engine Mode: 1
+[19:35:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:35:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:35:57] [Server thread/INFO]: Mob Spawn Range: 4
+[19:35:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:35:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:35:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:35:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:35:57] [Server thread/INFO]: View Distance: 10
+[19:35:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:35:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:35:57] [Server thread/INFO]: Clear tick list: false
+[19:35:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:35:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1715728558090943377)
+[19:35:57] [Thread-10/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:35:57] [Server thread/WARN]: Skipping Entity with id minecraft:sheep
+[19:35:57] [Server thread/WARN]: Skipping Entity with id minecraft:pig
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping Entity with id minecraft:chicken
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:57] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping Entity with id minecraft:cow
+[19:35:58] [Server thread/WARN]: Skipping Entity with id minecraft:chicken
+[19:35:58] [Server thread/WARN]: Skipping Entity with id minecraft:item
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/WARN]: Skipping BlockEntity with id minecraft:end_portal
+[19:35:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6449644148566793192)
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.17.1-SNAPSHOT-Updated-b192
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] Applied block patches for multi client protocol support: water_lily, soil, vine, shulker_box
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] Update block-info: Block shape patch for multi client protocol support.
+[19:35:58] [Server thread/WARN]: [NoCheatPlus] Bad block id (compatibility.blocks.overrideflags): moving_piston
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
+[19:35:58] [Server thread/INFO]: [NoCheatPlus] Version 3.17.1-SNAPSHOT-Updated-b192 is enabled.
+[19:35:58] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[19:35:58] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[19:35:58] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[19:35:58] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[19:35:58] [Server thread/INFO]: [DeluxeHub] 
+[19:35:58] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[19:35:58] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[19:35:58] [Server thread/INFO]: [DeluxeHub] 
+[19:35:58] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[19:35:59] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[19:35:59] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[19:35:59] [Server thread/INFO]: [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[19:35:59] [Server thread/INFO]: [DeluxeHub] Loaded 16 plugin modules.
+[19:35:59] [Server thread/INFO]: [DeluxeHub] 
+[19:35:59] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 282ms
+[19:35:59] [Server thread/INFO]: [spark] Enabling spark v1.10.59
+[19:35:59] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
+[19:35:59] [Server thread/INFO]: [spark] Starting background profiler...
+[19:35:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[19:35:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[19:35:59] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[19:35:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:36:01] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:36:01] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.8.5
+[19:36:01] [Server thread/INFO]: [Vulcan] Server Version: 1.8.8 detected!
+[19:36:01] [Server thread/INFO]: [Vulcan] BStats enabled!
+[19:36:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[19:36:02] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/runner/work/Actions-Server/Actions-Server/plugins/WorldGuard/config.yml
+[19:36:02] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/runner/work/Actions-Server/Actions-Server/plugins/WorldGuard/worlds/world/config.yml
+[19:36:02] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/runner/work/Actions-Server/Actions-Server/plugins/WorldGuard/worlds/world/blacklist.txt
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:36:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:36:02] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/runner/work/Actions-Server/Actions-Server/plugins/WorldGuard/worlds/world_the_end/config.yml
+[19:36:02] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/runner/work/Actions-Server/Actions-Server/plugins/WorldGuard/worlds/world_the_end/blacklist.txt
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[19:36:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[19:36:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[19:36:02] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:36:02] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[19:36:02] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[19:36:02] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[19:36:02] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3036)
+[19:36:02] [Server thread/INFO]: [Citizens] Loading external libraries
+[19:36:02] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[19:36:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
+[19:36:04] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:36:05] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:36:05] [Server thread/INFO]: No kits found to migrate.
+[19:36:05] [Server thread/INFO]: Loaded 853 items from items.csv.
+[19:36:05] [Server thread/INFO]: Using locale en
+[19:36:05] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:36:05] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:36:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:36:05] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[19:36:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:36:06] [Server thread/INFO]: Done (8.782s)! For help, type "help" or "?"
+[19:36:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[19:36:06] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[19:36:06] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 1.8.0_422).
+[19:36:06] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m

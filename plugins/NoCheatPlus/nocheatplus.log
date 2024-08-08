@@ -38,3 +38,13 @@
 §7AllViolations~NCP~ 1.0§f, §7ViolationFrequency~NCP~ 1.0
 §c§l»Related Plugins«§7
 §7ViaVersion v4.10.2
+24-08-08 19:35:52 [INFO] Logger started.
+24-08-08 19:35:52 [INFO] Logging system initialized.
+24-08-08 19:35:52 [INFO] Detected Minecraft version: 1.8.8
+24-08-08 19:35:58 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+24-08-08 19:35:58 [INFO] Applied block patches for multi client protocol support: water_lily, soil, vine, shulker_box
+24-08-08 19:35:58 [INFO] Update block-info: Block shape patch for multi client protocol support.
+24-08-08 19:35:58 [WARNING] Bad block id (compatibility.blocks.overrideflags): moving_piston
+24-08-08 19:35:58 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+24-08-08 19:35:58 [INFO] Packet level access: ProtocolLib is not available.
+24-08-08 19:35:58 [INFO] Version 3.17.1-SNAPSHOT-Updated-b192 is enabled.
