@@ -4,3 +4,4 @@
 [02:59:22] [main/INFO]: Epoll is working, utilising it!
 [02:59:22] [main/WARN]: Forced host server pvp is not defined
 [02:59:22] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[03:05:38] [Netty Worker IO Thread #3/INFO]: [ShortyDev] disconnected with: Login timeout exceeded, you have been kicked from the server, please try again!
