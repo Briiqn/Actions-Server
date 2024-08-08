@@ -4,3 +4,4 @@
 [03:16:27] [main/INFO]: Epoll is working, utilising it!
 [03:16:27] [main/WARN]: Forced host server pvp is not defined
 [03:16:27] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[03:21:30] [Netty Worker IO Thread #6/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
