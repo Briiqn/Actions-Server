@@ -644,3 +644,10 @@ By running this plugin, you agree to be bound by our TOS
 [18:17:38] [Craft Scheduler Thread - 29/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
 [18:17:38] [Craft Scheduler Thread - 29/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
 [18:17:38] [Craft Scheduler Thread - 29/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[18:17:48] [Thread-19/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[18:17:48] [Server thread/INFO]: Briiqn[/127.30.38.147:58602] logged in with entity id 1324 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[18:18:10] [Thread-20/INFO]: UUID of player xNotJames is be6d2a29-3a11-40c4-a4fb-7b970d6aa48f
+[18:18:10] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/01daf9cb-e608-36e3-9c19-8196b5a284d5.yml
+[18:18:10] [Server thread/INFO]: [Essentials] Found new UUID for xNotJames. Replacing 01daf9cb-e608-36e3-9c19-8196b5a284d5 with be6d2a29-3a11-40c4-a4fb-7b970d6aa48f
+[18:18:10] [Server thread/INFO]: xNotJames[/127.254.212.77:37986] logged in with entity id 1343 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[18:18:10] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/be6d2a29-3a11-40c4-a4fb-7b970d6aa48f.yml
