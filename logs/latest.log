@@ -221,3 +221,34 @@
 [22:10:11] [Server thread/INFO]: 1 placeholder hook(s) registered!
 [22:10:12] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
 [22:10:12] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
+[22:11:33] [User Authenticator #1/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[22:11:33] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:57686] logged in with entity id 23 at ([world]-1117.3973745273515, 68.0, -267.9693450700055)
+[22:11:42] [User Authenticator #1/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[22:11:42] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:36854] logged in with entity id 24 at ([world]-1123.650239838513, 67.5, -268.43099922739617)
+[22:11:45] [Server thread/INFO]: xNotJames issued server command: /lp applyedits LCmnvdUCGe
+[22:11:45] [Async Chat Thread - #0/INFO]: [Manager] Briiqn: a
+[22:11:46] [Async Chat Thread - #0/INFO]: [Manager] Briiqn: hi
+[22:11:47] [Async Chat Thread - #0/INFO]: [Manager] Briiqn: Yes
+[22:11:49] [Server thread/INFO]: xNotJames issued server command: /lp applyedits LCmnvdUCGe --force
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add deluxehub.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add worldguard.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add bukkit.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add spark.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add fawe.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add citizens.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add vulcan.alerts true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add worldedit.* true
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove * true
+[22:11:50] [Async Chat Thread - #0/INFO]: [Octo] xNotJames: a
+[22:11:51] [Server thread/INFO]: Briiqn issued server command: /pl
