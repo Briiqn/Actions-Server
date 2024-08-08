@@ -700,3 +700,13 @@ By running this plugin, you agree to be bound by our TOS
 [00:16:46] [Thread-16/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
 [00:16:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@190d8ce[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@45fab6c7]},legacy=false] (/127.30.38.147:57305): §cgay.
 [00:16:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@190d8ce[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@45fab6c7]},legacy=false] (/127.30.38.147:57305) lost connection: §cgay.
+[00:18:32] [Server thread/INFO]: /127.30.38.147:33741 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:18:32] [Server thread/INFO]: /127.30.38.147:44117 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:18:32] [Server thread/INFO]: /127.30.38.147:50807 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:18:35] [Thread-17/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[00:18:35] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5c7b8ea6[id=b2dacc6e-4a1b-3315-aea8-dae16ae0a448,name=ShortyDev,properties={},legacy=false] (/127.0.0.1:59637): §cgay.
+[00:18:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@5c7b8ea6[id=b2dacc6e-4a1b-3315-aea8-dae16ae0a448,name=ShortyDev,properties={},legacy=false] (/127.0.0.1:59637) lost connection: §cgay.
+[00:18:37] [Server thread/INFO]: /127.30.38.147:34069 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:18:40] [Thread-18/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:18:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@617a1516[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@31589f77]},legacy=false] (/127.30.38.147:47703): §cgay.
+[00:18:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@617a1516[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@31589f77]},legacy=false] (/127.30.38.147:47703) lost connection: §cgay.
