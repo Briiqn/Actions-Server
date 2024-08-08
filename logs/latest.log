@@ -18,3 +18,8 @@
 [13:53:09] [Netty Worker IO Thread #6/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [14:44:53] [Netty Worker IO Thread #2/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [14:44:57] [Netty Worker IO Thread #3/INFO]: [ShortyDev] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[14:57:15] [Netty Worker IO Thread #6/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[14:57:15] [Netty Worker IO Thread #0/INFO]: [FlameCord] [/127.134.178.31:39007] is firewalled from the server. (QuietException)
+[14:57:15] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
+[14:57:15] [Netty Worker IO Thread #2/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[14:57:16] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
