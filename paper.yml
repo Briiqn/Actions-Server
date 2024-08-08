@@ -80,13 +80,13 @@ world-settings:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    player-blocking-damage-multiplier: 0.5
     despawn-ranges:
       soft: 32
       hard: 128
     player-exhaustion:
       block-break: 0.02500000037252903
       swimming: 0.014999999664723873
+    player-blocking-damage-multiplier: 0.5
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
