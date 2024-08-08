@@ -1064,3 +1064,4 @@ Caused by: java.lang.NullPointerException
 [04:38:40] [Server thread/INFO]: Briiqn issued server command: /autore help
 [04:38:45] [Server thread/INFO]: Briiqn issued server command: /autore pause
 [04:38:45] [Server thread/INFO]: AutoRestart timer has been paused
+[04:39:15] [Server thread/INFO]: Briiqn lost connection: Disconnected
