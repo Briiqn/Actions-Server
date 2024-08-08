@@ -1152,3 +1152,45 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [19:40:26] [Server thread/INFO]: xNotJames issued server command: /deop 1337
 [19:40:30] [Server thread/INFO]: xNotJames issued server command: /deop 1ynR4
 [19:40:35] [Server thread/INFO]: xNotJames issued server command: /deop 222
+[19:41:02] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[19:41:02] [Server thread/INFO]: - Briiqn Disconnected
+[19:41:28] [Server thread/INFO]: xNotJames issued server command: /deop xNotJames
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 1/25, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:28] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 2/25, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:28] [Craft Scheduler Thread - 12/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 12/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 12/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 12/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 3/25, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:28] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 4/25, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:28] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cMotion (A)  §7VL: 1/15, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:28] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 2/15, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 2/12, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 2/15, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 2/30, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 4/15, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 3/20, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 6/15, Ping: 437ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 3/12, Ping: 412ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 4/30, Ping: 412ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 8/15, Ping: 412ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 4/15, Ping: 412ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 10/15, Ping: 412ms, TPS: 19.98, Version: v1.8
+[19:41:29] [Craft Scheduler Thread - 12/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=2051345462
+[19:41:29] [pool-17-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cImprobable (B)  §7VL: 1/1, Ping: 412ms, TPS: 19.98, Version: v1.8
+[19:41:29] [pool-17-thread-1/INFO]:  ✗ Vulcan has removed xNotJames due to cheating violations. 
+[19:41:29] [Server thread/INFO]: CONSOLE issued server command: /kick xNotJames §c[AC] Unfair Advantage
+[19:41:29] [Server thread/INFO]: xNotJames lost connection: §c[AC] Unfair Advantage
+[19:41:29] [Server thread/INFO]: - xNotJames Disconnected
+[19:41:29] [Server thread/INFO]: §6Player§c Console §6kicked§c xNotJames§6 for§c §c[AC] Unfair Advantage§6.
+[19:41:29] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=2051345462
+[19:41:29] [Server thread/WARN]: handleDisconnection() called twice

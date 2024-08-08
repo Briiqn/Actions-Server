@@ -1,0 +1,56 @@
+--------------[ xNotJames was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -1118.6834280379392
+ - Y: 68.0
+ - Z: -273.97807286995715
+
+Information:
+ - UUID: be317d90-8585-31d4-b983-cc75820d94de
+ - Keep Alive Ping: 412
+ - Transaction Ping: 342
+ - Server TPS: 19.98
+ - Sensitivity: 74
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 127.2 seconds ago
+
+Total Violations: 34
+ - Combat Violations: 0
+ - Movement Violations: 33
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 1
+ - Since Riptide Ticks: 200
+ - Flying Delay: 1
+ - Since Velocity Ticks: 2544
+ - Since Firework Ticks: 667
+ - Ticks Existed: 2444
+ - Since Vehicle Ticks: 567
+ - Since Liquid Ticks: 567
+ - Queued Transactions: 2
+ - Joined: 127 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 1] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 4] (Invalid jump motion.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type B) [VL: 3] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 4] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 1] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 11] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [SPRUCE_WOOD_STAIRS, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WOOD, WOOD, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SPRUCE_WOOD_STAIRS, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(997575t-x0)]
+---------------------------------------------------------------------------
+
+
