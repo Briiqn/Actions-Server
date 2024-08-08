@@ -161,3 +161,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [17:52:18] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [17:52:18] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [17:52:18] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[18:09:31] [Thread-7/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[18:09:31] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:35014] logged in with entity id 25 at ([world]1782.617511291464, 4.0, -118.59606440757558)
