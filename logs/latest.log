@@ -243,3 +243,8 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:06:50] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> a
 [21:10:42] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [21:10:42] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
+[21:13:15] [Thread-15/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[21:13:15] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:38094] logged in with entity id 32 at ([world]-1129.649104477914, 68.0, -270.3470138587564)
+[21:13:17] [Server thread/WARN]: Briiqn moved wrongly!
+[21:13:18] [Server thread/WARN]: Briiqn moved wrongly!
+[21:13:18] [Server thread/WARN]: Briiqn moved wrongly!
