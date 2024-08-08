@@ -822,3 +822,8 @@ By running this plugin, you agree to be bound by our TOS
 [03:00:08] [Craft Scheduler Thread - 5/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
 [03:00:24] [Thread-17/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
 [03:00:24] [Server thread/INFO]: Briiqn[/127.30.38.147:40998] logged in with entity id 196 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[03:00:29] [Craft Scheduler Thread - 4/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[03:00:29] [Craft Scheduler Thread - 4/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[03:00:29] [Craft Scheduler Thread - 4/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[03:00:33] [Server thread/INFO]: Briiqn issued server command: /mem
+[03:00:33] [Server thread/INFO]: §cBriiqn §4was denied access to command.
