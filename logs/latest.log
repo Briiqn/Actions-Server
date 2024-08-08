@@ -76,3 +76,6 @@ The Ban Hammer has spoken!
 [20:46:12] [Netty Worker IO Thread #6/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
 [20:48:27] [Netty Worker IO Thread #3/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
 [20:48:27] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
+[20:48:48] [Netty Worker IO Thread #2/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:49:00] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:49:03] [Netty Worker IO Thread #2/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
