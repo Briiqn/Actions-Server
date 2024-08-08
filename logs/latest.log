@@ -1085,3 +1085,6 @@ Caused by: java.lang.NullPointerException
 [06:31:10] [Server thread/INFO]: [AutoRestart] Server Will Restart In 10 Minutes!
 [06:36:10] [Server thread/INFO]: [AutoRestart] Server Will Restart In 5 Minutes!
 [06:40:10] [Server thread/INFO]: [AutoRestart] Server Will Restart In 1 Minutes!
+[06:41:05] [Server thread/INFO]: [AutoRestart] Server is restarting in 5 Seconds!
+[06:41:06] [Server thread/INFO]: [AutoRestart] Server is restarting in 4 Seconds!
+[06:41:07] [Server thread/INFO]: [AutoRestart] Server is restarting in 3 Seconds!
