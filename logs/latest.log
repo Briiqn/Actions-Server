@@ -829,3 +829,5 @@ By running this plugin, you agree to be bound by our TOS
 [03:00:33] [Server thread/INFO]: §cBriiqn §4was denied access to command.
 [03:02:33] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [03:04:07] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[03:05:08] [Thread-19/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[03:05:08] [Server thread/INFO]: ShortyDev[/127.16.144.220:33980] logged in with entity id 425 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
