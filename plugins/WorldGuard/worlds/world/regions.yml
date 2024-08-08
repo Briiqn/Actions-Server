@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {build: deny, pvp: deny}
+        flags: {build: deny, block-break: deny, interact: deny, pvp: deny, block-place: deny}
         owners: {}
         type: global
         priority: 0

@@ -26,18 +26,23 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE0NTg1MTgzNCwKICAicHJvZmlsZUlkIiA6ICJkNjYyYTJkYzMwNWM0YmJjOWYyZjExYjg1ZmY1NTU5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3l3YXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZTQzYzRhNjUyNGU5YWU4MjdjMGI2MGQzOTI3ZDU2YTVjYzMxNjE3M2RlM2IwOGEwYmI0ODYyMTVmNGMwODYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZGZlYTE2ZGM4M2M5N2RmMDFhMTJmYWJiZDEyMTYzNTljMGNkMGVhNDJmOTk5OWI2ZTk3YzU4NDk2M2U5ODAiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: -359.79123
+        bodyYaw: 1.4564667
         world: world
         x: '-1118.4538'
         y: '68.0'
         z: '-281.2256'
-        yaw: '-359.7912'
-        pitch: '5.8811'
+        yaw: '1.4565'
+        pitch: '11.3709'
       type: PLAYER
       owner:
         uuid: be317d90-8585-31d4-b983-cc75820d94de
       scoreboardtrait: {}
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: server skywars
@@ -48,13 +53,27 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       spawned: true
-    traitnames: mounttrait,inventory,skintrait,location,type,owner,scoreboardtrait,commandtrait,spawned
+      rotationtrait:
+        globalParameters: {}
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,inventory,skintrait,rotationtrait,location,type,owner,scoreboardtrait,lookclose,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

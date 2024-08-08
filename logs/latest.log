@@ -536,3 +536,15 @@
 [19:38:14] [Server thread/INFO]: Briiqn issued server command: //wea
 [19:38:15] [Server thread/INFO]: Briiqn issued server command: //replace air water
 [19:38:17] [Server thread/INFO]: xNotJames issued server command: /citizens save
+[19:38:18] [Server thread/INFO]: xNotJames issued server command: /citizens save
+[19:38:19] [Server thread/INFO]: xNotJames issued server command: /citizens save
+[19:38:19] [Server thread/INFO]: xNotJames issued server command: /citizens save
+[19:38:22] [Server thread/INFO]: xNotJames issued server command: /citizens reload
+[19:38:22] [Server thread/INFO]: xNotJames issued server command: /citizens reload
+[19:38:27] [Async Chat Thread - #0/INFO]: <xNotJames> there
+[19:38:32] [Timer-2/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[19:38:32] [Server thread/INFO]: xNotJames issued server command: /npc look
+[19:38:34] [Async Chat Thread - #0/INFO]: <Briiqn> lemme boot sw server
+[19:38:34] [Server thread/INFO]: xNotJames issued server command: /citizens save
+[19:38:36] [Server thread/INFO]: xNotJames issued server command: /citizens save
+[19:38:37] [Async Chat Thread - #0/INFO]: <Briiqn> just to see if it works
