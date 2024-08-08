@@ -210,12 +210,6 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "2823637d-4b6d-38a4-affd-1f263a9a3ff6",
-    "name": "Xxl1ft1ng_4cr0ny",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "2a0b92d0-eb6e-337d-887b-f44eea8d02dc",
     "name": "l1ttl3_4bl4z3xX",
     "level": 4,
@@ -518,6 +512,12 @@
   {
     "uuid": "f5b2743e-6b11-3d14-a6d8-0b520fd29d60",
     "name": "Dev7388",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "be317d90-8585-31d4-b983-cc75820d94de",
+    "name": "xNotJames",
     "level": 4,
     "bypassesPlayerLimit": false
   },
