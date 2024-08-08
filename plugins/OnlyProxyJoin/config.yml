@@ -1,0 +1,12 @@
+# This plugin was developed by TutorialMakerHD.
+# Dieses Plugin wurde von TutorialMakerHD programmiert.
+
+settings:
+  
+  # Here you have to specify the IP of your proxy without port. 
+  # Hier musst du die IP deiner Proxy ohne Port angeben. 
+  proxyIP: 127.0.0.1
+  
+  # Here you can change the kick message, if a player doesn't join through the proxy.
+  # Hier kannst du die Nachricht bearbeiten, die kommen soll, wenn einer Spieler nicht mittels der Proxy joint.
+  playerKickMessage: '&cYou have to join through the proxy.'
