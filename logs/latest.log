@@ -248,3 +248,9 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:13:17] [Server thread/WARN]: Briiqn moved wrongly!
 [21:13:18] [Server thread/WARN]: Briiqn moved wrongly!
 [21:13:18] [Server thread/WARN]: Briiqn moved wrongly!
+[21:13:34] [Thread-16/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[21:13:34] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:59116] logged in with entity id 33 at ([world]-1119.641384618791, 68.0, -271.20500076308883)
+[21:13:47] [Server thread/INFO]: xNotJames issued server command: /
+[21:13:50] [Async Chat Thread - #1/INFO]: <xNotJames> a
+[21:13:52] [Async Chat Thread - #1/INFO]: <xNotJames> :(
+[21:14:00] [Server thread/INFO]: xNotJames issued server command: /pl
