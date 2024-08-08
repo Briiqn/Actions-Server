@@ -206,3 +206,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [18:18:01] [Server thread/INFO]: xNotJames issued server command: /tps
 [18:18:10] [Server thread/INFO]: xNotJames lost connection: Disconnected
 [18:18:10] [Server thread/INFO]: xNotJames left the game.
+[18:23:33] [Thread-13/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[18:23:33] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:58950] logged in with entity id 144 at ([world]1454.3005694011829, 4.0, 38.93749827483772)
+[18:23:42] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[18:23:42] [Server thread/INFO]: xNotJames left the game.
