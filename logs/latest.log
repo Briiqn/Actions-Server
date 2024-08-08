@@ -181,3 +181,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:33:33] [Server thread/INFO]: Briiqn issued server command: /tp RayAar
 [03:33:54] [Async Chat Thread - #0/INFO]: <RayAar> wow the servers not having a fun time
 [03:34:00] [Async Chat Thread - #0/INFO]: <Briiqn> yes
+[03:34:06] [Async Chat Thread - #0/INFO]: <Briiqn> well you arent
+[03:34:08] [Async Chat Thread - #0/INFO]: <Briiqn> ping
+[03:34:12] [Server thread/INFO]: RayAar lost connection: Disconnected
+[03:34:12] [Server thread/INFO]: RayAar left the game.

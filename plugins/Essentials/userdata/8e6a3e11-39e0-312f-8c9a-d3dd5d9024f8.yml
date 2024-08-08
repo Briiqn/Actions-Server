@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1723088052112
   login: 1723087947165
 money: '0'
 last-account-name: RayAar
+logoutlocation:
+  world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
+  world-name: world
+  x: 1646.6727004818922
+  y: 4.0
+  z: 56.058291791306175
+  yaw: -33.449920654296875
+  pitch: 10.349990844726562
