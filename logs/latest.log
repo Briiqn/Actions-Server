@@ -233,3 +233,11 @@
 [20:26:08] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
 [20:26:08] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [20:26:08] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[20:26:47] [Thread-13/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:26:47] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:33272] logged in with entity id 37 at ([world]-1118.8293143695091, 106.86572379623937, -271.4555606356157)
+[20:27:01] [Thread-14/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[20:27:01] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:53008] logged in with entity id 38 at ([world]-1118.1144628870156, 68.0, -272.6232044921304)
+[20:27:03] [Server thread/INFO]: Briiqn issued server command: /flyspeeed 1
+[20:27:06] [Server thread/INFO]: Briiqn issued server command: /flyspeed 1
+[20:27:10] [Server thread/INFO]: Briiqn issued server command: /i barrier
+[20:27:12] [Server thread/INFO]: Briiqn issued server command: /gmc
