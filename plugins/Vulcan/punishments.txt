@@ -201,3 +201,51 @@ Potion Effects: [SPEED:(2147483318t-x0)]
 ---------------------------------------------------------------------------
 
 
+--------------[ Briiqn was punished for Motion (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: -3.0393886851384826
+ - Y: 66.42000005
+ - Z: -19.69999998807907
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 145
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 22.25 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 0
+ - Movement Violations: 6
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3
+ - Since Riptide Ticks: 200
+ - Flying Delay: 1
+ - Since Velocity Ticks: 446
+ - Since Firework Ticks: 480
+ - Ticks Existed: 346
+ - Since Vehicle Ticks: 380
+ - Since Liquid Ticks: 380
+ - Queued Transactions: 0
+ - Joined: 17 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Jump (Type A) [VL: 1] (Invalid jump motion.)
+ - Motion (Type C) [VL: 5] (Invalid jump motion.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, AIR, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(2147483310t-x0)]
+---------------------------------------------------------------------------
+
+
