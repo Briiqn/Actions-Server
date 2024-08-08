@@ -55,6 +55,7 @@ jobs:
             git add -A  # Stage all changes
             git reset -- playit.toml  # Unstage playit.toml
             git reset -- playit.log
+            git reset -- logs/
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:bungeecord
           }
