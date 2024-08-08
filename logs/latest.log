@@ -708,3 +708,9 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 22 more
+[03:44:01] [Server thread/INFO]: Briiqn issued server command: /pex user
+[03:44:05] [Server thread/INFO]: Briiqn issued server command: /pex user group
+[03:44:08] [Server thread/INFO]: Briiqn issued server command: /pex user group add
+[03:44:15] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar
+[03:44:17] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar
+[03:44:18] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar
