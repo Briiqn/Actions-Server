@@ -32,3 +32,4 @@ The Ban Hammer has spoken!
 [19:35:32] [Netty Worker IO Thread #5/INFO]: [xNotJames] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [19:36:08] [Netty Worker IO Thread #6/WARN]: No client connected for pending server!
 [19:36:14] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.254.212.77:42711] has to reconnect to join
+[19:37:35] [Netty Worker IO Thread #2/INFO]: [Briiqn] disconnected with: Flying is not enabled on this server
