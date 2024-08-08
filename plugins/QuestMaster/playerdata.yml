@@ -311,7 +311,7 @@ aeeasd41:
   time_status: 1723048876855
   time_weekly: 1723048876855
 RayAar:
-  solo_kills: 1
+  solo_kills: 2
   solo_wins: 0
   team_kills: 0
   team_wins: 0
@@ -319,7 +319,7 @@ RayAar:
   solo_wins_status: 'false'
   team_status: 'false'
   team_wins_status: 'false'
-  total_kills: 1
+  total_kills: 2
   total_kills_status: 'false'
   time_status: 1723088051996
   time_weekly: 1723088051996
