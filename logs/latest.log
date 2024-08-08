@@ -301,3 +301,7 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:02:39] [Server thread/WARN]: handleDisconnection() called twice
 [21:02:45] [Thread-15/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
 [21:02:45] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:33976] logged in with entity id 36 at ([world]-1120.8820318193323, 68.0, -273.3067287941045)
+[21:02:58] [Async Chat Thread - #0/INFO]: <xNotJames> epci
+[21:03:03] [Async Chat Thread - #0/INFO]: <xNotJames> idk how to fix the chat
+[21:03:13] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> yes
+[21:03:25] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> where is config for chat
