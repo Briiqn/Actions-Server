@@ -24,10 +24,6 @@ world-settings:
   default:
     verbose: true
     keep-spawn-loaded: true
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
     generator-settings:
       canyon: true
       caves: true
@@ -39,54 +35,58 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
+    allow-block-location-tab-completion: true
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
-    allow-block-location-tab-completion: true
     tnt-explosion-volume: 4.0
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    load-chunks:
-      enderpearls: false
-      tnt-entities: false
-      falling-blocks: false
+    cache-chunk-maps: false
+    disable-teleportation-suffocation-check: false
+    optimize-explosions: false
+    portal-search-radius: 128
+    remove-invalid-mob-spawner-tile-entities: true
+    despawn-ranges:
+      soft: 32
+      hard: 128
     fast-drain:
       lava: false
       water: false
     lava-flow-speed:
       normal: 30
       nether: 10
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    mob-spawner-tick-rate: 1
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    nether-ceiling-void-damage: false
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    mob-spawner-tick-rate: 1
     falling-block-height-nerf: 0
-    player-blocking-damage-multiplier: 0.5
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    nether-ceiling-void-damage: false
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    cache-chunk-maps: false
-    disable-teleportation-suffocation-check: false
-    optimize-explosions: false
-    portal-search-radius: 128
-    remove-invalid-mob-spawner-tile-entities: true
+    load-chunks:
+      enderpearls: false
+      tnt-entities: false
+      falling-blocks: false
+    player-blocking-damage-multiplier: 0.5
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
