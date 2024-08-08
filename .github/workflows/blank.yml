@@ -44,7 +44,7 @@ jobs:
           echo "url: tcp://localhost:25565" >> tunnel-config.yml
           echo "tunnel: ${CF_TUNNEL_UUID}" >> tunnel-config.yml
           echo "credentials-file: credentials.json" >> tunnel-config.yml
-          cloudflared tunnel --config tunnel-config.yml run ${CF_TUNNEL_UUID} > /dev/null 2>&1 &
+          cloudflared tunnel --config tunnel-config.yml run ${CF_TUNNEL_UUID} > /dev/null &
           PLAYIT_PID=$!
 
           chmod +x playit-linux-amd64
