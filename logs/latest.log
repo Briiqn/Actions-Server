@@ -252,3 +252,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:51:23] [Server thread/INFO]: Briiqn left the game.
 [04:03:36] [Thread-13/INFO]: UUID of player PyrB is 08379b89-cf0b-3606-a3c9-81148c097d13
 [04:03:36] [Server thread/INFO]: PyrB[/0:0:0:0:0:0:0:1:33378] logged in with entity id 232 at ([world]1418.853605418568, 4.0, 30.78818999366139)
+[04:03:42] [Server thread/INFO]: PyrB lost connection: Disconnected
+[04:03:42] [Server thread/INFO]: PyrB left the game.

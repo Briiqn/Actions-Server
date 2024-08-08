@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723088981863
+  logout: 1723089822423
   login: 1723089816626
 money: '0'
 last-account-name: PyrB
@@ -26,5 +26,5 @@ logoutlocation:
   x: 1418.853605418568
   y: 4.0
   z: 30.78818999366139
-  yaw: -233.2500762939453
-  pitch: 18.299991607666016
+  yaw: -236.55006408691406
+  pitch: 16.949995040893555
