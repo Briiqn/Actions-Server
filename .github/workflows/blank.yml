@@ -28,8 +28,23 @@ jobs:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
+          CF_TUNNEL_CERT: ${{secrets.CF_CERT}}
+          CF_TUNNEL_CONF: ${{secrets.CF_TUNNEL_CONF}}
+          CF_TUNNEL_UUID: ${{secrets.CF_TUNNEL_UUID_1}}
+          CF_TUNNEL_UUID_CONTENT: ${{secrets.CF_TUNNEL_UUID_CONTENT}}
+
         run: |
+          curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+          echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
+          sudo apt-get update && sudo apt-get install cloudflared
           cd $GITHUB_WORKSPACE
+          mkdir ~/.cloudflared
+          echo "${CF_TUNNEL_CERT}" > ~/.cloudflared/cert.pem
+          touch tunnel-config.yml
+          echo "${CF_TUNNEL_CONF}" > tunnel-config.yml
+          touch ~/.cloudflared/${CF_TUNNEL_UUID}.json && echo "${CF_TUNNEL_UUID_CONTENT}" > ~/.cloudflared/${CF_TUNNEL_UUID}.json
+          echo "url: tcp://localhost:25565\ntunnel: ${CF_TUNNEL_UUID}\ncredentials-file: ~/.cloudflared/${CF_TUNNEL_UUID}.json" > tunnel-config.yml
+          cloudflared tunnel --config tunnel-config.yml run ${CF_TUNNEL_UUID} &
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
           echo "Starting Spigot..."
@@ -47,6 +62,8 @@ jobs:
             git add -A  # Stage all changes
             git reset -- playit.toml  # Unstage playit.toml
             git reset -- playit.log
+            git reset -- tunnel-config.yml
+            git reset -- ~/.cloudflared/
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
           }
