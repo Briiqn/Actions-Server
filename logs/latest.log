@@ -238,3 +238,7 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:20:59] [Thread-13/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [21:20:59] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:57116] logged in with entity id 31 at ([world]-1118.473780586168, 67.5, -263.4277400746877)
 [21:21:00] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 32.353068ms. Summary: Getting prefix for Briiqn
+[21:21:07] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[21:21:07] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
+[21:21:29] [Thread-14/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[21:21:29] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:58806] logged in with entity id 32 at ([world]-1123.650239838513, 67.5, -268.43099922739617)
