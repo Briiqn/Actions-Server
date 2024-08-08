@@ -173,3 +173,18 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [18:16:42] [Server thread/INFO]: Briiqn issued server command: /pl
 [18:16:46] [Thread-9/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
 [18:16:46] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:52776] logged in with entity id 85 at ([world]1427.4308039183645, 4.0, 29.698491092884428)
+[18:16:54] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[18:16:54] [Server thread/INFO]: ShortyDev left the game.
+[18:16:56] [Server thread/INFO]: Briiqn issued server command: /mem
+[18:16:57] [Thread-10/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[18:16:57] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:42640] logged in with entity id 114 at ([world]1428.0407664022025, 4.0, 29.310805250213182)
+[18:17:03] [Thread-11/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[18:17:03] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:49208] logged in with entity id 119 at ([world]1446.5, 4.0, 51.5)
+[18:17:08] [Async Chat Thread - #0/INFO]: <Briiqn> hello
+[18:17:12] [Async Chat Thread - #0/INFO]: <xNotJames> n
+[18:17:13] [Async Chat Thread - #0/INFO]: <xNotJames> i
+[18:17:15] [Async Chat Thread - #0/INFO]: <Briiqn> do /server skywars
+[18:17:16] [Async Chat Thread - #0/INFO]: <ShortyDev> nig
+[18:17:18] [Async Chat Thread - #0/INFO]: <xNotJames> why am i opped
+[18:17:20] [Async Chat Thread - #0/INFO]: <ShortyDev> XD
+[18:17:22] [Async Chat Thread - #0/INFO]: <Briiqn> yes
