@@ -40,8 +40,8 @@ This repository contains the configuration for automatically deploying and manag
 
 ## Demos
 
-- Main: overview-manufacturer.gl.joinmc.link
-- Hypixel Skywars clone: 147.185.221.21:56392
+- BungeeCord: 147.185.221.21:57738
+- Normal : *Soon*
 
 ## Contributing
 
