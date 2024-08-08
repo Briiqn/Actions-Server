@@ -250,3 +250,6 @@
 [19:54:17] [Server thread/INFO]: Briiqn issued server command: //confirm
 [19:54:22] [Server thread/WARN]: Briiqn moved too quickly! 7.057038793771426,0.0,7.119215523966318 (7.057038793771426, 0.0, 7.119215523966318)
 [19:54:24] [Server thread/WARN]: Briiqn moved too quickly! 6.9387639211402075,0.02204006627081867,7.239367915713842 (6.9387639211402075, 0.02204006627081867, 7.239367915713842)
+[19:57:12] [Server thread/INFO]: Briiqn issued server command: /hub
+[19:57:15] [Server thread/INFO]: Briiqn issued server command: /hub
+[19:57:16] [Server thread/INFO]: Briiqn issued server command: /hub
