@@ -285,3 +285,19 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (E)  §7VL: 2/30, Ping: 384ms, TPS: 20, Version: v1.8
 [21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 384ms, TPS: 20, Version: v1.8
 [21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (D)  §7VL: 2/20, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:27] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> ghacker
+[21:02:33] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 6/15, Ping: 399ms, TPS: 20, Version: v1.8
+[21:02:33] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 3/20, Ping: 399ms, TPS: 20, Version: v1.8
+[21:02:38] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 4/30, Ping: 380ms, TPS: 20, Version: v1.8
+[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 6/30, Ping: 380ms, TPS: 20, Version: v1.8
+[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 8/30, Ping: 380ms, TPS: 20, Version: v1.8
+[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 10/30, Ping: 380ms, TPS: 20, Version: v1.8
+[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cImprobable (B)  §7VL: 1/1, Ping: 380ms, TPS: 20, Version: v1.8
+[21:02:39] [pool-18-thread-1/INFO]:  ✗ Vulcan has removed xNotJames due to cheating violations. 
+[21:02:39] [Server thread/INFO]: CONSOLE issued server command: /kick xNotJames §c[AC] Skill Issue Detected
+[21:02:39] [Server thread/INFO]: xNotJames lost connection: §c[AC] Skill Issue Detected
+[21:02:39] [Server thread/INFO]: [+] xNotJames disconnected to the lobby server.
+[21:02:39] [Server thread/INFO]: §6Player§c Console §6kicked§c xNotJames§6 for§c §c[AC] Skill Issue Detected§6.
+[21:02:39] [Server thread/WARN]: handleDisconnection() called twice
+[21:02:45] [Thread-15/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[21:02:45] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:33976] logged in with entity id 36 at ([world]-1120.8820318193323, 68.0, -273.3067287941045)
