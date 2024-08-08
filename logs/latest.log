@@ -1032,3 +1032,8 @@ Caused by: java.lang.NullPointerException
 [04:26:51] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:29:01] [Server thread/WARN]: Briiqn moved wrongly!
 [04:29:03] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:29:13] [Thread-25/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[04:29:13] [Server thread/INFO]: Briiqn[/127.30.38.147:37910] logged in with entity id 2766 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[04:29:17] [Craft Scheduler Thread - 49/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[04:29:17] [Craft Scheduler Thread - 49/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[04:29:17] [Craft Scheduler Thread - 49/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
