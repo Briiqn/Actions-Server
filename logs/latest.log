@@ -779,3 +779,7 @@ Caused by: java.lang.NullPointerException
 [03:49:50] [Server thread/INFO]: [AuthMe] PyrB registered 127.220.84.169
 [03:49:50] [Craft Scheduler Thread - 2/INFO]: [AuthMe] PyrB logged in 127.220.84.169
 [03:50:05] [Server thread/INFO]: PyrB issued server command: /pl
+[03:50:20] [Server thread/INFO]: RayAar issued server command: /give RayAar bow
+[03:50:24] [Server thread/INFO]: RayAar issued server command: /give RayAar arrow 64
+[03:50:28] [Server thread/INFO]: PyrB issued server command: /ping
+[03:50:28] [Server thread/INFO]: §cPyrB §4was denied access to command.
