@@ -999,3 +999,15 @@ Caused by: java.lang.NullPointerException
 [04:04:08] [Server thread/INFO]: RayAar issued server command: /summon fireball
 [04:04:08] [Server thread/WARN]: Skipping Entity with id fireball
 [04:04:08] [Server thread/INFO]: [RayAar: Unable to summon object]
+[04:04:11] [Server thread/INFO]: RayAar issued server command: /summon fireball
+[04:04:11] [Server thread/WARN]: Skipping Entity with id fireball
+[04:04:11] [Server thread/INFO]: [RayAar: Unable to summon object]
+[04:04:27] [Server thread/INFO]: RayAar issued server command: /summon blaze
+[04:04:27] [Server thread/WARN]: Skipping Entity with id blaze
+[04:04:27] [Server thread/INFO]: [RayAar: Unable to summon object]
+[04:04:31] [Server thread/INFO]: RayAar issued server command: /difficulty
+[04:04:34] [Server thread/INFO]: RayAar issued server command: /difficulty easy
+[04:04:34] [Server thread/INFO]: [RayAar: Set game difficulty to Easy]
+[04:04:37] [Server thread/INFO]: RayAar issued server command: /summon blaze
+[04:04:37] [Server thread/WARN]: Skipping Entity with id blaze
+[04:04:37] [Server thread/INFO]: [RayAar: Unable to summon object]
