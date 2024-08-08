@@ -956,3 +956,7 @@ Caused by: java.lang.NullPointerException
 	... 27 more
 [03:55:29] [Server thread/INFO]: RayAar issued server command: /gamemode survival
 [03:55:35] [Server thread/INFO]: RayAar issued server command: /heal
+[03:55:42] [Server thread/INFO]: Briiqn issued server command: /mem
+[03:55:55] [Server thread/INFO]: Briiqn issued server command: /spec
+[03:56:04] [Server thread/INFO]: RayAar issued server command: /ping
+[03:56:07] [Server thread/INFO]: RayAar issued server command: /ping
