@@ -387,3 +387,56 @@ Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PandaSpigot-126]
 	... 12 more
 [21:32:43] [Async Chat Thread - #0/INFO]: <[Octo]xNotJames> shit plugin
+[21:33:13] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.21.0-dev+107-7b02d22
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:564) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:546) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1135) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1050) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_422]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_422]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
+Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
+	at org.bukkit.event.player.AsyncPlayerChatEvent.setFormat(AsyncPlayerChatEvent.java:100) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at com.earth2me.essentials.chat.processing.AbstractChatHandler.handleChatFormat(AbstractChatHandler.java:121) ~[?:?]
+	at com.earth2me.essentials.chat.processing.ChatHandler$ChatLowest.onPlayerChat(ChatHandler.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_422]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_422]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_422]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	... 12 more
+[21:33:13] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> maybe its for newer version of mc
+[21:33:16] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.21.0-dev+107-7b02d22
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:564) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:546) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1135) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1050) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [patched_1.8.8.jar:git-PandaSpigot-126]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_422]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_422]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
+Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
+	at org.bukkit.event.player.AsyncPlayerChatEvent.setFormat(AsyncPlayerChatEvent.java:100) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	at com.earth2me.essentials.chat.processing.AbstractChatHandler.handleChatFormat(AbstractChatHandler.java:121) ~[?:?]
+	at com.earth2me.essentials.chat.processing.ChatHandler$ChatLowest.onPlayerChat(ChatHandler.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_422]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_422]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_422]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PandaSpigot-126]
+	... 12 more
+[21:33:16] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> lemme see
+[21:33:21] [Server thread/INFO]: Briiqn issued server command: /mem
