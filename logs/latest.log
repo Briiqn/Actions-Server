@@ -238,3 +238,10 @@
 [19:53:22] [Server thread/INFO]: Briiqn issued server command: /flysped 1
 [19:53:23] [Server thread/INFO]: Briiqn issued server command: /flyspeed 1
 [19:53:29] [Server thread/INFO]: Briiqn issued server command: //pos1
+[19:53:37] [Server thread/INFO]: Briiqn issued server command: /flyspeed 10
+[19:53:39] [Server thread/WARN]: Briiqn moved too quickly! -6.502688337354016,0.0,-7.692180150268175 (-6.502688337354016, 0.0, -7.692180150268175)
+[19:53:41] [Server thread/WARN]: Briiqn moved too quickly! -6.478883027216284,0.0,-7.664020297883852 (-6.478883027216284, 0.0, -7.664020297883852)
+[19:53:46] [Server thread/WARN]: Briiqn moved too quickly! -7.173007784930178,0.0,-7.002487725831315 (-7.173007784930178, 0.0, -7.002487725831315)
+[19:53:47] [Server thread/WARN]: Briiqn moved too quickly! -7.166637573410526,0.0,-7.0251293561560715 (-7.166637573410526, 0.0, -7.0251293561560715)
+[19:54:01] [Server thread/INFO]: Briiqn issued server command: //pos2
+[19:54:04] [Server thread/INFO]: Briiqn issued server command: //wea
