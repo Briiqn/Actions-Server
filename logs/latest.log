@@ -635,3 +635,190 @@ By running this plugin, you agree to be bound by our TOS
 [02:59:54] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu]   You have an old version of the GadgetsMenu plugin.
 [02:59:54] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu]     Please download the latest version on spigot.
 [02:59:54] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] ------------------------------------------------------
+[02:59:56] [Head Conversion Thread - 1/WARN]: Exception in thread "Head Conversion Thread - 1" 
+[02:59:56] [Head Conversion Thread - 1/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:56] [Head Conversion Thread - 1/WARN]: Caused by: java.lang.NullPointerException
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:56] [Head Conversion Thread - 1/WARN]: 	... 8 more
+[02:59:56] [Head Conversion Thread - 3/WARN]: Exception in thread "Head Conversion Thread - 3" 
+[02:59:56] [Head Conversion Thread - 3/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:56] [Head Conversion Thread - 3/WARN]: Caused by: java.lang.NullPointerException
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:56] [Head Conversion Thread - 3/WARN]: 	... 8 more
+[02:59:56] [Head Conversion Thread - 0/WARN]: Exception in thread "Head Conversion Thread - 0" 
+[02:59:56] [Head Conversion Thread - 0/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:56] [Head Conversion Thread - 0/WARN]: Caused by: java.lang.NullPointerException
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:56] [Head Conversion Thread - 0/WARN]: 	... 8 more
+[02:59:57] [Head Conversion Thread - 4/WARN]: Exception in thread "Head Conversion Thread - 4" 
+[02:59:57] [Head Conversion Thread - 4/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:57] [Head Conversion Thread - 4/WARN]: Caused by: java.lang.NullPointerException
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:57] [Head Conversion Thread - 4/WARN]: 	... 8 more
+[02:59:57] [Head Conversion Thread - 2/WARN]: Exception in thread "Head Conversion Thread - 2" 
+[02:59:57] [Head Conversion Thread - 2/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:57] [Head Conversion Thread - 2/WARN]: Caused by: java.lang.NullPointerException
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:57] [Head Conversion Thread - 2/WARN]: 	... 8 more
+[02:59:57] [Head Conversion Thread - 7/WARN]: Exception in thread "Head Conversion Thread - 7" 
+[02:59:57] [Head Conversion Thread - 7/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:57] [Head Conversion Thread - 7/WARN]: Caused by: java.lang.NullPointerException
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:57] [Head Conversion Thread - 7/WARN]: 	... 8 more
+[02:59:58] [Head Conversion Thread - 8/WARN]: Exception in thread "Head Conversion Thread - 8" 
+[02:59:58] [Head Conversion Thread - 8/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:58] [Head Conversion Thread - 8/WARN]: Caused by: java.lang.NullPointerException
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:58] [Head Conversion Thread - 8/WARN]: 	... 8 more
+[02:59:58] [Head Conversion Thread - 6/WARN]: Exception in thread "Head Conversion Thread - 6" 
+[02:59:58] [Head Conversion Thread - 6/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:58] [Head Conversion Thread - 6/WARN]: Caused by: java.lang.NullPointerException
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:58] [Head Conversion Thread - 6/WARN]: 	... 8 more
+[02:59:58] [Head Conversion Thread - 10/WARN]: Exception in thread "Head Conversion Thread - 10" 
+[02:59:58] [Head Conversion Thread - 10/WARN]: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache.get(LocalCache.java:3934)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$3.run(TileEntitySkull.java:172)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[02:59:58] [Head Conversion Thread - 10/WARN]: Caused by: java.lang.NullPointerException
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:53)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:55)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at net.minecraft.server.v1_8_R3.TileEntitySkull$1.load(TileEntitySkull.java:1)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
+[02:59:58] [Head Conversion Thread - 10/WARN]: 	... 8 more
+[03:00:04] [Thread-16/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[03:00:05] [Server thread/INFO]: ShortyDev[/127.16.144.220:42028] logged in with entity id 178 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[03:00:08] [Craft Scheduler Thread - 5/INFO]: [AuthMe] The user ShortyDev has 2 accounts:
+[03:00:08] [Craft Scheduler Thread - 5/INFO]: [AuthMe] §7§aShortyDev§7, aeeasd41.
+[03:00:08] [Craft Scheduler Thread - 5/INFO]: [AuthMe] ShortyDev logged in 127.16.144.220
+[03:00:24] [Thread-17/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[03:00:24] [Server thread/INFO]: Briiqn[/127.30.38.147:40998] logged in with entity id 196 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
