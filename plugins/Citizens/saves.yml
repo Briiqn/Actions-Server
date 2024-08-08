@@ -112,10 +112,10 @@ npc:
         persistSequence: false
         commands:
           '0':
-            command: server arenapvp
+            command: op xNotJames
             hand: RIGHT
-            player: true
-            op: false
+            player: false
+            op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
