@@ -169,3 +169,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:32:52] [Async Chat Thread - #0/INFO]: <Briiqn> !if you are, then lol
 [03:32:54] [Async Chat Thread - #0/INFO]: <Briiqn> !the thing is, I have lots of alts, and by lots.. I mean lots
 [03:32:57] [Async Chat Thread - #0/INFO]: <Briiqn> !the other thing I have, is my handy dandy VPN, to help me bypass IP bans
+[03:33:04] [Async Chat Thread - #0/INFO]: <RayAar> incredible
+[03:33:05] [Async Chat Thread - #0/INFO]: <Briiqn> hi
+[03:33:10] [Async Chat Thread - #0/INFO]: <Briiqn> ye
+[03:33:14] [Server thread/INFO]: Briiqn issued server command: /spark profiler stop
+[03:33:14] [Craft Scheduler Thread - 1/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[03:33:15] [Craft Scheduler Thread - 1/INFO]: [⚡] Profiler stopped & upload complete!
+[03:33:15] [Craft Scheduler Thread - 1/INFO]: https://spark.lucko.me/TlO35U4Pji
+[03:33:15] [Craft Scheduler Thread - 1/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
+[03:33:22] [Async Chat Thread - #0/INFO]: <Briiqn> https://spark.lucko.me/TlO35U4Pji
