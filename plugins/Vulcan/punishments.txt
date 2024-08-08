@@ -249,3 +249,55 @@ Potion Effects: [SPEED:(2147483310t-x0)]
 ---------------------------------------------------------------------------
 
 
+--------------[ Briiqn was punished for Strafe (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 19.379126877508014
+ - Y: 63.0
+ - Z: -13.196766074559807
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 179
+ - Server TPS: 19.98
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 31.45 seconds ago
+
+Total Violations: 28
+ - Combat Violations: 0
+ - Movement Violations: 28
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 0
+ - Since Riptide Ticks: 200
+ - Flying Delay: 0
+ - Since Velocity Ticks: 629
+ - Since Firework Ticks: 401
+ - Ticks Existed: 529
+ - Since Vehicle Ticks: 301
+ - Since Liquid Ticks: 301
+ - Queued Transactions: 0
+ - Joined: 25 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 1] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 2] (Invalid jump motion.)
+ - Speed (Type A) [VL: 4] (Invalid friction.)
+ - Speed (Type C) [VL: 4] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 2] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 15] (Moving incorrectly in the air.)
+
+Blocks Nearby: [GRASS, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS, GRASS, STAINED_CLAY, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(2147483144t-x0)]
+---------------------------------------------------------------------------
+
+
