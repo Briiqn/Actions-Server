@@ -237,3 +237,6 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [20:58:57] [Craft Scheduler Thread - 3/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
 [20:58:58] [Craft Scheduler Thread - 0/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse UUID[0;39m
 [20:58:59] [Craft Scheduler Thread - 0/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse Profile[0;39m
+[20:59:29] [Thread-13/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[20:59:29] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:38212] logged in with entity id 34 at ([world]-1118.627245411867, 69.0155550727022, -278.38613884512904)
+[20:59:29] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 27.588704ms. Summary: Getting prefix for xNotJames
