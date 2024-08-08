@@ -319,3 +319,6 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:03:58] [Async Chat Thread - #0/INFO]: <xNotJames> wa8
 [21:04:02] [Server thread/WARN]: Briiqn moved wrongly!
 [21:04:02] [Server thread/WARN]: Briiqn moved wrongly!
+[21:04:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 2/15, Ping: 343ms, TPS: 19.98, Version: v1.8
+[21:04:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 4/15, Ping: 343ms, TPS: 19.98, Version: v1.8
+[21:04:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 343ms, TPS: 19.98, Version: v1.8
