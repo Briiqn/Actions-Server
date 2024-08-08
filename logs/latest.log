@@ -21,3 +21,4 @@
 [18:23:28] [Netty Worker IO Thread #3/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
 [18:25:09] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.254.212.77:38943] was cancelled because of too many packets (Total: 25.04vls Size: 7.84vls Rate: 17.199vls)
 [18:25:18] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.254.212.77:38943] was cancelled because of too many packets (Total: 25.028vls Size: 7.328vls Rate: 17.699vls)
+[18:36:23] [Netty Worker IO Thread #2/INFO]: [xNotJames] disconnected with: Flying is not enabled on this server
