@@ -219,3 +219,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [18:36:23] [Server thread/WARN]: handleDisconnection() called twice
 [18:36:33] [Thread-15/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
 [18:36:33] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:38256] logged in with entity id 175 at ([world]1431.7893609580642, 30.684799995422367, 20.388985522289218)
+[18:37:16] [Server thread/INFO]: xNotJames issued server command: /heal
+[18:37:24] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ build deny
