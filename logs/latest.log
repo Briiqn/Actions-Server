@@ -1,63 +1,6 @@
-[03:26:48] [main/INFO]: FlameCord is using Libdeflate (linux_x86_64) compression
-[03:26:48] [main/INFO]: Enabled FlameCord version 1.3.9
-[03:26:48] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[03:26:48] [main/INFO]: Epoll is working, utilising it!
-[03:26:48] [main/WARN]: Forced host server pvp is not defined
-[03:26:48] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
-[03:27:58] [Netty Worker IO Thread #0/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:28:05] [Netty Worker IO Thread #1/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:28:24] [Netty Worker IO Thread #2/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:28:32] [Netty Worker IO Thread #3/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:28:42] [Netty Worker IO Thread #5/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:28:48] [Netty Worker IO Thread #6/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:28:58] [Netty Worker IO Thread #7/ERROR]: Error authenticating RayAar with minecraft.net
-io.netty.handler.timeout.ReadTimeoutException: null
-[03:29:14] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:29:16] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:29:18] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.39.31.13:39437] has to reconnect to join
-[03:29:26] [Netty Worker IO Thread #3/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:29:29] [Netty Worker IO Thread #4/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:29:34] [Netty Worker IO Thread #5/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:29:38] [Netty Worker IO Thread #6/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:29:42] [Netty Worker IO Thread #7/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:20] [Netty Worker IO Thread #0/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:26] [Netty Worker IO Thread #1/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:31] [Netty Worker IO Thread #2/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:35] [Netty Worker IO Thread #3/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:39] [Netty Worker IO Thread #4/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:43] [Netty Worker IO Thread #5/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:47] [Netty Worker IO Thread #6/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:30:51] [Netty Worker IO Thread #7/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:31:07] [Netty Worker IO Thread #1/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:31:12] [Netty Worker IO Thread #2/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:31:22] [Netty Worker IO Thread #3/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:31:55] [Netty Worker IO Thread #4/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
-[03:38:02] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
-[03:38:02] [Netty Worker IO Thread #7/INFO]: [RayAar] disconnected with: [Proxy] Lost connection to server.
-[04:12:26] [Netty Worker IO Thread #1/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
-[04:12:27] [Netty Worker IO Thread #4/INFO]: [FlameCord] [/127.134.178.31:38603] is firewalled from the server. (QuietException)
-[04:12:27] [Netty Worker IO Thread #5/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
-[04:12:27] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
-[04:32:30] [Netty Worker IO Thread #0/INFO]: [PyrB] disconnected with: ReadTimeoutException : null
-[05:24:41] [Netty Worker IO Thread #2/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
-[05:24:41] [Netty Worker IO Thread #5/INFO]: [FlameCord] [/127.134.178.31:38227] is firewalled from the server. (QuietException)
-[05:24:41] [Netty Worker IO Thread #6/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
-[05:24:41] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
-[06:38:03] [Netty Worker IO Thread #0/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
-[06:38:03] [Netty Worker IO Thread #1/INFO]: [FlameCord] [/127.134.178.31:33115] is firewalled from the server. (QuietException)
-[06:38:04] [Netty Worker IO Thread #3/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
-[06:38:04] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
-[08:01:33] [Netty Worker IO Thread #4/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
-[08:01:33] [Netty Worker IO Thread #7/INFO]: [FlameCord] [/127.134.178.31:41147] is firewalled from the server. (QuietException)
-[08:01:34] [Netty Worker IO Thread #0/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
-[08:01:34] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
-[08:29:45] [Netty Worker IO Thread #1/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
-[08:29:45] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.134.178.31:41673] is firewalled from the server. (QuietException)
-[08:29:45] [Netty Worker IO Thread #4/INFO]: [FlameCord] [/127.134.178.31:47401] is firewalled from the server. (QuietException)
-[08:29:46] [Netty Worker IO Thread #5/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
-[08:29:46] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
-[08:58:09] [Netty Worker IO Thread #6/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
-[08:58:09] [Netty Worker IO Thread #0/INFO]: [FlameCord] [/127.134.178.31:55375] is firewalled from the server. (QuietException)
-[08:58:09] [Netty Worker IO Thread #1/INFO]: [FlameCord] [/127.134.178.31:60475] is firewalled from the server. (QuietException)
-[08:58:09] [Netty Worker IO Thread #2/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
-[08:58:10] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
+[13:11:58] [main/INFO]: FlameCord is using Libdeflate (linux_x86_64) compression
+[13:11:58] [main/INFO]: Enabled FlameCord version 1.3.9
+[13:11:58] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[13:11:58] [main/INFO]: Epoll is working, utilising it!
+[13:11:58] [main/WARN]: Forced host server pvp is not defined
+[13:11:59] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
