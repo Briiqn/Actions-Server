@@ -1626,3 +1626,7 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [19:42:44] [Craft Scheduler Thread - 11/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
 [19:42:45] [Craft Scheduler Thread - 11/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-112379493
 [19:42:51] [Server thread/INFO]: xNotJames issued server command: /deop Xxupgr4d3_4nt0ny
+[19:46:00] [Thread-23/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:46:00] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:49438] logged in with entity id 61 at ([world_the_end]100.0, 49.0, 0.0)
+[19:46:12] [Server thread/INFO]: Briiqn issued server command: /kill Briiqn
+[19:46:17] [Server thread/INFO]: Briiqn issued server command: /gamemode c
