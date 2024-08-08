@@ -222,3 +222,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [18:37:16] [Server thread/INFO]: xNotJames issued server command: /heal
 [18:37:24] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ build deny
 [18:37:56] [Server thread/INFO]: xNotJames issued server command: /pl
+[18:43:25] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[18:43:25] [Server thread/INFO]: xNotJames left the game.
