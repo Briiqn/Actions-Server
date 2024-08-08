@@ -44,3 +44,4 @@ The Ban Hammer has spoken!
 [20:17:03] [Netty Worker IO Thread #6/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [20:17:06] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [20:19:37] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Flying is not enabled on this server
+[20:22:26] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
