@@ -46,3 +46,8 @@ The Ban Hammer has spoken!
 [20:19:37] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Flying is not enabled on this server
 [20:22:26] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
 [20:23:22] [Netty Worker IO Thread #2/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:23:29] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:23:32] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:23:36] [Netty Worker IO Thread #5/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:23:39] [Netty Worker IO Thread #6/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[20:23:41] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
