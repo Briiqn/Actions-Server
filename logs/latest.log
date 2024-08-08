@@ -245,3 +245,8 @@
 [19:53:47] [Server thread/WARN]: Briiqn moved too quickly! -7.166637573410526,0.0,-7.0251293561560715 (-7.166637573410526, 0.0, -7.0251293561560715)
 [19:54:01] [Server thread/INFO]: Briiqn issued server command: //pos2
 [19:54:04] [Server thread/INFO]: Briiqn issued server command: //wea
+[19:54:08] [Server thread/INFO]: Briiqn issued server command: //wea
+[19:54:12] [Server thread/INFO]: Briiqn issued server command: //set air
+[19:54:17] [Server thread/INFO]: Briiqn issued server command: //confirm
+[19:54:22] [Server thread/WARN]: Briiqn moved too quickly! 7.057038793771426,0.0,7.119215523966318 (7.057038793771426, 0.0, 7.119215523966318)
+[19:54:24] [Server thread/WARN]: Briiqn moved too quickly! 6.9387639211402075,0.02204006627081867,7.239367915713842 (6.9387639211402075, 0.02204006627081867, 7.239367915713842)
