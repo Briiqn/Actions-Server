@@ -63,6 +63,7 @@ jobs:
             git reset -- playit.log
             git reset -- tunnel-config.yml
             git reset -- credentials.json
+            git reset -- logs/
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
             git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:skywars
           }
