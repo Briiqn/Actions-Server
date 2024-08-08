@@ -9,7 +9,7 @@
 
 
 
-last-created-npc-id: 1
+last-created-npc-id: 2
 npc:
   '0':
     metadata:
@@ -26,13 +26,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE0NTg1MTgzNCwKICAicHJvZmlsZUlkIiA6ICJkNjYyYTJkYzMwNWM0YmJjOWYyZjExYjg1ZmY1NTU5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3l3YXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZTQzYzRhNjUyNGU5YWU4MjdjMGI2MGQzOTI3ZDU2YTVjYzMxNjE3M2RlM2IwOGEwYmI0ODYyMTVmNGMwODYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZGZlYTE2ZGM4M2M5N2RmMDFhMTJmYWJiZDEyMTYzNTljMGNkMGVhNDJmOTk5OWI2ZTk3YzU4NDk2M2U5ODAiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 1.4564667
+        bodyYaw: -5.656563
         world: world
-        x: '-1118.4538'
-        y: '68.0'
-        z: '-281.2256'
-        yaw: '1.4565'
-        pitch: '11.3709'
+        x: '-1121.5222'
+        y: '68.5'
+        z: '-283.1375'
+        yaw: '-5.6566'
+        pitch: '13.4608'
       type: PLAYER
       owner:
         uuid: be317d90-8585-31d4-b983-cc75820d94de
@@ -59,7 +59,7 @@ npc:
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
-        enabled: true
+        enabled: false
         enableRandomLook: false
         headonly: false
         perplayer: false
@@ -73,7 +73,54 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,skintrait,rotationtrait,location,type,owner,scoreboardtrait,lookclose,commandtrait,spawned
+    traitnames: mounttrait,inventory,type,spawned,scoreboardtrait,skintrait,owner,rotationtrait,location,lookclose,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: 19d1ff91-6c3b-4a6b-9ad1-b56318afc7bf
+      cached-skin-uuid-name: arenapvp
+    name: '&eArenaPvP'
+    uuid: 7b9baba9-9f70-418d-8dc9-658b8977d54a
+    traits:
+      inventory: {}
+      type: PLAYER
+      scoreboardtrait: {}
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: WIAdVZr/WbCF1KivwaW/Y0uP4hjLcCj72uRrf39DFdt6Zut3hp5t5pbQihL/RAPUD2tlfvxVVmvDzt84VdsrOJ56vDX8eC9j7YpN4e/Cr2sqg1ymYEJKt6nfzAdJMf2lft81DURaewSSjb07eMXMfeN6n66U6xgKDpIZU5fPS85FToQJT6Zz0uX7nwFVEfCyXwLHPbSKYFWAAX55RUWndI1ZuU7SR65qw15EBO57oFLS8MA7aYg+9D7WRVzkCaphZpaxnEUDNdtLtfy+4pXHGj4jky304nbdU6BR9kkSp9Zp/3bifyP6H/pr0r0geDbGewxZqIilZJQ7QloSKhmqm7XrqUVxQa2w5E70ZRa2Nb1Dojl1YdAyNRuFVTVWv4eVibnmWMA6QDkl5OwN5uU1tQC0FaGPqdSBAKVFoYd7tmp/UTQbeE21kL6PsBCNGrIjMlbz006PP+bjujCvcRLtlrs5A5iIMJz1o67P1qo/7f2L9y6VaN6eq6ls/yOdfwy+eikVwcQSjviSytSvTqTT1Yw2ItNfOsc9IKwc63VtQ6yxGAvdOUGNZ85/VsuGDbriAbsC99/lNbSI6l67SG70ckwjIGBfgFTstjJD6Is2OXULhHj8Y+FbVBIu0BAVXu2Gg3xXrXI2dTBcwedDs35vd5xEWn+aGxRp+j0y3q08apM=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE1NzYwMDU2MCwKICAicHJvZmlsZUlkIiA6ICIxOWQxZmY5MTZjM2I0YTZiOWFkMWI1NjMxOGFmYzdiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmVuYXB2cCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yODAyOTJhN2Q5OTVkNDdlODJhMzRkOGIzNDMzZTc0MTUyMjFkN2FiYzczOGE2YWJjYjBkN2E2ZTY3NjdhNDdkIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      owner:
+        uuid: be317d90-8585-31d4-b983-cc75820d94de
+      location:
+        bodyYaw: 359.72653
+        world: world
+        x: '-1115.5784'
+        y: '68.5'
+        z: '-282.9159'
+        yaw: '359.7265'
+        pitch: '-0.5486'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: server arenapvp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: mounttrait,inventory,type,scoreboardtrait,spawned,skintrait,owner,location,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
