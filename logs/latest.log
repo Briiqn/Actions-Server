@@ -32,3 +32,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [03:31:12] [Netty Worker IO Thread #2/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [03:31:22] [Netty Worker IO Thread #3/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [03:31:55] [Netty Worker IO Thread #4/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:38:02] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
+[03:38:02] [Netty Worker IO Thread #7/INFO]: [RayAar] disconnected with: [Proxy] Lost connection to server.
