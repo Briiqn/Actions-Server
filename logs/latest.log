@@ -526,3 +526,18 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 [19:29:38] [Server thread/INFO]: xNotJames issued server command: /npc tphere
 [19:29:46] [Server thread/INFO]: xNotJames issued server command: /npc rename &fSkyWars
 [19:29:49] [Server thread/INFO]: xNotJames issued server command: /npc rename &dSkyWars
+[19:29:53] [Async Chat Thread - #0/INFO]: <xNotJames> loool
+[19:30:00] [Server thread/INFO]: xNotJames issued server command: /rg flag __global__ pvp deny
+[19:30:05] [Async Chat Thread - #0/INFO]: <xNotJames> where is worldedit
+[19:30:08] [Async Chat Thread - #0/INFO]: <Briiqn> also worldguard failed
+[19:30:08] [Server thread/INFO]: Briiqn issued server command: //wand
+[19:30:09] [Async Chat Thread - #0/INFO]: <xNotJames> I mean worldguard
+[19:30:11] [Async Chat Thread - #0/INFO]: <Briiqn> idk
+[19:30:12] [Server thread/INFO]: Briiqn issued server command: /pl
+[19:30:15] [Server thread/INFO]: Briiqn issued server command: /wand
+[19:30:16] [Server thread/INFO]: Briiqn issued server command: //wand
+[19:30:18] [Async Chat Thread - #0/INFO]: <xNotJames> did u download 1.8
+[19:30:19] [Async Chat Thread - #0/INFO]: <Briiqn> worldedit is loaded
+[19:30:19] [Async Chat Thread - #0/INFO]: <xNotJames> one
+[19:30:22] [Server thread/INFO]: xNotJames issued server command: //wand
+[19:30:24] [Async Chat Thread - #0/INFO]: <Briiqn> i downloaded 6.2
