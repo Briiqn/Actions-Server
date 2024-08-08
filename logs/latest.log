@@ -726,3 +726,5 @@ Caused by: java.lang.NullPointerException
 [18:24:21] [Server thread/INFO]: xNotJames issued server command: /alerts
 [18:25:10] [Server thread/WARN]: xNotJames moved wrongly!
 [18:25:31] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[18:26:44] [Server thread/INFO]: xNotJames issued server command: /deop briiqn
+[18:26:44] [Server thread/INFO]: [xNotJames: Could not de-op briiqn]
