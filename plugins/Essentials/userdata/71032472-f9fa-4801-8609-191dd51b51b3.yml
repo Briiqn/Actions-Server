@@ -3,3 +3,10 @@ timestamps:
   login: 1723088981784
 ipAddress: 127.220.84.169
 money: '5.0'
+lastlocation:
+  world: Mini81Q
+  x: 15.619857471104359
+  y: -394.4070459383096
+  z: 0.8248500229485861
+  yaw: -10.049959
+  pitch: -47.10008
