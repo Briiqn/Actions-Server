@@ -64,25 +64,9 @@ stats:
 world-settings:
   default:
     verbose: true
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      raiders: 48
-      tick-inactive-villagers: true
-      ignore-spectators: false
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -103,10 +87,26 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      raiders: 48
+      tick-inactive-villagers: true
+      ignore-spectators: false
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     mob-spawn-range: 4
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
     hunger:
@@ -150,8 +150,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: default
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
