@@ -696,3 +696,8 @@ By running this plugin, you agree to be bound by our TOS
 [03:32:53] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [03:32:53] [Head Conversion Thread - 3/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [03:32:53] [Head Conversion Thread - 3/WARN]: 	... 8 more
+[03:34:11] [Thread-16/INFO]: UUID of player RayAar is 795f307d-1f48-4697-aae8-46a109b534d1
+[03:34:12] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/cde6802d-f301-3ad2-9eb6-9cee1d3074f8.yml
+[03:34:12] [Server thread/INFO]: [Essentials] Found new UUID for RayAar. Replacing cde6802d-f301-3ad2-9eb6-9cee1d3074f8 with 795f307d-1f48-4697-aae8-46a109b534d1
+[03:34:12] [Server thread/INFO]: RayAar[/127.39.31.13:44930] logged in with entity id 234 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[03:34:12] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/795f307d-1f48-4697-aae8-46a109b534d1.yml
