@@ -976,3 +976,7 @@ Caused by: java.lang.NullPointerException
 [03:59:17] [Server thread/INFO]: [RayAar: Block placed]
 [03:59:29] [Server thread/INFO]: RayAar issued server command: /give RayAar flint
 [03:59:34] [Server thread/INFO]: RayAar issued server command: /give RayAar flint_and_steel
+[04:00:22] [Server thread/INFO]: Briiqn issued server command: /mysterdust
+[04:00:24] [Server thread/INFO]: Briiqn issued server command: /mysterydust
+[04:00:26] [Server thread/INFO]: RayAar issued server command: /skywars
+[04:00:27] [Server thread/INFO]: RayAar issued server command: /pl
