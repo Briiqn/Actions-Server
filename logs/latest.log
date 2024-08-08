@@ -126,3 +126,5 @@ The Ban Hammer has spoken!
 [21:48:59] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.134.178.31:57807] is firewalled from the server. (QuietException)
 [21:49:00] [Netty Worker IO Thread #3/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
 [21:49:00] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
+[22:09:46] [Netty Worker IO Thread #5/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
+[22:09:46] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
