@@ -220,3 +220,8 @@
 [19:49:37] [Craft Scheduler Thread - 3/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [19:49:37] [Craft Scheduler Thread - 3/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
 [19:49:37] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[19:51:26] [Thread-13/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:51:26] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:44660] logged in with entity id 26 at ([world_the_end]100.95658687367006, 49.0, 1.2681810144900711)
+[19:51:35] [Server thread/INFO]: Briiqn issued server command: /kill Briiqn
+[19:51:41] [Server thread/INFO]: Briiqn issued server command: /gamemode c
+[19:51:46] [Server thread/INFO]: Briiqn issued server command: /flyspeed 10
