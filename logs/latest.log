@@ -503,3 +503,17 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 [19:28:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [19:28:45] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [19:28:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:28:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:28:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:28:54] [Async Chat Thread - #0/INFO]: <xNotJames> is skywars work
+[19:28:54] [Server thread/INFO]: Briiqn issued server command: /vulcan
+[19:28:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:29:00] [Server thread/INFO]: xNotJames issued server command: /npc cmd remove 1
+[19:29:04] [Server thread/INFO]: xNotJames issued server command: /npc cmd add server skywars -p
+[19:29:05] [Server thread/INFO]: Created a User for jiden (fc9dda7d-facf-2f64-be45-81175405dff3) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
+[19:29:07] [Server thread/INFO]: Briiqn issued server command: /alerts
+[19:29:09] [Server thread/INFO]: Briiqn issued server command: /alerts
+[19:29:10] [Async Chat Thread - #0/INFO]: <xNotJames> right click
+[19:29:18] [Server thread/INFO]: xNotJames issued server command: /npc sel
+[19:29:19] [Async Chat Thread - #0/INFO]: <Briiqn> the other server is off
+[19:29:20] [Server thread/INFO]: xNotJames issued server command: /npc remove
