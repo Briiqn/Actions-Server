@@ -1166,3 +1166,5 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:32:43] [Async Chat Thread - #2/INFO]: <Briiqn> send
 [20:32:47] [Async Chat Thread - #2/INFO]: <Briiqn> how do it
 [20:32:58] [Server thread/INFO]: Briiqn issued server command: /lp editor
+[20:33:49] [Server thread/INFO]: xNotJames issued server command: /lp group owner meta
+[20:34:03] [Server thread/INFO]: xNotJames issued server command: /lp group owner addprefix &c[Manager]
