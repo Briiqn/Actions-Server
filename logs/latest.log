@@ -1048,3 +1048,4 @@ Caused by: java.lang.NullPointerException
 [04:31:55] [Server thread/INFO]: Briiqn issued server command: /mem
 [04:32:30] [Server thread/INFO]: PyrB lost connection: Disconnected
 [04:33:10] [Server thread/WARN]: Briiqn moved wrongly!
+[04:33:46] [Server thread/INFO]: Briiqn lost connection: Disconnected
