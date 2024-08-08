@@ -1,196 +1,196 @@
-[20:58:46] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:58:46] [Server thread/INFO]: Loading properties
-[20:58:46] [Server thread/INFO]: Default game type: SURVIVAL
-[20:58:46] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:58:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:58:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:58:46] [Server thread/INFO]: Debug logging is disabled
-[20:58:46] [Server thread/INFO]: Generating keypair
-[20:58:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:58:46] [Server thread/INFO]: Using default channel type
-[20:58:47] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[20:58:47] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
-[20:58:47] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[20:58:47] [Server thread/INFO]: [spark] Loading spark v1.10.59
-[20:58:47] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[20:58:47] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[20:58:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:58:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:58:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.137
-[20:58:49] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
-[20:58:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
-[20:58:49] [Server thread/INFO]: [Vulcan] Loading Vulcan v2.8.5
-[20:58:49] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[20:58:49] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[20:58:49] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
-[20:58:49] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3036)
-[20:58:49] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+25-fbfd7e9
-[20:58:49] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+107-7b02d22
-[20:58:49] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
-[20:58:49] [Server thread/INFO]: ====== USE PAPER ======
-[20:58:49] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/
-[20:58:49] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/
-[20:58:49] [Server thread/INFO]:  - This is only a recommendation
-[20:58:49] [Server thread/INFO]: ==============================
-[20:58:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.137
-[20:58:50] [Server thread/INFO]:         __    
-[20:58:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
-[20:58:50] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[20:58:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:58:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:58:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:58:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:58:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1280ms)
-[20:58:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
-[20:58:52] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
-[20:58:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.0]
-[20:58:52] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
-[20:58:52] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
-[20:58:52] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
-[20:58:52] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
-[20:58:52] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
-[20:58:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:58:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:58:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:58:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:58:52] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[20:58:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:58:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:58:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:58:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:58:52] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[20:58:52] [Server thread/INFO]: Preparing level "world"
-[20:58:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:58:52] [Server thread/INFO]: Anti X-Ray: true
-[20:58:52] [Server thread/INFO]: 	Engine Mode: 1
-[20:58:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:58:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:58:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:58:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:58:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:58:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:58:52] [Server thread/INFO]: Random Lighting Updates: false
-[20:58:52] [Server thread/INFO]: Structure Info Saving: true
-[20:58:52] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:58:52] [Server thread/INFO]: Max Entity Collisions: 8
-[20:58:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:58:52] [Server thread/INFO]: Max TNT Explosions: 100
-[20:58:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:58:52] [Server thread/INFO]: Mob Spawn Range: 4
-[20:58:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:58:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:58:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:58:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:58:52] [Server thread/INFO]: View Distance: 10
-[20:58:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:58:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:58:52] [Server thread/INFO]: Clear tick list: false
-[20:58:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:58:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:58:52] [Server thread/INFO]: Anti X-Ray: true
-[20:58:52] [Server thread/INFO]: 	Engine Mode: 1
-[20:58:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:58:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:58:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:58:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:58:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:58:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:58:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:58:52] [Server thread/INFO]: Random Lighting Updates: false
-[20:58:52] [Server thread/INFO]: Structure Info Saving: true
-[20:58:52] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:58:52] [Server thread/INFO]: Max Entity Collisions: 8
-[20:58:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:58:52] [Server thread/INFO]: Max TNT Explosions: 100
-[20:58:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:58:52] [Server thread/INFO]: Mob Spawn Range: 4
-[20:58:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:58:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:58:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:58:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:58:52] [Server thread/INFO]: View Distance: 10
-[20:58:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:58:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:58:52] [Server thread/INFO]: Clear tick list: false
-[20:58:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:58:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1715728558090943377)
-[20:58:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6449644148566793192)
-[20:58:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:58:54] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:58:54] [Server thread/INFO]: [spark] Enabling spark v1.10.59
-[20:58:54] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
-[20:58:54] [Server thread/INFO]: [spark] Starting background profiler...
-[20:58:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.59]
-[20:58:54] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
-[20:58:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[20:58:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
-[20:58:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:58:54] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[20:58:54] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.8.5
-[20:58:55] [Server thread/INFO]: [Vulcan] Server Version: 1.8.8 detected!
-[20:58:55] [Server thread/INFO]: [Vulcan] BStats enabled!
-[20:58:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Vulcan [2.8.5]
-[20:58:55] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
-[20:58:55] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[20:58:55] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[20:58:55] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[20:58:55] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[20:58:55] [Server thread/INFO]: [DeluxeHub] 
-[20:58:55] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[20:58:55] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[20:58:55] [Server thread/INFO]: [DeluxeHub] 
-[20:58:55] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[20:58:55] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[20:58:55] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
-[20:58:55] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
-[20:58:55] [Server thread/INFO]: [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[20:58:55] [Server thread/INFO]: [DeluxeHub] Loaded 15 plugin modules.
-[20:58:55] [Server thread/INFO]: [DeluxeHub] 
-[20:58:55] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 221ms
-[20:58:55] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:58:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[20:58:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:58:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:58:55] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:58:55] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3036)
-[20:58:55] [Server thread/INFO]: [Citizens] Loading external libraries
-[20:58:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[20:58:55] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[20:58:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
-[20:58:56] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[20:58:56] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
-[20:58:56] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[20:58:56] [Server thread/INFO]: No kits found to migrate.
-[20:58:56] [Server thread/INFO]: Loaded 853 items from items.csv.
-[20:58:56] [Server thread/INFO]: Using locale en
-[20:58:56] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[20:58:56] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:58:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[20:58:56] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[20:58:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+107-7b02d22
-[20:58:56] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.21.0-dev+107-7b02d22 (Is it up to date?)
+[21:06:13] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[21:06:13] [Server thread/INFO]: Loading properties
+[21:06:13] [Server thread/INFO]: Default game type: SURVIVAL
+[21:06:13] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[21:06:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:06:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:06:13] [Server thread/INFO]: Debug logging is disabled
+[21:06:13] [Server thread/INFO]: Generating keypair
+[21:06:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:06:13] [Server thread/INFO]: Using default channel type
+[21:06:14] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:06:14] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[21:06:14] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[21:06:14] [Server thread/INFO]: [spark] Loading spark v1.10.59
+[21:06:14] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[21:06:14] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[21:06:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:06:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:06:15] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.137
+[21:06:16] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.4.0
+[21:06:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[21:06:16] [Server thread/INFO]: [Vulcan] Loading Vulcan v2.8.5
+[21:06:16] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[21:06:16] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:06:16] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[21:06:16] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3036)
+[21:06:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+25-fbfd7e9
+[21:06:16] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+107-7b02d22
+[21:06:16] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[21:06:16] [Server thread/INFO]: ====== USE PAPER ======
+[21:06:16] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/
+[21:06:16] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/
+[21:06:16] [Server thread/INFO]:  - This is only a recommendation
+[21:06:16] [Server thread/INFO]: ==============================
+[21:06:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.137
+[21:06:17] [Server thread/INFO]:         __    
+[21:06:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
+[21:06:17] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[21:06:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:06:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:06:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:06:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:06:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1720ms)
+[21:06:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
+[21:06:19] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
+[21:06:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.0]
+[21:06:19] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[21:06:19] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "8" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
+[21:06:19] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
+[21:06:19] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
+[21:06:19] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
+[21:06:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:06:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:06:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:06:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:06:20] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:06:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:06:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:06:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:06:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:06:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:06:20] [Server thread/INFO]: Preparing level "world"
+[21:06:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:06:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:06:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:06:20] [Server thread/INFO]: Random Lighting Updates: false
+[21:06:20] [Server thread/INFO]: Structure Info Saving: true
+[21:06:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:06:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:06:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:06:20] [Server thread/INFO]: Max Entity Collisions: 8
+[21:06:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:06:20] [Server thread/INFO]: Max TNT Explosions: 100
+[21:06:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:06:20] [Server thread/INFO]: Mob Spawn Range: 4
+[21:06:20] [Server thread/INFO]: Anti X-Ray: true
+[21:06:20] [Server thread/INFO]: 	Engine Mode: 1
+[21:06:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:06:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:06:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:06:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:06:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:06:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:06:20] [Server thread/INFO]: View Distance: 10
+[21:06:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:06:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:06:20] [Server thread/INFO]: Clear tick list: false
+[21:06:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:06:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:06:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:06:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:06:20] [Server thread/INFO]: Random Lighting Updates: false
+[21:06:20] [Server thread/INFO]: Structure Info Saving: true
+[21:06:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:06:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:06:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:06:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:06:20] [Server thread/INFO]: Max Entity Collisions: 8
+[21:06:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:06:20] [Server thread/INFO]: Max TNT Explosions: 100
+[21:06:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:06:20] [Server thread/INFO]: Mob Spawn Range: 4
+[21:06:20] [Server thread/INFO]: Anti X-Ray: true
+[21:06:20] [Server thread/INFO]: 	Engine Mode: 1
+[21:06:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:06:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:06:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:06:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:06:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:06:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:06:20] [Server thread/INFO]: View Distance: 10
+[21:06:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:06:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:06:20] [Server thread/INFO]: Clear tick list: false
+[21:06:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:06:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1715728558090943377)
+[21:06:20] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6449644148566793192)
+[21:06:20] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[21:06:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:06:21] [Server thread/INFO]: [spark] Enabling spark v1.10.59
+[21:06:21] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
+[21:06:21] [Server thread/INFO]: [spark] Starting background profiler...
+[21:06:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.59]
+[21:06:21] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[21:06:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[21:06:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[21:06:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:06:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[21:06:21] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.8.5
+[21:06:22] [Server thread/INFO]: [Vulcan] Server Version: 1.8.8 detected!
+[21:06:22] [Server thread/INFO]: [Vulcan] BStats enabled!
+[21:06:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Vulcan [2.8.5]
+[21:06:22] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
+[21:06:22] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[21:06:22] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[21:06:22] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[21:06:22] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[21:06:22] [Server thread/INFO]: [DeluxeHub] 
+[21:06:22] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[21:06:22] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[21:06:22] [Server thread/INFO]: [DeluxeHub] 
+[21:06:22] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[21:06:22] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[21:06:22] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[21:06:22] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[21:06:22] [Server thread/INFO]: [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[21:06:22] [Server thread/INFO]: [DeluxeHub] Loaded 15 plugin modules.
+[21:06:22] [Server thread/INFO]: [DeluxeHub] 
+[21:06:22] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 199ms
+[21:06:22] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:06:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[21:06:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:06:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:06:22] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:06:22] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3036)
+[21:06:22] [Server thread/INFO]: [Citizens] Loading external libraries
+[21:06:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[21:06:23] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[21:06:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
+[21:06:23] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[21:06:23] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[21:06:23] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:06:23] [Server thread/INFO]: No kits found to migrate.
+[21:06:23] [Server thread/INFO]: Loaded 853 items from items.csv.
+[21:06:23] [Server thread/INFO]: Using locale en
+[21:06:23] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:06:23] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:06:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:06:23] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[21:06:23] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+107-7b02d22
+[21:06:23] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.21.0-dev+107-7b02d22 (Is it up to date?)
 java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:28) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
@@ -204,124 +204,34 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
-[20:58:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:58:56] [Server thread/INFO]: Done (4.142s)! For help, type "help" or "?"
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[20:58:57] [Craft Scheduler Thread - 0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:58:57] [Server thread/INFO]: (FAWE) Detected class org.bukkit.event.block.BlockExplodeEvent
-[20:58:57] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[20:58:57] [Craft Scheduler Thread - 3/INFO]: §6Fetching version information...
-[20:58:57] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
-[20:58:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
-[20:58:57] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[20:58:57] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 1.8.0_422).
-[20:58:57] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
-[20:58:57] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:58:57] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
-[20:58:57] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
-[20:58:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[20:58:57] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[20:58:57] [Craft Scheduler Thread - 6/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:58:57] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
-[20:58:57] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
-[20:58:57] [Craft Scheduler Thread - 3/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
-[20:58:57] [Craft Scheduler Thread - 3/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[20:58:58] [Craft Scheduler Thread - 0/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse UUID[0;39m
-[20:58:59] [Craft Scheduler Thread - 0/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse Profile[0;39m
-[20:59:29] [Thread-13/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
-[20:59:29] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:38212] logged in with entity id 34 at ([world]-1118.627245411867, 69.0155550727022, -278.38613884512904)
-[20:59:29] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 27.588704ms. Summary: Getting prefix for xNotJames
-[20:59:45] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
-[20:59:52] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
-[21:00:23] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> wtj
-[21:00:25] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> wth
-[21:00:31] [Thread-14/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
-[21:00:31] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:55974] logged in with entity id 35 at ([world]-1119.429380560535, 73.86676062762605, -223.7002090771334)
-[21:00:38] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
-[21:00:40] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> lmao
-[21:00:41] [Server thread/INFO]: Briiqn issued server command: /B
-[21:00:41] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> why
-[21:00:43] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> is the
-[21:00:49] [Server thread/INFO]: Created a User for §dSkywars (1286e2a1-334b-2361-a1f5-eed6f1195bad) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
-[21:01:00] [Server thread/INFO]: xNotJames issued server command: /essentials reload
-[21:01:00] [Server thread/INFO]: Loaded 854 items from items.csv.
-[21:01:00] [Server thread/INFO]: Using locale en
-[21:01:00] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[21:01:01] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
-[21:01:07] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> bruh
-[21:01:07] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> B
-[21:01:25] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> why am i still alex skin
-[21:01:28] [Server thread/INFO]: xNotJames issued server command: /skin xNotJames
-[21:01:33] [Server thread/INFO]: xNotJames issued server command: /skin xNotJames
-[21:01:34] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> for me you arent
-[21:01:34] [Server thread/INFO]: xNotJames issued server command: /skin xNotJames
-[21:01:38] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> huh
-[21:01:43] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> i am alex skin on my screen
-[21:01:43] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> oh cuz im using viafabric
-[21:01:52] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> ahcke
-[21:01:54] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> hack
-[21:02:05] [Server thread/INFO]: xNotJames issued server command: /deop xNotJames
-[21:02:12] [Server thread/INFO]: Briiqn issued server command: /alerts
-[21:02:14] [Server thread/INFO]: Briiqn issued server command: /alerts
-[21:02:16] [Server thread/INFO]: Briiqn issued server command: /vulcan
-[21:02:20] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames parent set default
-[21:02:20] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
-[21:02:20] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 2/15, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 2/30, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 2/15, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 2/12, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 4/15, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 4/15, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (E)  §7VL: 2/30, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (D)  §7VL: 2/20, Ping: 384ms, TPS: 20, Version: v1.8
-[21:02:27] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> ghacker
-[21:02:33] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 6/15, Ping: 399ms, TPS: 20, Version: v1.8
-[21:02:33] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 3/20, Ping: 399ms, TPS: 20, Version: v1.8
-[21:02:38] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 4/30, Ping: 380ms, TPS: 20, Version: v1.8
-[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 6/30, Ping: 380ms, TPS: 20, Version: v1.8
-[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 8/30, Ping: 380ms, TPS: 20, Version: v1.8
-[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 10/30, Ping: 380ms, TPS: 20, Version: v1.8
-[21:02:39] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cImprobable (B)  §7VL: 1/1, Ping: 380ms, TPS: 20, Version: v1.8
-[21:02:39] [pool-18-thread-1/INFO]:  ✗ Vulcan has removed xNotJames due to cheating violations. 
-[21:02:39] [Server thread/INFO]: CONSOLE issued server command: /kick xNotJames §c[AC] Skill Issue Detected
-[21:02:39] [Server thread/INFO]: xNotJames lost connection: §c[AC] Skill Issue Detected
-[21:02:39] [Server thread/INFO]: [+] xNotJames disconnected to the lobby server.
-[21:02:39] [Server thread/INFO]: §6Player§c Console §6kicked§c xNotJames§6 for§c §c[AC] Skill Issue Detected§6.
-[21:02:39] [Server thread/WARN]: handleDisconnection() called twice
-[21:02:45] [Thread-15/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
-[21:02:45] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:33976] logged in with entity id 36 at ([world]-1120.8820318193323, 68.0, -273.3067287941045)
-[21:02:58] [Async Chat Thread - #0/INFO]: <xNotJames> epci
-[21:03:03] [Async Chat Thread - #0/INFO]: <xNotJames> idk how to fix the chat
-[21:03:13] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> yes
-[21:03:25] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> where is config for chat
-[21:03:39] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:39] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:40] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:40] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:41] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:41] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:41] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:42] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:42] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:43] [Server thread/WARN]: Briiqn moved wrongly!
-[21:03:54] [Server thread/INFO]: Briiqn issued server command: /mem
-[21:03:58] [Async Chat Thread - #0/INFO]: <xNotJames> wa8
-[21:04:02] [Server thread/WARN]: Briiqn moved wrongly!
-[21:04:02] [Server thread/WARN]: Briiqn moved wrongly!
-[21:04:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 2/15, Ping: 343ms, TPS: 19.98, Version: v1.8
-[21:04:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 4/15, Ping: 343ms, TPS: 19.98, Version: v1.8
-[21:04:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 343ms, TPS: 19.98, Version: v1.8
-[21:04:45] [Server thread/INFO]: xNotJames issued server command: /op xNotJames
-[21:04:50] [Server thread/INFO]: xNotJames issued server command: /lp group default meta
-[21:05:10] [Server thread/INFO]: xNotJames issued server command: /lp group default meta addprefix &f[Octo]
+[21:06:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:06:23] [Server thread/INFO]: Done (3.885s)! For help, type "help" or "?"
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[21:06:24] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:06:24] [Server thread/INFO]: (FAWE) Detected class org.bukkit.event.block.BlockExplodeEvent
+[21:06:24] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:06:24] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[21:06:24] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[21:06:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[21:06:24] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[21:06:24] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 1.8.0_422).
+[21:06:24] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
+[21:06:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:06:24] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
+[21:06:24] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[21:06:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[21:06:24] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[21:06:24] [Craft Scheduler Thread - 6/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:06:24] [Craft Scheduler Thread - 0/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
+[21:06:24] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[21:06:25] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[21:06:25] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
