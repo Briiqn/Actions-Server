@@ -133,3 +133,9 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:59:33] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [02:59:33] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [02:59:33] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[02:59:58] [Thread-7/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[02:59:58] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:53438] logged in with entity id 24 at ([world]1440.2949907836048, 4.0, 18.73498647030496)
+[03:00:04] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[03:00:04] [Server thread/INFO]: ShortyDev left the game.
+[03:00:16] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[03:00:16] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:43774] logged in with entity id 25 at ([world]1679.3416892844405, 4.0, -116.45917923487936)
