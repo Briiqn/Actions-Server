@@ -17,7 +17,7 @@ maxBookTotalSizeMultiplier: 0.98
 # https://docs.papermc.io/paper/reference/paper-global-configuration#packet-limiter
 # (note that "max-packet-rate" is renamed to "maxPacketRate")
 packetLimiter:
-  kickMessage: "&cSent too many packets."
+  kickMessage: "&cYou are sending suspicious packets."
   limits:
     all:
       interval: 7.0
