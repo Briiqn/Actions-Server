@@ -254,3 +254,11 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:13:50] [Async Chat Thread - #1/INFO]: <xNotJames> a
 [21:13:52] [Async Chat Thread - #1/INFO]: <xNotJames> :(
 [21:14:00] [Server thread/INFO]: xNotJames issued server command: /pl
+[21:14:11] [Async Chat Thread - #1/INFO]: <xNotJames> did everything roll bakc
+[21:14:14] [Server thread/INFO]: xNotJames issued server command: /lp group default meta addprefix 100000 &f[Octo]
+[21:14:14] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (default)
+[21:14:14] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 100000 &f[Octo]
+[21:14:17] [Async Chat Thread - #1/INFO]: <[Octo]xNotJames> a
+[21:14:19] [Async Chat Thread - #1/INFO]: <[Manager]Briiqn> a
+[21:14:21] [Async Chat Thread - #1/INFO]: <[Manager]Briiqn> jsdgj
+[21:14:23] [Server thread/INFO]: xNotJames issued server command: /lp save
