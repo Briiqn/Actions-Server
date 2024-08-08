@@ -3,3 +3,4 @@
 [00:01:47] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: Login timeout exceeded, you have been kicked from the server, please try again!
 [00:04:23] [Netty Worker IO Thread #6/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: The same username is already playing on the server!
 [00:04:30] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: The same username is already playing on the server!
+[00:14:56] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: You have to join through the proxy.
