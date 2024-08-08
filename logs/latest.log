@@ -263,3 +263,9 @@
 [19:59:10] [Server thread/INFO]: Briiqn issued server command: /fly
 [19:59:17] [Server thread/INFO]: Briiqn issued server command: /i command_block
 [19:59:20] [Server thread/INFO]: Briiqn issued server command: /i commandblock
+[19:59:48] [Server thread/INFO]: CommandBlock at 103,46,1 issued server command: /sudo Briiqn server skywars
+[19:59:48] [Server thread/INFO]: Briiqn issued server command: /server skywars
+[19:59:48] [Server thread/INFO]: CommandBlock at 103,46,1 issued server command: /sudo Briiqn server skywars
+[19:59:48] [Server thread/INFO]: Briiqn issued server command: /server skywars
+[19:59:49] [Server thread/INFO]: CommandBlock at 103,46,1 issued server command: /sudo Briiqn server skywars
+[19:59:49] [Server thread/INFO]: Briiqn issued server command: /server skywars
