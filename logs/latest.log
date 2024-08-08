@@ -300,3 +300,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [04:49:40] [Craft Scheduler Thread - 37/INFO]: [⚡] Profiler stopped & upload complete!
 [04:49:40] [Craft Scheduler Thread - 37/INFO]: https://spark.lucko.me/atvXCE2bVq
 [04:49:40] [Craft Scheduler Thread - 37/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
+[04:52:05] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:52:05] [Server thread/INFO]: Briiqn left the game.
