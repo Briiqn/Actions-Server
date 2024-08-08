@@ -1079,3 +1079,4 @@ Caused by: java.lang.NullPointerException
 [04:52:08] [Craft Scheduler Thread - 60/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [04:52:14] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
 [04:52:21] [Server thread/INFO]: Briiqn issued server command: /verus:ping RayAar
+[04:52:35] [Server thread/INFO]: Briiqn lost connection: Disconnected
