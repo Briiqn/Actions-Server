@@ -1139,3 +1139,8 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:30:03] [Server thread/INFO]: Briiqn issued server command: /fly
 [20:30:18] [Server thread/INFO]: xNotJames issued server command: /lp group create owner
 [20:30:27] [Server thread/INFO]: xNotJames issued server command: /lp create group owner
+[20:30:42] [Server thread/INFO]: xNotJames issued server command: /lp creategroup owner
+[20:30:42] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[20:30:42] [luckperms-command-executor/INFO]: [LP] LOG > create
+[20:30:53] [Server thread/INFO]: xNotJames issued server command: /lp editor
+[20:31:07] [Server thread/INFO]: Briiqn issued server command: /mem
