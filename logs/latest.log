@@ -1,6 +1,6 @@
-[03:23:40] [main/INFO]: FlameCord is using Libdeflate (linux_x86_64) compression
-[03:23:40] [main/INFO]: Enabled FlameCord version 1.3.9
-[03:23:40] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[03:23:40] [main/INFO]: Epoll is working, utilising it!
-[03:23:40] [main/WARN]: Forced host server pvp is not defined
-[03:23:40] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[03:26:48] [main/INFO]: FlameCord is using Libdeflate (linux_x86_64) compression
+[03:26:48] [main/INFO]: Enabled FlameCord version 1.3.9
+[03:26:48] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[03:26:48] [main/INFO]: Epoll is working, utilising it!
+[03:26:48] [main/WARN]: Forced host server pvp is not defined
+[03:26:48] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
