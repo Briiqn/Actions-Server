@@ -1021,3 +1021,4 @@ Caused by: java.lang.NullPointerException
 [04:08:03] [Server thread/INFO]: RayAar issued server command: /setblock lit_tnt
 [04:16:18] [Server thread/INFO]: RayAar issued server command: /afk
 [04:22:43] [Server thread/WARN]: Briiqn moved wrongly!
+[04:22:57] [Server thread/INFO]: Briiqn issued server command: /mem
