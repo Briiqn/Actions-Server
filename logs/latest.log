@@ -1022,3 +1022,5 @@ Caused by: java.lang.NullPointerException
 [04:16:18] [Server thread/INFO]: RayAar issued server command: /afk
 [04:22:43] [Server thread/WARN]: Briiqn moved wrongly!
 [04:22:57] [Server thread/INFO]: Briiqn issued server command: /mem
+[04:23:19] [Server thread/INFO]: Briiqn issued server command: /spark
+[04:23:23] [Server thread/INFO]: Briiqn lost connection: Disconnected
