@@ -33,16 +33,10 @@ logPlayerIpAddresses: true
 # To specify settings for a specific world, just add a new section with the world's name.
 worlds:
   default:
-    # How many ticks in between sending time updates to players?
-    # 
     # The vanilla option is 20 (every second), but PandaSpigot sets the default
     # to 100 (every 5 seconds). You would probably be fine setting this even
     # higher, unless you're constantly changing the time, or the server is lagging.
     timeUpdateFrequency: 100
-    # This option makes it so that when players are teleported to a location
-    # with the same rotation they currently have, the server will send a special
-    # packet indicating that the client should not update it's rotation at all.
-    # 
     # For example, normally constantly teleporting a player to their own location
     # will make moving their head very difficult, especially for players with higher latency.
     # With this option enabled, they will be able to move their head just like normal.
@@ -54,8 +48,6 @@ worlds:
     disablePlayerData: false
     # When enabled, this option will disable saving world chunks.
     disableChunkSaving: false
-    # When enabled, entity AI will be disabled.
-    # 
     # This has the same effect as Spigot's "nerf-spawner-mobs" option, but applies to all entities.
     disableEntityAi: false
     # This option controls whether or not to add a bit of randomness to an arrow's trajectory.
