@@ -1071,3 +1071,6 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
 
+[08-08 13:28:02]: [FINE] The user ShortyDev has 2 accounts:
+[08-08 13:28:02]: [FINE] §7§aShortyDev§7, aeeasd41.
+[08-08 13:28:02]: [FINE] ShortyDev logged in 127.16.144.220
