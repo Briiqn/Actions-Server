@@ -237,3 +237,7 @@
 [20:45:36] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
 [20:45:36] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
 [20:45:36] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 30.420376ms. Summary: Getting group for Briiqn
+[20:46:02] [Thread-14/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[20:46:02] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:33292] logged in with entity id 35 at ([world]-1119.1583878176507, 68.0, -272.86040838147096)
+[20:46:12] [Server thread/INFO]: Briiqn lost connection: Timed out
+[20:46:12] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
