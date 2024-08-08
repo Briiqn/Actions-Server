@@ -5,6 +5,8 @@ Settings:
   Self-Morph-View: true
 Selected-Cosmetics:
   Suits: {}
-Mystery-Boxes: []
-Recent-Loots-Found: '&9Rare &9Cow Morph, &5Epic &5Sheep: Cyan (Baby), &6Legendary
-  &6TNT Fountain Gadget, &9Rare &9Villager: Priest, &9Rare &9Wild Ocelot'
+Mystery-Boxes:
+- Q3JhZnRlZCBNeXN0ZXJ5IEJveCAjNSAlJSBudWxsICUlIGZhbHNlICUlIDA4LzA4LzIwMjQgMDc6NTE6MTQgRURUICUlIFJhcmUgJSUgU3VpdHMgJSUgVmFtcGlyZSBMZWdnaW5ncyAlJSBFcGljICUlIEhhdHMgJSUgU25vd21hbiAlJSBFcGljICUlIFN1aXRzICUlIEdob3N0bHkgQ2hlc3RwbGF0ZSAlJSBMZWdlbmRhcnkgJSUgUGV0cyAlJSBQb3dlcmVkIENyZWVwZXIgJSUgTGVnZW5kYXJ5ICUlIFBldHMgJSUgR29sZW0gJSUgTGVnZW5kYXJ5ICUlIENsb2FrcyAlJSBGaXJlcmluZ3MgJSUgTGVnZW5kYXJ5ICUlIENsb2FrcyAlJSBNeXN0aWNhbA==
+- Q3JhZnRlZCBNeXN0ZXJ5IEJveCAjNSAlJSBudWxsICUlIGZhbHNlICUlIDA4LzA4LzIwMjQgMDc6NTE6MTQgRURUICUlIFJhcmUgJSUgR2FkZ2V0cyAlJSBQYWludCBUcmFpbCAlJSBFcGljICUlIFBldHMgJSUgQmFieSBHcmVlbiBTaGVlcCAlJSBFcGljICUlIFBldHMgJSUgQmFieSBDaGVzdG51dCBIb3JzZSAlJSBMZWdlbmRhcnkgJSUgTW9ycGhzICUlIFpvbWJpZSAlJSBMZWdlbmRhcnkgJSUgQ2xvYWtzICUlIEZpcmVyaW5ncyAlJSBMZWdlbmRhcnkgJSUgQ2xvYWtzICUlIFN1cGVyaGVybyAlJSBMZWdlbmRhcnkgJSUgU3VpdHMgJSUgVmFtcGlyZSBIZWxtZXQ=
+Recent-Loots-Found: '&9Rare &9Sheep: Red, &9Rare &9Sheep: Silver (Baby), &9Rare &9Sheep:
+  Light Blue, &5Epic &5Sheep: Lime (Baby), &9Rare &9Cow Morph'
