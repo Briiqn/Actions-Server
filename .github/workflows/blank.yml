@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ "hypixel" ]
+    branches: [ "skywars" ]
   pull_request:
-    branches: [ "hypixel" ]
+    branches: [ "skywars" ]
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
@@ -64,7 +64,7 @@ jobs:
             git reset -- tunnel-config.yml
             git reset -- credentials.json
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
-            git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:hypixel
+            git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:skywars
           }
           
           # Function to delete auto-commit workflow runs
