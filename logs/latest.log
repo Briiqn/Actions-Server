@@ -252,3 +252,19 @@
 [22:11:49] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove * true
 [22:11:50] [Async Chat Thread - #0/INFO]: [Octo] xNotJames: a
 [22:11:51] [Server thread/INFO]: Briiqn issued server command: /pl
+[22:11:58] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames permission set owmer
+[22:11:58] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[22:11:58] [luckperms-command-executor/INFO]: [LP] LOG > permission set owmer true
+[22:11:59] [Async Chat Thread - #0/INFO]: [Octo] xNotJames: a
+[22:12:02] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames permission set owmer
+[22:12:03] [Async Chat Thread - #0/INFO]: [Octo] xNotJames: a
+[22:12:07] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames permission unset owmer
+[22:12:07] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[22:12:07] [luckperms-command-executor/INFO]: [LP] LOG > permission unset owmer
+[22:12:15] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames parent set owner
+[22:12:15] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[22:12:15] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[22:12:16] [Async Chat Thread - #0/INFO]: [Manager] xNotJames: a
+[22:12:18] [Async Chat Thread - #0/INFO]: [Manager] xNotJames: finally
+[22:12:20] [Async Chat Thread - #0/INFO]: [Manager] Briiqn: now we do bungeecord shit to make ranks and perms are persistent on all servers
+[22:12:21] [Server thread/INFO]: Briiqn issued server command: /fly
