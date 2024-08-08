@@ -541,3 +541,10 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 [19:30:19] [Async Chat Thread - #0/INFO]: <xNotJames> one
 [19:30:22] [Server thread/INFO]: xNotJames issued server command: //wand
 [19:30:24] [Async Chat Thread - #0/INFO]: <Briiqn> i downloaded 6.2
+[19:30:25] [Server thread/INFO]: xNotJames issued server command: //wand
+[19:30:26] [Async Chat Thread - #0/INFO]: <Briiqn> bukkit
+[19:30:28] [Async Chat Thread - #0/INFO]: <xNotJames> 6.1
+[19:30:37] [Async Chat Thread - #0/INFO]: <xNotJames> isnt it like 6.1.9
+[19:30:40] [Async Chat Thread - #0/INFO]: <xNotJames> for 1.8
+[19:30:47] [Server thread/INFO]: xNotJames issued server command: /pl
+[19:30:54] [Server thread/INFO]: xNotJames issued server command: //wabd
