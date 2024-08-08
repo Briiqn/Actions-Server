@@ -167,3 +167,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [18:11:04] [Server thread/INFO]: Briiqn left the game.
 [18:14:28] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [18:14:28] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:58232] logged in with entity id 30 at ([world]1782.617511291464, 4.0, -118.59606440757558)
+[18:15:55] [Server thread/INFO]: Briiqn issued server command: /tps
+[18:15:58] [Server thread/INFO]: Briiqn issued server command: /mem
