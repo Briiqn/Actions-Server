@@ -133,3 +133,5 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:27:46] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [02:27:46] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [02:27:46] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[02:28:07] [Thread-7/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[02:28:07] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:53100] logged in with entity id 25 at ([world]1684.916680707353, 6.490643233610556, -144.63087104454152)
