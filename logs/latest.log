@@ -768,3 +768,11 @@ Caused by: java.lang.NullPointerException
 	... 27 more
 [03:47:14] [Server thread/INFO]: Briiqn issued server command: /ping
 [03:49:10] [Server thread/INFO]: RayAar issued server command: /kit
+[03:49:15] [Server thread/INFO]: RayAar issued server command: /kit Briiqn
+[03:49:20] [Server thread/INFO]: Briiqn issued server command: /lsw fstat
+[03:49:21] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[03:49:41] [Thread-20/INFO]: UUID of player PyrB is 71032472-f9fa-4801-8609-191dd51b51b3
+[03:49:41] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/b4eb69ef-5562-39ec-a408-3eed5bd1f907.yml
+[03:49:41] [Server thread/INFO]: [Essentials] Found new UUID for PyrB. Replacing b4eb69ef-5562-39ec-a408-3eed5bd1f907 with 71032472-f9fa-4801-8609-191dd51b51b3
+[03:49:41] [Server thread/INFO]: PyrB[/127.220.84.169:38730] logged in with entity id 644 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[03:49:41] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/71032472-f9fa-4801-8609-191dd51b51b3.yml

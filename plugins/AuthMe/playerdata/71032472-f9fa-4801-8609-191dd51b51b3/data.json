@@ -1,0 +1,19 @@
+{
+  "location": {
+    "world": "world",
+    "x": 0.5,
+    "y": 65.0,
+    "z": 0.5,
+    "yaw": -90.16894,
+    "pitch": -1.3500241
+  },
+  "groups": [
+    {
+      "groupName": "Default"
+    }
+  ],
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}
