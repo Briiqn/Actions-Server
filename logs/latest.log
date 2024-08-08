@@ -2,3 +2,14 @@
 [00:00:24] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [00:00:26] [Thread-20/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
 [00:00:26] [Server thread/INFO]: Briiqn[/127.30.38.147:54017] logged in with entity id 321 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:00:56] [Server thread/INFO]: Briiqn lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[00:00:56] [Server thread/WARN]: handleDisconnection() called twice
+[00:01:06] [Thread-21/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[00:01:06] [Server thread/WARN]: Using offline mode UUID file for player ShortyDev as it is the only copy we can find.
+[00:01:06] [Server thread/INFO]: [Essentials] Found new UUID for ShortyDev. Replacing b2dacc6e-4a1b-3315-aea8-dae16ae0a448 with f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[00:01:06] [Server thread/INFO]: ShortyDev[/127.16.144.220:33051] logged in with entity id 354 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:01:06] [pool-9-thread-1/INFO]: Creating empty config: /home/runner/work/Actions-Server/Actions-Server/plugins/Essentials/userdata/f5fbd54b-ba6d-43b6-bfac-859a453623a8.yml
+[00:01:12] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[00:01:15] [Server thread/INFO]: /127.16.144.220:34291 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[00:01:17] [Thread-22/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:01:17] [Server thread/INFO]: Briiqn[/127.30.38.147:55501] logged in with entity id 366 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
