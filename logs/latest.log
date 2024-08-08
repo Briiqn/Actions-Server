@@ -5,3 +5,6 @@
 [00:04:30] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: The same username is already playing on the server!
 [00:14:56] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: You have to join through the proxy.
 [00:16:46] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: gay.
+[00:18:39] [Netty Worker IO Thread #0/INFO]: [FlameCord] [/127.30.38.147:60851] is connecting too fast
+[00:18:40] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
+[00:18:40] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: gay.
