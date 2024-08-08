@@ -463,3 +463,34 @@
 [19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
 [19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
 [19:36:06] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:36:07] [Server thread/INFO]: (FAWE) Detected class org.bukkit.event.block.BlockExplodeEvent
+[19:36:07] [Craft Scheduler Thread - 1/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[19:36:07] [Craft Scheduler Thread - 1/INFO]: [NoCheatPlus] Added hook: ViolationFrequency(NCP) [1.0].
+[19:36:07] [Thread-14/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:36:07] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[19:36:07] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:36:07] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[19:36:07] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[19:36:08] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[19:36:08] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[19:36:08] [Craft Scheduler Thread - 4/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:36:08] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[19:36:08] [Craft Scheduler Thread - 1/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
+[19:36:08] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:36:08] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[19:36:08] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:40456] logged in with entity id 19 at ([world]-1104.3662868849433, 55.0, -279.7867071786306)
+[19:36:08] [Server thread/INFO]: Briiqn lost connection: You logged in from another location
+[19:36:08] [Server thread/INFO]: - Briiqn Disconnected
+[19:36:08] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:36846] logged in with entity id 20 at ([world]-1104.3662868849433, 55.0, -279.7867071786306)
+[19:36:08] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
+[19:36:08] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 27.715650ms. Summary: Getting group for Briiqn
+[19:36:08] [Server thread/WARN]: handleDisconnection() called twice
+[19:36:11] [Server thread/INFO]: Briiqn issued server command: /pl
+[19:36:12] [Server thread/INFO]: Briiqn issued server command: //wand
+[19:36:17] [Server thread/INFO]: Briiqn issued server command: /fly
+[19:36:21] [Thread-16/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[19:36:21] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:48422] logged in with entity id 21 at ([world]-1119.1586400197148, 68.0, -273.50649361873315)
+[19:36:21] [Server thread/INFO]: Briiqn issued server command: /fly
+[19:36:27] [Async Chat Thread - #0/INFO]: <Briiqn> beautiful
+[19:36:31] [Async Chat Thread - #0/INFO]: <Briiqn> now why are citzens saving
+[19:36:34] [Async Chat Thread - #0/INFO]: <Briiqn> arent*

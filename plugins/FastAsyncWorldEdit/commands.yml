@@ -2366,3 +2366,41 @@ TransformCommands:
     - '#l'
     usage: <transform>
     desc: Sequentially pick from a list of transform
+  '#linear3d':
+    help: ''
+    aliases:
+    - '#linear3d'
+    - '#l3d'
+    usage: <transform>
+    desc: Use the x,y,z coordinate to pick a transform from the list
+  '#spread':
+    help: ''
+    aliases:
+    - '#spread'
+    - '#randomoffset'
+    usage: <dx> <dy> <dz> [transform]
+    desc: Random offset transform
+  '#pattern':
+    help: ''
+    aliases:
+    - '#pattern'
+    usage: <pattern> [transform]
+    desc: Always use a specific pattern
+  '#offset':
+    help: ''
+    aliases:
+    - '#offset'
+    usage: <dx> <dy> <dz> [transform]
+    desc: Offset transform
+  '#rotate':
+    help: ''
+    aliases:
+    - '#rotate'
+    usage: <rotateX> <rotateY> <rotateZ> [transform]
+    desc: All changes will be rotate around the initial position
+  '#scale':
+    help: ''
+    aliases:
+    - '#scale'
+    usage: <dx> <dy> <dz> [transform]
+    desc: All changes will be scaled
