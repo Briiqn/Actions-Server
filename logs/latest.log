@@ -231,3 +231,10 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:40:17] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:45746] logged in with entity id 185 at ([world]1771.9012248745587, 4.0, -19.635216203784275)
 [03:40:21] [Async Chat Thread - #1/INFO]: <Briiqn> hello
 [03:40:21] [Async Chat Thread - #1/INFO]: <RayAar> omg
+[03:40:27] [Async Chat Thread - #1/INFO]: <Briiqn> our skywar server is restarting
+[03:40:31] [Async Chat Thread - #1/INFO]: <RayAar> amazing
+[03:40:39] [Async Chat Thread - #1/INFO]: <Briiqn> yes
+[03:40:41] [Async Chat Thread - #1/INFO]: <RayAar> how much ping do i have
+[03:40:45] [Async Chat Thread - #1/INFO]: <RayAar> it looks like 400+
+[03:40:50] [Server thread/INFO]: RayAar issued server command: /ping
+[03:40:50] [Server thread/INFO]: §cRayAar §4was denied access to command.
