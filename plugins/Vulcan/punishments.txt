@@ -1,0 +1,100 @@
+--------------[ Briiqn was punished for Bad Packets (Type I) ]--------------
+
+Location:
+ - World: world
+ - X: 20.667453503551904
+ - Y: 63.0
+ - Z: -16.897990420290906
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 63
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 10.6 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 99
+ - Since Riptide Ticks: 200
+ - Flying Delay: 49
+ - Since Velocity Ticks: 212
+ - Since Firework Ticks: 307
+ - Ticks Existed: 112
+ - Since Vehicle Ticks: 207
+ - Since Liquid Ticks: 207
+ - Queued Transactions: 1
+ - Joined: 5 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Bad Packets (Type I) [VL: 3] (Sent EntityAction while attacking.)
+
+Blocks Nearby: [STAINED_CLAY, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STAINED_CLAY, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STAINED_CLAY, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=xNotJames}]
+Potion Effects: [SPEED:(2147483539t-x0)]
+---------------------------------------------------------------------------
+
+
+--------------[ Briiqn was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 13.871323412284784
+ - Y: 63.71241199778366
+ - Z: -7.909635215187086
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 118
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 10.6 seconds ago
+
+Total Violations: 33
+ - Combat Violations: 0
+ - Movement Violations: 32
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 1
+ - Since Riptide Ticks: 200
+ - Flying Delay: 97
+ - Since Velocity Ticks: 212
+ - Since Firework Ticks: 301
+ - Ticks Existed: 112
+ - Since Vehicle Ticks: 201
+ - Since Liquid Ticks: 201
+ - Queued Transactions: 0
+ - Joined: 4 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Jump (Type A) [VL: 2] (Invalid jump motion.)
+ - Speed (Type A) [VL: 4] (Invalid friction.)
+ - Speed (Type B) [VL: 2] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 6] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 4] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 14] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [GRASS, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(2147483555t-x0)]
+---------------------------------------------------------------------------
+
+
