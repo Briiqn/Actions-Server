@@ -988,3 +988,4 @@ Caused by: java.lang.NullPointerException
 [04:00:44] [Server thread/INFO]: RayAar issued server command: /lostskywars give souls Pyrb 100000
 [04:01:36] [Server thread/INFO]: RayAar issued server command: /mysterydust set RayAar 9999
 [04:01:51] [Server thread/INFO]: RayAar issued server command: /mysterydust set Pyrb 9999
+[04:02:18] [Server thread/INFO]: PyrB lost connection: Disconnected
