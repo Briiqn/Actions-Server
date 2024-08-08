@@ -913,3 +913,6 @@ Caused by: java.lang.NullPointerException
 [03:53:59] [Server thread/INFO]: RayAar issued server command: /skywars
 [03:54:00] [Server thread/INFO]: RayAar issued server command: /pl
 [03:54:08] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[03:54:47] [Server thread/INFO]: Briiqn issued server command: /fly
+[03:54:52] [Server thread/INFO]: Briiqn issued server command: /fly
+[03:55:04] [Server thread/INFO]: RayAar issued server command: /gamemode creative
