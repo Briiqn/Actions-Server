@@ -705,3 +705,15 @@ By running this plugin, you agree to be bound by our TOS
 [20:46:58] [Thread-21/INFO]: UUID of player xNotJames is be6d2a29-3a11-40c4-a4fb-7b970d6aa48f
 [20:46:58] [Server thread/INFO]: xNotJames[/127.254.212.77:46286] logged in with entity id 3383 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [20:47:19] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[21:21:07] [Thread-23/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[21:21:07] [Server thread/INFO]: Briiqn[/127.30.38.147:53668] logged in with entity id 5024 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[21:21:17] [Craft Scheduler Thread - 82/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[21:21:17] [Craft Scheduler Thread - 82/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[21:21:17] [Craft Scheduler Thread - 82/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[21:21:22] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[21:21:24] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[21:21:24] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[21:21:25] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[21:21:26] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[21:21:26] [Netty Epoll Server IO #3/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.nio.channels.ClosedChannelException
