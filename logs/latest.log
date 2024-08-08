@@ -10,3 +10,4 @@
 [00:18:40] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: gay.
 [00:19:24] [Netty Worker IO Thread #1/INFO]: [FlameCord] [/127.30.38.147:53291] is firewalled from the server. (Too many connections)
 [00:23:19] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: Kicked whilst connecting to lobby: gay.
+[00:29:38] [Netty Worker IO Thread #3/INFO]: [Briiqn] disconnected with: Login timeout exceeded, you have been kicked from the server, please try again!
