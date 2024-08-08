@@ -697,3 +697,6 @@ By running this plugin, you agree to be bound by our TOS
 [00:16:42] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [00:16:42] [Head Conversion Thread - 4/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [00:16:42] [Head Conversion Thread - 4/WARN]: 	... 8 more
+[00:16:46] [Thread-16/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:16:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@190d8ce[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@45fab6c7]},legacy=false] (/127.30.38.147:57305): §cgay.
+[00:16:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@190d8ce[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@45fab6c7]},legacy=false] (/127.30.38.147:57305) lost connection: §cgay.
