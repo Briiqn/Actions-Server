@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1723088981863
   login: 1723088945015
 money: '0'
 last-account-name: PyrB
+logoutlocation:
+  world: 26fdd2cc-949e-4147-898f-cfb1b5dfab7d
+  world-name: world
+  x: 1418.853605418568
+  y: 4.0
+  z: 30.78818999366139
+  yaw: -233.2500762939453
+  pitch: 18.299991607666016
