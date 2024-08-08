@@ -1144,3 +1144,7 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:30:42] [luckperms-command-executor/INFO]: [LP] LOG > create
 [20:30:53] [Server thread/INFO]: xNotJames issued server command: /lp editor
 [20:31:07] [Server thread/INFO]: Briiqn issued server command: /mem
+[20:31:21] [Async Chat Thread - #1/INFO]: <xNotJames> im not using chrome
+[20:31:22] [Async Chat Thread - #1/INFO]: <xNotJames> lmao
+[20:31:28] [Async Chat Thread - #1/INFO]: <Briiqn> xd
+[20:31:49] [Server thread/INFO]: Briiqn issued server command: /tp xNotJames
