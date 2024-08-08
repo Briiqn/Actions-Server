@@ -716,3 +716,8 @@ Caused by: java.lang.NullPointerException
 [18:23:16] [Server thread/INFO]: Briiqn issued server command: /verus:manualban xNotJames Cheating
 [18:23:19] [Server thread/INFO]: Briiqn issued server command: /verus:manualban xNotJames
 [18:23:28] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[18:23:42] [Thread-21/INFO]: UUID of player xNotJames is be6d2a29-3a11-40c4-a4fb-7b970d6aa48f
+[18:23:42] [Server thread/INFO]: xNotJames[/127.254.212.77:35894] logged in with entity id 1655 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[18:23:50] [Craft Scheduler Thread - 33/INFO]: [AuthMe] xNotJames logged in 127.254.212.77
+[18:23:59] [Server thread/INFO]: xNotJames issued server command: /lp
+[18:24:03] [Server thread/INFO]: xNotJames issued server command: /ipban briiqn
