@@ -732,3 +732,4 @@ Caused by: java.lang.NullPointerException
 [18:26:55] [Server thread/INFO]: xNotJames issued server command: /deop
 [18:27:15] [Server thread/INFO]: Briiqn issued server command: /verus version
 [18:27:19] [Server thread/INFO]: xNotJames issued server command: /fly
+[18:28:33] [Server thread/INFO]: xNotJames issued server command: /pl
