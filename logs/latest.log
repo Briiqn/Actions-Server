@@ -164,3 +164,8 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [19:03:33] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
 [19:05:17] [Thread-7/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [19:05:17] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:54388] logged in with entity id 22 at ([world]1693.6405034523639, 8.0, -129.70150424061453)
+[19:05:25] [Server thread/INFO]: Briiqn issued server command: /killall
+[19:05:28] [Server thread/INFO]: Briiqn issued server command: /kill Briiqn
+[19:05:28] [Server thread/INFO]: Briiqn died
+[19:05:34] [Server thread/INFO]: Briiqn issued server command: /worlds
+[19:05:35] [Server thread/INFO]: Briiqn issued server command: /world
