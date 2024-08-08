@@ -1,6 +1,1 @@
-[23:58:02] [main/INFO]: FlameCord is using Libdeflate (linux_x86_64) compression
-[23:58:02] [main/INFO]: Enabled FlameCord version 1.3.9
-[23:58:02] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[23:58:02] [main/INFO]: Epoll is working, utilising it!
-[23:58:03] [main/WARN]: Forced host server pvp is not defined
-[23:58:03] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[00:00:56] [Netty Worker IO Thread #5/INFO]: [Briiqn] disconnected with: Login timeout exceeded, you have been kicked from the server, please try again!
