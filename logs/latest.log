@@ -670,3 +670,7 @@ By running this plugin, you agree to be bound by our TOS
 [03:42:21] [Server thread/INFO]: Briiqn issued server command: /verus:ping RayAmar
 [03:42:26] [Server thread/INFO]: Briiqn issued server command: /verus:ping RayAar
 [03:42:35] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
+[03:43:01] [Server thread/INFO]: Briiqn issued server command: /pex user group
+[03:43:06] [Server thread/INFO]: [ProtocolLib] The updater found an update, and has readied it to be loaded the next time the server restarts/reloads.
+[03:43:14] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar add Owner
+[03:43:20] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar set Owner
