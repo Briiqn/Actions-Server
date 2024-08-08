@@ -48,31 +48,31 @@ items:
   filler:
     material: GRAY_STAINED_GLASS_PANE
     slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
-  factions:
-    material: TNT
+  skywars:
+    material: GRASS_BLOCK
     slot: 11
     amount: 1
     glow: true
-    display_name: '&eFactions'
+    display_name: '&dSkywars'
     lore:
       - '&7Join now!'
-      - '&aPlaceholderAPI support!'
+      - '&aHypixel skywars like gamemode!!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eFactions'
-      - '[BUNGEE] factions'
+      - '[MESSAGE] &7Sending you to: &dSkywars'
+      - '[BUNGEE] skywars'
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
   survival:
-    material: GRASS_BLOCK
+    material: DIAMOND_SWORD
     slot: 15
     amount: 1
-    glow: false
-    display_name: '&aSurvival'
+    glow: true
+    display_name: '&eArenaPvP'
     lore:
       - '&7Join now!'
-      - '&aMulti lore support too!'
+      - '&aWhere pro pvping happens'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSurvival'
-      - '[BUNGEE] survival'
+      - '[MESSAGE] &7Sending you to: &eArenaPvP'
+      - '[BUNGEE] arenapvp'
