@@ -13,3 +13,10 @@
 [03:28:58] [Netty Worker IO Thread #7/ERROR]: Error authenticating RayAar with minecraft.net
 io.netty.handler.timeout.ReadTimeoutException: null
 [03:29:14] [Netty Worker IO Thread #0/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:29:16] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:29:18] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.39.31.13:39437] has to reconnect to join
+[03:29:26] [Netty Worker IO Thread #3/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:29:29] [Netty Worker IO Thread #4/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:29:34] [Netty Worker IO Thread #5/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:29:38] [Netty Worker IO Thread #6/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[03:29:42] [Netty Worker IO Thread #7/INFO]: [RayAar] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
