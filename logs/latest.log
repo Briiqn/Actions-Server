@@ -656,3 +656,10 @@ By running this plugin, you agree to be bound by our TOS
 [18:18:17] [Craft Scheduler Thread - 29/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [18:18:28] [Server thread/INFO]: [AuthMe] xNotJames registered 127.254.212.77
 [18:18:28] [Craft Scheduler Thread - 29/INFO]: [AuthMe] xNotJames logged in 127.254.212.77
+[18:19:21] [Server thread/INFO]: xNotJames issued server command: /pex
+[18:19:32] [Server thread/INFO]: Briiqn issued server command: /pex user xNotJames group set Owner
+[18:19:34] [Server thread/INFO]: xNotJames issued server command: /pex demote a a
+[18:19:34] [Server thread/ERROR]: [PermissionsEx] Ranking Error (xNotJames demotes 2a66f901-f15e-36c8-861d-ec3f316737e7/aeeasd41): User are not in this ladder
+[18:19:38] [Server thread/INFO]: xNotJames issued server command: /demote a a
+[18:19:38] [Server thread/INFO]: Briiqn issued server command: /pex user ShortyDev group set Owner
+[18:19:46] [Server thread/INFO]: Briiqn issued server command: /alerts

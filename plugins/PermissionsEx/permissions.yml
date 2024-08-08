@@ -162,3 +162,11 @@ users:
       name: RayAar
     group:
     - Owner
+  be6d2a29-3a11-40c4-a4fb-7b970d6aa48f:
+    group:
+    - Owner
+    options:
+      name: xNotJames
+  f5fbd54b-ba6d-43b6-bfac-859a453623a8:
+    group:
+    - Owner
