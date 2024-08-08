@@ -1148,3 +1148,14 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:31:22] [Async Chat Thread - #1/INFO]: <xNotJames> lmao
 [20:31:28] [Async Chat Thread - #1/INFO]: <Briiqn> xd
 [20:31:49] [Server thread/INFO]: Briiqn issued server command: /tp xNotJames
+[20:32:22] [Server thread/INFO]: xNotJames issued server command: /lp applyedits 8iUxs65Jno
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [G] (owner)
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add * true
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (briiqn)
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.owner true
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (briiqn)
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove group.default true
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.owner true
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[20:32:22] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove group.default true
