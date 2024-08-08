@@ -1065,3 +1065,6 @@ Caused by: java.lang.NullPointerException
 [04:38:45] [Server thread/INFO]: Briiqn issued server command: /autore pause
 [04:38:45] [Server thread/INFO]: AutoRestart timer has been paused
 [04:39:15] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:48:14] [Thread-30/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[04:48:14] [Server thread/INFO]: Briiqn[/127.30.38.147:48344] logged in with entity id 3698 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[04:48:23] [Server thread/INFO]: Briiqn lost connection: Disconnected
