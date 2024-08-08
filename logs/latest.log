@@ -1081,3 +1081,4 @@ Caused by: java.lang.NullPointerException
 [04:52:21] [Server thread/INFO]: Briiqn issued server command: /verus:ping RayAar
 [04:52:35] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [05:35:45] [Server thread/INFO]: RayAar lost connection: Disconnected
+[06:26:10] [Server thread/INFO]: [AutoRestart] Server Will Restart In 15 Minutes!
