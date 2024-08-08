@@ -251,3 +251,11 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:00:41] [Server thread/INFO]: Briiqn issued server command: /B
 [21:00:41] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> why
 [21:00:43] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> is the
+[21:00:49] [Server thread/INFO]: Created a User for §dSkywars (1286e2a1-334b-2361-a1f5-eed6f1195bad) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
+[21:01:00] [Server thread/INFO]: xNotJames issued server command: /essentials reload
+[21:01:00] [Server thread/INFO]: Loaded 854 items from items.csv.
+[21:01:00] [Server thread/INFO]: Using locale en
+[21:01:00] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:01:01] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> a
+[21:01:07] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> bruh
+[21:01:07] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> B
