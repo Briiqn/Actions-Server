@@ -421,3 +421,12 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [19:17:35] [Craft Scheduler Thread - 1/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse Profile[0;39m
 [19:17:37] [Thread-7/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
 [19:17:37] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:56464] logged in with entity id 19 at ([world]-1116.5, 68.0, -264.5)
+[19:17:44] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:17:44] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:58206] logged in with entity id 20 at ([world]-1121.5, 68.0, -269.5)
+[19:17:53] [Server thread/INFO]: xNotJames issued server command: /pl
+[19:17:54] [Server thread/INFO]: Briiqn issued server command: /op
+[19:17:58] [Server thread/INFO]: Briiqn issued server command: //wand
+[19:18:00] [Server thread/INFO]: Briiqn issued server command: //wand
+[19:18:02] [Server thread/INFO]: Briiqn issued server command: /pl
+[19:18:11] [Async Chat Thread - #0/INFO]: <Briiqn> where did plugins go
+[19:18:15] [Async Chat Thread - #0/INFO]: <xNotJames> yhe
