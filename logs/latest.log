@@ -143,3 +143,15 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:36:44] [Server thread/INFO]: Briiqn left the game.
 [02:36:54] [Thread-9/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
 [02:36:54] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:34118] logged in with entity id 37 at ([world]1475.4784912496953, 4.0, 13.186058170009783)
+[02:37:17] [Thread-10/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[02:37:17] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:51334] logged in with entity id 41 at ([world]1684.916680707353, 6.490643233610556, -144.63087104454152)
+[02:37:20] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[02:37:20] [Server thread/INFO]: Briiqn left the game.
+[02:37:25] [Thread-11/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[02:37:25] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:59830] logged in with entity id 47 at ([world]1679.36048227825, 6.490643233610556, -145.8470263416146)
+[02:37:31] [Async Chat Thread - #0/INFO]: <ShortyDev> where did you join from
+[02:37:36] [Async Chat Thread - #0/INFO]: <Briiqn> i joined with playit ip
+[02:37:40] [Async Chat Thread - #0/INFO]: <ShortyDev> bungee?
+[02:37:45] [Async Chat Thread - #0/INFO]: <Briiqn> yes
+[02:37:46] [Server thread/INFO]: ShortyDev lost connection: Disconnected
+[02:37:46] [Server thread/INFO]: ShortyDev left the game.
