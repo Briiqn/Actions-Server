@@ -960,3 +960,7 @@ Caused by: java.lang.NullPointerException
 [03:55:55] [Server thread/INFO]: Briiqn issued server command: /spec
 [03:56:04] [Server thread/INFO]: RayAar issued server command: /ping
 [03:56:07] [Server thread/INFO]: RayAar issued server command: /ping
+[03:56:33] [Server thread/INFO]: Briiqn issued server command: /whois
+[03:56:33] [Server thread/INFO]: RayAar issued server command: /whois
+[03:56:36] [Server thread/INFO]: Briiqn issued server command: /whois Briiqn
+[03:56:36] [Server thread/INFO]: RayAar issued server command: /whois Rayaar
