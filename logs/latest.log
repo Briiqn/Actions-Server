@@ -661,3 +661,12 @@ By running this plugin, you agree to be bound by our TOS
 [00:27:27] [Server thread/INFO]: Briiqn issued server command: /
 [00:27:27] [Server thread/INFO]: Briiqn issued server command: /
 [00:28:05] [Server thread/INFO]: Briiqn issued server command: /pl
+[00:28:31] [Server thread/INFO]: Briiqn issued server command: /clear
+[00:28:35] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[00:28:38] [Thread-19/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:28:38] [Server thread/INFO]: Briiqn[/127.30.38.147:42717] logged in with entity id 295 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:28:41] [Craft Scheduler Thread - 7/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[00:28:41] [Craft Scheduler Thread - 7/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[00:28:41] [Craft Scheduler Thread - 7/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[00:28:45] [Server thread/INFO]: Briiqn issued server command: /mem
+[00:28:45] [Server thread/INFO]: §cBriiqn §4was denied access to command.
