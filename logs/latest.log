@@ -241,3 +241,33 @@
 [20:42:17] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:37446] logged in with entity id 35 at ([world]-1113.1856686808296, 67.8342943628267, -191.83051236259263)
 [20:42:17] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
 [20:42:17] [Server thread/WARN]: handleDisconnection() called twice
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cJump (A)  §7VL: 1/25, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 2/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (C)  §7VL: 2/15, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 2/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 3/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 3/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 4/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (C)  §7VL: 4/15, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 4/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cStrafe (A)  §7VL: 2/15, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 5/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 5/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 6/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (C)  §7VL: 6/15, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 6/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cStrafe (A)  §7VL: 4/15, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 7/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 7/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 8/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (C)  §7VL: 8/15, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 8/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (B)  §7VL: 9/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cSpeed (D)  §7VL: 9/20, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fBriiqn failed §cImprobable (B)  §7VL: 1/1, Ping: 0ms, TPS: 20, Version: v1.8
+[20:42:24] [pool-18-thread-1/INFO]:  ✗ Vulcan has removed Briiqn due to cheating violations. 
+[20:42:24] [Server thread/INFO]: CONSOLE issued server command: /kick Briiqn §c[AC] Skill Issue Detected
+[20:42:24] [Server thread/INFO]: Briiqn lost connection: §c[AC] Skill Issue Detected
+[20:42:24] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
+[20:42:24] [Server thread/INFO]: §6Player§c Console §6kicked§c Briiqn§6 for§c §c[AC] Skill Issue Detected§6.
+[20:42:24] [Server thread/WARN]: handleDisconnection() called twice
