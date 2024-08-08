@@ -1180,3 +1180,9 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [20:35:05] [Server thread/INFO]: xNotJames issued server command: /lp
 [20:35:07] [Async Chat Thread - #3/INFO]: <Briiqn> like without doing much
 [20:35:09] [Async Chat Thread - #3/INFO]: <xNotJames> i think so
+[20:35:14] [Server thread/INFO]: xNotJames issued server command: /lp help
+[20:35:17] [Server thread/INFO]: xNotJames issued server command: /lp sync
+[20:35:17] [Async Chat Thread - #3/INFO]: <Briiqn> perfect
+[20:35:28] [Async Chat Thread - #3/INFO]: <xNotJames> t/lp import
+[20:35:32] [Async Chat Thread - #3/INFO]: <Briiqn> ok
+[20:35:33] [Async Chat Thread - #3/INFO]: <xNotJames> idk wait
