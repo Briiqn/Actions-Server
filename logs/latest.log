@@ -121,3 +121,8 @@ The Ban Hammer has spoken!
 [21:37:18] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [21:42:33] [Netty Worker IO Thread #5/INFO]: [xNotJames] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [21:48:21] [Netty Worker IO Thread #6/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
+[21:48:59] [Netty Worker IO Thread #0/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[21:48:59] [Netty Worker IO Thread #1/INFO]: [FlameCord] [/127.134.178.31:34219] is firewalled from the server. (QuietException)
+[21:48:59] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.134.178.31:57807] is firewalled from the server. (QuietException)
+[21:49:00] [Netty Worker IO Thread #3/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[21:49:00] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
