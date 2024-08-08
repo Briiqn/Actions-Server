@@ -227,3 +227,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:36:39] [Server thread/INFO]: Briiqn left the game.
 [03:38:13] [Thread-9/INFO]: UUID of player RayAar is 8e6a3e11-39e0-312f-8c9a-d3dd5d9024f8
 [03:38:13] [Server thread/INFO]: RayAar[/0:0:0:0:0:0:0:1:36438] logged in with entity id 122 at ([world]1646.6727004818922, 4.0, 56.058291791306175)
+[03:40:17] [Thread-10/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[03:40:17] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:45746] logged in with entity id 185 at ([world]1771.9012248745587, 4.0, -19.635216203784275)
+[03:40:21] [Async Chat Thread - #1/INFO]: <Briiqn> hello
+[03:40:21] [Async Chat Thread - #1/INFO]: <RayAar> omg
