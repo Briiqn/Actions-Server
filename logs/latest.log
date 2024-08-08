@@ -113,3 +113,5 @@ The Ban Hammer has spoken!
 [21:26:15] [Netty Worker IO Thread #3/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
 [21:30:11] [Netty Worker IO Thread #5/INFO]: [xNotJames] disconnected with: [Proxy] Lost connection to server.
 [21:30:11] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
+[21:31:49] [Netty Worker IO Thread #7/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[21:32:08] [Netty Worker IO Thread #0/INFO]: [xNotJames] disconnected with: Kicked whilst connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
