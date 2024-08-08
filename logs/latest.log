@@ -964,3 +964,7 @@ Caused by: java.lang.NullPointerException
 [03:56:33] [Server thread/INFO]: RayAar issued server command: /whois
 [03:56:36] [Server thread/INFO]: Briiqn issued server command: /whois Briiqn
 [03:56:36] [Server thread/INFO]: RayAar issued server command: /whois Rayaar
+[03:56:58] [Server thread/INFO]: RayAar issued server command: /versus:ping
+[03:57:04] [Server thread/INFO]: RayAar issued server command: /versus
+[03:57:07] [Server thread/INFO]: RayAar issued server command: /versus:ping
+[03:57:10] [Server thread/INFO]: RayAar issued server command: /versus:ping RayAar
