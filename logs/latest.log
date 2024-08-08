@@ -620,3 +620,12 @@ By running this plugin, you agree to be bound by our TOS
 [22:15:54] [Craft Scheduler Thread - 11/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
 [22:15:54] [Craft Scheduler Thread - 8/INFO]: [GadgetsMenu] Checking for updates...
 [22:15:54] [Craft Scheduler Thread - 11/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[22:15:54] [Craft Scheduler Thread - 8/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.3.11, available version 4.15.0.
+[22:15:54] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
+[22:15:54] [Craft Scheduler Thread - 3/INFO]: [PlaceholderAPI] 150 placeholder expansions are available on the cloud.
+[22:15:55] [Craft Scheduler Thread - 3/INFO]: [ItemList] Checking for an update...
+[22:15:56] [Craft Scheduler Thread - 3/ERROR]: [ItemList] Error when checking for a new update!
+[22:15:57] [Craft Scheduler Thread - 8/INFO]: [GadgetsMenu] ------------------------------------------------------
+[22:15:57] [Craft Scheduler Thread - 8/INFO]: [GadgetsMenu]   You have an old version of the GadgetsMenu plugin.
+[22:15:57] [Craft Scheduler Thread - 8/INFO]: [GadgetsMenu]     Please download the latest version on spigot.
+[22:15:57] [Craft Scheduler Thread - 8/INFO]: [GadgetsMenu] ------------------------------------------------------
