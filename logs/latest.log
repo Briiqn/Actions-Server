@@ -992,3 +992,10 @@ Caused by: java.lang.NullPointerException
 [04:03:14] [Server thread/INFO]: RayAar issued server command: /tps
 [04:03:18] [Server thread/INFO]: RayAar issued server command: /spark healthreport
 [04:03:19] [Server thread/INFO]: RayAar issued server command: /spark
+[04:03:42] [Thread-22/INFO]: UUID of player PyrB is 71032472-f9fa-4801-8609-191dd51b51b3
+[04:03:42] [Server thread/INFO]: PyrB[/127.220.84.169:33214] logged in with entity id 1537 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[04:03:48] [Craft Scheduler Thread - 23/INFO]: [AuthMe] PyrB logged in 127.220.84.169
+[04:03:51] [Server thread/INFO]: RayAar issued server command: /spark
+[04:04:08] [Server thread/INFO]: RayAar issued server command: /summon fireball
+[04:04:08] [Server thread/WARN]: Skipping Entity with id fireball
+[04:04:08] [Server thread/INFO]: [RayAar: Unable to summon object]
