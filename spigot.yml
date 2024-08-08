@@ -78,11 +78,6 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -116,7 +111,18 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    mob-spawn-range: 4
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -137,13 +143,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
+    mob-spawn-range: 4
     hunger:
       walk-exhaustion: 0.2
       sprint-exhaustion: 0.8
