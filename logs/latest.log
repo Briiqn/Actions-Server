@@ -263,3 +263,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [04:23:30] [Craft Scheduler Thread - 23/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
 [04:24:14] [Server thread/INFO]: Briiqn lost connection: Disconnected
 [04:24:14] [Server thread/INFO]: Briiqn left the game.
+[04:29:09] [Thread-15/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[04:29:09] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:58466] logged in with entity id 265 at ([world]1799.2445089142475, 4.0, -97.28050987108942)
+[04:29:13] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:29:13] [Server thread/INFO]: Briiqn left the game.
