@@ -190,3 +190,5 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:51:09] [Async Chat Thread - #1/INFO]: <Briiqn> hi
 [02:51:29] [Async Chat Thread - #1/INFO]: <ShortyDev> remove only proxy join
 [02:51:31] [Async Chat Thread - #1/INFO]: <ShortyDev> from the hypixel
+[02:52:08] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[02:52:08] [Server thread/INFO]: Briiqn left the game.
