@@ -725,3 +725,4 @@ Caused by: java.lang.NullPointerException
 [18:24:18] [Server thread/INFO]: xNotJames issued server command: /alerts
 [18:24:21] [Server thread/INFO]: xNotJames issued server command: /alerts
 [18:25:10] [Server thread/WARN]: xNotJames moved wrongly!
+[18:25:31] [Server thread/INFO]: ShortyDev lost connection: Disconnected

@@ -170,3 +170,5 @@ users:
   f5fbd54b-ba6d-43b6-bfac-859a453623a8:
     group:
     - Owner
+    options:
+      name: ShortyDev

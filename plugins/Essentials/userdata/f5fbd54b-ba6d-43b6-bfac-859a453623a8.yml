@@ -1,15 +1,15 @@
 lastAccountName: ShortyDev
 timestamps:
   login: 1723141049046
-  logout: 1723141017388
+  logout: 1723141530652
 ipAddress: 127.16.144.220
 logoutlocation:
   world: world
-  x: 0.4805297752731945
-  y: 65.0
-  z: 0.4876591904060934
-  yaw: -90.09297
-  pitch: -1.7613653
+  x: 0.4749119274303625
+  y: 66.0
+  z: -5.272103580224036
+  yaw: -2.6010742
+  pitch: 16.717117
 lastlocation:
   world: Mini9E
   x: 7.129817506339931
