@@ -71,3 +71,4 @@ The Ban Hammer has spoken!
 [20:43:25] [Netty Worker IO Thread #4/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
 [20:43:26] [Thread-3/INFO]: Blacklisted 1 ips from the kernel with IPSet
 [20:44:41] [Netty Worker IO Thread #4/INFO]: [Briiqn] disconnected with: [Proxy] Lost connection to server.
+[20:45:14] [Netty Worker IO Thread #5/INFO]: [xNotJames] disconnected with: Kicked whilst connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
