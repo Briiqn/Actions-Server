@@ -169,3 +169,7 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [18:14:28] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:58232] logged in with entity id 30 at ([world]1782.617511291464, 4.0, -118.59606440757558)
 [18:15:55] [Server thread/INFO]: Briiqn issued server command: /tps
 [18:15:58] [Server thread/INFO]: Briiqn issued server command: /mem
+[18:16:41] [Server thread/INFO]: Briiqn issued server command: /pol
+[18:16:42] [Server thread/INFO]: Briiqn issued server command: /pl
+[18:16:46] [Thread-9/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[18:16:46] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:52776] logged in with entity id 85 at ([world]1427.4308039183645, 4.0, 29.698491092884428)
