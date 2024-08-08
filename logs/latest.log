@@ -169,3 +169,11 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [19:05:28] [Server thread/INFO]: Briiqn died
 [19:05:34] [Server thread/INFO]: Briiqn issued server command: /worlds
 [19:05:35] [Server thread/INFO]: Briiqn issued server command: /world
+[19:06:06] [Thread-8/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[19:06:06] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:36388] logged in with entity id 24 at ([world]1440.993597449457, 16.0, 28.157354189322966)
+[19:06:08] [Server thread/INFO]: Briiqn issued server command: /setworldspawn 0 0
+[19:06:12] [Server thread/INFO]: Briiqn issued server command: /setworldspawn 0 50 0
+[19:06:15] [Server thread/INFO]: Briiqn issued server command: /kill *
+[19:06:15] [Server thread/INFO]: Briiqn died
+[19:06:15] [Server thread/INFO]: xNotJames died
+[19:06:24] [Async Chat Thread - #0/INFO]: <Briiqn> it would be @ 0 0
