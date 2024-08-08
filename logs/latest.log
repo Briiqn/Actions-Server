@@ -968,3 +968,5 @@ Caused by: java.lang.NullPointerException
 [03:57:04] [Server thread/INFO]: RayAar issued server command: /versus
 [03:57:07] [Server thread/INFO]: RayAar issued server command: /versus:ping
 [03:57:10] [Server thread/INFO]: RayAar issued server command: /versus:ping RayAar
+[03:58:32] [Server thread/INFO]: RayAar issued server command: /tp PyrB
+[03:58:41] [Server thread/INFO]: RayAar issued server command: /gamemode creative
