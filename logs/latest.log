@@ -152,3 +152,16 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:18:47] [Server thread/INFO]: Briiqn issued server command: /whois briiqn
 [02:18:47] [Async Chat Thread - #0/INFO]: <ShortyDev> execute this command in bungee
 [02:18:51] [Async Chat Thread - #0/INFO]: <ShortyDev> you dont need to login with cert
+[02:18:55] [Async Chat Thread - #0/INFO]: <Briiqn> ok
+[02:18:56] [Async Chat Thread - #0/INFO]: <ShortyDev> just make the random url secret
+[02:19:02] [Async Chat Thread - #0/INFO]: <Briiqn> same command?
+[02:19:05] [Async Chat Thread - #0/INFO]: <ShortyDev> yeah
+[02:19:10] [Async Chat Thread - #0/INFO]: <Briiqn> ok
+[02:19:10] [Async Chat Thread - #0/INFO]: <ShortyDev> also in the main server, on server.properties
+[02:19:12] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[02:19:12] [Server thread/INFO]: Briiqn left the game.
+[02:19:14] [Async Chat Thread - #0/INFO]: <ShortyDev> make sure server ip is localhost
+[02:19:19] [Thread-9/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[02:19:19] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:44952] logged in with entity id 74 at ([world]1721.3659052036628, 4.0, -144.25686236602058)
+[02:19:21] [Async Chat Thread - #0/INFO]: <Briiqn> what
+[02:19:23] [Async Chat Thread - #0/INFO]: <ShortyDev> disc
