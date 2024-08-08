@@ -741,3 +741,5 @@ Caused by: java.lang.NullPointerException
 [18:31:58] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames
 [18:33:37] [Server thread/INFO]: xNotJames issued server command: /pex user xNotJames add *
 [18:34:00] [Server thread/INFO]: xNotJames issued server command: /ram
+[18:35:35] [Server thread/INFO]: xNotJames issued server command: /servers
+[18:35:38] [Server thread/INFO]: xNotJames lost connection: Disconnected
