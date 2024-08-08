@@ -714,3 +714,7 @@ Caused by: java.lang.NullPointerException
 [03:44:15] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar
 [03:44:17] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar
 [03:44:18] [Server thread/INFO]: Briiqn issued server command: /pex user group RayAar
+[03:44:30] [Server thread/INFO]: RayAar issued server command: /pl
+[03:44:33] [Server thread/INFO]: RayAar issued server command: /pex
+[03:44:37] [Server thread/INFO]: RayAar issued server command: /gamemode creative
+[03:44:37] [Server thread/INFO]: §cRayAar §4was denied access to command.
