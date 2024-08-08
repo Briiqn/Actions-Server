@@ -719,3 +719,5 @@ Caused by: java.lang.NullPointerException
 [03:44:37] [Server thread/INFO]: RayAar issued server command: /gamemode creative
 [03:44:37] [Server thread/INFO]: §cRayAar §4was denied access to command.
 [03:45:20] [Server thread/INFO]: Briiqn issued server command: /pex group user RayAar group set Owner
+[03:45:36] [Server thread/INFO]: Briiqn issued server command: /pex user RayAar group set Owner
+[03:45:44] [Server thread/INFO]: Briiqn issued server command: /lsw fstart
