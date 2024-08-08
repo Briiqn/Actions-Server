@@ -1,7 +1,7 @@
 lastAccountName: xNotJames
 timestamps:
   login: 1723159010662
-  logout: 1723158652432
+  logout: 1723159349620
 ipAddress: 127.254.212.77
 lastlocation:
   world: Mini9E
@@ -13,8 +13,8 @@ lastlocation:
 money: '5.0'
 logoutlocation:
   world: world
-  x: 10.19597858602125
-  y: 63.0
-  z: 4.194725254092086
-  yaw: -19.018217
-  pitch: 14.537933
+  x: -11.238455529226503
+  y: 69.0
+  z: 9.50905951283469
+  yaw: 244.83313
+  pitch: 62.63207
