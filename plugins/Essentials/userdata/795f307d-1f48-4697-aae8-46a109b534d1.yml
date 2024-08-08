@@ -2,4 +2,11 @@ lastAccountName: RayAar
 timestamps:
   login: 1723088489418
 ipAddress: 127.39.31.13
-money: '120.0'
+money: '125.0'
+lastlocation:
+  world: Mini31E
+  x: 10.267579684407435
+  y: -66.16064428227845
+  z: 18.894257749020348
+  yaw: 238.05026
+  pitch: -90.0
