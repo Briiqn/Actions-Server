@@ -710,3 +710,9 @@ Caused by: java.lang.NullPointerException
 [18:22:53] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
 [18:22:54] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
 [18:22:55] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[18:23:09] [Server thread/INFO]: xNotJames issued server command: /alerts
+[18:23:11] [Server thread/INFO]: xNotJames issued server command: /alerts
+[18:23:14] [Server thread/INFO]: xNotJames issued server command: /pex
+[18:23:16] [Server thread/INFO]: Briiqn issued server command: /verus:manualban xNotJames Cheating
+[18:23:19] [Server thread/INFO]: Briiqn issued server command: /verus:manualban xNotJames
+[18:23:28] [Server thread/INFO]: xNotJames lost connection: Disconnected
