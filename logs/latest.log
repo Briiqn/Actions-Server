@@ -636,3 +636,6 @@ By running this plugin, you agree to be bound by our TOS
 [17:53:50] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu]   You have an old version of the GadgetsMenu plugin.
 [17:53:50] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu]     Please download the latest version on spigot.
 [17:53:50] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] ------------------------------------------------------
+[18:16:54] [Thread-17/INFO]: UUID of player ShortyDev is f5fbd54b-ba6d-43b6-bfac-859a453623a8
+[18:16:54] [Server thread/INFO]: ShortyDev[/127.16.144.220:44768] logged in with entity id 1276 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[18:16:57] [Server thread/INFO]: ShortyDev lost connection: Disconnected
