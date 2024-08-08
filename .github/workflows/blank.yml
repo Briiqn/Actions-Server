@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '8'
-          distribution: 'oracle'
+          distribution: 'temurin'
       - name: Debug - List directory contents
         run: ls -la
       - name: Run Spigot and playit with 30-second commits and workflow deletion
