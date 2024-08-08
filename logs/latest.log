@@ -1018,3 +1018,4 @@ Caused by: java.lang.NullPointerException
 [04:07:47] [Server thread/INFO]: RayAar issued server command: /ee
 [04:07:53] [Server thread/INFO]: RayAar issued server command: /essentials reload
 [04:07:53] [Server thread/INFO]: Using locale en
+[04:08:03] [Server thread/INFO]: RayAar issued server command: /setblock lit_tnt
