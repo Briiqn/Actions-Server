@@ -1049,3 +1049,15 @@ Caused by: java.lang.NullPointerException
 [04:32:30] [Server thread/INFO]: PyrB lost connection: Disconnected
 [04:33:10] [Server thread/WARN]: Briiqn moved wrongly!
 [04:33:46] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:38:12] [Thread-27/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[04:38:12] [Server thread/INFO]: Briiqn[/127.30.38.147:58202] logged in with entity id 3214 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[04:38:14] [Server thread/INFO]: Briiqn issued server command: /verus:ping
+[04:38:16] [Craft Scheduler Thread - 47/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[04:38:16] [Craft Scheduler Thread - 47/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[04:38:16] [Craft Scheduler Thread - 47/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[04:38:18] [Server thread/INFO]: Briiqn issued server command: /verus:ping
+[04:38:19] [Server thread/INFO]: Briiqn issued server command: /verus:ping
+[04:38:21] [Server thread/INFO]: Briiqn issued server command: /verus:ping
+[04:38:23] [Server thread/INFO]: Briiqn issued server command: /verus:ping
+[04:38:35] [Server thread/INFO]: Briiqn issued server command: /autorestart
+[04:38:38] [Server thread/INFO]: Briiqn issued server command: /autore
