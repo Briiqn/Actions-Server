@@ -1142,3 +1142,11 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 [19:39:47] [Server thread/INFO]: xNotJames issued server command: /ncp
 [19:39:51] [Server thread/INFO]: xNotJames issued server command: /fly
 [19:39:55] [Server thread/INFO]: xNotJames issued server command: /deop Xxl1ft1ng_4cr0ny
+[19:39:57] [Server thread/INFO]: Created a User for §dSkywars (1286e2a1-334b-2361-a1f5-eed6f1195bad) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
+[19:40:00] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[19:40:00] [Server thread/INFO]: - Briiqn Disconnected
+[19:40:00] [Async Chat Thread - #0/INFO]: <xNotJames> wetf
+[19:40:07] [Thread-19/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:40:07] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:38366] logged in with entity id 39 at ([world]-1122.3255773228118, 68.10408037809304, -272.52101543173785)
+[19:40:24] [Server thread/INFO]: xNotJames issued server command: /deop 123sd
+[19:40:26] [Server thread/INFO]: xNotJames issued server command: /deop 1337
