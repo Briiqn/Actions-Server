@@ -254,3 +254,10 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [04:03:36] [Server thread/INFO]: PyrB[/0:0:0:0:0:0:0:1:33378] logged in with entity id 232 at ([world]1418.853605418568, 4.0, 30.78818999366139)
 [04:03:42] [Server thread/INFO]: PyrB lost connection: Disconnected
 [04:03:42] [Server thread/INFO]: PyrB left the game.
+[04:23:23] [Thread-14/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[04:23:23] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:45452] logged in with entity id 233 at ([world]1799.070050842658, 4.0, -96.69735775574442)
+[04:23:29] [Server thread/INFO]: Briiqn issued server command: /spark profiler stop
+[04:23:29] [Craft Scheduler Thread - 23/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[04:23:30] [Craft Scheduler Thread - 23/INFO]: [⚡] Profiler stopped & upload complete!
+[04:23:30] [Craft Scheduler Thread - 23/INFO]: https://spark.lucko.me/D4cGe2H9J2
+[04:23:30] [Craft Scheduler Thread - 23/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
