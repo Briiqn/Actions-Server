@@ -267,3 +267,21 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:01:38] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> huh
 [21:01:43] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> i am alex skin on my screen
 [21:01:43] [Async Chat Thread - #0/INFO]: <[Manager]xNotJames> oh cuz im using viafabric
+[21:01:52] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> ahcke
+[21:01:54] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> hack
+[21:02:05] [Server thread/INFO]: xNotJames issued server command: /deop xNotJames
+[21:02:12] [Server thread/INFO]: Briiqn issued server command: /alerts
+[21:02:14] [Server thread/INFO]: Briiqn issued server command: /alerts
+[21:02:16] [Server thread/INFO]: Briiqn issued server command: /vulcan
+[21:02:20] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames parent set default
+[21:02:20] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[21:02:20] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 2/15, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 2/30, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 2/15, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 2/12, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 4/15, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 4/15, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (E)  §7VL: 2/30, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 384ms, TPS: 20, Version: v1.8
+[21:02:23] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (D)  §7VL: 2/20, Ping: 384ms, TPS: 20, Version: v1.8
