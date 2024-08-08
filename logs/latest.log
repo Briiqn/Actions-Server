@@ -178,3 +178,6 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [03:33:15] [Craft Scheduler Thread - 1/INFO]: https://spark.lucko.me/TlO35U4Pji
 [03:33:15] [Craft Scheduler Thread - 1/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
 [03:33:22] [Async Chat Thread - #0/INFO]: <Briiqn> https://spark.lucko.me/TlO35U4Pji
+[03:33:33] [Server thread/INFO]: Briiqn issued server command: /tp RayAar
+[03:33:54] [Async Chat Thread - #0/INFO]: <RayAar> wow the servers not having a fun time
+[03:34:00] [Async Chat Thread - #0/INFO]: <Briiqn> yes
