@@ -1285,3 +1285,619 @@ java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nochea
 §7AllViolations~NCP~ 1.0§f, §7ViolationFrequency~NCP~ 1.0
 §c§l»Related Plugins«§7
 §7ViaVersion v4.10.2
+24-08-08 20:27:19 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-855454709
+24-08-08 20:27:19 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	fr.neatmonster.nocheatplus.compat.AttribUtil.<clinit>(AttribUtil.java:31)
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	fr.neatmonster.nocheatplus.compat.AttribUtil.<clinit>(AttribUtil.java:31)
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:19 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=1973428840
+24-08-08 20:27:19 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInLook.a(SourceFile:88)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInLook.a(SourceFile:88)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-95623304
+24-08-08 20:27:21 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:21 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:22 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:22 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-405289891
+24-08-08 20:27:22 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:615)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:22 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+24-08-08 20:27:22 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:23 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1463572259
+24-08-08 20:27:24 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:615)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:24 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:25 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:26 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:27 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:28 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:29 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:30 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:31 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-405289891
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-405289891
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:33 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:34 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:35 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=626373756
+24-08-08 20:27:36 [SEVERE] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:8)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:8)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+24-08-08 20:27:36 [SEVERE] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976

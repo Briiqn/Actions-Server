@@ -54,3 +54,57 @@ Potion Effects: [SPEED:(997575t-x0)]
 ---------------------------------------------------------------------------
 
 
+--------------[ xNotJames was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -1110.2294321483485
+ - Y: 77.7531999805212
+ - Z: -269.88940731001327
+
+Information:
+ - UUID: be317d90-8585-31d4-b983-cc75820d94de
+ - Keep Alive Ping: 397
+ - Transaction Ping: 497
+ - Server TPS: 20
+ - Sensitivity: 74
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 24.6 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 4
+ - Since Riptide Ticks: 200
+ - Flying Delay: 1
+ - Since Velocity Ticks: 492
+ - Since Firework Ticks: 463
+ - Ticks Existed: 392
+ - Since Vehicle Ticks: 363
+ - Since Liquid Ticks: 363
+ - Queued Transactions: 2
+ - Joined: 35 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 2] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 5] (Invalid jump motion.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 4] (Invalid friction.)
+ - Speed (Type B) [VL: 4] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 8] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 12] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(994556t-x0)]
+---------------------------------------------------------------------------
+
+

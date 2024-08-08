@@ -241,3 +241,650 @@
 [20:27:06] [Server thread/INFO]: Briiqn issued server command: /flyspeed 1
 [20:27:10] [Server thread/INFO]: Briiqn issued server command: /i barrier
 [20:27:12] [Server thread/INFO]: Briiqn issued server command: /gmc
+[20:27:19] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-855454709
+[20:27:19] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	fr.neatmonster.nocheatplus.compat.AttribUtil.<clinit>(AttribUtil.java:31)
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	fr.neatmonster.nocheatplus.compat.AttribUtil.<clinit>(AttribUtil.java:31)
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:19] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=1973428840
+[20:27:19] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInLook.a(SourceFile:88)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInLook.a(SourceFile:88)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-95623304
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:21] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:22] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:22] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-405289891
+[20:27:22] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:615)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:22] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+[20:27:22] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:23] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:23] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1463572259
+[20:27:24] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:615)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPositionLook.a(SourceFile:18)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:24] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=1973428840
+[20:27:24] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:24] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:24] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:24] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:25] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:26] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:27] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:28] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:29] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:30] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:30] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:31] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-405289891
+[20:27:33] [Async Chat Thread - #0/INFO]: <xNotJames> perfect
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-405289891
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:33] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:33] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:33] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:34] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 1/25, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 2/25, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 2/15, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 3/25, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 2/15, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 4/15, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 2/20, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 4/15, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 2/12, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 6/15, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [Craft Scheduler Thread - 1/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cFlight (B)  §7VL: 2/30, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:35] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 8/15, Ping: 412ms, TPS: 20, Version: v1.8
+[20:27:36] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-95623304
+[20:27:36] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=626373756
+[20:27:36] [Craft Scheduler Thread - 4/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:8)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:8)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[20:27:36] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:36] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:36] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 4/25, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 6/15, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cJump (A)  §7VL: 5/25, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 3/12, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 3/20, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:36] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:36] [Craft Scheduler Thread - 5/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1311355976
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 10/15, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cMotion (A)  §7VL: 1/15, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (A)  §7VL: 4/12, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (B)  §7VL: 4/20, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:36] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cSpeed (C)  §7VL: 8/15, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cStrafe (A)  §7VL: 12/15, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:37] [pool-18-thread-1/INFO]: §7[§c§l❀§7] §fxNotJames failed §cImprobable (B)  §7VL: 1/1, Ping: 397ms, TPS: 20, Version: v1.8
+[20:27:37] [pool-18-thread-1/INFO]:  ✗ Vulcan has removed xNotJames due to cheating violations. 
+[20:27:37] [Server thread/INFO]: CONSOLE issued server command: /kick xNotJames §c[AC] Skill Issue Detected
+[20:27:37] [Server thread/INFO]: xNotJames lost connection: §c[AC] Skill Issue Detected
+[20:27:37] [Server thread/INFO]: [+] xNotJames disconnected to the lobby server.
+[20:27:37] [Server thread/INFO]: §6Player§c Console §6kicked§c xNotJames§6 for§c §c[AC] Skill Issue Detected§6.
+[20:27:37] [Server thread/WARN]: handleDisconnection() called twice
