@@ -235,3 +235,9 @@ java.lang.NoSuchMethodError: com.earth2me.essentials.I18n.tlLiteral(Ljava/lang/S
 [21:06:24] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
 [21:06:25] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
 [21:06:25] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
+[21:06:43] [Thread-13/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[21:06:43] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:58912] logged in with entity id 31 at ([world]-1116.5209429482481, 68.9, -268.6461915736448)
+[21:06:44] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 51.546274ms. Summary: Getting prefix for Briiqn
+[21:06:44] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 68.349951ms. Summary: Getting group for Briiqn
+[21:06:49] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> a
+[21:06:50] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> a
