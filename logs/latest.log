@@ -17,3 +17,4 @@ The Ban Hammer has spoken!
 [19:16:48] [Netty Worker IO Thread #2/INFO]: [FlameCord] [/127.254.212.77:46007] has to reconnect to join
 [19:16:48] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [19:16:57] [Netty Worker IO Thread #3/INFO]: [xNotJames] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
+[19:17:04] [Netty Worker IO Thread #4/INFO]: [xNotJames] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
