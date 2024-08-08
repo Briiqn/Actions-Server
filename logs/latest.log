@@ -162,3 +162,5 @@ Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/Via
 [10:18:29] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [10:18:29] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
 [10:18:30] [Craft Scheduler Thread - 1/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Eclipse UUID[0;39m
+[13:27:45] [Thread-7/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[13:27:45] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:39374] logged in with entity id 26 at ([world]1431.9352591240238, 4.0, 29.568457154457555)
