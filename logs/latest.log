@@ -517,3 +517,12 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 [19:29:18] [Server thread/INFO]: xNotJames issued server command: /npc sel
 [19:29:19] [Async Chat Thread - #0/INFO]: <Briiqn> the other server is off
 [19:29:20] [Server thread/INFO]: xNotJames issued server command: /npc remove
+[19:29:22] [Async Chat Thread - #0/INFO]: <xNotJames> yes
+[19:29:24] [Server thread/INFO]: Created a User for a (2e4d15da-c3dd-26a7-a18f-dc25bd322e8d) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
+[19:29:31] [Async Chat Thread - #0/INFO]: <Briiqn> ok make it look cool
+[19:29:32] [Server thread/INFO]: xNotJames issued server command: /npc tphere
+[19:29:35] [Server thread/INFO]: xNotJames issued server command: /npc sel
+[19:29:38] [Async Chat Thread - #0/INFO]: <Briiqn> i will download vault
+[19:29:38] [Server thread/INFO]: xNotJames issued server command: /npc tphere
+[19:29:46] [Server thread/INFO]: xNotJames issued server command: /npc rename &fSkyWars
+[19:29:49] [Server thread/INFO]: xNotJames issued server command: /npc rename &dSkyWars
