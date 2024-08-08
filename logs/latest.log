@@ -1012,3 +1012,9 @@ Caused by: java.lang.NullPointerException
 [04:04:37] [Server thread/WARN]: Skipping Entity with id blaze
 [04:04:37] [Server thread/INFO]: [RayAar: Unable to summon object]
 [04:07:17] [Server thread/INFO]: RayAar issued server command: /tp Briiqn
+[04:07:27] [Server thread/INFO]: RayAar issued server command: /ban Briiqn
+[04:07:42] [Server thread/INFO]: Briiqn issued server command: /tps
+[04:07:44] [Server thread/INFO]: RayAar issued server command: /essentials
+[04:07:47] [Server thread/INFO]: RayAar issued server command: /ee
+[04:07:53] [Server thread/INFO]: RayAar issued server command: /essentials reload
+[04:07:53] [Server thread/INFO]: Using locale en
