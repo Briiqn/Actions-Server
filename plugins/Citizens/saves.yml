@@ -73,7 +73,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,inventory,type,spawned,scoreboardtrait,skintrait,owner,rotationtrait,location,lookclose,commandtrait
+    traitnames: inventory,lookclose,rotationtrait,location,owner,mounttrait,skintrait,commandtrait,type,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -112,15 +112,15 @@ npc:
         persistSequence: false
         commands:
           '0':
-            command: op xNotJames
+            command: server arenapvp
             hand: RIGHT
-            player: false
-            op: true
+            player: true
+            op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: mounttrait,inventory,type,scoreboardtrait,spawned,skintrait,owner,location,commandtrait
+    traitnames: inventory,location,owner,mounttrait,commandtrait,skintrait,type,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
