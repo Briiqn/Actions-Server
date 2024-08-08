@@ -670,3 +670,7 @@ By running this plugin, you agree to be bound by our TOS
 [00:28:41] [Craft Scheduler Thread - 7/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
 [00:28:45] [Server thread/INFO]: Briiqn issued server command: /mem
 [00:28:45] [Server thread/INFO]: §cBriiqn §4was denied access to command.
+[00:29:02] [Server thread/INFO]: Briiqn issued server command: /hub
+[00:29:03] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[00:29:08] [Thread-20/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:29:08] [Server thread/INFO]: Briiqn[/127.30.38.147:58127] logged in with entity id 326 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
