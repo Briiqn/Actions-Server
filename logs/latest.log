@@ -39,3 +39,7 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [04:12:27] [Netty Worker IO Thread #5/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
 [04:12:27] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
 [04:32:30] [Netty Worker IO Thread #0/INFO]: [PyrB] disconnected with: ReadTimeoutException : null
+[05:24:41] [Netty Worker IO Thread #2/INFO]: [FlameCord] [127.134.178.31] was firewalled because of QuietException
+[05:24:41] [Netty Worker IO Thread #5/INFO]: [FlameCord] [/127.134.178.31:38227] is firewalled from the server. (QuietException)
+[05:24:41] [Netty Worker IO Thread #6/INFO]: [FlameCord] [127.234.199.150] was firewalled because of QuietException
+[05:24:41] [Thread-3/INFO]: Blacklisted 2 ips from the kernel with IPSet
