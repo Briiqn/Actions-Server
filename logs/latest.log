@@ -141,3 +141,14 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:18:11] [Async Chat Thread - #0/INFO]: <ShortyDev> welcome to the tunnel
 [02:18:16] [Async Chat Thread - #0/INFO]: <Briiqn> gut gut
 [02:18:19] [Async Chat Thread - #0/INFO]: <Briiqn> best ping
+[02:18:23] [Server thread/INFO]: ShortyDev issued server command: /pl
+[02:18:23] [Server thread/INFO]: Briiqn issued server command: /ping
+[02:18:24] [Server thread/INFO]: Briiqn issued server command: /lag
+[02:18:28] [Async Chat Thread - #0/INFO]: <ShortyDev> yes
+[02:18:32] [Async Chat Thread - #0/INFO]: <ShortyDev> nice
+[02:18:34] [Async Chat Thread - #0/INFO]: <ShortyDev> its working
+[02:18:38] [Async Chat Thread - #0/INFO]: <Briiqn> yes
+[02:18:42] [Async Chat Thread - #0/INFO]: <Briiqn> now wtf do i do
+[02:18:47] [Server thread/INFO]: Briiqn issued server command: /whois briiqn
+[02:18:47] [Async Chat Thread - #0/INFO]: <ShortyDev> execute this command in bungee
+[02:18:51] [Async Chat Thread - #0/INFO]: <ShortyDev> you dont need to login with cert
