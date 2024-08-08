@@ -908,3 +908,7 @@ Caused by: java.lang.NullPointerException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 27 more
 [03:52:57] [Server thread/INFO]: Briiqn issued server command: /ruih
+[03:53:32] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[03:53:44] [Server thread/INFO]: RayAar issued server command: /gamemode creative Pyrb
+[03:53:59] [Server thread/INFO]: RayAar issued server command: /skywars
+[03:54:00] [Server thread/INFO]: RayAar issued server command: /pl
