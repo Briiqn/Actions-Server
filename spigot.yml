@@ -48,6 +48,7 @@ messages:
   restart: Server is restarting
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: true
@@ -56,7 +57,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
   send-namespaced: true
 stats:
   disable-saving: false
@@ -64,6 +64,7 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -112,7 +113,6 @@ world-settings:
       raiders: 48
       tick-inactive-villagers: true
       ignore-spectators: false
-    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48
