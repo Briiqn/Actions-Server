@@ -728,3 +728,7 @@ Caused by: java.lang.NullPointerException
 [18:25:31] [Server thread/INFO]: ShortyDev lost connection: Disconnected
 [18:26:44] [Server thread/INFO]: xNotJames issued server command: /deop briiqn
 [18:26:44] [Server thread/INFO]: [xNotJames: Could not de-op briiqn]
+[18:26:48] [Server thread/INFO]: xNotJames issued server command: /ban briiqn
+[18:26:55] [Server thread/INFO]: xNotJames issued server command: /deop
+[18:27:15] [Server thread/INFO]: Briiqn issued server command: /verus version
+[18:27:19] [Server thread/INFO]: xNotJames issued server command: /fly
