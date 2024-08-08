@@ -5,11 +5,11 @@ timestamps:
 ipAddress: 127.30.38.147
 logoutlocation:
   world: world
-  x: -9.717356916780684
-  y: 70.0
-  z: -21.240763995068527
-  yaw: 91.69097
-  pitch: 16.90868
+  x: 0.5497160042946054
+  y: 65.0
+  z: 0.4876390133984163
+  yaw: -77.194916
+  pitch: 10.637868
 lastlocation:
   world: Mini9E
   x: 2.6241360862441594
