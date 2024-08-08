@@ -133,3 +133,11 @@ org.bukkit.plugin.UnknownDependencyException: AAC
 [02:14:58] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
 [02:14:59] [Craft Scheduler Thread - 4/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [02:14:59] [Craft Scheduler Thread - 4/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[02:17:51] [Thread-7/INFO]: UUID of player ShortyDev is b2dacc6e-4a1b-3315-aea8-dae16ae0a448
+[02:17:51] [Server thread/INFO]: ShortyDev[/0:0:0:0:0:0:0:1:58540] logged in with entity id 25 at ([world]1433.5, 4.0, 46.5)
+[02:18:02] [Thread-8/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[02:18:02] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:39858] logged in with entity id 26 at ([world]1662.1784745096081, 4.0, -144.13630474263744)
+[02:18:08] [Async Chat Thread - #0/INFO]: <ShortyDev> hello
+[02:18:11] [Async Chat Thread - #0/INFO]: <ShortyDev> welcome to the tunnel
+[02:18:16] [Async Chat Thread - #0/INFO]: <Briiqn> gut gut
+[02:18:19] [Async Chat Thread - #0/INFO]: <Briiqn> best ping
