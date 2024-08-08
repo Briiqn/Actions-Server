@@ -48,5 +48,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Hypixel.networking'
-    address: 147.185.221.21:56392
+    address: localhost:25566
     restricted: false
