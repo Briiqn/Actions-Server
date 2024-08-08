@@ -1045,3 +1045,4 @@ Caused by: java.lang.NullPointerException
 [04:31:10] [Craft Scheduler Thread - 49/INFO]: [AuthMe] The user Briiqn has 12 accounts:
 [04:31:10] [Craft Scheduler Thread - 49/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
 [04:31:10] [Craft Scheduler Thread - 49/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[04:31:55] [Server thread/INFO]: Briiqn issued server command: /mem
