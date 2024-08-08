@@ -43,7 +43,6 @@ messages:
   restart: Server is restarting
 commands:
   tab-complete: 0
-  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -52,6 +51,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -125,8 +125,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
