@@ -13,3 +13,5 @@
 [00:01:15] [Server thread/INFO]: /127.16.144.220:34291 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
 [00:01:17] [Thread-22/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
 [00:01:17] [Server thread/INFO]: Briiqn[/127.30.38.147:55501] logged in with entity id 366 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[00:01:47] [Server thread/INFO]: Briiqn lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[00:01:47] [Server thread/WARN]: handleDisconnection() called twice
