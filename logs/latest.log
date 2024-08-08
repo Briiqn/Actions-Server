@@ -273,3 +273,80 @@ Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
 	... 11 more
 [21:26:30] [Async Chat Thread - #0/INFO]: <[Manager]Briiqn> a
+[21:26:43] [Thread-14/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[21:26:43] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:48576] logged in with entity id 32 at ([world]-1117.3973745273515, 68.0, -267.9693450700055)
+[21:26:56] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.21.0-dev+107-7b02d22
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1084) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_422]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_422]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
+Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
+	at org.bukkit.event.player.AsyncPlayerChatEvent.setFormat(AsyncPlayerChatEvent.java:100) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at com.earth2me.essentials.chat.processing.AbstractChatHandler.handleChatFormat(AbstractChatHandler.java:121) ~[?:?]
+	at com.earth2me.essentials.chat.processing.ChatHandler$ChatLowest.onPlayerChat(ChatHandler.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_422]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_422]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_422]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 11 more
+[21:26:56] [Async Chat Thread - #0/INFO]: <[Octo]xNotJames> a
+[21:26:59] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.21.0-dev+107-7b02d22
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1084) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_422]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_422]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
+Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
+	at org.bukkit.event.player.AsyncPlayerChatEvent.setFormat(AsyncPlayerChatEvent.java:100) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at com.earth2me.essentials.chat.processing.AbstractChatHandler.handleChatFormat(AbstractChatHandler.java:121) ~[?:?]
+	at com.earth2me.essentials.chat.processing.ChatHandler$ChatLowest.onPlayerChat(ChatHandler.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_422]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_422]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_422]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 11 more
+[21:26:59] [Async Chat Thread - #0/INFO]: <[Octo]xNotJames> fucking hell
+[21:27:03] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.21.0-dev+107-7b02d22
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1084) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_422]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_422]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_422]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_422]
+Caused by: java.util.UnknownFormatConversionException: Conversion = 'l'
+	at org.bukkit.event.player.AsyncPlayerChatEvent.setFormat(AsyncPlayerChatEvent.java:100) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at com.earth2me.essentials.chat.processing.AbstractChatHandler.handleChatFormat(AbstractChatHandler.java:121) ~[?:?]
+	at com.earth2me.essentials.chat.processing.ChatHandler$ChatLowest.onPlayerChat(ChatHandler.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_422]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_422]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_422]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_422]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 11 more
+[21:27:03] [Async Chat Thread - #0/INFO]: <[Octo]xNotJames> kahru
