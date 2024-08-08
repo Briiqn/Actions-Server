@@ -974,3 +974,5 @@ Caused by: java.lang.NullPointerException
 [03:59:15] [Server thread/INFO]: RayAar issued server command: /setblock ~ ~ ~
 [03:59:17] [Server thread/INFO]: RayAar issued server command: /setblock ~ ~ ~ tnt
 [03:59:17] [Server thread/INFO]: [RayAar: Block placed]
+[03:59:29] [Server thread/INFO]: RayAar issued server command: /give RayAar flint
+[03:59:34] [Server thread/INFO]: RayAar issued server command: /give RayAar flint_and_steel
