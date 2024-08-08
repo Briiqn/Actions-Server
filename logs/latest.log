@@ -677,3 +677,6 @@ By running this plugin, you agree to be bound by our TOS
 [00:14:25] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280)
 [00:14:25] [Head Conversion Thread - 2/WARN]: 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195)
 [00:14:25] [Head Conversion Thread - 2/WARN]: 	... 8 more
+[00:14:56] [Thread-16/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[00:14:56] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@196107d5[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@6a69f359]},legacy=false] (/127.30.38.147:46991): §cYou have to join through the proxy.
+[00:14:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@196107d5[id=cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973,name=Briiqn,properties={textures=[com.mojang.authlib.properties.Property@6a69f359]},legacy=false] (/127.30.38.147:46991) lost connection: §cYou have to join through the proxy.
