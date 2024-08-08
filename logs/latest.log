@@ -548,3 +548,261 @@
 [19:38:34] [Server thread/INFO]: xNotJames issued server command: /citizens save
 [19:38:36] [Server thread/INFO]: xNotJames issued server command: /citizens save
 [19:38:37] [Async Chat Thread - #0/INFO]: <Briiqn> just to see if it works
+[19:38:56] [Async Chat Thread - #0/INFO]: <xNotJames> is ncp and vulcan working
+[19:39:00] [Async Chat Thread - #0/INFO]: <Briiqn> ncp
+[19:39:01] [Server thread/INFO]: Briiqn issued server command: /ncp
+[19:39:06] [Async Chat Thread - #0/INFO]: <Briiqn> commands exist
+[19:39:08] [Server thread/INFO]: xNotJames issued server command: /lp user xNotJames permission set minecraft.*
+[19:39:08] [luckperms-command-executor/INFO]: [LP] LOG > (xNotJames) [U] (xnotjames)
+[19:39:08] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.* true
+[19:39:09] [Server thread/INFO]: Briiqn issued server command: /should work
+[19:39:11] [Server thread/INFO]: xNotJames issued server command: /deop xNotJames
+[19:39:14] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1152434816
+[19:39:14] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	fr.neatmonster.nocheatplus.compat.AttribUtil.<clinit>(AttribUtil.java:31)
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	fr.neatmonster.nocheatplus.compat.AttribUtil.<clinit>(AttribUtil.java:31)
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[19:39:14] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInPosition.a(SourceFile:57)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[19:39:14] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 11/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 11/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 11/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:14] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:15] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException See earlier in this log, search for -> log once id=-1286361722
+[19:39:16] [Async Chat Thread - #0/INFO]: <xNotJames> a
+[19:39:16] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-1097920474
+[19:39:16] [Craft Scheduler Thread - 2/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInLook.a(SourceFile:88)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying$PacketPlayInLook.a(SourceFile:88)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[19:39:16] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception with AutoListener(fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove/org.bukkit.event.player.PlayerMoveEvent/LOWEST), processing org.bukkit.event.player.PlayerMoveEvent: InvocationTargetException -> log once id=-126379534
+[19:39:16] [Craft Scheduler Thread - 3/ERROR]: [NoCheatPlus] Exception:
+java.lang.reflect.InvocationTargetException
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:8)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+caused by:
+java.lang.NoClassDefFoundError: Could not initialize class fr.neatmonster.nocheatplus.compat.AttribUtil
+	fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess.getSprintAttributeMultiplier(AttributeAccess.java:49)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.checkPlayerMove(MovingListener.java:737)
+	fr.neatmonster.nocheatplus.checks.moving.MovingListener.onPlayerMove(MovingListener.java:607)
+	sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	fr.neatmonster.nocheatplus.event.mini.MultiListenerRegistry$AutoListener.onEvent(MultiListenerRegistry.java:82)
+	fr.neatmonster.nocheatplus.event.mini.MiniListenerNode.onEvent(MiniListenerNode.java:157)
+	fr.neatmonster.nocheatplus.event.mini.EventRegistryBukkit$4.execute(EventRegistryBukkit.java:124)
+	org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502)
+	org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487)
+	net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:270)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:126)
+	net.minecraft.server.v1_8_R3.PacketPlayInFlying.a(SourceFile:8)
+	net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+	net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+	net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	java.lang.Thread.run(Thread.java:750)
+
+[19:39:16] [Server thread/INFO]: xNotJames lost connection: Disconnected
+[19:39:16] [Server thread/INFO]: - xNotJames Disconnected
+[19:39:21] [Thread-18/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[19:39:21] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:39666] logged in with entity id 38 at ([world]-1120.6279719208621, 68.0, -272.7295795014011)
