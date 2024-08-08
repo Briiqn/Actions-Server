@@ -1071,3 +1071,11 @@ Caused by: java.lang.NullPointerException
 [04:48:57] [Thread-31/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
 [04:48:57] [Server thread/INFO]: Briiqn[/127.30.38.147:35570] logged in with entity id 3734 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
 [04:49:01] [Server thread/INFO]: Briiqn lost connection: Disconnected
+[04:52:05] [Thread-32/INFO]: UUID of player Briiqn is cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+[04:52:05] [Server thread/INFO]: Briiqn[/127.30.38.147:58736] logged in with entity id 3887 at ([world]0.4805297752731945, 65.0, 0.4876591904060934)
+[04:52:07] [Server thread/INFO]: Briiqn issued server command: /login
+[04:52:08] [Craft Scheduler Thread - 60/INFO]: [AuthMe] The user Briiqn has 12 accounts:
+[04:52:08] [Craft Scheduler Thread - 60/INFO]: [AuthMe] §7konsolas, fag, efefe, 1zun4, §aBriiqn§7, kons0las, sigma5, fff, ltz_lvcky, griddygaymer23, ef4etf4, prohaxleaks.
+[04:52:08] [Craft Scheduler Thread - 60/INFO]: [AuthMe] Briiqn logged in 127.30.38.147
+[04:52:14] [Server thread/INFO]: Briiqn issued server command: /verus:ping Briiqn
+[04:52:21] [Server thread/INFO]: Briiqn issued server command: /verus:ping RayAar
