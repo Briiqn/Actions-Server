@@ -271,3 +271,6 @@
 [20:42:24] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
 [20:42:24] [Server thread/INFO]: §6Player§c Console §6kicked§c Briiqn§6 for§c §c[AC] Skill Issue Detected§6.
 [20:42:24] [Server thread/WARN]: handleDisconnection() called twice
+[20:42:52] [Thread-15/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[20:42:52] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:59208] logged in with entity id 36 at ([world]-1119.429380560535, 73.86676062762605, -223.7002090771334)
+[20:43:24] [Server thread/INFO]: Briiqn issued server command: /mem
