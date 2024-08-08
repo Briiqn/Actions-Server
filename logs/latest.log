@@ -223,3 +223,11 @@
 [22:08:28] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
 [22:08:28] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:52646] logged in with entity id 28 at ([world]-1123.650239838513, 67.5, -268.43099922739617)
 [22:08:28] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
+[22:08:32] [Async Chat Thread - #0/INFO]: [Manager]Briiqn: ps
+[22:08:33] [Server thread/INFO]: Briiqn issued server command: /tps
+[22:08:49] [User Authenticator #1/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[22:08:49] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:42588] logged in with entity id 29 at ([world]-1117.3973745273515, 68.0, -267.9693450700055)
+[22:08:53] [Server thread/INFO]: Briiqn issued server command: /tps
+[22:08:58] [Server thread/INFO]: Briiqn issued server command: /tps
+[22:08:59] [Server thread/INFO]: Briiqn issued server command: /tps
+[22:09:00] [Server thread/INFO]: Briiqn issued server command: /tps
