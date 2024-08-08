@@ -488,3 +488,7 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 [19:27:08] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.3, you're on: 4.10.2
 [19:27:08] [Craft Scheduler Thread - 2/WARN]: §4You're §c82 §4EssentialsX dev build(s) out of date!
 [19:27:08] [Craft Scheduler Thread - 2/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[19:27:17] [Thread-11/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
+[19:27:18] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:50568] logged in with entity id 19 at ([world]-1127.5, 68.0, -267.5)
+[19:27:29] [Thread-12/INFO]: UUID of player xNotJames is be317d90-8585-31d4-b983-cc75820d94de
+[19:27:29] [Server thread/INFO]: xNotJames[/0:0:0:0:0:0:0:1:56000] logged in with entity id 21 at ([world]-1116.5, 69.0, -283.5)
