@@ -17,3 +17,4 @@
 [18:11:56] [Netty Worker IO Thread #1/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [18:11:59] [Netty Worker IO Thread #2/INFO]: [Briiqn] disconnected with: Exception Connecting:NativeIoException : recvAddress(..) failed: Connection reset by peer
 [18:17:32] [Netty Worker IO Thread #7/INFO]: [xNotJames] disconnected with: Flying is not enabled on this server
+[18:22:37] [Netty Worker IO Thread #3/INFO]: [FlameCord] [/127.254.212.77:60761] was cancelled because of too many packets (Total: 25.016vls Size: 7.316vls Rate: 17.699vls)
