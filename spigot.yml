@@ -64,7 +64,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -113,6 +112,7 @@ world-settings:
       raiders: 48
       tick-inactive-villagers: true
       ignore-spectators: false
+    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48
