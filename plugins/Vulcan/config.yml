@@ -151,13 +151,6 @@ judgement-days:
 freeze:
   logged-out-while-frozen-commands:
   - tempban %player% 14d &cLogging out while frozen.
-join-message:
-  enabled: true
-  message:
-  - ''
-  - '&4&lWARNING &cButterfly clicking is strongly discouraged and may result in a
-    ban!'
-  - ''
 gui:
   title: Vulcan AntiCheat
 ghost-blocks-fix:
@@ -432,29 +425,8 @@ settings:
   entity-cram-fix-enabled: true
   entity-cram-entities-amount: 10
   entity-cram-exempt-ticks: 30
-hooks:
-  discord:
-    enable-hook: false
-    alerts-channel-id: channel_id_here
-    punishment-channel-id: channel_id_here
-    command-prefix: '!vulcan'
-    alerts-format:
-      color: ORANGE
-      title: Vulcan Alert
-      description: '%player% failed %check% (Type: %type%) (VL:%vl%)'
-      image: https://crafatar.com/avatars/%uuid%
-      content:
-      - Info|%info%|false
-      - Location|%world% - X:%x%, Y:%y%, Z:%z%|false
-      - Client Version|%client-version%|false
-      - Client Brand|%client-brand%|false
-      - Client Ping|%ping%|false
-      - Server TPS|%tps%|false
-    punishment-format:
-      color: RED
-      title: Vulcan Punishment
-      description: '%player% was punished for %check% (Type: %type%) (VL:%vl%)'
-      image: https://crafatar.com/avatars/%uuid%
+  lenient-elytra-handling: true
+  handle-attributes: false
 discord-webhook:
   alerts:
     enabled: true
@@ -2042,6 +2014,24 @@ checks:
           max: 2
           multiple: 0.25
           decay: 0.15
+      c:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 1
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.15
     step:
       a:
         enabled: true
@@ -2228,6 +2218,7 @@ checks:
           multiple: 0.5
           decay: 0.25
         kick-out: false
+        min-difference: 0.01
     elytra:
       a:
         enabled: true
@@ -2383,6 +2374,24 @@ checks:
           max: 4
           multiple: 0.25
           decay: 0.1
+      n:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 1
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.045
     speed:
       a:
         enabled: true
