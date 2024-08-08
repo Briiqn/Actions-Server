@@ -250,3 +250,4 @@
 [22:28:27] [Server thread/INFO]: [+] Briiqn disconnected to the lobby server.
 [22:28:41] [User Authenticator #1/INFO]: UUID of player Briiqn is d2a59894-242b-3843-8016-7545edc9d28e
 [22:28:41] [Server thread/INFO]: Briiqn[/0:0:0:0:0:0:0:1:60652] logged in with entity id 24 at ([world]-1118.2624336866215, 68.0, -281.8219123545677)
+[22:29:02] [Server thread/INFO]: Created a User for Skywars (1286e2a1-334b-2361-a1f5-eed6f1195bad) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
