@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "arenapvp" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "arenapvp" ]
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
@@ -61,7 +61,7 @@ jobs:
             git reset -- credentials.json
             git reset -- logs/
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
-            git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
+            git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:arenapvp
           }
           
           # Function to delete auto-commit workflow runs
