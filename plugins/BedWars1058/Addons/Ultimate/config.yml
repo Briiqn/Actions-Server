@@ -1,0 +1,169 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | ULTIMATE MODE ADDON CONFIGURATION        |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# Version: 1.2.0
+# Author: CubeCrafter
+# Issues: https://github.com/CubeCrafter/BedWars1058-Ultimate/issues
+# Discord: https://discord.gg/ehjkwp5Fn4
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | SETTINGS                                 |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+arena-groups:
+  - "ultimate"
+disable-fall-damage: true
+switch-cooldown: 20 # Time in seconds
+arena-enable-ultimates-delay: 10 # Seconds after which ultimates will be enabled in the arena
+arena-enable-ultimates-sound: ENTITY_PLAYER_LEVELUP
+ultimates:
+  kangaroo:
+    enabled: true
+    displayname: "Kangaroo"
+    keep-resources-chance: 50
+  swordsman:
+    enabled: true
+    displayname: "Swordsman"
+    loading-sound: BLOCK_NOTE_PLING
+  healer:
+    enabled: true
+    displayname: "Healer"
+    ultimate-item-name: "&aHealer Potion"
+  frozo:
+    enabled: true
+    displayname: "Frozo"
+    ultimate-item-name: "&aFrozo Potion"
+  builder:
+    enabled: true
+    displayname: "Builder"
+    wall-item-name: "&aBuilder Tool &7- &eWall"
+    bridge-item-name: "&aBuilder Tool &7- &eBridge"
+  demolition:
+    enabled: true
+    displayname: "Demolition"
+    ultimate-item-name: "&aDemolition Ultimate"
+  gatherer:
+    enabled: true
+    displayname: "Gatherer"
+    ultimate-item-name: "&aPortable Ender Chest"
+shop-category:
+  title: "&8Ultimates"
+  ultimate-selected: "&cCurrently selected!"
+  ultimate-unselected: "&eClick to select!"
+  switch-sound: NOTE_PLING
+  already-selected-sound: VILLAGER_NO
+  category-item:
+    material: "BEACON"
+    name: "&aUltimates"
+    lore:
+      - "&eClick to view!"
+  kangaroo-item:
+    material: "RABBIT_FOOT"
+    name: "&aKangaroo"
+    lore:
+      - "&7• Double Jump!"
+      - "&7• Keep resources on death!"
+      - "&7• Free milk on bed destroy!"
+      - "&7• Speed II on kill!"
+      - ""
+      - "&7Cooldown: &a10 Seconds"
+      - ""
+      - "{status}"
+    slot: 19
+  swordsman-item:
+    material: "GOLDEN_SWORD"
+    name: "&aSwordsman"
+    lore:
+      - "&7• Hold right click on a sword"
+      - "&7to dash forward!"
+      - "&7• Hold right click again to"
+      - "&7recall within 5 seconds!"
+      - "&7• Cooldown reset on kill and"
+      - "&7heals 1 heart!"
+      - ""
+      - "&7Cooldown: &a10 Seconds"
+      - ""
+      - "{status}"
+    slot: 20
+  healer-item:
+    material: "GOLDEN_APPLE"
+    name: "&aHealer"
+    lore:
+      - "&7• Hold right click on a sword"
+      - "&7to heal yourself!"
+      - "&7• Throw down potion to heal"
+      - "&7teammates in a radius!"
+      - ""
+      - "&7Cooldown: &a20 Seconds"
+      - ""
+      - "{status}"
+    slot: 21
+  frozo-item:
+    material: "SNOW_BLOCK"
+    name: "&aFrozo"
+    lore:
+      - "&7• Throw down potion to slow"
+      - "&7down enemies!"
+      - "&7• 2 Snowballs on kill! (16 max)."
+      - ""
+      - "&7Cooldown: &a20 Seconds"
+      - ""
+      - "{status}"
+    slot: 22
+  builder-item:
+    material: "BRICKS"
+    name: "&aBuilder"
+    lore:
+      - "&7• Build bridges!"
+      - "&7• Build walls!"
+      - "&7• Instantly protect your bed!"
+      - "&7• 16 wool on kill!"
+      - ""
+      - "&7Left click to switch mode, place to activate!"
+      - ""
+      - "&7&oPsst, try right clicking your bed with this!"
+      - ""
+      - "{status}"
+    slot: 23
+  demolition-item:
+    material: "FLINT_AND_STEEL"
+    name: "&aDemolition"
+    lore:
+      - "&7• Burn wool in a radius!"
+      - "&7• Drops TNT on death!"
+      - "&7• Earns a creeper egg on bed"
+      - "&7destroy!"
+      - "&7• Grants TNT or a Fireball"
+      - "&7every 3 kills!"
+      - ""
+      - "&7Cooldown: &a10 Seconds"
+      - ""
+      - "{status}"
+    slot: 24
+  gatherer-item:
+    material: "ENDER_CHEST"
+    name: "&aGatherer"
+    lore:
+      - "&7• Duplicate picked up"
+      - "&7diamonds/emeralds from"
+      - "&7generators!"
+      - "&7• Portable Ender Chest!"
+      - ""
+      - "{status}"
+    slot: 25
+messages:
+  cant-place-blocks: "&cYou can't place blocks here!"
+  cant-build-bridge: "&cYou can't build a bridge here!"
+  cant-build-wall: "&cYou can't build a wall here!"
+  cant-protect-bed: "&cYou can only protect your team's bed!"
+  ran-out-of-wool-blocks: "&cYou have ran out of wool blocks!"
+  ultimate-already-selected: "&cYou already have this ultimate selected!"
+  ultimate-selected: "&aSwitched ultimate to &6{ultimate}&a!"
+  switch-cooldown: "&cYou must wait {seconds} seconds before switching ultimate!"
+  ultimates-enabled:
+    - "&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "&f&l                       BedWars Ultimate"
+    - ""
+    - "&e&l                 Ultimates have been enabled!"
+    - ""
+    - "&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"

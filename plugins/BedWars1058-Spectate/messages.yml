@@ -1,0 +1,10 @@
+no-permission: '&cYou do not have permission to use this command!'
+reload-no-permission: '&cYou do not have permission to use this command!'
+spectate-command-usage: '&cUsage: /spec <player>'
+spectate-yourself: '&cYou cannot spectate yourself!'
+player-not-online: '&c{player} is not online!'
+player-not-playing: '&c{player} is not playing anything!'
+started-spectating: '&aYou started spectating {player}!'
+notify-spectating: '&e{player} &astarted spectating you!'
+player-not-online-or-not-playing: '&c{player} is either not online or not playing
+  anything!'

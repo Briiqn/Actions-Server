@@ -1,0 +1,10 @@
+# Bedwars1058 voidless addon helps you creating uhh.. A bed defence :D!
+# Documentation: Soon.
+#  
+# Set your voidless arena's group below!
+# To create a group and set it use these commands
+# /bw arenaGroup create <name>, /bw arenaGroup  set <arenaName> <groupName>
+debug: false
+group:
+- 4v4v4v4
+- ExampleGroup2

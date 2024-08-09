@@ -1089,6 +1089,63 @@ lobby-items-menu-name: '&aMenu &7(Right Click)'
 lobby-items-selector-name: '&a&lGame Menu &7(Right Click)'
 lobby-items-shop-name: '&aShop & Cosmetics &7(Right Click)'
 addons:
+  admin:
+    defaults:
+      unknown-command: '&cUnknown Command'
+      no-permission: '&cYou don''t have permission'
+      player-not-found: '&cPlayer not found'
+      player-not-joined-arena: '&cPlayer hasn''t joined an arena'
+      player-not-playing: '&cPlayer is not playing'
+      arena-group-not-found: '&cArena/Group not found'
+      arena-not-found: '&cCan''t find the arena'
+      enter-number: '&cPlease enter a number'
+      success: '&aSuccess'
+      error: '&cAn error occurred, please contact the addon developer'
+    player-message:
+      force-join: '&aYou were force joined to {world}'
+      mlg:
+        start: '&bMLG!!!'
+        success: '&aSuccess!'
+        fail: '&cFailed!'
+      revive:
+        title: '&bRevived'
+        subtitle: '&cBy {player}'
+    admin-message:
+      force-join: '&aForce joined {player} to {world}'
+      team:
+        success: '&aSuccessfully set {player}''s team to {team}'
+        not-found: '&cCan''t find team'
+        full: '&cTeam is full'
+        error-after-start: '&cCan''t change player''s team after the game has been
+          started'
+      revive:
+        success: '&aSuccessfully revived {player}'
+      nextevent:
+        error: '&cEvent does not exist'
+      skipevent:
+        error: '&cYou are already at the last event'
+      troll-cage: '&dTrapped {player}'
+      troll-blind: '&e{player} is blind for {time} seconds'
+      troll-slowhands: '&e{player} has mining fatigue for {time} seconds'
+      troll-kaboom: '&eKaboom-ed {player}'
+      troll-toystick: '&aGave {player} a toystick'
+      troll-ghast: '&aSpawned ghast at {player}'
+      troll-mobattack: '&aSpawned mobs at {player}'
+    usage:
+      forcejoin: '&cUsage: /bwa forcejoin <player> <arena/group>'
+      setteam: '&cUsage: /bwa setteam <player> <team>'
+      setbed: '&cUsage: /bwa setbed <player> <true/false>'
+      nextevent: '&cUsage: /bwa nextevent <arena> <event>'
+      skipevent: '&cUsage: /bwa skipevent <arena>'
+      revive: '&cUsage: /bw revive <player> <final/bed>'
+      troll-mlg: '&cUsage: /bwa troll mlg <player>'
+      troll-cage: '&cUsage: /bwa troll cage <player>'
+      troll-blind: '&cUsage: /bwa troll blind <player> <seconds>'
+      troll-slowhands: '&cUsage: /bwa troll slowhands <player> <seconds>'
+      troll-kaboom: '&cUsage: /bwa troll kaboom <player>'
+      troll-toystick: '&cUsage: /bwa troll toystick <player>'
+      troll-ghast: '&cUsage: /bwa troll ghast <player>'
+      troll-mobattack: '&cUsage: /bwa troll mobattack <player>'
   compass:
     messages:
       not-all-beds-destroyed: '&cNot all enemy beds are destroyed yet!'
