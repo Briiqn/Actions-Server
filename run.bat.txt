@@ -1,2 +1,0 @@
-java -Xms4G -Xmx4G -jar spigot-1.8.8.jar -o true
-PAUSE
