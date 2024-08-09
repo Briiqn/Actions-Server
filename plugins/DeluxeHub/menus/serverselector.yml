@@ -63,7 +63,7 @@ items:
       - '[BUNGEE] skywars'
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
-  survival:
+  arenapvp:
     material: DIAMOND_SWORD
     slot: 15
     amount: 1
@@ -76,3 +76,16 @@ items:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &eArenaPvP'
       - '[BUNGEE] arenapvp'
+  bedwars:
+    material: BED
+    slot: 13
+    amount: 1
+    glow: true
+    display_name: '&fBed&cWars'
+    lore:
+      - '&7Join now!'
+      - '&aMost popular Hypixel gamemode.'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &fBed&cWars'
+      - '[BUNGEE] bedwars'
