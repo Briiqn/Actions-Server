@@ -126,8 +126,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: 10
     wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
