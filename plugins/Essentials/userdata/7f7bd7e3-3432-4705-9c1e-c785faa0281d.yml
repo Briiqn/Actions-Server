@@ -1,6 +1,7 @@
 lastAccountName: Thewdie
 timestamps:
   login: 1723176811362
+  logout: 1723177525163
 ipAddress: 127.54.228.201
 lastlocation:
   world: varyth
@@ -10,3 +11,10 @@ lastlocation:
   yaw: -282.21658
   pitch: 25.537682
 money: '345.0'
+logoutlocation:
+  world: world
+  x: -9.081743320553413
+  y: 67.0
+  z: -15.852293206878691
+  yaw: -163.90771
+  pitch: 27.424236
