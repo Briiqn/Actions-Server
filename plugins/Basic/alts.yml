@@ -10,7 +10,13 @@ Briiqn:
     '228':
       '201':
       - Thewdie
+  '230':
+    '225':
+      '230':
+      - Bxrl
 xNotJames:
   ip: 127.0.0.1
 Thewdie:
   ip: 127.54.228.201
+Bxrl:
+  ip: 127.230.225.230
