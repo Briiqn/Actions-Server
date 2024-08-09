@@ -207,7 +207,7 @@ Core:
   FakePlugins:
     enable: true
     plugins:
-      - "&fPlugins (8): &bProtocalLib&f, &bServerCore&f, &bWorldedit&f, &bCustomLibs&f, &bServerPractice&f, &bServerStaff&f, &bServerExtras&f, &bCommandWhitelister"
+      - "&fPlugins (8): &bProtocalLib&f, &bAquaCore&f, &bWorldedit&f, &bWorldguard&f, &bViaVersion&f, &bPolar AntiCheat&f, &bNoCheatPlus&f, &bStaff+"
   ClearChat:
     enable: true
     Message:
@@ -322,8 +322,8 @@ Core:
       - "&f████&c█&f████"
       - "&f███&c█&c█&c█&f███ &4&lDo NOT log out!"
       - "&f██&c█&c█&0█&c█&c█&f██ &cIf you do, you will be banned!"
-      - "&f██&c█&c█&0█&c█&c█&f██ &e+QQ:2365638692"
-      - "&f█&c█&c██&0█&c██&c█&f█ &etntxComet.club"
+      - "&f██&c█&c█&0█&c█&c█&f██ &eIf you do, you will be banned!"
+      - "&f█&c█&c██&0█&c██&c█&f█ &eIf you do, you will be banned!"
       - "&f█&c█&c█████&c█&f█"
       - "&c█&c███&0█&c███&c█"
       - "&c█████████"
