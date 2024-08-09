@@ -4,14 +4,14 @@ timestamps:
   logout: 1723177522664
   lastteleport: 1723177276767
 ipAddress: 127.254.212.77
-money: '720.0'
+money: '780.0'
 lastlocation:
   world: rooftop
-  x: -72.98732414853968
-  y: -0.32502550527022533
-  z: 31.774496722669216
-  yaw: 40.62412
-  pitch: -37.759487
+  x: -70.82507166753679
+  y: -1.664768000929873
+  z: 37.120294667761065
+  yaw: 224.7568
+  pitch: 53.5561
 logoutlocation:
   world: world
   x: -27.590769624788322
