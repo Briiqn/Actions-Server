@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1723176811439
   login: 1723176790637
 money: '0'
 last-account-name: Thewdie
+logoutlocation:
+  world: 6db25809-c288-4f61-ad52-b0daa6a42e35
+  world-name: world
+  x: -1105.1900816381058
+  y: 68.5
+  z: -272.6147901199292
+  yaw: 260.51629638671875
+  pitch: 25.693166732788086
