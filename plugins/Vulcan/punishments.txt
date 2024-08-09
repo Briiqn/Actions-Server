@@ -263,3 +263,53 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ Bxrl was punished for Auto Block (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 27.678222059362838
+ - Y: 48.0
+ - Z: -1356.8932809234007
+
+Information:
+ - UUID: 453aba25-b437-4a74-9a01-a5b41229e2f4
+ - Keep Alive Ping: 186
+ - Transaction Ping: 144
+ - Server TPS: 19.99
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 31.6 seconds ago
+
+Total Violations: 8
+ - Combat Violations: 8
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 7173
+ - Since Riptide Ticks: 200
+ - Flying Delay: 122
+ - Since Velocity Ticks: 632
+ - Since Firework Ticks: 4366
+ - Ticks Existed: 8022
+ - Since Vehicle Ticks: 4266
+ - Since Liquid Ticks: 4266
+ - Queued Transactions: 1
+ - Joined: 400 seconds ago
+ - Holding Item: ItemStack{WOOD_SWORD x 1}
+
+All Violations:
+ - Auto Block (Type C) [VL: 3] (Attacked while sending BlockDig packet.)
+ - Hitbox (Type A) [VL: 4] (Attacked while not looking at target.)
+ - Hitbox (Type B) [VL: 1] (Attacked while not looking at target.)
+ - Velocity (Type D) [VL: 2] (Horizontal velocity modifications.)
+
+Blocks Nearby: [STAINED_CLAY, STAINED_CLAY, STAINED_CLAY, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STAINED_CLAY, STAINED_CLAY, STAINED_CLAY, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STAINED_CLAY, STAINED_CLAY, STAINED_CLAY, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=Briiqn}, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem, CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
