@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&fThis Server is powered by &0G&fi&0t&fh&0u&fb&0!'
+  motd: '&fThis Server is powered by &7G&fi&7t&fh&7u&fb&7!'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
