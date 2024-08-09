@@ -159,7 +159,7 @@ BACKSTABBED-PLAYER: '&b[&fRogue&b] &fYou backstabbed &b%player%&f.'
 EVENT-PLAYER-ELIMINATED: '&c%player% &7has been eliminated.'
 EVENT-HELP: |-
   &7&m--------------------------------------
-  &b&lServer Network &7鈹� &fEvent
+  &b&lArenaPvP &fEvent
   &7&m--------------------------------------
   &b/event start <name> - Start an event
   /event join <name> - Join an event
@@ -233,7 +233,7 @@ TOURNAMENT-STATUS-FOOTER: '&8&m-----------------------------------'
 TOURNAMENT-STATUS-HOVER: Click to spectate %player1% vs %player2%
 TOURNAMENT-NO-FIGHTS: '&cThere are no fights happening.'
 NOT-HCF-ARENA: '&cThat is not an HCF arena.'
-PLAYER-HEALTH: '&b%player%''s &fhealth is &c%health% 鉂�'
+PLAYER-HEALTH: '&b%player%''s &fhealth is &c%health% ❤️'
 NEVER-PLAYED-BEFORE: '&c%player% has never played before.'
 INVALID-AMOUNT: '&cInvalid amount.'
 INVALID-ELO: '&cThe elo amount you have entered is either too little or too big.'
