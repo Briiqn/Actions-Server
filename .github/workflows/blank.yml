@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ "arenapvp" ]
+    branches: [ "skywars" ]
   pull_request:
-    branches: [ "arenapvp" ]
+    branches: [ "skywars" ]
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '8'
-          distribution: 'temurin'
+          distribution: 'adopt'
       - name: Debug - List directory contents
         run: ls -la
       - name: Run Spigot and playit with 30-second commits and workflow deletion
@@ -27,6 +27,7 @@ jobs:
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
+          PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
           CF_TUNNEL_CERT: ${{secrets.CF_CERT}}
           CF_TUNNEL_UUID: ${{secrets.CF_TUNNEL_UUID_3}}
           CF_TUNNEL_UUID_CONTENT: ${{secrets.CF_TUNNEL_UUID_CONTENT_3}}
@@ -44,6 +45,9 @@ jobs:
           echo "credentials-file: credentials.json" >> tunnel-config.yml
           cloudflared tunnel --config tunnel-config.yml run ${CF_TUNNEL_UUID} &
           PLAYIT_PID=$!
+
+          chmod +x playit-linux-amd64
+          echo "$PLAYIT_SECRET" > playit.toml
           echo "Starting Spigot..."
           java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms16G -Xmx16G -jar spigot.jar nogui 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           SPIGOT_PID=$!
@@ -55,11 +59,13 @@ jobs:
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
             git add -A  # Stage all changes
+            git reset -- playit.toml  # Unstage playit.toml
+            git reset -- playit.log
             git reset -- tunnel-config.yml
             git reset -- credentials.json
             git reset -- logs/
             git commit -m "Auto commit every 30 seconds" || echo "No changes to commit"
-            git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:arenapvp
+            git push https://x-access-token:${FINE_GRAINED_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:skywars
           }
           
           # Function to delete auto-commit workflow runs
