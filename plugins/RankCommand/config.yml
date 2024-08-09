@@ -1,0 +1,10 @@
+Prefix: ''
+NoPermission: '&cYou do not have permission to use this command!'
+WrongArgs: '&c/rank (username) (Default - VIP - VIP+ - MVP - MVP+ - MVP++ - YOUTUBE - MOD - ADMIN)!'
+SetRank: '&aYou have given %player% rank %rank%!'
+YourRankWasSet: '&bYou have received rank &e%rank% &bfrom &cOWNER&b. Exit the server and re-enter to get the full benefits of that rank!'
+
+#Permission for staff to receive messages is rankcommand.msg
+StaffMessage:
+  enabled: false
+  message: '&a%player% set %playerchanged%''s rank to %rankset%'

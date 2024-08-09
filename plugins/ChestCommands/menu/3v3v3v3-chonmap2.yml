@@ -1,0 +1,121 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Bed Wars 3v3v3v3'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+random:
+  COMMAND: 'op: bw join 3v3v3v3; sound: ORB PICKUP'
+  NAME: '&aRandom map'
+  LORE:
+    - '&83v3v3v3'
+    - ''
+    - '&eClick to play!'
+  ID: 401
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 6
+back:
+  COMMAND: 'op: chestcommands open 3v3v3v3.yml; sound: ORB PICKUP'
+  NAME: '&aBack'
+  ID: 262
+  DATA: 5
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+map-1:
+  COMMAND: 'op: bw join unchained_'
+  NAME: '&aUnchained'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_unchained_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 2
+map-2:
+  COMMAND: 'op: bw join cauldron_'
+  NAME: '&aCauldron'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_cauldron_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 2
+map-3:
+  COMMAND: 'op: bw join hell_temple_'
+  NAME: '&aHell Temple'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_hell_temple_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+map-4:
+  COMMAND: 'op: bw join enchanted_'
+  NAME: '&aEnchanted'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_enchanted_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 2
+prev:
+  COMMAND: 'open: 3v3v3v3-chonmap.yml'
+  NAME: '&aPrevious Page'
+  LORE:
+  - '&ePage 1'
+  ID: arrow
+  DATA: 5
+  POSITION-X: 1
+  POSITION-Y: 3

@@ -1,18 +1,41 @@
 # PlaceholderAPI
-# Version: 2.11.6
+# Version: 2.10.6
 # Created by: extended_clip
 # Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
 # Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
-# Expansions: https://placeholderapi.com/ecloud
-# Wiki: https://wiki.placeholderapi.com/
+# Expansions: https://api.extendedclip.com/all/
+# Wiki: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki
 # Discord: https://helpch.at/discord
 # No placeholders are provided with this plugin by default.
 # Download placeholders: /papi ecloud
-check_updates: true
+check_updates: false
 cloud_enabled: true
-cloud_sorting: "name"
+cloud_allow_unverified_expansions: false
 boolean:
   'true': 'yes'
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
 debug: false
+expansions:
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server
+  vault:
+    baltop:
+      check_delay: 30
+      cache_size: 100
+      enabled: true
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M

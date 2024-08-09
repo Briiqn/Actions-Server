@@ -1,0 +1,9 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,1.5,69.9,-5.5
+contents:
+- '&e&lCLICK TO PLAY'
+- ''
+- '&bDoubles &7[1.6]'
+- ''
+- '&e&l%bw1058_group_count_Doubles% Players<update:10>'

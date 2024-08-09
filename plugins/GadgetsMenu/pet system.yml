@@ -1,0 +1,413 @@
+Pet-System:
+  Enabled: true
+  Level: '&8lv&7{LEVEL} '
+  Rename-Pet: '&a(Use /pet to set name)'
+  EXP: '{EXP_BLOCKS} &b{OBTAINED_EXP}&f/{MAX_EXP}'
+  Max-EXP: '{EXP_BLOCKS} &bMax &7EXP'
+  EXP-Block:
+    Remain: '&7ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Â '
+    Retain: '&bÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Â '
+    Amount-Of-Blocks: 10
+  Percentage-Bar: '{REMAIN}&f/100'
+  Pet-Name-Command:
+    Enabled: true
+    Description: Name your pet.
+  Pet-Name-Blacklist:
+    Enabled: true
+    Blacklist:
+    - fuck
+    - bitch
+  Happiness:
+    Okay:
+      DisplayName: '&eOkay'
+      Color: '&e'
+    Happy:
+      DisplayName: '&2Happy'
+      Color: '&2'
+    Very-Happy:
+      DisplayName: '&aVery Happy'
+      Color: '&a'
+    Super-Happy:
+      DisplayName: '&bSuper Happy'
+      Color: '&b'
+  Send-Pet-On-Mission:
+    Cooldown-Minutes: 60
+    Gain-EXP:
+      Happy: 400
+      Very-Happy: 600
+      Super-Happy: 800
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_PLAYER_LEVELUP
+    Lores:
+      Ready-To-Send-Pet-On-Mission:
+      - ''
+      - '&7Cooldown: &aREADY'
+      - ''
+      - '&eClick to gain Pet EXP!'
+      Send-Pet-On-Mission-On-Cooldown:
+      - ''
+      - '&7Cooldown: &c{COOLDOWN_MINUTES} minutes'
+      - ''
+      - '&cOn cooldown.'
+  Stats:
+    Hunger:
+      Name: Hunger
+      Play-Sound:
+        Enabled: true
+        Click-Sound: UI_BUTTON_CLICK
+        Feed-Sound: ENTITY_VILLAGER_AMBIENT
+        Fulled-Sound: BLOCK_NOTE_BLOCK_BELL
+      Lore:
+        Pet-Item:
+        - ''
+        - '&7Increases a pet''s Hunger'
+        - '&7rating.'
+        Item-Remain:
+        - ''
+        - '&7Remaining: &f{REMAIN}'
+        - '&eClick to give to pet!'
+    Thirst:
+      Name: Thirst
+      Play-Sound:
+        Enabled: true
+        Click-Sound: UI_BUTTON_CLICK
+        Feed-Sound: ENTITY_VILLAGER_AMBIENT
+        Fulled-Sound: BLOCK_NOTE_BLOCK_BELL
+      Lore:
+        Pet-Item:
+        - ''
+        - '&7Increases a pet''s Thirst'
+        - '&7rating.'
+        Item-Remain:
+        - ''
+        - '&7Remaining: &f{REMAIN}'
+        - '&eClick to give to pet!'
+    Exercise:
+      Name: Exercise
+      Play-Sound:
+        Enabled: true
+        Click-Sound: UI_BUTTON_CLICK
+        Feed-Sound: ENTITY_VILLAGER_AMBIENT
+        Fulled-Sound: BLOCK_NOTE_BLOCK_BELL
+      Lore:
+        Pet-Item:
+        - ''
+        - '&7Increases a pet''s Exercise'
+        - '&7rating.'
+        Item-Remain:
+        - ''
+        - '&7Remaining: &f{REMAIN}'
+        - '&eClick to give to pet!'
+  Lores:
+    Summon-Pet:
+    - ''
+    - '&6Left-Click &7to summon this pet.'
+    Despawn-Pet:
+    - ''
+    - '&6Left-Click &7to despawn this pet.'
+    Provide-Care:
+    - '&bRight-Click &7to provide care.'
+Pet-Items:
+  Apple:
+    Name: '&bApple'
+    Material: APPLE
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 0
+    Lore:
+    - '&7A delicious fruit!'
+  Melon:
+    Name: '&bMelon'
+    Material: MELON
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 1
+    Lore:
+    - '&7Contains seeds.'
+  Pumpkin-Pie:
+    Name: '&bPumpkin Pie'
+    Material: PUMPKIN_PIE
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 2
+    Lore:
+    - '&7Serving size: All of it.'
+  Carrot:
+    Name: '&bCarrot'
+    Material: CARROT
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 3
+    Lore:
+    - '&7Good for your eyesight!'
+  Baked-Potato:
+    Name: '&bBaked Potato'
+    Material: BAKED_POTATO
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 4
+    Lore:
+    - '&7Po-Tae-Toe Poe-Tah-Toe.'
+  Mushroom-Soup:
+    Name: '&bMushroom Soup'
+    Material: MUSHROOM_STEW
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 5
+    Lore:
+    - '&7This is NOT a Mooshroom'
+    - '&7Stew!'
+  Flower:
+    Name: '&bFlower'
+    Material: RED_TULIP
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 6
+    Lore:
+    - '&7Tastes as good as it'
+    - '&7smells!'
+  Hay:
+    Name: '&bHay'
+    Material: HAY_BLOCK
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 7
+    Lore:
+    - '&7Haaaay there how''s it'
+    - '&7goin''...'
+  Wheat:
+    Name: '&bWheat'
+    Material: WHEAT
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 8
+    Lore:
+    - '&7Not yet processed.'
+  Bread:
+    Name: '&bBread'
+    Material: BREAD
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 9
+    Lore:
+    - '&7Freshly baked.'
+  Cookie:
+    Name: '&bCookie'
+    Material: COOKIE
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 10
+    Lore:
+    - '&7With chocolate chips!'
+  Cake:
+    Name: '&bCake'
+    Material: CAKE
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 11
+    Lore:
+    - '&7This one is not a lie.'
+  Raw-Fish:
+    Name: '&bRaw Fish'
+    Material: COD
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 12
+    Lore:
+    - '&7Caught by the local'
+    - '&7fisherman.'
+  Raw-Porkchop:
+    Name: '&bRaw Porkchop'
+    Material: PORKCHOP
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 13
+    Lore:
+    - '&7For those who like raw'
+    - '&7meat!'
+  Angus-Steak:
+    Name: '&bAngus Steak'
+    Material: COOKED_BEEF
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 14
+    Lore:
+    - '&7Well-prepared and seasoned.'
+  Bone:
+    Name: '&bBone'
+    Material: BONE
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 15
+    Lore:
+    - '&7Dug out of the ground.'
+  Rotten-Flesh:
+    Name: '&bRotten Flesh'
+    Material: ROTTEN_FLESH
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 16
+    Lore:
+    - '&7Eeewwww!'
+  Magma-Cream:
+    Name: '&bMagma Cream'
+    Material: MAGMA_CREAM
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 17
+    Lore:
+    - '&7WARNING: Intense heat!'
+  Water:
+    Name: '&bWater'
+    Material: WATER_BUCKET
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 27
+    Lore:
+    - '&7Purified.'
+  Milk:
+    Name: '&bMilk'
+    Material: MILK_BUCKET
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 28
+    Lore:
+    - '&7Whole milk.'
+  Lava:
+    Name: '&bLava'
+    Material: LAVA_BUCKET
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 29
+    Lore:
+    - '&7Very hot!'
+  Stick:
+    Name: '&bStick'
+    Material: STICK
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 33
+    Lore:
+    - '&7Wooden Stick.'
+  Ball:
+    Name: '&bBall'
+    Material: SLIME_BALL
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 34
+    Lore:
+    - '&7Bounces and rolls!'
+  Leash:
+    Name: '&bLeash'
+    Material: LEAD
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 35
+    Lore:
+    - '&7Let''s go for a walk!'
+  Feather:
+    Name: '&bFeather'
+    Material: FEATHER
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 42
+    Lore:
+    - '&7Tickle tickle!'
+  Frisbee:
+    Name: '&bFrisbee'
+    Material: MUSIC_DISC_13
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 43
+    Lore:
+    - '&7FETCH!'
+  Sparring-Sword:
+    Name: '&bSparring Sword'
+    Material: WOODEN_SWORD
+    Increment:
+      Dislike: 30
+      Like: 35
+      Really-Like: 40
+      Favourite: 50
+    Slot: 44
+    Lore:
+    - '&7En garde!'

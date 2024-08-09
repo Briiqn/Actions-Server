@@ -1,0 +1,38 @@
+# Config for Player Visibility Reborn by xDesireRage
+# The materials can be found here: https://goo.gl/k7D7Xk
+# You can get the colors from here: http://goo.gl/m6xrq2
+item:
+  activated:
+    material: INK_SACK 1 10
+    displayname: '&fPlayers: &aVisible &7(Right Click)'
+    lore:
+    - '&7Right-click to toggle player visibility!'
+  deactivated:
+    material: INK_SACK 1 8
+    displayname: '&fPlayers: &cHidden &7(Right Click)'
+    lore:
+    - '&7Right-click to toggle player visibility!'
+  slot: 8
+  delay: 2
+world: world
+enabledWorlds:
+- lobby
+- world
+- kitpvp
+- mgu
+messages:
+  prefix: ''
+  consoleDeny: '&cConsole?'
+  toggledON: '&aPlayer visibility enabled!'
+  toggledOFF: '&cPlayer visibility disabled!'
+  delay: '&cYou must wait &e%time%s &cbetween uses!'
+  noPerm: '%prefix% &cYou don''t have enough permissions to to this!'
+  invalidCmd: '%prefix% &cYou typed an invalid command, do /%cmd% for help.'
+  configReloaded: '%prefix% &eSuccessfully reloaded config!'
+  displayNameSet: '%prefix% &eDisplay name %type% set to &8Â» &r%args%'
+  messageSet: '%prefix% &eMessage %type% set to &8Â» &r%args%'
+miscellaneous:
+  joinItem: true
+  autoHideOnJoin: false
+  denyMovement: true
+  denyDrop: true

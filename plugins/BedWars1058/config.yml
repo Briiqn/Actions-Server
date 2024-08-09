@@ -1,0 +1,231 @@
+# BedWars1058 by andrei1058. https://www.spigotmc.org/members/39904/
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/home
+
+serverType: MULTIARENA
+language: en
+disabled-languages:
+- your language iso here
+storeLink: https://www.spigotmc.org/resources/authors/39904/
+lobbyServer: hub
+chat-settings:
+  global: false
+  format: true
+debug: false
+mark-leave-as-abandon: false
+party-settings:
+  enable-party-cmd: true
+  allow-parties: true
+  alessioDP-choose-arena-rank: 10
+scoreboard-settings:
+  sidebar:
+    enable-lobby-sidebar: true
+    enable-game-sidebar: true
+    title-refresh-interval: 4
+    placeholders-refresh-interval: 20
+  player-list:
+    format-lobby-list: true
+    format-waiting-list: true
+    format-starting-list: true
+    format-playing-list: true
+    format-restarting-list: true
+    names-refresh-interval: 200
+  health:
+    display-in-tab: true
+    animation-refresh-interval: 80
+rejoin-time: 300
+re-spawn-invulnerability: 4000
+bungee-settings:
+  games-before-restart: 30
+  restart-cmd: restart
+  auto-scale-clone-limit: 5
+  lobby-sockets:
+  - 0.0.0.0:2021
+  server-id: bw1
+  bwp-time-out: 5000
+countdowns:
+  game-start-regular: 30
+  game-start-half-arena: 20
+  game-start-shortened: 10
+  game-restart: 15
+  player-re-spawn: 5
+  next-event-beds-destroy: 360
+  next-event-dragon-spawn: 600
+  next-event-game-end: 120
+shout-cmd-cooldown: 5
+server-ip: www.hypixel.net
+tnt-jump-settings:
+  barycenter-alteration-in-y: 0.5
+  strength-reduction-constant: 5
+  y-axis-reduction-constant: 2
+  damage-self: 1
+  damage-teammates: 5
+  damage-others: 10
+fireball:
+  explosion-size: 4
+  speed-multiplier: 10
+  make-fire: true
+  knockback:
+    horizontal: 1.0
+    vertical: 0.65
+  cooldown: 0.5
+  damage:
+    self: 2.0
+    enemy: 2.0
+    teammates: 0.0
+database:
+  enable: false
+  host: localhost
+  port: 3306
+  database: MySQL
+  user: root
+  pass: stupid
+  ssl: false
+performance-settings:
+  rotate-generators: true
+  spoil-tnt-players: true
+inventories:
+  disable-crafting-table: true
+  disable-enchanting-table: true
+  disable-furnace: true
+  disable-brewing-stand: true
+  disable-anvil: true
+arena-gui:
+  settings:
+    inv-size: 27
+    show-playing: true
+    use-slots: 10,11,12,13,14,15,16
+  waiting:
+    material: STAINED_GLASS_PANE
+    data: 5
+    enchanted: false
+  starting:
+    material: STAINED_GLASS_PANE
+    data: 4
+    enchanted: true
+  playing:
+    material: STAINED_GLASS_PANE
+    data: 14
+    enchanted: false
+  skipped-slot:
+    material: STAINED_GLASS_PANE
+    data: 15
+    enchanted: false
+stats-gui:
+  inv-size: 27
+  wins:
+    material: DIAMOND
+    data: 0
+    slot: 10
+  losses:
+    material: REDSTONE
+    data: 0
+    slot: 11
+  kills:
+    material: IRON_SWORD
+    data: 0
+    slot: 12
+  deaths:
+    material: SKULL_ITEM
+    data: 0
+    slot: 13
+  final-kills:
+    material: DIAMOND_SWORD
+    data: 0
+    slot: 14
+  final-deaths:
+    material: SKULL_ITEM
+    data: 1
+    slot: 15
+  beds-destroyed:
+    material: BED
+    data: 0
+    slot: 16
+  first-play:
+    material: STAINED_GLASS_PANE
+    data: 0
+    slot: 21
+  games-played:
+    material: CHEST
+    data: 0
+    slot: 22
+  last-play:
+    material: STAINED_GLASS_PANE
+    data: 0
+    slot: 23
+start-items-per-group:
+  Default:
+  - WOOD_SWORD
+  PVP:
+  - GOLD_SWORD
+  - FISHING_ROD
+allowed-commands:
+- shout
+- bw
+- leave
+use-experimental-team-assigner: true
+enable-gen-split: true
+lobby-items:
+  stats:
+    command: bw stats
+    material: SKULL_ITEM
+    data: 3
+    enchanted: false
+    slot: 1
+  gadgets:
+    command: gadgetsmenu main
+    material: CHEST
+    data: 5
+    enchanted: true
+    slot: 4
+  menu:
+    command: cc open menu
+    material: NETHER_STAR
+    data: 0
+    enchanted: false
+    slot: 8
+  selector:
+    command: menu
+    material: COMPASS
+    data: 0
+    enchanted: false
+    slot: 0
+  shop:
+    command: $4Sorry, this feature is not available yet
+    material: EMERALD
+    data: 0
+    enchanted: false
+    slot: 2
+pre-game-items:
+  leave:
+    command: bw leave
+    material: BED
+    data: 0
+    enchanted: false
+    slot: 8
+spectator-items:
+  teleporter:
+    command: bw teleporter
+    material: SKULL_ITEM
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: BED
+    data: 0
+    enchanted: false
+    slot: 8
+lobbyLoc: -32.47482322473648,71.0,0.49185180054454447,-89.88387298583984,2.852402687072754,world
+arenaGroups:
+- 1v1
+- 4v4
+- Doubles
+- 4v4v4v4
+- 3v3v3v3
+- Solo
+- Voidless_Doubles
+- Voidless_4v4v4v4
+- PVP
+join-npc-locations: []
+arenaGui:
+  settings: {}

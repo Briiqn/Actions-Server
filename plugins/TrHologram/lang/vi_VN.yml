@@ -1,0 +1,139 @@
+PLUGIN:
+  LOADING:
+    - ''
+    - '&2Tr&aHologram &7Đang tải... &8{0}'
+    - ''
+  ENABLED: '&8[&2Tr&aHologram&8] &bTHÔNG TIN &8| &3Đã tải thành công. TrHologram &av{0} &3xin sử dụng.'
+  DISABLED: '&8[&2Tr&aHologram&8] &bTHÔNG TIN &8| &7Cảm ơn vì đã sử dụng plugin này, Đánh giá của bạn trên diễn đàn này là sự khích lệ lớn nhất cho tác giả!'
+  HOOKED: '&8[&2Tr&aHologram&8] &ePHỤ THUỘC &8| &7Phát hiện và móc thành công các plugin phụ thuộc mềm &6{0}&7...'
+  UPDATER:
+    LATEST: '&8[&2Tr&aHologram&8] &Bạn đang chạy phiên bản mới nhất của &3TrHologram&a.'
+    DEV: '&8[&2Tr&aHologram&8] &6Bạn đang chạy phiên bản nhà phát tiển của TrHologram, Vui lòng báo cáo lỗi kịp thời!'
+    OLD:
+      - '&8[&2Tr&aHologram&8] &bTìm thấy một phiên bản mới &av{0}&b, tải ở đây'
+      - '&2https://github.com/Arasple/TrHologram/releases'
+    TOO-OLD:
+      - "&8--------------------------------------------------"
+      - "&r"
+      - "&8# &4Bạn đang chạy &cTrHologram &4Phiên bản lỗi thời, có khả năng nhiều lỗ hổng"
+      - "&8# &4Vui lòng cập nhật lên phiên bản mới nhất để có trải nghiệm plugin tốt hơn!"
+      - "&8# &r"
+      - "&8# &4Github: &chttps://github.com/Arasple/TrHologram/releases/latest"
+      - "&8# &r"
+      - "&8# &r"
+      - "&8# &4Máy chủ sẽ chạy trong &c&l{0} giây nữa &4Sau đó tiếp tục bắt đầu..."
+      - "&r"
+      - "&8--------------------------------------------------"
+
+ERROR:
+  VERSION: '&8[&2Tr&aHologram&8] &cLỖI &8| &7Một ngoại lệ xảy ra trong khi phát hiện số phiên bản... Đang tắt máy chủ!'
+  JS:
+    - '&8[&2Tr&aHologram&8] &cLỖI &8| &cLỗi biểu hiện: &2{0}'
+    - '&6{1}'
+    - '&8{2}'
+
+HOLOGRAM:
+  AUTO-RELOADED: '&8[&2Tr&aHologram&8] &3TẢI LẠI &8| &7Tự động tải lại Hologram &2{0}&7...'
+  AUTO-RELOAD-FAILED:
+    - '&8[&2Tr&aHologram&8] &3TẢI LẠI &8| &7Tự động cài lại Hologram &6{0} &7Đã xảy ra lỗi trong quá trình tải lại, vui lòng chẩn đoán ngoại lệ...'
+    - '&8{1}'
+  LOADED-SUCCESS: '&8[&2Tr&aHologram&8] &bTHÔNG TIN &8| &7Tải thành công &a{0} &7Hiệu ứng Hologram... &8[&7{1} Ms&8]'
+  LOADED-FAILURE: '&8[&2Tr&aHologram&8] &6CẢNH BÁO &8| &7Một số Hologram tải không thành công, vui lòng phát hiện lỗi chẩn đoán.'
+  NOT-EXIST: '&8[&2Tr&aHologram&8] &7Hologram đó không tồn tại...'
+
+MIGRATED: '&8[&2Tr&aHologram&8] &bTHÔNG TIN &8| &3Phát hiện và thay đổi thành công &aHolographicDisplays &3Tổng tất cả Hologram là &a{0} &3...'
+
+HASTEBIN:
+  PROCESSING: '&8[&2Tr&aHologram&8] &7Vui lòng đợi...'
+  SUCCESS: '&8[&2Tr&aHologram&8] &3Nội dung của bạn đã được dán vào &a{0}'
+  FAILED: '&8[&2Tr&aHologram&8] &cLỗi trong quá trình cố dán vào Hastebin.'
+
+COMMANDS:
+  QUIT:
+    ==: TITLE
+    subtitle: '&7&lHủy bỏ hoạt động...'
+  CREATE:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&a&lTạo tên Hologram'
+      subtitle: '&7&lVui lòng nhập tên cho Hologram để được tạo'
+      stay: 100
+    EXISTED:
+      ==: TITLE
+      title: '&c&lTạo thất bại'
+      subtitle: '&7&lMột Hologram với tên đó đã tồn tại'
+    SUCCESS:
+      ==: TITLE
+      title: '&3&lTạo thành công'
+      subtitle: '&7&lHỗ trợ chỉnh sửa thứ cấp thuộc tính liên quan'
+  DELETE:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&3&lĐã loại bỏ tên Hologram'
+      subtitle: '&7&lVui lòng nhập tên của Hologram đã xóa bỏ'
+      stay: 100
+    NOT-EXIST:
+      ==: TITLE
+      title: '&c&lXóa bỏ thất bại'
+      subtitle: '&7&lKhông Hologram nào tồn tại với tên đó'
+    SUCCESS:
+      ==: TITLE
+      title: '&6&lXóa thành công'
+      subtitle: '&7&lHologram đã bị xóa'
+  EDIT:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&3&lChỉnh sửa tên Hologram'
+      subtitle: '&7&lVui lòng nhập tên của Hologram để được quản lý'
+      stay: 100
+    NOT-EXIST:
+      ==: TITLE
+      title: '&c&lChỉnh sửa thật bại'
+      subtitle: '&7&lKhông có tên Hologram đó tồn tại'
+    BOOK-EDIT:
+      ==: ACTION
+      text: '&3&lMột cuốn sách chỉnh sửa đã được trao cho bạn, bạn có thể nhấp chuột phải để chỉnh sửa Hologram!'
+    BOOK-EDIT-SUCCESS:
+      ==: TITLE
+      title: '&a&lChỉnh sửa thành công'
+      subtitle: '&7&lCập nhật dòng nội dung Hologram'
+  LIST:
+    - '&8--------------------------------------------------'
+    - '&2Tr&aHologram &7- Danh Sách Hologram *&8(Nhấp vào tên hologram để chuyển nhanh)'
+    - ''
+  LIST-FORMAT:
+    - '&8▫ &3{0}'
+  HELP-PAGE:
+    ==: JSON
+    text:
+      - '&8--------------------------------------------------'
+      - '&2Tr&aHologram &7- Trình quản lý Hologram nâng cao &6*{0}'
+      - ''
+      - '&8▪ <&7/&2{1} Create@create> &8— &7 Hướng dẫn tạo Hologram mới'
+      - '&8▪ <&7/&2{1} Delete@delete> &8— &7 Xóa Hologram'
+      - '&8▪ <&7/&2{1} Edit@edit> &8— &7 Chỉnh sửa Hologram'
+      - '&8▪ <&7/&2{1} List@list> &8— &7 Danh sách Hologram'
+      - '&8▪ <&7/&2{1} Reload@reload> &8— &7 Tải lại Hologram'
+      - ''
+      - '&8--------------------------------------------------'
+    args:
+      create:
+        hover: |-
+          &7Nhấn vào đây để hướng dẫn để tạo một Hologram mới.
+        command: '/trhologram create'
+      delete:
+        hover: |-
+          &7Nhấn vào đây để hướng dẫn Hologram chiều mới.
+        command: '/trhologram delete'
+      edit:
+        hover: |-
+          &7Nhấn vào đây để hướng dẫn chỉnh sửa Hologram
+        command: '/trhologram edit'
+      list:
+        hover: |-
+          &7Nhấn vào đây để thực hiện lệnh này một cách nhanh chóng.
+        command: '/trhologram list'
+      reload:
+        hover: |-
+          &7Nhấn vào đây để thực hiện lệnh này một cách nhanh chóng.
+        command: '/trhologram reload'

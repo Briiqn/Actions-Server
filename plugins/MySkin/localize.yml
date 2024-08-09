@@ -1,0 +1,27 @@
+SKINCOMMAND_USAGE: '&eUsage: &a/skin &e[&a skin &e]'
+SKINCOMMAND_USING_NO_SKIN: '&eYou are currently not using any skin.'
+SKINCOMMAND_USING_SKIN: '&eYou are currently using skin of player &a%skinname%&e.'
+NO_PERMISSION: '&cYou do not have a permission for this.'
+SKINCOMMAND_SUCCESSFUL_FRESH: '&aSkin set successfully!'
+SKINCOMMAND_SUCCESSFUL_CACHE: '&aSkin set from cache successfully!'
+SKINCOMMAND_FAILED: '&cFailed to set skin because: &4%reason%.'
+MYSKINCOMMAND_USING_NO_SKIN: '&e%player% is currently not using any skin.'
+MYSKINCOMMAND_USING_SKIN: '&e%player% is currently using skin of player &a%skinname%&e.'
+REASON_UNKNOWN: Unknown
+REASON_NOT_PREMIUM: Skin does not exist
+REASON_RATE_LIMITED: Skin was requested too many times
+SERVER_UNAVAILABLE: Skin server is currently unavailable
+PARSING_FAILED: Skin server sent corrupted data
+NOT_PLAYER: '&cYou have to be a player!'
+PLAYAER_DOES_NOT_EXIST: '&cPlayer does not exist!'
+MYSKINCOMMAND_RELOADED: '&eMySkin was reloaded!'
+MYSKINCOMMAND_CACHECLEARED: '&eSkin & UUID cache cleared!'
+SKINSEARCH_TITLE: '&a&lSkin Search'
+SKINSEARCH_SKIN_LOAD_FAILED: '&4&lSkinSearch returned no skins'
+SKINSEARCH_TRY_AGAIN_LATER: '&cPlease try again later!'
+SKINSEARCH_NEXT_PAGE: '&l&eNext Page'
+SKINSEARCH_PREVIOUS_PAGE: '&l&ePrevious Page'
+SKINSEARCH_SEARCHING_FOR_SKINS: '&leSearching for skins... a menu will open once enough
+  skins are loaded.'
+SKINSEARCH_NOT_ENABLED: '&cSkin search is currently disabled. To enable it, edit the
+  MySkin configuration file.'

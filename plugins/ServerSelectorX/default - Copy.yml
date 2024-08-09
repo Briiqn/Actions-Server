@@ -1,0 +1,187 @@
+# Number of rows of slots of your server selector menu. For example '2' will mean 2*9 = 18 slots. Max value is 6.
+rows: 4
+
+# This will be displayed as the title of the menu.
+title: 'Server Selector'
+
+# This will be the name of the server selector item
+item-name: '&a&lGame Selector'
+
+item-lore:
+- 'Select A Server To Play!'
+
+# The name of the server selector item.
+item: COMPASS
+
+# Give the item when a player joins?
+on-join: false
+
+# What slot should the item be in? Specify -1 to automatically put it in the first available slot.
+inv-slot: -1
+
+# URL clickable message
+url-message: '&3&lClick here'
+
+# Command to open the menu. Specify "none" for no command. (without /)
+command: "menu"
+
+# https://github.com/ServerSelectorX/ServerSelectorX/wiki/Free-%7C-Items-in-the-server-selector
+menu:
+
+  # Server item
+  10:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25568
+    
+    # Action to run when the item is clicked
+    action: 'srv:bedwars'
+
+    online:
+      item: BED
+      name: '&4&lBED&7WARS'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&cAlready Connected'
+
+    offline:
+      item: BED
+      name: '&4&lBED&7WARS'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&cAlready Connected'
+
+  # Server item
+  12:
+
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25569
+
+    # Action to run when the item is clicked
+    action: 'srv:skywars'
+
+    online:
+      item: BOW
+      name: '&l&2Sky&6Wars'
+      lore:     
+       - '&6[1.8-1.16]'
+       - ''
+       - '&aClick to play'
+
+    offline:
+      item: BOW
+      name: '&l&2Sky&6Wars'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&aClick to play'
+
+  # Server item
+  14:
+
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25566
+
+    # Action to run when the item is clicked
+    action: 'srv:games'
+
+    online:
+      item: WOOD_SWORD
+      name: '&e&lBattle &6&lRoyale'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&aClick to play'
+
+    offline:
+      item: WOOD_SWORD
+      name: '&e&lBattle &6&lRoyale'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&aClick to play'
+
+  # Server item
+  16:
+
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25564
+
+    # Action to run when the item is clicked
+    action: 'srv:kitpvp'
+
+    online:
+      item: DIAMOND_SWORD
+      name: '&6Kit&7pvp'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&cYou must be in the lobby for that'
+
+    offline:
+      item: DIAMOND_SWORD
+      name: '&6Kit&7pvp'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&cthis server is offline'
+
+  #
+  22:
+
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: 192.168.0.72
+    port: 25566
+
+    # Action to run when the item is clicked
+    action: 'srv:survival'
+
+    online:
+      item: GRASS
+      name: '&l&2Survival'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&aClick to play!'
+
+    offline:
+      item: GRASS
+      name: '&l&2Survival'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&aClick to play'
+
+  # Server item
+  35:
+
+    # Enable to show server status and placeholders
+    ping-servers: true
+    ip: localhost
+    port: 25564
+
+    # Action to run when the item is clicked
+    action: 'srv:lobby'
+
+    online:
+      item: ENDER_PEARL
+      name: '&l&2Lobby'
+      lore:
+       - '&bClick to join the lobby'
+
+    offline:
+      item: ENDER_PEARL
+      name: '&l&2Lobby'
+      lore:
+       - '&bClick to join the lobby'

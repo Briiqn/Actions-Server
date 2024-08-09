@@ -1,0 +1,117 @@
+# BedWars1058 Private Games Addon By Mher Zaqaryan Version: 1.1.0
+menus:
+  private-game-settings:
+    settings:
+      rows: 6
+    contents:
+      one-hit-one-kill:
+        slot: 10
+        material: DIAMOND_SWORD
+      health-buff:
+        slot: 12
+        material: GOLDEN_APPLE
+      low-gravity:
+        slot: 14
+        material: QUARTZ
+      speed:
+        slot: 16
+        material: RABBIT_FOOT
+      respawn-time:
+        slot: 20
+        material: PAPER
+      event-times:
+        slot: 22
+        material: BOOK
+      no-emeralds:
+        slot: 24
+        material: EMERALD
+      no-diamonds:
+        slot: 28
+        material: DIAMOND
+      disable-block-protection:
+        slot: 30
+        material: GRASS
+      bed-instabreak:
+        slot: 32
+        material: BED
+      max-team-upgrades:
+        slot: 34
+        material: DIAMOND_BLOCK
+      go-back:
+        slot: 49
+        material: ARROW
+  health-buff:
+    settings:
+      rows: 4
+    contents:
+      normal-health:
+        slot: 11
+        material: GOLDEN_APPLE
+      double-health:
+        slot: 13
+        material: GOLDEN_APPLE
+      triple-health:
+        slot: 15
+        material: GOLDEN_APPLE
+      go-back:
+        slot: 31
+        material: ARROW
+  speed:
+    settings:
+      rows: 4
+    contents:
+      no-speed:
+        slot: 10
+        material: RABBIT_FOOT
+      speed-I:
+        slot: 12
+        material: RABBIT_FOOT
+      speed-II:
+        slot: 14
+        material: RABBIT_FOOT
+      speed-III:
+        slot: 16
+        material: RABBIT_FOOT
+      go-back:
+        slot: 31
+        material: ARROW
+  respawn-time:
+    settings:
+      rows: 4
+    contents:
+      one-second:
+        slot: 11
+        material: PAPER
+      five-seconds:
+        slot: 13
+        material: PAPER
+      ten-seconds:
+        slot: 15
+        material: PAPER
+      go-back:
+        slot: 31
+        material: ARROW
+  event-times:
+    settings:
+      rows: 4
+    contents:
+      half-slower:
+        slot: 10
+        material: BOOK
+      normal-time:
+        slot: 12
+        material: BOOK
+      double-faster:
+        slot: 14
+        material: BOOK
+      quadruple-faster:
+        slot: 16
+        material: BOOK
+      go-back:
+        slot: 31
+        material: ARROW
+game-settings-item:
+  material: REDSTONE_BLOCK
+  slot: 4
+  enchanted: false
+  command: none

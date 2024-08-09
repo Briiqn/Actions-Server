@@ -1,0 +1,36 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,1.5,74.5,-28.5
+contents:
+- '&b&lLifetime Kills'
+- '&7All modes'
+- ''
+- '&a① &f%leaderheads_name_bw1058_stats_kills_alltime_1% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_1%
+  Kills(s)<update:10>'
+- ''
+- '&e② &f%leaderheads_name_bw1058_stats_kills_alltime_2% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_2%
+  Kills(s)<update:10>'
+- ''
+- '&6③ &f%leaderheads_name_bw1058_stats_kills_alltime_3% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_3%
+  Kills(s)<update:10>'
+- ''
+- '&a④ &f%leaderheads_name_bw1058_stats_kills_alltime_4% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_4%
+  Kills(s)<update:10>'
+- ''
+- '&d⑤ &f%leaderheads_name_bw1058_stats_kills_alltime_5% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_5%
+  Kills(s)<update:10>'
+- ''
+- '&b⑥ &f%leaderheads_name_bw1058_stats_kills_alltime_6% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_6%
+  Kills(s)<update:10>'
+- ''
+- '&9⑦ &f%leaderheads_name_bw1058_stats_kills_alltime_7% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_7%
+  Kills(s)<update:10>'
+- ''
+- '&2⑧ &f%leaderheads_name_bw1058_stats_kills_alltime_8% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_8%
+  Kills(s)<update:10>'
+- ''
+- '&1⑨ &f%leaderheads_name_bw1058_stats_kills_alltime_9% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_9%
+  Kills(s)<update:10>'
+- ''
+- '&8⑩ &f%leaderheads_name_bw1058_stats_kills_alltime_10% &7➞ &a%leaderheads_value_bw1058_stats_kills_alltime_10%
+  Kills(s)<update:10>'

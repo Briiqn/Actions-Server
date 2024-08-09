@@ -1,0 +1,22 @@
+##################################################################################
+#     .___                   __________ .__                                      #
+#     |   |  _____    ____   \______   \|  |  _____     ____   ____ _______      #
+#     |   | /     \  / ___\   |     ___/|  |  \__  \  _/ ___\_/ __ \\_  __ \     #
+#     |   ||  Y Y  \/ /_/  >  |    |    |  |__ / __ \_\  \___\  ___/ |  | \/     #
+#     |___||__|_|__/\___  /   |____|    |____/(______/ \_____>\_____>|__|        #
+#                  /_____/                                                       #
+#                                             	                                 #
+##################################################################################
+
+# Select if enable auto-updater
+Autp-Updater: true
+
+# Select if show image item in menu else the player hasn't permission
+Show-Image-With-No-Perms: true
+
+# Select if enable a whitelist for the block where images can be placed
+Whitelist-Blocks: false
+
+# A list for block whitelist, use it only if Whitelist-Blocks are enable
+# For the list use Materials (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+Block-List: []

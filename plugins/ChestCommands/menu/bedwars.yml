@@ -1,0 +1,59 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Select a game'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'playbw'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+yes:
+  COMMAND: 'server bedwars'
+  NAME: '&4&lBED&7WARS &eHypixel'
+  LORE:
+    - '&6[1.8-1.16]'
+    - ''
+    - '&2Click to play!'
+  ID: bed
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+no:
+  COMMAND: 'server bedwars2'
+  NAME: '&4&lBED&7WARS'
+  LORE:
+    - '&6[1.8-1.16]'
+    - ''
+    - '&2Click to play!'
+  ID: bed
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2

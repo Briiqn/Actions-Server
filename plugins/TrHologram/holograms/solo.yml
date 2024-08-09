@@ -1,0 +1,9 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,-0.5,69.9,-8.5
+contents:
+- '&e&lCLICK TO PLAY'
+- ''
+- '&bSolo &7[1.6]'
+- ''
+- '&e&l%bw1058_group_count_Solo% Players<update:10>'

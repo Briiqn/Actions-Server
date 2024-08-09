@@ -1,0 +1,79 @@
+# Number of rows of slots of your server selector menu. For example '2' will mean 2*9 = 18 slots. Max value is 6.
+rows: 5
+
+# This will be displayed as the title of the menu.
+title: 'Game Menu'
+
+# This will be the name of the server selector item
+item-name: '&a&lGame Menu'
+
+item-lore:
+- 'Select A Server To Play!'
+
+# The name of the server selector item.
+item: none
+
+# Give the item when a player joins?
+on-join: false
+
+# What slot should the item be in? Specify -1 to automatically put it in the first available slot.
+inv-slot: -1
+
+# URL clickable message
+url-message: '&3&lClick here'
+
+# Command to open the menu. Specify "none" for no command. (without /)
+command: "menu"
+
+# https://github.com/ServerSelectorX/ServerSelectorX/wiki/Free-%7C-Items-in-the-server-selector
+menu:
+
+  # Server item
+  22:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25568
+    
+    # Action to run when the item is clicked
+    action: 'srv:bedwars'
+
+    online:
+      item: BED
+      name: '&4&lBED&7WARS'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&cAlready Connected'
+
+    offline:
+      item: BED
+      name: '&4&lBED&7WARS'
+      lore:
+       - '&6[1.8-1.16]'
+       - ''
+       - '&cAlready Connected'
+
+  # Server item
+  44:
+
+    # Enable to show server status and placeholders
+    ping-servers: true
+    ip: localhost
+    port: 25564
+
+    # Action to run when the item is clicked
+    action: 'srv:lobby'
+
+    online:
+      item: ENDER_PEARL
+      name: '&l&2Lobby'
+      lore:
+       - '&bClick to join the lobby'
+
+    offline:
+      item: ENDER_PEARL
+      name: '&l&2Lobby'
+      lore:
+       - '&bClick to join the lobby'

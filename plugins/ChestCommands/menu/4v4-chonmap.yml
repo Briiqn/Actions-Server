@@ -1,0 +1,140 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Bed Wars 4v4'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+random:
+  COMMAND: 'op: bw join 4v4; sound: ORB PICKUP'
+  NAME: '&aRandom map'
+  LORE:
+    - '&84v4'
+    - ''
+    - '&eClick to play!'
+  ID: 401
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 5
+back:
+  COMMAND: 'op: chestcommands open 4v4.yml; sound: ORB PICKUP'
+  NAME: '&aBack'
+  ID: 262
+  DATA: 5
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+map-1:
+  COMMAND: 'op: bw join picnic'
+  NAME: '&aPicnic'
+  LORE:
+  - '&84v4'
+  - ''
+  - '&7Available 4v4 map: &a1'
+  - '&7Status: %bw1058_arena_status_picnic%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 2
+map-2:
+  COMMAND: 'op: bw join cryptic'
+  NAME: '&aCryptic'
+  LORE:
+  - '&84v4'
+  - ''
+  - '&7Available 4v4 map: &a1'
+  - '&7Status: %bw1058_arena_status_cryptic%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+map-3:
+  COMMAND: 'op: bw join ruins'
+  NAME: '&aRuins'
+  LORE:
+  - '&84v4'
+  - ''
+  - '&7Available 4v4 map: &a1'
+  - '&7Status: %bw1058_arena_status_ruins%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 2
+map-4:
+  COMMAND: 'op: bw join gardens'
+  NAME: '&aGardens'
+  LORE:
+  - '&84v4'
+  - ''
+  - '&7Available 4v4 map: &a1'
+  - '&7Status: %bw1058_arena_status_gardens%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+map-5:
+  COMMAND: 'op: bw join frost'
+  NAME: '&aFrost'
+  LORE:
+  - '&84v4'
+  - ''
+  - '&7Available 4v4 map: &a1'
+  - '&7Status: %bw1058_arena_status_frost%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 2
+map-6:
+  COMMAND: 'op: bw join lions_temple'
+  NAME: '&aLions Temple'
+  LORE:
+  - '&84v4'
+  - ''
+  - '&7Available 4v4 map: &a1'
+  - '&7Status: %bw1058_arena_status_lions_temple%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 2

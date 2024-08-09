@@ -1,0 +1,19 @@
+logoutlocation:
+  world: world
+  x: 0.9755000726919898
+  y: 67.0
+  z: -13.93329266153704
+  yaw: 44.908756
+  pitch: 18.867311
+timestamps:
+  logout: 1653679357271
+  login: 1653679329499
+lastAccountName: Technoblade
+ipAddress: 192.168.1.4
+lastlocation:
+  world: airshow
+  x: -80.8890728591112
+  y: -1.3471372371293255
+  z: -49.78487214204529
+  yaw: -55.982178
+  pitch: -64.37485

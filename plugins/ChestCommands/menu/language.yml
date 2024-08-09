@@ -1,0 +1,90 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&8Ngôn ngữ'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 4
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # This command command will be executed when the menu is closed.
+  # Supports all the icon command types.
+  close-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+  
+vietnam:
+  COMMAND: 'op: bw lang es; sound: LEVEL UP; tell: &aNếu bạn chưa thấy gì thay đổi, hãy vào trò chơi để được áp dụng chức năng này!'
+  NAME: '&aVietnamese'
+  LORE:
+    - ''
+    - '&7Note every time you re-enter the server'
+    - '&7The default language will be English!'
+    - ''
+    - '&eClick to select a language'
+  KEEP-OPEN: true
+  ID: 'skull:3'
+  SKULL-OWNER: http://textures.minecraft.net/texture/1c8b7c7fb08ab8947812bb9d14da049ed2d51ad8cb932b392c2266b257adc2ac
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+english:
+  COMMAND: 'op: bw lang en; sound: LEVEL UP; tell: &aIf you do not see anything change, please go to the game to apply this function!'
+  NAME: '&aEnglish'
+  LORE:
+    - ''
+    - '&7Note every time you re-enter the server'
+    - '&7The default language will be English!'
+    - ''
+    - '&eClick to select a language'
+  KEEP-OPEN: true
+  ID: 'skull:3'
+  SKULL-OWNER: http://textures.minecraft.net/texture/cd91456877f54bf1ace251e4cee40dba597d2cc40362cb8f4ed711e50b0be5b3
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+back:
+  COMMAND: 'op:chestcommands open menu; sound: ORB PICKUP'
+  NAME: '&aBack'
+  LORE:
+  ID: ARROW
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4

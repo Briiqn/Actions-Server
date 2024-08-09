@@ -1,0 +1,7 @@
+money-rewards:
+  per-minute: 5
+  per-teammate: 30
+  game-win: 90
+  bed-destroyed: 60
+  final-kill: 40
+  regular-kill: 10

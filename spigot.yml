@@ -11,43 +11,21 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
-stats:
-  disable-saving: false
-  forced-stats: {}
-commands:
-  log: true
-  tab-complete: 0
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  send-namespaced: true
 settings:
-  bungeecord: true
+  save-user-cache-on-stop-only: false
+  bungeecord: fasle
   late-bind: false
   sample-count: 12
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
-  save-user-cache-on-stop-only: false
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  netty-threads: 6
+  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -56,29 +34,31 @@ settings:
     attackDamage:
       max: 2048.0
   debug: false
-  baby-zombie-movement-speed: 0.5
-  limit-player-interactions: true
-  moved-too-quickly-multiplier: 10.0
-  log-villager-deaths: true
-  log-named-deaths: true
-timings:
-  enabled: true
-  verbose: true
-  server-name-privacy: false
-  hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
-  history-interval: 300
-  history-length: 3600
+commands:
+  tab-complete: 0
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  send-namespaced: false
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: '&fUnknown Command use /help for help'
+  server-full: '&c&lServer Full!'
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: '&a&lServer restarting...'
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
-    chunks-per-tick: 650
-    clear-tick-list: false
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -99,7 +79,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    mob-spawn-range: 4
+    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -109,24 +89,10 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
-      twistingvines-modifier: 100
-      weepingvines-modifier: 100
-      cavevines-modifier: 100
-      beetroot-modifier: 100
-      carrot-modifier: 100
-      potato-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
-      bamboo-modifier: 100
-      sweetberry-modifier: 100
-      kelp-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
       misc: 16
-      raiders: 48
-      tick-inactive-villagers: true
-      ignore-spectators: false
     entity-tracking-range:
       players: 48
       animals: 48
@@ -135,7 +101,7 @@ world-settings:
       other: 64
     ticks-per:
       hopper-transfer: 8
-      hopper-check: 1
+      hopper-check: 8
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
@@ -147,128 +113,31 @@ world-settings:
     hunger:
       walk-exhaustion: 0.2
       sprint-exhaustion: 0.8
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
     max-tnt-per-tick: 100
-    item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
-    view-distance: default
-    hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
     max-tick-time:
       tile: 50
       entity: 50
-    allow-block-location-tab-completion: true
-    remove-invalid-mob-spawner-tile-entities: true
-    player-blocking-damage-multiplier: 0.5
-    optimize-explosions: true
-    mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
-    tnt-explosion-volume: 4.0
-    disable-teleportation-suffocation-check: false
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    falling-block-height-nerf: 0
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
-    load-chunks:
-      enderpearls: false
-      tnt-entities: false
-      falling-blocks: false
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    disable-explosion-knockback: false
-    water-over-lava-flow-speed: 5
-    fix-cannons: false
-    tnt-entity-height-nerf: 0
-    use-hopper-check: false
-    all-chunks-are-slime-chunks: false
-    allow-undead-horse-leashing: false
-    generator-settings:
-      canyon: true
-      caves: true
-      dungeon: true
-      fortress: true
-      mineshaft: true
-      monument: true
-      stronghold: true
-      temple: true
-      village: true
-      flat-bedrock: false
-    keep-spawn-loaded: true
-    falling-blocks-collide-with-signs: false
-    disable-mood-sounds: false
-    use-async-lighting: true
-    portal-search-radius: 128
-    disable-thunder: true
-    disable-ice-and-snow: true
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
-    container-update-tick-rate: 1
-    below-zero-generation-in-existing-chunks: true
-    hopper-can-load-chunks: false
-    seed-desert: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-swamp: 14357620
-    seed-monument: 10387313
-    seed-shipwreck: 165745295
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-endcity: 10387313
-    seed-slime: 987234911
-    seed-nether: 30084232
-    seed-mansion: 10387319
-    seed-fossil: 14357921
-    seed-portal: 34222645
-    simulation-distance: default
-    thunder-chance: 100000
-    end-portal-sound-radius: 0
-    trident-despawn-rate: 1200
-data-value-allowed-items: []
-effect-modifiers:
-  strength: 1.3
-  weakness: -0.5
-stackable-buckets:
-  lava: false
-  water: false
-  milk: false
-warnWhenSettingExcessiveVelocity: true
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
-players:
-  disable-saving: false
+    mob-spawn-range: 4
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    view-distance: 10
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    chunks-per-tick: 650
+    clear-tick-list: false
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600

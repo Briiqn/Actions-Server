@@ -1,0 +1,18 @@
+format:
+- '&a[arena]'
+- ''
+- '&2[on]&9/&2[max]'
+- '[status]'
+status-block:
+  waiting:
+    material: STAINED_CLAY
+    data: 5
+  starting:
+    material: STAINED_CLAY
+    data: 14
+  playing:
+    material: STAINED_CLAY
+    data: 4
+  restarting:
+    material: STAINED_CLAY
+    data: 4

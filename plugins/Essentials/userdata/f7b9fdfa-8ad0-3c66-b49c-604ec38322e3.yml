@@ -1,0 +1,21 @@
+lastAccountName: OG_Ninja_Gamer
+timestamps:
+  login: 1611784429548
+  logout: 1611785779252
+  lastteleport: 1611337781345
+ipAddress: 73.24.224.46
+logoutlocation:
+  world: world
+  x: -7.342223884309098
+  y: 67.0
+  z: -3.9218137936480906
+  yaw: 31.01587
+  pitch: 10.652403
+lastlocation:
+  world: airshow
+  x: 40.35988300808057
+  y: -1.8153766302995789
+  z: 62.30894724523887
+  yaw: 182.4544
+  pitch: -78.60001
+afk: false

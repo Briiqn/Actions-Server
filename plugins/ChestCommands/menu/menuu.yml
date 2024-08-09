@@ -1,0 +1,101 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Select a game'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menuu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+bedwars:
+  COMMAND: 'server: bedwars'
+  NAME: '&4&lBED&7WARS '
+  LORE:
+    - '&6[1.8-1.16]'
+    - ''
+    - '&2Click to play!'
+  ID: bed
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 2
+skywars:
+  COMMAND: 'server: skywars'
+  NAME: '&l&2Sky&6Wars '
+  LORE:
+    - '&6[1.8-1.16]'
+    - ''
+    - '&2Click to play!'
+  ID: bow
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+games:
+  COMMAND: 'server: games'
+  NAME: '&e&lBattle &6&lRoyale'
+  LORE:
+  - '&6[1.8-1.16]'
+  - ''
+  - '&2Click to play!'
+  ID: 268
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+kitpvp:
+  COMMAND: 'op: kb join invaded'
+  NAME: '&6Kit&7PvP'
+  LORE:
+    - '&6[1.8-1.16]'
+    - ''
+    - '&cYou must be in the lobby for that!'
+  ID: 276
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 2
+lobby:
+  COMMAND: 'server: lobby'
+  NAME: '&l&2Lobby'
+  LORE:
+  - '&bClick to join the lobby'
+  ID: 368
+  DATA: 5
+  POSITION-X: 9
+  POSITION-Y: 4
+survival:
+  COMMAND: 'server: survival'
+  NAME: '&l&2Survival'
+  LORE:
+  - '&6[1.8-1.16]'
+  - ''
+  - '&2Click to play!'
+  ID: grass
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 3

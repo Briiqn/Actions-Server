@@ -1,0 +1,154 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Bed Wars Doubles'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+random:
+  COMMAND: 'op: bw join Doubles; sound: ORB PICKUP'
+  NAME: '&aRandom map'
+  LORE:
+    - '&8Doubles'
+    - ''
+    - '&eClick to play!'
+  ID: 401
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 6
+back:
+  COMMAND: 'op: chestcommands open doubles.yml; sound: ORB PICKUP'
+  NAME: '&aBack'
+  ID: 262
+  DATA: 5
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+map-1:
+  COMMAND: 'op: bw join speedway'
+  NAME: '&aSpeedWay'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_speedway%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 2
+map-2:
+  COMMAND: 'op: bw join rooftop'
+  NAME: '&aRooftop'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_rooftop_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+map-3:
+  COMMAND: 'op: bw join lotus'
+  NAME: '&aLotus'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_lotus%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 2
+map-4:
+  COMMAND: 'op: bw join waterfall'
+  NAME: '&aWaterfall'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_waterfall_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+map-5:
+  COMMAND: 'op: bw join playground'
+  NAME: '&aPlayground'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_playground%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 2
+map-6:
+  COMMAND: 'op:bw join glacier'
+  NAME: '&aGlacier'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_glacier%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 3
+map-7:
+  COMMAND: 'op:bw join symphonic'
+  NAME: '&aSymphonic'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_symphonic%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 3

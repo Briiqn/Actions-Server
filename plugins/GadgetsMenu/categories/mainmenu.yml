@@ -1,0 +1,86 @@
+MainMenu:
+  Hats:
+    Name: '&eHats'
+    Material: DIAMOND_HELMET
+    Lore:
+    - '&7Collect all the hats and'
+    - '&7wear them while in a lobby.'
+  Animated Hats:
+    Name: '&eAnimated Hats'
+    Material: head:5ebfd2396cbabdb42c348bcf41599c87a506a71ef60948c496f95c6cb63141
+    Lore:
+    - '&7These hats take it a step'
+    - '&7further and move while on'
+    - '&7your head.'
+  Particles:
+    Name: '&eParticles'
+    Material: BLAZE_POWDER
+    Lore:
+    - '&7Make particles around you'
+    - '&7while standing in lobbies'
+    - '&7using these cool particle'
+    - '&7effects!'
+  Suits:
+    Name: '&eSuits'
+    Material: GOLDEN_LEGGINGS
+    Lore:
+    - '&7Collect and wear all the'
+    - '&7pieces from a specific suit'
+    - '&7to gain unique effects!'
+  Gadgets:
+    Name: '&eGadgets'
+    Material: PISTON
+    Lore:
+    - '&7These fun little toys'
+    - '&7can be used while'
+    - '&7in a lobby.'
+  Pets:
+    Name: '&ePets'
+    Material: BONE
+    Lore:
+    - '&7Unlock these pets to have'
+    - '&7them follow you around in'
+    - '&7lobbies!'
+  Miniatures:
+    Name: '&eMiniatures'
+    Material: head:9da39269ef45f825ec61bb4f8aa09bd3cf07996fb6fac338a6e91d6699ae425
+    Lore:
+    - '&7Unlock these miniatures to'
+    - '&7have a little friend follow'
+    - '&7you around in lobbies!'
+  Morphs:
+    Name: '&eMorphs'
+    Material: ZOMBIE_HEAD
+    Lore:
+    - '&7The ultimate transformation!'
+    - '&7Using these in lobbies'
+    - '&7will make you transform'
+    - '&7into a monster and unlock'
+    - '&7unique powers for everyone'
+    - '&7else to see!'
+  Banners:
+    Name: '&eBanners'
+    Material: CUSTOM_MATERIAL_1
+    Lore:
+    - '&7Unlock all the Banners and'
+    - '&7wear them as hats while in'
+    - '&7in a lobby!'
+  Emotes:
+    Name: '&eEmotes'
+    Material: head:60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
+    Lore:
+    - '&7Express yourself! Show the'
+    - '&7world how you''re feeling'
+    - '&7with these unique animated'
+    - '&7Emotes.'
+  Cloaks:
+    Name: '&eCloaks'
+    Material: ENCHANTING_TABLE
+    Lore:
+    - '&7Made of particles, these'
+    - '&7cloaks provide ultimate'
+    - '&7swag. To activate them,'
+    - '&7stand still for 1 second'
+    - '&7while in a lobby.'
+Inventory-Size: 54
+Slot-Layout: 9, 11, 13, 15, 17, 27, 29, 31, 33, 35

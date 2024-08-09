@@ -1,0 +1,21 @@
+lastAccountName: MadPikaxe
+timestamps:
+  login: 1668316626215
+  logout: 1668316645029
+  lastteleport: 1668304757599
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: -32.47482322473648
+  y: 71.0
+  z: 0.49185180054454447
+  yaw: -89.88387
+  pitch: 2.8524027
+lastlocation:
+  world: amazon
+  x: -25.266057864016105
+  y: 65.0
+  z: -77.05908927320664
+  yaw: -76.87509
+  pitch: 21.192364
+money: '4475.0'

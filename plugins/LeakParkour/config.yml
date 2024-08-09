@@ -1,0 +1,75 @@
+# > ---
+# > LeakParkour Configuration
+# > Visit Spigot page for more informations 
+# > https://goo.gl/Z99sVg
+# > ---
+
+Settings:
+  language: 'en_US'
+  view-distance: 70
+  security:
+      command-prevention: true
+      teleport-prevention: true
+  template:
+      start:
+        - '&e&lParkour Challenge'
+        - '&a&lStart'
+      checkpoint:
+        - '&e&lCheckpoint'
+        - '&b&l#%id'
+      finish:
+        - '&e&lParkour Challenge'
+        - '&c&lEnd'
+  items:
+      create-start:
+        - '&f&lStart Point'
+        - '&7Put this block in the place'
+        - '&7where you want to start parkour.'
+      create-point:
+        - '&f&lCheckpoint'
+        - '&7Put this block in the place'
+        - '&7where you want to start parkour.'
+      create-rubber:
+        - '&c&lRubber'
+        - '&7Using this item, you can'
+        - '&7remove selected checkpoint.'
+      create-finalize:
+        - '&a&lFinalize'
+        - '&7Using this item, you can'
+        - '&7finalize your parkour.'
+      create-leaderboard:
+        - '&e&lLeaderboard'
+        - '&7Using this itemm you can'
+        - '&7create a leaderboard for this parkour.'
+      create-cancel:
+        - '&c&lCancel'
+        - '&7Using this item, parkour'
+        - '&7will be removed without'
+        - '&7saving.'
+      parkour-cancel:
+        - '&cCancel'
+      parkour-reset:
+        - '&cReset'
+      parkour-point:
+        - '&aTeleport to Last Checkpoint'
+      leaderboard-1:
+        - '&e&lIcon &7| &e&lLeaderboard'
+        - '&7Table with records of the fastest'
+        - '&7players with floating gold cup icon.' 
+      leaderboard-2:
+        - '&e&lTop &7| &e&lLeaderboard'
+        - '&7Table with records of the fastest'
+        - '&7players with floating 1st player head.'
+      leaderboard-3:
+        - '&e&lPlayer &7| &e&lLeaderboard'
+        - '&7Table with personal data about'
+        - '&7player that take a part of a parkour race.'
+      
+  permissions:
+      parkour-command: 'leakparkour.parkour'
+      create-command: 'leakparkour.create'
+      delete-command: 'leakparkour.delete'
+      list-command: 'leakparkour.list'
+      checkpoint-command: 'leakparkour.checkpoint'
+      reset-command: 'leakparkour.reset'
+      cancel-command: 'leakparkour.cancel'

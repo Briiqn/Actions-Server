@@ -1,0 +1,295 @@
+Particles:
+  Water Splash:
+    Name: '&aWater Splash Particle'
+    Material: NETHER_STAR
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id001
+      - '&7Display a custom Water'
+      - '&7Splash particles around'
+      - '&7you in lobby.'
+      Unlocked: *id001
+  Drip Water:
+    Name: '&9Drip Water Particle'
+    Material: WATER_BUCKET
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id002
+      - '&7Display a custom Drip'
+      - '&7Water particles around'
+      - '&7you in lobby.'
+      Unlocked: *id002
+  Drip Lava:
+    Name: '&9Drip Lava Particle'
+    Material: LAVA_BUCKET
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id003
+      - '&7Display a custom Drip'
+      - '&7Lava particles around'
+      - '&7you in lobby.'
+      Unlocked: *id003
+  Crit:
+    Name: '&9Crit Particle'
+    Material: STONE_SWORD
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id004
+      - '&7Display a custom Crit'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id004
+  Magic Crit:
+    Name: '&9Magic Crit Particle'
+    Material: POTION:8204
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id005
+      - '&7Display a custom Magic'
+      - '&7Crit particles around'
+      - '&7you in lobby.'
+      Unlocked: *id005
+  Spell:
+    Name: '&5Spell Particle'
+    Material: ENDER_CHEST
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id006
+      - '&7Display a custom Spell'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id006
+  Instant Spell:
+    Name: '&5Instant Spell Particle'
+    Material: GHAST_TEAR
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id007
+      - '&7Display a custom Instant'
+      - '&7Spell particles around'
+      - '&7you in lobby.'
+      Unlocked: *id007
+  Mob Spell:
+    Name: '&5Mob Spell Particle'
+    Material: EXPERIENCE_BOTTLE
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id008
+      - '&7Display a custom Mob'
+      - '&7Spell particles around'
+      - '&7you in lobby.'
+      Unlocked: *id008
+  Witch Spell:
+    Name: '&6Witch Spell Particle'
+    Material: POTION:8260
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id009
+      - '&7Display a custom Witch'
+      - '&7Spell particles around'
+      - '&7you in lobby.'
+      Unlocked: *id009
+  Angry Villager:
+    Name: '&5Angry Villager Particle'
+    Material: FIRE_CHARGE
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id010
+      - '&7Display a custom Angry'
+      - '&7Villager particles around'
+      - '&7you in lobby.'
+      Unlocked: *id010
+  Happy Villager:
+    Name: '&5Happy Villager Particle'
+    Material: EMERALD
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id011
+      - '&7Display a custom Happy'
+      - '&7Villager particles around'
+      - '&7you in lobby.'
+      Unlocked: *id011
+  Town Aura:
+    Name: '&aTown Aura Particle'
+    Material: MYCELIUM
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id012
+      - '&7Display a custom Town'
+      - '&7Aura particles around'
+      - '&7you in lobby.'
+      Unlocked: *id012
+  Note:
+    Name: '&5Note Particle'
+    Material: NOTE_BLOCK
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id013
+      - '&7Display a custom Note'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id013
+  Portal:
+    Name: '&aPortal Particle'
+    Material: ENDER_PEARL
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id014
+      - '&7Display a custom Portal'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id014
+  Enchantment Table:
+    Name: '&9Enchantment Table Particle'
+    Material: ENCHANTING_TABLE
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id015
+      - '&7Display a custom Enchantment'
+      - '&7Table particles around'
+      - '&7you in lobby.'
+      Unlocked: *id015
+  Flame:
+    Name: '&6Flame Particle'
+    Material: GOLD_NUGGET
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id016
+      - '&7Display a custom Flame'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id016
+  Redstone:
+    Name: '&6Redstone Particle'
+    Material: REDSTONE
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id017
+      - '&7Display a custom Redstone'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id017
+  Heart:
+    Name: '&9Heart Particle'
+    Material: POPPY
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id018
+      - '&7Display a custom Heart'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id018
+  Fireworks Spark:
+    Name: '&6Fireworks Spark Particle'
+    Material: FIREWORK_ROCKET
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id019
+      - '&7Display a custom Fireworks'
+      - '&7Spark particles around'
+      - '&7you in lobby.'
+      Unlocked: *id019
+  Smoke:
+    Name: '&aSmoke Particle'
+    Material: FIREWORK_STAR
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id020
+      - '&7Display a custom Smoke'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id020
+  Slime:
+    Name: '&aSlime Particle'
+    Material: SLIME_BALL
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id021
+      - '&7Display a custom slime'
+      - '&7particles around you'
+      - '&7in lobby.'
+      Unlocked: *id021

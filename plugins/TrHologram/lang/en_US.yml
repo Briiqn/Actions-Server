@@ -1,0 +1,139 @@
+PLUGIN:
+  LOADING:
+    - ''
+    - '&2Tr&aHologram &7loading... &8{0}'
+    - ''
+  UN-SUPPORTED-VERSION: '&8[&2Tr&aHologram&8] &cERROR &8| &cUnsupported version &4{0} &c...'
+  ENABLED: '&8[&2Tr&aHologram&8] &bINFO &8| &3Loaded. TrHologram &av{0} &3has been enabled.'
+  DISABLED: '&8[&2Tr&aHologram&8] &bINFO &8| &7Disabled. Thanks for using :)'
+  HOOKED: '&8[&2Tr&aHologram&8] &eDEPEND &8| &7Hooked &6{0}&7...'
+  UPDATER:
+    LATEST: '&8[&2Tr&aHologram&8] &2You''re running the latest version of &3TrHologram&a.'
+    DEV: '&8[&2Tr&aHologram&8] &6You''re running the development version of &3TrHologram&6.'
+    OLD:
+      - '&8[&2Tr&aHologram&8] &bFound a new available version &av{0}&b, download it here'
+      - '&2https://github.com/Arasple/TrHologram/releases'
+    TOO-OLD:
+      - "&8--------------------------------------------------"
+      - "&r"
+      - "&8# &4The version of &cTrHologram &4you are running is too old"
+      - "&8# &4Please update to the latest version in time!"
+      - "&8# &r"
+      - "&8# &4Github: &chttps://github.com/Arasple/TrHologram/releases/latest"
+      - "&8# &r"
+      - "&8# &r"
+      - "&8# &4The server will start in &c&l{0} secs &4..."
+      - "&r"
+
+ERROR:
+  VERSION: '&8[&2Tr&aHologram&8] &cERROR &8| &7Plugin version error. Please re-download the plugin.'
+  JS:
+    - '&8[&2Tr&aHologram&8] &cERROR &8| &cExpression error: &2{0}'
+    - '&6{1}'
+    - '&8{2}'
+
+HOLOGRAM:
+  AUTO-RELOADED: '&8[&2Tr&aHologram&8] &3RELOAD &8| &7Auto-reloaded hologram &2{0}&7...'
+  AUTO-RELOAD-FAILED:
+    - '&8[&2Tr&aHologram&8] &3RELOAD &8| &7Failed to auto-reload hologram &6{0} &7, please check the errors...'
+    - '&8{1}'
+  LOADED-SUCCESS: '&8[&2Tr&aHologram&8] &bINFO &8| &7Loaded &a{0} &7holograms... &8[&7{1} Ms&8]'
+  LOADED-FAILURE: '&8[&2Tr&aHologram&8] &6WARN &8| &7There''re some holograms failed to load. Please check these errors...'
+  NOT-EXIST: '&8[&2Tr&aHologram&8] &7Hologram doesn''t exist...'
+
+MIGRATED: '&8[&2Tr&aHologram&8] &bINFO &8| &3Migrated &aHolographicDisplays &3holograms in total &a{0} &3...'
+
+HASTEBIN:
+  PROCESSING: '&8[&2Tr&aHologram&8] &7Please wait...'
+  SUCCESS: '&8[&2Tr&aHologram&8] &3Your content has been pasted on &a{0}'
+  FAILED: '&8[&2Tr&aHologram&8] &cFailed to pasted content on hastebin.'
+
+COMMANDS:
+  QUIT:
+    ==: TITLE
+    subtitle: '&7&lCancelled...'
+  CREATE:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&a&lCreate Hologram'
+      subtitle: '&7&lType a name'
+      stay: 100
+    EXISTED:
+      ==: TITLE
+      title: '&c&lCreate failed'
+      subtitle: '&7&lExists the same id hologram'
+    SUCCESS:
+      ==: TITLE
+      title: '&3&lCreated !'
+      subtitle: '&7&lYou can edit it now'
+  DELETE:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&3&lDelete Hologram'
+      subtitle: '&7&lType a name'
+      stay: 100
+    NOT-EXIST:
+      ==: TITLE
+      title: '&c&lDelete failed'
+      subtitle: '&7&lHologram doesn''t exist'
+    SUCCESS:
+      ==: TITLE
+      title: '&6&lDeleted !'
+      subtitle: '&7&lSuccessfully deleted the hologram'
+  EDIT:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&3&lEdit Hologram'
+      subtitle: '&7&lType a name'
+      stay: 100
+    NOT-EXIST:
+      ==: TITLE
+      title: '&c&lEdit failed'
+      subtitle: '&7&lHologram doesn''t exist'
+    BOOK-EDIT:
+      ==: ACTION
+      text: '&3&lOffered you a edit book for this hologram'
+    BOOK-EDIT-SUCCESS:
+      ==: TITLE
+      title: '&a&lEdited'
+      subtitle: '&7&lHologram is updated now'
+  LIST:
+    - '&8--------------------------------------------------'
+    - '&2Tr&aHologram &7- Hologram List *&8(Click to teleport)'
+    - ''
+  LIST-FORMAT:
+    - '&8▫ &3{0}'
+  HELP-PAGE:
+    ==: JSON
+    text:
+      - '&8--------------------------------------------------'
+      - '&2Tr&aHologram &7- Advanced Hologram Manager &6*{0}'
+      - ''
+      - '&8▪ <&7/&2{1} Create@create> &8— &7 Create new hologram'
+      - '&8▪ <&7/&2{1} Delete@delete> &8— &7 Delete exist hologram'
+      - '&8▪ <&7/&2{1} Edit@edit> &8— &7 Manage hologram'
+      - '&8▪ <&7/&2{1} List@list> &8— &7 List all holograms'
+      - '&8▪ <&7/&2{1} Reload@reload> &8— &7 Reload all holograms'
+      - ''
+      - '&8--------------------------------------------------'
+    args:
+      create:
+        hover: |-
+          &7Click to create.
+        command: '/trhologram create'
+      delete:
+        hover: |-
+          &7Click to delete.
+        command: '/trhologram delete'
+      edit:
+        hover: |-
+          &7Click to edit.
+        command: '/trhologram edit'
+      list:
+        hover: |-
+          &7Click to list holograms.
+        command: '/trhologram list'
+      reload:
+        hover: |-
+          &7Click to reload all holograms.
+        command: '/trhologram reload'

@@ -1,0 +1,287 @@
+Miniatures:
+  Doge:
+    Name: '&9Doge Miniature'
+    Material: head:b72e164fc95e9fe7389da2f1b08e138ce1df6bc256511a50de23cc358cc83c
+    Mystery Dust: 42
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id001
+      - '&7Select a Doge Miniature to'
+      - '&7follow you.'
+      Unlocked: *id001
+  Mr Smiley:
+    Name: '&9Mr Smiley Miniature'
+    Material: head:0d366a476466f0241af31c71db697855a39a16dc14bddff2098ed5050ff
+    Mystery Dust: 45
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id002
+      - '&7Select a Mr Smiley Miniature to'
+      - '&7follow you.'
+      Unlocked: *id002
+  Devil:
+    Name: '&9Devil Miniature'
+    Material: head:9da39269ef45f825ec61bb4f8aa09bd3cf07996fb6fac338a6e91d6699ae425
+    Mystery Dust: 48
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id003
+      - '&7Select a Devil Miniature to'
+      - '&7follow you.'
+      Unlocked: *id003
+  Astronaut:
+    Name: '&5Astronaut Miniature'
+    Material: head:ec342e45dc4d016b355bdb1e80acf9928b2d420c8eafcc59741d672145cf4385
+    Mystery Dust: 58
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id004
+      - '&7Select an Astronaut Miniature to'
+      - '&7follow you.'
+      Unlocked: *id004
+  Zombie:
+    Name: '&9Zombie Miniature'
+    Material: ZOMBIE_HEAD
+    Mystery Dust: 55
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id005
+      - '&7Select a Zombie Miniature to'
+      - '&7follow you.'
+      Unlocked: *id005
+  Enderman:
+    Name: '&5Enderman Miniature'
+    Material: head:7a59bb0a7a32965b3d90d8eafa899d1835f424509eadd4e6b709ada50b9cf
+    Mystery Dust: 65
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id006
+      - '&7Select an Enderman Miniature to'
+      - '&7follow you.'
+      Unlocked: *id006
+  Iron Golem:
+    Name: '&5Iron Golem Miniature'
+    Material: head:89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+    Mystery Dust: 65
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id007
+      - '&7Select an Iron Golem Miniature'
+      - '&7to follow you.'
+      Unlocked: *id007
+  Witch:
+    Name: '&6Witch Miniature'
+    Material: head:d122b564634cc7b0305881336dab63dbb6d311c5acf1f604eae179597f2364
+    Mystery Dust: 70
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id008
+      - '&7Select a Witch Miniature to'
+      - '&7follow you.'
+      Unlocked: *id008
+  Swamp Monster:
+    Name: '&6Swamp Monster Miniature'
+    Material: head:d88ba8bb50b79e441e47b7e452764d5fff6693779d2dadd9f7f52f98d7ea0
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id009
+      - '&7Select a Swamp Monster Miniature'
+      - '&7to follow you.'
+      Unlocked: *id009
+  Scarecrow:
+    Name: '&6Scarecrow Miniature'
+    Material: head:7cf772a5542b97c98de6b1133942444aa6b83fe2916fab816c106eab9468
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id010
+      - '&7Select a Scarecrow Miniature to'
+      - '&7follow you.'
+      Unlocked: *id010
+  Clown:
+    Name: '&5Clown Miniature'
+    Material: head:86dbc1debc57438a5de4ba915151382abc3d8f1318e2a35e78dfb30f04bc467
+    Mystery Dust: 62
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id011
+      - '&7Select a Clown Miniature to'
+      - '&7follow you.'
+      Unlocked: *id011
+  Ghost:
+    Name: '&5Ghost Miniature'
+    Material: head:32555ca901ab6301e7ce9789b57ebab59349c1acd7973f4ebbd0c38e10ada1f1
+    Mystery Dust: 60
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id012
+      - '&7Select a Ghost Miniature to'
+      - '&7follow you.'
+      Unlocked: *id012
+  Grim Reaper:
+    Name: '&6Grim Reaper Miniature'
+    Material: head:badfc62ff19950a9afd6c23291d0b25e19c74eb922c184e5edd3255f3fad9565
+    Mystery Dust: 75
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id013
+      - '&7Select a Grim Reaper Miniature'
+      - '&7to follow you.'
+      Unlocked: *id013
+  Miner:
+    Name: '&6Miner Miniature'
+    Material: head:d357444ade64ec6cea645ec57e775864d67c5fa62299786e03799317ee4ad
+    Mystery Dust: 75
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id014
+      - '&7Select a Miner Miniature to'
+      - '&7follow you.'
+      Unlocked: *id014
+  Santa:
+    Name: '&6Santa Miniature'
+    Material: head:14e424b1676feec3a3f8ebade9e7d6a6f71f7756a869f36f7df0fc182d436e
+    Mystery Dust: 68
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id015
+      - '&7Select a Santa Miniature to'
+      - '&7follow you.'
+      Unlocked: *id015
+  Snowman:
+    Name: '&6Snowman Miniature'
+    Material: head:ce4bee0403a208fbdc2ab2a61e3ff23b3270554253683a6d0a5516aca84a2be7
+    Mystery Dust: 68
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id016
+      - '&7Select a Snowman Miniature to'
+      - '&7follow you.'
+      Unlocked: *id016
+  Reindeer:
+    Name: '&5Reindeer Miniature'
+    Material: head:ebd46b38b21b342caf917ad9ca42afb68388a5591bcc9aded1e8e346e18890
+    Mystery Dust: 65
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id017
+      - '&7Select a Reindeer Miniature to'
+      - '&7follow you.'
+      Unlocked: *id017
+  Lantern:
+    Name: '&5Lantern Miniature'
+    Material: head:f243706075a4f5f2731a8ad5f636058b1d5b3a49c1f14f5b9babcf2044f59355
+    Mystery Dust: 65
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id018
+      - '&7Select a Lantern Miniature to'
+      - '&7follow you.'
+      Unlocked: *id018
+  Present:
+    Name: '&6Present Miniature'
+    Material: head:6cef9aa14e884773eac134a4ee8972063f466de678363cf7b1a21a85b7
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id019
+      - '&7Select a Present Miniature to'
+      - '&7follow you.'
+      Unlocked: *id019
+  Globe:
+    Name: '&6Globe Miniature'
+    Material: head:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id020
+      - '&7Select a Globe Miniature to'
+      - '&7follow you.'
+      Unlocked: *id020
+  Mars:
+    Name: '&6Mars Miniature'
+    Material: head:777d616bc44ac9b3730fed47f29a378f88a16728c67048c1a387d229e1cba
+    Mystery Dust: 80
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id021
+      - '&7Select a Mars Miniature to'
+      - '&7follow you.'
+      Unlocked: *id021
+  Snowglobe:
+    Name: '&6Snowglobe Miniature'
+    Material: head:7bbe8fd1aa39f15076e884dfe6ddb9a3f3761db31e2b1f9940b5dfd34d1c4d
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id022
+      - '&7Select a Snowglobe Miniature to'
+      - '&7follow you.'
+      Unlocked: *id022

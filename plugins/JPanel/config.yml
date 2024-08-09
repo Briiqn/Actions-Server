@@ -1,0 +1,16 @@
+http-port: 1234
+debug-mode: false
+use-ssl: false
+keystore-name: ''
+keystore-password: ''
+users:
+  admin:
+    password: 1000:a1579ec577df4c37a1642116eee477ed:f9220a7b8894a7ebdf075bb8ca20d5b4b28ea50230edbb054058de80e481fe1fe2e25bd5c8a379487043232a10a66c60623288d8b0a47d14dfafe039ebc1b384
+    canEditFiles: true
+    canChangeGroups: true
+    canSendCommands: true
+  og_ninja:
+    password: 1000:d740c261a0219cf15cd00149706e8406:599e46720eead0a7f9d30fc7780a44e0ee6d15d41d3243353b4e9234ae032ee811dd25285d005d8236c9cc35fca8653160a76426812b5af56e0d894edccfa091
+    canEditFiles: false
+    canChangeGroups: false
+    canSendCommands: false

@@ -1,0 +1,97 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&f[&e&lBedwars&f] &d&lVIP'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 2
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'vip;rank'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+iron:
+  COMMAND: 'op:manuaddsub {player} iron; op:manuaddv {player} suffix &b | &f&lIron&b |'
+  NAME: '&f&lIron Rank'
+  POINTS: 100
+  LORE:
+    - '&fClick to buy Rank &f&lIron'
+    - '&fUsed kit iron.'
+    - '&fPrice : &6100 Coin'
+  ID: 265
+  POSITION-X: 1
+  POSITION-Y: 1
+gold:
+  COMMAND: 'op:manuaddsub {player} gold; op:manuaddv {player} suffix &b | &e&lGold&b |'
+  NAME: '&e&lGold Rank'
+  POINTS: 200
+  LORE:
+    - '&fClick to buy Rank &e&lGold'
+    - '&fUse kit gold.'
+    - '&fPrice : &6200 Coin'
+  ID: 266
+  POSITION-X: 3
+  POSITION-Y: 1
+diamond:
+  COMMAND: 'op:manuaddsub {player} diamond; op:manuaddv {player} suffix &b[DIA]'
+  NAME: '&b&lDiamond Rank'
+  POINTS: 300
+  LORE:
+    - '&fClick to buy Rank &b&lDiamond'
+    - '&fUse kit diamond'
+    - '&fPrice : &6300 Coin'
+  ID: 264
+  POSITION-X: 5
+  POSITION-Y: 1
+emerald:
+  COMMAND: 'op:manuaddsub {player} emerald; op:manuaddv {player} suffix &b | &a&lEmerald&b |'
+  NAME: '&a&lEmerald Rank'
+  POINTS: 500
+  LORE:
+    - '&fClick to buy Rank &a&lEmerald'
+    - '&fUse kit emerald.'
+    - '&fPrice : &6500 Coin'
+  ID: 388
+  POSITION-X: 7
+  POSITION-Y: 1
+Youtuber:
+  NAME: '&f&lYou&4&lTube Rank'
+  LORE:
+    - '&fClick to buy Rank &f&lYou&4&lTube'
+    - '&fUse kit youtuber.'
+  ID: 399
+  POSITION-X: 9
+  POSITION-Y: 1
+
+menu-close-no-commands-no-lore:
+  NAME: '&6Get rid of row rank'
+  ID: redstone lamp
+  LORE:
+    - '&c'
+  POSITION-X: 9
+  POSITION-Y: 2

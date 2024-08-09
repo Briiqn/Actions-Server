@@ -1,0 +1,17 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,2.5,71.1,-13.5
+contents:
+- §6§lYour Bed Wars Profile
+- ''
+- '&fYour Level: %bw1058_player_level%<update:10>'
+- ''
+- '&fProgress: &b%bw1058_player_xp_formatted%&7/&a%bw1058_player_rerq_xp_formatted%<update:10>'
+- ''
+- '%bw1058_player_progress%<update:10>'
+- ''
+- '&fTotal Wins: &a%bw1058_stats_wins%<update:10>'
+- ''
+- '&fTotal Losses: &a%bw1058_stats_losses%<update:10>'
+- ''
+- §e§lCLICK FOR STATS

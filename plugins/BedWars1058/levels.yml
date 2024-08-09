@@ -1,0 +1,28 @@
+xp-rewards:
+  per-minute: 10
+  per-teammate: 5
+  game-win: 100
+progress-bar:
+  symbol: ■
+  unlocked-color: '&b'
+  locked-color: '&7'
+  format: '&8 [{progress}&8]'
+levels:
+  '1':
+    name: '&7[{number}✩] '
+    rankup-cost: 1000
+  '2':
+    name: '&7[{number}✩] '
+    rankup-cost: 2000
+  '3':
+    name: '&7[{number}✩] '
+    rankup-cost: 3000
+  '4':
+    name: '&7[{number}✩] '
+    rankup-cost: 3500
+  5-10:
+    name: '&e[{number}✩] '
+    rankup-cost: 5000
+  others:
+    name: '&7[{number}✩] '
+    rankup-cost: 5000

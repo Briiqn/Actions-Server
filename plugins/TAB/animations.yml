@@ -1,0 +1,18 @@
+#usage: %animation:bossbar%  or  {animation:NAME}
+animations:
+  bossbar:
+    change-interval: 100
+    texts:
+      - '&e&lBEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&e&lBEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&6&lB&e&lEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&f&lB&6&lE&e&lDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&f&lBE&6&lD&e&lWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&f&lBED&6&lW&e&lARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&f&lBEDW&6&lA&e&lRS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&f&lBEDWA&6&lR&e&lS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&f&lBEDWAR&6&lS&e&l &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&e&lBEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&e&lBEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&e&lBEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'
+      - '&e&lBEDWARS &b1.0 &aBETA &7- &fWINS: &a%bw1058_stats_wins% &7| &fKILLS: &a%bw1058_stats_kills%'

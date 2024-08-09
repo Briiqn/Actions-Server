@@ -1,0 +1,166 @@
+Cloaks:
+  Superhero:
+    Name: '&6Superhero Cloak'
+    Material: RED_DYE
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id001
+      - '&7Straight from the comic'
+      - '&7books comes that signature'
+      - '&7red cloak!'
+      Unlocked: *id001
+  Mystical:
+    Name: '&6Mystical Cloak'
+    Material: BOOK
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id002
+      - '&7Shrouded in mystery, this'
+      - '&7cloak is the center of'
+      - '&7numerous legends concerning'
+      - '&7its powers.'
+      Unlocked: *id002
+  Firewings:
+    Name: '&6Firewings Cloak'
+    Material: BLAZE_POWDER
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id003
+      - '&7Rise from the ashes like a'
+      - '&7phoenix in this display of'
+      - '&7flames!'
+      Unlocked: *id003
+  Vampire Wings:
+    Name: '&6Vampire Wings Cloak'
+    Material: REDSTONE
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id004
+      - '&7Giant black and red wings'
+      - '&7extend from your back to'
+      - '&7form menacing vampire'
+      - '&7wings!'
+      Unlocked: *id004
+  Frosty:
+    Name: '&6Frosty Cloak'
+    Material: SNOWBALL
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id005
+      - '&7The cold never bothered me'
+      - '&7anyway!'
+      Unlocked: *id005
+  Icewings:
+    Name: '&6Icewings Cloak'
+    Material: ICE
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id006
+      - '&7Is it just me or is it cold'
+      - '&7here?'
+      Unlocked: *id006
+  Shaman:
+    Name: '&6Shaman Cloak'
+    Material: BONE
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id007
+      - '&7Be surrounded by a tornado,'
+      - '&7similar to Shaman''s Tornado'
+      Unlocked: *id007
+  Firerings:
+    Name: '&6Firerings Cloak'
+    Material: BLAZE_ROD
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id008
+      - '&7Be surrounded by flames, '
+      - '&7maybe the way you walk is'
+      - '&7burnt to ashes.'
+      Unlocked: *id008
+  Scanner:
+    Name: '&6Scanner Cloak'
+    Material: BEACON
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id009
+      - '&7Bleep Bloop!'
+      Unlocked: *id009
+  Archangel:
+    Name: '&6Archangel Cloak'
+    Material: head:36f0485453d3a90f354321e8f382bef106bf506424f70c04a207f82bdb2856b9
+    Mystery Dust: 70
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id010
+      - '&7Sometimes angels are just'
+      - '&7ordinary people that help'
+      - '&7us believe in miracles'
+      - '&7again.'
+      Unlocked: *id010
+  Yin and Yang:
+    Name: '&6Yin and Yang Cloak'
+    Material: head:7fc0e041e45e1d96934bb9159e7b9e1ed74ff99a9b9342214302fdba57fd2
+    Mystery Dust: 62
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id011
+      - '&7Achieve the balance of the'
+      - '&7universe and watch it spin'
+      - '&7beneath your feet.'
+      Unlocked: *id011
+  Flame of the Titans:
+    Name: '&6Flame of the Titans Cloak'
+    Material: MAGMA_CREAM
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+      Locked: &id012
+      - '&7These flames are said to be'
+      - '&7the spirit of a Titan.'
+      Unlocked: *id012

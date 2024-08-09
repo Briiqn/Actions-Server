@@ -1,0 +1,315 @@
+# This option allows you to set where
+# player's data do you want to save.
+# 
+# Storages: 'sqlite' or 'mysql'.
+# 
+# If you enable mysql, you need to setup MySQL infos.
+Player-Data:
+  Storage: sqlite
+  MySQL:
+    hostname: localhost
+    username: root
+    database: minecraft
+    port: '3306'
+    password: password
+    useSSL: false
+Cosmetic-Item-Purchase:
+  # Set to true allows player to purchase cosmetic items.
+  Enabled: true
+  # Set the storage where do you want to save mystery dust.
+  # Available storages: 'default', 'coinsapi', 'playerpoints', 'vault'.
+  # 'default' represent follow player data storage.
+  Mystery-Dust-Storage: default
+  # Set to true will allows player to purchase specified cosmetic.
+  Enabled-Cosmetics:
+    Hats: true
+    Animated Hats: true
+    Particles: true
+    Suits: true
+    Gadgets: true
+    Pets: true
+    Miniatures: true
+    Morphs: true
+    Banners: true
+    Emotes: true
+    Cloaks: true
+  # Reopen GUI menu after player purchase item.
+  Reopen-GUI-Menu-After-Purchase: true
+  Execute-Command:
+    # Set to true will use 3rd plugin to store purchased cosmetic items,
+    # otherwise will saved in built-in storage.
+    Enabled: false
+    Command: pex user {PLAYER} add {PERMISSION}
+# General settings.
+Settings:
+  # The mystery dust amount of the player who join the server first time.
+  Starting-Mystery-Dust: 0
+  # The maximum characters that player can set the pet name.
+  Max-Pet-Name-Characters: 20
+  # The slot when player equip gadget, emote or morph.
+  Gadget-Slot: 5
+  # Set how items are sorted in the menus.
+  # Sorting Types: DEFAULT, RARITY, NAME
+  Inventory-Sorting: DEFAULT
+  # The default value of Mystery Vault animation.
+  # The value of the player who join the server first time.
+  Default-Mystery-Vault-Animation: NORMAL
+  # The default self morph view setting.
+  Default-Self-Morph-View: true
+  # Do you want to enable self morph view?
+  Enabled-Self-Morph-View: true
+  # Display player name above the mob disguise.
+  Show-Name-For-Mob-Disguise: true
+  # Do you want to enable mob disguise damage?
+  # Set to false will disable damage if disguised.
+  Enabled-Mob-Disguise-Damage: false
+  # Auto equip cosmetic after player purchased.
+  Auto-Equip-After-Purchase: true
+  # Auto equip cosmetic when player found loot from mystery box.
+  Auto-Equip-On-Loot-Found: true
+  # Set to true will shows particle effect to everyone,
+  # otherwise will only show to the player itself.
+  Show-Particle-Effect-To-Everyone: true
+  # Set to true will shows cloak effect to everyone,
+  # otherwise will only show to the player itself.
+  Show-Cloak-Effect-To-Everyone: true
+  # Set to true will hide particle effect for vanished player.
+  Hide-Particle-Effect-For-Vanished-Player: true
+  # Set to true will hide cloak effect for vanished player.
+  Hide-Cloak-Effect-For-Vanished-Player: true
+  # Do action when player equip cosmetic.
+  # Replace: Replace the old item with equipped cosmetic.
+  # Warn: Send a warning message to the player and reject to equip cosmetic.
+  # Drop: Drop the old item on the ground and equip cosmetic.
+  Equip-Cosmetic-Item-To-Slot: WARN
+  # Sync player's selected cosmetics when they join the server.
+  # Set to 'false' to reduce server lag.
+  Sync-Cosmetics-On-Join: true
+# The menu selector settings.
+Menu-Item:
+  # The name of the selector.
+  Name: '&aBÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ SÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°u TÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§m
+    &7(ChuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢t PhÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£i)'
+  # The material of the selector.
+  # Material: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Material-Syntax
+  Material: CHEST
+  # Slot: 0-8
+  Slot: 4
+  # Should give player menu selector when they join the server.
+  Give-On-Join: false
+  # The way to open menu selector.
+  # Click Type: LEFT, RIGHT, LEFT_AND_RIGHT
+  Click-Type: LEFT_AND_RIGHT
+  # Set to true allows player to move menu selector to another slot.
+  Able-To-Move: false
+  Lore:
+  - '&7ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢y lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  tiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡n
+    ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ch giÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âºp bÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡n cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³'
+  - '&7quyÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¯Ã‚Â¿Ã‚Â½n lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â m ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¹p
+    cho bÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£n thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢n'
+  - '&7vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  bÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¯t mÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¯t.'
+  - ''
+  - '&7Mystery Dust: &b{MYSTERY_DUST}'
+  - ''
+# List of the worlds where cosmetics are enabled!
+Enabled-Worlds:
+- world
+# List of the disabled cosmetics.
+# Set to true to disable it.
+Disabled-Cosmetics:
+  Hats: false
+  Animated Hats: false
+  Particles: false
+  Suits: false
+  Gadgets: false
+  Pets: false
+  Miniatures: false
+  Morphs: false
+  Banners: false
+  Emotes: false
+  Cloaks: false
+# Sync the last equipped cosmetics when player join the server.
+Cosmetics-Sync-On-Join:
+  Hats: true
+  Animated Hats: true
+  Particles: true
+  Suits: true
+  Gadgets: true
+  Pets: true
+  Miniatures: true
+  Morphs: true
+  Banners: true
+  Emotes: true
+  Cloaks: true
+Permission:
+  # When player doesn't have the permission of that item.
+  No-Permission:
+    # Set to true will show the lore.
+    Show-In-Lore: false
+    # Should close GUI menu when player selected 
+    # a item which he doesn't have the permission.
+    Close-GUI-Menu-After-Select: true
+    Lore:
+    - ''
+    - '&7TrÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡ng ThÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡i: &c&lKHÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œA'
+    # Set to true, will play sound 
+    # when player select the item.
+    # 
+    # Sounds: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Sounds
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_TELEPORT
+    Show-Custom-Item:
+      Enabled: true
+      Material: GRAY_DYE
+  # When player have the permission of that item.
+  Has-Permission:
+    # Set to true will show the lore.
+    Show-In-Lore: false
+    Close-GUI-Menu-After-Select: true
+    Lore:
+    - ''
+    - '&7TrÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡ng ThÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡i: &a&lMÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¾
+      KHÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œA'
+    # Set to true, will play sound 
+    # when player select the item.
+    # 
+    # Sounds: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Sounds
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+# Discount the cost of an item when player purchase.
+Item-Cost-Discount:
+  # Set to true will enable item cost discount.
+  Enabled: true
+  # Which item do you want to enable item cost discount?
+  Discount:
+    Cosmetic-Item: true
+    Crafting-Mystery-Box: true
+  # You can add more discount rate by reference example.
+  Discount-Rates:
+    # The name of the discount group.
+    # This name is use for placeholder to get the cost after discount.
+    # Placeholder Syntax: {<name>_COST}
+    # Get the cost of that discount rate.
+    Default:
+      # Higher numbers override.
+      Priority: 1
+      # The permission to granted discount.
+      Permission: gadgetsmenu.discount.default
+      # Discount rates.
+      Rate: 0
+      Lore:
+        Enough-Mystery-Dust:
+        - ''
+        - '&aGiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡&7: &a{COST} &7Mystery Dust! &eÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï¿½ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬'
+        - '&cVIP: {VIP_COST} Mystery Dust (GiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£m 20%!)'
+        - '&cMVP: {MVP_COST} Mystery Dust (GiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£m 40%!)'
+        - ''
+        - '&7GiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: &a{DEFAULT_COST} &7Mystery Dust'
+        - '&eNhÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¥n vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â o ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€ Ã¢â‚¬â„¢
+          ghÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©p!'
+        Not-Enough-Mystery-Dust:
+        - ''
+        - '&aGiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: {COST} Mystery Dust! &eÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï¿½ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬'
+        - '&cVIP: {VIP_COST} Mystery Dust (20% OFF!)'
+        - '&cMVP: {MVP_COST} Mystery Dust (40% OFF!)'
+        - ''
+        - '&7GiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: &c{DEFAULT_COST} &7Mystery Dust'
+        - '&cBÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡n cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³
+          &b{COST_LEFT} &cthÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªm mystery dust!'
+    VIP:
+      Priority: 2
+      Permission: gadgetsmenu.discount.VIP
+      Rate: 20
+      Lore:
+        Enough-Mystery-Dust:
+        - ''
+        - '&8&mGiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: {COST} Mystery Dust!'
+        - '&aVIP&7: &a{VIP_COST} &7Mystery Dust (&a20% &7OFF!) &eÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï¿½ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬'
+        - '&cMVP: {MVP_COST} Mystery Dust (40% OFF!)'
+        - ''
+        - '&7GiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: &a{VIP_COST} &7Mystery Dust'
+        - '&eNhÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¥n vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â o ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€ Ã¢â‚¬â„¢
+          ghÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©p!'
+        Not-Enough-Mystery-Dust:
+        - ''
+        - '&8&mGiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: {COST} Mystery Dust!'
+        - '&aVIP&7: &a{VIP_COST} &7Mystery Dust (&a20% &7OFF!) &eÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï¿½ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬'
+        - '&cMVP: {MVP_COST} Mystery Dust (40% OFF!)'
+        - ''
+        - '&7GiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: &c{VIP_COST} &7Mystery Dust'
+        - '&cBÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡n cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³
+          &b{COST_LEFT} &cthÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªm mystery dust!'
+    MVP:
+      Priority: 3
+      Permission: gadgetsmenu.discount.MVP
+      Rate: 40
+      Lore:
+        Enough-Mystery-Dust:
+        - ''
+        - '&8&mGiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: {COST} Mystery Dust!'
+        - '&8&mVIP: {VIP_COST} Mystery Dust (20% OFF!)'
+        - '&bMVP&7: &a{MVP_COST} &7Mystery Dust (&a40% &7OFF!) &eÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï¿½ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬'
+        - ''
+        - '&7GiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: &a{MVP_COST} &7Mystery Dust'
+        - '&eNhÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¥n vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â o ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€ Ã¢â‚¬â„¢
+          ghÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©p!'
+        Not-Enough-Mystery-Dust:
+        - ''
+        - '&8&mGiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: {COST} Mystery Dust!'
+        - '&8&mVIP: {VIP_COST} Mystery Dust (20% OFF!)'
+        - '&bMVP&7: &a{MVP_COST} &7Mystery Dust (&a40% &7OFF!) &eÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï¿½ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬'
+        - ''
+        - '&7GiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡: &a{MVP_COST} &7Mystery Dust'
+        - '&cBÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡n cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³
+          &b{COST_LEFT} &cthÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªm mystery dust!'
+# When player clicks 'Go Back' button will execute these commands.
+# If you enabled this option, it won't open the main menu of GadgetsMenu.
+# Placeholders: {PLAYER}
+Back-To-Main-Menu:
+  Execute-Commands:
+    Enabled: false
+    Commands:
+    - cc open menu.yml {PLAYER}
+# Set to true will fill the blank slots of inventories with the item you set.
+Fill-Empty-Slot-With-Item:
+  Enabled: true
+  Material: BLACK_STAINED_GLASS_PANE
+# List of commands that won't work when equip a cosmetic.
+# Type commands in lowercase without slashes.
+Disabled-Commands:
+- hat
+- ah sell
+# Anti Lag System.
+# Activate these actions if server TPS is below the minimum TPS.
+Anti-Lag:
+  Enabled: true
+  Minimum-TPS: 13
+  Action:
+    # Unequip online players cosmetics.
+    Clear-Cosmetics: true
+    # Disable the usage of cosmetics.
+    Disable-Usage: true
+# Player does not allow to use cosmetics in these regions. (Required WorldGuard)
+Blacklisted-Regions:
+  Disable-All-Cosmetics:
+  - region1
+  - region2
+  - region3
+  Disable-Hats: ''
+  Disable-Animated-Hats: ''
+  Disable-Particles: ''
+  Disable-Suits: ''
+  Disable-Gadgets: ''
+  Disable-Pets: ''
+  Disable-Miniatures: ''
+  Disable-Morphs: ''
+  Disable-Banners: ''
+  Disable-Emotes: ''
+  Disable-Cloaks: ''
+  Disable-Pet-Riding: ''
+# Check for updates if you set to true.
+Check-Update: false
+# Do not edit this.
+Config-Version: 2.0.3

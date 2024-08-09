@@ -1,0 +1,2615 @@
+prefix: ''
+name: Română
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/group>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-join-arena-full: |-
+  {prefix}&cArena este plina!
+  &aAi putea lua in considerare donarea pentru mai multe facilitati. &7&o(click)
+cmd-join-arena-full-vips: |-
+  {prefix}&cNe pare rau dar arena este plina.
+  &cStim ca esti donator dar arena este deja plina cu persoane care au prioritate.
+cmd-leave: '{prefix}&7{player} &ea iesit!'
+cmd-join-not-found: '{prefix}&cNu exista arene sau grupuri cu numele: {name}'
+cmd-join-arenas-full: '{prefix}&cNu sunt arene disponibile momentan ;('
+cmd-not-in-arena: '{prefix}&cNu esti intr-o arena!'
+cmd-lang-list-header: '{prefix} &2Limbi disponibile:'
+cmd-lang-list-format: '&a▪  &7{iso} - &f{name}'
+cmd-lang-usage: '{prefix}&7Foloseste: /lang &f&o<iso>'
+cmd-lang-not-exist: '{prefix}&cAceasta limba nu exista!'
+cmd-lang-set: '{prefix}&aLimba a fost schimbata!'
+cmd-lang-not-set: '{prefix}&cNu poti schimba limba in timpul meciului.'
+cmd-tp-player-not-found: '{prefix}&cPlayer not found!'
+cmd-tp-not-in-arena: '{prefix}&cThis player is not in a bedwars arena!'
+cmd-tp-not-started: '{prefix}&cThe arena where the player is didn''t start yet!'
+cmd-tp-usage: '{prefix}&cUsage: /bw tp <username>'
+cmd-join-party-big: '{prefix}&cParty-ul este prea mare pentru a intra ca un singur
+  team :('
+cmd-join-not-leader: '{prefix}&cDoar leader-ul poate alege arena.'
+cmd-join-success: '{prefix}&7{player} &ea intrat (&b{on}&e/&b{max}&e)!'
+cmd-rejoin-player-reconnected: '{prefix}&7{player} &es-a reconectat!'
+cmd-join-usage: '§a▪ §7Folosire: /bw join §o<arena/group>'
+cmd-blocked-in-game: '{prefix}&cNu poti face asta in timpul meciului.'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aComenzi Party:'
+- '&e/party help &7- &bArata mesajele de ajutor'
+- '&e/party invite <jucatori> &7- &bInvita un jucator in party'
+- '&e/party leave &7- &bParaseste un party'
+- '&e/party remove <player> &7- &bScoate un jucator din party'
+- '&e/party accept <player> &7- &bAccepta o invitatie'
+- '&e/party disband &7- &bSterge party-ul'
+cmd-party-invite-usage: '{prefix}&eFolosire: &7/party invite <jucator>'
+cmd-party-offline: '{prefix}&7{player} &eeste offline!'
+cmd-party-invite: '{prefix}&eInvitatia a fost trimisa lui &7{player}&6.'
+cmd-party-invite-received: '{prefix}&b{player} &ete-a invitat intr-un party! &o&7(Click
+  pentru a accepta)'
+cmd-party-invite-self: '{prefix}&cNu te poti invita singur!'
+cmd-party-no-invite: '{prefix}&cNu ai cereri de acceptat.'
+cmd-party-already-in: '{prefix}&Esti deja intr-un party!'
+cmd-party-no-perm: '{prefix}&cDoar detinatorul party-ului poate face asta!'
+cmd-party-accept-usage: '{prefix}&eFolosire: &7/party accept <jucator>'
+cmd-party-join: '{prefix}&7{player} &ea intrat in party!'
+cmd-party-not-in: '{prefix}&cNu esti intr-un party!'
+cmd-party-cant-leave: |-
+  {prefix}&cNu poti iesi din propriul party!
+  &eIncearca: &b/party disband
+cmd-party-leave: '{prefix}&7{player} &ea iesit din party!'
+cmd-party-disband: '{prefix}&eParty-ul a fost sters!'
+cmd-party-remove-usage: '{prefix}&7Folosire: &e/party remove <jucator>'
+cmd-party-remove: '{prefix}&7{player} &ea fost scos din party.'
+cmd-party-remove-not-in: '{prefix}&7{player} &enu este in acest party!'
+cmd-not-found: '{prefix}&cComanda nu a fost gasita sau nu ai permisiunea!'
+cmd-start-no-game: §c▪ §7Nu esti in joc!
+cmd-start: §c▪ §7Numaratoarea a fost redusa!
+cmd-start-no-perm: |-
+  {prefix}&7Nu poti forta arena sa inceapa.
+  §7Ai putea lua in considerare donarea pentru mai multe facilitati.
+cmd-join-spectate: |-
+  {prefix}§6Acum urmaresti meciul din §9{arena}§6.
+  {prefix}§ePoti parasi arena folosind §c/leave§e.
+cmd-join-spectate-denied: '&cSpectatorii nu sunt permisi in aceasta arena!'
+cmd-cooldown: '&cNu poti face asta inca! Mai asteapta {seconds} secunde!'
+spectator-tp-gui-name: '&8Teleportor'
+spectator-tp-gui-head-name: '{prefix}{player}'
+spectator-tp-gui-head-lore:
+- '&7Viata: &f{health}%'
+- '&7Hrana: &f{food}'
+- ''
+- '&7Click-stanca pentru a urmari.'
+spectator-tp-name: '&c&lIntoarce-te in lobby'
+spectator-tp-lore:
+- '&7Click-dreapta pentru a merge in lobby!'
+spectator-first-person-enter-title: '&aUrmareste-l pe &7{player}'
+spectator-first-person-enter-subtitle: '&cSNEAK pentru a iesi'
+spectator-first-person-quit-title: '&eIesi din modul Spectator'
+spectator-first-person-quit-subtitle: ''
+arena-kicked-by-vip: |-
+  {prefix}&cNe pare rau, dar locul tau a fost rezervat unui donator.
+  &aAi putea lua in considerare donarea pentru mai multe facilitati. &7&o(click)
+arena-countdown-stopped: '{prefix}§cNu sunt destui jucatori! Numaratoarea a fost oprita!'
+arena-restart-kick: '{prefix}&eArena in care te aflai se reporneste.'
+arena-status-playing: '&cIn joc'
+arena-status-restarting: '&4Se reporneste'
+arena-status-waiting: '&2In Asteptare §c{full}'
+arena-status-starting: '&6Porneste §c{full}'
+arena-selector-gui-name: '&8Click pentru a intra'
+arena-selector-content-name: '&a&l{name}'
+arena-selector-content-lore:
+- ''
+- '&7Status: {status}'
+- '&7Jucatori: &f{on}&7/&f{max}'
+- '&7Tip: &a{group}'
+- ''
+- '&aClick-Stanga pentru a intra.'
+- '&eClick-Dreapta pentru a vizona.'
+arena-selector-skipped-item-name: '&r{serverIp}'
+arena-selector-skipped-item-lore: []
+arena-start-countdown: '{prefix}&eJocul incepe in &6{time} &esecunde!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a{second}'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cWaiting for more players..'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '&e&lProtejeaza-ti patul si distruge paturile inamicilor.'
+- '&e&l          Cumpara arme si upgrade-uri colectand'
+- '&e&l   Fier, Aur, Emeralde si Diamonte de la generatoare.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-start-title: '&aSTART'
+arena-leave-party-disbanded: '{prefix}§cParty-ul a fost sters pentru ca detinatorul
+  a iesit!'
+arena-join-denied-selector: '{prefix}&cNe pare rau dar nu poti intra chiar acum. Foloseste
+  Click-Dreapta pentru a urmari!'
+arena-spectate-denied-selector: '{prefix}&cNe pare rau dar nu poti urmari arena chiar
+  acum. Foloseste Click-Dreapta pentru a juca!'
+arena-join-denied-no-bwp: "&cSorry but you must join an arena using BedWarsProxy.\
+  \ \n&eIf you want to setup an arena make sure to give yourself the bw.setup permission\
+  \ so you can join the server directly!"
+generator-tier: '&eTier &c{tier}'
+generator-diamond: '&b&lDiamant'
+generator-emerald: '&a&lEmerald'
+generator-timer: '&eSe spawneaza in &c{seconds} &esecunde'
+generator-upgrade-announce: '{prefix}&eGeneratoarele de {generatorType} &eau fost
+  upgradate la nivelul &c{tier}'
+format-winner-team: '      {TeamColor}{TeamName} &7- {members}'
+format-winner-solo: '                 {TeamColor}{TeamName} &7- {members}'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-chat-lobby: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-waiting: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-global: '{level}{vPrefix}&6[SHOUT] {team} &7{player}&f{vSuffix}: {message}'
+format-chat-team: '{level}{vPrefix}&f{team}&7 {player}{vSuffix} {message}'
+format-chat-spectator: '{level}{vPrefix}&7[SPECTATOR] {player}{vSuffix}: {message}'
+format-sb-health:
+- '&c❤'
+- '&aViață'
+format-spectator-team: SPECT
+format-spectator-color: '&7'
+format-sb-tab-prefix:
+  restarting:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}'
+  playing:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}'
+  starting:
+  - '{vPrefix} '
+  waiting:
+  - '{vPrefix} '
+  lobby:
+  - '{vPrefix} '
+format-sb-tab-suffix:
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '{TeamColor}{TeamLetter}&f {TeamName}: {TeamStatus}'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a{remainingPlayers}'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 TU'
+format-action-tracking: '&fUrmaresti: {team} &f- Distanta: {distance}m'
+format-despawnable-health: '▮ '
+format-stats-time: yyyy/MM/dd HH:mm
+format-papi-player-team: '{TeamColor}[{TeamName}]'
+format-papi-player-shout: '&6[STRIGAT]'
+format-papi-player-spectator: '&7[SPECTATOR]'
+meaning-shout: shout
+meaning-nobody: Nimeni
+meaning-full: Plin
+meaning-iron-singular: Fier
+meaning-iron-plural: Fier
+meaning-gold-singular: Aur
+meaning-gold-plural: Aur
+meaning-emerald-singular: Emerald
+meaning-emerald-plural: Emeralde
+meaning-diamond-singular: Diamant
+meaning-diamond-plural: Diamante
+meaning-vault-singular: $
+meaning-vault-plural: $
+meaning-never: Niciodata
+interact-cant-open-chest: '&cNu poti deschide acest cufar pentru ca echipa a fost
+  eliminata!'
+interact-cant-place: '{prefix}&cNu poti pune blocuri aici!'
+interact-cant-break: '{prefix}&cYou can only break blocks placed by a player!'
+interact-cant-destroy-bed: '&cNu iti poti distruge propriul pat!'
+interact-bed-destroy-chat: |2
+
+  &f&lPAT DISTRUS > {TeamColor}Patul Echipei {TeamName} &7a fost distrus de {PlayerColor}{PlayerName}&7!
+interact-bed-destroy-title: '&cPAT DISTRUS!'
+interact-bed-destroy-subtitle: '&fNu te mai poti respawna!'
+interact-bed-destroy-team: '&f&lPAT DISTRUS > &7Patul tau a fost distrus de {PlayerColor}{PlayerName}&7!'
+player-die-void-regular: '{PlayerColor}{PlayerName} &7a cazut in void.'
+player-die-void-final: '{PlayerColor}{PlayerName} &7a cazut in void. &b&lUCIDERE FINALA!'
+player-die-knocked-void-regular: '{PlayerColor}{PlayerName} &7a fost impins in void
+  de {KillerColor}{KillerName}&7.'
+player-die-knocked-void-final: '{PlayerColor}{PlayerName} &7a fost impins in void
+  de {KillerColor}{KillerName}&7. &b&lUCIDERE FINALA!'
+player-die-knocked-fall-regular: '{PlayerColor}{PlayerName} &7a fost impins de {KillerColor}{KillerName}&7.'
+player-die-knocked-fall-final: '{PlayerColor}{PlayerName} &7a fost impins de {KillerColor}{KillerName}&7.
+  &b&lUCIDERE FINALA!'
+player-die-bomb-regular: '{PlayerColor}{PlayerName} &7a fost lovit de tnt-ul lui {KillerColor}{KillerName}&7.'
+player-die-bomb-final: '{PlayerColor}{PlayerName} &7a fost lovit de tnt-ul lui {KillerColor}{KillerName}&7.
+  &b&lUCIDERE FINALA!'
+player-die-attack-regular: '{PlayerColor}{PlayerName} &7a fost ucis de {KillerColor}{KillerName}&7.'
+player-die-attack-final: '{PlayerColor}{PlayerName} &7a fost ucis de {KillerColor}{KillerName}&7.
+  &b&lUCIDERE FINALA!'
+player-die-pvp-log-out-regular: '{PlayerColor}{PlayerName} &7s-a deconectat in timpul
+  luptei cu {KillerColor}{KillerName}&7.'
+player-die-pvp-log-out-final: '{PlayerColor}{PlayerName} &7s-a deconectat in timpul
+  luptei cu {KillerColor}{KillerName}&7. &b&lUCIDERE FINALA!'
+player-respawn-title: '&cESTI BLEG!'
+player-respawn-subtitle: '&eTe vei respawna in &c{time} &esecunde!'
+player-respawn-timer-chat: '{prefix}&eTe vei respawna in &c{time} &esecunde!'
+player-respawned-title: '&aRESPAWNAT!'
+player-eliminated-chat: '{prefix}&cAi fost eliminat!'
+player-hit-bow: '{prefix}{TeamColor}{PlayerName} &7a ramas cu &c{amount} &7HP!'
+player-die-unknown-regular: '{PlayerColor}{PlayerName} &7a murit.'
+player-die-unknown-final: '{PlayerColor}{PlayerName} &7a murit. &b&lUCIDERE FINALA!'
+player-die-shoot-regular: '{PlayerColor}{PlayerName} &7a fost impuscat de {KillerColor}{KillerName}&7!'
+player-die-shoot-final: '{PlayerColor}{PlayerName} &7a fost impuscat de {KillerColor}{KillerName}&7!
+  &b&lUCIDERE FINALA!'
+player-die-bedbug-regular: '{PlayerColor}{PlayerName} &7a fost ucis de {KillerColor}Sobolanul
+  Echipei {KillerTeamName}!'
+player-die-bedbug-final: '{PlayerColor}{PlayerName} &7a fost ucis de {KillerColor}Sobolanul
+  Echipei {KillerTeamName! &b&lUCIDERE FINALA!'
+player-die-golem-regular: '{PlayerColor}{PlayerName} &7a fost ucis de {KillerColor}Gardianul
+  Echipei {KillerTeamName}!'
+player-die-golem-final: '{PlayerColor}{PlayerName} &7a fost ucis de {KillerColor}Gardianul
+  Echipei {KillerTeamName}! &b&lUCIDERE FINALA!'
+player-loot-diamond: '{prefix}&b+{amount} {meaning}'
+player-loot-emerald: '{prefix}&a+{amount} {meaning}'
+player-loot-iron: '{prefix}&f+{amount} {meaning}'
+player-loot-gold: '{prefix}&6+{amount} {meaning}'
+player-die-bomb2-regular: '{PlayerColor}{PlayerName} &7a fost lovit de o bomba.'
+player-die-bomb2-final: '{PlayerColor}{PlayerName} &a fost lovit de o bomba. &b&lUCIDERE
+  FINALA!'
+game-end-game-over-title: '&c&lJOC TERMINAT!'
+game-end-victory-title: '&6&lVICTORIE!'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '{winnerFormat}'
+- ''
+- ''
+- '&e                      &lPrimul Ucigas &7- {firstName} - {firstKills}'
+- '&6                      &lAl 2-lea Ucigas &7- {secondName} - {secondKills}'
+- '&c                      &lAl 3-lea Ucigas &7- {thirdName} - {thirdKills}'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game-end-winner-team: '{prefix}{TeamColor}Echipa {TeamName} &aa castigat!'
+npc-team-upgrades: '&bTEAM UPGRADES,&e&lCLICK DREAPTA'
+npc-solo-upgrades: '&bSOLO UPGRADES,&e&lCLICK DREAPTA'
+npc-team-shop: '&bMAGAZIN TEAM,&e&lCLICK DREAPTA'
+npc-solo-shop: '&bMAGAZIN SOLO,&e&lCLICK DREAPTA'
+bed-hologram-defend: '&c&lApara-ti patul!'
+bed-hologram-destroyed: '&c&lPatul tau a fost distrus!'
+team-eliminated: |2
+
+  &f&lTEAM ELIMINAT > {TeamColor}Echipa {TeamName} &ca fost eliminata!
+next-event-beds-destroy: '&cDistrugerea Paturilor'
+next-event-diamondII: '&fDiamant II'
+next-event-diamondIII: '&fDiamant III'
+next-event-dragon-spawn: '&fMoarte Brusca'
+next-event-emeraldII: '&fEmerald II'
+next-event-emeraldIII: '&fEmerald III'
+next-event-game-end: '&4Final De Joc'
+next-event-beds-destroy-title: '&cPATUL A FOST DISTRUS!'
+next-event-beds-destroy-sub-title: '&fToate paturile au fost distruse!'
+next-event-beds-destroy-chat: '&c&lToate paturile au fost distruse!'
+next-event-sudden-death-title: '&cMoarte Brusca'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cMOARTE BRUSCA: &6&b{TeamDragons} {TeamColor}Dragonul
+  {TeamName}!'
+lobby-items-stats-name: '&eStatistici'
+lobby-items-stats-lore:
+- '&fClick-dreapta pentru'
+- '&fa-ti vedea statisticile!'
+lobby-items-arena-selector-name: '&eArena Selector'
+lobby-items-arena-selector-lore:
+- '&fClick-dreapta pentru'
+- '&fa alege o arena.'
+lobby-items-leave-name: '&eInapoi in Hub'
+lobby-items-leave-lore:
+- '&fClick-dreapta pentru a'
+- '&fparasi BedWars!'
+pre-game-items-stats-name: '&eStatistici'
+pre-game-items-stats-lore:
+- '&fClick-dreapta pentru'
+- '&fa-ti vedea statisticile!'
+pre-game-items-leave-name: '&eInapoi in Hub'
+pre-game-items-leave-lore:
+- '&fClick-dreapta pentru a'
+- '&fparasi BedWars!'
+spectator-items-teleporter-name: '&eTeleportor'
+spectator-items-teleporter-lore:
+- '&fClick-dreapta pentru a urmari'
+- '&fun jucator!'
+spectator-items-leave-name: '&eInapoi in Lobby'
+spectator-items-leave-lore:
+- '&fClick-dreapta pentru a'
+- '&fparasi arena!'
+cmd-rejoin-no-arena: '{prefix}&cNu ai o arena pe care sa te reintorci!'
+cmd-rejoin-denied: '{prefix}&cNu mai poti face asta. Jocul s-a terminat sau patul
+  a fost distrus.'
+cmd-rejoin-allowed: '{prefix}&eIntri pe arena &a{arena}&e!'
+stats-inv-name: '&8Statisticile lui {player}'
+stats-wins-name: '&6Victorii'
+stats-wins-lore:
+- '&f{wins}'
+stats-losses-name: '&6Pierderi'
+stats-losses-lore:
+- '&f{losses}'
+stats-kills-name: '&6Ucideri'
+stats-kills-lore:
+- '&f{kills}'
+stats-deaths-name: '&6Decese'
+stats-deaths-lore:
+- '&f{deaths}'
+stats-final-kills-name: '&6Ucideri Finale'
+stats-final-kills-lore:
+- '&f{finalKills}'
+stats-final-deaths-name: '&6Decese Finale'
+stats-final-deaths-lore:
+- '&f{finalDeaths}'
+stats-beds-destroyed-name: '&6Paturi Distruse'
+stats-beds-destroyed-lore:
+- '&f{bedsDestroyed}'
+stats-first-play-name: '&6Primul Meci'
+stats-first-play-lore:
+- '&f{firstPlay}'
+stats-last-play-name: '&6Ultimul Meci'
+stats-last-play-lore:
+- '&f{lastPlay}'
+stats-games-played-name: '&6Partide Jucate'
+stats-games-played-lore:
+- '&f{gamesPlayed}'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&lBED WARS'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fHarta: &a{map}'
+    - ''
+    - '&fJucatori: &a{on}/{max}'
+    - ''
+    - '&fIn asteptare...'
+    - ''
+    - '§fMod: &a{group}'
+    - '&fVersiune: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    starting:
+    - '&f&lBED WARS'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMap: &a{map}'
+    - ''
+    - '&fJucatori: &a{on}/{max}'
+    - ''
+    - '&fIncepe in &a{time}s'
+    - ''
+    - '§fMod: &a{group}'
+    - '&fVersiune: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}B&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}G&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}Y &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - '{TeamAquaColor}A &f{TeamAquaName}&f: {TeamAquaStatus}'
+    - '{TeamWhiteColor}W &f{TeamWhiteName}&f: {TeamWhiteStatus}'
+    - '{TeamPinkColor}P &f{TeamPinkName}&f: {TeamPinkStatus}'
+    - '{TeamGrayColor}S &f{TeamGrayName}&f: {TeamGrayStatus}'
+    - ''
+    - '&e{server_ip}'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}B&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}G&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}Y &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - '{TeamAquaColor}A &f{TeamAquaName}&f: {TeamAquaStatus}'
+    - '{TeamWhiteColor}W &f{TeamWhiteName}&f: {TeamWhiteStatus}'
+    - '{TeamPinkColor}P &f{TeamPinkName}&f: {TeamPinkStatus}'
+    - '{TeamGrayColor}S &f{TeamGrayName}&f: {TeamGrayStatus}'
+    - ''
+    - '&e{server_ip}'
+  3v3v3v3:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}A&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}V&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}G &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - ''
+    - '&fUcideri: &a{kills}'
+    - '&fUcideri Finale: &a{finalKills}'
+    - '&fPaturi Distruse: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  4v4v4v4:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}A&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}V&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}G &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - ''
+    - '&fUcideri: &a{kills}'
+    - '&fUcideri Finale: &a{finalKills}'
+    - '&fPaturi Distruse: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  lobby:
+  - '&6&lBedWars'
+  - '&fNivelul tau: {level}'
+  - ''
+  - '&fProgres: &a{currentXp}&7/&b{requiredXp}'
+  - '{progress}'
+  - ''
+  - '&7{player}'
+  - ''
+  - '&fBani: &a{money}'
+  - ''
+  - '&fVictorii: &a{wins}'
+  - '&fUcideri: &a{kills}'
+  - ''
+  - '&e{server_ip}'
+xp-reward-per-minute: '{prefix}&6+{xp} BedWars Experience Received (Play Time).'
+xp-reward-game-win: '{prefix}&6+{xp} BedWars Experience Received (Game Win).'
+xp-reward-per-teammate: '{prefix}&6+{xp} BedWars Experience Received (Team Support).'
+money-reward-per-teammate: '{prefix}&6+{money} Coins (Play Time).'
+money-reward-game-win: '{prefix}&6+{money} Coins (Game Win).'
+money-reward-per-minute: '{prefix}&6+{money} Coins (Team Support).'
+money-reward-bed-destroyed: '{prefix}&6+{money} Coins (Bed Destroyed).'
+money-reward-final-kill: '{prefix}&6+{money} Coins (Final Kill).'
+money-reward-regular-kill: '{prefix}&6+{money} Coins (Regular Kill).'
+shop-items-messages:
+  inventory-name: '&8Cumpara Repede'
+  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
+  separator-item-name: '&8⇧ Categorii'
+  separator-item-lore:
+  - '&8⇩ Obiecte'
+  quick-buy-item-name: '&bCumpara Repede'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cSlot Liber!'
+  quick-buy-empty-item-lore:
+  - '&Acesta este un slot pentru Shopul Rapid!'
+  - '&bShift Click &7pe orice obiect din'
+  - '&7shop pentru a-l adăuga aici.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blocuri'
+    category-item-name: '&aBlocuri'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-wool-name: '{color}Lana'
+    content-item-wool-lore:
+    - '&7Preț: &f{cost} {currency}'
+    - ''
+    - '&7Great for bridging across'
+    - '&7islands. Turns into your team''s'
+    - '&7color.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Lut Întărit'
+    content-item-clay-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Bloc esențial pentru a proteja patul.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Sticlă Anti-Explozibil'
+    content-item-glass-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Imună împotriva exploziilor.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}Piatră Din End'
+    content-item-stone-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Bloc solid pentru a proteja patul.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Scară'
+    content-item-ladder-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Utilă pentru a salva pisicile blocate'
+    - '&7in copaci.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '{color}Obsidian'
+    content-item-obsidian-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Protecție extrema pentru pat.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Lemn'
+    content-item-wood-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Bloc solid pentru a-ți proteja patul.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  melee-category:
+    inventory-name: '&8Atac'
+    category-item-name: '&aAtac'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-stone-sword-name: '{color}Sabie De Piatră'
+    content-item-stone-sword-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Sabie De Fier'
+    content-item-iron-sword-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Sabie De Diamant'
+    content-item-diamond-sword-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Băț (Împingere I)'
+    content-item-stick-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armură'
+    category-item-name: '&aArmură'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-chainmail-name: '{color}Armură Permanentă De Zale'
+    content-item-chainmail-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Pantaloni și cizme de zale'
+    - '&7cu care te vei spawna mereu.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Armură Permanentă De Fier'
+    content-item-iron-armor-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Pantaloni și cizme de fier'
+    - '&7cu care te vei spawna mereu.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Armură Permanentă De Diamant'
+    content-item-diamond-armor-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Pantaloni și cizme de diamant'
+    - '&7cu care te vei spawna mereu.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Unelte'
+    category-item-name: '&aUnelte'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-shears-name: '{color}Foarfece Permanente'
+    content-item-shears-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Perfecte pentru a tăia lâna. Te vei'
+    - '&7spawna mereu cu ele in inventar.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Târnăcop {tier}'
+    content-item-pickaxe-lore:
+    - '&7Preț: {cost} {currency}'
+    - '&7Nivel: &e{tier}'
+    - ''
+    - '&7Este un obiect upgradabil.'
+    - '&7Vei pierde cate un nivel atunci cand'
+    - '&7vei muri!'
+    - ''
+    - '&7Te vei respawna mereu'
+    - '&7cu cel putin primul nivel'
+    - '&7al acestui obiect.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Topor {tier}'
+    content-item-axe-lore:
+    - '&7Preț: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7Este un obiect upgradabil.'
+    - '&7Vei pierde cate un nivel atunci cand'
+    - '&7vei muri!'
+    - ''
+    - '&7Te vei respawna mereu'
+    - '&7cu cel putin primul nivel'
+    - '&7al acestui obiect.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Atac La Distanță'
+    category-item-name: '&aAtac La Distanță'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-arrow-name: '{color}Sageți'
+    content-item-arrow-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Arc'
+    content-item-bow1-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Arc (Putere I)'
+    content-item-bow2-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Arc (Putere I, Împingere I)'
+    content-item-bow3-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Poțiuni'
+    category-item-name: '&aPotțiuni'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-speed-potion-name: '{color}Viteză II (45 secunde)'
+    content-item-speed-potion-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Săritură V (45 secunde)'
+    content-item-jump-potion-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Invizibilitate (30 secunde)'
+    content-item-invisibility-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  utility-category:
+    inventory-name: '&8Utilaje'
+    category-item-name: '&aUtilaje'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-golden-apple-name: '{color}Măr Auriu'
+    content-item-golden-apple-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Vindecător bine rotunjit.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}BedBug'
+    content-item-bedbug-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Spawnează un Silverfish acolo unde'
+    - '&7aterizează bugărul de zăpadă, pentru a'
+    - '&7distrage inamicii. Trăiește 15 secunde.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Apărătorul Viselor'
+    content-item-dream-defender-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Un Iron Golem care te ajută să'
+    - '&7îți protejezi baza. Trăiește 4 minute.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Bilă De Foc'
+    content-item-fireball-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Click-dreapta pentru a lansa!'
+    - '&7Împinge inamicii care merg pe'
+    - '&7poduri.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Se aprinde instant, potrivit'
+    - '&7pentru a exploda chestii!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Cel mai rapid mod pentru a invada'
+    - '&7bazele inamice.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Găleată Cu Apă'
+    content-item-water-bucket-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Util pentru a incetini'
+    - '&7inamicii. Te poate proteja și'
+    - '&7împotriva TNT-ilui.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Bridge Egg'
+    content-item-bridge-egg-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Acest ou creează un pod in'
+    - '&7direcția in care este aruncat.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Lapte Magic'
+    content-item-magic-milk-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Evită capcanele timp de 60'
+    - '&7de secunde după ce l-ai băut.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Burete'
+    content-item-sponge-lore:
+    - '&7Preț: {cost} {currency}'
+    - ''
+    - '&7Util pentru a absorbi apa.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tower-name: '&cName not set'
+    content-item-tower-lore: '&cLore not set'
+shop-insuff-money: '{prefix}&cNu ai destul {currency}! Mai ai nevoide de {amount}
+  de {currency}!'
+shop-new-purchase: '{prefix}&aAi cumparat &6{item}'
+shop-already-bought: '{prefix}&cAi cumparat deja asta!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eClick pentru a cumpara!'
+shop-lore-status-cant-afford: '&cNu ai destul {currency}!'
+shop-lore-status-tier-maxed: '&aNIVEL MAXIM!'
+shop-lore-quick-add: '&bShift Click pentru Shop Rapid'
+shop-lore-quick-remove: '&bShift Click pentru a șterge din Shop Rapid!'
+upgrades-lore-click-buy: '{color}Click to purchase!'
+upgrades-lore-insuff-money: '{color}You don''t have enough {currency}'
+upgrades-lore-locked: '&cLOCKED'
+upgrades-lore-unlocked: '{color}UNLOCKED'
+upgrades:
+  Default:
+    generators:
+      tier1:
+        name: '&eGenerator Fier'
+        lore:
+        - '&7Creste rata de spawnare a Fierului'
+        - '&7si a Aurului cu 50%..'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+      tier2:
+        name: '&eGenerator Aur'
+        lore:
+        - '&7Creste rata de spawnare a Fierului'
+        - '&7si a Aurului cu 100%..'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+      tier3:
+        name: '&eGenerator Emerald'
+        lore:
+        - '&7Activeaza generatorul de Emeralde'
+        - '&7in baza echipei tale.'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    maniacMiner:
+      tier1:
+        name: '&eManiac Miner'
+        lore:
+        - '&7Toti jucatorii din echipa ta vor primi'
+        - '&7efectul Graba I permanent.'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    sharpSword:
+      tier1:
+        name: '&eSharpened Swords'
+        lore:
+        - '&7Echipa ta va primi Sharpness I'
+        - '&7pe toate sabiile!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    reinforced:
+      tier1:
+        name: '&eReinforced Armor'
+        lore:
+        - '&7Echipa ta va primi Protectie I'
+        - '&7pe toata armura!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    trap:
+      tier1:
+        name: '&eEste o capcana!'
+        lore:
+        - '&7Urmatorul inamic care va intra in'
+        - '&7baza ta va primi efectul de Orbire '
+        - '&7si de Incetinire!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    miningFatigue:
+      tier1:
+        name: '&eMiner Fatigue Trap'
+        lore:
+        - '&7Urmatorul inamic care va intra in'
+        - '&7baza ta va primi efectul de Oboseala'
+        - '&7pentru 10 secunde!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    healPool:
+      tier1:
+        name: '&eHeal Pool'
+        lore:
+        - '&7Creeaza un camp de Regenerare'
+        - '&7a vietii in baza ta!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+upgrades-new-purchase: '&a{player} purchased &6{upgradeName}'
+meaning-no-trap: No trap!
+format-upgrade-trap-cost: '&7Cost: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-upgrade-name-forge-tier-1: '{color}Iron Forge'
+upgrades-upgrade-lore-forge-tier-1:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '{tierColor}Tier 1: +50% Resources, &b{cost} {currency}'
+- '&7Tier 2: +100% Resources, &b8 Diamonds'
+- '&7Tier 3: Spawn emeralds, &b12 Diamonds'
+- '&7Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Golden Forge'
+upgrades-upgrade-lore-forge-tier-2:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '&aTier 1: +50% Resources, &b{cost} {currency}'
+- '{tierColor}Tier 2: +100% Resources, &b8 Diamonds'
+- '&7Tier 3: Spawn emeralds, &b12 Diamonds'
+- '&7Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-upgrade-name-forge-tier-3: '{color}Emerald Forge'
+upgrades-upgrade-lore-forge-tier-3:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '&aTier 1: +50% Resources, &b{cost} {currency}'
+- '&aTier 2: +100% Resources, &b8 Diamonds'
+- '{tierColor}Tier 3: Spawn emeralds, &b12 Diamonds'
+- '&7Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-upgrade-name-forge-tier-4: '{color}Molten Forge'
+upgrades-upgrade-lore-forge-tier-4:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '&aTier 1: +50% Resources, &b{cost} {currency}'
+- '&aTier 2: +100% Resources, &b8 Diamonds'
+- '&aTier 3: Spawn emeralds, &b12 Diamonds'
+- '{tierColor}Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-category-item-name-traps: '&eBuy a trap'
+upgrades-category-item-lore-traps:
+- '&7Purchased traps will be'
+- '&7queued on the right.'
+- ''
+- '&eClick to browse!'
+upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
+upgrades-upgrade-lore-swords-tier-1:
+- '&7Your team permanently gains'
+- '&7Sharpness I on all swords and'
+- '&7axes!'
+- ''
+- '&7Cost: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
+upgrades-upgrade-lore-armor-tier-1:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '{tierColor}Tier 1: Protection I, &b{cost} {currency}'
+- '&7Tier 2: Protection II, &b10 Diamonds'
+- '&7Tier 3: Protection III, &b20 Diamonds'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
+upgrades-upgrade-lore-armor-tier-2:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamonds'
+- '{tierColor}Tier 2: Protection II, &b{cost} {currency}'
+- '&7Tier 3: Protection III, &b20 Diamonds'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
+upgrades-upgrade-lore-armor-tier-3:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamonds'
+- '&aTier 2: Protection II, &b10 Diamonds'
+- '{tierColor}Tier 3: Protection III, &b{cost} {currency}'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
+upgrades-upgrade-lore-armor-tier-4:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamonds'
+- '&aTier 2: Protection II, &b10 Diamonds'
+- '&aTier 3: Protection III, &b20 Diamonds'
+- '{tierColor}Tier 4: Protection IV, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
+upgrades-upgrade-lore-miner-tier-1:
+- '&7All players on your team'
+- '&7permanently gain Haste.'
+- ''
+- '{tierColor}Tier 1: Haste I, &b{cost} {currency}'
+- '&7Tier 2: Haste II, &b6 Diamonds'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
+upgrades-upgrade-lore-miner-tier-2:
+- '&7All players on your team'
+- '&7permanently gain Haste.'
+- ''
+- '&aTier 1: Haste I, &b4 Diamonds'
+- '{tierColor}Tier 2: Haste II, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
+upgrades-upgrade-lore-heal-pool-tier-1:
+- '&7Creates a Regeneration field'
+- '&7around yor base!'
+- ''
+- '&7Cost: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon-tier-1:
+- '&7Your team will have 2 dragons'
+- '&7instead of 1 during deathmatch!'
+- ''
+- '&7Cost: &b{cost} {currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Purchasable'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Traps Queue'
+upgrades-trap-slot-item-name-first: '{color}Trap #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7The first enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Trap #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7The second enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Trap #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7The third enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}It''s a trap!'
+upgrades-base-trap-lore-1:
+- '&7Inflicts Blindness and Slowness'
+- '&7for 5 seconds.'
+- ''
+upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Grants Speed I for 15 seconds to'
+- '&7allied players near your base.'
+- ''
+upgrades-base-trap-name-3: '{color}Alarm Trap'
+upgrades-base-trap-lore-3:
+- '&7Reveales invisible players as'
+- '&7well as their name and team.'
+- ''
+upgrades-base-trap-name-4: '{color}Miner Fatigue Trap'
+upgrades-base-trap-lore-4:
+- '&7Inflict Mining Fatigue for 10'
+- '&7seconds.'
+- ''
+upgrades-separator-item-name-back: '&aBack'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Queue a trap'
+upgrades-trap-queue-full: '&cTrap queue full!'
+upgrades-trap-default-msg: '&c&l{trap} a fost activată!'
+upgrades-trap-default-title: '&cCAPCANĂ ACTIVATĂ!'
+upgrades-trap-default-subtitle: '&fCapcana {trap} a fost activată!'
+upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {color}&l{team}
+  &c&lteam!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
+lobby-items-gadgets-name: '&cName not set at: &flobby-items-gadgets-name'
+lobby-items-menu-name: '&cName not set at: &flobby-items-menu-name'
+lobby-items-selector-name: '&cName not set at: &flobby-items-selector-name'
+lobby-items-shop-name: '&cName not set at: &flobby-items-shop-name'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNu toate paturile au fost distruse inca!'
+      purchase-message: '&cO sa pierzi abilitatea de a urmarii aceasta echipa cand
+        vei murii!'
+      not-enough-resource: '&cNu ai destule resurse!'
+      already-tracking: '&cDeja urmaresti aceasta echipa!'
+    tracker-status:
+      not-enough: '&cNu ai destule resurse!'
+      locked: '&cSe va debloca cand toate paturile inamicilor vor fi distruse!'
+      unlocked: '&eClick pentru a cumpara!'
+    action-bar:
+      tracking-format: '&fUrmaresti: {teamColor}&l{target} &f- Distanta: &a&l{distance}m'
+    team-message-format: '&a&lEchipa > &7{player}: {message}'
+    compass-item:
+      display-name: '&aCompas &7(Click Dreapta)'
+      lore: []
+    menus:
+      main-menu:
+        title: '&8Tracker & Communications'
+        tracker:
+          display-name: '&aMagazin de Trackere'
+          lore:
+          - '&7Cumpara tracker upgrades'
+          - '&7pentru compasul care va'
+          - '&7urmarii jucatorii dintr-o'
+          - '&7echipa specifica pana cand tu vei'
+          - '&7murii.'
+          - ''
+          - '&eClick sa deschizi!'
+        tracker-team:
+          display-name: '&aMagazin de Trackere'
+          lore:
+          - '&7Cumpara tracker upgrades'
+          - '&7pentru compasul care va'
+          - '&7urmarii jucatorii dintr-o'
+          - '&7echipa specifica pana cand tu vei'
+          - '&7murii.'
+          - ''
+          - '&eClick sa deschizi!'
+        communications:
+          display-name: '&aComunicare rapida'
+          lore:
+          - '&7Trimite mesaje evidentiate'
+          - '&7catre echipa ta!'
+          - ''
+          - '&eClick sa deschizi!'
+      tracker-menu:
+        title: '&8Cumpara tracker inamic'
+        team-item:
+          display-name: '&cUrmareste echipa {team}'
+          lore:
+          - '&7Cumpara tracker upgrades'
+          - '&7pentru compasul care va'
+          - '&7urmarii jucatorii dintr-o'
+          - '&7echipa specifica pana cand tu vei'
+          - '&7murii.'
+          - ''
+          - '&7Cost: &22 Emeralde'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7To Tracker & Communication'
+      communications:
+        title: '&8Comunicare Rapida'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7To Tracker & Communication'
+        items:
+          '1':
+            message: '&aSalut ( ﾟ◡ﾟ)/!'
+            display-name: '&aSalut ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '2':
+            message: '&aRevin catre baza'
+            display-name: '&aRevin catre baza!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '3':
+            message: '&aSunt in aparare'
+            display-name: '&aSunt in aparare!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '4':
+            message: '&aAtac echipa {team}'
+            display-name: '&aSunt in atac!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta echipa'
+            - ''
+            - '&eClick sa trimiti!'
+          '5':
+            message: '&aColectez {resource}'
+            display-name: '&aColectez resurse!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta resursa'
+            - ''
+            - '&eClick sa trimiti!'
+          '6':
+            message: '&aAm {resource}'
+            display-name: '&aAm resursa!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta resursa'
+            - ''
+            - '&eClick sa trimiti!'
+          '7':
+            message: '&aMultumesc'
+            display-name: '&aMultumesc!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '8':
+            message: '&aDu-te inapoi in baza'
+            display-name: '&aDu-te inapoi in baza'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '9':
+            message: '&aTe rog apara!'
+            display-name: '&aTe rog apara!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '10':
+            message: '&aSa atacam echipa {team}'
+            display-name: '&aSa atacam!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta echipa'
+            - ''
+            - '&eClick sa trimiti!'
+          '11':
+            message: '&aAvem nevoie de {resource}'
+            display-name: '&aAvem nevoie de resurse!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta resursa'
+            - ''
+            - '&eClick sa trimiti!'
+          '12':
+            message: '&aVine un player!'
+            display-name: '&aVine un player!!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+    communication-menus:
+      lore:
+      - '&7Click sa trimiti mesajul: ''{message}&7'''
+      - '&7catre echipa ta'
+      - ''
+      - '&eClick sa trimiti!'
+      teams:
+        title: '&8Selecteaza o optiunea:'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7Catre comunicare rapida'
+      resources:
+        title: '&8Selecteaza o optiune:'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7Catre comunicare rapida'
+        iron:
+          resource-name: '&f&lFIER'
+        gold:
+          resource-name: '&6&lAUR'
+        diamond:
+          resource-name: '&b&lDIAMANT'
+        emerald:
+          resource-name: '&2&lEMERALD'
+  private-games:
+    cmd-admin-no-permission: '&cYou must be admin or higher to use this command.'
+    cmd-private-no-permission: |-
+      &9&l&m----------------------------
+      &cYou do not have permission to use this command! You need
+      &fYOUTUBE &crank or &6MVP&c++.
+      &9&l&m----------------------------
+    not-in-party: |-
+      &9&l&m----------------------------
+      &cYou are not currently in a party.
+      &9&l&m----------------------------
+    party-private-enable: |-
+      &9&l&m----------------------------
+      &7{player} &aenabled Private Game
+      &9&l&m----------------------------
+    party-private-disable: |-
+      &9&l&m----------------------------
+      &7{player} &cdisabled Private Game
+      &9&l&m----------------------------
+    arena-start:
+      message:
+      - '{player} &a&lhas enabled private game modifiers!'
+      - '{modifiers}'
+      - '&6-----------------------------------------------------'
+      normal-modifier-format: ' &6- {modifier}'
+      with-option-modifier-format: ' &6- {modifier}: &e{selected}'
+    in-game-settings: |-
+      &9&l&m----------------------------
+      &cYou can not modify game settings in the game!
+      &9&l&m----------------------------
+    message-currently-selected: '&aCurrently Selected!'
+    message-click-to-select: '&eClick to select!'
+    format-currently-selected: '&aCurrently Selected: &7{selected}'
+    scoreboard-placeholder: '&7[P]'
+    menus:
+      private-game-settings:
+        settings:
+          title: '&8Private Game Settings'
+        contents:
+          one-hit-one-kill:
+            display-name: '&aOne Hit, One Kill'
+            lore:
+            - '&7Select which items should'
+            - '&7instantly kill enemies.'
+            - ''
+            - '{status}'
+          health-buff:
+            display-name: '&aHealth Buff'
+            lore:
+            - '&7Buff All Players Health.'
+            - ''
+            - '{status}'
+          low-gravity:
+            display-name: '&aLow Gravity'
+            lore:
+            - '&7Experience low gravity... also'
+            - '&7known as jump boost.'
+            - ''
+            - '{status}'
+          speed:
+            display-name: '&aSpeed'
+            lore:
+            - '&7Gotta go fast!'
+            - ''
+            - '{status}'
+          respawn-time:
+            display-name: '&aRespawn Time'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7Modify player respawn time.'
+            - ''
+            - '{status}'
+          event-times:
+            display-name: '&aEvent Times'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7Modify the time for events.'
+            - ''
+            - '{status}'
+          no-emeralds:
+            display-name: '&aNo Emeralds'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7Get rif of em hasty emeralds.'
+            - ''
+            - '{status}'
+          no-diamonds:
+            display-name: '&aNo Diamonds'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7To hell with those shiny things.'
+            - ''
+            - '{status}'
+          disable-block-protection:
+            display-name: '&aDisable Block Protection'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7Allow players to break any'
+            - '&7blocks, excluding blocks around'
+            - '&7generators and spawns.'
+            - ''
+            - '{status}'
+          bed-instabreak:
+            display-name: '&aBed Instabreak'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7Beds break with a single punch.'
+            - ''
+            - '{status}'
+          max-team-upgrades:
+            display-name: '&aMax Team Upgrades'
+            lore:
+            - '&8Game Specific'
+            - ''
+            - '&7All teams will start with maxed'
+            - '&7out team upgrades.'
+            - ''
+            - '{status}'
+          go-back:
+            display-name: '&aGo Back'
+            lore:
+            - '&7To Play Bed Wars'
+      health-buff:
+        settings:
+          title: '&8Health Buff'
+        contents:
+          normal-health:
+            display-name: '&aNormal Health'
+            lore:
+            - '{status}'
+          double-health:
+            display-name: '&aDouble Health'
+            lore:
+            - '{status}'
+          triple-health:
+            display-name: '&aTriple Health'
+            lore:
+            - '{status}'
+          go-back:
+            display-name: '&aGo Back'
+      speed:
+        settings:
+          title: '&8Speed'
+        contents:
+          no-speed:
+            display-name: '&aNo Speed'
+            lore:
+            - '{status}'
+          speed-I:
+            display-name: '&aSpeed I'
+            lore:
+            - '{status}'
+          speed-II:
+            display-name: '&aSpeed II'
+            lore:
+            - '{status}'
+          speed-III:
+            display-name: '&aSpeed III'
+            lore:
+            - '{status}'
+          go-back:
+            display-name: '&aGo Back'
+      respawn-time:
+        settings:
+          title: '&8Respawn Time'
+        contents:
+          one-second:
+            display-name: '&a1 Second'
+            lore:
+            - '{status}'
+          five-seconds:
+            display-name: '&a5 Seconds'
+            lore:
+            - '{status}'
+          ten-seconds:
+            display-name: '&a10 Seconds'
+            lore:
+            - '{status}'
+          go-back:
+            display-name: '&aGo Back'
+      event-times:
+        settings:
+          title: '&8Event Times'
+        contents:
+          half-slower:
+            display-name: '&a0.5x - Slower'
+            lore:
+            - '{status}'
+          normal-time:
+            display-name: '&a1x - Normal'
+            lore:
+            - '{status}'
+          double-faster:
+            display-name: '&a2x - Faster'
+            lore:
+            - '{status}'
+          quadruple-faster:
+            display-name: '&a4x - Faster'
+            lore:
+            - '{status}'
+          go-back:
+            display-name: '&aGo Back'
+    game-settings-item:
+      display-name: '&aPrivate Game Settings &7(Right Click)'
+      lore:
+      - '&7Right click to manage private'
+      - '&7game settings.'
+    meaning-one-hit-one-kill: One Hit, One Kill
+    meaning-health-buff: Health Buff
+    meaning-low-gravity: Low Gravity
+    meaning-speed: Speed
+    meaning-respawn-time: Respawn Time
+    meaning-event-times: Event Times
+    meaning-no-emeralds: No Emeralds
+    meaning-no-diamonds: No Diamonds
+    meaning-disable-block-protection: Disable Block Protection
+    meaning-bed-instabreak: Bed Instabreak
+    meaning-max-team-upgrades: Max Team Upgrades
+    meaning-normal-health: Normal Health
+    meaning-double-health: Double Health
+    meaning-triple-health: Triple Health
+    meaning-no-speed: No Speed
+    meaning-speed-I: Speed I
+    meaning-speed-II: Speed II
+    meaning-speed-III: Speed III
+    meaning-one-second: 1 Second
+    meaning-five-seconds: 5 Seconds
+    meaning-ten-seconds: 10 Seconds
+    meaning-half-slower: 0.5x - Slower
+    meaning-normal-time: 1x - Normal
+    meaning-double-faster: 2x - Faster
+    meaning-quadruple-faster: 4x - Faster
+  team-selector:
+    inventory-name: '&8Alege o Echipa'
+    selector-name: '&9Alege o Echipa'
+    selector-lore:
+    - '&7Deschide cu click-dreapta!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eIntra cu Click!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cPoti alege echipa o singura data!'
+    team-join: '{prefix}&eTe-ai alaturat echipei {color}{team}&e!'
+    team-full: '{prefix}&cEchipa {color}{team} &c este plina!'
+    teams-not-balanced: '{prefix}&cEchipele nu sunt echilibrate! Incearca alta!'
+    party-deny: '{prefix}&cNu poti alege o echipa pentru că te afli intr-un party!'
+    cant-join-while-starting: '{prefix}&cNu poti intra in aceasta echipa chiar acum.
+      Incepe jocul!'
+  map:
+    play-map: '{prefix}&aYou are currently playing on &e{map}'
+    play-not: '{prefix}&cYou are not in the arena!'
+lobby-items-vip-name: '&cName not set at: &flobby-items-vip-name'
+lobby-items-games-name: '&cName not set at: &flobby-items-games-name'
+display-group-default: Default
+display-group-4v4: 4v4
+display-group-doubles: Doubles
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
+upgrades-upgrade-name-swords-tier-2: '&cName not set'
+upgrades-upgrade-lore-swords-tier-2:
+- '&cLore not set'
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-airshow-Gray: Gray
+team-name-airshow-Pink: Pink
+team-name-airshow-Yellow: Yellow
+team-name-airshow-Red: Red
+team-name-airshow-White: White
+team-name-airshow-Green: Green
+team-name-airshow-Aqua: Aqua
+team-name-airshow-Blue: Blue
+team-name-amazon-Gray: Gray
+team-name-amazon-Pink: Pink
+team-name-amazon-Red: Red
+team-name-amazon-White: White
+team-name-amazon-Blue: Blue
+team-name-amazon-Aqua: Aqua
+team-name-amazon-Green: Green
+team-name-amazon-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashfire-Gray: Gray
+team-name-ashfire-Pink: Pink
+team-name-ashfire-White: White
+team-name-ashfire-Aqua: Aqua
+team-name-ashfire-Red: Red
+team-name-ashfire-Yellow: Yellow
+team-name-ashfire-Blue: Blue
+team-name-ashfire-Green: Green
+team-name-ashore-Red: Red
+team-name-ashore-Yellow: Yellow
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-boletum-Red: Red
+team-name-boletum-Blue: Blue
+team-name-boletum-Green: Green
+team-name-boletum-Yellow: Yellow
+team-name-chained-Red: Red
+team-name-chained-Blue: Blue
+team-name-chained-Yellow: Yellow
+team-name-chained-Green: Green
+team-name-christmas-Yellow: Yellow
+team-name-christmas-Blue: Blue
+team-name-christmas-Red: Red
+team-name-christmas-Green: Green
+team-name-crogorm-Pink: Pink
+team-name-crogorm-White: White
+team-name-crogorm-Aqua: Aqua
+team-name-crogorm-Gray: Gray
+team-name-crogorm-Red: Red
+team-name-crogorm-Yellow: Yellow
+team-name-crogorm-Green: Green
+team-name-crogorm-Blue: Blue
+team-name-crypt-Gray: Gray
+team-name-crypt-Pink: Pink
+team-name-crypt-Red: Red
+team-name-crypt-White: White
+team-name-crypt-Blue: Blue
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Green: Green
+team-name-crypt-Yellow: Yellow
+team-name-cryptic-Blue: Blue
+team-name-cryptic-Red: Red
+team-name-dragonstar-Gray: Gray
+team-name-dragonstar-Pink: Pink
+team-name-dragonstar-Red: Red
+team-name-dragonstar-White: White
+team-name-dragonstar-Blue: Blue
+team-name-dragonstar-Aqua: Aqua
+team-name-dragonstar-Green: Green
+team-name-dragonstar-Yellow: Yellow
+team-name-dreamgrove-Yellow: Yellow
+team-name-dreamgrove-Green: Green
+team-name-dreamgrove-Red: Red
+team-name-dreamgrove-Blue: Blue
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-gardens-Blue: Blue
+team-name-gardens-Red: Red
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-hollow-Gray: Gray
+team-name-hollow-Pink: Pink
+team-name-hollow-Red: Red
+team-name-hollow-White: White
+team-name-hollow-Blue: Blue
+team-name-hollow-Aqua: Aqua
+team-name-hollow-Green: Green
+team-name-hollow-Yellow: Yellow
+team-name-invasion-Red: Red
+team-name-invasion-Yellow: Yellow
+team-name-invasion-Blue: Blue
+team-name-invasion-Green: Green
+team-name-lectus-Green: Green
+team-name-lectus-Red: Red
+team-name-lectus-Yellow: Yellow
+team-name-lectus-Blue: Blue
+team-name-lighthouse-Gray: Gray
+team-name-lighthouse-White: White
+team-name-lighthouse-Pink: Pink
+team-name-lighthouse-Yellow: Yellow
+team-name-lighthouse-Green: Green
+team-name-lighthouse-Red: Red
+team-name-lighthouse-Blue: Blue
+team-name-lighthouse-Aqua: Aqua
+team-name-lotus-Gray: Gray
+team-name-lotus-Pink: Pink
+team-name-lotus-Blue: Blue
+team-name-lotus-Aqua: Aqua
+team-name-lotus-Red: Red
+team-name-lotus-White: White
+team-name-lotus-Green: Green
+team-name-lotus-Yellow: Yellow
+team-name-nutcracker-Red: Red
+team-name-nutcracker-Blue: Blue
+team-name-nutcracker-Green: Green
+team-name-nutcracker-Yellow: Yellow
+team-name-nutcracker-Aqua: Aqua
+team-name-nutcracker-White: White
+team-name-nutcracker-Pink: Pink
+team-name-nutcracker-Gray: Gray
+team-name-orbit-Gray: Gray
+team-name-orbit-Pink: Pink
+team-name-orbit-White: White
+team-name-orbit-Red: Red
+team-name-orbit-Green: Green
+team-name-orbit-Blue: Blue
+team-name-orbit-Aqua: Aqua
+team-name-orbit-Yellow: Yellow
+team-name-orchestra-Gray: Gray
+team-name-orchestra-Pink: Pink
+team-name-orchestra-White: White
+team-name-orchestra-Red: Red
+team-name-orchestra-Blue: Blue
+team-name-orchestra-Aqua: Aqua
+team-name-orchestra-Green: Green
+team-name-orchestra-Yellow: Yellow
+team-name-pernicious-Gray: Gray
+team-name-pernicious-Pink: Pink
+team-name-pernicious-Red: Red
+team-name-pernicious-White: White
+team-name-pernicious-Blue: Blue
+team-name-pernicious-Aqua: Aqua
+team-name-pernicious-Green: Green
+team-name-pernicious-Yellow: Yellow
+team-name-picnic-Blue: Blue
+team-name-picnic-Red: Red
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-rooftop-White: White
+team-name-rooftop-Pink: Pink
+team-name-rooftop-Red: Red
+team-name-rooftop-Blue: Blue
+team-name-rooftop-Green: Green
+team-name-rooftop-Yellow: Yellow
+team-name-rooftop-Aqua: Aqua
+team-name-rooftop-Gray: Gray
+team-name-ruins-Blue: Blue
+team-name-ruins-Red: Red
+team-name-santas_rush-Red: Red
+team-name-santas_rush-Blue: Blue
+team-name-santas_rush-Green: Green
+team-name-santas_rush-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-skyrise-Aqua: Aqua
+team-name-solace-Gray: Gray
+team-name-solace-Pink: Pink
+team-name-solace-Red: Red
+team-name-solace-White: White
+team-name-solace-Blue: Blue
+team-name-solace-Aqua: Aqua
+team-name-solace-Green: Green
+team-name-solace-Yellow: Yellow
+team-name-speedway-Gray: Gray
+team-name-speedway-Pink: Pink
+team-name-speedway-White: White
+team-name-speedway-Red: Red
+team-name-speedway-Blue: Blue
+team-name-speedway-Aqua: Aqua
+team-name-speedway-Green: Green
+team-name-speedway-Yellow: Yellow
+team-name-steampunk-Gray: Gray
+team-name-steampunk-Pink: Pink
+team-name-steampunk-Red: Red
+team-name-steampunk-White: White
+team-name-steampunk-Blue: Blue
+team-name-steampunk-Aqua: Aqua
+team-name-steampunk-Green: Green
+team-name-steampunk-Yellow: Yellow
+team-name-swashbuckle-Yellow: Yellow
+team-name-swashbuckle-Red: Red
+team-name-swashbuckle-Green: Green
+team-name-swashbuckle-Blue: Blue
+team-name-symphonic-Blue: Blue
+team-name-symphonic-Yellow: Yellow
+team-name-symphonic-Red: Red
+team-name-symphonic-Pink: Pink
+team-name-symphonic-Green: Green
+team-name-symphonic-Gray: Gray
+team-name-symphonic-Aqua: Aqua
+team-name-symphonic-White: White
+team-name-treenan-Yellow: Yellow
+team-name-treenan-Red: Red
+team-name-treenan-Green: Green
+team-name-treenan-Blue: Blue
+team-name-waterfall-Gray: Gray
+team-name-waterfall-Pink: Pink
+team-name-waterfall-White: White
+team-name-waterfall-Red: Red
+team-name-waterfall-Aqua: Aqua
+team-name-waterfall-Blue: Blue
+team-name-waterfall-Green: Green
+team-name-waterfall-Yellow: Yellow
+team-name-zarzul-Pink: Pink
+team-name-zarzul-White: White
+team-name-zarzul-Gray: Gray
+team-name-zarzul-Aqua: Aqua
+team-name-zarzul-Red: Red
+team-name-zarzul-Yellow: Yellow
+team-name-zarzul-Blue: Blue
+team-name-zarzul-Green: Green
+display-group-3v3v3v3: 3v3v3v3
+display-group-4v4v4v4: 4v4v4v4
+team-name-coastal-Green: Green
+team-name-coastal-Yellow: Yellow
+team-name-coastal-Blue: Blue
+team-name-coastal-Red: Red
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+display-group-solo: Solo
+team-name-gateway-Gray: Gray
+team-name-gateway-Pink: Pink
+team-name-gateway-Red: Red
+team-name-gateway-White: White
+team-name-gateway-Blue: Blue
+team-name-gateway-Aqua: Aqua
+team-name-gateway-Green: Green
+team-name-gateway-Yellow: Yellow
+team-name-archway-Red: Red
+team-name-archway-Blue: Blue
+team-name-archway-Green: Green
+team-name-archway-Yellow: Yellow
+team-name-jurassic-Red: Red
+team-name-jurassic-Blue: Blue
+team-name-jurassic-Green: Green
+team-name-jurassic-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Blue: Blue
+team-name-temple-Green: Green
+team-name-temple-Yellow: Yellow
+team-name-lightstone-Gray: Gray
+team-name-lightstone-Pink: Pink
+team-name-lightstone-Aqua: Aqua
+team-name-lightstone-Red: Red
+team-name-lightstone-White: White
+team-name-lightstone-Blue: Blue
+team-name-lightstone-Green: Green
+team-name-lightstone-Yellow: Yellow
+team-name-bio-hazard-Yellow: Yellow
+team-name-bio-hazard-Green: Green
+team-name-bio-hazard-Gray: Gray
+team-name-bio-hazard-Aqua: Aqua
+team-name-bio-hazard-Blue: Blue
+team-name-bio-hazard-White: White
+team-name-bio-hazard-Red: Red
+team-name-bio-hazard-Pink: Pink
+team-name-rooftop_-White: White
+team-name-rooftop_-Pink: Pink
+team-name-rooftop_-Red: Red
+team-name-rooftop_-Blue: Blue
+team-name-rooftop_-Green: Green
+team-name-rooftop_-Yellow: Yellow
+team-name-rooftop_-Gray: Gray
+team-name-rooftop_-Aqua: Aqua
+team-name-waterfall_-Gray: Gray
+team-name-waterfall_-Pink: Pink
+team-name-waterfall_-White: White
+team-name-waterfall_-Red: Red
+team-name-waterfall_-Aqua: Aqua
+team-name-waterfall_-Blue: Blue
+team-name-waterfall_-Green: Green
+team-name-waterfall_-Yellow: Yellow
+team-name-frost-Red: Red
+team-name-frost-Blue: Blue
+team-name-acropolis_-Green: Green
+team-name-acropolis_-Blue: Blue
+team-name-acropolis_-White: White
+team-name-acropolis_-Yellow: Yellow
+team-name-acropolis_-Red: Red
+team-name-acropolis_-Aqua: Aqua
+team-name-acropolis_-Gray: Gray
+team-name-acropolis_-Pink: Pink
+team-name-airshow_-Gray: Gray
+team-name-airshow_-Pink: Pink
+team-name-airshow_-Yellow: Yellow
+team-name-airshow_-Red: Red
+team-name-airshow_-White: White
+team-name-airshow_-Green: Green
+team-name-airshow_-Aqua: Aqua
+team-name-airshow_-Blue: Blue
+team-name-amazon_-Gray: Gray
+team-name-amazon_-Pink: Pink
+team-name-amazon_-Red: Red
+team-name-amazon_-White: White
+team-name-amazon_-Blue: Blue
+team-name-amazon_-Aqua: Aqua
+team-name-amazon_-Green: Green
+team-name-amazon_-Yellow: Yellow
+team-name-ashfire_-Gray: Gray
+team-name-ashfire_-Pink: Pink
+team-name-ashfire_-White: White
+team-name-ashfire_-Aqua: Aqua
+team-name-ashfire_-Red: Red
+team-name-ashfire_-Yellow: Yellow
+team-name-ashfire_-Blue: Blue
+team-name-ashfire_-Green: Green
+team-name-bio-hazard_-Yellow: Yellow
+team-name-bio-hazard_-Green: Green
+team-name-bio-hazard_-Gray: Gray
+team-name-bio-hazard_-Aqua: Aqua
+team-name-bio-hazard_-Blue: Blue
+team-name-bio-hazard_-White: White
+team-name-bio-hazard_-Red: Red
+team-name-bio-hazard_-Pink: Pink
+team-name-crogorm_-Pink: Pink
+team-name-crogorm_-White: White
+team-name-crogorm_-Aqua: Aqua
+team-name-crogorm_-Gray: Gray
+team-name-crogorm_-Red: Red
+team-name-crogorm_-Yellow: Yellow
+team-name-crogorm_-Green: Green
+team-name-crogorm_-Blue: Blue
+team-name-crypt_-Gray: Gray
+team-name-crypt_-Pink: Pink
+team-name-crypt_-Red: Red
+team-name-crypt_-White: White
+team-name-crypt_-Blue: Blue
+team-name-crypt_-Aqua: Aqua
+team-name-crypt_-Green: Green
+team-name-crypt_-Yellow: Yellow
+team-name-dragonstar_-Gray: Gray
+team-name-dragonstar_-Pink: Pink
+team-name-dragonstar_-Red: Red
+team-name-dragonstar_-White: White
+team-name-dragonstar_-Blue: Blue
+team-name-dragonstar_-Aqua: Aqua
+team-name-dragonstar_-Green: Green
+team-name-dragonstar_-Yellow: Yellow
+team-name-gateway_-Gray: Gray
+team-name-gateway_-Pink: Pink
+team-name-gateway_-Red: Red
+team-name-gateway_-White: White
+team-name-gateway_-Blue: Blue
+team-name-gateway_-Aqua: Aqua
+team-name-gateway_-Green: Green
+team-name-gateway_-Yellow: Yellow
+team-name-hollow_-Gray: Gray
+team-name-hollow_-Pink: Pink
+team-name-hollow_-Red: Red
+team-name-hollow_-White: White
+team-name-hollow_-Blue: Blue
+team-name-hollow_-Aqua: Aqua
+team-name-hollow_-Green: Green
+team-name-hollow_-Yellow: Yellow
+team-name-lighthouse_-Gray: Gray
+team-name-lighthouse_-White: White
+team-name-lighthouse_-Pink: Pink
+team-name-lighthouse_-Yellow: Yellow
+team-name-lighthouse_-Green: Green
+team-name-lighthouse_-Red: Red
+team-name-lighthouse_-Blue: Blue
+team-name-lighthouse_-Aqua: Aqua
+team-name-lightstone_-Gray: Gray
+team-name-lightstone_-Pink: Pink
+team-name-lightstone_-Aqua: Aqua
+team-name-lightstone_-Red: Red
+team-name-lightstone_-White: White
+team-name-lightstone_-Blue: Blue
+team-name-lightstone_-Green: Green
+team-name-lightstone_-Yellow: Yellow
+team-name-lotus_-Gray: Gray
+team-name-lotus_-Pink: Pink
+team-name-lotus_-Blue: Blue
+team-name-lotus_-Aqua: Aqua
+team-name-lotus_-Red: Red
+team-name-lotus_-White: White
+team-name-lotus_-Green: Green
+team-name-lotus_-Yellow: Yellow
+team-name-nutcracker_-Red: Red
+team-name-nutcracker_-Blue: Blue
+team-name-nutcracker_-Green: Green
+team-name-nutcracker_-Yellow: Yellow
+team-name-nutcracker_-Aqua: Aqua
+team-name-nutcracker_-White: White
+team-name-nutcracker_-Pink: Pink
+team-name-nutcracker_-Gray: Gray
+team-name-orchestra_-Gray: Gray
+team-name-orchestra_-Pink: Pink
+team-name-orchestra_-White: White
+team-name-orchestra_-Red: Red
+team-name-orchestra_-Blue: Blue
+team-name-orchestra_-Aqua: Aqua
+team-name-orchestra_-Green: Green
+team-name-orchestra_-Yellow: Yellow
+team-name-pernicious_-Gray: Gray
+team-name-pernicious_-Pink: Pink
+team-name-pernicious_-Red: Red
+team-name-pernicious_-White: White
+team-name-pernicious_-Blue: Blue
+team-name-pernicious_-Aqua: Aqua
+team-name-pernicious_-Green: Green
+team-name-pernicious_-Yellow: Yellow
+team-name-playground_-Gray: Gray
+team-name-playground_-Pink: Pink
+team-name-playground_-Red: Red
+team-name-playground_-White: White
+team-name-playground_-Blue: Blue
+team-name-playground_-Aqua: Aqua
+team-name-playground_-Green: Green
+team-name-playground_-Yellow: Yellow
+team-name-siege_-Gray: Gray
+team-name-siege_-Pink: Pink
+team-name-siege_-Red: Red
+team-name-siege_-White: White
+team-name-siege_-Blue: Blue
+team-name-siege_-Aqua: Aqua
+team-name-siege_-Green: Green
+team-name-siege_-Yellow: Yellow
+team-name-skyrise_-Pink: Pink
+team-name-skyrise_-Gray: Gray
+team-name-skyrise_-White: White
+team-name-skyrise_-Red: Red
+team-name-skyrise_-Blue: Blue
+team-name-skyrise_-Green: Green
+team-name-skyrise_-Yellow: Yellow
+team-name-skyrise_-Aqua: Aqua
+team-name-solace_-Gray: Gray
+team-name-solace_-Pink: Pink
+team-name-solace_-Red: Red
+team-name-solace_-White: White
+team-name-solace_-Blue: Blue
+team-name-solace_-Aqua: Aqua
+team-name-solace_-Green: Green
+team-name-solace_-Yellow: Yellow
+team-name-speedway_-Gray: Gray
+team-name-speedway_-Pink: Pink
+team-name-speedway_-White: White
+team-name-speedway_-Red: Red
+team-name-speedway_-Blue: Blue
+team-name-speedway_-Aqua: Aqua
+team-name-speedway_-Green: Green
+team-name-speedway_-Yellow: Yellow
+team-name-steampunk_-Gray: Gray
+team-name-steampunk_-Pink: Pink
+team-name-steampunk_-Red: Red
+team-name-steampunk_-White: White
+team-name-steampunk_-Blue: Blue
+team-name-steampunk_-Aqua: Aqua
+team-name-steampunk_-Green: Green
+team-name-steampunk_-Yellow: Yellow
+team-name-symphonic_-Blue: Blue
+team-name-symphonic_-Yellow: Yellow
+team-name-symphonic_-Red: Red
+team-name-symphonic_-Pink: Pink
+team-name-symphonic_-Green: Green
+team-name-symphonic_-Gray: Gray
+team-name-symphonic_-Aqua: Aqua
+team-name-symphonic_-White: White
+team-name-zarzul_-Pink: Pink
+team-name-zarzul_-White: White
+team-name-zarzul_-Gray: Gray
+team-name-zarzul_-Aqua: Aqua
+team-name-zarzul_-Red: Red
+team-name-zarzul_-Yellow: Yellow
+team-name-zarzul_-Blue: Blue
+team-name-zarzul_-Green: Green
+team-name-orbit_-Gray: Gray
+team-name-orbit_-Pink: Pink
+team-name-orbit_-White: White
+team-name-orbit_-Red: Red
+team-name-orbit_-Green: Green
+team-name-orbit_-Blue: Blue
+team-name-orbit_-Aqua: Aqua
+team-name-orbit_-Yellow: Yellow
+team-name-glacier_-Gray: Gray
+team-name-glacier_-Pink: Pink
+team-name-glacier_-Red: Red
+team-name-glacier_-White: White
+team-name-glacier_-Blue: Blue
+team-name-glacier_-Aqua: Aqua
+team-name-glacier_-Green: Green
+team-name-glacier_-Yellow: Yellow
+team-name-aquarium_-Green: Green
+team-name-aquarium_-Blue: Blue
+team-name-aquarium_-Yellow: Yellow
+team-name-aquarium_-Red: Red
+team-name-archway_-Red: Red
+team-name-archway_-Blue: Blue
+team-name-archway_-Green: Green
+team-name-archway_-Yellow: Yellow
+team-name-ashore_-Red: Red
+team-name-ashore_-Yellow: Yellow
+team-name-ashore_-Blue: Blue
+team-name-ashore_-Green: Green
+team-name-boletum_-Red: Red
+team-name-boletum_-Blue: Blue
+team-name-boletum_-Green: Green
+team-name-boletum_-Yellow: Yellow
+team-name-chained_-Red: Red
+team-name-chained_-Blue: Blue
+team-name-chained_-Yellow: Yellow
+team-name-chained_-Green: Green
+team-name-christmas_-Yellow: Yellow
+team-name-christmas_-Blue: Blue
+team-name-christmas_-Red: Red
+team-name-christmas_-Green: Green
+team-name-coastal_-Green: Green
+team-name-coastal_-Yellow: Yellow
+team-name-coastal_-Blue: Blue
+team-name-coastal_-Red: Red
+team-name-eastwood_-Red: Red
+team-name-eastwood_-Blue: Blue
+team-name-eastwood_-Green: Green
+team-name-eastwood_-Yellow: Yellow
+team-name-invasion_-Red: Red
+team-name-invasion_-Yellow: Yellow
+team-name-invasion_-Blue: Blue
+team-name-invasion_-Green: Green
+team-name-jurassic_-Red: Red
+team-name-jurassic_-Blue: Blue
+team-name-jurassic_-Green: Green
+team-name-jurassic_-Yellow: Yellow
+team-name-lectus_-Green: Green
+team-name-lectus_-Red: Red
+team-name-lectus_-Yellow: Yellow
+team-name-lectus_-Blue: Blue
+team-name-santas_rush_-Red: Red
+team-name-santas_rush_-Blue: Blue
+team-name-santas_rush_-Green: Green
+team-name-santas_rush_-Yellow: Yellow
+team-name-stonekeep_-Red: Red
+team-name-stonekeep_-Yellow: Yellow
+team-name-stonekeep_-Blue: Blue
+team-name-stonekeep_-Green: Green
+team-name-swashbuckle_-Yellow: Yellow
+team-name-swashbuckle_-Red: Red
+team-name-swashbuckle_-Green: Green
+team-name-swashbuckle_-Blue: Blue
+team-name-temple_-Red: Red
+team-name-temple_-Blue: Blue
+team-name-temple_-Green: Green
+team-name-temple_-Yellow: Yellow
+team-name-treenan_-Yellow: Yellow
+team-name-treenan_-Red: Red
+team-name-treenan_-Green: Green
+team-name-treenan_-Blue: Blue
+team-name-darkened-Gray: Gray
+team-name-darkened-Pink: Pink
+team-name-darkened-Red: Red
+team-name-darkened-White: White
+team-name-darkened-Blue: Blue
+team-name-darkened-Aqua: Aqua
+team-name-darkened-Green: Green
+team-name-darkened-Yellow: Yellow
+team-name-egg_hunt-Aqua: Aqua
+team-name-egg_hunt-Gray: Gray
+team-name-egg_hunt-White: White
+team-name-egg_hunt-Pink: Pink
+team-name-egg_hunt-Green: Green
+team-name-egg_hunt-Red: Red
+team-name-egg_hunt-Yellow: Yellow
+team-name-egg_hunt-Blue: Blue
+team-name-darkened_-Gray: Gray
+team-name-darkened_-Pink: Pink
+team-name-darkened_-Red: Red
+team-name-darkened_-White: White
+team-name-darkened_-Blue: Blue
+team-name-darkened_-Aqua: Aqua
+team-name-darkened_-Green: Green
+team-name-darkened_-Yellow: Yellow
+team-name-egg_hunt_-Aqua: Aqua
+team-name-egg_hunt_-Gray: Gray
+team-name-egg_hunt_-White: White
+team-name-egg_hunt_-Pink: Pink
+team-name-egg_hunt_-Green: Green
+team-name-egg_hunt_-Red: Red
+team-name-egg_hunt_-Yellow: Yellow
+team-name-egg_hunt_-Blue: Blue
+team-name-easter_basket-Pink: Pink
+team-name-easter_basket-White: White
+team-name-easter_basket-Aqua: Aqua
+team-name-easter_basket-Gray: Gray
+team-name-easter_basket-Red: Red
+team-name-easter_basket-Yellow: Yellow
+team-name-easter_basket-Green: Green
+team-name-easter_basket-Blue: Blue
+team-name-easter_basket_-Pink: Pink
+team-name-easter_basket_-White: White
+team-name-easter_basket_-Aqua: Aqua
+team-name-easter_basket_-Gray: Gray
+team-name-easter_basket_-Red: Red
+team-name-easter_basket_-Yellow: Yellow
+team-name-easter_basket_-Green: Green
+team-name-easter_basket_-Blue: Blue
+team-name-screamway-Gray: Gray
+team-name-screamway-Pink: Pink
+team-name-screamway-Red: Red
+team-name-screamway-White: White
+team-name-screamway-Blue: Blue
+team-name-screamway-Aqua: Aqua
+team-name-screamway-Green: Green
+team-name-screamway-Yellow: Yellow
+team-name-screamway_-Gray: Gray
+team-name-screamway_-Pink: Pink
+team-name-screamway_-Red: Red
+team-name-screamway_-White: White
+team-name-screamway_-Blue: Blue
+team-name-screamway_-Aqua: Aqua
+team-name-screamway_-Green: Green
+team-name-screamway_-Yellow: Yellow
+team-name-carapace-Yellow: Yellow
+team-name-carapace-Green: Green
+team-name-carapace-Red: Red
+team-name-carapace-Blue: Blue
+team-name-carapace_-Yellow: Yellow
+team-name-carapace_-Green: Green
+team-name-carapace_-Red: Red
+team-name-carapace_-Blue: Blue
+team-name-obelisk-Yellow: Yellow
+team-name-obelisk-Red: Red
+team-name-obelisk-Green: Green
+team-name-obelisk-Blue: Blue
+team-name-obelisk_-Yellow: Yellow
+team-name-obelisk_-Red: Red
+team-name-obelisk_-Green: Green
+team-name-obelisk_-Blue: Blue
+team-name-dreamgrove_-Yellow: Yellow
+team-name-dreamgrove_-Green: Green
+team-name-dreamgrove_-Red: Red
+team-name-dreamgrove_-Blue: Blue
+team-name-horizon-Yellow: Yellow
+team-name-horizon-Red: Red
+team-name-horizon-Green: Green
+team-name-horizon-Blue: Blue
+team-name-horizon_-Yellow: Yellow
+team-name-horizon_-Red: Red
+team-name-horizon_-Green: Green
+team-name-horizon_-Blue: Blue
+team-name-pharaoh-Red: Red
+team-name-pharaoh-Blue: Blue
+team-name-pharaoh-Yellow: Yellow
+team-name-pharaoh-Green: Green
+team-name-pharaoh_-Red: Red
+team-name-pharaoh_-Blue: Blue
+team-name-pharaoh_-Yellow: Yellow
+team-name-pharaoh_-Green: Green
+team-name-lions_temple-Blue: Blue
+team-name-lions_temple-Red: Red
+display-group-voidless_4v4v4v4: Voidless_4v4v4v4
+display-group-voidless_doubles: Voidless_doubles
+team-name-catalyst-Red: Red
+team-name-catalyst-Blue: Blue
+team-name-catalyst-Yellow: Yellow
+team-name-catalyst-Green: Green
+team-name-catalyst_-Red: Red
+team-name-catalyst_-Blue: Blue
+team-name-catalyst_-Yellow: Yellow
+team-name-catalyst_-Green: Green
+team-name-entangle-Red: Red
+team-name-entangle-Yellow: Yellow
+team-name-entangle-Green: Green
+team-name-entangle-Blue: Blue
+team-name-graveship-Yellow: Yellow
+team-name-graveship-Green: Green
+team-name-graveship-Red: Red
+team-name-graveship-Blue: Blue
+team-name-graveship_-Yellow: Yellow
+team-name-graveship_-Green: Green
+team-name-graveship_-Red: Red
+team-name-graveship_-Blue: Blue
+team-name-ivory_castle-Blue: Blue
+team-name-ivory_castle-Red: Red
+team-name-katsu-Yellow: Yellow
+team-name-katsu-Red: Red
+team-name-katsu-Green: Green
+team-name-katsu-Blue: Blue
+team-name-katsu_-Yellow: Yellow
+team-name-katsu_-Red: Red
+team-name-katsu_-Green: Green
+team-name-katsu_-Blue: Blue
+team-name-misdalr-Blue: Blue
+team-name-misdalr-Red: Red
+team-name-misdalr-Green: Green
+team-name-misdalr-Yellow: Yellow
+team-name-polemus-Gray: Gray
+team-name-polemus-Pink: Pink
+team-name-polemus-White: White
+team-name-polemus-Red: Red
+team-name-polemus-Blue: Blue
+team-name-polemus-Aqua: Aqua
+team-name-polemus-Green: Green
+team-name-polemus-Yellow: Yellow
+team-name-rise-Yellow: Yellow
+team-name-rise-Red: Red
+team-name-rise-Green: Green
+team-name-rise-Blue: Blue
+team-name-rise_-Yellow: Yellow
+team-name-rise_-Red: Red
+team-name-rise_-Green: Green
+team-name-rise_-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Blue: Blue
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Green: Green
+team-name-sandcastle_-Yellow: Yellow
+team-name-sandcastle_-Blue: Blue
+team-name-sandcastle_-Red: Red
+team-name-sandcastle_-Green: Green
+team-name-unturned-Yellow: Yellow
+team-name-unturned-Red: Red
+team-name-unturned-Green: Green
+team-name-unturned-Blue: Blue
+team-name-unturned_-Yellow: Yellow
+team-name-unturned_-Red: Red
+team-name-unturned_-Green: Green
+team-name-unturned_-Blue: Blue
+team-name-varyth-Gray: Gray
+team-name-varyth-Pink: Pink
+team-name-varyth-Red: Red
+team-name-varyth-White: White
+team-name-varyth-Blue: Blue
+team-name-varyth-Aqua: Aqua
+team-name-varyth-Green: Green
+team-name-varyth-Yellow: Yellow
+team-name-fort_doon-Blue: Blue
+team-name-fort_doon-Green: Green
+team-name-fort_doon-Yellow: Yellow
+team-name-fort_doon-Red: Red
+team-name-fort_doon_-Blue: Blue
+team-name-fort_doon_-Green: Green
+team-name-fort_doon_-Yellow: Yellow
+team-name-fort_doon_-Red: Red
+team-name-fang_outpost-Yellow: Yellow
+team-name-fang_outpost-Green: Green
+team-name-fang_outpost-Red: Red
+team-name-fang_outpost-Blue: Blue
+team-name-fang_outpost_-Yellow: Yellow
+team-name-fang_outpost_-Green: Green
+team-name-fang_outpost_-Red: Red
+team-name-fang_outpost_-Blue: Blue
+team-name-babylon-White: White
+team-name-babylon-Aqua: Aqua
+team-name-babylon-Pink: Pink
+team-name-babylon-Yellow: Yellow
+team-name-babylon-Gray: Gray
+team-name-babylon-Green: Green
+team-name-babylon-Red: Red
+team-name-babylon-Blue: Blue
+team-name-babylon_-White: White
+team-name-babylon_-Aqua: Aqua
+team-name-babylon_-Pink: Pink
+team-name-babylon_-Yellow: Yellow
+team-name-babylon_-Gray: Gray
+team-name-babylon_-Green: Green
+team-name-babylon_-Red: Red
+team-name-babylon_-Blue: Blue
+team-name-steampumpkin-Gray: Gray
+team-name-steampumpkin-Pink: Pink
+team-name-steampumpkin-Red: Red
+team-name-steampumpkin-White: White
+team-name-steampumpkin-Blue: Blue
+team-name-steampumpkin-Aqua: Aqua
+team-name-steampumpkin-Green: Green
+team-name-steampumpkin-Yellow: Yellow
+team-name-steampumpkin_-Gray: Gray
+team-name-steampumpkin_-Pink: Pink
+team-name-steampumpkin_-Red: Red
+team-name-steampumpkin_-White: White
+team-name-steampumpkin_-Blue: Blue
+team-name-steampumpkin_-Aqua: Aqua
+team-name-steampumpkin_-Green: Green
+team-name-steampumpkin_-Yellow: Yellow
+team-name-unchained-Red: Red
+team-name-unchained-Blue: Blue
+team-name-unchained-Yellow: Yellow
+team-name-unchained-Green: Green
+team-name-unchained_-Red: Red
+team-name-unchained_-Blue: Blue
+team-name-unchained_-Yellow: Yellow
+team-name-unchained_-Green: Green
+team-name-cauldron-Green: Green
+team-name-cauldron-Yellow: Yellow
+team-name-cauldron-Blue: Blue
+team-name-cauldron-Red: Red
+team-name-cauldron_-Green: Green
+team-name-cauldron_-Yellow: Yellow
+team-name-cauldron_-Blue: Blue
+team-name-cauldron_-Red: Red
+team-name-hell_temple-Red: Red
+team-name-hell_temple-Yellow: Yellow
+team-name-hell_temple-Green: Green
+team-name-hell_temple-Blue: Blue
+team-name-hell_temple_-Red: Red
+team-name-hell_temple_-Yellow: Yellow
+team-name-hell_temple_-Green: Green
+team-name-hell_temple_-Blue: Blue
+team-name-trick_or_yeet_-Red: Red
+team-name-trick_or_yeet_-Gray: Gray
+team-name-trick_or_yeet_-Blue: Blue
+team-name-trick_or_yeet_-Pink: Pink
+team-name-trick_or_yeet_-Green: Green
+team-name-trick_or_yeet_-White: White
+team-name-trick_or_yeet_-Yellow: Yellow
+team-name-trick_or_yeet_-Aqua: Aqua
+team-name-trick_or_yeet-Red: Red
+team-name-trick_or_yeet-Gray: Gray
+team-name-trick_or_yeet-Blue: Blue
+team-name-trick_or_yeet-Pink: Pink
+team-name-trick_or_yeet-Green: Green
+team-name-trick_or_yeet-White: White
+team-name-trick_or_yeet-Yellow: Yellow
+team-name-trick_or_yeet-Aqua: Aqua
+team-name-apollo-Red: Red
+team-name-apollo-Blue: Blue
+team-name-apollo-Green: Green
+team-name-apollo-Yellow: Yellow
+team-name-apollo-Aqua: Aqua
+team-name-apollo-White: White
+team-name-apollo-Pink: Pink
+team-name-apollo-Gray: Gray
+team-name-apollo_-Red: Red
+team-name-apollo_-Blue: Blue
+team-name-apollo_-Green: Green
+team-name-apollo_-Yellow: Yellow
+team-name-apollo_-Aqua: Aqua
+team-name-apollo_-White: White
+team-name-apollo_-Pink: Pink
+team-name-apollo_-Gray: Gray
+team-name-enchanted-Yellow: Yellow
+team-name-enchanted-Blue: Blue
+team-name-enchanted-Red: Red
+team-name-enchanted-Green: Green
+team-name-enchanted_-Yellow: Yellow
+team-name-enchanted_-Blue: Blue
+team-name-enchanted_-Red: Red
+team-name-enchanted_-Green: Green
+team-name-cascade-Gray: Gray
+team-name-cascade-Pink: Pink
+team-name-cascade-Aqua: Aqua
+team-name-cascade-Red: Red
+team-name-cascade-White: White
+team-name-cascade-Blue: Blue
+team-name-cascade-Green: Green
+team-name-cascade-Yellow: Yellow
+team-name-cascade_-Gray: Gray
+team-name-cascade_-Pink: Pink
+team-name-cascade_-Aqua: Aqua
+team-name-cascade_-Red: Red
+team-name-cascade_-White: White
+team-name-cascade_-Blue: Blue
+team-name-cascade_-Green: Green
+team-name-cascade_-Yellow: Yellow
+team-name-ai-Gray: Gray
+team-name-ai-Pink: Pink
+team-name-cliffside-Gray: Gray
+team-name-cliffside-Pink: Pink
+team-name-cliffside-Red: Red
+team-name-cliffside-White: White
+team-name-cliffside-Blue: Blue
+team-name-cliffside-Aqua: Aqua
+team-name-cliffside-Green: Green
+team-name-cliffside-Yellow: Yellow
+team-name-cliffside_-Gray: Gray
+team-name-cliffside_-Pink: Pink
+team-name-cliffside_-Red: Red
+team-name-cliffside_-White: White
+team-name-cliffside_-Blue: Blue
+team-name-cliffside_-Aqua: Aqua
+team-name-cliffside_-Green: Green
+team-name-cliffside_-Yellow: Yellow
+team-name-inca-Gray: Gray
+team-name-inca-Pink: Pink
+team-name-inca-Red: Red
+team-name-inca-White: White
+team-name-inca-Blue: Blue
+team-name-inca-Aqua: Aqua
+team-name-inca-Green: Green
+team-name-inca-Yellow: Yellow
+team-name-inca_-Gray: Gray
+team-name-inca_-Pink: Pink
+team-name-inca_-Red: Red
+team-name-inca_-White: White
+team-name-inca_-Blue: Blue
+team-name-inca_-Aqua: Aqua
+team-name-inca_-Green: Green
+team-name-inca_-Yellow: Yellow
+team-name-easter_garden-Red: Red
+team-name-easter_garden-Blue: Blue
+team-name-easter_garden-Green: Green
+team-name-easter_garden-Yellow: Yellow
+upgrades-menu-gui-name-4v4v4v4: '&8Upgrades & Traps'
+display-group-pvp: Pvp
+team-name-airshow_PVP-Gray: Gray
+team-name-airshow_PVP-Pink: Pink
+team-name-airshow_PVP-Red: Red
+team-name-airshow_PVP-Blue: Blue
+team-name-airshow_PVP-Green: Green
+team-name-airshow_PVP-Yellow: Yellow
+team-name-airshow_PVP-Aqua: Aqua
+team-name-airshow_PVP-White: White
+team-name-airshow_pvp-Gray: Gray
+team-name-airshow_pvp-Pink: Pink
+team-name-airshow_pvp-Red: Red
+team-name-airshow_pvp-Blue: Blue
+team-name-airshow_pvp-Green: Green
+team-name-airshow_pvp-Yellow: Yellow
+team-name-airshow_pvp-Aqua: Aqua
+team-name-airshow_pvp-White: White
+team-name-apollo_pvp-Red: Red
+team-name-apollo_pvp-Blue: Blue
+team-name-apollo_pvp-Green: Green
+team-name-apollo_pvp-Yellow: Yellow
+team-name-apollo_pvp-Aqua: Aqua
+team-name-apollo_pvp-White: White
+team-name-apollo_pvp-Pink: Pink
+team-name-apollo_pvp-Gray: Gray
+team-name-cascade_pvp-Gray: Gray
+team-name-cascade_pvp-Pink: Pink
+team-name-cascade_pvp-Aqua: Aqua
+team-name-cascade_pvp-Red: Red
+team-name-cascade_pvp-White: White
+team-name-cascade_pvp-Blue: Blue
+team-name-cascade_pvp-Green: Green
+team-name-cascade_pvp-Yellow: Yellow
+team-name-inca_pvp-Gray: Gray
+team-name-inca_pvp-Pink: Pink
+team-name-inca_pvp-Red: Red
+team-name-inca_pvp-White: White
+team-name-inca_pvp-Blue: Blue
+team-name-inca_pvp-Aqua: Aqua
+team-name-inca_pvp-Green: Green
+team-name-inca_pvp-Yellow: Yellow
+team-name-lighthouse_pvp-Gray: Gray
+team-name-lighthouse_pvp-White: White
+team-name-lighthouse_pvp-Pink: Pink
+team-name-lighthouse_pvp-Yellow: Yellow
+team-name-lighthouse_pvp-Green: Green
+team-name-lighthouse_pvp-Red: Red
+team-name-lighthouse_pvp-Blue: Blue
+team-name-lighthouse_pvp-Aqua: Aqua
+team-name-orchestra_pvp-Gray: Gray
+team-name-orchestra_pvp-Pink: Pink
+team-name-orchestra_pvp-White: White
+team-name-orchestra_pvp-Red: Red
+team-name-orchestra_pvp-Blue: Blue
+team-name-orchestra_pvp-Aqua: Aqua
+team-name-orchestra_pvp-Green: Green
+team-name-orchestra_pvp-Yellow: Yellow
+team-name-pernicious_pvp-Gray: Gray
+team-name-pernicious_pvp-Pink: Pink
+team-name-pernicious_pvp-Red: Red
+team-name-pernicious_pvp-White: White
+team-name-pernicious_pvp-Blue: Blue
+team-name-pernicious_pvp-Aqua: Aqua
+team-name-pernicious_pvp-Green: Green
+team-name-pernicious_pvp-Yellow: Yellow
+team-name-playground_pvp-Gray: Gray
+team-name-playground_pvp-Pink: Pink
+team-name-playground_pvp-Red: Red
+team-name-playground_pvp-White: White
+team-name-playground_pvp-Blue: Blue
+team-name-playground_pvp-Aqua: Aqua
+team-name-playground_pvp-Green: Green
+team-name-playground_pvp-Yellow: Yellow
+team-name-speedway_pvp-Gray: Gray
+team-name-speedway_pvp-Pink: Pink
+team-name-speedway_pvp-Red: Red
+team-name-speedway_pvp-White: White
+team-name-speedway_pvp-Blue: Blue
+team-name-speedway_pvp-Aqua: Aqua
+team-name-speedway_pvp-Green: Green
+team-name-speedway_pvp-Yellow: Yellow
+team-name-airshow_custom-Gray: Gray
+team-name-airshow_custom-Pink: Pink
+team-name-airshow_custom-Red: Red
+team-name-airshow_custom-Blue: Blue
+team-name-airshow_custom-Green: Green
+team-name-airshow_custom-Yellow: Yellow
+team-name-airshow_custom-Aqua: Aqua
+team-name-airshow_custom-White: White

@@ -1,0 +1,10 @@
+Server-MOTD: 
+  Line-1: "                &aHypixel Network &c[1.8-1.19]"
+  Line-2: "              &6&lWOOL WARS 1.0 RELEASED"
+
+JoinGame-MOTD:
+  Enabled: false
+  Messages:
+    - 'default motd'
+
+Max-Players: 200000

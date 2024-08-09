@@ -1,0 +1,364 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Bed Wars Doubles'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+randommap:
+  COMMAND: 'op: bw join Doubles; sound: ORB PICKUP'
+  NAME: '&aRandom map'
+  LORE:
+    - '&8Doubles'
+    - ''
+    - '&eClick to play!'
+  ID: 401
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 6
+back:
+  COMMAND: 'op: chestcommands open doubles.yml; sound: ORB PICKUP'
+  NAME: '&aBack'
+  ID: 262
+  DATA: 5
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+map-1:
+  COMMAND: 'op: bw join amazon_'
+  NAME: '&aAmazon'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_amazon_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 2
+map-2:
+  COMMAND: 'op: bw join airshow_'
+  NAME: '&aAirshow'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_airshow_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 2
+map-3:
+  COMMAND: 'op: bw join apollo_'
+  NAME: '&aApollo'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_apollo_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+map-4:
+  COMMAND: 'op: bw join ashfire_'
+  NAME: '&aAshfire'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_ashfire_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 2
+map-5:
+  COMMAND: 'op:bw join bio-hazard_'
+  NAME: '&aBio-Hazard'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_bio-hazard_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+map-6:
+  COMMAND: 'op: bw join cascade_'
+  NAME: '&aCascade'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_cascade_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 2
+map-7:
+  COMMAND: 'op: bw join crypt_'
+  NAME: '&aCrypt'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_crypt_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 2
+map-8:
+  COMMAND: 'op: bw join dragonstar_'
+  NAME: '&aDragonstar'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_dragonstar_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 3
+map-9:
+  COMMAND: 'op: bw join hollow_'
+  NAME: '&aHollow'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_hollow_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 3
+map-10:
+  COMMAND: 'op: bw join inca_'
+  NAME: '&aInca'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_inca_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 3
+map-11:
+  COMMAND: 'op:bw join lighthouse_'
+  NAME: '&aLigthouse'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_lighthouse_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 3
+map-12:
+  COMMAND: 'op: bw join glacier_'
+  NAME: '&aGlacier'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_glacier_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 3
+map-13:
+  COMMAND: 'op: bw join orchestra_'
+  NAME: '&aOrchestra'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_orchestra_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 3
+map-14:
+  COMMAND: 'op: bw join pernicious_'
+  NAME: '&aPernicious'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_pernicious_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 3
+map-15:
+  COMMAND: 'op: bw join solace_'
+  NAME: '&aSolace'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_solace_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 4
+map-16:
+  COMMAND: 'op: bw join steampunk_'
+  NAME: '&aSteampunk'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_steampunk_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 4
+map-17:
+  COMMAND: 'op:bw join rooftop_'
+  NAME: '&aRooftop'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_rooftop_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 4
+map-18:
+  COMMAND: 'op:bw join speedway_'
+  NAME: '&aSpeedWay'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_speedway_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 4
+map-19:
+  COMMAND: 'op:bw join lotus_'
+  NAME: '&aLotus'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_lotus_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 4
+map-20:
+  COMMAND: 'op: bw join playground_'
+  NAME: '&aPlayground'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_playground_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 5
+map-21:
+  COMMAND: 'op:bw join waterfall_'
+  NAME: '&aWaterfall'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_waterfall_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 4
+map-22:
+  COMMAND: 'op: bw join zarzul_'
+  NAME: '&aZarzul'
+  LORE:
+  - '&8Doubles'
+  - ''
+  - '&7Available Doubles map: &a1'
+  - '&7Status: %bw1058_arena_status_zarzul_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 4

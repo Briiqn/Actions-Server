@@ -1,0 +1,49 @@
+Custom-Loots:
+  10-Money:
+    Name: '&a10$'
+    Rarity: Common
+    Category: '&cMoney'
+    CanBeFound: true
+    Execute-Command:
+      Enabled: true
+      Commands:
+      - eco give {PLAYER} 10
+  12-TNT:
+    Name: '&912x TNT (Block)'
+    Rarity: Rare
+    Category: '&cBlock'
+    CanBeFound: true
+    Execute-Command:
+      Enabled: true
+      Commands:
+      - give {PLAYER} minecraft:tnt 12
+  16-Gold-Ore:
+    Name: '&916x Gold Ore (Block)'
+    Rarity: Rare
+    Category: '&cBlock'
+    CanBeFound: true
+    Execute-Command:
+      Enabled: true
+      Commands:
+      - give {PLAYER} minecraft:gold_ore 16
+  16-Diamond-Ore:
+    Name: '&516x Diamond Ore (Block)'
+    Rarity: Epic
+    Category: '&cBlock'
+    CanBeFound: true
+    Execute-Command:
+      Enabled: true
+      Commands:
+      - give {PLAYER} minecraft:diamond_ore 16
+  Diamond-Suit:
+    Name: '&6Diamond Armor'
+    Rarity: Legendary
+    Category: '&cArmor'
+    CanBeFound: true
+    Execute-Command:
+      Enabled: true
+      Commands:
+      - give {PLAYER} minecraft:diamond_helmet 1
+      - give {PLAYER} minecraft:diamond_chestplate 1
+      - give {PLAYER} minecraft:diamond_leggings 1
+      - give {PLAYER} minecraft:diamond_boots 1

@@ -1,0 +1,364 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Bed Wars 3v3v3v3'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+random:
+  COMMAND: 'op: bw join 3v3v3v3; sound: ORB PICKUP'
+  NAME: '&aRandom map'
+  LORE:
+    - '&83v3v3v3'
+    - ''
+    - '&eClick to play!'
+  ID: 401
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 6
+back:
+  COMMAND: 'op: chestcommands open 3v3v3v3.yml; sound: ORB PICKUP'
+  NAME: '&aBack'
+  ID: 262
+  DATA: 5
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+map-1:
+  COMMAND: 'op: bw join treenan_'
+  NAME: '&aTreenan'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_treenan_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 2
+map-2:
+  COMMAND: 'op: bw join invasion_'
+  NAME: '&aInvasion'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_invasion_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 2
+map-3:
+  COMMAND: 'op: bw join dreamgrove_'
+  NAME: '&aDreamGrove'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_dreamgrove_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+map-4:
+  COMMAND: 'op: bw join swashbuckle_'
+  NAME: '&aSwashbuckle'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_swashbuckle_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 2
+map-5:
+  COMMAND: 'op: bw join boletum_'
+  NAME: '&aBoletum'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_boletum_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 358
+  POSITION-X: 6
+  POSITION-Y: 2
+map-6:
+  COMMAND: 'op: bw join ashore_'
+  NAME: '&aAshore'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_ashore_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 2
+map-7:
+  COMMAND: 'op: bw join coastal_'
+  NAME: '&aCoastal'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_coastal_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 2
+map-8:
+  COMMAND: 'op: bw join stonekeep_'
+  NAME: '&aStonekeep'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_stonekeep_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 3
+map-9:
+  COMMAND: 'op: bw join jurassic_'
+  NAME: '&aJurassic'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_jurassic_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 3
+map-10:
+  COMMAND: 'op: bw join temple_'
+  NAME: '&aTemple'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_temple_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 3
+map-11:
+  COMMAND: 'op: bw join archway_'
+  NAME: '&aArchway'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_archway_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 3
+map-12:
+  COMMAND: 'op: bw join aquarium_'
+  NAME: '&aAquarium'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_aquarium_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 3
+map-13:
+  COMMAND: 'op: bw join lectus_'
+  NAME: '&aLectus'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_lectus_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 3
+map-14:
+  COMMAND: 'op: bw join chained_'
+  NAME: '&aChained'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_chained_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 3
+map-15:
+  COMMAND: 'op: bw join eastwood_'
+  NAME: '&aEastwood'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_eastwood_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 4
+map-16:
+  COMMAND: 'op: bw join obelisk_'
+  NAME: '&aObelisk'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_obelisk_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 3
+  POSITION-Y: 4
+map-17:
+  COMMAND: 'op: bw join horizon_'
+  NAME: '&aHorizon'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_horizon_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 4
+map-18:
+  COMMAND: 'op: bw join pharaoh_'
+  NAME: '&aPharaoh'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_pharaoh_%'
+  - ''
+  - '&eCllick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 4
+map-19:
+  COMMAND: 'op: bw join graveship_'
+  NAME: '&aGraveship'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_graveship_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 4
+map-20:
+  COMMAND: 'op: bw join rise_'
+  NAME: '&aRise'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_rise_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 7
+  POSITION-Y: 4
+map-21:
+  COMMAND: 'op: bw join unturned_'
+  NAME: '&aUnturned'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_unturned_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 8
+  POSITION-Y: 4
+map-22:
+  COMMAND: 'op: bw join enchanted_'
+  NAME: '&aEnchanted'
+  LORE:
+  - '&83v3v3v3'
+  - ''
+  - '&7Available 3v3v3v3 map: &a1'
+  - '&7Status: %bw1058_arena_status_enchanted_%'
+  - ''
+  - '&eClick to play'
+  ID: 358
+  DATA: 5
+  POSITION-X: 2
+  POSITION-Y: 5

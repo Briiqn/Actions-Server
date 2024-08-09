@@ -1,0 +1,45 @@
+# Use /tnt in game for edit the plugin, donc edit this file !
+TNT: true
+Instant-TNT: true
+TNT-Block-Damage: true
+TNT-Drops: true
+Fire-Damage: true
+Rename_TNT: '&6[&4TNT&5F&4l&ey&6]'
+Damage_Fall: 3
+Damage_TNT: 7
+Fuze-ticks: 80
+Fuse-instant-mod: 30
+TNT-effect: true
+TNTFly-type: 2
+Cannon-power: 0.7
+effect:
+  Speed:
+    enabled: false
+    duration: 30
+    level: 1
+  Nausea:
+    enabled: false
+    duration: 30
+    level: 1
+  Regeneration:
+    enabled: false
+    duration: 30
+    level: 1
+  Blindness:
+    enabled: false
+    duration: 30
+    level: 1
+  Wither:
+    enabled: false
+    duration: 30
+    level: 1
+effect-visual:
+  particle-enabled: false
+  particle-type: PORTAL
+  particle-density: 30
+  particle-radius: 1
+  particle-distance: 16
+effect-sound:
+  sound-enabled: false
+  sound-type: ENDERDRAGON_DEATH
+  sound-distance: 1

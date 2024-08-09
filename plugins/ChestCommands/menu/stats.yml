@@ -1,0 +1,80 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&8Stats'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 6
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # This command command will be executed when the menu is closed.
+  # Supports all the icon command types.
+  close-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+head:
+  COMMAND: 'sound: ENDERMAN TELEPORT'
+  NAME: '&eYour stats'
+  LORE:
+    - ''
+    - 'Your Level: %bw1058_player_level%'
+    - 'Progress: %bw1058_player_progress%'
+    - ''
+    - 'Games played: &6%bw1058_stats_gamesplayed%'
+    - 'Beds was destroyed: &6%bw1058_stats_bedsdestroyed%'
+    - ''
+    - 'Final Kills: &a%bw1058_stats_finalkills%'
+    - 'Final Deaths: &a%bw1058_stats_finaldeaths%'
+    - ''
+    - 'Kills: &a%bw1058_stats_kills%'
+    - 'Wins: &a%bw1058_stats_wins%'
+    - 'Losses: &a%bw1058_stats_losses%'
+  ID: '381'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+close:
+  NAME: '&cClose'
+  ID: 166
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 6

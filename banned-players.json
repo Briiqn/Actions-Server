@@ -1,10 +1,18 @@
 [
   {
-    "uuid": "33ce4083-5030-3adf-a7df-4a7c8c8bfa95",
-    "name": "Childbeater542",
-    "created": "2023-11-26 00:49:06 +0000",
-    "source": "§4Childbeater542§r",
+    "uuid": "3d83ec9c-556f-48ee-a129-797366471121",
+    "name": "Mad",
+    "created": "2021-01-20 12:22:22 -0500",
+    "source": "Server",
     "expires": "forever",
-    "reason": "1s"
+    "reason": "Pickaxe"
+  },
+  {
+    "uuid": "f2884730-046a-3353-b8db-e67eb6400870",
+    "name": "Gila_bor",
+    "created": "2020-11-15 01:59:27 -0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
   }
 ]

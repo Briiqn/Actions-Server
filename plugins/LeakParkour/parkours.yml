@@ -1,0 +1,40 @@
+# > ---
+# > LeakParkour parkours
+# > Visit Spigot page for more informations 
+# > https://goo.gl/Z99sVg
+# > ---
+
+Parkours:
+  lobby:
+    status: 'ON'
+    points:
+      '1':
+        world: world
+        x: -25
+        y: 70
+        z: -24
+        yaw: -179.79987
+      '2':
+        world: world
+        x: -34
+        y: 86
+        z: -56
+        yaw: -0.3024292
+      '3':
+        world: world
+        x: -57
+        y: 92
+        z: -22
+        yaw: -340.818
+      '4':
+        world: world
+        x: -61
+        y: 99
+        z: 0
+        yaw: -13.981506
+      '5':
+        world: world
+        x: -5
+        y: 88
+        z: 31
+        yaw: -183.27765

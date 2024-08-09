@@ -1,0 +1,141 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&8Thông tin'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 6
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bwmenu'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # This command command will be executed when the menu is closed.
+  # Supports all the icon command types.
+  close-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+head:
+  NAME: '&eInformation'
+  LORE:
+    - ''
+    - 'Your Level: %bw1058_player_level%'
+    - 'Progress: %bw1058_player_progress%'
+    - ''
+    - 'Games played: &6%bw1058_stats_gamesplayed%'
+    - ''
+    - 'Kills: &a%bw1058_stats_kills%'
+    - 'Wins: &a%bw1058_stats_wins%'
+    - 'Losses: &a%bw1058_stats_losses%'
+  KEEP-OPEN: true
+  ID: 'skull:3'
+  SKULL-OWNER: '{player}'
+  POSITION-X: 5
+  POSITION-Y: 1
+  ENCHANTMENT: durability, 1
+  
+language:
+  COMMAND: 'op: chestcommands open language.yml'
+  NAME: '&aLanguage'
+  LORE:
+    - ''
+    - '&7Currently available &a2 &7languages'
+    - ''
+    - '&8   ▪ English'
+    - '&8   ▪ Vietnamese'
+    - ''
+    - '&eClick to view!'
+  KEEP-OPEN: true
+  ID: 'skull:3'
+  SKULL-OWNER: http://textures.minecraft.net/texture/a0e555e42a1b2f85ef2d75668257676bc3b4d4f9ad88af4189f1f562cd39343
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+rank:
+  COMMAND: 'op: chestcommands open rank.yml'
+  NAME: '&aRanks'
+  LORE:
+    - ''
+    - '&7Currently available &a5 &7rank'
+    - ''
+    - '&8   ▪ &aVIP'
+    - '&8   ▪ &aVIP&6+'
+    - '&8   ▪ &bMVP'
+    - '&8   ▪ &bMVP&c+'
+    - '&8   ▪ &6MVP&c++'
+    - ''
+    - '&eClick to buy rank'
+  KEEP-OPEN: true
+  ID: '323'
+  POSITION-X: 7
+  POSITION-Y: 4
+  ENCHANTMENT: durability, 1
+  
+gadgetsmenu:
+  COMMAND: 'op: gadgetsmenu main'
+  NAME: '&aCollectibles'
+  LORE:
+    - ''
+    - '&7Your &aCollectibles'
+    - ''
+    - '&eClick to view'
+  KEEP-OPEN: true
+  ID: 'chest'
+  POSITION-X: 3
+  POSITION-Y: 4
+  ENCHANTMENT: durability, 1
+  
+info:
+  NAME: '&aInformation &7(&aStaff&7)'
+  LORE:
+    - ''
+    - '&7The ranks are arranged in order'
+    - ''
+    - '&8   ▪ &7[&4Owner&7] &7Mad_Pickaxe'
+    - '&8   ▪ &8[&4ADMIN&8] &7Ninja481'
+    - '&8   ▪ &7Loading...'
+    - '&8   ▪ &7Loading...'
+    - '&8   ▪ &7Loading...'
+    - '&8   ▪ &7Loading...'
+    - '&8   ▪ &7Loading...'
+  KEEP-OPEN: true
+  ID: 'skull:3'
+  SKULL-OWNER: http://textures.minecraft.net/texture/d2c3b98ada19957f8d83a7d42faf81a290fae7d08dbf6c1f8992a1ada44b31
+  POSITION-X: 5
+  POSITION-Y: 6

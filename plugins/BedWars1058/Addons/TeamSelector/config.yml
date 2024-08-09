@@ -1,0 +1,23 @@
+# Team Selector Add-on for BedWars1058 Mini-game.
+# 
+# Documentation:
+# team-selector-item-stack: WOOL - The material you want the team-selector item be.
+# team-selector-slot: 0 - The slot where to put the item. Set it to -1 to assign the first empty slot.
+# give-team-color: true - True if you the selector to have the selected team's color.
+# allow-team-change: true - True if you want to allow players to change selected team.
+# allow-move-in-inventory: false - True if you want to allow players to move it in inventory.
+# balance-teams: true - True if you want to have balanced teams size.
+# gui-open-sound: BLOCK_SHULKER_BOX_OPEN - The sound to be played when you open the team selector.
+# success-sound: BLOCK_SHULKER_BOX_CLOSE - The sound to be played when you select a team successfully.
+# error-sound: BLOCK_ANVIL_DESTROY - The sound to be played when you can't select a team.
+# Sounds for latest version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# Sounds for 1.8 or older: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+team-selector-item-stack: WOOL
+team-selector-slot: 0
+give-team-color: true
+allow-team-change: true
+allow-move-in-inventory: false
+balance-teams: false
+gui-open-sound: CLICK
+success-sound: NOTE_PLING
+error-sound: ANVIL_BREAK

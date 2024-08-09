@@ -1,0 +1,26 @@
+messages:
+  joinWithRewards:
+  - '&7'
+  - '&7'
+  joinNoRewards:
+  - '&7'
+  - '&7'
+setup:
+  noPermission: '&cYou don''t have permission for this.'
+  addNPC: '&eDelivery Man &c<key> &ehas been established in &c<loc>&e.'
+  removeNPC: '&eDelivery man &c<key> &ehas been removed.'
+  alreadyNPC: '&cThere''s already an NPC with this Key.'
+  noNPC: '&cThere is no NPC with this Key.'
+  reload: '&aAll configuration has been reloaded.'
+countdown:
+  days: '&7<days>d, <hours>h, <minutes>m, <seconds>s'
+  hours: '&7<hours>h, <minutes>m, <seconds>s'
+  minutes: '&7<minutes>m, <seconds>s'
+  seconds: '&7<seconds>s'
+menus:
+  rewards:
+    title: '&8The Delivery Man'
+holograms:
+  delivery:
+  - '&bDelivery Man'
+  - '&e&lRIGHT CLICK'

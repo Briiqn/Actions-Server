@@ -1,0 +1,515 @@
+Mystery-Boxes:
+  Enabled: true
+  Loots-Can-Be-Found:
+    Hats: true
+    Particles: true
+    Suits: true
+    Gadgets: true
+    Pets: true
+    Banners: true
+    Morphs: true
+    Emotes: true
+    Cloaks: true
+    Animated Hats: true
+  Chance:
+    Common: 70
+    Rare: 15
+    Epic: 10
+    Legendary: 5
+  Rarity:
+    Common: '&aCommon'
+    Rare: '&9Rare'
+    Epic: '&5Epic'
+    Legendary: '&6Legendary'
+  Execute-Command: pex user {PLAYER} add {PERMISSION}
+  Found-Loot:
+    Common:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_CHICKEN_EGG
+      Send-Message:
+        Enabled: true
+        Message:
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        - '             &b&lMystery Box'
+        - ''
+        - '  &7You found loot!'
+        - '  &71x &a&lCommon {LOOT}'
+        - ''
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+    Rare:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_VILLAGER_AMBIENT
+      Send-Message:
+        Enabled: true
+        Message:
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        - '             &b&lMystery Box'
+        - ''
+        - '  &7You found loot!'
+        - '  &71x &9&lRare {LOOT}'
+        - ''
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+    Epic:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_PLAYER_LEVELUP
+      Send-Message:
+        Enabled: true
+        Message:
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        - '             &b&lMystery Box'
+        - ''
+        - '  &7You found loot!'
+        - '  &71x &5&lEpic {LOOT}'
+        - ''
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+    Legendary:
+      Play-Sound:
+        Enabled: true
+        Sound: ENTITY_ENDER_DRAGON_AMBIENT
+      Send-Message:
+        Enabled: true
+        Message:
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        - '             &b&lMystery Box'
+        - ''
+        - '  &7You found loot!'
+        - '  &71x &6&lLegendary {LOOT}'
+        - ''
+        - ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  Already-Had-Loot:
+    Common:
+      Give-Mystery-Dust:
+        Enabled: true
+        Min: 1
+        Max: 3
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&7You already had &aCommon {LOOT} &7so you'
+        - '&7received &a{MYSTERY_DUST} Mystery Dust &7instead.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 2
+    Rare:
+      Give-Mystery-Dust:
+        Enabled: true
+        Min: 4
+        Max: 8
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&7You already had &9Rare {LOOT} &7so you'
+        - '&7received &a{MYSTERY_DUST} Mystery Dust &7instead.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 5
+    Epic:
+      Give-Mystery-Dust:
+        Enabled: true
+        Min: 9
+        Max: 25
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&7You already had &5Epic {LOOT} &7so you'
+        - '&7received &a{MYSTERY_DUST} Mystery Dust &7instead.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 8
+    Legendary:
+      Give-Mystery-Dust:
+        Enabled: true
+        Min: 26
+        Max: 36
+      Send-Message:
+        Enabled: true
+        Message:
+        - '&7You already had &6Legendary {LOOT} &7so you'
+        - '&7received &a{MYSTERY_DUST} Mystery Dust &7instead.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 12
+  Holograms:
+    Found-Loot:
+      Common: '&aCommon {LOOT}'
+      Rare: '&9Rare {LOOT}'
+      Epic: '&5Epic {LOOT}'
+      Legendary: '&6Legendary {LOOT}'
+    Mystery-Vault:
+      Line-1: '&bMystery Vault'
+      Line-2: '&e&lRIGHT CLICK'
+    Available-Mystery-Boxes:
+    - '&c{MYSTERY_BOXES} Available!'
+    - '&f{MYSTERY_BOXES} Available!'
+    Zero-Mystery-Box-Available: '&cNo Box Available'
+  Broadcast:
+    Opening-Mystery-Box:
+      Enabled: true
+      Message: '&b[Mystery Box] &7{PLAYER} &ris opening a Mystery Box!'
+    Found-Loot:
+      Common:
+        Enabled: true
+        Message: '&b[Mystery Box] &7{PLAYER} &rfound a &aCommon {LOOT}&r!'
+      Rare:
+        Enabled: true
+        Message: '&b[Mystery Box] &7{PLAYER} &rfound a &9Rare {LOOT}&r!'
+      Epic:
+        Enabled: true
+        Message: '&b[Mystery Box] &7{PLAYER} &rfound a &5Epic {LOOT}&r!'
+      Legendary:
+        Enabled: true
+        Message: '&b[Mystery Box] &7{PLAYER} &rfound a &6Legendary {LOOT}&r!'
+    Found-Mystery-Box:
+      One-Star:
+        Enabled: true
+        Message: '{PLAYER} &ffound a &e✰&7✰✰✰✰ &fMystery Box!'
+      Two-Star:
+        Enabled: true
+        Message: '{PLAYER} &ffound a &e✰✰&7✰✰✰ &fMystery Box!'
+      Three-Star:
+        Enabled: true
+        Message: '{PLAYER} &ffound a &e✰✰✰&7✰✰ &fMystery Box!'
+      Four-Star:
+        Enabled: true
+        Message: '{PLAYER} &ffound a &e✰✰✰✰&7✰ &fMystery Box!'
+      Five-Star:
+        Enabled: true
+        Message: '{PLAYER} &ffound a &e✰✰✰✰✰ &fMystery Box!'
+  Mystery-Boxes-Reward:
+    Enabled: true
+    Chance-To-Get-Mystery-Box: 60
+    Chance:
+      One-Star: 5
+      Two-Star: 10
+      Three-Star: 60
+      Four-Star: 20
+      Five-Star: 5
+    Play-Time:
+      Hours: 0
+      Minutes: 60
+      Seconds: 0
+    Message:
+      One-Star: '&fYou found a &e✰&7✰✰✰✰ &fMystery Box!'
+      Two-Star: '&fYou found a &e✰✰&7✰✰✰ &fMystery Box!'
+      Three-Star: '&fYou found a &e✰✰✰&7✰✰ &fMystery Box!'
+      Four-Star: '&fYou found a &e✰✰✰✰&7✰ &fMystery Box!'
+      Five-Star: '&fYou found a &e✰✰✰✰✰ &fMystery Box!'
+  Types:
+    Normal-Mystery-Box:
+      Name: '&aMystery Box'
+      Material: ENDER_CHEST
+      Lore:
+        Expiry-Date: '&cExpires in {EXPIRY_DATE}'
+        Never-Expired: '&7This has no expiration date.'
+        Quality:
+          One-Star:
+          - '&7This box contains one of the following:'
+          - ''
+          - '&aCommon {ITEM_ONE}'
+          - '&aCommon {ITEM_TWO}'
+          - '&aCommon {ITEM_THREE}'
+          - '&aCommon {ITEM_FOUR}'
+          - '&9Rare {ITEM_FIVE}'
+          - '&5Epic {ITEM_SIX}'
+          - '&6Legendary {ITEM_SEVEN}'
+          - ''
+          - '&7Quality: &e✰&7✰✰✰✰'
+          - '{EXPIRY_DATE}'
+          - ''
+          - '&eClick to open!'
+          Two-Star:
+          - '&7This box contains one of the following:'
+          - ''
+          - '&aCommon {ITEM_ONE}'
+          - '&aCommon {ITEM_TWO}'
+          - '&aCommon {ITEM_THREE}'
+          - '&9Rare {ITEM_FOUR}'
+          - '&9Rare {ITEM_FIVE}'
+          - '&5Epic {ITEM_SIX}'
+          - '&6Legendary {ITEM_SEVEN}'
+          - ''
+          - '&7Quality: &e✰✰&7✰✰✰'
+          - '{EXPIRY_DATE}'
+          - ''
+          - '&eClick to open!'
+          Three-Star:
+          - '&7This box contains one of the following:'
+          - ''
+          - '&aCommon {ITEM_ONE}'
+          - '&aCommon {ITEM_TWO}'
+          - '&9Rare {ITEM_THREE}'
+          - '&9Rare {ITEM_FOUR}'
+          - '&5Epic {ITEM_FIVE}'
+          - '&5Epic {ITEM_SIX}'
+          - '&6Legendary {ITEM_SEVEN}'
+          - ''
+          - '&7Quality: &e✰✰✰&7✰✰'
+          - '{EXPIRY_DATE}'
+          - ''
+          - '&eClick to open!'
+          Four-Star:
+          - '&7This box contains one of the following:'
+          - ''
+          - '&aCommon {ITEM_ONE}'
+          - '&9Rare {ITEM_TWO}'
+          - '&5Epic {ITEM_THREE}'
+          - '&5Epic {ITEM_FOUR}'
+          - '&6Legendary {ITEM_FIVE}'
+          - '&6Legendary {ITEM_SIX}'
+          - '&6Legendary {ITEM_SEVEN}'
+          - ''
+          - '&7Quality: &e✰✰✰✰&7✰'
+          - '{EXPIRY_DATE}'
+          - ''
+          - '&eClick to open!'
+          Five-Star:
+          - '&7This box contains one of the following:'
+          - ''
+          - '&9Rare {ITEM_ONE}'
+          - '&5Epic {ITEM_TWO}'
+          - '&5Epic {ITEM_THREE}'
+          - '&6Legendary {ITEM_FOUR}'
+          - '&6Legendary {ITEM_FIVE}'
+          - '&6Legendary {ITEM_SIX}'
+          - '&6Legendary {ITEM_SEVEN}'
+          - ''
+          - '&7Quality: &e✰✰✰✰✰'
+          - '{EXPIRY_DATE}'
+          - ''
+          - '&eClick to open!'
+    Gifted-Mystery-Box:
+      Name: '&dGifted Mystery Box'
+      Material: ENDER_CHEST
+      Lore:
+        One-Star:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&aCommon {ITEM_TWO}'
+        - '&aCommon {ITEM_THREE}'
+        - '&aCommon {ITEM_FOUR}'
+        - '&9Rare {ITEM_FIVE}'
+        - '&5Epic {ITEM_SIX}'''
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰&7✰✰✰✰'
+        - ''
+        - '&7You received this gift from:'
+        - '&7{SENDER}'
+        - ''
+        - '&eClick to open!'
+        Two-Star:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&aCommon {ITEM_TWO}'
+        - '&aCommon {ITEM_THREE}'
+        - '&9Rare {ITEM_FOUR}'
+        - '&9Rare {ITEM_FIVE}'
+        - '&5Epic {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰&7✰✰✰'
+        - ''
+        - '&7You received this gift from:'
+        - '&7{SENDER}'
+        - ''
+        - '&eClick to open!'
+        Three-Star:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&aCommon {ITEM_TWO}'
+        - '&9Rare {ITEM_THREE}'
+        - '&9Rare {ITEM_FOUR}'
+        - '&5Epic {ITEM_FIVE}'
+        - '&5Epic {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰✰&7✰✰'
+        - ''
+        - '&7You received this gift from:'
+        - '&7{SENDER}'
+        - ''
+        - '&eClick to open!'
+        Four-Star:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&9Rare {ITEM_TWO}'
+        - 5Epic {ITEM_THREE}
+        - '&5Epic {ITEM_FOUR}'
+        - '&6Legendary {ITEM_FIVE}'
+        - '&6Legendary {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰✰✰&7✰'
+        - ''
+        - '&7You received this gift from:'
+        - '&7{SENDER}'
+        - ''
+        - '&eClick to open!'
+        Five-Star:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&9Rare {ITEM_ONE}'
+        - '&5Epic {ITEM_TWO}'
+        - '&5Epic {ITEM_THREE}'
+        - '&6Legendary {ITEM_FOUR}'
+        - '&6Legendary {ITEM_FIVE}'
+        - '&6Legendary {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰✰✰✰'
+        - ''
+        - '&7You received this gift from:'
+        - '&7{SENDER}'
+        - ''
+        - '&eClick to open!'
+    Crafted-Mystery-Box:
+      One-Star:
+        Name: '&bCrafted Mystery Box #1'
+        Material: ENDER_CHEST
+        Lore:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&aCommon {ITEM_TWO}'
+        - '&aCommon {ITEM_THREE}'
+        - '&aCommon {ITEM_FOUR}'
+        - '&9Rare {ITEM_FIVE}'
+        - '&5Epic {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰&7✰✰✰✰'
+        - '&bCrafted on {DATE}'
+        - ''
+        - '&eClick to open!'
+      Two-Star:
+        Name: '&bCrafted Mystery Box #2'
+        Material: ENDER_CHEST
+        Lore:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&aCommon {ITEM_TWO}'
+        - '&aCommon {ITEM_THREE}'
+        - '&9Rare {ITEM_FOUR}'
+        - '&9Rare {ITEM_FIVE}'
+        - '&5Epic {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰&7✰✰✰'
+        - '&bCrafted on {DATE}'
+        - ''
+        - '&eClick to open!'
+      Three-Star:
+        Name: '&bCrafted Mystery Box #3'
+        Material: ENDER_CHEST
+        Lore:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&aCommon {ITEM_TWO}'
+        - '&9Rare {ITEM_THREE}'
+        - '&9Rare {ITEM_FOUR}'
+        - '&5Epic {ITEM_FIVE}'
+        - '&5Epic {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰✰&7✰✰'
+        - '&bCrafted on {DATE}'
+        - ''
+        - '&eClick to open!'
+      Four-Star:
+        Name: '&bCrafted Mystery Box #4'
+        Material: ENDER_CHEST
+        Lore:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&aCommon {ITEM_ONE}'
+        - '&9Rare {ITEM_TWO}'
+        - '&5Epic {ITEM_THREE}'
+        - '&5Epic {ITEM_FOUR}'
+        - '&6Legendary {ITEM_FIVE}'
+        - '&6Legendary {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰✰✰&7✰'
+        - '&bCrafted on {DATE}'
+        - ''
+        - '&eClick to open!'
+      Five-Star:
+        Name: '&bCrafted Mystery Box #5'
+        Material: ENDER_CHEST
+        Lore:
+        - '&7This box contains one of the following:'
+        - ''
+        - '&9Rare {ITEM_ONE}'
+        - '&5Epic {ITEM_TWO}'
+        - '&5Epic {ITEM_THREE}'
+        - '&6Legendary {ITEM_FOUR}'
+        - '&6Legendary {ITEM_FIVE}'
+        - '&6Legendary {ITEM_SIX}'
+        - '&6Legendary {ITEM_SEVEN}'
+        - ''
+        - '&7Quality: &e✰✰✰✰✰'
+        - '&bCrafted on {DATE}'
+        - ''
+        - '&eClick to open!'
+  JSON-Messages:
+    Found-Mystery-Box:
+      One-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰&7✰✰✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Two-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰&7✰✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Three-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰✰&7✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Four-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰✰✰&7✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Five-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰✰✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+    Found-Loot:
+      Common:
+        Name: '&aCommon {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &aCommon'
+      Rare:
+        Name: '&9Rare {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &9Rare'
+      Epic:
+        Name: '&5Epic {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &5Epic'
+      Legendary:
+        Name: '&6Legendary {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &6Legendary'

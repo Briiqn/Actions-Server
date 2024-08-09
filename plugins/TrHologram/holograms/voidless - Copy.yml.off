@@ -1,0 +1,10 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,-0.5,69.9,9.5
+contents:
+- '&e&lCLICK TO PLAY'
+- ''
+- '&bVoidless &7[1.6]'
+- ''
+- '&e&l%bw1058_group_count_Voidless_Doubles%+%bw1058_group_count_Voidless_4v4v4v4%
+  Players<update:10>'

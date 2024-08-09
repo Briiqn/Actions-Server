@@ -1,0 +1,140 @@
+PLUGIN:
+  LOADING:
+    - ''
+    - '&2Tr&aHologram &7正在载入中... &8{0}'
+    - ''
+  UN-SUPPORTED-VERSION: '&8[&2Tr&aHologram&8] &cERROR &8| &c暂时不支持你的版本 &4{0} &c, 插件停用中...'
+  ENABLED: '&8[&2Tr&aHologram&8] &bINFO &8| &3加载完毕. TrHologram &av{0} &3现已启用, 敬请使用.'
+  DISABLED: '&8[&2Tr&aHologram&8] &bINFO &8| &7感谢使用本插件, 您在论坛为本插件评分即是对作者最大的鼓励!'
+  HOOKED: '&8[&2Tr&aHologram&8] &eDEPEND &8| &7成功检测并挂钩软依赖插件 &6{0}&7...'
+  UPDATER:
+    LATEST: '&8[&2Tr&aHologram&8] &2你正在运行最新版的 &3TrHologram&a.'
+    DEV: '&8[&2Tr&aHologram&8] &6你正在运行开发版本的 TrHologram, 请及时反馈漏洞!'
+    OLD:
+      - '&8[&2Tr&aHologram&8] &b检测到有新版本 &av{0}&b, 可在此下载'
+      - '&2https://github.com/Arasple/TrHologram/releases'
+    TOO-OLD:
+      - "&8--------------------------------------------------"
+      - "&r"
+      - "&8# &4您所运行的 &cTrHologram &4版本过旧, 可能潜在很多漏洞"
+      - "&8# &4请及时更新到最新版本以便获得更好的插件体验!"
+      - "&8# &r"
+      - "&8# &4Mcbbs: &chttps://www.mcbbs.net/thread-923397-1-1.html"
+      - "&8# &r"
+      - "&8# &r"
+      - "&8# &4服务器将在 &c&l{0} secs &4后继续启动..."
+      - "&r"
+      - "&8--------------------------------------------------"
+
+ERROR:
+  VERSION: '&8[&2Tr&aHologram&8] &cERROR &8| &7检测版本号时发生异常... 关闭服务器!'
+  JS:
+    - '&8[&2Tr&aHologram&8] &cERROR &8| &c表达式计算时出错: &2{0}'
+    - '&6{1}'
+    - '&8{2}'
+
+HOLOGRAM:
+  AUTO-RELOADED: '&8[&2Tr&aHologram&8] &3RELOAD &8| &7已自动重载全息图 &2{0}&7...'
+  AUTO-RELOAD-FAILED:
+    - '&8[&2Tr&aHologram&8] &3RELOAD &8| &7自动重新全息图 &6{0} &7过程中出错, 请诊断异常...'
+    - '&8{1}'
+  LOADED-SUCCESS: '&8[&2Tr&aHologram&8] &bINFO &8| &7成功加载了 &a{0} &7个有效全息图... &8[&7{1} Ms&8]'
+  LOADED-FAILURE: '&8[&2Tr&aHologram&8] &6WARN &8| &7部分全息图加载失败, 请检测诊断错误.'
+  NOT-EXIST: '&8[&2Tr&aHologram&8] &7目标全息图不存在...'
+
+MIGRATED: '&8[&2Tr&aHologram&8] &bINFO &8| &3成功检测并导入了 &aHolographicDisplays &3的全息图总计 &a{0} &3个...'
+
+HASTEBIN:
+  PROCESSING: '&8[&2Tr&aHologram&8] &7请稍等...'
+  SUCCESS: '&8[&2Tr&aHologram&8] &3你的内容已被粘贴到 &a{0}'
+  FAILED: '&8[&2Tr&aHologram&8] &c试图粘贴到 Hastebin 过程中出错.'
+
+COMMANDS:
+  QUIT:
+    ==: TITLE
+    subtitle: '&7&l操作取消...'
+  CREATE:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&a&l创建的全息图名称'
+      subtitle: '&7&l请输入需创建的全息图名称'
+      stay: 100
+    EXISTED:
+      ==: TITLE
+      title: '&c&l创建失败'
+      subtitle: '&7&l已经存在该名称的全息图了'
+    SUCCESS:
+      ==: TITLE
+      title: '&3&l创建成功'
+      subtitle: '&7&l支持二次编辑相关属性'
+  DELETE:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&3&l删除的全息图名称'
+      subtitle: '&7&l请输入需删除的全息图名称'
+      stay: 100
+    NOT-EXIST:
+      ==: TITLE
+      title: '&c&l删除失败'
+      subtitle: '&7&l不存在该名称的全息图'
+    SUCCESS:
+      ==: TITLE
+      title: '&6&l删除成功'
+      subtitle: '&7&l已删除该全息图'
+  EDIT:
+    INPUT-NAME:
+      ==: TITLE
+      title: '&3&l编辑的全息图名称'
+      subtitle: '&7&l请输入需管理的全息图名称'
+      stay: 100
+    NOT-EXIST:
+      ==: TITLE
+      title: '&c&l编辑失败'
+      subtitle: '&7&l不存在该名称的全息图'
+    BOOK-EDIT:
+      ==: ACTION
+      text: '&3&l已给予你一本编辑书，右键打开即可编辑全息图!'
+    BOOK-EDIT-SUCCESS:
+      ==: TITLE
+      title: '&a&l成功编辑'
+      subtitle: '&7&l全息内容行已更新'
+  LIST:
+    - '&8--------------------------------------------------'
+    - '&2Tr&aHologram &7- Hologram List *&8(点击全息图名称可快速传送)'
+    - ''
+  LIST-FORMAT:
+    - '&8▫ &3{0}'
+  HELP-PAGE:
+    ==: JSON
+    text:
+      - '&8--------------------------------------------------'
+      - '&2Tr&aHologram &7- Advanced Hologram Manager &6*{0}'
+      - ''
+      - '&8▪ <&7/&2{1} Create@create> &8— &7 引导创建一个新的全息图'
+      - '&8▪ <&7/&2{1} Delete@delete> &8— &7 删除一个全息图'
+      - '&8▪ <&7/&2{1} Edit@edit> &8— &7 管理一个全息图'
+      - '&8▪ <&7/&2{1} List@list> &8— &7 列出所有全息图'
+      - '&8▪ <&7/&2{1} Reload@reload> &8— &7 重新载入所有全息图'
+      - ''
+      - '&8--------------------------------------------------'
+    args:
+      create:
+        hover: |-
+          &7点击这里引导创建一个新的全息图.
+        command: '/trhologram create'
+      delete:
+        hover: |-
+          &7点击这里引导删除一个新的全息图.
+        command: '/trhologram delete'
+      edit:
+        hover: |-
+          &7点击这里引导编辑管理一个全息图
+        command: '/trhologram edit'
+      list:
+        hover: |-
+          &7点击这里快捷执行此命令.
+        command: '/trhologram list'
+      reload:
+        hover: |-
+          &7点击这里快捷执行此命令.
+        command: '/trhologram reload'

@@ -1,0 +1,147 @@
+location: LobbyTB:-33.500:104.500:31.500
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lVictorias Permanentes'
+    height: 0.3
+  - content: '&7Todos los Modos'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_thebridge_wins_1_alltime_color%%ajlb_lb_thebridge_wins_1_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_1_alltime_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_thebridge_wins_2_alltime_color%%ajlb_lb_thebridge_wins_2_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_2_alltime_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_thebridge_wins_3_alltime_color%%ajlb_lb_thebridge_wins_3_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_3_alltime_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_thebridge_wins_4_alltime_color%%ajlb_lb_thebridge_wins_4_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_4_alltime_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_thebridge_wins_5_alltime_color%%ajlb_lb_thebridge_wins_5_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_5_alltime_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_thebridge_wins_6_alltime_color%%ajlb_lb_thebridge_wins_6_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_6_alltime_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_thebridge_wins_7_alltime_color%%ajlb_lb_thebridge_wins_7_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_7_alltime_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_thebridge_wins_8_alltime_color%%ajlb_lb_thebridge_wins_8_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_8_alltime_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_thebridge_wins_9_alltime_color%%ajlb_lb_thebridge_wins_9_alltime_name% &7-
+    &e%ajlb_lb_thebridge_wins_9_alltime_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_thebridge_wins_10_alltime_color%%ajlb_lb_thebridge_wins_10_alltime_name%
+    &7- &e%ajlb_lb_thebridge_wins_10_alltime_value%'
+    height: 0.3
+  - content: '&6&l¡Click para cambiar!'
+    height: 0.3
+  - content: '&6&lPermanente &7Mensual &7Semanal'
+    height: 0.3
+  actions: 
+    LEFT:
+    - 'PAGE:3'
+    - 'SOUND:CLICK'
+    RIGHT:
+    - 'NEXT_PAGE'
+    - 'SOUND:CLICK'
+- lines:
+  - content: '&6&lVictorias Mensuales'
+    height: 0.3
+  - content: '&7Todos los Modos'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_thebridge_wins_1_monthly_color%%ajlb_lb_thebridge_wins_1_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_1_monthly_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_thebridge_wins_2_monthly_color%%ajlb_lb_thebridge_wins_2_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_2_monthly_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_thebridge_wins_3_monthly_color%%ajlb_lb_thebridge_wins_3_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_3_monthly_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_thebridge_wins_4_monthly_color%%ajlb_lb_thebridge_wins_4_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_4_monthly_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_thebridge_wins_5_monthly_color%%ajlb_lb_thebridge_wins_5_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_5_monthly_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_thebridge_wins_6_monthly_color%%ajlb_lb_thebridge_wins_6_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_6_monthly_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_thebridge_wins_7_monthly_color%%ajlb_lb_thebridge_wins_7_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_7_monthly_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_thebridge_wins_8_monthly_color%%ajlb_lb_thebridge_wins_8_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_8_monthly_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_thebridge_wins_9_monthly_color%%ajlb_lb_thebridge_wins_9_monthly_name% &7-
+    &e%ajlb_lb_thebridge_wins_9_monthly_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_thebridge_wins_10_monthly_color%%ajlb_lb_thebridge_wins_10_monthly_name%
+    &7- &e%ajlb_lb_thebridge_wins_10_monthly_value%'
+    height: 0.3
+  - content: '&6&l¡Click para cambiar!'
+    height: 0.3
+  - content: '&7Permanente &6&lMensual &7Semanal'
+    height: 0.3
+  actions: 
+    LEFT:
+    - 'PREV_PAGE'
+    - 'SOUND:CLICK'
+    RIGHT:
+    - 'NEXT_PAGE'
+    - 'SOUND:CLICK'
+- lines:
+  - content: '&6&lVictorias Semanales'
+    height: 0.3
+  - content: '&7Todos los Modos'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_thebridge_wins_1_weekly_color%%ajlb_lb_thebridge_wins_1_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_1_weekly_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_thebridge_wins_2_weekly_color%%ajlb_lb_thebridge_wins_2_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_2_weekly_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_thebridge_wins_3_weekly_color%%ajlb_lb_thebridge_wins_3_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_3_weekly_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_thebridge_wins_4_weekly_color%%ajlb_lb_thebridge_wins_4_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_4_weekly_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_thebridge_wins_5_weekly_color%%ajlb_lb_thebridge_wins_5_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_5_weekly_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_thebridge_wins_6_weekly_color%%ajlb_lb_thebridge_wins_6_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_6_weekly_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_thebridge_wins_7_weekly_color%%ajlb_lb_thebridge_wins_7_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_7_weekly_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_thebridge_wins_8_weekly_color%%ajlb_lb_thebridge_wins_8_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_8_weekly_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_thebridge_wins_9_weekly_color%%ajlb_lb_thebridge_wins_9_weekly_name% &7-
+    &e%ajlb_lb_thebridge_wins_9_weekly_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_thebridge_wins_10_weekly_color%%ajlb_lb_thebridge_wins_10_weekly_name%
+    &7- &e%ajlb_lb_thebridge_wins_10_weekly_value%'
+    height: 0.3
+  - content: '&6&l¡Click para cambiar!'
+    height: 0.3
+  - content: '&7Permanente &7Mensual &6&lSemanal'
+    height: 0.3
+  actions: 
+    LEFT:
+    - 'PREV_PAGE'
+    - 'SOUND:CLICK'
+    RIGHT:
+    - 'PAGE:1'
+    - 'SOUND:CLICK'
+permission: lang.es

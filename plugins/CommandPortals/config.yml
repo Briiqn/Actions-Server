@@ -1,0 +1,4 @@
+# CommandPortals configuration
+Run commands delay: 0.0
+Update check: true
+Auto update: false

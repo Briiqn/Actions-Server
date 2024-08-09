@@ -1,0 +1,125 @@
+game-end:
+  sound: AMBIENCE_THUNDER
+  volume: 1
+  pitch: 1
+rejoin-denied:
+  sound: VILLAGER_NO
+  volume: 1
+  pitch: 1
+rejoin-allowed:
+  sound: SLIME_WALK
+  volume: 1
+  pitch: 1
+spectate-denied:
+  sound: VILLAGER_NO
+  volume: 1
+  pitch: 1
+spectate-allowed:
+  sound: SLIME_WALK
+  volume: 1
+  pitch: 1
+join-denied:
+  sound: VILLAGER_NO
+  volume: 1
+  pitch: 1
+join-allowed:
+  sound: SLIME_WALK
+  volume: 1
+  pitch: 1
+spectator-gui-click:
+  sound: SLIME_WALK
+  volume: 1
+  pitch: 1
+game-countdown-others:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+game-countdown-s5:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+game-countdown-s4:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+game-countdown-s3:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+game-countdown-s2:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+game-countdown-s1:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+game-countdown-start:
+  sound: SLIME_ATTACK
+  volume: 1
+  pitch: 1
+bed-destroy:
+  sound: ENDERDRAGON_GROWL
+  volume: 1
+  pitch: 1
+bed-destroy-own:
+  sound: WITHER_DEATH
+  volume: 1
+  pitch: 1
+shop-insufficient-money:
+  sound: ENDERMAN_TELEPORT
+  volume: 1
+  pitch: 1
+shop-bought:
+  sound: NOTE_PLING
+  volume: 1
+  pitch: 1
+next-event:
+  beds-destroy:
+    sound: ENDERDRAGON_GROWL
+    volume: 1
+    pitch: 1
+  diamond-II:
+    sound: LEVEL_UP
+    volume: 1
+    pitch: 1
+  diamond-III:
+    sound: LEVEL_UP
+    volume: 1
+    pitch: 1
+  emerald-II:
+    sound: LEVEL_UP
+    volume: 1
+    pitch: 1
+  emerald-III:
+    sound: LEVEL_UP
+    volume: 1
+    pitch: 1
+  dragons-spawn:
+    sound: ENDERDRAGON_WINGS
+    volume: 1
+    pitch: 1
+player-re-spawn:
+  sound: SLIME_ATTACK
+  volume: 1
+  pitch: 1
+arena-selector-open:
+  sound: CHICKEN_EGG_POP
+  volume: 1
+  pitch: 1
+stats-gui-open:
+  sound: CLICK
+  volume: 1
+  pitch: 1
+trap-sound:
+  sound: ENDERMAN_TELEPORT
+  volume: 1
+  pitch: 1
+shop-auto-equip:
+  sound: HORSE_ARMOR
+  volume: 1
+  pitch: 1
+egg-bridge-block:
+  sound: CHICKEN_EGG_POP
+  volume: 1
+  pitch: 1

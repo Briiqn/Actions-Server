@@ -1,0 +1,68 @@
+finalize: '&eParkour &c%parkour &eis ready to use.'
+start:
+- '&a&lParkour challenge started!'
+- '&aUse &e/parkour checkpoint &ato teleport to the last checkpoint or &e/parkour
+  cancel &ato cancel!'
+reset: '&a&lReset your timer to 00:00! Get to the finish line!'
+started: '&c&lYou already started different parkour.'
+point: '&a&lYou reached &e&lCheckpoint #%point_id &a&lafter &e&l%time&a&l.'
+point-record: '&7You finished this part of the parkour in &6%point_time &7and beat
+  your personal best of &7%point_best!'
+point-old: '&7You finished this part of the parkour in %point_time (personal best:
+  %point_best).'
+point-new: '&7You finished this part of the parkour in &6%point_time&7.'
+finish-new: '&a&lCongratulations on completing the parkour! You finished in &e&l%time&a&l!
+  &a&lTry again to get an even better record!'
+finish-old: '&a&lYour time of &e&l%time &a&ldid not beat your previous record of &e&l%time_best&a&l!
+  Try again to beat your old record!'
+finish-record: '&a&lThat''s a new record of &e&l%time&a&l! Try again to get an even
+  better record!'
+failed: '&c&lParkour challenge failed! You skipped a checkpoint!!'
+notify: '&a&lThis is the finish line for the parkour! Get to the start line and climb
+  back up here!'
+disabled: '&c&lThis parkour is currently disabled!'
+rubber: '&eLast checkpoint of the &c%parkour &eparkour has been erased.'
+empty: '&eFirst you have to create any point.'
+create: '&ePoint for the &c%parkour &eparkour has been successfully created.'
+cancel: '&eCreation of the parkour &c%parkour &ehas been canceled.'
+error: '&eYou have to create more checkpoints to finalize this process.'
+mode: '&eYou are already in the creating mode.'
+exist: '&eParkour &c%parkour &ealready exist.'
+not-exist: '&eParkour &c%parkour &edoesn''t exist.'
+race: '&cYou are currently not in a parkour race.'
+teleport: '&a&lTeleported you to the start of the parkour!'
+cancelled: '&c&lParkour challenge cancelled!'
+enabled: '&eFirst you have to enable parkour.'
+delete: '&eParkour &c%parkour &ehas been removed.'
+leaderboard:
+- '&eYou need to install &6Leader Balloons &efirst.'
+- ''
+- '&cYou can find it here:'
+- '&7https://www.spigotmc.org/resources/72230/'
+unknown: '&eWrong arguments! Use &6/parkour &eto see a list of commands.'
+parkour:
+- This server is using LeakParkour version %version.
+- Use /parkour help to get command list.
+permission: '&eYou don''t have permissions to use that command.'
+list:
+- '%center&e&lParkours List'
+- '&6&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+help:
+- '%center&e&lLeakParkour Help '
+- '&6&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&8/&eparkour create <name>'
+- '   &7» Use to create a new parkour.'
+- '&8/&eparkour delete <name>'
+- '   &7» Use to delete a parkour.'
+- '&8/&eparkour leaderboard <name>'
+- '   &7» Use to create a leaderboard.'
+- '&8/&eparkour list'
+- '   &7» Use to print all parkours.'
+- '&8/&eparkour checkpoint'
+- '   &7» Return to the last checkpoint.'
+- '&8/&eparkour reset'
+- '   &7» Reset current parkour.'
+- '&8/&eparkour cancel'
+- '   &7» Cancel current parkour.'
+security-command: '&c&lYou cannot execute commands while you are playing parkour!'
+security-teleport: '&c&lParkour challenge failed!'

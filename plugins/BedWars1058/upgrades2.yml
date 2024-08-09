@@ -1,0 +1,235 @@
+default-upgrades-settings:
+  menu-content:
+  - upgrade-swords,10
+  - upgrade-armor,11
+  - upgrade-miner,12
+  - base-trap-1,14
+  - base-trap-2,15
+  - base-trap-3,16
+  - upgrade-forge,19
+  - upgrade-heal-pool,20
+  - upgrade-dragon,21
+  - base-trap-4,23
+  - separator-glass,27,28,29,30,31,32,33,34,35
+  - trap-slot-first,39
+  - trap-slot-second,40
+  - trap-slot-third,41
+  trap-start-price: 1
+  trap-increment-price: 1
+  trap-currency: diamond
+  trap-queue-limit: 3
+upgrade-swords:
+  tier-1:
+    cost: 4
+    currency: diamond
+    display-item:
+      material: IRON_SWORD
+      data: 0
+      amount: 1
+      enchanted: false
+    receive:
+    - 'enchant-item: DAMAGE_ALL,1,sword'
+upgrade-armor:
+  tier-1:
+    currency: diamond
+    cost: 2
+    display-item:
+      material: IRON_CHESTPLATE
+      data: 0
+      amount: 1
+      enchanted: false
+    receive:
+    - 'enchant-item: PROTECTION_ENVIRONMENTAL,1,armor'
+  tier-2:
+    currency: diamond
+    cost: 4
+    display-item:
+      material: IRON_CHESTPLATE
+      data: 0
+      amount: 2
+      enchanted: false
+    receive:
+    - 'enchant-item: PROTECTION_ENVIRONMENTAL,2,armor'
+  tier-3:
+    currency: diamond
+    cost: 8
+    display-item:
+      material: IRON_CHESTPLATE
+      data: 0
+      amount: 3
+      enchanted: false
+    receive:
+    - 'enchant-item: PROTECTION_ENVIRONMENTAL,3,armor'
+  tier-4:
+    currency: diamond
+    cost: 16
+    display-item:
+      material: IRON_CHESTPLATE
+      data: 0
+      amount: 4
+      enchanted: false
+    receive:
+    - 'enchant-item: PROTECTION_ENVIRONMENTAL,4,armor'
+upgrade-miner:
+  tier-1:
+    currency: diamond
+    cost: 2
+    display-item:
+      material: GOLD_PICKAXE
+      data: 0
+      amount: 1
+      enchanted: false
+    receive:
+    - 'player-effect: FAST_DIGGING,1,0,team'
+  tier-2:
+    currency: diamond
+    cost: 4
+    display-item:
+      material: GOLD_PICKAXE
+      data: 0
+      amount: 2
+      enchanted: false
+    receive:
+    - 'player-effect: FAST_DIGGING,2,0,team'
+upgrade-forge:
+  tier-1:
+    currency: diamond
+    cost: 2
+    display-item:
+      material: FURNACE
+      data: 0
+      amount: 1
+      enchanted: false
+    receive:
+    - 'generator-edit: iron,0.5,1,48'
+    - 'generator-edit: gold,4,1,14'
+  tier-2:
+    currency: diamond
+    cost: 4
+    display-item:
+      material: FURNACE
+      data: 0
+      amount: 2
+      enchanted: false
+    receive:
+    - 'generator-edit: iron,0.5,2,48'
+    - 'generator-edit: gold,3,1,21'
+  tier-3:
+    currency: diamond
+    cost: 6
+    display-item:
+      material: FURNACE
+      data: 0
+      amount: 3
+      enchanted: false
+    receive:
+    - 'generator-edit: iron,1,2,64'
+    - 'generator-edit: gold,3,2,29'
+    - 'generator-edit: emerald,20,1,10'
+  tier-4:
+    currency: diamond
+    cost: 8
+    display-item:
+      material: FURNACE
+      data: 0
+      amount: 4
+      enchanted: false
+    receive:
+    - 'generator-edit: iron,1,4,120'
+    - 'generator-edit: gold,2,4,80'
+    - 'generator-edit: emerald,10,1,20'
+upgrade-heal-pool:
+  tier-1:
+    currency: diamond
+    cost: 1
+    display-item:
+      material: BEACON
+      data: 0
+      amount: 1
+      enchanted: false
+    receive:
+    - 'player-effect: REGENERATION,1,0,base'
+upgrade-dragon:
+  tier-1:
+    currency: diamond
+    cost: 5
+    display-item:
+      material: DRAGON_EGG
+      data: 0
+      amount: 1
+      enchanted: false
+    receive:
+    - 'dragon: 1'
+separator-glass:
+  on-click: ''
+  display-item:
+    material: STAINED_GLASS_PANE
+    data: 7
+    amount: 1
+    enchanted: false
+trap-slot-first:
+  trap: 1
+  display-item:
+    material: STAINED_GLASS
+    data: 8
+    amount: 1
+    enchanted: false
+trap-slot-second:
+  trap: 2
+  display-item:
+    material: STAINED_GLASS
+    data: 8
+    amount: 2
+    enchanted: false
+trap-slot-third:
+  trap: 3
+  display-item:
+    material: STAINED_GLASS
+    data: 8
+    amount: 3
+    enchanted: false
+base-trap-1:
+  display-item:
+    material: TRIPWIRE_HOOK
+    data: 0
+    amount: 1
+    enchanted: false
+  receive:
+  - 'player-effect: BLINDNESS,1,5,enemy'
+  - 'player-effect: SLOW,1,5,enemy'
+base-trap-2:
+  display-item:
+    material: FEATHER
+    data: 0
+    amount: 1
+    enchanted: false
+  receive:
+  - 'player-effect: SPEED,1,15,base'
+base-trap-3:
+  display-item:
+    material: REDSTONE_TORCH_ON
+    data: 0
+    amount: 1
+    enchanted: false
+  custom-announce: true
+  receive:
+  - 'remove-effect: INVISIBILITY,enemy'
+base-trap-4:
+  display-item:
+    material: IRON_PICKAXE
+    data: 0
+    amount: 1
+    enchanted: false
+  receive:
+  - 'player-effect: SLOW_DIGGING,1,15,enemy'
+separator-back:
+  on-click:
+    player:
+    - bw upgradesmenu
+    console:
+    - ''
+  display-item:
+    material: ARROW
+    data: 0
+    amount: 1
+    enchanted: false

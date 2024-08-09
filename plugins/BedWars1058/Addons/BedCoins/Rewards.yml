@@ -1,0 +1,13 @@
+DefaultBalance: 30
+Kill:
+  Enabled: true
+  Reward: 15
+BedDestroy:
+  Enabled: true
+  Reward: 50
+FinalKill:
+  Enabled: true
+  Reward: 50
+Win:
+  Enabled: true
+  Reward: 70

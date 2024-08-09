@@ -1,0 +1,82 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Play Bed Wars'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bw play voidless'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+doubles:
+  COMMAND: 'op: bw join Voidless_Doubles'
+  NAME: '&aVoidless Doubles'
+  LORE:
+    - '&8%bw1058_group_count_Voidless_Doubles% Players'
+    - ''
+    - '&cPlay Bed Wars Voidless Doubles'
+    - '&c'
+    - '&eClick to join the game!'
+  ID: bedrock
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+4v4v4v4:
+  COMMAND: 'op: bw join Voidless_4v4v4v4'
+  NAME: '&aVoidless 4v4v4v4'
+  LORE:
+    - '&8%bw1058_group_count_Voidless_4v4v4v4% Players'
+    - ''
+    - '&cPlay Bed Wars Voidless 4v4v4v4'
+    - '&c'
+    - '&eClick to view!'
+  ID: bedrock
+  KEEP-OPEN: true
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+close:
+  NAME: '&cClose'
+  ID: 166
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 4
+rejoin:
+  COMMAND: 'rejoin'
+  NAME: '&cClick to reconnect!'
+  LORE:
+    - '&7Click here to reconnect'
+    - '&7the game you just exited'
+    - '&7each game you have 180 seconds'
+    - 'to reconnect'
+  ID: 368
+  DATA: 5
+  POSITION-X: 9
+  POSITION-Y: 4

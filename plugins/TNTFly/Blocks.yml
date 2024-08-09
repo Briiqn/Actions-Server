@@ -1,0 +1,12 @@
+# '{&?}' means that the color will depends of the new value. If positive value it will be green, if negative, red. //!!\\Only for toggle messages.
+enabled: false
+block-list:
+- stone:0
+- wool:4
+toggle-msg: '{&?}Toggled blocks breaker.'
+addblock-msg: '&7You added a new block to the blocks breaker''s list. &eName: {BLOCK}'
+remblock-msg: '&7You removed a block from the blocks breaker''s list. &eName: {BLOCK}'
+clearblock-msg: '&7You cleared the blocks breaker''s list.'
+errorfull-msg: '&cYou can''t do that! Reason: The list is full'
+error-already-contains-msg: '&cYou can''t do that! Reason: The list already contains
+  this item.'

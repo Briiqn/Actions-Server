@@ -61,7 +61,7 @@ database:
     password: pass
     maxPoolSize: 10
     tablePrefix: sr_
-    connectionOptions: sslMode=trust&serverTimezone=UTC
+    connectionOptions: verifyServerCertificate=false&useSSL=false&serverTimezone=UTC
 
 ############
 # Commands #
@@ -99,8 +99,8 @@ commands:
     disabledSkins:
         enabled: false
         list: 
-        - steve
-        - owner
+        - Steve
+        - Owner
     # Allows the usage of per-skin permission.
     # Example: skinsrestorer.skin.xknat OR skinsrestorer.skin.Pistonmaster
     # with "skinsrestorer.ownskin" players can run /skin set %playerusername%.
@@ -140,15 +140,15 @@ gui:
     # Control custom skins in the /skins GUI
     custom:
         # Whether custom skins are enabled in the /skins GUI
-        enabled: true
+        enabled: false
         # Order of custom skins relative to the other skin types
         index: 0
         # Whether only specific custom skins are allowed in the /skins GUI
-        onlyShowList: false
+        onlyShowList: true
         # Specific custom skins to show in the /skins GUI
         list: 
         - xknat
-        - pistonmaster
+        - McLive
     # Control player skins in the /skins GUI
     players:
         # Whether player skins are enabled in the /skins GUI
@@ -190,7 +190,7 @@ storage:
         applyForPremium: false
         list: 
         - xknat
-        - pistonmaster
+        - McLive
     # <!! Warning !!>
     # Enable this will require players to run "/skin update" to update their skin.
     disallowAutoUpdateSkin: false
@@ -213,7 +213,7 @@ proxy:
         # Whether to enable the backend server command blocking feature.
         enabled: true
         # Block players from executing SkinsRestorer commands before having joined a server.
-        ifNoServerBlockCommand: true
+        ifNoServerBlockCommand: false
         # When false means servers in the list are NOT allowed to execute SkinsRestorer commands, true means ONLY servers in the list are allowed to execute SkinsRestorer commands.
         allowList: false
         # List of servers where SkinsRestorer commands are allowed/disallowed depending on the 'allowList' setting.

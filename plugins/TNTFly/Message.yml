@@ -1,0 +1,84 @@
+# If you want use: ' please set: '' Example: I''m Luca_008
+No-Perm: '&cYou don''t have permission for that !'
+TNT-effect-enable: '&aYou have enabled the effects.'
+TNT-effect-disable: '&aYou have disabled the effects.'
+TNT-block-Damage-enable: '&aYou have enabled the materials damage'
+TNT-block-Damage-disable: '&aYou have disabled the materials damage'
+TNT-drops-enable: '&aYou have enabled drops when a tnt explode'
+TNT-drops-disable: '&aYou have disabled drops when a tnt explode'
+TNT-instant-enable: '&aYou have enabled the instant tnt mode.'
+TNT-instant-disable: '&aYou have disabled the instant tnt mode.'
+TNT-instant-receive: '&aYou have received {NUMBER} of instant tnt.'
+TNT-instant-fuse-tick: '&aYou have edited the ticks for the instant-mod. New: &e{TICKS}'
+Fire-damage-enable: '&aYou have enabled the fire damage'
+Fire-damage-disable: '&aYou have disabled the fire damage'
+OnFire-interact: '&cThe fire is disabled !'
+Only-for-players: '&4Only Players in game can execute this commande, sorry :('
+TNT-not-enabled: '&4Please enable the plugin, /tnt tnt and click > &aEnable&4'
+Effect-not-enabled: '&cPlease enable the tnt effect before.'
+TNT-enable: '&aYou have enabled the plugin'
+TNT-disable: '&aYou have disabled the plugin, &4Now tnt will become tnt Vanilla'
+TNT-Successfully-Renamed: '&bTnt''s name is now: {NAME}'
+Fused-ticks-change: '&aYou have edited the ticks. New: &e{TICKS}'
+Fuzed-ticks-reset: '&aYou have reseted the ticks.'
+TNTFly-type-change: '&aYou have edited the type of the propulsion. New: &e{TYPE}'
+Cannon-power-change: '&aYou have edited the power of tnt cannons. New: &e{POWER}'
+Damage-TNT:
+  No-Damage: '&cYou have disabled TNT Damage'
+  Small-Damage: '&aYou have set: Small Damage'
+  Medium-Damage: '&aYou have set: Medium Damage'
+  Big-Damage: '&aYou have set: Big Damage'
+  One-Shot: '&4You have set: One Shot TNT'
+Damage-Fall:
+  No-Damage: '&cYou have disabled Falling Damage'
+  Small-Damage: '&aYou have set: Small Damage'
+  Medium-Damage: '&aYou have set: Medium Damage'
+  Big-Damage: '&cYou have set: Big Damage'
+  Vanilla-Damage: '&4You have set: Vanilla Damage'
+Rename-TNT:
+  line-1: '&bTnt''s name is: {NAME}'
+  line-2: '&cYou can change this with:'
+  line-3: '&a/tnt set <message>'
+  line-4: '&2You can use color code'
+TNT-effect:
+  Speed:
+    Effect-enabled: '&aYou have enabled &bspeed &aeffect'
+    Effect-disabled: '&aYou have disabled &bspeed &aeffect'
+    duration-edit: '&aYou have edited the speed duration. &bNew: &6{DURATION} seconds'
+    level-edit: '&aYou have edited the speed level. &bNew: &6{LEVEL}'
+  Nausea:
+    Effect-enabled: '&aYou have enabled nausea effect'
+    Effect-disabled: '&aYou have disabled nausea effect'
+    duration-edit: '&aYou have edited the nausea duration. &bNew: &6{DURATION} seconds'
+    level-edit: '&aYou have edited the nausea level. &bNew: &6{LEVEL}'
+  Regeneration:
+    Effect-enabled: '&aYou have enabled &dregeneration &aeffect'
+    Effect-disabled: '&aYou have disabled &dregeneration &aeffect'
+    duration-edit: '&aYou have edited the regeneration duration. &bNew: &6{DURATION}
+      seconds'
+    level-edit: '&aYou have edited the regeneration level. &bNew: &6{LEVEL}'
+  Blindness:
+    Effect-enabled: '&aYou have enabled &7blindness &aeffect'
+    Effect-disabled: '&aYou have disabled &7blindness &aeffect'
+    duration-edit: '&aYou have edited the blindness duration. &bNew: &6{DURATION}
+      seconds'
+    level-edit: '&aYou have edited the blindness level. &bNew: &6{LEVEL}'
+  Wither:
+    Effect-enabled: '&aYou have enabled &0wither &aeffect'
+    Effect-disabled: '&aYou have disabled &0wither &aeffect'
+    duration-edit: '&aYou have edited the wither duration. &bNew: &6{DURATION} seconds'
+    level-edit: '&aYou have edited the wither level. &bNew: &6{LEVEL}'
+TNT-effect-visual:
+  particle-enabled: '&aYou have enabled the particle effect! &eCurrent particle: &6{EFFECT}'
+  particle-disabled: '&aYou have disabled the particle effect!'
+  particle-effect-change: '&aYou have edited the effect! &eNew: &6{EFFECT}'
+  particle-density-change: '&aYou have edited the particle''s density! &eNew: &6{DENSITY}'
+  particle-radius-change: '&aYou have edited the particle''s radius! &eNew: &6{RADIUS}'
+  particle-distance-change: '&aYou have edited the maximum distance to see the particles!
+    &eNew: &6{DISTANCE} &eblocks!'
+TNT-effect-sound:
+  sound-enabled: '&aYou have enabled sounds! &eCurrent sound: &6{SOUND}'
+  sound-disabled: '&aYou have disabled sounds!'
+  sound-change: '&aYou have edited the sound! &eNew: &6{SOUND}'
+  sound-distance-change: '&aYou have edited the sound''s distance &eNew: &6{DISTANCE}
+    &eblocks!'

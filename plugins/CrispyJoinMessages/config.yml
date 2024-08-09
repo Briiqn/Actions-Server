@@ -1,0 +1,6 @@
+# CrispyBow's Join&Quit Messages Plugin
+# Placeholders:
+# %player% & %player displayname%
+
+Join-Message: '&e%player% &ais online&8.'
+Quit-Message: '&e%player% &cis offline&8.'

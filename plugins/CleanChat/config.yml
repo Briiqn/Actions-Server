@@ -1,0 +1,26 @@
+# Clean Chat++
+# Made to optimize your Server Chat
+# Please do not be offended by any of the
+# Curse words we used
+# DONT USE SERVER COLOR CODES
+swear-words:
+- fuck
+- dick
+- penis
+- cunt
+- kunt
+- fagg
+- faggit
+- faggot
+- fag
+- dik
+- damn
+- dammit
+- dam
+- bitch
+- shit
+prefix: Clean Chat++
+clear-self-chat-msg: You cleared your own chat!
+clear-chat-msg: You Cleared Global Chat!
+anti-swear-msg: Don't swear!
+broadcast-prefix: Broadcast >>

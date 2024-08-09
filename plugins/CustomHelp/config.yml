@@ -1,0 +1,110 @@
+#Set help-message as a list!
+#Follow the format down below!
+#Remember to Start a new message like this:
+# - "<message>"
+# ^^^^^^^^^^^^^ is very important!
+invalid-page: "/HELP"
+help-reload: "&aRELOAD!"
+no-permission: "&7You do not have permission to use this command!"
+help-message-1:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+# -------------------------------------------------------------
+# IMPORTANT!
+# -------------------------------------------------------------
+# Setting help-page-2 as true is going to let players type in 
+# /help 2. Setting this as true is going to result in sending
+# invalid-page message! (You can find this up). 
+# true = visible / true = not-visible
+# -------------------------------------------------------------
+#Enable /help 2
+help-page-2: true
+help-message-2:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+#Enable /help 3
+help-page-3: true
+help-message-3:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+#Enable /help 4
+help-page-4: true
+help-message-4:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+#Enable /help 5
+help-page-5: true
+help-message-5:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+#Enable /help 6
+help-page-6: true
+help-message-6:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+#Enable /help 7
+help-page-7: true
+help-message-7:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'
+#Enable /help 8
+help-page-8: true
+help-message-8:
+- ''
+- '&eFor questions or issues related to payments visit'
+- '&bhttps://support.hypixel.net/'
+- '&eReport server issues or bugs on the forums:'
+- '&bhttps://hypixel.net/forums/35/'
+- '&eFound a rule breaker? Report them on the forums:'
+- '&bhttps://hypixel.net/forums/37/'
+- '&eNeed more help? Check out our help section:'
+- '&bhttps://hypixel.net/forums/5/'

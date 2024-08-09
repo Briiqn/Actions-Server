@@ -1,0 +1,355 @@
+rewards:
+  message:
+    id: message1
+    slot: 12
+    type: MESSAGE
+    permission: delivery.message1
+    message: |-
+      &7
+      &eMessage with multi
+      &eline.
+    noClaimed:
+      material: PAPER
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Message Reward
+      lore:
+      - '&7Here''s your message.'
+      - '&7'
+      - <status>Click to claim!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Message Reward
+      lore:
+      - '&7You''ve already collected this'
+      - '&7reward, come back later.'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+    rewards: []
+  vote:
+    id: vote1
+    slot: 13
+    type: VOTE
+    countdown: 24
+    timeUnit: HOURS
+    permission: delivery.vote1
+    voteSite: MinecraftServers
+    message: |-
+      &aMinecraftServers:
+      &eVote in this link: &bhttps://minecraftservers.org
+    rewards:
+    - say Hello!
+    noClaimed:
+      material: MAP
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Vote Reward
+      lore:
+      - '&7Here''s your daily vote reward.'
+      - '&7'
+      - <status>Click to claim!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Vote Reward
+      lore:
+      - '&7You''ve already collected this'
+      - '&7reward, come back later.'
+      - '&7'
+      - '&7Coming Soon Reward: <cooldown>'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+  unique:
+    id: unique1
+    slot: 14
+    type: UNIQUE
+    permission: delivery.unique1
+    rewards:
+    - bw level giveXp <player> 1000
+    noClaimed:
+      material: DIAMOND
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Unique Reward
+      lore:
+      - '&7Here''s your unique reward.'
+      - '&7'
+      - <status>Click to claim!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Unique Reward
+      lore:
+      - '&7You''ve already collected this'
+      - '&7reward'
+      - '&7'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+  reward1:
+    id: reward1
+    slot: 20
+    type: NORMAL
+    countdown: 24
+    timeUnit: HOURS
+    permission: delivery.free
+    rewards:
+    - gmysteryboxes give <player> 1 1
+    noClaimed:
+      material: ENDER_CHEST
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7Your free monthly 1-Star'
+      - '&7Mystery Box for September'
+      - '&7have arrived!'
+      - ''
+      - <status>Click to loot!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7You already picked up this'
+      - '&7delivery, come back later!'
+      - ''
+      - '&7Next reward: <cooldown>'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+  reward2:
+    id: reward2
+    slot: 21
+    type: NORMAL
+    countdown: 24
+    timeUnit: HOURS
+    permission: delivery.vip
+    rewards:
+    - gmysteryboxes give <player> 5 5
+    noClaimed:
+      material: ENDER_CHEST
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7Your free monthly &b5 &7(Total of &b5&7)'
+      - '&7Mystery Box for September'
+      - '&7have arrived!'
+      - ''
+      - '&7Requieres &aVIP'
+      - ''
+      - <status>Click to loot!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7You already picked up this'
+      - '&7delivery, come back later!'
+      - ''
+      - '&7Next reward: <cooldown>'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+  reward3:
+    id: reward3
+    slot: 22
+    type: NORMAL
+    countdown: 24
+    timeUnit: HOURS
+    permission: delivery.vip+
+    rewards:
+    - gmysteryboxes give <player> 10 5
+    noClaimed:
+      material: ENDER_CHEST
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7Your free monthly &b5 &7(Total of &b10&7)'
+      - '&7Mystery Box for September'
+      - '&7have arrived!'
+      - ''
+      - '&7Requieres &aVIP&6+'
+      - ''
+      - <status>Click to loot!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7You already picked up this'
+      - '&7delivery, come back later!'
+      - ''
+      - '&7Next reward: <cooldown>'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+  reward4:
+    id: reward4
+    slot: 23
+    type: NORMAL
+    countdown: 24
+    timeUnit: HOURS
+    permission: delivery.mvp
+    rewards:
+    - gmysteryboxes give <player> 15 5
+    noClaimed:
+      material: ENDER_CHEST
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7Your free monthly &b5 &7(Total of &b15&7)'
+      - '&7Mystery Box for September'
+      - '&7have arrived!'
+      - ''
+      - '&7Requieres &a&bMVP'
+      - ''
+      - <status>Click to loot!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7You already picked up this'
+      - '&7delivery, come back later!'
+      - ''
+      - '&7Next reward: <cooldown>'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'
+  reward5:
+    id: reward5
+    slot: 24
+    type: NORMAL
+    countdown: 24
+    timeUnit: HOURS
+    permission: delivery.mvp+
+    rewards:
+    - gmysteryboxes give <player> 20 5
+    noClaimed:
+      material: ENDER_CHEST
+      data: 0
+      amount: 1
+      message: '&eYou''ve claimed the reward: <reward>'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7Your free monthly &b5 &7(Total of &b20&7)'
+      - '&7Mystery Box for September'
+      - '&7have arrived!'
+      - ''
+      - '&7Requieres &bMVP&c+'
+      - ''
+      - <status>&eClick to loot!
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    claimed:
+      material: MINECART
+      data: 0
+      amount: 1
+      message: '&cYou''ve already claimed this reward.'
+      name: <status>Mystery Box Delivery
+      lore:
+      - '&7You already picked up this'
+      - '&7delivery, come back later!'
+      - ''
+      - '&7Next reward: <cooldown>'
+      sound: LEVEL_UP
+      volume: 1
+      pitch: 1
+    fireworkExplode: false
+    noPermission:
+      sound: ANVIL_LAND
+      volume: 1
+      pitch: 1
+      message: '&cYou don''t have permission for this.'

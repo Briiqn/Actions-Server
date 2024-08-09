@@ -1,0 +1,117 @@
+location: world:-4.500:75.60:-28.500
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 10
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lLifetime Wins'
+    height: 0.3
+  - content: '&7All Modes'
+    height: 0.4
+  - content: '&e1. &f%leaderheads_name_bw1058_stats_wins_alltime_1% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_1%'  
+    height: 0.4
+  - content: '&e2. &f%leaderheads_name_bw1058_stats_wins_alltime_2% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_2%'
+    height: 0.4
+  - content: '&e3. &f%leaderheads_name_bw1058_stats_wins_alltime_3% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_3%'
+    height: 0.4
+  - content: '&e4. &f%leaderheads_name_bw1058_stats_wins_alltime_4% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_4%'
+    height: 0.4
+  - content: '&e5. &f%leaderheads_name_bw1058_stats_wins_alltime_5% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_5%'
+    height: 0.4
+  - content: '&e6. &f%leaderheads_name_bw1058_stats_wins_alltime_6% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_6%'
+    height: 0.4
+  - content: '&e7. &f%leaderheads_name_bw1058_stats_wins_alltime_7% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_7%'
+    height: 0.4
+  - content: '&e8. &f%leaderheads_name_bw1058_stats_wins_alltime_8% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_8%'
+    height: 0.4
+  - content: '&e9. &f%leaderheads_name_bw1058_stats_wins_alltime_9% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_9%'
+    height: 0.4
+  - content: '&e10. &f%leaderheads_name_bw1058_stats_wins_alltime_10% &7- &e%leaderheads_value_bw1058_stats_wins_alltime_10%'
+    height: 0.4
+  - content: '&6&lClick to change!'
+    height: 0.3
+  - content: '&a&lLifetime &7Weekly &7Daily'
+    height: 0.3
+  actions: 
+    LEFT:
+    - 'NEXT_PAGE'
+    - 'SOUND:CLICK'
+    RIGHT:
+    - 'NEXT_PAGE'
+    - 'SOUND:CLICK'
+- lines:
+  - content: '&b&lWeekly Wins'
+    height: 0.3
+  - content: '&7All Modes'
+    height: 0.4
+  - content: '&e1. &f%leaderheads_name_bw1058_stats_wins_weekly_1% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_1%'
+    height: 0.4
+  - content: '&e2. &f%leaderheads_name_bw1058_stats_wins_weekly_2% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_2%'
+    height: 0.4
+  - content: '&e3. &f%leaderheads_name_bw1058_stats_wins_weekly_3% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_3%'
+    height: 0.4
+  - content: '&e4. &f%leaderheads_name_bw1058_stats_wins_weekly_4% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_4%'
+    height: 0.4
+  - content: '&e5. &f%leaderheads_name_bw1058_stats_wins_weekly_5% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_5%'
+    height: 0.4
+  - content: '&e6. &f%leaderheads_name_bw1058_stats_wins_weekly_6% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_6%'
+    height: 0.4
+  - content: '&e7. &f%leaderheads_name_bw1058_stats_wins_weekly_7% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_7%'
+    height: 0.4
+  - content: '&e8. &f%leaderheads_name_bw1058_stats_wins_weekly_8% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_8%'
+    height: 0.4
+  - content: '&e9. &f%leaderheads_name_bw1058_stats_wins_weekly_9% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_9%'
+    height: 0.4
+  - content: '&e10. &f%leaderheads_name_bw1058_stats_wins_weekly_10% &7- &e%leaderheads_value_bw1058_stats_wins_weekly_10%'
+    height: 0.4
+  - content: '&6&lClick to change!'
+    height: 0.3
+  - content: '&7Lifetime &a&lWeekly &7Daily'
+    height: 0.3
+  actions: 
+    LEFT:
+    - 'NEXT_PAGE'
+    - 'SOUND:CLICK'
+    RIGHT:
+    - 'NEXT_PAGE'
+    - 'SOUND:CLICK'
+- lines:
+  - content: '&b&lDaily Wins'
+    height: 0.3
+  - content: '&7All Modes'
+    height: 0.4
+  - content: '&e1. &f%leaderheads_name_bw1058_stats_wins_daily_1% &7- &e%leaderheads_value_bw1058_stats_wins_daily_1%'
+    height: 0.4
+  - content: '&e2. &f%leaderheads_name_bw1058_stats_wins_daily_2% &7- &e%leaderheads_value_bw1058_stats_wins_daily_2%'
+    height: 0.4
+  - content: '&e3. &f%leaderheads_name_bw1058_stats_wins_daily_3% &7- &e%leaderheads_value_bw1058_stats_wins_daily_3%'
+    height: 0.4
+  - content: '&e4. &f%leaderheads_name_bw1058_stats_wins_daily_4% &7- &e%leaderheads_value_bw1058_stats_wins_daily_4%'
+    height: 0.4
+  - content: '&e5. &f%leaderheads_name_bw1058_stats_wins_daily_5% &7- &e%leaderheads_value_bw1058_stats_wins_daily_5%'
+    height: 0.4
+  - content: '&e6. &f%leaderheads_name_bw1058_stats_wins_daily_6% &7- &e%leaderheads_value_bw1058_stats_wins_daily_6%'
+    height: 0.4
+  - content: '&e7. &f%leaderheads_name_bw1058_stats_wins_daily_7% &7- &e%leaderheads_value_bw1058_stats_wins_daily_7%'
+    height: 0.4
+  - content: '&e8. &f%leaderheads_name_bw1058_stats_wins_daily_8% &7- &e%leaderheads_value_bw1058_stats_wins_daily_8%'
+    height: 0.4
+  - content: '&e9. &f%leaderheads_name_bw1058_stats_wins_daily_9% &7- &e%leaderheads_value_bw1058_stats_wins_daily_9%'
+    height: 0.4
+  - content: '&e10. &f%leaderheads_name_bw1058_stats_wins_daily_10% &7- &e%leaderheads_value_bw1058_stats_wins_daily_10%'
+    height: 0.4
+  - content: '&6&lClick to change!'
+    height: 0.3
+  - content: '&7Lifetime &7Weekly &a&lDaily'
+    height: 0.3
+  actions: 
+    LEFT:
+    - 'PAGE:1'
+    - 'SOUND:CLICK'
+    RIGHT:
+    - 'PAGE:1'
+    - 'SOUND:CLICK'
+permission: lang.en

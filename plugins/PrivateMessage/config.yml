@@ -1,0 +1,34 @@
+# Plugin: PrivateMessage
+# Author: Asterix06
+# Version: 1.3
+# Discord (follow news & report issues): https://discord.gg/srF35p9
+# Support me here: https://streamlabs.com/theasterix06/
+
+privateMessages:
+  messages:
+    sendMessage: "&2To &a%recipient%&f: %message%"
+    fromMessage: "&2From &a%sender%&f: %message%"
+  errors:
+    messageYourself: "&cFriend! You cannot send messages to yourself."
+    playerOffline: "&cSorry, %player% is offline!"
+    noMessage: "&cPlease add a message. Use: &o/%command% %player% <content>"
+    noRecipient: "&cUse: &o/%command% <player> <content>"
+    replyNoMessage: "&cPlease add a message. Use: &o/%command% <content>"
+    replyFailed: "&cSorry but the player is offline or you never sent him a message."
+    replyFailedConsole: "&cYou are not a player."
+
+socialspy:
+  messages:
+    fromOtherPlayers: "&2From &a%sender%&2 to &a%recipient%&2: &a%message%"
+    enabled: "&7SocialSpy &aenabled&7."
+    disabled: "&7SocialSpy &cdisabled&7."
+  errors:
+    alreadyEnabled: "&cSocialspy is already enabled."
+    alreadyDisabled: "&cSocialspy is not enabled."
+    consoleIsNotAllowed: "&cSorry but the console cannot use this feature (because you already see everything :D)."
+  help:
+    usage: "&cUse: &o/%command% <on/off>"
+    infoON: "&7Info: socialspy is &aON&7."
+    infoOFF: "&7Info: socialspy is &cOFF&7."
+
+configReloaded: "&aRELOAD!"

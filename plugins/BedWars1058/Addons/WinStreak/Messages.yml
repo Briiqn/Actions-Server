@@ -1,0 +1,29 @@
+Addon:
+  NotPlayer: '&cCommands can''t be run from the console!'
+  NotOnline: '%target% &7is not online!'
+  NotEnough: '%target% &7doesn''t have enough streaks!'
+  NotNumber: '%value% &7is not a number!'
+  Reloaded: '&7Win Streak addon was reloaded successfully!'
+Commands:
+  AvailableCommands:
+  - '&7Available commands:'
+  - '&f/bw streak add <Player> <Amount>'
+  - '&f/bw streak remove <Player> <Amount>'
+  - '&f/bw streak set <Player> <Amount>'
+  - '&f/bw streak reset <Player>'
+  - '&f/bw streak reload'
+  AddStreak:
+    Usage: '&7Usage: &f/Bw Streak Add <Player> <Amount>'
+    Executed: '&7You added %streaks% Streaks to %target%. Now %target% has %pstreaks%
+      Win Streaks'
+  RemoveStreak:
+    Usage: '&7Usage: &f/Bw Streak Remove <Player> <Amount>'
+    Executed: '&7You removed %streaks% Streaks from %target%. Now %target% has %pstreaks%
+      Win Streaks'
+  SetStreak:
+    Usage: '&7Usage: &f/Bw Streak Set <Player> <Amount>'
+    Executed: '&7Now %target% has %streaks% Win Streaks'
+  ResetStreak:
+    Usage: '&7Usage: &f/Bw Streak Reset <Player>'
+    Executed: '&7You''ve reseted %target% win streaks'
+  PlayerStreak: '&7Your streaks: %streaks%'

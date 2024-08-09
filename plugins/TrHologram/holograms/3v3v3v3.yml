@@ -1,0 +1,9 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,3.5,69.9,-2.5
+contents:
+- '&e&lCLICK TO PLAY'
+- ''
+- '&b3v3v3v3 &7[1.6]'
+- ''
+- '&e&l%bw1058_group_count_3v3v3v3% Players<update:10>'

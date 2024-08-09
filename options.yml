@@ -1,0 +1,83 @@
+# This is the main configuration file for the ySpigot.
+# Modify with extreme caution, and make sure you know what you are doing.
+# Made by Mael
+# Support Discord Server - https://discord.gg/PTrhTN
+options:
+  license:
+    key: LICENSE_KEY_HERE
+  events:
+    enablelavatocobble: true
+    infinite-water-sources: true
+    fire-player-move-event: true
+    leaves-decay-event: true
+    block-operations: false
+    enable-entity-activation: false
+    endermite-spawning: true
+  physics:
+    disable-physics-on-place: false
+    disable-physics-update: false
+  mobs:
+    enable-mob-ai: true
+    enable-mob-sound: false
+  chunk:
+    do-chunk-unload: false
+  tab:
+    hidden-players-in-tab: true
+    complete-hidden: true
+    complete-plugins: true
+  pearl:
+    taliban-pearl: false
+    pearl-through-string: false
+    pearl-through-fence-gate: true
+    pearl-through-cobweb: false
+    pearl-through-slab: false
+  thread:
+    thread-tps: 60
+    netty-threads: 5
+  async:
+    hit-detection: true
+    knockback: true
+  commands:
+    permissions:
+      message: '&cI''m sorry, but you do not have permission to perform this command.
+        Please contact the server administrators if you believe that this is in error.'
+    ping:
+      enabled: true
+      message:
+        not_online: '&cPlayer ''%player%'' is not online !'
+        ping_other_player: '&f%player%''s Ping: &b%player_ping%MS'
+        ping_you: '&fPing: &b%player_ping%MS'
+    plugin:
+      enabled_custom_message: true
+      custom_message: '&fPlugins %list%'
+      command-public: true
+    version:
+      command-public: true
+    tps:
+      command-public: false
+      message:
+        tps-message:
+        - '&8&m------------------------------'
+        - "&7Memory &f\xc2\xbb &c%used_ram%MB&7/&c%total_ram%MB &8(&c%free_ram%MB\
+          \ free&8)"
+        - "&7Uptime &f\xc2\xbb &c%uptime%"
+        - "&7TPS 1m, 5m, 15m &f\xc2\xbb &c%list_tps%"
+        - "&7Current Server Lag &f\xc2\xbb &8(&c%current_tps%&8) &c%bar%"
+        - "&7Total Server Load &f\xc2\xbb &c%server_load%"
+        - "&7Minecraft Scheduler Load &f\xc2\xbb &c%minecraft_scheduler_load%"
+        - "&7Bukkit Scheduler Load &f\xc2\xbb &c%bukkit_scheduler_load%"
+        - "&7Connection Load &f\xc2\xbb &c%connection_load%"
+        - "&7Total Tickable Load &f\xc2\xbb &c%tickable_load%"
+        - "&7ChunkIO Load &f\xc2\xbb &c%chunkio_load%"
+        - '&8&m------------------------------'
+  tnt:
+    fix-east-west-cannons: true
+    optimize-tnt: true
+    optimize-tnt-movement: true
+    optimize-liquid-explosions: true
+  tcp-no-delay: true
+  attack-cancel-sprint: false
+  max-display-name-length: 16
+  hide-ips: false
+  blocked-protocols: []
+  yspigotcrossversion: true

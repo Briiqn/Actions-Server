@@ -1,0 +1,243 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 13
+npc:
+  '0':
+    name: "\xc2\xa78"
+    uuid: 560aaa7b-b436-4088-9ba1-9916d42a0b8e
+    traits:
+      location:
+        world: world
+        x: '-8.5'
+        y: '67.0'
+        z: '10.5'
+        yaw: '126.1501'
+        pitch: '0.0'
+      inventory: {}
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,type,location,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: false
+  '5':
+    name: 4v4v4v4
+    uuid: 5568d34b-a218-40a5-b219-0ad7d4c79cb1
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '1.653'
+        y: '68.0'
+        z: '6.4934'
+        yaw: '106.3588'
+        pitch: '0.0'
+      type: PLAYER
+      inventory: {}
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      gravity:
+        enabled: false
+      scoreboardtrait: {}
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: lookclose,mounttrait,inventory,gravity,type,location,equipment,scoreboardtrait,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzM2Nzk5OTE4MiwKICAicHJvZmlsZUlkIiA6ICJlYzcwYmNhZjcwMmY0YmI4YjQ4ZDI3NmZhNTJhNzgwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTkzZjZmYzQwNDg4ZjE4NzdjZGE5NGE4MzBiNTRlOWY2ZjU0YWI1OGE1NDUzYmFkNWM5NDc3MjZkZDFmNDczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: dream
+      cached-skin-uuid: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+      player-skin-name: dream
+      player-skin-signature: Nn1JxPCENZE8TDtlhEZA+vOUUAZRskbrW58LHDXAzmkSVKVh8gFnSY9EgL6y62+ACL6xZXsUSdIaVmSjw7TF5WbroVsktLcZ0MGJrZECd/V6Zl/ZDq+KTCw8cM+Ky403acWQy2/CnNxalkrsqfMFqL0tfsOpVxVJ7NcrlwaxG+qC5KrLVlHeVlAaiLqs2F2wlobwTjpWsHSGWvTlDrnnDihLEyxE/LtVcAxQQHK7ccpfF03bFpne/nFlm7IZGrzBDdPdmNRC6rVEYClQi40BtLDdTBJkcSqSL/Eazaes5aem4S9CKr37+1rliQ2eNCQV5gyO9jaau2lJwlwrmqk76OW2ebaAcrBFzAW65ncJxMV8SZHx2jXDgvR4uXm8b6Of4pVkX7Rvr3ClNqeop1IuMe6lSxOUVaHcSOQe0GPkaWyFJJ5Fwx21hv0MAshHh8Fw+UDGEa7thbJ9SwpzKeGfH6NJNZ5CsBHoP4hyq0/x4o33k+aAa2unncxux6Pe+R0pSEmqBWC+6C60nlnVOTgHcQ/qAEStPejjHdkJhbeCcEfPXQMLb4b4UhOrACRXZ40y4FPfhGRlhv+8KixNbCyTVaaFJp7GWGggyupW3aASEBTHEfit4gAAP4A7kQQsl90yJTuskrC/AIeKZ+eOVb+dPPJZJfOfsKt2B2A9MCjH5MY=
+  '4':
+    name: 3v3v3v3
+    uuid: 09466da5-f29b-40a3-bb80-fc0287addff2
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '3.5413'
+        y: '68.0'
+        z: '3.4561'
+        yaw: '89.8283'
+        pitch: '0.0'
+      type: PLAYER
+      inventory: {}
+      gravity:
+        enabled: false
+      scoreboardtrait: {}
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,gravity,type,location,equipment,scoreboardtrait,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzM2NzkwNzk2NywKICAicHJvZmlsZUlkIiA6ICI4ZTE3NmM1YWMyNmQ0YzE0OGVmZTc3YjU5OGI4YjNlYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2VwcHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2IxNjA5NDdhMzFkYzVhNTBlMThiYzZkMTQxODAwZmVjYWE0NWUzOTMxZDY5ZGY0NDhjOTIzMmI5ZGNhODciCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: skeppy
+      cached-skin-uuid: 8e176c5a-c26d-4c14-8efe-77b598b8b3ea
+      player-skin-name: skeppy
+      player-skin-signature: LPZRIHb7tCl35b8qUWqDF8hb/W8D5XJYXw/xhuFwpo2ElNzhZoE/e/6JBY3rfg1qnjnBtwb34UKGLJLkJssjIB5TO3qQriZOam1Nz+/65UNmFxo28kSfz7Pfvu2/wrZnRxEEW27bIcwcSXO40xL9S5GQVvF0egZE1XmVEIOSgCwqE1vT9YDBMcFClg3kesNL2hBYQTBfKjpoqosM7cN/5yw7g+gNgQD4i3O+67Y5tysnoF5xW4FCDSB8+zBS2/s6VT2sAK57H+hpwi2AioiXNIDFrf2j4aS3RE6n/TPV1850wSwYAOYl44bQ5Vr/trKmjoqjiuLTDjoVE7U8PyMGFExnXym3ONMYiOTrk3A46YHDp9bsG3/C5CS7+cTQsdScj9SgFSUakWxAKeP24GutSuAS+/vdNgxh65ROMWKD/ZmnRufzDgy2EaQiieWTl6G57ogPK7SzCUPuJspetcs/HFfz08KfVQxWaTVL0s+rEXaJzcjHARjpivwaKXUJBRxAGr/2bf47E1GJrjpM0lgdiU62XWMyH6z77u5ABxoxLl2IiDwr2GGh6ROnLV7TWLEOCkt9kbYhL92zbSFzuyzx14EWt2DTkUW44FX1cFYRmlOwu4T0NZtE2wtsheXkNjWzFnUAqgvxfL9+BIc2XW0Sk42YAOz1Ew4jpScLP/0NDuc=
+  '3':
+    name: Doubles
+    uuid: f1268c62-4d46-4c15-a69b-711239e1ba88
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '3.6097'
+        y: '68.0'
+        z: '-2.4895'
+        yaw: '89.6185'
+        pitch: '0.0'
+      type: PLAYER
+      inventory: {}
+      gravity:
+        enabled: false
+      scoreboardtrait: {}
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,gravity,type,location,equipment,scoreboardtrait,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzM2Nzg4MTE1MSwKICAicHJvZmlsZUlkIiA6ICJiODc2ZWMzMmUzOTY0NzZiYTExNTg0MzhkODNjNjdkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWNobm9ibGFkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MzEwZTk1OGFlNzQ0Y2ZiNzM5ODc1NGYwOTU2MDA3Y2NhMWFjZWE1YmFjMWI0NzE2OWZiMjA2YWYzN2Y4ZTUyIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: technoblade
+      cached-skin-uuid: b876ec32-e396-476b-a115-8438d83c67d4
+      player-skin-name: technoblade
+      player-skin-signature: K4hJdkX+gHfm3r726w+LobuVf3oDG42EwRRyIIZ122iwn3CwVcirtrZIV/C9g56GeRt++6iGAvK/pOigkcdcj92pTW7VaONVmRAG4zmZwDLM0UlY3b1GVnOUv+sFaE4OkD8qTC0lC9ZV84jvjst3CnrZm820RwYkuhznEGTUMA199d/P5aeNCvT5y2fHWFR2yEVZEPC7FRvEfGRlGjjmv0R7InM+HDyEremzIQ+87Y0g9t0Ek+QZW8m6Oa6lqC5vQqT5SKetR/pO6isus4/xRZ2Xu32Fa+NY8BbGOQZh8KdYcpTlL/2iPMNZkcWhrH6+1KCXiFwuChbXHtudrD9BpfmoC0/sbydwZPIrrQsMgsYmTv3Tp1i6dV3Fi5j2ATD6fXaZjE96i3Wi2dEB8kugZ9jCbzRHo+RPVf01o7R/IlG4ivoYjq7o4+WuL+p8FEJp2X3aTBa3MEUZAk65myUSlMSQwcAgcVX8gZ922v/Ht2FHpvpbDJBP12fy7ZYXJa18WKc6mybnOGMfRJGX9WDdK96Y8s3YNv1jvugNA7Qp2LUdikBVBoWLcUuVC42v9FBbU15/Hszo9wQPUvC2ddDW2gtsCR3nN4O1fYwusV5Zam1GuGB9+hPLtoUDYZVkHPj6xNWgJuIVH+wxywvDHzzsxYkb9G3ESny4aQGMZfH2+mU=
+  '2':
+    name: Solo
+    uuid: 137fd68e-15e0-465f-9af4-bae0cbb38afa
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '1.5425'
+        y: '68.0'
+        z: '-5.554'
+        yaw: '90.1425'
+        pitch: '0.0'
+      type: PLAYER
+      inventory: {}
+      gravity:
+        enabled: false
+      scoreboardtrait: {}
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,gravity,type,location,equipment,scoreboardtrait,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzM2Nzg2NTk2MSwKICAicHJvZmlsZUlkIiA6ICIxMjE4Y2RmMzUyYmQ0ZTE4YmEyNGQ0YjIwMmVjODVmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdXJwbGVkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4NjcyOWZjZjNjMzM0YTA3Njg0YmViZWQ0YzljZjdiNTcwMDNmZmJjZmU3MzgyYTM5N2NlMDM2NTNmOGFhZTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: purpled
+      cached-skin-uuid: 1218cdf3-52bd-4e18-ba24-d4b202ec85f3
+      player-skin-name: purpled
+      player-skin-signature: ZYa3iQiYC+nBv5geKxaXMkR03tm3ifi1+BlO2UU3SZNIwk5PaJgNmBU+AVAISQC8fP3Am14h9vh7dKlHSBMxWZj2pKrCHDrJ41BBp4E8yDlALtswQDzYxgZESibl65qnzdxjQKzMHIorJjB9HbzHUuB9nAI9ulHrEUsRwXDThkrAuexro5Ns+1g8aQ4eExhdujLZG4DIvReovA2nnKJGS+5JkWvF1K1K8d+iwz9I1BbQgVGhBv0FP3tVgpWoNbPBqQBPyDAUTu/CUTlnJpnsPwUpo0r4eluwsgord+DOjXKJ0dp71NVZxPVIBEsTWfuRWKUi8KMgo94GaLR5E4X16BAxliWg3qsJhZQfFPoU3ZNwzjMf4fwxno4ThzWvfhojZJXJ0kJHA6DP6a3fM+MPz5VijIJvRk+exBrwu7TrupSvD2oinqDBoRZ2xv/9efDK46Nl/YrT+ap3XnEH4wMNOyhgp1XDT8P2sadbdedNq5UDbsGDOGZaRX16rPEyvuPfQtrhIi97j9GVrgqOBD+DpyeFUV8U6I78AueLXxSQ1D6BFgAxufxOKeSV9DVO7CzYhKS/r/CxIownNLewdL66c9pyiKeF736x/AQVd9z0BE6WBtdQ8F2ynp3f0j3WKc1a/+WGWQSZmqYDvUAT1ePelPnkgg1vgBKzEv5anzsUSe0=
+      nameplate-visible: 'true'
+  '1':
+    metadata:
+      nameplate-visible: false
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzUzNzYwMTAzNSwKICAicHJvZmlsZUlkIiA6ICIyNmJkZmYzN2ZlYzg0OGYxOTgwZjY2YmY2OWVlNzUxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCYWRCb3lIYWxvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5NWRiOGQ4MDU0YTUxMTRhMGNhYjg1NmNlMDk3NjNjMWM1OWVlODlhOGNiNGU5ZDkxZGQ3Y2FkOGJiM2I5NmUiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1M2IxYTBkZmNiYWU5NTNjZGViNmYyYzJiZjZiZjc5OTQzMjM5YjEzNzI3ODBkYTQ0YmNiYjI5MjczMTMxZGEiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: badboyhalo
+      cached-skin-uuid: 26bdff37-fec8-48f1-980f-66bf69ee751c
+      player-skin-name: badboyhalo
+      player-skin-signature: aEo838VIx0Tu+2adohSaXAUwRdqo0kHfZhocwiTSbhSu0mmkHHQ4dPJAYXLrmpvmotKbYYP9+4oqqYIbSX1nNyMehMMHOzlo+21TUkoQ9J1u1e1naAAUSIdrFPdUl/++OMPuu1pH0PCBl/BZh8Kr9pbOFN59Cq4F58q3QBXvHWhx6wuNuNxnCi6zay0330/7lQ+vgjWc4XnzK1KKLHuKLrPZwN6WWmX1SI/QJzWmBYegTiu/hIdd4ri1tki+ZEEhUgRWS34FYmpHLXrBhwEXPcbITor27ujfCUsmGUuJutRAm3Jr7HBBth1muEJpir3WbRsqDt6FaFx+fYL9vymAKkWk8s0MGW9mDpLJIjVlArH6k3CEwD2MjHvj0C5zSotY/qdFCfkYTNzAHX5J0K+BsHsgBrGkUCNnULuutv/xs8iEG8vPFfiek7d5FhlBhcrKIrvCm6UXQlgkHVBJInGc4rzlZ5lHKulCS3PFNOmuuDBHZJPJ5lFOWM4mjwqpgrGOLEF2V4VHJH7Fbupss5Cr36cJoWbqVewl2ezM+bvrklq3lYFRSnyZ4JxUkTkKOexT7Nmb/hS7MnbnTmgDTUtOs9KnkmPGWAtIIaSFylr8asHYyXzHSn/D7nAtYOVmiuIMWav81az/ylWizliVO9AzCnBkjfRb+sP3hZCGVmusqrU=
+    name: "\xc2\xa77"
+    uuid: 122974cc-c88d-4799-94cf-dca7e076f9ef
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '2.5'
+        y: '67.0'
+        z: '-13.5'
+        yaw: '61.3324'
+        pitch: '0.0'
+      type: PLAYER
+      inventory: {}
+      scoreboardtrait: {}
+      gravity:
+        enabled: false
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,gravity,type,location,equipment,scoreboardtrait,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: "\xc2\xa76"
+    uuid: ae2cae0d-ef0b-4915-a2ec-537050841d4c
+    traits:
+      location:
+        world: world
+        x: '13.5384'
+        y: '69.0625'
+        z: '17.5262'
+        yaw: '-180.1145'
+        pitch: '0.0'
+      type: BLAZE
+      spawned: true
+      inventory: {}
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,type,location,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      nameplate-visible: false
+    name: "\xc2\xa77"
+    uuid: b5931f41-4498-4fd5-ad9d-b08a6ee5fbee
+    traits:
+      location:
+        world: world
+        x: '-5.5'
+        y: '67.0'
+        z: '-5.5'
+        yaw: '75.5819'
+        pitch: '0.0'
+      inventory: {}
+      spawned: true
+      type: CREEPER
+      owner:
+        owner: MiniFlexJAV
+        uuid: 3d482406-7d31-3611-bc19-a6116a17484a
+    traitnames: mounttrait,inventory,type,location,spawned,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

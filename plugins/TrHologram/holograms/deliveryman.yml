@@ -1,0 +1,8 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,-5.5,68.8,-5.5
+contents:
+- '%randomcolor_selected_c,f%%udm_rewards% Rewards!<update:5>'
+- ''
+- '&bThe Delivery Man'
+- '&e&lRIGHT CLICK'

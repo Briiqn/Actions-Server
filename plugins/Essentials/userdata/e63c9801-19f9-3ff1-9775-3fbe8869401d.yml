@@ -1,0 +1,23 @@
+lastAccountName: Mad_Pickaxe
+timestamps:
+  login: 1668304624654
+  lastteleport: 1612224320718
+  logout: 1654909700934
+ipAddress: 127.0.0.1
+lastlocation:
+  world: amazon
+  x: -30.899131675452455
+  y: 65.11511073758629
+  z: -74.72088734568173
+  yaw: -34.7666
+  pitch: 16.988417
+logoutlocation:
+  world: world
+  x: -6.111963725359448
+  y: 68.5
+  z: -20.64616581942692
+  yaw: -101.62771
+  pitch: 24.07219
+nickname: Mad_Pickaxe
+afk: false
+money: '45.0'

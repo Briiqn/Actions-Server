@@ -1,0 +1,35 @@
+viewDistance: '30'
+viewCondition: 'null'
+location: world,-10.5,74.3,-28.5
+contents:
+- '&b&lBed Wars Levels'
+- ''
+- '&e1. &f%leaderheads_name_bw1058_player_level_raw_alltime_1% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_1%
+  <update:10>'
+- ''
+- '&e2. &f%leaderheads_name_bw1058_player_level_raw_alltime_2% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_2%
+  <update:10>'
+- ''
+- '&e3. &f%leaderheads_name_bw1058_player_level_raw_alltime_3% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_3%
+  <update:10>'
+- ''
+- '&e4. &f%leaderheads_name_bw1058_player_level_raw_alltime_4% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_4%
+  <update:10>'
+- ''
+- '&e5. &f%leaderheads_name_bw1058_player_level_raw_alltime_5% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_5%
+  <update:10>'
+- ''
+- '&e6. &f%leaderheads_name_bw1058_player_level_raw_alltime_6% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_6%
+  <update:10>'
+- ''
+- '&e7. &f%leaderheads_name_bw1058_player_level_raw_alltime_7% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_7%
+  <update:10>'
+- ''
+- '&e8. &f%leaderheads_name_bw1058_player_level_raw_alltime_8% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_8%
+  <update:10>'
+- ''
+- '&e9 &f%leaderheads_name_bw1058_player_level_raw_alltime_9% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_9%
+  <update:10>'
+- ''
+- '&e10 &f%leaderheads_name_bw1058_player_level_raw_alltime_10% &7- &e%leaderheads_value_bw1058_player_level_raw_alltime_10%
+  <update:10>'

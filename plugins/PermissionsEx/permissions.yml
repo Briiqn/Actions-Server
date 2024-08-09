@@ -1,0 +1,247 @@
+groups:
+  Default:
+    options:
+      default: true
+      prefix: '&7'
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - mycommand.command.hub
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.animations.*
+    - interactivebooks.open.1
+    - Mik1313.giftcode.use
+    - msg.sendmessage
+    - msg.console
+    - sign.selector
+    - delivery.vote1
+    - delivery.unique1
+    - delivery.free
+    - chestcommands.open.*.yml
+    - chestcommands.command.open
+    - bw.shout
+  VIP:
+    permissions:
+    - bw.vip
+    - vipfeatures.open.maingui
+    - vipfeatures.open.trails
+    - vipfeatures.open.spells
+    - vipfeatures.open.particles
+    - vipfeatures.open.boosters
+    - vipfeatures.trails.fire
+    - vipfeatures.trails.slime
+    - vipfeatures.trails.water
+    - vipfeatures.trails.notes
+    - vipfeatures.trails.crystal
+    - vipfeatures.particles.spiral
+    - vipfeatures.particles.angryvillager
+    - vipfeatures.particles.doublewitch
+    - vipfeatures.particles.notes
+    - vipfeatures.particles.magic
+    - vipfeatures.particles.happyvillager
+    - vipfeatures.boosters.x2
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.vip
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+        - no.hunger
+    options:
+      rank: '6501'
+      prefix: '&a[VIP] '
+    inheritance:
+    - Default
+  VIP+:
+    permissions:
+    - vipfeatures.boosters.x2
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.vip+
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+        - no.hunger
+    options:
+      rank: '650'
+      prefix: '&a[VIP&6+&a] '
+    inheritance:
+    - Default
+    - VIP
+  MVP:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    permissions:
+    - vipfeatures.boosters.x3
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.mvp
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+        - no.hunger
+    options:
+      rank: '651'
+      prefix: '&b[MVP] '
+  MVP+:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.mvp+
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+        - no.hunger
+    options:
+      prefix: '&b[MVP&c+&b] '
+  MVP++:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - vipfeatures.spells.explosive
+    - vipfeatures.spells.fire
+    - vipfeatures.spells.web
+    - vipfeatures.spells.zombie
+    - vipfeatures.spells.poison
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - chatexpressions.useall
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+        - no.hunger
+    options:
+      prefix: '&6[MVP&c++&6] '
+  ADMIN:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    - MVP++
+    permissions:
+    - chatexpressions.reload
+    - chatexpressions.useall
+    - fawe.admin
+    - cc.clear
+    - StaffChat.use
+    - broadcast.2
+    - simplekaboom.command.admin
+    - gadgetsmenu.cosmetics.*
+    - Mik1313.giftcode.add
+    - Mik1313.giftcode.del
+    - essentials.*
+    - vanish.use
+    - vanish.other
+    - vanish.list
+    - vanish.silentchest
+    - litebans.ban
+    - litebans.tempban
+    - litebans.ipban
+    - litebans.unban.own
+    - litebans.unban
+    - litebans.mute
+    - litebans.tempmute
+    - litebans.ipmute
+    - litebans.unmute.own
+    - litebans.warn
+    - litebans.unwarn.own
+    - litebans.unwarn
+    - litebans.kick
+    - litebans.kick.global
+    - litebans.history
+    - litebans.staffhistory
+    - litebans.banlist
+    - litebans.warnings
+    - litebans.dupeip
+    - litebans.ipreport
+    - litebans.geoip
+    - litebans.checkban
+    - litebans.checkmute
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.mutechat
+    - litebans.lastuuid
+    - admin.color
+    - multiverse.*
+    - multiverse.access.*
+    - worldedit.*
+    - worldguard.*
+    - skinsrestorer.cmds
+    - skinsrestorer.admincommand
+    - skinsrestorer.command
+    options:
+      prefix: '&4[ADMIN] '
+  YOUTUBE:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - autosmelt.mine
+    - gadgetsmenu.cosmetics.*
+    - deliveryman.reward.mvp+
+    - deliveryman.reward.mvp+.coins
+    - deliveryman.reward.mvp
+    - deliveryman.reward.mvp.coins
+    - deliveryman.reward.vip
+    - deliveryman.reward.vip.coins
+    - deliveryman.reward.vip+
+    - deliveryman.reward.vip+.coins
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+        - no.hunger
+    options:
+      prefix: '&c[&fYOUTUBE&c] '
+  Owner:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    - MVP++
+    - YOUTUBE
+    - ADMIN
+    permissions:
+    - essentials.*
+    - minecraft.*
+    - worldedit.*
+    - worldguard.*
+    - bukkit.*
+    worlds:
+      world:
+        options:
+          prefix: '&4[Owner]'
+    options:
+      prefix: '&4[Owner]'
+schema-version: 1
+users:

@@ -1,0 +1,86 @@
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+
+#20 ticks = 1 second
+nametag-refresh-interval-ticks: 1
+tablist-refresh-interval-ticks: 1
+header-footer-refresh-interval-ticks: 1
+header:
+- '&bYou are playing on &e&lMadMc.Minecraftr.Us'
+- '&7%server_time_dd/MM/yy%  &8%player_name%'
+- ''
+footer:
+- ''
+- '&aRanks, Boosters & MORE! &c&lMadMc.Minecraft.Us'
+#the yellow number in tablist
+#options: PING, HEARTS, NONE (to disable it), CUSTOM (any placeholder defined below)
+tablist-objective: NONE
+tablist-objective-custom-value: '%some_placeholderapi_placeholder%'
+#NOT case sensitive
+group-sorting-priority-list: []
+#properties: tabprefix, tabsuffix, tagprefix (in name tag), tagsuffix, customtabname (modifying the name itself), header, footer
+#extra ones which need unlimited nametag mode enabled: abovename (line of text above name tag), belowname (below name tag), customtagname
+Groups:
+
+#personal settings, override group settings
+Users: []
+
+#the vanilla belowname feature
+#doesn't support player placeholders (faction, prefix), only server placeholders (time, date, animations) and static text
+belowname:
+  enabled: false
+  refresh-interval-ticks: 15
+  number: '%health%'
+  text: '&c❤'
+
+#servers and clients 1.9+
+enable-collision: false
+
+#preventing players in spectator gamemode from appearing at the bottom of tablist with transparent name FOR OTHER PLAYERS
+do-not-move-spectators: false
+#VERY EXPERIMENTAL !
+#IF YOU EXPERIENCE ANY ISSUES CONTACT ME
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  #modifying names of NPCs to avoid empty names on NPCs of online players
+  #this blocks any other attemps to change the name visibility or anything, so you need to disable it if you are using some citizens addon that changes their name
+  #needs relog to see the change
+  modify-npc-names: false
+
+#list of worlds with different settings than default, other worlds will use settings from above
+per-world-settings:
+  Islands: []
+#setting output of some placeholders
+placeholders:
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  #if time doesn't show correctly, you can change the time it shows
+  #setting to -1 will make it show 1 hour less than it does currently, 1 makes it show one hour more than currently, 0 does nothing
+  time-offset: 0
+  #remove these strings from everywhere. Typically an empty output when using some clan/faction related plugin but player isn't in any
+  #so players won't have empty brackets before their names
+  remove-strings:
+  - '[] '
+  - '< > '
+
+#better showing of %rank% placeholder
+rank-aliases:
+  _OTHER_: "&7No Rank"
+
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - world
+  - disabledworld
+  tablist-objective:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld

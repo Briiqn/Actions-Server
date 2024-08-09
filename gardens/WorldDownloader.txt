@@ -1,0 +1,11 @@
+#These settings are shared across an entire server.  If multiworld is enabled, they act as the default values for the individual world properties; otherwise, they are used directly.
+#Mon May 18 23:10:39 AEST 2020
+Messages.enableAll=true
+Messages.REMOVE_ENTITY=false
+Messages.PLUGIN_CHANNEL_MESSAGE=false
+Messages.INFO=true
+LinkedWorlds=
+ServerName=hypixel.net
+LastSaved=1589807439535
+Messages.ON_WORLD_LOAD=false
+Messages.SAVING=true

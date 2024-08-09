@@ -1,0 +1,20 @@
+lastAccountName: Ninja481
+timestamps:
+  login: 1619232752794
+  logout: 1619233143756
+ipAddress: 192.168.0.78
+logoutlocation:
+  world: world
+  x: -10.847706723825345
+  y: 67.0
+  z: 2.030182780814994
+  yaw: -74.00511
+  pitch: 37.399574
+lastlocation:
+  world: lighthouse_
+  x: 5.305166762995449
+  y: -2.128090288533815
+  z: 26.07222268846209
+  yaw: 317.95096
+  pitch: -90.0
+afk: false

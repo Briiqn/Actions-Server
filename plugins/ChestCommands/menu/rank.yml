@@ -1,0 +1,173 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Ranking'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+0:
+  COMMAND: 'op:chestcommands open menu; sound: ORB PICKUP'
+  NAME: '&aBack'
+  LORE:
+  ID: ARROW
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+1:
+  COMMAND: 'spawn'
+  NAME: '&aVIP'
+  LORE:
+    - '&8'
+    - ''
+    - '&7'
+    - ''
+    - 'use &a/fly &7(&aTo fly&7)'
+    - '&aFull View Full Version'
+    - ''
+    - '&7Price: &620K &7(&6100 POINT&7)'
+    - ''
+    - '&eClick on the price to buy the market'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+2:
+  COMMAND: 'swprojectiletrail gui'
+  NAME: '&aVIP&6+'
+  LORE:
+    - '&8'
+    - ''
+    - '&7'
+    - ''
+    - 'use &a/fly &7(&aTo fly&7)'
+    - '&aFull View Full Version'
+    - ''
+    - '&7Price: &640K &7(&6200 POINT&7)'
+    - ''
+    - '&eClick on the price to buy the market'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+3:
+  COMMAND: 'spawn'
+  NAME: '&bMVP'
+  LORE:
+    - '&8'
+    - ''
+    - '&7'
+    - ''
+    - 'use &a/fly &7(&aTo fly&7)'
+    - '&aFull View Full Version'
+    - ''
+    - '&7Price: &650K &7(&6250 POINT&7)'
+    - ''
+    - '&eClick on the price to buy the market'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+4:
+  COMMAND: 'swprojectiletrail gui'
+  NAME: '&bMVP&c+'
+  LORE:
+    - '&8'
+    - ''
+    - '&7'
+    - ''
+    - 'use &a/fly &7(&aTo fly&7)'
+    - '&aFull View Full Version'
+    - ''
+    - '&7Price: &670K &7(&6400 POINT&7)'
+    - ''
+    - '&eClick on the price to buy the market'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+5:
+  COMMAND: 'spawn'
+  NAME: '&6MVP&c++'
+  LORE:
+    - '&8'
+    - ''
+    - '&7'
+    - ''
+    - '‚Åé &a/fly &7(&aTo fly&7)'
+    - '‚Åé &a/emojis &7(&aThe number of emojis controls for deception c&7)'
+    - '‚Åé &a/staff &7(&apatch recognition õi STAFF' 
+    - '&aƒƒ, for fun,'
+    - '&aPolicy promotes political law!&7)'
+    - '‚Åé &a/kaboom &7(&aEmploying patching communication õi' 
+    - '&aenjoy the fun,'
+    - '&aPolicy promotes political law!&7)'
+    - ''
+    - ''
+    - '&7Price: &680K &7(&6600 POINT&7)'
+    - ''
+    - '&eClick on the price to buy the market'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+6:
+  COMMAND: 'swprojectiletrail gui'
+  NAME: '&cYOUTUBE'
+  LORE:
+    - '&8'
+    - ''
+    - '&7'
+    - ''
+    - '‚Åé &a/fly &7(&aTo fly&7)'
+    - '‚Åé &a/emojis &7(&as·ª≠ d·ª•ng emojis th√™m ch√∫t quy·ªÅn l·ª±c&7)'
+    - '‚Åé &a/staff &7(&apatch recognition õi STAFF' 
+    - '&aƒƒ, for fun,'
+    - '&aPolicy promotes political law!&7)'
+    - '‚Åé &a/kaboom &7(&aEmploying patching communication õi' 
+    - '&aenjoy the fun,'
+    - '&aPolicy promotes political law!&7)'
+    - ''
+    - ''
+    - '&7Price: &cNull'
+    - ''
+    - '&eClick on the price to buy the market'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1

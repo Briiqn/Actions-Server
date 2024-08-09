@@ -1,0 +1,8 @@
+TabSettings:
+  UpdateInterval: 1
+  EnableTabColor: true
+  OnlyIfPlayersOnline: true
+TabHeader:
+- '&bYou are playing on &e&lMC.HYPIXEL.NET'
+TabFooter:
+- '&aRanks, Booster & MORE! &c&lSTORE.HYPIXEL.NET'

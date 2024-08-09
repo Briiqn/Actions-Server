@@ -1,0 +1,27 @@
+Addon:
+  NoConsole: '&cThis command isn''t available in console!'
+  NotOnline: '&7This player isn''t online!'
+  NotNumber: '&7%value% is not a number'
+  Reloaded: '&7Bed Coins addon was reloaded successfully!'
+  ReceivedCoins: '&7You''ve received: &f+%coins%'
+Coins:
+  Single: '&6BedCoin'
+  Multiple: '&6BedCoins'
+Commands:
+  Available:
+  - '&7Available commands:'
+  - '&f/coins'
+  - '&f/bw coins add <Player> <Amount>'
+  - '&f/bw coins remove <Player> <Amount>'
+  - '&f/bw coins set <Player> <Amount>'
+  - '&f/bw coins reload'
+  Add:
+    Usage: '&7Usage: &f/bw coins give <Player> <Amount>'
+    Executed: '&7You gave to %target% %coins%'
+  Remove:
+    Usage: '&7Usage: &f/bw coins take <Player> <Amount>'
+    Executed: '&7You took %coins% &7from %target%'
+  Set:
+    Usage: '&7Usage: &f/bw coins set <Player> <Amount>'
+    Executed: '&7You set %target%''s balance to %coins%'
+  Balance: '&7Coins: &f%coins%'
