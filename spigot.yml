@@ -78,7 +78,6 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -100,6 +99,7 @@ world-settings:
       - 1
       - 5
     mob-spawn-range: 4
+    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
