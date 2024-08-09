@@ -14,6 +14,7 @@ npc:
         z: '3.5'
         yaw: '-270.0'
         pitch: '0.0'
+        bodyYaw: -270.0
       inventory: {}
       lookclose:
         range: '5.0'
@@ -21,20 +22,27 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        perplayer: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
+        targetnpcs: false
       gravity:
         enabled: false
       scoreboardtrait: {}
       type: PLAYER
       owner:
-        owner: MadPikaxe
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
-    traitnames: gravity,location,owner,type,inventory,scoreboardtrait,lookclose,spawned,equipment,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,lookclose,gravity,inventory,spawned,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -58,15 +66,18 @@ npc:
         z: '-2.5'
         yaw: '-270.0'
         pitch: '0.0'
+        bodyYaw: -270.0
       inventory: {}
       gravity:
         enabled: false
       scoreboardtrait: {}
       type: PLAYER
       owner:
-        owner: MadPikaxe
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
-    traitnames: gravity,location,owner,type,scoreboardtrait,inventory,spawned,equipment,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,gravity,spawned,inventory,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -89,15 +100,18 @@ npc:
         z: '-5.5'
         yaw: '-270.0'
         pitch: '0.0'
+        bodyYaw: -270.0
       inventory: {}
       gravity:
         enabled: false
       scoreboardtrait: {}
       type: PLAYER
       owner:
-        owner: MadPikaxe
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
-    traitnames: gravity,location,owner,type,scoreboardtrait,inventory,equipment,spawned,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,gravity,inventory,spawned,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -121,15 +135,18 @@ npc:
         z: '-8.5'
         yaw: '-270.0'
         pitch: '0.0'
+        bodyYaw: -270.0
       inventory: {}
       gravity:
         enabled: false
       scoreboardtrait: {}
       type: PLAYER
       owner:
-        owner: MadPikaxe
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
-    traitnames: gravity,location,owner,type,scoreboardtrait,inventory,spawned,equipment,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,gravity,spawned,inventory,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -160,6 +177,7 @@ npc:
         z: '-13.5'
         yaw: '65.2197'
         pitch: '0.0'
+        bodyYaw: 65.2197
       inventory: {}
       scoreboardtrait: {}
       gravity:
@@ -171,17 +189,24 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        perplayer: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
+        targetnpcs: false
       mirror: true
       owner:
-        owner: MadPikaxe
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
-    traitnames: gravity,location,owner,type,mirror,inventory,scoreboardtrait,lookclose,equipment,spawned,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,mirror,skintrait,equipment,type,lookclose,gravity,spawned,inventory,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -197,17 +222,22 @@ npc:
         z: '17.5259'
         yaw: '-180.1145'
         pitch: '0.0'
+        bodyYaw: -180.1145
       type: BLAZE
       spawned: true
       inventory: {}
       owner:
-        owner: MadPikaxe
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
-    traitnames: location,owner,type,inventory,spawned,mounttrait
+      scoreboardtrait: {}
+      gravity:
+        enabled: true
+    traitnames: scoreboardtrait,location,type,gravity,inventory,spawned,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
+    metadata:
+      flyable: true
   '15':
     metadata:
       player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU4ODYyNTMxNzY4NywKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlYmYyNjBlMmQ1MWZlZTJiNzJiN2JkMTljNjJlZWZhZWJkZjllYTQ1ODRmZjY0NjgxNWM4ZTdmYmJkYWZhOCIKICAgIH0KICB9Cn0=
@@ -229,12 +259,17 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        perplayer: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
+        targetnpcs: false
       location:
         world: world
         x: '1.4314'
@@ -242,12 +277,15 @@ npc:
         z: '6.4763'
         yaw: '-270.5229'
         pitch: '0.0'
+        bodyYaw: -270.5229
       scoreboardtrait: {}
       inventory: {}
       owner:
-        owner: Mad_Maniac
         uuid: 915c867a-6d49-39c9-9a12-e6e043334994
-    traitnames: gravity,location,owner,type,inventory,scoreboardtrait,lookclose,spawned,equipment,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,lookclose,gravity,spawned,inventory,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -273,6 +311,7 @@ npc:
         z: '10.458'
         yaw: '-159.6202'
         pitch: '0.0'
+        bodyYaw: -159.6202
       inventory: {}
       gravity:
         enabled: false
@@ -282,16 +321,20 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        perplayer: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
+        targetnpcs: false
       owner:
-        owner: Mad_Pickaxe
         uuid: e63c9801-19f9-3ff1-9775-3fbe8869401d
-    traitnames: gravity,location,owner,type,inventory,scoreboardtrait,lookclose,equipment,spawned,mounttrait
+    traitnames: scoreboardtrait,location,equipment,type,lookclose,gravity,inventory,spawned,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -309,15 +352,22 @@ npc:
         z: '9.5'
         yaw: '-270.0'
         pitch: '0.0'
+        bodyYaw: -270.0
       scoreboardtrait: {}
       type: PLAYER
       gravity:
         enabled: false
-      commandtrait: {}
+      commandtrait:
+        cost: -1.0
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
       owner:
-        owner: Mad_Pickaxe
         uuid: e63c9801-19f9-3ff1-9775-3fbe8869401d
-    traitnames: gravity,location,owner,type,inventory,scoreboardtrait,commandtrait,equipment,spawned,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,gravity,inventory,spawned,commandtrait,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -344,15 +394,18 @@ npc:
         z: '0.54'
         yaw: '90.0'
         pitch: '0.0'
+        bodyYaw: 90.0
       type: PLAYER
       inventory: {}
       gravity:
         enabled: false
       scoreboardtrait: {}
       owner:
-        owner: MadPikaxe
         uuid: eaecf18d-250f-33fe-8f05-26d1754797e1
-    traitnames: gravity,location,owner,type,inventory,scoreboardtrait,spawned,equipment,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,gravity,spawned,inventory,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -368,6 +421,7 @@ npc:
         z: '0.0'
         yaw: '0.0'
         pitch: '0.0'
+        bodyYaw: !!float 'NaN'
       spawned: true
     traitnames: location,type,spawned,mounttrait
     navigator:
@@ -386,6 +440,7 @@ npc:
         z: '0.0'
         yaw: '0.0'
         pitch: '0.0'
+        bodyYaw: !!float 'NaN'
     traitnames: location,type,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
@@ -403,6 +458,7 @@ npc:
         z: '0.0'
         yaw: '0.0'
         pitch: '0.0'
+        bodyYaw: !!float 'NaN'
     traitnames: location,type,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
@@ -420,6 +476,7 @@ npc:
         z: '0.0'
         yaw: '0.0'
         pitch: '0.0'
+        bodyYaw: !!float 'NaN'
     traitnames: location,type,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
@@ -443,26 +500,38 @@ npc:
         realisticlooking: false
         enableRandomLook: false
         randomLookDelay: 60
+        disablewhilenavigating: true
+        headonly: false
+        perplayer: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
+        targetnpcs: false
       location:
         world: world
         x: '-13.2926'
         y: '67.0'
         z: '4.9245'
-        yaw: '115.768'
-        pitch: '0.0'
+        yaw: '142.0329'
+        pitch: '-5.8833'
+        bodyYaw: 142.03293
       spawned: true
       type: PLAYER
       scoreboardtrait: {}
       owner:
-        owner: MadPikaxe
         uuid: eaecf18d-250f-33fe-8f05-26d1754797e1
-    traitnames: gravity,location,owner,type,inventory,lookclose,scoreboardtrait,spawned,equipment,mounttrait
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        signature: vz5do6fhrfz9ZCfif5QVminC4rOmMmTMARAOthaMK0PVzaSjVXvnS7KxuIFEsiF7QjkC8f+Q7STvq3AWKI7WgDaHWsV9WVi3B12zTakTJh+x9pqUmMGdpGzqk13tIFFMh7xb2WCBgytUqrFhGn2M3LBIrjukYKmUTYPItVDFlXZcoAaDmZXtYGT/oO2BYMocxVgaddztjhjsUxgU8BKLUGduJSCqzCOT4KO1ozdsSVT/QmUBh+7Jby4TAmF4CvMRSJLnJK0ya5xQxysWomKRXhlA7kvJ9oh08He9Mb8qVrjWFg0OZofk7W97tlcziiPIxWXycXXACU21bSa9Up+0uFZG3/SLALRA/6Fcd+VeVVqCFaovuKOhd4FFk3EUaD6QXUcwqS7BjBKY2JP9us2lBDIqnHmDRinzHUDa79hDyAQ/gmk7fssTUeyDJiibfRPOQaVBRStq4jj3VM5IlxHXqqBnrbTA6yZyHvVMnM7ccdyuIb+qUDfDgS/4SB7q/kmGJDH8Mi0kquHATNzCN+wx/0KfxjgjeWH38e0sQCkddfvg+fcbTQhwv9N4ZDtP2d70VrqOxIRZnXphFbSEWtLM4Tw/r//FHdBuzkNvt2836g6MEsbT+YyRdP7JmIP1+/geTP/2JlRqg7r+7C2jJ2ZT6PraLlohm/eorWeTu+9Mrqk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE4MDgxNDE4NCwKICAicHJvZmlsZUlkIiA6ICI0ZTJmNzk3ZmNmNTQ0YzYyYThiNzU4ZjliYjMzOGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaG90R3VuUmFpZHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUyOTMxY2Y1M2IzZDRlOGViMjNjMzhiOTU4OTVmMGUzMmJhMmMxYzFhZTBhNTJlYzBkZTNlOGI1Njg4NmM3YyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdkZmVhMTZkYzgzYzk3ZGYwMWExMmZhYmJkMTIxNjM1OWMwY2QwZWE0MmY5OTk5YjZlOTdjNTg0OTYzZTk4MCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+    traitnames: scoreboardtrait,location,rotationtrait,skintrait,equipment,type,lookclose,gravity,inventory,spawned,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -478,6 +547,7 @@ npc:
         z: '0.0'
         yaw: '0.0'
         pitch: '0.0'
+        bodyYaw: !!float 'NaN'
       spawned: true
     traitnames: location,type,spawned,mounttrait
     navigator:
@@ -505,6 +575,7 @@ npc:
         z: '-5.4838'
         yaw: '68.7236'
         pitch: '0.0'
+        bodyYaw: 68.7236
       inventory: {}
       type: PLAYER
       lookclose:
@@ -513,16 +584,23 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        perplayer: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
+        targetnpcs: false
       owner:
-        owner: MadPikaxe
         uuid: eaecf18d-250f-33fe-8f05-26d1754797e1
-    traitnames: gravity,location,owner,type,lookclose,inventory,scoreboardtrait,equipment,spawned,mounttrait
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: scoreboardtrait,location,skintrait,equipment,type,lookclose,gravity,spawned,inventory,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
