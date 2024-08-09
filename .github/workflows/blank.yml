@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
+  repository_dispatch:
+    types: [restart_workflow]  # Add this to listen for the custom event
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -85,17 +88,25 @@ jobs:
             # Check if processes are still running
             if ! kill -0 $SPIGOT_PID 2>/dev/null || ! kill -0 $PLAYIT_PID 2>/dev/null; then
               echo "One of the processes has finished. Restarting the workflow."
-              exit 0  # Exit with error code to trigger a workflow restart
+              exit 1  # Exit with error code to trigger a workflow restart
             fi
           done
       - name: Trigger new workflow
-        if: always()
+        if: failure()
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
         run: |
-          curl -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
+          response=$(curl -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${REPO}/dispatches \
-            -d '{"event_type": "restart_workflow"}'
-
+            -d '{"event_type": "restart_workflow"}' \
+            -w "\n%{http_code}" -s -o /dev/null)
+          
+          status_code=$(echo "$response" | tail -n 1)
+          if [ "$status_code" -eq 204 ]; then
+            echo "Workflow triggered successfully"
+          else
+            echo "Failed to trigger workflow. Status code: $status_code"
+            exit 1
+          fi
