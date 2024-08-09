@@ -20,7 +20,7 @@ Core:
   custom-tablist: true
   # you can use %NAME% %COLOR% %RANK%
   tablist-format: "%COLOR%%NAME%"
-  StaffJoinMessage: "&b[Staff] &b%PLAYER% &fconnected to &3Practice&f."
+  StaffJoinMessage: "&b[Staff] &b%PLAYER% &fconnected to &3ArenaPvP&f."
   PrivateMessage:
     enable: true
     PM-From-Format: "&7(From %PLAYER%&7) "
@@ -44,8 +44,8 @@ Core:
       - "&7&m+------------------------------------------+"
       - "&c&lYou have activated your Panic mode!"
       - ""
-      - "&fWait for staff members or join our Discord:"
-      - "&b&lhttps://server.com/discord"
+      - "&fWait for staff members:"
+      - "&b&lgithubservers.org"
       - ""
       - "&7&oYou can unpanic yourself with /unpanic."
       - "&7&m+------------------------------------------+"
@@ -156,17 +156,16 @@ Core:
 
   KnockBack: true
 
-  MOTD: "&b&lNeverMind Network &8» &c Now 50% off sale! \n&6&l 1.7-1.8 &1 New KB!  &c  "
+  MOTD: "&bArenaPvP"
   Join-MOTD:
     enable: true
     msg:
       - ""
       - " "
-      - " &fWelcome to the &bServer &fnetwork!"
+      - " &fWelcome to &bArenaPvP!"
       - " "
-      - "  &fWebsite: &bwww.server.gg"
-      - "  &fTwitter: &btwitter.server.gg"
-      - "  &fStore: &bstore.server.gg"
+      - "  &fWebsite: &bgithubservers.org"
+      - "  &fGithub: githubservers.org"
       - " "
   CancelMatch:
     - ""
@@ -233,17 +232,9 @@ Core:
     - "negro"
     - "vagina"
   BroadCast:
-    enable: true
+    enable: false
     between: 120
-    msg1: "&cButterFlyClick is FORBIDDEN. 
-
-    &f&nUse it at your own risk."
-    msg2: "&cWe updated a lot things this time.
-
-    &f&nEnjoy!"
-    msg3: "&cBe sure to check out our Store for sales:
-
-    &f&nQQ：2365638692"
+    msg1: "&cButterfly Clicking is not allowed."
 
   Mutechat:
     msg: "&cPublic chat is currently muted."
@@ -256,7 +247,7 @@ Core:
 
   ScoreBoard:
     enable: false
-    title: "&b&lNeverMind &r&7┃ &fStaff"
+    title: "&b&lArenaPvP &r&7┃ &fStaff"
     line:
       - "&7&m--------------------"
       - "&b&lStaff Mode:"
