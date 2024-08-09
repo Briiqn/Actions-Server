@@ -233,7 +233,7 @@ TOURNAMENT-STATUS-FOOTER: '&8&m-----------------------------------'
 TOURNAMENT-STATUS-HOVER: Click to spectate %player1% vs %player2%
 TOURNAMENT-NO-FIGHTS: '&cThere are no fights happening.'
 NOT-HCF-ARENA: '&cThat is not an HCF arena.'
-PLAYER-HEALTH: '&b%player%''s &fhealth is &c%health% ❤️'
+PLAYER-HEALTH: '&b%player%''s &fhealth is &c%health%❤'
 NEVER-PLAYED-BEFORE: '&c%player% has never played before.'
 INVALID-AMOUNT: '&cInvalid amount.'
 INVALID-ELO: '&cThe elo amount you have entered is either too little or too big.'
