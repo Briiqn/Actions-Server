@@ -10,4 +10,11 @@ logoutlocation:
   z: 0.49185180054454447
   yaw: -89.88387
   pitch: 2.8524027
-money: '105.0'
+money: '135.0'
+lastlocation:
+  world: rooftop
+  x: -26.5414044977994
+  y: 66.0
+  z: 1.8161049508542808
+  yaw: 6.0374675
+  pitch: 73.50003
