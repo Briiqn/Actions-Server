@@ -45,6 +45,7 @@ messages:
   restart: Server is restarting
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -53,30 +54,12 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: true
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 10
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -97,6 +80,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    mob-spawn-range: 4
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
@@ -107,7 +91,23 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
-    mob-spawn-range: 4
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
