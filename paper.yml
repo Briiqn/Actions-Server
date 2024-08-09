@@ -24,6 +24,11 @@ world-settings:
   default:
     verbose: true
     keep-spawn-loaded: true
+    allow-block-location-tab-completion: true
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
     generator-settings:
       canyon: true
       caves: true
@@ -35,16 +40,12 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
-    allow-block-location-tab-completion: true
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
     disable-teleportation-suffocation-check: false
-    player-blocking-damage-multiplier: 0.5
+    cache-chunk-maps: false
+    remove-invalid-mob-spawner-tile-entities: true
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     tnt-explosion-volume: 4.0
@@ -65,6 +66,7 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    player-blocking-damage-multiplier: 0.5
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
@@ -85,8 +87,6 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    cache-chunk-maps: false
-    remove-invalid-mob-spawner-tile-entities: true
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
