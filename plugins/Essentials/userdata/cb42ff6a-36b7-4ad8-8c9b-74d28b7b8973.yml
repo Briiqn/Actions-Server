@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.30.38.147
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
