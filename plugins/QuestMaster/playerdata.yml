@@ -103,7 +103,7 @@ MiniFlex:
   time_status: 1550590641399
   time_weekly: 1550590641399
 Briiqn:
-  solo_kills: 6
+  solo_kills: 5
   solo_wins: 0
   team_kills: 0
   team_wins: 0
@@ -111,7 +111,7 @@ Briiqn:
   solo_wins_status: 'false'
   team_status: 'false'
   team_wins_status: 'false'
-  total_kills: 6
+  total_kills: 5
   total_kills_status: 'false'
   time_status: 1722992253222
   time_weekly: 1722992253222
@@ -337,7 +337,7 @@ PyrB:
   time_status: 1723088981720
   time_weekly: 1723088981720
 xNotJames:
-  solo_kills: 1
+  solo_kills: 0
   solo_wins: 0
   team_kills: 0
   team_wins: 0
@@ -345,7 +345,7 @@ xNotJames:
   solo_wins_status: 'false'
   team_status: 'false'
   team_wins_status: 'false'
-  total_kills: 1
+  total_kills: 0
   total_kills_status: 'false'
   time_status: 1723141090125
   time_weekly: 1723141090125
