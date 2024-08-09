@@ -6,5 +6,11 @@ Briiqn:
       '1':
       - Briiqn
       - xNotJames
+  '54':
+    '228':
+      '201':
+      - Thewdie
 xNotJames:
   ip: 127.0.0.1
+Thewdie:
+  ip: 127.54.228.201
