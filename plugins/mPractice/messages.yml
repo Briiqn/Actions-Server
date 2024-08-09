@@ -1,0 +1,252 @@
+SPAWN-SET: '&bYou have successfully set the spawn.'
+EDITOR-SET: '&bYou have successfully set the editor.'
+KIT-ALREADY-EXISTS: '&cThat kit already exists.'
+KIT-DOESNT-EXIST: '&cThat kit doesn''t exist.'
+KIT-CREATED: '&fYou have created the kit &b%kit%&f.'
+KIT-DELETED: '&fYou have deleted the kit &b%kit%&f.'
+LOADED-KIT: '&fYou have loaded the kit &b%kit%&f.'
+KIT-NOT-SET: '&cYou don''t have an inventory set for that kit.'
+HAND-CANT-BE-AIR: '&cYour hand may not be air.'
+KIT-DISPLAY-SET: '&fYou have updated the display of kit &b%kit%&f.'
+KIT-INVENTORY-SET: '&fYou have set the inventory for the kit &b%kit%&f.'
+KIT-EDITCHEST-UPDATED: '&fYou have updated the edit chest of kit &b%kit% &fto &b%value%&f.'
+KIT-TYPE-DOESNT-EXIST: '&cThat kit type doesn''t exist.'
+KIT-TYPE-UPDATED: '&fYou have updated the type of kit &b%kit%&f to &b%type%&f.'
+KIT-TICKS-UPDATED: '&fYou have updated the type of kit &b%kit%&f to &b%ticks%&f.'
+KIT-EDITINV-UPDATED: '&fYou have set the edit inventory for the kit &b%kit%&f.'
+KIT-RANKED-UPDATED: '&fYou have updated ranked of kit &b%kit% &fto &b%value%&f.'
+KIT-UNRANKED-UPDATED: '&fYou have updated unranked of kit &b%kit% &fto &b%value%&f.'
+KIT-EDITABLE-UPDATED: '&fYou have updated editable of kit &b%kit% &fto &b%value%&f.'
+KIT-REGEN-UPDATED: '&fYou have updated regen of kit &b%kit% &fto &b%value%&f.'
+KIT-ISNT-RANKED: '&cThat kit isn''t ranked.'
+KIT-HAS-NO-COMMANDS: '&cThat kit doesn''t have any commands.'
+KIT-ALREADY-HAS-COMMAND: '&cThat kit already has that command.'
+KIT-DOESNT-HAVE-COMMAND: '&cThat kit does not have that command.'
+KIT-COMMAND-ADDED: '&fYou have added the command &b%command% &fto kit &b%kit%&f.'
+KIT-COMMAND-DELETED: '&fYou have deleted the command &b%command% &ffrom kit &b%kit%&f.'
+JOINED-UNRANKED-QUEUE: '&bYou have been added to the &bUnranked %kit% &fqueue.'
+JOINED-RANKED-QUEUE: '&bYou have been added to the &bRanked %kit% &fqueue.'
+UNRANKED-MATCH-FOUND: '&fMatch found! &fOpponent: &b%player%'
+RANKED-MATCH-FOUND: '&fMatch found! &fOpponent: &b%player% (%elo% Elo)'
+MATCH-STARTING: '&b%time%...'
+MATCH-STARTED: '&aMatch started.'
+LEFT-QUEUE: '&cYou have left the queue for %queueType% %kit%.'
+ARENA-ALREADY-EXISTS: '&cThat arena already exists.'
+ARENA-CREATED: '&fYou have created the arena &b%arena%&f.'
+ARENA-DOESNT-EXIST: '&cThat arena doesn''t exist.'
+ARENA-DELETED: '&fYou have deleted the arena &b%arena%&f.'
+ARENA-FIRST-SET: '&fYou set the first location for arena &b%arena%&f.'
+ARENA-SECOND-SET: '&fYou set the second location for arena &b%arena%&f.'
+ARENA-TYPE-UPDATED: '&fYou have updated the type of arena &b%arena%&f to &b%type%&f.'
+ARENA-MUST-BE-BUILD: '&cThat arena must be a build type before doing this.'
+INVALID-STATE: '&cYou cannot do this in your current state.'
+TELEPORTING-TO-SPAWN: '&eTeleporting you to spawn...'
+PLAYER-DEATH-KILLED: '&a%killer% &7 killed &c%killer%&7.'
+PLAYER-DEATH-DIED: '&c%player% &7died.'
+PLAYER-DEATH-DISCONNECTED: '&c%player% &7disconnected.'
+PLAYER-DEATH-LEFT: '&c%player% &7left.'
+MATCH-END: |-
+  &7&m--------------------------------------
+  &bPost-Match Inventories &7(Click to view):
+
+  &bWinner: &a%winnerNames%
+  &bLoser: &c%loserNames%
+  &7&m--------------------------------------
+ELO-CHANGES: '&fElo changes: &b%winner% +%eloDifference% (%newWinnerElo%) &c%loser%
+  -%eloDifference% (%newLoserElo%)'
+INVENTORY-HOVER: Click here to view %player%'s inventory.
+MAY-PEARL-AGAIN: '&bYou may pearl again!'
+MUST-WAIT-TO-PEARL: '&cYou must wait %time%s to do that again!'
+INVENTORY-NOT-FOUND: '&cThere was no inventory found for that player.'
+SAVED-CUSTOM-KIT: '&fSaved custom kit &b%kit% #%number%&f.'
+DELETED-CUSTOM-KIT: '&fDeleted custom kit &b%kit% #%number%&f.'
+EQUIPPED-CUSTOM-KIT: '&fEquipped custom kit &r%name%&f.'
+EQUIPPED-DEFAULT-KIT: '&fEquipped default kit for %kit%.'
+LOADED-CUSTOM-KIT: '&fLoaded custom kit for %kit% &b#%number%.'
+SET-CUSTOM-NAME: '&fType your kit name in chat (color codes are applicable)'
+CUSTOM-NAME-SET: '&fCustom name for %kit% &b#%number% to &r%name%&f.'
+PARTY-HELP: |-
+  &7&m--------------------------------------
+  &dParty Help
+  &7&m--------------------------------------
+  &f/party create - Create a party
+  /party invite <player> - Invite a player to your party
+  /party join <player> - Join a player's party
+  /party leave - Leave your party
+  /party kick <player> - Kick a player from your party
+  /party open - Open your party
+  /party promote <player> - Transfer leadership of party
+  /party disband - Disband party
+  /party info - View party details
+  &fUse '&b@&b' &fto type in party chat
+  &7&m--------------------------------------
+MUST-BE-IN-LOBBY: '&cYou must be in the lobby to do this.'
+CREATED-PARTY: '&fYou have created a party!'
+NOT-IN-PARTY: '&cYou are not in a party.'
+MUST-BE-PARTY-LEADER: '&cYou must be the party leader to do this.'
+PARTY-DISBANDED: '&cYour party has been disbanded.'
+COULD-NOT-FIND-PLAYER: '&cCould not find player with the name %player%.'
+EXISTING-PARTY-INVITE: '&cYou already have an existing party invite out to that player.'
+PARTY-INVITE-SENT: '&b%player% &fhas been invited to the party.'
+PARTY-INVITE: '&b%player% &fhas invited you to their party (&b%amount%&f) &b[Accept]'
+PARTY-INVITE-HOVER: Click here to join %player%'s party.
+PLAYER-NOT-IN-PARTY: '&c%player% is not in a party.'
+PLAYERS-PARTY-NOT-IN-LOBBY: '&c%player%''s party is not in the lobby.'
+PARTY-INVITE-NOT-FOUND: '&cYou do not have an invite from that party.'
+PLAYER-JOINED-PARTY: '&b%player% &fhas joined the party.'
+LEADER-CANT-LEAVE: '&cYou are the party leader. To leave the party, you must promote
+  someone else or disband the party.'
+PLAYER-LEFT-PARTY: '&b%player% &fhas left the party.'
+LEFT-PARTY: '&cYou have left the party.'
+PLAYER-NOT-IN-LOBBY: '&c%player% is not in the lobby.'
+PLAYER-NOT-IN-YOUR-PARTY: '&c%player% is not in your party.'
+PARTY-FULL: '&cThat party is full.'
+PARTY-OPENED: '&fThe party has been &bopened&f.'
+PARTY-CLOSED: '&fThe party has been &cclosed&f.'
+PLAYER-PROMOTED: '&b%player% &fhas been promoted to party leader.'
+CANT-PROMOTE-YOURSELF: '&bYou can''t promote yourself!'
+PARTY-INFO: |-
+  &7&m--------------------------------------
+  &fLeader: &b%leader%
+  &fMembers (&f%amount%&b): &b%members%
+  &fStatus: &b%status%
+  &7&m--------------------------------------
+PROVIDE-A-MESSAGE: '&cPlease provide a message.'
+PARTY-FFA-STARTING: '&fParty ffa starting...'
+FEATURE-DISABLED: '&cThis feature is currently disabled.'
+MUST-NEED-TWO-MEMBERS: '&cYou need at least 2 players in your party to do this.'
+TIME-SET-DAY: '&bTime set to day.'
+TIME-SET-SUNSET: '&bTime set to sunset.'
+TIME-SET-NIGHT: '&bTime set to night.'
+DUEL-REQUEST-EXISTS: '&cYou already have an existing duel request to that player.'
+CANT-DUEL-YOURSELF: '&cYou can''t duel yourself!'
+PARTY-DOESNT-EXIST: '&cThat party no longer exists.'
+PARTY-NOT-IN-LOBBY: '&cThat party is not in the lobby.'
+SENT-PARTY-DUEL: '&fSent a duel request to &b%player%''s Party &fwith the kit &b%kit%&f.'
+PARTY-DUEL-REQUEST: '&b%player%''s Party &f(&b%amount%&f) has sent you a duel request
+  with the kit &b%kit% [Accept]'
+PARTY-DUEL-HOVER: Click here to accept %player%'s party duel request.
+SENT-DUEL: '&fSent a duel request to &b%player% &fwith the kit &b%kit%&f.'
+DUEL-REQUEST: '&b%player% &fhas sent you a duel request with the kit &b%kit% [Accept]'
+DUEL-HOVER: Click here to accept %player%'s duel request.
+PLAYER-DISABLED-DUELS: '&c%player% has duel requests disabled.'
+MUST-CREATE-PARTY-TO-DUEL: '&cYou must create a party to duel %player%''s party.'
+INVALID-PAGE-NUMBER: '&cInvalid page number.'
+LEADERBOARDS-PAGE-DOESNT-EXIST: '&cThat page doesn''t exist.'
+LEADERBOARDS-HEADER: '&b%kit% &fleaderboards page &b%page%'
+LEADERBOARDS-PLAYER: '&b#%place%&f. &b%player% &f(&b%elo%&f)'
+DUEL-REQUEST-NOT-FOUND: '&cThat duel request was not found.'
+CANT-DROP-FIRST-ITEM: '&cYou can''t drop the item in your first slot.'
+DIAMOND-KIT-SET: '&fYou have set the kit for HCF &bDiamond&f.'
+ARCHER-KIT-SET: '&fYou have set the kit for HCF &bArcher&f.'
+BARD-KIT-SET: '&fYou have set the kit for HCF &bBard&f.'
+ROGUE-KIT-SET: '&fYou have set the kit for HCF &bRogue&f.'
+MUST-WAIT-TO-BARD-BUFF: '&cYou can only buff every 6 seconds. You must wait %time%s.'
+NEED-MORE-ENERGY: '&cYou need %energy% energy to do this.'
+ACTIVATED-BARD-BUFF: '&b[&fBard&b] &fYou have activated the buff &b%buff%&f.'
+MUST-WAIT-TO-ARCHER-BUFF: '&cYou can only buff every 60 seconds. You must wait %time%s.'
+ACTIVATED-ARCHER-BUFF: '&b[&fArcher&b] &fYou have activated the buff &b%buff%&f.'
+MUST-WAIT-TO-ROGUE-BUFF: '&cYou can only buff every 60 seconds. You must wait %time%s.'
+ACTIVATED-ROGUE-BUFF: '&b[&fRogue&b] &fYou have activated the buff &b%buff%&f.'
+ARCHER-TAGGED: '&b[&fRogue&b] &fYou have been archer tagged for &b15 &fseconds!'
+PLAYER-ARCHER-TAGGED: '&b[&fArcher&b] &fYou have archer tagged &b%player% &ffor &b15
+  &fseconds!'
+NO-LONGER-ARCHER-MARKED: '&b[&fArcher&b] &fYou are no longer archer tagged!'
+MUST-WAIT-TO-BACKSTAB: '&cYou must wait to %time%s to backstab again.'
+MAY-BACKSTAB-AGAIN: '&b[&fRogue&b] &fYou may use backstab again!'
+BACKSTABBED: '&b[&fRogue&b] &fYou were backstabbed by &b%player%&f.'
+BACKSTABBED-PLAYER: '&b[&fRogue&b] &fYou backstabbed &b%player%&f.'
+EVENT-PLAYER-ELIMINATED: '&c%player% &7has been eliminated.'
+EVENT-HELP: |-
+  &7&m--------------------------------------
+  &b&lServer Network &7鈹� &fEvent
+  &7&m--------------------------------------
+  &b/event start <name> - Start an event
+  /event join <name> - Join an event
+  /event leave - Leave an event
+  /event spectate <name> - Spectate an event
+  &7&m--------------------------------------
+NO-EVENT-STARTED: '&cThere is no event by that name started.'
+EVENT-ALREADY-STARTED: '&cThat event has already started.'
+EVENT-DELAY: You must wait for the event cooldown to end before starting another one.
+EVENT-DOESNT-EXIST: '&cThat event doesn''t exist.'
+EVENT-STARTING: '&b%player% &fis hosting a &b%event% &fevent! &b[Join]'
+EVENT-HOVER: Click to join the %event% event.
+PLAYER-JOINED-EVENT: '&b%player% &fhas joined the event!'
+NOT-IN-EVENT: '&cYou are not in an event.'
+PLAYER-LEFT-EVENT: '&b%player% &fhas left the event!'
+LEFT-EVENT: '&cYou have left the event.'
+EVENT-WINNER: '&b[&fEvent&b] &b%player% &fhas won the &b%event% &fevent!'
+EVENT-LOBBY-SET: '&fThe lobby for event &b%event% &fhas been set.'
+EVENT-FIRST-SET: '&fThe first spawn for event &b%event% &fhas been set.'
+EVENT-SECOND-SET: '&fThe second spawn for event &b%event% &fhas been set.'
+CANT-FORCE-START-EVENT: '&cThere is not enough players to force start this event.'
+SUMO-EVENT-MATCHUP: '&b[&fSumo&b] &fNow fighting: &b%player1% &fvs. &b%player2%'
+SUMO-EVENT-MATCH-STARTING: '&f%time%...'
+SUMO-EVENT-MATCH-STARTED: '&bMatch started!'
+SUMO-ROUND-STARTING: '&b[&fSumo&b] &fNext round starting in &b%time%...'
+SCOREBOARD-ENABLED: '&b[&fScoreboard&b] &bEnabled'
+SCOREBOARD-DISABLED: '&b[&fScoreboard&b] &cDisabled'
+SILENT-ENABLED: '&b[&fSilent&b] &bEnabled'
+SILENT-DISABLED: '&b[&fSilent&b] &cDisabled'
+BUILDER-ENABLED: '&b[&fBuilder&b] &bEnabled'
+BUILDER-DISABLED: '&b[&fBuilder&b] &cDisabled'
+DUEL-REQUEST-ENABLED: '&b[&fDuel Requests&b] &bEnabled'
+DUEL-REQUEST-DISABLED: '&b[&fDuel Requests&b] &cDisabled'
+EVENT-CANCELLED: '&b[&fEvent&b] &fThe &b%event% &fhas been cancelled.'
+EVENT-FULL: '&cThat event is full.'
+CANT-FORCE-START-TOURNAMENT: '&cThere is not enough players to force start this tournament.'
+TOURNAMENT-HELP: |-
+  &7&m--------------------------------------
+  &bTournament Help
+  &7&m--------------------------------------
+  &f/tournament join - Join a tournament
+  /tournament leave - Leave a tournament
+  /tournament status - View all tournament matches
+  &7&m--------------------------------------
+TOURNAMENT-ALREADY-STARTED: '&cThere is already a tournament started.'
+TOURNAMENT-STARTING: '&fThere is a &b%kit% &ftournament starting! &b[Join]'
+TOURNAMENT-ROUND-STARTED: |-
+  &fRound &b%round% &fof the tournament has started!
+  Do &b/tournament status &fto view the current matches!
+TOURNAMENT-HOVER: Click to join the %kit% tournament.
+NO-TOURNAMENT-STARTED: '&cThere is no tournament started.'
+PLAYER-JOINED-TOURNAMENT: '&b%player% &fhas joined the tournament &b(%players%/%max%)'
+PLAYER-LEFT-TOURNAMENT: '&b%player% &fhas left the tournament &b(%players%/%max%)'
+PLAYER-ELIMINATED-TOURNAMENT: '&b%player% &fhas been eliminated!'
+TOURNAMENT-FULL: '&cThe tournament is full.'
+NOT-IN-TOURNAMENT: '&cYou are not in a tournament.'
+LEFT-TOURNAMENT: '&cYou have left the tournament.'
+TOURNAMENT-WINNER: '&b[&fTournament&b] &b%player% &fhas won the &b%kit% &ftournament!'
+TOURNAMENT-CANCELLED: '&b[&fTournament&b] &fThe &b%kit% &ftournament has been cancelled.'
+TOURNAMENT-SITOUT: '&cWe could not find you a match. You will automatically be advanced
+  to the next round.'
+TOURNAMENT-NEXT-ROUND: '&b[&fTournament&b] &fRound &b%round% &fwill start in &b30
+  &fseconds.'
+PLAYER-NOT-IN-MATCH: '&c%player% is not in a match.'
+PLAYER-NOW-SPECTATING: '&7* &b%player% &fis now spectating.'
+PLAYER-NO-LONGER-SPECTATING: '&7* &b%player% &fis no longer spectating.'
+NO-LONGER-SPECTATING: '&cYou are no longer spectating.'
+TOURNAMENT-STATUS-HEADER: '&8&m-----------------------------------'
+TOURNAMENT-STATUS-MATCH: '&d%player1% vs. %player2%'
+TOURNAMENT-STATUS-FOOTER: '&8&m-----------------------------------'
+TOURNAMENT-STATUS-HOVER: Click to spectate %player1% vs %player2%
+TOURNAMENT-NO-FIGHTS: '&cThere are no fights happening.'
+NOT-HCF-ARENA: '&cThat is not an HCF arena.'
+PLAYER-HEALTH: '&b%player%''s &fhealth is &c%health% 鉂�'
+NEVER-PLAYED-BEFORE: '&c%player% has never played before.'
+INVALID-AMOUNT: '&cInvalid amount.'
+INVALID-ELO: '&cThe elo amount you have entered is either too little or too big.'
+SET-ELO: '&fYou have set &b%player%''s &felo for kit &b%kit% &fto &b%elo%&f.'
+MUST-BE-IN-SURVIVAL: '&cYou must be in survival to do this.'
+MATCH-ENDING: '&cThat match is now ending.'
+NO-SAVED-FILE: '&c%player% does not have a saved file.'
+ALREADY-HAVE-ARENA-BOUND-TOOL: '&cYou already have the arena bound tool in your inventory.'
+ARENA-BOUND-TOOL-GIVEN: '&fYou have been given the arena bound tool.'
+NO-LONGER-SETTING-BOUNDS: '&fYour bound selection has been cleared.'
+BOUND-POSITION-ONE-SET: '&fBound position &b1 &fhas been set for arena &b%arena%&f.'
+BOUND-POSITION-TWO-SET: '&fBound position &b2 &fhas been set for arena &b%arena%&f.'
+INVALID-BOUND-SELECTION: '&cYou have an invalid bound selection.'
+ARENA-BOUND-SET: '&fYou have set the bounds for arena &b%arena%&f.'
+NO-AVAILABLE-ARENA: '&cNo available arena. A random winner has been selected.'
+GIVEN-GOLDEN-HEADS: '&fYou have been given &b%amount% &fgolden heads.'

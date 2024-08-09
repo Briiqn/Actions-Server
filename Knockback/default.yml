@@ -1,0 +1,80 @@
+# Help / Caption:
+# 
+# METHOD IN BETA! I RECOMMEND FALSE.
+#   1point1kb: <true/false>
+# 
+# Limits Vertical Knockback
+#   limit_vertical: <true/false>
+#   limit_vertical_value: <Value double>
+# 
+# Vertical and Horizontal Knockback Values
+#   horizontal: <Value double>
+#   vertical: <Value double>
+# 
+# 'inheritance_horizontal' to enter the values ('horizontal' values entered above) from Horizontal Knockback to the X and Z coordinates.
+# 'inheritance_vertical' to enter the values ('vertical' values entered above) from Vertical Knockback to the Y coordinates.
+#   inheritance_horizontal: <true/false>
+#   inheritance_vertical: <true/false>
+# 
+# Vertical and Horizontal Knockback Values while with Force Effect
+#   inheritance_strength_horizontal: <<Value double>>
+#   inheritance_strength_vertical: <Value double>
+# 
+# Vertical and Horizontal Knockback values while on the ground
+#   ground_horizontal: <Value double>
+#   ground_vertical: <Value double>
+# 
+# Vertical and Horizontal Knockback values while running
+#   sprint_horizontal: <Value double>
+#   sprint_vertical: <Value double>
+# 
+# Vertical and Horizontal Knockback values in Bows
+#   bow_horizontal: <Value double>
+#   bow_vertical: <Value double>
+# 
+# Vertical and Horizontal Knockback values in Rod
+#   rod_horizontal: <Value double>
+#   rod_vertical: <Value double>
+# 
+# Combo Settings
+#   combo: <true/false>
+#   combo_ticks: Value integer  combo_velocity: <Value double>
+#   combo_height: <Value double>
+# 
+# Stop the sprint when it takes damage
+#   stop_sprint: <true/false>
+# 
+# Slows down the attacker (AutoWtap)
+#   attacker_slowdown: <Value double>
+# 
+# Potions Settings
+#   potion_fall: <Value double>
+#   potion_multiplier: <Value double>
+#   potion_offset: <Value double>
+
+1point1kb: false
+limit_vertical: true
+limit_vertical_value: 1.2
+horizontal: 0.465
+vertical: 0.354
+inheritance_horizontal: true
+inheritance_vertical: false
+inheritance_strength_horizontal: 1.0
+inheritance_strength_vertical: 1.0
+ground_horizontal: 1.1
+ground_vertical: 1.0
+sprint_horizontal: 1.2
+sprint_vertical: 1.0
+bow_horizontal: 0.8
+bow_vertical: 1.0
+rod_horizontal: 0.91
+rod_vertical: 0.9
+combo: false
+combo_ticks: 10
+combo_velocity: -0.05
+combo_height: 2.5
+stop_sprint: true
+attacker_slowdown: 0.6
+potion_fall: 0.05
+potion_multiplier: 0.5
+potion_offset: -20.0

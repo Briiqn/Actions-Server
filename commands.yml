@@ -14,4 +14,3 @@ command-block-overrides: []
 aliases:
   icanhasbukkit:
   - version $1-
-ignore-vanilla-permissions: false

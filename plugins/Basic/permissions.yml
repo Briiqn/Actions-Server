@@ -1,0 +1,185 @@
+Group:
+  Owner:
+    prefix: '&4&oOwner'
+    maincolor: '&4'
+    permissions:
+    - '*'
+    - '1'
+  Developer:
+    prefix: '&c&oDeveloper'
+    maincolor: '&c'
+    permissions:
+    - '*'
+  Admin:
+    prefix: '&cAdmin'
+    maincolor: '&c'
+    permissions:
+    - core.staff
+    - core.broadcast
+    - core.cancelmatch
+    - core.freeze
+    - core.heal
+    - core.history
+    - core.invsee
+    - core.itemrenamer
+    - core.sendplayer
+    - core.ping
+    - core.see-report
+    - core.see-filterchat
+    - core.ban
+    - core.baninfo
+    - core.warn
+    - core.mute
+    - core.tempmute
+    - core.unmute
+    - core.staffchat
+    - core.stafflist
+    - core.staffmode
+    - core.teleport
+    - core.vanish
+    - core.altscheck
+  Mod:
+    prefix: '&5Mod'
+    maincolor: '&5'
+    permissions:
+    - core.staff
+    - core.main
+    - core.freeze
+    - core.heal
+    - core.history
+    - core.invsee
+    - core.ping
+    - core.see-report
+    - core.see-filterchat
+    - core.ban
+    - core.baninfo
+    - core.warn
+    - core.tempmute
+    - core.unmute
+    - core.staffchat
+    - core.stafflist
+    - core.staffmode
+    - core.teleport
+    - core.vanish
+    - core.altscheck
+    - '1'
+  Grizzy:
+    prefix: '&bGrizzy'
+    maincolor: '&b'
+    permissions:
+    - core.ping
+    - strikepractice.publicparty
+    - strikepractice.brackets.command
+    - strikepractice.sumo.command
+    - strikepractice.lms.command
+    - strikepractice.duel
+    - strikepractice.spectate
+    - strikepractice.party
+    - strikepractice.togglescoreboard
+    - strikepractice.playersettings
+    - strikepractice.partylimit
+    - strikepractice.publicparty
+    - strikepractice.partylimit
+    - strikepractice.hostevent
+    - strikepractice.lms.host
+    - strikepractice.hostevent.koth
+    - strikepractice.koth.host
+    - strikepractice.hostevent.sumo
+    - strikepractice.hostevent.brackets
+    - strikepractice.hostevent.lms
+    - strikepractice.hostevent.koth
+  Tempest:
+    prefix: '&6Tempest'
+    maincolor: '&6'
+    permissions:
+    - core.ping
+    - strikepractice.publicparty
+    - strikepractice.brackets.command
+    - strikepractice.sumo.command
+    - strikepractice.lms.command
+    - strikepractice.duel
+    - strikepractice.spectate
+    - strikepractice.party
+    - strikepractice.togglescoreboard
+    - strikepractice.playersettings
+    - strikepractice.partylimit
+  Member:
+    default: true
+    maincolor: '&a'
+    permissions:
+    - core.ping
+    - tag.1
+    - tag.2
+    - tag.3
+    - tag.4
+    - tag.5
+    - tag.6
+    - tag.7
+    - tag.8
+    - tag.9
+    - tag.10
+    - tag.11
+  Media:
+    prefix: '&3Media&1'
+    maincolor: '&3'
+    permissions:
+    - perm.here
+  YinYang:
+    prefix: '&6鈽�'
+    maincolor: '&6'
+    permissions:
+    - perm.here
+  Flash:
+    prefix: '&5鈿�'
+    maincolor: '&a'
+    permissions:
+    - perm.here
+  Star:
+    prefix: '&3鉁�'
+    maincolor: '&3'
+    permissions:
+    - perm.here
+  '&k465':
+    prefix: '&1&k13245'
+    maincolor: '&3'
+    permissions:
+    - perm.here
+  Madeinheaven:
+    prefix: '&6&lMadeInHeaven'
+    maincolor: '&a'
+    permissions:
+    - perm.here
+  Cmod:
+    prefix: '&2ChatMod'
+    maincolor: '&9'
+    permissions:
+    - core.mute
+    - core.unmute
+    - core.tempmute
+  Sb:
+    prefix: '&c&lSB'
+    maincolor: '&a'
+    permissions:
+    - perm.here
+player:
+  1246b3c5-4474-4c48-91ec-0218a4013ef5: Owner
+  b4245641-6f3c-4fb6-b76e-e14b0a20288d: Cmod
+  dfb2b9c1-1d3b-48a4-9985-72ff51c6bf29: Member
+  6243900f-d99f-4981-8024-d766d950e13c: Member
+  7773b8ad-1f80-49ac-87c8-b92c03ce18e6: Mod
+  edef3212-3fb0-4109-9bad-e5c074c576e4: Member
+  059869fd-2abf-44a4-9399-413640305e83: Member
+  7e5d7d78-ed45-4dd4-a6bc-448a8f1741c6: Member
+  65341c6f-52a2-4ece-815d-e1020700aa5d: Member
+  b220f568-a563-4862-9ba9-8df1fd697b07: Member
+  a9737e40-d3fe-4165-bf52-2dfad234ae6d: Member
+  28e523cd-cda7-3b6d-a9d0-2b7e8ae7afa9: Member
+  4371eb36-1a03-37e7-809d-9d3155877ca7: Member
+  f9171298-4a3f-38ab-9086-63d43a795409: Member
+  fa3b9ca0-b410-4f03-90a7-3e40eeebc0ee: Sb
+  cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973: Member
+Player-permissions:
+  1246b3c5-4474-4c48-91ec-0218a4013ef5:
+  - core.tag.1
+  - tag.1
+  - '*'

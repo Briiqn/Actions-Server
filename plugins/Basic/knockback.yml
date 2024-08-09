@@ -1,0 +1,23 @@
+KnockbackPreset:
+  Zonix:
+    name: '&4&lZonix'
+    description: '&cZonix Preset'
+    horizontal: 1.08
+    vertical: 1.13
+    combo-horizontal: 1.0
+    combo-vertical: 1.1
+  Suikaland:
+    name: '&6&lSuikaland'
+    description: '&cSuikaland Preset'
+    horizontal: 1.02
+    vertical: 1.086
+    combo-horizontal: 1.0
+    combo-vertical: 1.1
+  Kohi:
+    name: '&d&lKohi'
+    description: '&cKohi Preset'
+    horizontal: 0.823
+    vertical: 0.9554
+    combo-horizontal: 1.0
+    combo-vertical: 1.1
+knockback-multiplier: {}

@@ -1,0 +1,30 @@
+# This is the main configuration file for FoxSpigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# Config Default:
+# 
+# knockback: ( Set your default knocback config)
+#   default-profile: default
+# hide-players-from-tablist: <true/false> ( Hide players from Tab )
+# player-move-event: <true/false> ( Enable this, for stop the error called 'BlockFace' )
+# left-click-air: <true/false> ( Enable actions on left click on air )
+# left-click-block: <true/false> ( Enable actions on left click on blocks )
+# entity-activation: <true/false> ( Enable entity like Falling blocks, Primed TNT, EnderPearl, etc... )
+# invalid-arm-animation-kick: <true/false> ( Kick if arm animation is invalid )
+# mob-ai: <true/false> ( Make mobs more smart )
+# 1dot8-enabled: <true/false> ( Enable this, if you want cook 'Mutton' )
+# player-chunk-unload: <true/false> ( Removes unnecessary chuncks )
+
+knockback:
+  default-profile: default
+hide-players-from-tablist: true
+player-move-event: false
+ping-command: false
+left-click-air: false
+left-click-block: false
+entity-activation: false
+invalid-arm-animation-kick: false
+mob-ai: true
+1dot8-enabled: false
+player-chunk-unload: true

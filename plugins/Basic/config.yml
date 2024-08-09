@@ -1,0 +1,330 @@
+MySQL:
+  enable: false
+  address: localhost
+  port: 3306
+  database: basic_database
+  username: root
+  password: ''
+
+Core:
+
+  # do not share or leak your license
+  # if you do, I'll disable your license... ^^
+  License: ""
+
+  NoPermission: "&cYou do not have permission to execute this command."
+  Player-not-found: "&cThat player can not be found on the server."
+  CommandPrefix: ""
+  Fastpot: true
+  Bungeecord: true
+  custom-tablist: true
+  # you can use %NAME% %COLOR% %RANK%
+  tablist-format: "%COLOR%%NAME%"
+  StaffJoinMessage: "&b[Staff] &b%PLAYER% &fconnected to &3Practice&f."
+  PrivateMessage:
+    enable: true
+    PM-From-Format: "&7(From %PLAYER%&7) "
+    PM-To-Format: "&7(To %PLAYER%&7) "
+    tpm: "&fYou have %TPM% private message."
+    tsm: "&fYou have %TSM% message notify."
+  HelpOP:
+    enable: true
+    player: "&fyour message has been sent. \nStaff will response as soon as possible."
+    staff: "&b[HelpOP] &b%PLAYER% &frequested assistance.\n&bReason: &f%MSG%"
+  Panic:
+    enable: false
+    cmd-cooldown: 1200 #seconds
+    freeze-time: 600 #seconds
+    alert-msg: "&b[Staff] &b%PLAYER% &factivated &c&lPanic mode &bon &3PRACTICE&b."
+    unpanicbystaff-msg: "&bYou was unpanic by %STAFF%&b."
+    unpanic-msg: "&bYou was unpanic yourself."
+    cooldown-msg: "&cYou are on cooldown. Please try again in %TIME% seconds."
+    panic-msg:
+      - ""
+      - "&7&m+------------------------------------------+"
+      - "&c&lYou have activated your Panic mode!"
+      - ""
+      - "&fWait for staff members or join our Discord:"
+      - "&b&lhttps://server.com/discord"
+      - ""
+      - "&7&oYou can unpanic yourself with /unpanic."
+      - "&7&m+------------------------------------------+"
+
+  Report:
+    enable: true
+    cooldown-time: 60
+    cooldown: "&cYou are on cooldown. Please try again in %TIME% seconds."
+    reporter: "&fYou reported %COLOR%%PLAYER% &ffor: &c%REASON%"
+    staff: "&b[Report] &b%REPORTER% &freported &b%PLAYER% &ffor: &3%REASON%"
+  HealMessage:
+    enable: true
+    heal-myself: "You have been healed!"
+    healed-otherplayer: "You healed %PLAYER%."
+    heal-otherplayer: "You have been healed by %PLAYER%."
+  Playtime:
+    enable: false
+    msg: "&fYour playtime is &b%PLAYTIME% &fon this server."
+    msg-other: "%PLAYER%&f's playtime is &b%PLAYTIME% &fon this server."
+  Refill:
+    enable: true
+    #POT or SOUP
+    type: POT
+    msg: "&bThere you go."
+  PingMessage:
+    enable: true
+    ping-self-check: "Your ping is &b%PING%ms."
+    ping-otherplayer-check: "%COLOR%%PLAYER%&f's ping is %PING%ms."
+  Gamemode:
+  Gamemode:
+    enable: true
+    SwitchMessage: "Your gamemode has been updated to &b%GAMEMODE%"
+    gamemode-other-staff: "You have updated &b%PLAYER% gamemode to %GAMEMODE%."
+    gamemode-other: "Your gamemode has been changed to &b%GAMEMODE% &fby &b%STAFF%&f."
+  Fly:
+    enable: true
+    SwitchMessage: "Your ability to fly has been &b%FLYMODE%&f."
+    TargetMessage: "Your ability to fly has been %FLYMODE% &fby &b%PLAYER%&f."
+  Send:
+    connect-msg: "&bConnecting to PRACTICE..."
+    sent-msg: "&bSent %PLAYER% to PRACTICE..."
+    failed-msg: "&cFailed to connect PRACTICE."
+  Teleport:
+    enable: true
+    teleport: "Teleported to %COLOR%%PLAYER%&f."
+    teleport-pos: "Teleported to coordinates: &f%X%, %Y%, %Z%"
+    teleport-to-player: "Teleported %COLOR%%PLAYER% &fto %COLOR2%%PLAYER2%&f."
+    tphere: "%COLOR%%PLAYER% &fteleported to you."
+    tphere-player: "You teleported by %COLOR%%STAFF%&f."
+  CommandSpy:
+    enable: false
+    message: "&b[Spy] %COLOR%%PLAYER%&7: %MSG%"
+  Punishment:
+    enable: true
+    warn:
+      - " "
+      - "&f████&c█&f████"
+      - "&f███&c█&b█&c█&f███"
+      - "&f██&c█&b█&0█&b█&c█&f██"
+      - "&f██&c█&b█&0█&b█&c█&f██ &4&lYou have been warned by %STAFF%&4&l."
+      - "&f█&c█&b██&0█&b██&c█&f█"
+      - "&f█&c█&b█████&c█&f█"
+      - "&c█&b███&0█&b███&c█"
+      - "&c█████████"
+      - " "
+    kick-broadcast: "&c%KICKED%&c was kicked by %STAFF%&c."
+    warn-broadcast: "&c%WARNED%&c was warned by %STAFF%&c."
+    unban-broadcast: "&b%BANNED%&b was unbanned by %STAFF%&b."
+    unmute-broadcast: "&b%MUTED%&b was unmuted by %STAFF%&b."
+    unmute-broadcast-silent: "&b%MUTED%&b was unmuted by %STAFF%&b."
+    unban-broadcast-silent: "&b%BANNED%&b was unbanned by %STAFF%&b."
+    mute-broadcast: "&c%MUTED%&c was permanently muted by %STAFF%&c."
+    mute-broadcast-silent: "&7(Silent) &c%MUTED%&c was permanently muted by %STAFF%&c."
+    mute-broadcast-temp: "&c%MUTED%&c was temporary muted by %STAFF%&c."
+    mute-broadcast-temp-silent: "&7(Silent) &c%MUTED%&c was temporary muted by %STAFF%&c."
+    ban-broadcast-perm: "&c%BANNED%&c was permanently banned by %STAFF% &cfor %REASON%."
+    ban-broadcast-perm-silent: "&7(Silent) &c%BANNED%&c was permanently banned by %STAFF% &cfor %REASON%."
+    ban-broadcast-temp: "&c%BANNED%&c was temporary banned by %STAFF% &cfor %REASON%."
+    ban-broadcast-temp-silent: "&7(Silent) &c%BANNED%&c was temporary banned by %STAFF% &cfor %REASON%."
+    blacklist-broadcast: "&c%BANNED%&c was blacklisted by %STAFF%&c."
+    blacklist-broadcast-silent: "&7(Silent) &c%BANNED%&c was blacklisted by %STAFF%&c."
+    kick-msg: "&cYou have been kicked from the network."
+    ban-msg: "&fYour account is currently &6permanently &fsuspendded from &6&lNeverMind Network&f!\n\n Reason: &c&l Unfair Advantages\n&fIP Relative&7: No\n\n&fTo appeal visit&7: &6QQ:2365638692 "
+    mute-msg-chat: "&cYou are permanently muted."
+    mute-msg-chat-temp: "&cYou are temporary muted for %REASON%.\nExpires at %TIME%."
+  Rank:
+    enable: true
+    Chat-Format: "&7[%RANK%&7] %COLOR%%PLAYER%%TAG%&f: "
+    grant-message: "&fyour rank has been promoted to %RANK% &bby %PLAYER%&b."
+    Chat-Cooldown: false
+    Cooldown-time: 3
+    Cooldown-Msg:
+      - "&cDefault players can only talk in chat every &f%TIME% seconds&c!"
+      - "&cPurchase a rank at &f&nstore.server.com &c to bypass this restriction."
+
+  PlayerList:
+    msg:
+      - "&7&m----------------------------------------------------"
+      - "%RANKS%"
+      - "&7(%SIZE%/%MAX%) &r%PLAYERS%"
+      - "&7&m----------------------------------------------------"
+  Vote:
+    enable: false
+    ip: "server.com"
+    reword: "rank addplayerperm %PLAYER% tag.vote"
+    thankyou-message: "&bThank you for voting for us on NameMC!\n&bYou received &7[&b✔&7] &btag for reward."
+    failed-message: "&cYou are not voting for the server."
+
+  KnockBack: true
+
+  MOTD: "&b&lNeverMind Network &8» &c Now 50% off sale! \n&6&l 1.7-1.8 &1 New KB!  &c  "
+  Join-MOTD:
+    enable: true
+    msg:
+      - ""
+      - " "
+      - " &fWelcome to the &bServer &fnetwork!"
+      - " "
+      - "  &fWebsite: &bwww.server.gg"
+      - "  &fTwitter: &btwitter.server.gg"
+      - "  &fStore: &bstore.server.gg"
+      - " "
+  CancelMatch:
+    - ""
+    - "&7&m----------------------------------------------------"
+    - "&b&lMatch was Canceled by %PLAYER%."
+    - "&bReason: &f%REASON%"
+    - ""
+    - "&bYou: &f%YOU% &7[&f%HP%&7]"
+    - "&cOpponent: &f%OPPONENT% &7[&f%OPPONENT_HP%&7]"
+    - "&7&m----------------------------------------------------"
+    - ""
+  Shutdown:
+    Countdown-time: 10
+    Message-admin:
+      - " "
+      - "&7&m----------------------------------------------------"
+      - "&4Shutdown Commands:"
+      - " &b» /shutdown start &7- Start a Shutdown"
+      - " &b» /shutdown stop &7- Stop a Shutdown"
+      - "&7&m----------------------------------------------------"
+      - " "
+    Alert:
+      - " "
+      - "&4(Alert) &cYou have started a shutdown countdown!"
+      - "&4(Alert) &cIf you want to stop shutdown do /shutdown stop"
+      - " "
+    Alert-Player:
+      - "&4(Alert) &cServer Shutdown in %TIME% secounds."
+      - " "
+    Canceled-shutdown-admin:
+      - "&cShutdown canceled."
+    Canceled-shutdown-player:
+      - " "
+      - "&7&m----------------------------------------------------"
+      - "&bShutdown Canceled by %PLAYER%."
+      - "&7&m----------------------------------------------------"
+      - " "
+  FakePlugins:
+    enable: true
+    plugins:
+      - "&fPlugins (8): &bProtocalLib&f, &bServerCore&f, &bWorldedit&f, &bCustomLibs&f, &bServerPractice&f, &bServerStaff&f, &bServerExtras&f, &bCommandWhitelister"
+  ClearChat:
+    enable: true
+    Message:
+      - ""
+      - "&7&m----------------------------------------------------"
+      - "&bChat was cleared by %PLAYER%."
+      - "&7&m----------------------------------------------------"
+      - ""
+  Bad-Word:
+    - "stupid"
+    - "idiot"
+    - "noob"
+    - "L"
+    - "loser"
+    - "fuck"
+    - "fuk"
+    - "kys"
+    - "dick"
+    - "nigger"
+    - "nigga"
+    - "nibba"
+    - "jap"
+    - "negro"
+    - "vagina"
+  BroadCast:
+    enable: true
+    between: 120
+    msg1: "&cButterFlyClick is FORBIDDEN. 
+
+    &f&nUse it at your own risk."
+    msg2: "&cWe updated a lot things this time.
+
+    &f&nEnjoy!"
+    msg3: "&cBe sure to check out our Store for sales:
+
+    &f&nQQ：2365638692"
+
+  Mutechat:
+    msg: "&cPublic chat is currently muted."
+    enabled:
+      - "&3Public chat has been muted."
+
+    disabled:
+      - "&3Public chat has been unmuted."
+
+
+  ScoreBoard:
+    enable: false
+    title: "&b&lNeverMind &r&7┃ &fStaff"
+    line:
+      - "&7&m--------------------"
+      - "&b&lStaff Mode:"
+      - " §r§6» §eVanish: &r&b%VANISH%"
+      - " §r§6» §eGamemode: &b%GAMEMODE%"
+      - " §r§6» §eStaff Chat: %STAFF_CHAT%"
+      - "&7&m--------------------&r"
+  StaffChat:
+    msg: "&fYou have %MODE% &fyour staffchat."
+    StaffChat-Format: "&b[StaffChat] (PRACTICE) %STAFF_NAME% &8» &f"
+  StaffMode:
+    enable: true
+    msg: "&fYou have %MODE% &fyour staffmode."
+    item:
+      Compass:
+        Itemname: "&bCompass"
+        Material: COMPASS
+        meta: 0
+        slot: 0
+      InspectionBook:
+        Itemname: "&bInspection Book"
+        Material: BOOK
+        meta: 0
+        slot: 1
+      BetterLooking:
+        Itemname: "&bBetter Looking"
+        Material: CARPET
+        meta: 1
+        slot: 2
+      Freeze:
+        Itemname: "&bFreeze"
+        Material: ICE
+        meta: 0
+        slot: 4
+      StaffList:
+        Itemname: "&bStaff List"
+        Material: SKULL_ITEM
+        meta: 3
+        slot: 7
+      Vanish:
+        slot: 8
+        Material:
+          VanishOff:
+            Itemname: "&bBecome Invisible"
+            Material: INK_SACK
+            meta: 10
+          VanishOn:
+            Itemname: "&bBecome Visible"
+            Material: INK_SACK
+            meta: 8
+  Vanish:
+    msg: "&fYou have %MODE% &fyour vanish mode."
+  Freeze:
+    enable: true
+    self-freeze: "&cYou cannot freeze yourself."
+    freeze-player: "You has freezed %PLAYER%."
+    unfreeze-player: "You has unfreezed %PLAYER%."
+    logout-player-while-frozen-message:
+      - " "
+      - "&4&l%PLAYER% &clogged out while frozen!"
+    Frozen-Message:
+      - " "
+      - "&f████&c█&f████"
+      - "&f███&c█&c█&c█&f███ &4&lDo NOT log out!"
+      - "&f██&c█&c█&0█&c█&c█&f██ &cIf you do, you will be banned!"
+      - "&f██&c█&c█&0█&c█&c█&f██ &e+QQ:2365638692"
+      - "&f█&c█&c██&0█&c██&c█&f█ &etntxComet.club"
+      - "&f█&c█&c█████&c█&f█"
+      - "&c█&c███&0█&c███&c█"
+      - "&c█████████"
+      - " "
