@@ -58,15 +58,8 @@ stats:
 world-settings:
   default:
     verbose: true
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
+    mob-spawn-range: 4
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -87,6 +80,15 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -104,8 +106,6 @@ world-settings:
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 10
-    mob-spawn-range: 4
-    nerf-spawner-mobs: false
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -125,8 +125,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: 10
     wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
