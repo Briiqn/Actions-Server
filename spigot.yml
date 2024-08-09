@@ -81,16 +81,6 @@ world-settings:
       - 1
       - 5
     mob-spawn-range: 4
-    nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -107,6 +97,16 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
+    nerf-spawner-mobs: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -127,8 +127,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: 10
     wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
