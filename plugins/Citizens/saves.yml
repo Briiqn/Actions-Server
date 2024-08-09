@@ -9,7 +9,7 @@
 
 
 
-last-created-npc-id: 2
+last-created-npc-id: 3
 npc:
   '0':
     metadata:
@@ -121,6 +121,53 @@ npc:
             n: -1
             delay: 0
     traitnames: inventory,location,owner,mounttrait,commandtrait,skintrait,type,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid: 9b0d4248-b96d-4a84-9feb-847087d16b1b
+      cached-skin-uuid-name: bedwars
+    name: '&fBed&cWars'
+    uuid: f5ffb179-fd97-4ff4-8dfe-3369d0a6a198
+    traits:
+      inventory: {}
+      owner:
+        uuid: be6d2a29-3a11-40c4-a4fb-7b970d6aa48f
+      location:
+        bodyYaw: -0.25131226
+        world: world
+        x: '-1118.5778'
+        y: '68.0'
+        z: '-280.0963'
+        yaw: '-0.2513'
+        pitch: '1.7556'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UjjQIheBYevz1OJD1ri5Sv5coRrPO0H5UIdm1XeBhQsjTdfK/FEaTYr9VMNnUyyFpR+RXZvMZPvusvPsFbXK0+2NuqXf8+JGBpiRnLZCtGwULqYRHvLeW0keKUObqaNlGrJVBXQwIbpdTz0SRWZgSfSBWr+Q3k0gotV56z9Kslj4F1mKXvoatNNeJnApC7XuoIKIJoEB6KeZhpGk07HnjVwhyc2BWll3WlYosj93jBLi8I2EBmgz7scFHSWsQwXRJkNXRSaqf/1ADfju2RNQWM7/t5tpYx8RrQo98KlB/oBqW4ol5hPEQxFgZO9po/mnJoSxDjIywK8YlwGXKGOIjFdypo/mR46fs9PAh59jq5pL/kMtSvCpWejNqw8Z1tO1mUg0/+nphT6ppfbZUt3JyQ8zOlf1kDxZ31dcRWLTWaJDl65Pe2JqDpplnytEbEm8gLorbvORsxD9HJE4y6mEQ/ZAlVUCJIEMWYyZp6fMNRnWc+MUIDI5GicFIj71eWVQ4eY1SJhC7v+LB+vLQf5H7hNrMwMctubqReErsf1iUqumSjHg7HD5d3bIdFUmXPP4QM/LAKuFlHeIMzUFQpyWHTteR5u7CKLJ/hDmqDd6CNbLKUSx88Idq3iuerYvGNRrBI5duwBqcN/UQdpd4eojBVWC+wgNGqqmzyMyCCHzaQk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE2MzQyNzA1MywKICAicHJvZmlsZUlkIiA6ICI5YjBkNDI0OGI5NmQ0YTg0OWZlYjg0NzA4N2QxNmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWRXYXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4MDYzYTFhNDk3MGMxYjI2N2RlN2QxYTZlNmRkMGY5NjVkNWEyZjRlMGIxMTQxNjhlZGI4ZThlMjg4N2MxMmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        commands:
+          '0':
+            command: server bedwars
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      type: PLAYER
+      spawned: true
+      scoreboardtrait: {}
+    traitnames: inventory,owner,location,mounttrait,skintrait,commandtrait,type,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
