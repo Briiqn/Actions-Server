@@ -60,15 +60,8 @@ stats:
 world-settings:
   default:
     verbose: true
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
+    nerf-spawner-mobs: false
+    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -83,7 +76,20 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     hopper-amount: 1
-    mob-spawn-range: 4
+    random-light-updates: false
+    save-structure-info: true
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -104,10 +110,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
     hunger:
@@ -119,8 +121,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    random-light-updates: false
-    save-structure-info: true
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
