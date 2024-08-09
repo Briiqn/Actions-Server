@@ -340,7 +340,7 @@ custom_join_items:
         - "[MESSAGE] &r"
         - "[MESSAGE] &e&lServer Information"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fgithubservers.orgt"
+        - "[MESSAGE] &bWebsite: &fgithubservers.org"
         - "[MESSAGE] &cGithub: &fgithub.com/Briiqn/Actions-Server"
         - "[MESSAGE] &r"
     server_selector:
