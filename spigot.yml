@@ -99,7 +99,6 @@ world-settings:
       - 1
       - 5
     mob-spawn-range: 4
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -120,6 +119,7 @@ world-settings:
       bamboo-modifier: 100
       sweetberry-modifier: 100
       kelp-modifier: 100
+    nerf-spawner-mobs: false
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -156,11 +156,11 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: 100
     item-despawn-rate: 6000
-    hanging-tick-frequency: 100
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: default
     wither-spawn-sound-radius: 0
+    view-distance: default
+    hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     max-tick-time:
       tile: 50
