@@ -34,6 +34,13 @@ settings:
     attackDamage:
       max: 2048.0
   debug: false
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: '&fUnknown Command use /help for help'
+  server-full: '&c&lServer Full!'
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: '&a&lServer restarting...'
 commands:
   tab-complete: 0
   log: true
@@ -46,13 +53,6 @@ commands:
   - testforblock
   - tellraw
   send-namespaced: false
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: '&fUnknown Command use /help for help'
-  server-full: '&c&lServer Full!'
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: '&a&lServer restarting...'
 stats:
   disable-saving: false
   forced-stats: {}

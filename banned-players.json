@@ -2,7 +2,7 @@
   {
     "uuid": "3d83ec9c-556f-48ee-a129-797366471121",
     "name": "Mad",
-    "created": "2021-01-20 12:22:22 -0500",
+    "created": "2021-01-20 17:22:22 +0000",
     "source": "Server",
     "expires": "forever",
     "reason": "Pickaxe"
@@ -10,7 +10,7 @@
   {
     "uuid": "f2884730-046a-3353-b8db-e67eb6400870",
     "name": "Gila_bor",
-    "created": "2020-11-15 01:59:27 -0500",
+    "created": "2020-11-15 06:59:27 +0000",
     "source": "Server",
     "expires": "forever",
     "reason": "Banned by an operator."
