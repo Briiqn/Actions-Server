@@ -313,3 +313,53 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ kons0las was punished for Auto Block (Type B) ]--------------
+
+Location:
+ - World: Maps
+ - X: 331.05056983312653
+ - Y: 105.0
+ - Z: -625.7011834194569
+
+Information:
+ - UUID: bc4f5a10-e49d-4b95-b50e-5e5b108166dd
+ - Keep Alive Ping: 0
+ - Transaction Ping: 235
+ - Server TPS: 20
+ - Sensitivity: 97
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 12.15 seconds ago
+
+Total Violations: 11
+ - Combat Violations: 4
+ - Movement Violations: 4
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 243
+ - Since Riptide Ticks: 200
+ - Flying Delay: 52
+ - Since Velocity Ticks: 243
+ - Since Firework Ticks: 579
+ - Ticks Existed: 625
+ - Since Vehicle Ticks: 479
+ - Since Liquid Ticks: 479
+ - Queued Transactions: 1
+ - Joined: 36 seconds ago
+ - Holding Item: ItemStack{DIAMOND_SWORD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={DAMAGE_ALL=3, FIRE_ASPECT=2}}}
+
+All Violations:
+ - Auto Block (Type A) [VL: 1] (Attacked while sending BlockPlace packet.)
+ - Auto Block (Type B) [VL: 3] (Attacked while sending BlockDig packet.)
+ - No Slow (Type A) [VL: 4] (Placing while digging)
+ - Bad Packets (Type M) [VL: 3] (Post BlockPlace packets.)
+
+Blocks Nearby: [QUARTZ_BLOCK, WOOL, WOOL, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, QUARTZ_BLOCK, WOOL, WOOL, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, QUARTZ_BLOCK, WOOL, WOOL, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=Briiqn}]
+Potion Effects: [SPEED:1455t-x1, FIRE_RESISTANCE:9305t-x0]
+---------------------------------------------------------------------------
+
+
