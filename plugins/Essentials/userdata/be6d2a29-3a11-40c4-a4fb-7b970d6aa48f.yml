@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723183588451
+  logout: 1723184141548
   login: 1723184136046
 money: '0'
 last-account-name: xNotJames
 logoutlocation:
   world: 6db25809-c288-4f61-ad52-b0daa6a42e35
   world-name: world
-  x: -1120.9508877879762
+  x: -1116.2382987327612
   y: 68.0
-  z: -282.47874059349215
-  yaw: 148.37583923339844
-  pitch: 8.941655158996582
+  z: -281.78413546584954
+  yaw: 209.92056274414062
+  pitch: 10.943103790283203
 lastlocation:
   world: 6db25809-c288-4f61-ad52-b0daa6a42e35
   world-name: world
