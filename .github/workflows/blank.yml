@@ -31,6 +31,7 @@ jobs:
           HOSTNAME: ${{secrets.CF_TUNNEL_HOSTNAME}}
           HOSTNAME_2: ${{secrets.CF_TUNNEL_HOSTNAME_2}}
           HOSTNAME_3: ${{secrets.CF_TUNNEL_HOSTNAME_3}}
+          HOSTNAME_4: ${{secrets.CF_TUNNEL_HOSTNAME_4}}
 
         run: |
           curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
@@ -39,6 +40,7 @@ jobs:
           cloudflared access tcp --hostname ${HOSTNAME} --url localhost:25566 > /dev/null &
           cloudflared access tcp --hostname ${HOSTNAME_2} --url localhost:25569 > /dev/null &
           cloudflared access tcp --hostname ${HOSTNAME_3} --url localhost:25570 > /dev/null &
+          cloudflared access tcp --hostname ${HOSTNAME_4} --url localhost:25571 > /dev/null &
 
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
