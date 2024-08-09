@@ -1,1 +1,17 @@
 username: kons0las
+NoDebuff:
+  elo: 1000
+Debuff:
+  elo: 1000
+HCF:
+  elo: 1000
+Combo:
+  elo: 1000
+Archer:
+  elo: 1000
+Axe:
+  elo: 1000
+BuildUHC:
+  elo: 1000
+Sumo:
+  elo: 1000
