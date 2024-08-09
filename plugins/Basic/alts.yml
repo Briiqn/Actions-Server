@@ -18,6 +18,10 @@ Briiqn:
     '81':
       '5':
       - Bce_Xopowo
+  '30':
+    '38':
+      '147':
+      - kons0las
 xNotJames:
   ip: 127.0.0.1
 Thewdie:
@@ -26,3 +30,5 @@ Bxrl:
   ip: 127.230.225.230
 Bce_Xopowo:
   ip: 127.197.81.5
+kons0las:
+  ip: 127.30.38.147
