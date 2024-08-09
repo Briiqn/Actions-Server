@@ -1,6 +1,6 @@
-message: "%kickmsg%"
-servername: "server2"
-mode: whitelist
+mode: blacklist
+servername: lobby
 list:
 - ban
 - kick
+message: "%kickmsg%"
