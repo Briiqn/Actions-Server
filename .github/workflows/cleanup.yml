@@ -9,12 +9,15 @@ jobs:
   delete-workflow-runs:
     runs-on: ubuntu-latest
     steps:
+      - name: Install GitHub CLI
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          sudo apt update
+          sudo apt install gh
+
       - name: Delete all workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ secrets.FINE_GRAINED_PAT }}
-          repository: ${{ github.repository }}
-          retain_days: 0
-          keep_minimum_runs: 0
-          delete_workflow_pattern: .*
-          delete_run_by_conclusion_pattern: .*
+        env:
+          GH_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
+        run: |
+          gh run list -L 10000 --json databaseId -q '.[].databaseId' | xargs -I {} gh run delete {}
