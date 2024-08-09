@@ -28,8 +28,8 @@ jobs:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
           CF_TUNNEL_CERT: ${{secrets.CF_CERT}}
-          CF_TUNNEL_UUID: ${{secrets.CF_TUNNEL_UUID_1}}
-          CF_TUNNEL_UUID_CONTENT: ${{secrets.CF_TUNNEL_UUID_CONTENT}}
+          CF_TUNNEL_UUID: ${{secrets.CF_TUNNEL_UUID_4}}
+          CF_TUNNEL_UUID_CONTENT: ${{secrets.CF_TUNNEL_UUID_CONTENT_4}}
         run: |
           curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
           echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main' | sudo tee /etc/apt/sources.list.d/cloudflared.list
