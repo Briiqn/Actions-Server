@@ -10,16 +10,16 @@ mongo:
 scoreboard:
   enabled: true
   LOBBY:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
     - '&fFighting: &b%fighting%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   LOBBY-CLAN:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
@@ -28,10 +28,10 @@ scoreboard:
     - '&fClan: &b%clan%'
     - '&fClan ELO: &b%clanElo%'
     - ''
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   RANKED-QUEUE:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
@@ -40,10 +40,10 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   RANKED-QUEUE-CLAN:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
@@ -55,10 +55,10 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-QUEUE:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
@@ -68,10 +68,10 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-QUEUE-CLAN:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
@@ -84,60 +84,60 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-MATCH-STARTING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOpponent: &b%opponent%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-MATCH-STARTED:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOpponent: &b%opponent%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-MATCH-ENDING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fMatch ended.'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   RANKED-MATCH-STARTING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOpponent: &b%opponent%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   RANKED-MATCH-STARTED:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOpponent: &b%opponent%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   RANKED-MATCH-ENDING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fMatch ended.'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   SPECTATING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&b%player1%'
@@ -145,15 +145,15 @@ scoreboard:
     - '&c%player2%'
     - '&7&m--------------------'
   EDITING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fEditing Kit:&b %kit%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   PARTY-LOBBY:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fOnline: &b%online%'
@@ -162,29 +162,29 @@ scoreboard:
     - '&fLeader: &b%leader%'
     - '&fMembers: &b%members%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   PARTY-MATCH:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fTeam: &b%alive%/%all%'
     - '&fOpponents:&b %opponentAlive%/%opponentAll%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   PARTY-MATCH-FFA:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fAlive: &b%alive%/%all%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   PARTY-MATCH-BARD:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fTeam: &b%alive%/%all%'
@@ -192,30 +192,30 @@ scoreboard:
     - '&fBard Energy:&b %energy%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   SUMO-EVENT-STARTING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fEvent: &bSumo'
     - '&fPlayers: &b%players%/%max%'
     - '&fStarting: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   SUMO-EVENT-STARTED:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fEvent: &bSumo'
     - '&fPlayers: &b%players%/%max%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   SUMO-EVENT-MATCH:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&fEvent: &bSumo'
@@ -226,10 +226,10 @@ scoreboard:
     - '&fCPS: &b%cps1% &7%splitter% &b%cps2%'
     - '&fPing: &b%ping1% &7%splitter% &b%ping2%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   TOURNAMENT-STARTING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&bTournament'
@@ -237,10 +237,10 @@ scoreboard:
     - ' &7* &fPlayers: &b%players%/%max%'
     - ' &7* &fStarting: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   TOURNAMENT-STARTED:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&bTournament'
@@ -249,10 +249,10 @@ scoreboard:
     - ' &7* &fRound: &b%round%'
     - ' &7* &fDuration: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
   TOURNAMENT-WAITING:
-    title: '&bServer &7(Practice)'
+    title: '&bArenaPvP &7(Beta)'
     slots:
     - '&7&m--------------------'
     - '&bTournament'
@@ -261,7 +261,7 @@ scoreboard:
     - ' &7* &fRound: &b%round%'
     - ' &7* &fStarting: &b%time%'
     - ' '
-    - '&bserver.gg'
+    - '&bgithubservers.gg'
     - '&7&m--------------------'
 items:
   UNRANKED:
