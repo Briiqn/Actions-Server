@@ -1,0 +1,265 @@
+--------------[ xNotJames was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -1118.6834280379392
+ - Y: 68.0
+ - Z: -273.97807286995715
+
+Information:
+ - UUID: be317d90-8585-31d4-b983-cc75820d94de
+ - Keep Alive Ping: 412
+ - Transaction Ping: 342
+ - Server TPS: 19.98
+ - Sensitivity: 74
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 127.2 seconds ago
+
+Total Violations: 34
+ - Combat Violations: 0
+ - Movement Violations: 33
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 1
+ - Since Riptide Ticks: 200
+ - Flying Delay: 1
+ - Since Velocity Ticks: 2544
+ - Since Firework Ticks: 667
+ - Ticks Existed: 2444
+ - Since Vehicle Ticks: 567
+ - Since Liquid Ticks: 567
+ - Queued Transactions: 2
+ - Joined: 127 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 1] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 4] (Invalid jump motion.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type B) [VL: 3] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 4] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 1] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 11] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [SPRUCE_WOOD_STAIRS, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WOOD, WOOD, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SPRUCE_WOOD_STAIRS, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(997575t-x0)]
+---------------------------------------------------------------------------
+
+
+--------------[ xNotJames was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -1110.2294321483485
+ - Y: 77.7531999805212
+ - Z: -269.88940731001327
+
+Information:
+ - UUID: be317d90-8585-31d4-b983-cc75820d94de
+ - Keep Alive Ping: 397
+ - Transaction Ping: 497
+ - Server TPS: 20
+ - Sensitivity: 74
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 24.6 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 4
+ - Since Riptide Ticks: 200
+ - Flying Delay: 1
+ - Since Velocity Ticks: 492
+ - Since Firework Ticks: 463
+ - Ticks Existed: 392
+ - Since Vehicle Ticks: 363
+ - Since Liquid Ticks: 363
+ - Queued Transactions: 2
+ - Joined: 35 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 2] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 5] (Invalid jump motion.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 4] (Invalid friction.)
+ - Speed (Type B) [VL: 4] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 8] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 12] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:(994556t-x0)]
+---------------------------------------------------------------------------
+
+
+--------------[ Briiqn was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -1119.3577481743596
+ - Y: 73.47436494926592
+ - Z: -222.23718899962628
+
+Information:
+ - UUID: d2a59894-242b-3843-8016-7545edc9d28e
+ - Keep Alive Ping: 0
+ - Transaction Ping: 328
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 12.2 seconds ago
+
+Total Violations: 34
+ - Combat Violations: 0
+ - Movement Violations: 33
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 129
+ - Since Riptide Ticks: 200
+ - Flying Delay: 13
+ - Since Velocity Ticks: 244
+ - Since Firework Ticks: 295
+ - Ticks Existed: 144
+ - Since Vehicle Ticks: 195
+ - Since Liquid Ticks: 195
+ - Queued Transactions: 1
+ - Joined: 7 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Jump (Type A) [VL: 1] (Invalid jump motion.)
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Speed (Type B) [VL: 9] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 9] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 9] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 4] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ xNotJames was punished for Improbable (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -1120.9399369013065
+ - Y: 68.0
+ - Z: -273.7317091193394
+
+Information:
+ - UUID: be317d90-8585-31d4-b983-cc75820d94de
+ - Keep Alive Ping: 380
+ - Transaction Ping: 399
+ - Server TPS: 20
+ - Sensitivity: 74
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 183.5 seconds ago
+
+Total Violations: 32
+ - Combat Violations: 0
+ - Movement Violations: 31
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 0
+ - Since Riptide Ticks: 200
+ - Flying Delay: 0
+ - Since Velocity Ticks: 3670
+ - Since Firework Ticks: 1413
+ - Ticks Existed: 3570
+ - Since Vehicle Ticks: 1313
+ - Since Liquid Ticks: 1313
+ - Queued Transactions: 1
+ - Joined: 189 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 10] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 2] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 2] (Invalid friction.)
+ - Speed (Type B) [VL: 3] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 7] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 2] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 5] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [WOOD, WOOD, SPRUCE_WOOD_STAIRS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WOOD, WOOD, SPRUCE_WOOD_STAIRS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SPRUCE_WOOD_STAIRS, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Briiqn was punished for Bad Packets (Type I) ]--------------
+
+Location:
+ - World: world
+ - X: -1120.2066928588374
+ - Y: 68.0
+ - Z: -272.0439064523184
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 397
+ - Server TPS: 20
+ - Sensitivity: 63
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 32.9 seconds ago
+
+Total Violations: 4
+ - Combat Violations: 1
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 658
+ - Since Riptide Ticks: 200
+ - Flying Delay: 1
+ - Since Velocity Ticks: 658
+ - Since Firework Ticks: 299
+ - Ticks Existed: 558
+ - Since Vehicle Ticks: 199
+ - Since Liquid Ticks: 199
+ - Queued Transactions: 1
+ - Joined: 28 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Aim (Type Y) [VL: 1] (Generic rotation analysis heuristic.)
+ - Bad Packets (Type I) [VL: 3] (Sent EntityAction while attacking.)
+
+Blocks Nearby: [WOOD, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WOOD, SPRUCE_WOOD_STAIRS, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SPRUCE_WOOD_STAIRS, WOOD, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
