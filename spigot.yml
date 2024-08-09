@@ -80,6 +80,16 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    nerf-spawner-mobs: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
     mob-spawn-range: 4
     entity-activation-range:
       animals: 32
@@ -97,16 +107,6 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
-    nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
