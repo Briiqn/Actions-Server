@@ -1,5 +1,13 @@
 lastAccountName: kons0las
 timestamps:
   login: 1723224323192
+  logout: 1723224590159
 ipAddress: 127.30.38.147
 money: '60.0'
+logoutlocation:
+  world: world
+  x: 6.212105678419687
+  y: 63.5
+  z: 0.06040832002855144
+  yaw: -274.7777
+  pitch: 5.272412
