@@ -1,4 +1,12 @@
 lastAccountName: Bce_Xopowo
 timestamps:
-  login: 1723201085300
+  login: 1723201154050
+  logout: 1723201145650
 ipAddress: 127.197.81.5
+logoutlocation:
+  world: world
+  x: -27.898075134222122
+  y: 70.5
+  z: 0.4873805148138568
+  yaw: -89.248276
+  pitch: 14.459125
