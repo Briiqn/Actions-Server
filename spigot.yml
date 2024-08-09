@@ -95,8 +95,6 @@ world-settings:
       - 1
       - 5
     mob-spawn-range: 4
-    random-light-updates: false
-    save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -132,6 +130,8 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
