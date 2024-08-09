@@ -73,6 +73,34 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 100
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -93,18 +121,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -114,28 +131,11 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    nerf-spawner-mobs: false
-    mob-spawn-range: 4
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.3
-      regen-exhaustion: 3.0
-    max-tnt-per-tick: 100
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: 10
     wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     max-tick-time:
