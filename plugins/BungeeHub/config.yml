@@ -1,0 +1,22 @@
+##################################################
+#          BungeeHUB by @iFedeFC                 #
+##################################################
+
+
+
+#This is the server to which they will be connected 
+#(It must be the SAME name as in the config.yml of BUNGEECORD)
+Hub-Server: Lobby
+
+Connected: '&aYou are connected to the Lobby'
+Already-Connected: '&cYou are already connected to this server!'
+Disabled-Command: '&cI''m sorry, but on this server the command is disabled!'
+
+#Here, you can add the commands that you want to be used to return to the lobby!
+Hub-Commands:
+- /lobby
+- /hub
+
+#Servers in which the command can not be placed
+Deny-Servers:
+ - 'prelobby'
