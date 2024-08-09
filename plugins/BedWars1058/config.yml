@@ -52,7 +52,7 @@ countdowns:
   next-event-dragon-spawn: 600
   next-event-game-end: 120
 shout-cmd-cooldown: 5
-server-ip: www.hypixel.net
+server-ip: githubservers.org
 tnt-jump-settings:
   barycenter-alteration-in-y: 0.5
   strength-reduction-constant: 5
