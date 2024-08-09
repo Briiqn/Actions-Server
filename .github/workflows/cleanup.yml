@@ -1,35 +1,18 @@
-name: Delete Previous Workflow Runs
+name: Cleanup Workflow Runs
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:  # Allows manual triggering
+  schedule:
+    - cron: '0 0 * * 0'  # Runs weekly at midnight on Sunday
 
 jobs:
-  delete_workflows:
+  delete-workflow-runs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete workflow runs
-        uses: actions/github-script@v6
+        uses: Mattraks/delete-workflow-runs@v2
         with:
-          github-token: ${{secrets.FINE_GRAINED_TOKEN}}
-          script: |
-            const workflowsToKeep = ['Delete Previous Workflow Runs']; // Add names of workflows you want to keep
-            const runs = await github.paginate(github.rest.actions.listWorkflowRunsForRepo, {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              per_page: 100,
-            });
-            
-            for (const run of runs) {
-              if (!workflowsToKeep.includes(run.name) && run.status === 'completed') {
-                console.log(`Deleting workflow run ${run.id} (${run.name})`);
-                await github.rest.actions.deleteWorkflowRun({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  run_id: run.id,
-                });
-              }
-            }
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 0
