@@ -134,8 +134,8 @@ world-settings:
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     max-tick-time:
