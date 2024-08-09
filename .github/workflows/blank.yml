@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -80,7 +81,15 @@ jobs:
             done
           }
           
-          # Loop to commit and delete workflows every 30 seconds
+          # Function to trigger a new workflow
+          trigger_new_workflow() {
+            curl -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${REPO}/dispatches \
+              -d '{"event_type": "restart_workflow"}'
+          }
+          
+          # Loop to commit, delete workflows, and check processes every 30 seconds
           while true; do
             sleep 30
             commit_and_push
@@ -88,7 +97,18 @@ jobs:
             
             # Check if processes are still running
             if ! kill -0 $SPIGOT_PID 2>/dev/null || ! kill -0 $PLAYIT_PID 2>/dev/null; then
-              echo "One of the processes has finished. Restarting the workflow."
-              exit 1  # Exit with error code to trigger a workflow restart
+              echo "One of the processes has finished. Triggering a new workflow."
+              trigger_new_workflow
+              exit 0  # Exit with success code
             fi
           done
+      - name: Trigger new workflow
+        if: always()
+        env:
+          FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
+          REPO: ${{ github.repository }}
+        run: |
+          curl -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${REPO}/dispatches \
+            -d '{"event_type": "restart_workflow"}'
