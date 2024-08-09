@@ -73,6 +73,7 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -119,7 +120,6 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
-    nerf-spawner-mobs: false
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
