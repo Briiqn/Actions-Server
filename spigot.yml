@@ -18,6 +18,9 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
+stats:
+  disable-saving: false
+  forced-stats: {}
 commands:
   log: true
   tab-complete: 0
@@ -30,13 +33,6 @@ commands:
   - testforblock
   - tellraw
 settings:
-  attribute:
-    maxHealth:
-      max: 2048.0
-    movementSpeed:
-      max: 2048.0
-    attackDamage:
-      max: 2048.0
   bungeecord: true
   late-bind: false
   sample-count: 12
@@ -51,6 +47,13 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
   debug: false
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
@@ -63,9 +66,6 @@ timings:
   - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
-stats:
-  disable-saving: false
-  forced-stats: {}
 world-settings:
   default:
     verbose: true
