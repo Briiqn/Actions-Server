@@ -3,10 +3,10 @@ timestamps:
   login: 1723176811362
 ipAddress: 127.54.228.201
 lastlocation:
-  world: lighthouse
-  x: -21.85609565576477
-  y: 73.0155550727022
-  z: 89.76831551132173
-  yaw: -151.51117
-  pitch: 13.200118
-money: '235.0'
+  world: varyth
+  x: -70.79857223077506
+  y: 88.0
+  z: 24.568854631847177
+  yaw: -209.42609
+  pitch: 0.45148188
+money: '240.0'
