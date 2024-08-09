@@ -11,6 +11,28 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: '&fUnknown Command use /help for help'
+  server-full: '&c&lServer Full!'
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: '&a&lServer restarting...'
+stats:
+  disable-saving: false
+  forced-stats: {}
+commands:
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  tab-complete: 0
+  send-namespaced: false
 settings:
   bungeecord: true
   late-bind: false
@@ -18,6 +40,7 @@ settings:
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
+  save-user-cache-on-stop-only: false
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
@@ -32,33 +55,24 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  save-user-cache-on-stop-only: false
   debug: false
-commands:
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  log: true
-  tab-complete: 0
-  send-namespaced: false
-messages:
-  restart: '&a&lServer restarting...'
-  whitelist: You are not whitelisted on this server!
-  unknown-command: '&fUnknown Command use /help for help'
-  server-full: '&c&lServer Full!'
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-stats:
-  disable-saving: false
-  forced-stats: {}
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
 world-settings:
   default:
     verbose: true
+    chunks-per-tick: 650
+    clear-tick-list: false
+    merge-radius:
+      exp: 3.0
+      item: 2.5
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -68,10 +82,6 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -93,6 +103,10 @@ world-settings:
       - 1
       - 5
     mob-spawn-range: 4
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
     entity-tracking-range:
       players: 48
       animals: 48
@@ -116,28 +130,14 @@ world-settings:
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
     max-tnt-per-tick: 100
+    nerf-spawner-mobs: false
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    view-distance: 10
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
     max-tick-time:
       tile: 50
       entity: 50
-    nerf-spawner-mobs: false
-    enable-zombie-pigmen-portal-spawns: true
-    hanging-tick-frequency: 100
-    wither-spawn-sound-radius: 0
-    view-distance: 10
-    item-despawn-rate: 6000
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    arrow-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
-    chunks-per-tick: 650
-    clear-tick-list: false
-timings:
-  enabled: true
-  verbose: true
-  server-name-privacy: false
-  hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
-  history-interval: 300
-  history-length: 3600
