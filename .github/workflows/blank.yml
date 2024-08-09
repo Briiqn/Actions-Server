@@ -97,7 +97,7 @@ jobs:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
         run: |
-          response=$(curl -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
+          response=$(curlz -X POST -H "Authorization: token $FINE_GRAINED_PATs" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${REPO}/dispatches \
             -d '{"event_type": "restart_workflow"}' \
