@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ "skywars" ]
+    branches: [ "arenapvp" ]
   pull_request:
-    branches: [ "skywars" ]
+    branches: [ "arenapvp" ]
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
