@@ -58,7 +58,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     nerf-spawner-mobs: false
     anti-xray:
       enabled: true
@@ -80,6 +79,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -124,9 +124,9 @@ world-settings:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
+    view-distance: 10
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
