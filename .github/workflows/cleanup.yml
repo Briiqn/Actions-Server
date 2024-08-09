@@ -1,23 +1,31 @@
-name: Cleanup All Workflow Runs
+name: Purge All Workflow Runs
 
 on:
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0'  # Runs weekly at midnight on Sunday
+    - cron: '0 0 * * 0'
 
 jobs:
-  delete-workflow-runs:
+  purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Install GitHub CLI
-        run: |
-          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-          sudo apt update
-          sudo apt install gh
-
-      - name: Delete all workflow runs
+      - name: Purge workflow runs
         env:
-          GH_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
+          GITHUB_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
+          REPO: ${{ github.repository }}
         run: |
-          gh run list -L 10000 --json databaseId -q '.[].databaseId' | xargs -I {} gh run delete {}
+          workflows=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$REPO/actions/workflows" | jq '.workflows[].id')
+          
+          for workflow in $workflows
+          do
+            runs=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/repos/$REPO/actions/workflows/$workflow/runs" | jq '.workflow_runs[].id')
+            
+            for run in $runs
+            do
+              curl -s -X DELETE -H "Authorization: token $GITHUB_TOKEN" \
+                "https://api.github.com/repos/$REPO/actions/runs/$run"
+              echo "Deleted run $run"
+            done
+          done
