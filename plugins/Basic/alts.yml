@@ -14,9 +14,15 @@ Briiqn:
     '225':
       '230':
       - Bxrl
+  '197':
+    '81':
+      '5':
+      - Bce_Xopowo
 xNotJames:
   ip: 127.0.0.1
 Thewdie:
   ip: 127.54.228.201
 Bxrl:
   ip: 127.230.225.230
+Bce_Xopowo:
+  ip: 127.197.81.5
