@@ -25,14 +25,14 @@ npc:
         disablewhilenavigating: true
         headonly: false
         perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        targetnpcs: false
       gravity:
         enabled: false
       scoreboardtrait: {}
@@ -192,14 +192,14 @@ npc:
         disablewhilenavigating: true
         headonly: false
         perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        targetnpcs: false
       mirror: true
       owner:
         uuid: 3d482406-7d31-3611-bc19-a6116a17484a
@@ -262,14 +262,14 @@ npc:
         disablewhilenavigating: true
         headonly: false
         perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        targetnpcs: false
       location:
         world: world
         x: '1.4314'
@@ -324,14 +324,14 @@ npc:
         disablewhilenavigating: true
         headonly: false
         perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        targetnpcs: false
       owner:
         uuid: e63c9801-19f9-3ff1-9775-3fbe8869401d
     traitnames: scoreboardtrait,location,equipment,type,lookclose,gravity,inventory,spawned,mounttrait,owner
@@ -482,60 +482,6 @@ npc:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
-  '76':
-    metadata:
-      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY0NjAxMDQ4MDM3NiwKICAicHJvZmlsZUlkIiA6ICI0ZTJmNzk3ZmNmNTQ0YzYyYThiNzU4ZjliYjMzOGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaG90R3VuUmFpZHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyMzc2NTAwZTlkNDRhMjdhNWVmYzZlNmExM2E1YWI3NzZiMTZmOTk1MDM1ZTM4ODUwOGE2NzY2Y2QxMTU5MCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdkZmVhMTZkYzgzYzk3ZGYwMWExMmZhYmJkMTIxNjM1OWMwY2QwZWE0MmY5OTk5YjZlOTdjNTg0OTYzZTk4MCIKICAgIH0KICB9Cn0=
-      cached-skin-uuid-name: shotgunraids
-      cached-skin-uuid: 4e2f797f-cf54-4c62-a8b7-58f9bb338eda
-      player-skin-signature: h4JW3Cd9TOg1H+raFLoOrzaSXFaTMjZLlEGd9sTcOa8o9NczbRWMVAL7q2/kTU6aMaTrEnqlAhyaT1KEeGnO7+iA6dcQNfOMS50MeSJkrXhrym99fe67ZTQUZ3MMHH26f3D0WdhMXRSojm9LI1uuQxe53pGsIbIvTnCl65F5X7ND708xFu+KNG3vaG5tR5gEEFGt+wN+q3LP5CG19D+zM6BNJk811REHBQD6FrUmQaBoUB5Xd1CPfv1MVKX2fkdNGjQeBaCA+zl6Ro094iyqiTdOvSRy4GL8RHxIBSiJRnMFM86cj2xM+rfIPDK9eI5YfmLvYIrrlQKHKsgKhiax7aMOXLRaeZ8YNBgUInQf+Jr1ZmRQd3qeqXhydZQOmkx0VqxtQd5R4n2QK6lhxF5Upaq84b7XWTN0wc6SlTb2748f191spePawtxVg3d1lKMSPtJ1lqDuXCw0tHymD6EzkLgWo02ApehKWSAUAn+ho+b5Y/2DLtiWZTNtgMAxpy3bEP5891isqQjDUziAGSctXwZXMJQ1E8hX6QsbI9bG20bUT3KrIF1qHa4lc0kobtKTQWsPCJsWhiw1FjFyiYSxcwR8c2QYOstzhRPlWPxDTZ/UsMBOi3/cEuncw7ueG08sxB6/+djPw3GX0i61uFj3Uanrbcbr10UMMv040sc7A7c=
-    name: ShotGunRaids
-    uuid: 9b46c845-84b7-4ca9-bbb4-7c7afded6e43
-    traits:
-      inventory: {}
-      gravity:
-        enabled: false
-      lookclose:
-        range: '5.0'
-        enabled: true
-        realisticlooking: false
-        enableRandomLook: false
-        randomLookDelay: 60
-        disablewhilenavigating: true
-        headonly: false
-        perplayer: false
-        randomPitchRange:
-          '0': -10.0
-          '1': 0.0
-        randomSwitchTargets: false
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-        targetnpcs: false
-      location:
-        world: world
-        x: '-13.2926'
-        y: '67.0'
-        z: '4.9245'
-        yaw: '142.0329'
-        pitch: '-5.8833'
-        bodyYaw: 142.03293
-      spawned: true
-      type: PLAYER
-      scoreboardtrait: {}
-      owner:
-        uuid: eaecf18d-250f-33fe-8f05-26d1754797e1
-      rotationtrait:
-        globalParameters: {}
-      skintrait:
-        fetchDefaultSkin: true
-        signature: vz5do6fhrfz9ZCfif5QVminC4rOmMmTMARAOthaMK0PVzaSjVXvnS7KxuIFEsiF7QjkC8f+Q7STvq3AWKI7WgDaHWsV9WVi3B12zTakTJh+x9pqUmMGdpGzqk13tIFFMh7xb2WCBgytUqrFhGn2M3LBIrjukYKmUTYPItVDFlXZcoAaDmZXtYGT/oO2BYMocxVgaddztjhjsUxgU8BKLUGduJSCqzCOT4KO1ozdsSVT/QmUBh+7Jby4TAmF4CvMRSJLnJK0ya5xQxysWomKRXhlA7kvJ9oh08He9Mb8qVrjWFg0OZofk7W97tlcziiPIxWXycXXACU21bSa9Up+0uFZG3/SLALRA/6Fcd+VeVVqCFaovuKOhd4FFk3EUaD6QXUcwqS7BjBKY2JP9us2lBDIqnHmDRinzHUDa79hDyAQ/gmk7fssTUeyDJiibfRPOQaVBRStq4jj3VM5IlxHXqqBnrbTA6yZyHvVMnM7ccdyuIb+qUDfDgS/4SB7q/kmGJDH8Mi0kquHATNzCN+wx/0KfxjgjeWH38e0sQCkddfvg+fcbTQhwv9N4ZDtP2d70VrqOxIRZnXphFbSEWtLM4Tw/r//FHdBuzkNvt2836g6MEsbT+YyRdP7JmIP1+/geTP/2JlRqg7r+7C2jJ2ZT6PraLlohm/eorWeTu+9Mrqk=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE4MDgxNDE4NCwKICAicHJvZmlsZUlkIiA6ICI0ZTJmNzk3ZmNmNTQ0YzYyYThiNzU4ZjliYjMzOGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaG90R3VuUmFpZHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUyOTMxY2Y1M2IzZDRlOGViMjNjMzhiOTU4OTVmMGUzMmJhMmMxYzFhZTBhNTJlYzBkZTNlOGI1Njg4NmM3YyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdkZmVhMTZkYzgzYzk3ZGYwMWExMmZhYmJkMTIxNjM1OWMwY2QwZWE0MmY5OTk5YjZlOTdjNTg0OTYzZTk4MCIKICAgIH0KICB9Cn0=
-        updateSkins: false
-    traitnames: scoreboardtrait,location,rotationtrait,skintrait,equipment,type,lookclose,gravity,inventory,spawned,mounttrait,owner
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
   '78':
     name: ' '
     uuid: 30225fe1-6ba0-48a5-9ef5-fec585d4bcbc
@@ -587,14 +533,14 @@ npc:
         disablewhilenavigating: true
         headonly: false
         perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        targetnpcs: false
       owner:
         uuid: eaecf18d-250f-33fe-8f05-26d1754797e1
       skintrait:
