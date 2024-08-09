@@ -301,3 +301,52 @@ Potion Effects: [SPEED:(2147483144t-x0)]
 ---------------------------------------------------------------------------
 
 
+--------------[ Briiqn was punished for Auto Block (Type B) ]--------------
+
+Location:
+ - World: Mini31E
+ - X: 0.6586013171765991
+ - Y: 87.96075
+ - Z: -4.875767896826294
+
+Information:
+ - UUID: cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973
+ - Keep Alive Ping: 0
+ - Transaction Ping: 129
+ - Server TPS: 19.96
+ - Sensitivity: 63
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 0.05 seconds ago
+
+Total Violations: 9
+ - Combat Violations: 5
+ - Movement Violations: 0
+ - Player Violations: 4
+
+Misc Information:
+ - Since Teleport Ticks: 743
+ - Since Riptide Ticks: 200
+ - Flying Delay: 90
+ - Since Velocity Ticks: 1
+ - Since Firework Ticks: 1016
+ - Ticks Existed: 1094
+ - Since Vehicle Ticks: 916
+ - Since Liquid Ticks: 916
+ - Queued Transactions: 1
+ - Joined: 55 seconds ago
+ - Holding Item: ItemStack{IRON_SWORD x 1}
+
+All Violations:
+ - Aim (Type Y) [VL: 2] (Generic rotation analysis heuristic.)
+ - Auto Block (Type B) [VL: 3] (Attacked while sending BlockDig packet.)
+ - Inventory (Type B) [VL: 4] (Moved while clicking in inventory.)
+
+Blocks Nearby: [STAINED_CLAY, RED_SANDSTONE, STAINED_CLAY, AIR, STONE_SLAB2, STONE_SLAB2, AIR, AIR, AIR, AIR, AIR, AIR, STAINED_CLAY, RED_SANDSTONE, STAINED_CLAY, AIR, STONE_SLAB2, STAINED_CLAY, AIR, AIR, AIR, AIR, AIR, AIR, STAINED_CLAY, RED_SANDSTONE, STAINED_CLAY, AIR, STONE_SLAB2, STAINED_CLAY, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=xNotJames}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
