@@ -1,0 +1,78 @@
+EnabledArenas:
+- ExampleArena1
+ShurikenItem: NETHER_STAR
+ShurikenDamage: 5
+ShurikenKnockback:
+  knockback-strength: 0.5
+  knockback-distance: 0.5
+  knockback-y: 0.2
+ShurikenHitBoxRadius:
+  hitbox-x: 0.2
+  hitbox-y: 0
+  hitbox-z: 0.2
+ShurikenItemValues:
+  visible: false
+  value-x: 3000
+  value-y: 1000
+  value-z: 0
+PoisonDuration: 100
+BedHologramXMove: 0
+BedHologramYMove: 0
+BedHologramZMove: 0
+Shop:
+  Currency: REDSTONE
+  Category:
+    material: BED
+    data: 0
+    slot: 8
+    amount: 1
+    enchanted: true
+  Items:
+    poisonous-sword:
+      material: IRON_SWORD
+      data: 0
+      slot: 19
+      amount: 1
+      cost: 20
+      enchanted: false
+    shuriken:
+      material: NETHER_STAR
+      data: 0
+      slot: 20
+      amount: 1
+      cost: 20
+      enchanted: false
+MobGenerator:
+  settings:
+    radius: 3
+    limit: 4
+  type: ZOMBIE
+  health: 50.0
+  death-commands:
+    '1':
+      command: give {player} redstone 5
+      possibility: 10
+    '2':
+      command: give {player} redstone 2
+      possibility: 100
+  equipments:
+    armor-helmet:
+      material: DIAMOND_HELMET
+      enchantments:
+      - PROTECTION_ENVIRONMENTAL_3
+    armor-chestplate:
+      material: DIAMOND_CHESTPLATE
+      enchantments:
+      - PROTECTION_ENVIRONMENTAL_3
+    armor-leggings:
+      material: DIAMOND_LEGGINGS
+      enchantments:
+      - PROTECTION_ENVIRONMENTAL_3
+    armor-boots:
+      material: DIAMOND_BOOTS
+      enchantments:
+      - PROTECTION_ENVIRONMENTAL_3
+    held-item:
+      material: DIAMOND_SWORD
+      enchantments:
+      - DAMAGE_ALL_6

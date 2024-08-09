@@ -1630,6 +1630,34 @@ addons:
   map:
     play-map: '{prefix}&aYou are currently playing on &e{map}'
     play-not: '{prefix}&cYou are not in the arena!'
+  bedsteal:
+    VictimBedTitle: '&cOpponent''s bed'
+    VictimBedDescription: '&7Right click on your bed!'
+    BedsHologramText: '&7Team has {beds} bed level!'
+    ShurikenTitle: '&cShuriken'
+    ShurikenDescription: '&7Right click to throw!'
+    ShurikenLore:
+    - '&7Cost: &6{cost}'
+    - ''
+    - '&7Right click to throw!'
+    - ''
+    - '{status}'
+    MobGenerator-Name: '&aEmerald Defender'
+    PoisonSword: '&cPoisoned Sword'
+    PoisonSwordDescription: '&7Hit a player to poison him'
+    PoisonSwordLore:
+    - '&7Cost: &6{cost}'
+    - ''
+    - '&7Hit a player to poison him'
+    - ''
+    - '{status}'
+    Shop-Category-Title: BedSteal
+    Shop-Category-Name: '&aBedSteal'
+    Shop-Category-Lore: '&eClick to view!'
+    buy-error: '&cYou don''t have enough Redstone! Need {amount} more'
+    buy-success: '&aYou purchased &6{item}'
+    item-status-err: '&cYou don''t have enough Redstone!'
+    item-status-success: '&eClick to purchase!'
 lobby-items-vip-name: '&cName not set at: &flobby-items-vip-name'
 lobby-items-games-name: '&cName not set at: &flobby-items-games-name'
 display-group-default: Default

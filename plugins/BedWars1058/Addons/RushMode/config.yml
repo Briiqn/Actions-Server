@@ -1,0 +1,31 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# |         Bedwars1058 RushMode             |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+arena-groups:
+- solo_rush
+generator:
+  iron:
+    amount: 5
+    delay: 1
+    spawnlimit: 64
+  gold:
+    amount: 2
+    delay: 3
+    spawnlimit: 32
+  emerald:
+    amount: 1
+    delay: 45
+    spawnlimit: 10
+messages:
+  send-bridge-mode-message-to-chat-list: false
+  bridge-mode-enabled: '&a&lBRIDGE MODE ACTIVATED'
+  bridge-mode-disable: '&c&lBRIDGE MODE DEACTIVATED'
+  bridge-enabled:
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '&f&l                       Bed Wars Rush'
+  - ''
+  - '&e&l        All generators are maxed! Your bed has three'
+  - '&e&l       layers of protection! Left click while holding'
+  - '&e&l             wool to activate bridge building!'
+  - ''
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'

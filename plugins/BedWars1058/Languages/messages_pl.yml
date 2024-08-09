@@ -1630,6 +1630,34 @@ addons:
   map:
     play-map: '{prefix}&aYou are currently playing on &e{map}'
     play-not: '{prefix}&cYou are not in the arena!'
+  bedsteal:
+    VictimBedTitle: '&cŁóżko przeciwnika'
+    VictimBedDescription: '&7Kliknij prawym na swoje łóżko'
+    BedsHologramText: '&7Drużyna posiada {beds} poziom łóżka!'
+    ShurikenTitle: '&cShuriken'
+    ShurikenDescription: '&7Kliknij prawym by rzucić w przeciwnika!'
+    ShurikenLore:
+    - '&7Cost: &6{cost}'
+    - ''
+    - '&7Kliknij prawym by rzucić w przeciwnika!'
+    - ''
+    - '{status}'
+    MobGenerator-Name: '&aSzmaragdowy Obrońca'
+    PoisonSword: '&cMiecz zatrucia'
+    PoisonSwordDescription: '&7Udrze gracza by go otruć'
+    PoisonSwordLore:
+    - '&7Cost: &6{cost}'
+    - ''
+    - '&7Udrze gracza by go otruć'
+    - ''
+    - '{status}'
+    Shop-Category-Title: Kradzież łóżka
+    Shop-Category-Name: '&aKradzież łóżka'
+    Shop-Category-Lore: '&eClick to view!'
+    buy-error: '&cYou don''t have enough Redstone! Need {amount} more'
+    buy-success: '&aYou purchased &6{item}'
+    item-status-err: '&cYou don''t have enough Redstone!'
+    item-status-success: '&eClick to purchase!'
 lobby-items-vip-name: '&cName not set at: &flobby-items-vip-name'
 lobby-items-games-name: '&cName not set at: &flobby-items-games-name'
 display-group-default: Default
