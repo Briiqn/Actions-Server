@@ -73,7 +73,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,lookclose,rotationtrait,location,owner,mounttrait,skintrait,commandtrait,type,spawned,scoreboardtrait
+    traitnames: location,scoreboardtrait,skintrait,owner,mounttrait,inventory,spawned,lookclose,rotationtrait,type,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -120,7 +120,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: inventory,location,owner,mounttrait,commandtrait,skintrait,type,spawned,scoreboardtrait
+    traitnames: location,scoreboardtrait,owner,skintrait,mounttrait,inventory,spawned,type,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -149,6 +149,11 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzE2MzQyNzA1MywKICAicHJvZmlsZUlkIiA6ICI5YjBkNDI0OGI5NmQ0YTg0OWZlYjg0NzA4N2QxNmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWRXYXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4MDYzYTFhNDk3MGMxYjI2N2RlN2QxYTZlNmRkMGY5NjVkNWEyZjRlMGIxMTQxNjhlZGI4ZThlMjg4N2MxMmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
         updateSkins: false
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: server bedwars
@@ -159,15 +164,10 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       type: PLAYER
       spawned: true
       scoreboardtrait: {}
-    traitnames: inventory,owner,location,mounttrait,skintrait,commandtrait,type,spawned,scoreboardtrait
+    traitnames: location,scoreboardtrait,owner,skintrait,mounttrait,inventory,spawned,type,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
