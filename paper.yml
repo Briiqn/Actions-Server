@@ -24,6 +24,11 @@ world-settings:
   default:
     verbose: true
     keep-spawn-loaded: true
+    allow-block-location-tab-completion: true
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
     generator-settings:
       canyon: true
       caves: true
@@ -35,11 +40,6 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
-    allow-block-location-tab-completion: true
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
