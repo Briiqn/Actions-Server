@@ -13,7 +13,7 @@
 config-version: 8
 settings:
   save-user-cache-on-stop-only: false
-  bungeecord: fasle
+  bungeecord: true
   late-bind: false
   sample-count: 12
   player-shuffle: 0
