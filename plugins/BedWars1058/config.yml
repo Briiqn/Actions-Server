@@ -227,3 +227,5 @@ arenaGroups:
 - Voidless_4v4v4v4
 - PVP
 join-npc-locations: []
+arenaGui:
+  settings: {}

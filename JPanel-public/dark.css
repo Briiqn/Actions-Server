@@ -1,0 +1,172 @@
+/* Jpanel dark theme - by james_00000001 */
+/* Works with JPanel as of 2/6/2015 */
+
+
+/* ==== Global ==== */
+
+/* Background and text colour */
+html {
+    background-color: #181818;
+    color: #A7A7A7;
+}
+
+/* Top bar background colour */
+nav {
+    background-color: #444;
+}
+
+/* Bottom outer bar background colour */
+footer.page-footer {
+    background-color: #333;
+}
+
+/* Bottom inner bar background colour */
+.light, footer.page-footer .footer-copyright {
+    background-color: #444;
+}
+
+
+
+/* ==== Small screen side nav panel ==== */
+
+/* Panel background colour */
+.side-nav {
+    background-color: #444;
+}
+
+/* Panel text colour */
+.side-nav a {
+    color: #FFF;
+}
+
+/* Panel text highlighted colour */
+.side-nav li:hover {
+    background-color: #222;
+}
+
+
+
+/* ==== Login page ==== */
+
+/* Textbox active indicator colour  -  also used by mobile command entry textbox on main page */
+input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #B80;
+    box-shadow: 0px 1px 0px 0px #630;
+}
+
+/* Textbox contains data indicator colour  -  also used by mobile command entry textbox on main page */
+input.valid[type="text"], input.valid[type="text"]:focus, input.valid[type="password"], input.valid[type="password"]:focus, input.valid[type="email"], input.valid[type="email"]:focus, input.valid[type="url"], input.valid[type="url"]:focus, input.valid[type="time"], input.valid[type="time"]:focus, input.valid[type="date"], input.valid[type="date"]:focus, input.valid[type="datetime-local"], input.valid[type="datetime-local"]:focus, input.valid[type="tel"], input.valid[type="tel"]:focus, input.valid[type="number"], input.valid[type="number"]:focus, input.valid[type="search"], input.valid[type="search"]:focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus {
+    border-bottom: 1px solid #630;
+    box-shadow: 0px 1px 0px 0px #630;
+}
+
+/* Textbox label active indicator colour */
+input[type="text"]:focus:not([readonly]) +label, input[type="password"]:focus:not([readonly]) +label, input[type="email"]:focus:not([readonly]) +label, input[type="url"]:focus:not([readonly]) +label, input[type="time"]:focus:not([readonly]) +label, input[type="date"]:focus:not([readonly]) +label, input[type="datetime-local"]:focus:not([readonly]) +label, input[type="tel"]:focus:not([readonly]) +label, input[type="number"]:focus:not([readonly]) +label, input[type="search"]:focus:not([readonly]) +label, textarea.materialize-textarea:focus:not([readonly]) +label {
+    color: #B60;
+}
+
+/* Login button */
+.btn, .btn-large {
+    background-color: #A60;
+}
+
+/* Mouse over login button */
+.btn:hover, .btn-large:hover {
+    background-color: #D80;
+}
+
+/* Mouse dragged off login button */
+button:focus {
+    background-color: #430;
+}
+
+
+
+/* ==== Main page ==== */
+
+/* Mobile command entry pointer arror colour */
+.input-field .prefix.active {
+    color: #FB0;
+}
+
+/* Server stats progress bar full width colour */
+.progress {
+    background-color: #630;
+}
+
+/* Server stats progress bar loading highlighted colour */
+.progress .indeterminate {
+    background-color: #BB0;
+}
+
+/* Server stats progress bar highlighted colour */
+.progress .determinate {
+    background-color: #B80;
+}
+
+
+
+/* ==== Online players ==== */
+
+/* Player card background colour */
+.card {
+    background-color: #222;
+}
+
+/* Player card collapsed details pane background and bottom border colour */
+.collapsible-header {
+    background-color: #333;
+    border-bottom: 1px solid #888;
+}
+
+/* Player card expanded details pane border colours */
+.collapsible {
+    border-top: 1px solid #888;
+    border-right: 1px solid #888;
+    border-left: 1px solid #888;
+}
+
+/* Player card expanded details pane bottom border colour */
+.collapsible-body {
+    border-bottom: 1px solid #888;
+}
+
+/* Player card player name colour */
+.black-text {
+    color: #DDD !important;
+}
+
+/* CSS for the list of files */
+
+.collection {
+    border: 1px solid #333 !important;
+}
+
+.collection-item {
+    color: #ddd !important;
+    border-bottom: 1px solid #333 !important;
+    background: none !important;
+}
+
+div.collection-item:hover {
+    background: #333 !important;
+}
+
+.collection .collection-item.avatar i.circle {
+    color: #FFF;
+    background-color: #333 !important;
+    text-align: center;
+}
+
+/* CSS for the tabs */
+.tabs .indicator {
+    background-color: rgb(102, 102, 102);
+}
+
+.tabs .tab a {
+    color: #FFF;
+}
+
+.tabs {
+    background-color: rgb(51, 51, 51);
+}
