@@ -263,3 +263,50 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ Bxrl was punished for Baritone (Type B) ]--------------
+
+Location:
+ - World: rooftop
+ - X: -91.8062237712553
+ - Y: 66.0
+ - Z: 34.52325415213345
+
+Information:
+ - UUID: 453aba25-b437-4a74-9a01-a5b41229e2f4
+ - Keep Alive Ping: 185
+ - Transaction Ping: 368
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.8
+ - Last Damage: 83.0 seconds ago
+
+Total Violations: 20
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 20
+
+Misc Information:
+ - Since Teleport Ticks: 497
+ - Since Riptide Ticks: 200
+ - Flying Delay: 24
+ - Since Velocity Ticks: 1660
+ - Since Firework Ticks: 736
+ - Ticks Existed: 1560
+ - Since Vehicle Ticks: 636
+ - Since Liquid Ticks: 636
+ - Queued Transactions: 1
+ - Joined: 81 seconds ago
+ - Holding Item: ItemStack{AIR x 0}
+
+All Violations:
+ - Baritone (Type B) [VL: 20] (Checks for Baritone like rotations.)
+
+Blocks Nearby: [WOOD, WOOD, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WOOD, WOOD, WOOD, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WOOD, WOOD, WOOD, CARPET, CARPET, CARPET, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
