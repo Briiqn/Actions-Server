@@ -23,6 +23,7 @@ stats:
   forced-stats: {}
 commands:
   log: true
+  tab-complete: 0
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -31,7 +32,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  tab-complete: 0
   send-namespaced: false
 settings:
   bungeecord: true

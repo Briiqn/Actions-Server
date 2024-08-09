@@ -8,11 +8,10 @@
 # IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
 
 config-version: 9
-data-value-allowed-items: []
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
-warnWhenSettingExcessiveVelocity: true
+data-value-allowed-items: []
 stackable-buckets:
   lava: false
   water: false
@@ -20,6 +19,7 @@ stackable-buckets:
 effect-modifiers:
   strength: 1.3
   weakness: -0.5
+warnWhenSettingExcessiveVelocity: true
 world-settings:
   default:
     verbose: true
