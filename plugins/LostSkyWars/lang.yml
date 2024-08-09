@@ -74,7 +74,7 @@ scoreboards:
   - 'Coins: &6{coins}'
   - 'Souls: &b{souls}&7/{maxsouls}'
   - ''
-  - '&ewww.hypixel.net'
+  - '&egithubservers.org'
   waiting:
   - '&7{date}'
   - ''
@@ -85,7 +85,7 @@ scoreboards:
   - 'Map: &a{map}'
   - 'Mode: &cInsane'
   - ''
-  - '&ewww.hypixel.net'
+  - '&ewww.githubservers.org'
   ingame:
   - '&7{date} {world}'
   - ''
@@ -99,7 +99,7 @@ scoreboards:
   - 'Map: &a{map}'
   - 'Mode: &cInsane'
   - ''
-  - '&ewww.hypixel.net'
+  - '&ewww.githubservers.org'
   ingame-doubles:
   - '&7{date} {world}'
   - ''
@@ -114,7 +114,7 @@ scoreboards:
   - 'Map: &a{map}'
   - 'Mode: &cInsane'
   - ''
-  - '&ewww.hypixel.net'
+  - '&ewww.githubservers.org'
 scoreboard:
  replace:
   waiting: 'Waiting...'
@@ -224,12 +224,12 @@ lobby:
   level: 1
  motd:
   enabled: true
-  header: '            &aHypixel Network &c[1.8-1.13]'
+  header: '            &fOcto&0Net &c[1.8-1.13]'
   footer: '        &aCome here and play the new SkyWars!'
  tablist:
   enabled: true
-  header: '&bYou are playing on &e&lMC.HYPIXEL.NET\n '
-  footer: ' \n&aRanks, Boosters & MORE! &c&lSTORE.HYPIXEL.NET'
+  header: '&bYou are playing on &e&lgithubservers.org\n '
+  footer: ' \n&aPvP, Fun, gaming, AND MORE! githubservers.org!'
  connecting:
   party:
    not-leader: '&cOnly the Party leader can find a match.'
