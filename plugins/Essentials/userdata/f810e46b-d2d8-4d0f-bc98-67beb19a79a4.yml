@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1723200998447
+  logout: 1723201048797
   login: 1723201044146
 money: '0'
 last-account-name: Bce_Xopowo
 logoutlocation:
   world: 6db25809-c288-4f61-ad52-b0daa6a42e35
   world-name: world
-  x: -1115.5151811641376
-  y: 68.0
-  z: -282.3547289813097
-  yaw: 197.2782440185547
-  pitch: 9.904682159423828
+  x: -1121.1104576131559
+  y: 68.5
+  z: -282.8017401200162
+  yaw: 145.76661682128906
+  pitch: 13.082706451416016
