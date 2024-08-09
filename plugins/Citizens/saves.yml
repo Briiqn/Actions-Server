@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 7
+last-created-npc-id: 8
 npc:
   '7':
     metadata:
@@ -9,22 +9,22 @@ npc:
     name: §e§lRight Click
     uuid: 35b28aff-70a0-4a09-b07e-7d325cb16f81
     traits:
-      type: Villager
+      type: VILLAGER
       location:
         world: world
         x: '9.5'
         y: '63.0'
         z: '6.5'
-        yaw: '119.33414459228516'
+        yaw: '119.3341'
         pitch: '0.0'
+        bodyYaw: 119.334145
       spawned: true
       owner:
-        owner: server
         uuid: ''
-    traitnames: spawned,type,owner,location
+      scoreboardtrait: {}
+    traitnames: location,scoreboardtrait,spawned,type,mounttrait,owner
     navigator:
       pathfindingrange: '25.0'
-      stationaryticks: -1
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
