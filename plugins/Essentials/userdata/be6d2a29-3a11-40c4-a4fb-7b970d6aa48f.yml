@@ -6,12 +6,12 @@ timestamps:
 ipAddress: 127.254.212.77
 money: '605.0'
 lastlocation:
-  world: lighthouse
-  x: -12.760355547591258
-  y: -0.7286270242801596
-  z: 101.29056503508772
-  yaw: -193.94229
-  pitch: -37.381165
+  world: varyth
+  x: -79.31200800149234
+  y: 89.71360000610352
+  z: 32.67450738325715
+  yaw: -146.39734
+  pitch: 10.943145
 logoutlocation:
   world: world
   x: -35.26912029168005
