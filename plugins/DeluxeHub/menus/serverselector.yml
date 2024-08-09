@@ -84,7 +84,7 @@ items:
     display_name: '&fBed&cWars'
     lore:
       - '&7Join now!'
-      - '&aMost popular Hypixel gamemode.'
+      - '&aThe most popular Hypixel gamemode.'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &fBed&cWars'
