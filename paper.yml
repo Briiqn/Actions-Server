@@ -46,6 +46,7 @@ world-settings:
     disable-teleportation-suffocation-check: false
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
+    player-blocking-damage-multiplier: 0.5
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     tnt-explosion-volume: 4.0
@@ -66,7 +67,6 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    player-blocking-damage-multiplier: 0.5
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
