@@ -16,7 +16,7 @@ scoreboard:
     - '&fOnline: &b%online%'
     - '&fFighting: &b%fighting%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   LOBBY-CLAN:
     title: '&bArenaPvP &7(Beta)'
@@ -28,7 +28,7 @@ scoreboard:
     - '&fClan: &b%clan%'
     - '&fClan ELO: &b%clanElo%'
     - ''
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   RANKED-QUEUE:
     title: '&bArenaPvP &7(Beta)'
@@ -40,7 +40,7 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   RANKED-QUEUE-CLAN:
     title: '&bArenaPvP &7(Beta)'
@@ -55,7 +55,7 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-QUEUE:
     title: '&bArenaPvP &7(Beta)'
@@ -68,7 +68,7 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-QUEUE-CLAN:
     title: '&bArenaPvP &7(Beta)'
@@ -84,7 +84,7 @@ scoreboard:
     - '&bRanked %kit%'
     - '&eWaited: &7%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-MATCH-STARTING:
     title: '&bArenaPvP &7(Beta)'
@@ -92,7 +92,7 @@ scoreboard:
     - '&7&m--------------------'
     - '&fOpponent: &b%opponent%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-MATCH-STARTED:
     title: '&bArenaPvP &7(Beta)'
@@ -101,7 +101,7 @@ scoreboard:
     - '&fOpponent: &b%opponent%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   UNRANKED-MATCH-ENDING:
     title: '&bArenaPvP &7(Beta)'
@@ -109,7 +109,7 @@ scoreboard:
     - '&7&m--------------------'
     - '&fMatch ended.'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   RANKED-MATCH-STARTING:
     title: '&bArenaPvP &7(Beta)'
@@ -117,7 +117,7 @@ scoreboard:
     - '&7&m--------------------'
     - '&fOpponent: &b%opponent%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   RANKED-MATCH-STARTED:
     title: '&bArenaPvP &7(Beta)'
@@ -126,7 +126,7 @@ scoreboard:
     - '&fOpponent: &b%opponent%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   RANKED-MATCH-ENDING:
     title: '&bArenaPvP &7(Beta)'
@@ -134,7 +134,7 @@ scoreboard:
     - '&7&m--------------------'
     - '&fMatch ended.'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   SPECTATING:
     title: '&bArenaPvP &7(Beta)'
@@ -150,7 +150,7 @@ scoreboard:
     - '&7&m--------------------'
     - '&fEditing Kit:&b %kit%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   PARTY-LOBBY:
     title: '&bArenaPvP &7(Beta)'
@@ -162,7 +162,7 @@ scoreboard:
     - '&fLeader: &b%leader%'
     - '&fMembers: &b%members%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   PARTY-MATCH:
     title: '&bArenaPvP &7(Beta)'
@@ -172,7 +172,7 @@ scoreboard:
     - '&fOpponents:&b %opponentAlive%/%opponentAll%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   PARTY-MATCH-FFA:
     title: '&bArenaPvP &7(Beta)'
@@ -181,7 +181,7 @@ scoreboard:
     - '&fAlive: &b%alive%/%all%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   PARTY-MATCH-BARD:
     title: '&bArenaPvP &7(Beta)'
@@ -192,7 +192,7 @@ scoreboard:
     - '&fBard Energy:&b %energy%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   SUMO-EVENT-STARTING:
     title: '&bArenaPvP &7(Beta)'
@@ -202,7 +202,7 @@ scoreboard:
     - '&fPlayers: &b%players%/%max%'
     - '&fStarting: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   SUMO-EVENT-STARTED:
     title: '&bArenaPvP &7(Beta)'
@@ -212,7 +212,7 @@ scoreboard:
     - '&fPlayers: &b%players%/%max%'
     - '&fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   SUMO-EVENT-MATCH:
     title: '&bArenaPvP &7(Beta)'
@@ -226,7 +226,7 @@ scoreboard:
     - '&fCPS: &b%cps1% &7%splitter% &b%cps2%'
     - '&fPing: &b%ping1% &7%splitter% &b%ping2%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   TOURNAMENT-STARTING:
     title: '&bArenaPvP &7(Beta)'
@@ -237,7 +237,7 @@ scoreboard:
     - ' &7* &fPlayers: &b%players%/%max%'
     - ' &7* &fStarting: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   TOURNAMENT-STARTED:
     title: '&bArenaPvP &7(Beta)'
@@ -249,7 +249,7 @@ scoreboard:
     - ' &7* &fRound: &b%round%'
     - ' &7* &fDuration: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
   TOURNAMENT-WAITING:
     title: '&bArenaPvP &7(Beta)'
@@ -261,7 +261,7 @@ scoreboard:
     - ' &7* &fRound: &b%round%'
     - ' &7* &fStarting: &b%time%'
     - ' '
-    - '&bgithubservers.gg'
+    - '&b&ogithubservers.gg'
     - '&7&m--------------------'
 items:
   UNRANKED:
