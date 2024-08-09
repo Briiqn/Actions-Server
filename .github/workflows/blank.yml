@@ -36,6 +36,8 @@ jobs:
           sudo apt-get update && sudo apt-get install cloudflared
           cloudflared access tcp --hostname ${HOSTNAME} --url localhost:25566 > /dev/null &
           cloudflared access tcp --hostname ${HOSTNAME_2} --url localhost:25569 > /dev/null &
+          cloudflared access tcp --hostname ${HOSTNAME_3} --url localhost:25570 > /dev/null &
+
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
