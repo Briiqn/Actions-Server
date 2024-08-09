@@ -67,9 +67,6 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -84,9 +81,10 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     hopper-amount: 1
+    mob-spawn-range: 4
     random-light-updates: false
     save-structure-info: true
-    mob-spawn-range: 4
+    max-bulk-chunks: 10
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -107,7 +105,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -118,6 +115,9 @@ world-settings:
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
     max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
     nerf-spawner-mobs: false
     item-despawn-rate: 6000
     merge-radius:
