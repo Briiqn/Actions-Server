@@ -54,3 +54,7 @@ servers:
     motd: '&1Hypixel.networking'
     address: localhost:25569
     restricted: false
+  arenapvp:
+    motd: '&1Hypixel.networking'
+    address: localhost:25570
+    restricted: false
