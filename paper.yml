@@ -55,19 +55,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    nether-ceiling-void-damage: false
-    load-chunks:
-      enderpearls: false
-      tnt-entities: false
-      falling-blocks: false
     player-blocking-damage-multiplier: 0.5
-    mob-spawner-tick-rate: 1
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
-    max-growth-height:
-      cactus: 3
-      reeds: 3
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -77,6 +65,18 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    nether-ceiling-void-damage: false
+    load-chunks:
+      enderpearls: false
+      tnt-entities: false
+      falling-blocks: false
+    mob-spawner-tick-rate: 1
     falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
