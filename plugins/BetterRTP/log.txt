@@ -15,3 +15,5 @@
 2024-09-10 10:41:26 [INFO]: Database COOLDOWN:world_nether configured and loaded!
 2024-09-10 10:41:26 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
 2024-09-10 10:41:26 [INFO]: Database COOLDOWN:spawn configured and loaded!
+2024-09-10 10:41:28 [INFO]: Attempting to queue up some more safe locations...
+2024-09-10 10:41:28 [INFO]: Queueing paused, max queue limit reached!
