@@ -11,8 +11,22 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
+commands:
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  tab-complete: 0
+  send-namespaced: true
 settings:
-  save-user-cache-on-stop-only: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
   bungeecord: true
   late-bind: false
   sample-count: 12
@@ -22,9 +36,7 @@ settings:
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
+  save-user-cache-on-stop-only: false
   netty-threads: 4
   attribute:
     maxHealth:
@@ -35,6 +47,13 @@ settings:
       max: 2048.0
   debug: false
   moved-too-quickly-multiplier: 10.0
+messages:
+  restart: Rest In Peace 2017-2017
+  whitelist: You are not whitelisted on this server!
+  unknown-command: '&c&l(!) &7This command is not added to our server.'
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
 timings:
   enabled: true
   verbose: true
@@ -44,25 +63,6 @@ timings:
   - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: '&c&l(!) &7This command is not added to our server.'
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Rest In Peace 2017-2017
-commands:
-  tab-complete: 0
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  send-namespaced: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -70,7 +70,6 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -85,11 +84,17 @@ world-settings:
       potato-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
-    random-light-updates: false
-    save-structure-info: true
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -106,21 +111,16 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tnt-per-tick: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
+    max-tick-time:
+      tile: 50
+      entity: 50
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -147,8 +147,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: 10
     wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
