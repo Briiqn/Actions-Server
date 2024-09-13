@@ -8,3 +8,12 @@
 2024-09-13 04:04:25 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
 2024-09-13 04:04:25 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
 2024-09-13 04:04:25 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2024-09-13 04:04:38 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-09-13 04:04:38 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-09-13 04:04:38 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-09-13 04:04:38 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2024-09-13 04:04:38 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-09-13 04:04:38 [INFO]: Database COOLDOWN:spawn configured and loaded!
+2024-09-13 04:04:38 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-09-13 04:04:39 [INFO]: Attempting to queue up some more safe locations...
+2024-09-13 04:04:39 [INFO]: Queueing paused, max queue limit reached!
