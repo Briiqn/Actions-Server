@@ -61,6 +61,12 @@ world-settings:
       tnt-entities: false
       falling-blocks: false
     player-blocking-damage-multiplier: 0.5
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     mob-spawner-tick-rate: 1
     squid-spawn-height:
       minimum: 45.0
@@ -68,12 +74,6 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
     despawn-ranges:
       soft: 32
       hard: 128
