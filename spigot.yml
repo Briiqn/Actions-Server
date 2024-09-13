@@ -11,27 +11,6 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
-timings:
-  enabled: true
-  verbose: true
-  server-name-privacy: false
-  hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
-  history-interval: 300
-  history-length: 3600
-commands:
-  tab-complete: 0
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  send-namespaced: true
 settings:
   save-user-cache-on-stop-only: false
   bungeecord: true
@@ -56,6 +35,15 @@ settings:
       max: 2048.0
   debug: false
   moved-too-quickly-multiplier: 10.0
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: '&c&l(!) &7This command is not added to our server.'
@@ -63,6 +51,18 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Rest In Peace 2017-2017
+commands:
+  tab-complete: 0
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  send-namespaced: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -70,18 +70,6 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -101,25 +89,17 @@ world-settings:
       monsters: 32
       misc: 16
       tick-inactive-villagers: true
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -140,7 +120,27 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
