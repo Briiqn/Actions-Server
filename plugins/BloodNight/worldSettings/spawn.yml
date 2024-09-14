@@ -203,40 +203,6 @@ settings:
         health: 2.0
         damageModifier: DEFAULT
         damage: 2.0
-      Phantom:
-      - ==: bloodNightMobSetting
-        mobName: FearfulPhantom
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: FirePhantom
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: PhantomSoul
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
       Spider:
       - ==: bloodNightMobSetting
         mobName: BlazeRider
@@ -262,6 +228,40 @@ settings:
         damage: 2.0
       - ==: bloodNightMobSetting
         mobName: WitherSkeletonRider
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      Phantom:
+      - ==: bloodNightMobSetting
+        mobName: FearfulPhantom
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: FirePhantom
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: PhantomSoul
         displayName: ''
         active: true
         dropAmount: -1
