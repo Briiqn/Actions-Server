@@ -8,6 +8,7 @@
 # IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
 
 config-version: 9
+data-value-allowed-items: []
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
@@ -19,7 +20,6 @@ stackable-buckets:
 effect-modifiers:
   strength: 1.3
   weakness: -0.5
-data-value-allowed-items: []
 world-settings:
   default:
     verbose: true
@@ -40,25 +40,37 @@ world-settings:
     optimize-explosions: false
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    player-blocking-damage-multiplier: 0.5
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    mob-spawner-tick-rate: 1
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    falling-block-height-nerf: 0
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -66,18 +78,6 @@ world-settings:
     fast-drain:
       lava: false
       water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
-    player-blocking-damage-multiplier: 0.5
-    mob-spawner-tick-rate: 1
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    nether-ceiling-void-damage: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
@@ -87,11 +87,11 @@ world-settings:
     allow-undead-horse-leashing: false
     container-update-tick-rate: 1
     keep-spawn-loaded: true
-    falling-blocks-collide-with-signs: false
-    disable-mood-sounds: false
-    use-async-lighting: false
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
+    falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    use-async-lighting: false
