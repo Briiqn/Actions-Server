@@ -120,6 +120,7 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -140,7 +141,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
