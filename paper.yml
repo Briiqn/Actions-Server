@@ -40,9 +40,16 @@ world-settings:
     optimize-explosions: false
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
+    mob-spawner-tick-rate: 1
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
     max-growth-height:
       cactus: 3
       reeds: 3
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     despawn-ranges:
       soft: 32
       hard: 128
@@ -56,10 +63,10 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
+    player-blocking-damage-multiplier: 0.5
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
-    player-blocking-damage-multiplier: 0.5
     fast-drain:
       lava: false
       water: false
@@ -71,13 +78,6 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    mob-spawner-tick-rate: 1
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
