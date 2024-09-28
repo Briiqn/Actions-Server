@@ -55,7 +55,6 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    player-blocking-damage-multiplier: 0.5
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -66,6 +65,7 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    player-blocking-damage-multiplier: 0.5
     mob-spawner-tick-rate: 1
     squid-spawn-height:
       minimum: 45.0
