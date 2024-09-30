@@ -35,7 +35,6 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
-    allow-block-location-tab-completion: true
     disable-thunder: false
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
@@ -43,6 +42,7 @@ world-settings:
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
+    allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
     tnt-explosion-volume: 4.0
     optimize-explosions: false
@@ -55,6 +55,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -86,7 +87,6 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    nether-ceiling-void-damage: false
     fix-cannons: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
