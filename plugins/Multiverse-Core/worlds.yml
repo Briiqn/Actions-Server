@@ -1,5 +1,5 @@
 worlds:
-  world:
+  spawn:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -33,17 +33,17 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -0.5
-      y: 49.0
-      z: 3.5
+      x: 1.5
+      y: 68.0
+      z: 0.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '4906993907965807200'
-    generator: TerraformGenerator
+    seed: '-425929833367838517'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   world_the_end:
@@ -93,7 +93,7 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  spawn:
+  world:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -127,17 +127,17 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 1.5
-      y: 68.0
-      z: 0.5
+      x: -0.5
+      y: 49.0
+      z: 3.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-425929833367838517'
-    generator: 'null'
+    seed: '4906993907965807200'
+    generator: TerraformGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   world_nether:
