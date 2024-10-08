@@ -1,4 +1,12 @@
 lastAccountName: PaperTrain2829
 timestamps:
   login: 1728398042556
+  logout: 1728398445843
 ipAddress: 127.194.181.76
+logoutlocation:
+  world: world
+  x: -32.47482322473648
+  y: 71.0
+  z: 0.49185180054454447
+  yaw: -89.88387
+  pitch: 2.8524027
