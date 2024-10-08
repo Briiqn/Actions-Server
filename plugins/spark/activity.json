@@ -2,6 +2,19 @@
   {
     "user": {
       "type": "player",
+      "name": "ShortyDev",
+      "uniqueId": "f5fbd54b-ba6d-43b6-bfac-859a453623a8"
+    },
+    "time": 1728386872452,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CAHeKIlbGy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
       "name": "Briiqn",
       "uniqueId": "cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973"
     },
