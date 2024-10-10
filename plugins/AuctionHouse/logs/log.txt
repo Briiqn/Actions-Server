@@ -9568,3 +9568,9 @@
 [2024/10/09 22:12:25] Loaded 0 completed listings.
 [2024/10/09 22:12:25] Loaded layout default.
 [2024/10/09 22:12:25] Loaded 1 layouts.
+[2024/10/10 03:13:59] ChatManager Successfully Loaded
+[2024/10/10 03:13:59] Checking for Floodgate...
+[2024/10/10 03:13:59] Floodgate not found and disabled
+[2024/10/10 03:13:59] Loading NameManager...
+[2024/10/10 03:13:59] NameManager Successfully Loaded
+[2024/10/10 03:13:59] Loading Messages...
