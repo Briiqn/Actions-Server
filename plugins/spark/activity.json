@@ -128,31 +128,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/lrnBhGOHbj"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Briiqn",
-      "uniqueId": "cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973"
-    },
-    "time": 1723326412303,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/22LFagokGa"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Briiqn",
-      "uniqueId": "cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973"
-    },
-    "time": 1723326145425,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/bUITqmRopV"
-    }
   }
 ]
