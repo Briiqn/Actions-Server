@@ -70,13 +70,6 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 10
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -98,6 +91,23 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -112,17 +122,7 @@ world-settings:
       potato-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
+    max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
