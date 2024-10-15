@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.237.188.187
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1728959094586
+  login: 1728959087394
+money: '0'
+last-account-name: Raspi_dude
+logoutlocation:
+  world: aa62f484-2878-4288-a3a3-9fe66db7eba2
+  world-name: spawn
+  x: 0.33474476489449195
+  y: 68.0
+  z: 0.28369599776645604
+  yaw: 143.21669006347656
+  pitch: -4.1169962882995605

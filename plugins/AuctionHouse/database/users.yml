@@ -108,3 +108,13 @@ c323543f-19c5-4a9f-b18a-719cc333360a:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+18189b17-e84c-40ea-9d57-f0f07b35c390:
+  Username: Raspi_dude
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
