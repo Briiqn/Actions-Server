@@ -55,6 +55,11 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
     nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
@@ -82,11 +87,6 @@ world-settings:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
     fix-cannons: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
