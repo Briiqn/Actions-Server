@@ -1,4 +1,12 @@
 lastAccountName: Ouarpi
 timestamps:
   login: 1729189510928
+  logout: 1729189586283
 ipAddress: 127.172.69.143
+logoutlocation:
+  world: world
+  x: -6.586932279126485
+  y: 67.0
+  z: -1.936329794475693
+  yaw: -109.68387
+  pitch: 4.352404
