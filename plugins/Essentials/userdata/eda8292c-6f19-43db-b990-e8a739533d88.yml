@@ -20,3 +20,11 @@ timestamps:
   login: 1729189599431
 money: '0'
 last-account-name: Ouarpi
+lastlocation:
+  world: aa62f484-2878-4288-a3a3-9fe66db7eba2
+  world-name: spawn
+  x: -47.119884106483326
+  y: 66.0
+  z: -120.26906663189736
+  yaw: -2.83758544921875
+  pitch: 10.64999008178711

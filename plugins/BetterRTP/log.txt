@@ -17,3 +17,5 @@
 2024-10-17 16:16:57 [INFO]: Database COOLDOWN:spawn configured and loaded!
 2024-10-17 16:16:58 [INFO]: Attempting to queue up some more safe locations...
 2024-10-17 16:16:58 [INFO]: Queueing paused, max queue limit reached!
+2024-10-17 18:27:52 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=428.0,y=69.0,z=947.0,pitch=0.0,yaw=0.0}
+2024-10-17 18:27:52 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-388.5,y=72.0,z=-351.5,pitch=10.64999,yaw=-2.8375854}
