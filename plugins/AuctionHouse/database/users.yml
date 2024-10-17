@@ -118,3 +118,13 @@ c323543f-19c5-4a9f-b18a-719cc333360a:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+eda8292c-6f19-43db-b990-e8a739533d88:
+  Username: Ouarpi
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
