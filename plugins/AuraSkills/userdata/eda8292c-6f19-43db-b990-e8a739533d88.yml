@@ -2,7 +2,7 @@ uuid: eda8292c-6f19-43db-b990-e8a739533d88
 skills:
   auraskills/agility:
     level: 0
-    xp: 0.0
+    xp: 7.0
   auraskills/excavation:
     level: 0
     xp: 0.0
@@ -17,7 +17,7 @@ skills:
     xp: 0.0
   auraskills/foraging:
     level: 0
-    xp: 0.0
+    xp: 8.0
   auraskills/enchanting:
     level: 0
     xp: 0.0

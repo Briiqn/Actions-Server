@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1729189719343
   login: 1729189599431
 money: '0'
 last-account-name: Ouarpi
@@ -28,3 +28,11 @@ lastlocation:
   z: -120.26906663189736
   yaw: -2.83758544921875
   pitch: 10.64999008178711
+logoutlocation:
+  world: aa3076c4-b781-4422-8ddd-280a5a1047ee
+  world-name: world
+  x: -427.89721185590196
+  y: 71.0
+  z: -247.17107405262797
+  yaw: -41.537384033203125
+  pitch: 37.349979400634766
