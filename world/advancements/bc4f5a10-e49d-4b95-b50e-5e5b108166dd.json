@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-10-18 21:16:35 +0000",
       "minecraft:savanna": "2024-08-23 04:13:34 +0000",
       "minecraft:jagged_peaks": "2024-08-23 04:13:48 +0000"
     },
