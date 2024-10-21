@@ -99,6 +99,8 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -120,8 +122,6 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    random-light-updates: false
-    save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -147,8 +147,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
