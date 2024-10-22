@@ -41,9 +41,6 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: '&a&lServer restarting...'
-stats:
-  disable-saving: false
-  forced-stats: {}
 commands:
   log: true
   tab-complete: 0
@@ -56,6 +53,9 @@ commands:
   - testforblock
   - tellraw
   send-namespaced: false
+stats:
+  disable-saving: false
+  forced-stats: {}
 timings:
   enabled: true
   verbose: true
