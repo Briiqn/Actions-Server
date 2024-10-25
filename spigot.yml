@@ -74,6 +74,15 @@ world-settings:
       exp: 3.0
       item: 2.5
     mob-spawn-range: 4
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -101,16 +110,6 @@ world-settings:
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
     max-tnt-per-tick: 100
-    nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -131,6 +130,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
