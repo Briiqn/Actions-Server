@@ -49,6 +49,13 @@ world-settings:
     remove-invalid-mob-spawner-tile-entities: true
     tnt-explosion-volume: 4.0
     optimize-explosions: false
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -70,12 +77,6 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
     falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
@@ -86,7 +87,6 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    nether-ceiling-void-damage: false
     fix-cannons: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
