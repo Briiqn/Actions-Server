@@ -69,7 +69,22 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 6
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
@@ -108,24 +123,6 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
-      beetroot-modifier: 100
-      carrot-modifier: 100
-      potato-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -141,12 +138,15 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    mob-spawn-range: 6
+    enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     view-distance: 10
     hanging-tick-frequency: 100
