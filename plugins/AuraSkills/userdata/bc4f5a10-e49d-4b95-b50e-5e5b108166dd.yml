@@ -2,7 +2,7 @@ uuid: bc4f5a10-e49d-4b95-b50e-5e5b108166dd
 skills:
   auraskills/agility:
     level: 0
-    xp: 58.7664
+    xp: 61.566399999999994
   auraskills/archery:
     level: 0
     xp: 0.0
@@ -17,7 +17,7 @@ skills:
     xp: 0.0
   auraskills/defense:
     level: 0
-    xp: 0.0
+    xp: 13.0
   auraskills/fighting:
     level: 0
     xp: 0.0
