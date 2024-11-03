@@ -71,20 +71,6 @@ world-settings:
     verbose: true
     mob-spawn-range: 6
     nerf-spawner-mobs: false
-    hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -110,18 +96,20 @@ world-settings:
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -141,6 +129,18 @@ world-settings:
       monsters: 32
       misc: 16
       tick-inactive-villagers: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
