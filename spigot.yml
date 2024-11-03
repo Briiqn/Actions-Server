@@ -11,27 +11,6 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
-timings:
-  enabled: true
-  verbose: true
-  server-name-privacy: false
-  hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
-  history-interval: 300
-  history-length: 3600
-commands:
-  tab-complete: 0
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  send-namespaced: true
 settings:
   save-user-cache-on-stop-only: false
   bungeecord: true
@@ -56,6 +35,15 @@ settings:
       max: 2048.0
   debug: false
   moved-too-quickly-multiplier: 10.0
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: '&c&l(!) &7This command is not added to our server.'
@@ -63,6 +51,18 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Rest In Peace 2017-2017
+commands:
+  tab-complete: 0
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  send-namespaced: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -70,6 +70,9 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -99,9 +102,6 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
