@@ -3,7 +3,7 @@
 # Copyright 2024 DefineOutside and contributors, Licensed under GPLv3.
 # Modified binaries, or plugins with copied grim code, must be private,
 # or with full source code available to buyers at no additional cost.
-
+api-key: "cs_O903Oap3vVAq2e7un33HIArUpHu6LAE1"
 alerts:
   # In addition to broadcasting alerts to players, should they also be sent to the console?
   print-to-console: true
