@@ -115,3 +115,55 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ kons0las was punished for Motion (Type A) ]--------------
+
+Date & Time:
+ - Date: 11-03-2024
+ - Time: 19:28:07
+
+Location:
+ - World: world
+ - X: -124.20471846733275
+ - Y: 69.9375789999998
+ - Z: 60.40374842862978
+
+Information:
+ - UUID: bc4f5a10-e49d-4b95-b50e-5e5b108166dd
+ - Keep Alive Ping: 42
+ - Transaction Ping: 24
+ - Server TPS: 20
+ - Sensitivity: 90
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.21
+ - Last Damage: 4.35 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 177
+ - Since Riptide Ticks: 1579
+ - Flying Delay: 60
+ - Since Velocity Ticks: 87
+ - Since Firework Ticks: 1579
+ - Ticks Existed: 1897
+ - Since Vehicle Ticks: 1479
+ - Since Liquid Ticks: 172
+ - Queued Transactions: 0
+ - Joined: 232 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [GRASS_BLOCK, DIRT_PATH, DIRT_PATH, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, COARSE_DIRT, DIRT_PATH, TALL_GRASS, AIR, AIR, TALL_GRASS, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, TALL_GRASS, AIR, AIR, TALL_GRASS, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
