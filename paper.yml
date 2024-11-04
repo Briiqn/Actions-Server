@@ -44,11 +44,11 @@ world-settings:
     disable-mood-sounds: false
     use-async-lighting: false
     disable-teleportation-suffocation-check: false
-    tnt-explosion-volume: 4.0
-    optimize-explosions: false
     portal-search-radius: 128
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
+    tnt-explosion-volume: 4.0
+    optimize-explosions: false
     fast-drain:
       lava: false
       water: false
@@ -87,9 +87,9 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    fix-cannons: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
+    fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
