@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1730814088804
   login: 1730814025534
 money: '0'
 last-account-name: NoboKik
@@ -28,3 +28,11 @@ lastlocation:
   z: -2.736866695789476
   yaw: -144.62025451660156
   pitch: 16.75743865966797
+logoutlocation:
+  world: aa3076c4-b781-4422-8ddd-280a5a1047ee
+  world-name: world
+  x: -726.4357195888381
+  y: 72.0
+  z: 830.1833223511487
+  yaw: -90.70599365234375
+  pitch: 12.82502269744873
