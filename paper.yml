@@ -55,6 +55,10 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -83,13 +87,9 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
+    fix-cannons: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
-    fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
