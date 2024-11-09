@@ -74,27 +74,6 @@ world-settings:
       exp: 3.0
       item: 2.5
     mob-spawn-range: 4
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -121,6 +100,27 @@ world-settings:
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 10
+    nerf-spawner-mobs: false
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
     seed-village: 10387312
