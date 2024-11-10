@@ -88,8 +88,8 @@ world-settings:
       disable-chest-cat-detection: false
       disable-end-credits: false
     disable-explosion-knockback: false
-    water-over-lava-flow-speed: 5
     fix-cannons: false
+    water-over-lava-flow-speed: 5
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
