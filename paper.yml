@@ -49,6 +49,10 @@ world-settings:
     remove-invalid-mob-spawner-tile-entities: true
     tnt-explosion-volume: 4.0
     optimize-explosions: false
+    mob-spawner-tick-rate: 1
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -71,8 +75,8 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    nether-ceiling-void-damage: false
     player-blocking-damage-multiplier: 0.5
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -83,10 +87,6 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    mob-spawner-tick-rate: 1
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
