@@ -70,7 +70,6 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -122,6 +121,9 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    nerf-spawner-mobs: false
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
     hunger:
@@ -139,8 +141,6 @@ world-settings:
       tile: 50
       entity: 50
     max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
