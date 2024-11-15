@@ -44,17 +44,22 @@ world-settings:
     disable-mood-sounds: false
     use-async-lighting: false
     disable-teleportation-suffocation-check: false
+    tnt-explosion-volume: 4.0
+    optimize-explosions: false
     portal-search-radius: 128
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
-    tnt-explosion-volume: 4.0
-    optimize-explosions: false
     fast-drain:
       lava: false
       water: false
     lava-flow-speed:
       normal: 30
       nether: 10
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
     nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
@@ -82,11 +87,6 @@ world-settings:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
