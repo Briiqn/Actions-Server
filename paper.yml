@@ -38,28 +38,22 @@ world-settings:
     disable-teleportation-suffocation-check: false
     tnt-explosion-volume: 4.0
     optimize-explosions: false
-    cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    player-blocking-damage-multiplier: 0.5
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    mob-spawner-tick-rate: 1
+    cache-chunk-maps: false
     despawn-ranges:
       soft: 32
       hard: 128
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
+    nether-ceiling-void-damage: false
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    mob-spawner-tick-rate: 1
     falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
@@ -70,14 +64,20 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    fast-drain:
-      lava: false
-      water: false
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    player-blocking-damage-multiplier: 0.5
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
