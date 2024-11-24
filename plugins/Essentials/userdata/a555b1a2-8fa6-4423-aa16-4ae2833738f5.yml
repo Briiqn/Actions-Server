@@ -20,3 +20,11 @@ timestamps:
   login: 1732473149887
 money: '0'
 last-account-name: Dirto
+lastlocation:
+  world: aa62f484-2878-4288-a3a3-9fe66db7eba2
+  world-name: spawn
+  x: -6.54101450136179
+  y: 68.0
+  z: -6.432180492892374
+  yaw: 89.61941528320312
+  pitch: 1.9368866682052612
