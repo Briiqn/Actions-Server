@@ -1,0 +1,160 @@
+{
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-11-24 18:33:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-11-24 18:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-24 18:32:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-11-24 18:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-11-24 18:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:ice_spikes": "2024-11-24 18:32:47 +0000",
+      "minecraft:savanna": "2024-11-24 18:32:31 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2024-11-24 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-11-24 18:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-11-24 18:34:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2024-11-24 18:37:37 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

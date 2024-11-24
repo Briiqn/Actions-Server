@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1732473471156
   login: 1732473149887
 money: '0'
 last-account-name: Dirto
@@ -28,3 +28,11 @@ lastlocation:
   z: -6.432180492892374
   yaw: 89.61941528320312
   pitch: 1.9368866682052612
+logoutlocation:
+  world: aa3076c4-b781-4422-8ddd-280a5a1047ee
+  world-name: world
+  x: -135.16746142836126
+  y: 77.0
+  z: 952.3892403930599
+  yaw: 2.8336181640625
+  pitch: 12.541191101074219
