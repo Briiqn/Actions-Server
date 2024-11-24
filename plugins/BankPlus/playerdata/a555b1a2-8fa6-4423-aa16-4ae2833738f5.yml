@@ -1,0 +1,7 @@
+name: Dirto
+banks:
+  bank:
+    level: 1
+    money: '500.00'
+    debt: '0'
+    interest: '0'

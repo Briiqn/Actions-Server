@@ -138,3 +138,13 @@ eda8292c-6f19-43db-b990-e8a739533d88:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+a555b1a2-8fa6-4423-aa16-4ae2833738f5:
+  Username: Dirto
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
