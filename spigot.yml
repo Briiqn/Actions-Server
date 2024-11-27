@@ -11,9 +11,6 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
-stats:
-  disable-saving: false
-  forced-stats: {}
 settings:
   save-user-cache-on-stop-only: false
   bungeecord: true
@@ -66,6 +63,9 @@ commands:
   - testforblock
   - tellraw
   send-namespaced: true
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
@@ -84,12 +84,26 @@ world-settings:
       potato-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -110,23 +124,9 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
+    nerf-spawner-mobs: false
+    seed-village: 10387312
+    seed-feature: 14357617
     hunger:
       walk-exhaustion: 0.2
       sprint-exhaustion: 0.8
@@ -141,14 +141,14 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    wither-spawn-sound-radius: 0
-    view-distance: 10
-    enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
