@@ -63,18 +63,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/k7pXa61UED"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Briiqn",
-      "uniqueId": "cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973"
-    },
-    "time": 1727475765101,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/RC5ZAMn62g"
-    }
   }
 ]
