@@ -7,10 +7,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-11-28 21:17:01 +0000",
       "minecraft:savanna_plateau": "2024-08-14 09:10:46 +0000",
+      "minecraft:snowy_slopes": "2024-11-28 21:17:04 +0000",
       "minecraft:beach": "2024-08-14 08:04:44 +0000",
       "minecraft:dark_forest": "2024-08-15 18:17:11 +0000",
       "minecraft:forest": "2024-08-15 18:16:04 +0000",
+      "minecraft:taiga": "2024-11-28 21:16:34 +0000",
       "minecraft:mangrove_swamp": "2024-08-14 09:11:05 +0000",
       "minecraft:river": "2024-08-14 08:03:26 +0000",
       "minecraft:lush_caves": "2024-11-03 18:41:24 +0000",
