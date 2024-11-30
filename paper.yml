@@ -35,6 +35,7 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
+    allow-block-location-tab-completion: true
     disable-thunder: false
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
@@ -42,13 +43,12 @@ world-settings:
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
-    allow-block-location-tab-completion: true
+    tnt-explosion-volume: 4.0
+    optimize-explosions: false
     disable-teleportation-suffocation-check: false
     portal-search-radius: 128
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
-    tnt-explosion-volume: 4.0
-    optimize-explosions: false
     fast-drain:
       lava: false
       water: false
