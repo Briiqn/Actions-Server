@@ -28538,3 +28538,44 @@
 [2024-12-01 06:12:17] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
 [2024-12-01 06:12:17] [INFO   ]  Injection success! Proceeding with generation. 
 [2024-12-01 06:12:19] [INFO   ]  world loaded. 
+[2024-12-01 11:14:12] [INFO   ]  Custom Logger Initialized 
+[2024-12-01 11:14:12] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2024-12-01 11:14:12] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2024-12-01 11:14:12] [INFO   ] Watchdog Thread hooked. 
+[2024-12-01 11:14:12] [INFO   ]  bStats Metrics enabled. 
+[2024-12-01 11:14:12] [INFO   ]  Detected version: 1.21, number: 21.0 
+[2024-12-01 11:14:12] [INFO   ] Unfreezing biome registry... 
+[2024-12-01 11:14:12] [INFO   ] Registered custom biome: muddy_bog 
+[2024-12-01 11:14:12] [INFO   ] Registered custom biome: cherry_grove 
+[2024-12-01 11:14:12] [INFO   ] Registered custom biome: scarlet_forest 
+[2024-12-01 11:14:12] [INFO   ] Registered custom biome: crystalline_cluster 
+[2024-12-01 11:14:12] [INFO   ] Freezing biome registry 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2024-12-01 11:14:13] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2024-12-01 11:14:13] [INFO   ] Creating TW instance: world - 4906993907965807200 
+[2024-12-01 11:14:13] [INFO   ]  Detected world: world, commencing injection...  
+[2024-12-01 11:14:13] [INFO   ] Creating TW instance: world - 4906993907965807200 
+[2024-12-01 11:14:13] [INFO   ] NMSChunkGenerator Delegate is of type CustomChunkGenerator 
+[2024-12-01 11:14:13] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
+[2024-12-01 11:14:14] [INFO   ]  Injection success! Proceeding with generation. 
+[2024-12-01 11:14:15] [INFO   ]  world loaded. 
