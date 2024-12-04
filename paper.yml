@@ -43,9 +43,9 @@ world-settings:
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
-    disable-teleportation-suffocation-check: false
     tnt-explosion-volume: 4.0
     optimize-explosions: false
+    disable-teleportation-suffocation-check: false
     portal-search-radius: 128
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
