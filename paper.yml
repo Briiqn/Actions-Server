@@ -44,11 +44,11 @@ world-settings:
     disable-mood-sounds: false
     use-async-lighting: false
     disable-teleportation-suffocation-check: false
-    portal-search-radius: 128
+    tnt-explosion-volume: 4.0
     optimize-explosions: false
+    portal-search-radius: 128
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
-    tnt-explosion-volume: 4.0
     fast-drain:
       lava: false
       water: false
@@ -66,6 +66,10 @@ world-settings:
       tnt-entities: false
       falling-blocks: false
     player-blocking-damage-multiplier: 0.5
+    mob-spawner-tick-rate: 1
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -75,10 +79,6 @@ world-settings:
     player-exhaustion:
       block-break: 0.02500000037252903
       swimming: 0.014999999664723873
-    mob-spawner-tick-rate: 1
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
     despawn-ranges:
       soft: 32
       hard: 128
