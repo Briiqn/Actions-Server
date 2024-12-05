@@ -105,6 +105,11 @@ world-settings:
       potato-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -120,11 +125,6 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
     hunger:
@@ -147,8 +147,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
