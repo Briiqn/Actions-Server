@@ -18247,3 +18247,9 @@
 [2024/12/06 02:31:22] Loaded 0 completed listings.
 [2024/12/06 02:31:22] Loaded layout default.
 [2024/12/06 02:31:22] Loaded 1 layouts.
+[2024/12/06 07:33:01] ChatManager Successfully Loaded
+[2024/12/06 07:33:01] Checking for Floodgate...
+[2024/12/06 07:33:01] Floodgate not found and disabled
+[2024/12/06 07:33:01] Loading NameManager...
+[2024/12/06 07:33:01] NameManager Successfully Loaded
+[2024/12/06 07:33:01] Loading Messages...
