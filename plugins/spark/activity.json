@@ -24,18 +24,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/3s49z7i3Ez"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "ShortyDev",
-      "uniqueId": "f5fbd54b-ba6d-43b6-bfac-859a453623a8"
-    },
-    "time": 1728386872452,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/CAHeKIlbGy"
-    }
   }
 ]
