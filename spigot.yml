@@ -70,26 +70,6 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -109,7 +89,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -141,18 +120,39 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
+    nerf-spawner-mobs: false
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 10
-    chunks-per-tick: 650
-    clear-tick-list: false
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
+    chunks-per-tick: 650
+    clear-tick-list: false
     seed-desert: 14357617
     seed-igloo: 14357618
     seed-jungle: 14357619
