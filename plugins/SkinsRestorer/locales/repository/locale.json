@@ -64,6 +64,7 @@
   "skinsrestorer.error_ms_unknown": "Unknown MineSkin Error!",
   "skinsrestorer.error_no_history": "You have no skin history!",
   "skinsrestorer.error_no_favourites": "You have no favourite skins!",
+  "skinsrestorer.error_player_refresh_no_mapping": "Could not refresh your skin because this Minecraft version is not supported by SkinsRestorer. Please tell the server admin to update the plugin SkinsRestorer.",
   "skinsrestorer.not_connected_to_server": "<red>You are not connected to any server.",
   "skinsrestorer.divider": "<dark_aqua>----------------------------------------------",
   "skinsrestorer.admincommand_status_checking": "<gray>Running service checks...",
