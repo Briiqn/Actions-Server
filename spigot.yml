@@ -70,6 +70,12 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -90,17 +96,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
+    nerf-spawner-mobs: false
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
@@ -121,6 +117,11 @@ world-settings:
       potato-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -140,15 +141,14 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: 10
     wither-spawn-sound-radius: 0
+    view-distance: 10
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
