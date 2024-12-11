@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733952654969
   login: 1733952597139
 money: '0'
 last-account-name: dyrk
+logoutlocation:
+  world: aa62f484-2878-4288-a3a3-9fe66db7eba2
+  world-name: spawn
+  x: 27.379798579086547
+  y: 67.0
+  z: -90.46532971434206
+  yaw: 145.20887756347656
+  pitch: -2.849904775619507
