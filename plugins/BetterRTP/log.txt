@@ -17,3 +17,4 @@
 2024-12-12 00:28:11 [INFO]: Database PLAYERS:Players configured and loaded!
 2024-12-12 00:28:12 [INFO]: Attempting to queue up some more safe locations...
 2024-12-12 00:28:12 [INFO]: Queueing paused, max queue limit reached!
+2024-12-12 03:46:36 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-698.5,y=96.0,z=-345.5,pitch=-17.24996,yaw=-145.78743}
