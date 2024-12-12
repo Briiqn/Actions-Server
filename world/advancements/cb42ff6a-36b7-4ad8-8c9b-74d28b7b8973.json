@@ -17,6 +17,7 @@
       "minecraft:mangrove_swamp": "2024-08-14 09:11:05 +0000",
       "minecraft:river": "2024-08-14 08:03:26 +0000",
       "minecraft:lush_caves": "2024-11-03 18:41:24 +0000",
+      "minecraft:ice_spikes": "2024-12-12 03:45:49 +0000",
       "minecraft:desert": "2024-08-14 08:04:27 +0000",
       "minecraft:jungle": "2024-08-14 09:10:56 +0000",
       "minecraft:swamp": "2024-08-18 20:15:43 +0000",
@@ -597,6 +598,18 @@
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
       "lightning_rod_with_villager_no_fire": "2024-11-03 20:13:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-12-12 03:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2024-12-12 03:44:38 +0000"
     },
     "done": true
   },
