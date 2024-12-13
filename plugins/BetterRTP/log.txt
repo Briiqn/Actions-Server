@@ -1,19 +1,19 @@
-2024-12-12 20:35:24 [INFO]: Loading Overrides...
-2024-12-12 20:35:24 [INFO]: Loading World Types...
-2024-12-12 20:35:24 [INFO]: - World Type for 'world' set to 'NORMAL'
-2024-12-12 20:35:24 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2024-12-12 20:35:24 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2024-12-12 20:35:24 [INFO]: Loading Defaults...
-2024-12-12 20:35:24 [INFO]: Loading Custom Worlds...
-2024-12-12 20:35:24 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2024-12-12 20:35:24 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2024-12-12 20:35:24 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
-2024-12-12 20:35:25 [INFO]: Database PLAYERS:Players configured and loaded!
-2024-12-12 20:35:25 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2024-12-12 20:35:25 [INFO]: Database COOLDOWN:world configured and loaded!
-2024-12-12 20:35:25 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2024-12-12 20:35:25 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2024-12-12 20:35:25 [INFO]: Database QUEUE:Queue configured and loaded!
-2024-12-12 20:35:25 [INFO]: Database COOLDOWN:spawn configured and loaded!
-2024-12-12 20:35:27 [INFO]: Attempting to queue up some more safe locations...
-2024-12-12 20:35:28 [INFO]: Queueing paused, max queue limit reached!
+2024-12-13 01:36:55 [INFO]: Loading Overrides...
+2024-12-13 01:36:55 [INFO]: Loading World Types...
+2024-12-13 01:36:55 [INFO]: - World Type for 'world' set to 'NORMAL'
+2024-12-13 01:36:55 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2024-12-13 01:36:55 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2024-12-13 01:36:55 [INFO]: Loading Defaults...
+2024-12-13 01:36:55 [INFO]: Loading Custom Worlds...
+2024-12-13 01:36:55 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2024-12-13 01:36:55 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2024-12-13 01:36:55 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2024-12-13 01:36:57 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-12-13 01:36:57 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-12-13 01:36:57 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-12-13 01:36:57 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2024-12-13 01:36:57 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-12-13 01:36:57 [INFO]: Database COOLDOWN:spawn configured and loaded!
+2024-12-13 01:36:57 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-12-13 01:36:58 [INFO]: Attempting to queue up some more safe locations...
+2024-12-13 01:36:59 [INFO]: Queueing paused, max queue limit reached!
