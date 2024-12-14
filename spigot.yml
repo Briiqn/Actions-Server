@@ -69,26 +69,8 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 6
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
-      beetroot-modifier: 100
-      carrot-modifier: 100
-      potato-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
+    random-light-updates: false
+    save-structure-info: true
     nerf-spawner-mobs: false
     max-bulk-chunks: 10
     max-entity-collisions: 8
@@ -109,6 +91,25 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
     entity-tracking-range:
       players: 48
       animals: 48
@@ -119,8 +120,7 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
+    mob-spawn-range: 6
     anti-xray:
       enabled: true
       engine-mode: 1

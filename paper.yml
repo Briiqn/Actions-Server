@@ -35,28 +35,30 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    disable-teleportation-suffocation-check: false
-    tnt-explosion-volume: 4.0
-    optimize-explosions: false
-    cache-chunk-maps: false
-    remove-invalid-mob-spawner-tile-entities: true
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    max-growth-height:
-      cactus: 3
-      reeds: 3
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    player-blocking-damage-multiplier: 0.5
+    falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    max-growth-height:
+      cactus: 3
+      reeds: 3
     mob-spawner-tick-rate: 1
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -67,17 +69,15 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    falling-block-height-nerf: 0
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
+    player-blocking-damage-multiplier: 0.5
+    disable-teleportation-suffocation-check: false
+    tnt-explosion-volume: 4.0
+    optimize-explosions: false
+    cache-chunk-maps: false
+    remove-invalid-mob-spawner-tile-entities: true
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
