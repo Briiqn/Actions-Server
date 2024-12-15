@@ -42,7 +42,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,lookclose,gravity,owner,equipment,inventory
+    traitnames: inventory,mounttrait,scoreboardtrait,equipment,skintrait,spawned,type,location,lookclose,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -77,7 +77,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,equipment,gravity,owner,inventory
+    traitnames: inventory,mounttrait,scoreboardtrait,equipment,skintrait,spawned,type,location,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -111,7 +111,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,equipment,owner,gravity,inventory
+    traitnames: inventory,mounttrait,equipment,scoreboardtrait,skintrait,spawned,type,location,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -146,7 +146,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,gravity,owner,equipment,inventory
+    traitnames: inventory,mounttrait,scoreboardtrait,equipment,spawned,skintrait,type,location,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -206,7 +206,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mirror,mounttrait,skintrait,scoreboardtrait,location,lookclose,owner,equipment,gravity,inventory
+    traitnames: inventory,mounttrait,equipment,scoreboardtrait,skintrait,spawned,type,location,lookclose,owner,gravity,mirror
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -231,7 +231,7 @@ npc:
       scoreboardtrait: {}
       gravity:
         enabled: true
-    traitnames: spawned,type,mounttrait,scoreboardtrait,location,owner,gravity,inventory
+    traitnames: inventory,mounttrait,scoreboardtrait,spawned,type,location,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -285,7 +285,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,lookclose,owner,gravity,equipment,inventory
+    traitnames: inventory,mounttrait,scoreboardtrait,equipment,spawned,skintrait,type,location,lookclose,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -334,7 +334,7 @@ npc:
           '1': 360.0
       owner:
         uuid: e63c9801-19f9-3ff1-9775-3fbe8869401d
-    traitnames: spawned,type,mounttrait,scoreboardtrait,location,lookclose,equipment,owner,gravity,inventory
+    traitnames: inventory,mounttrait,equipment,scoreboardtrait,spawned,type,location,lookclose,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -367,7 +367,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,commandtrait,type,mounttrait,skintrait,scoreboardtrait,location,gravity,owner,equipment,inventory
+    traitnames: inventory,commandtrait,mounttrait,scoreboardtrait,equipment,skintrait,spawned,type,location,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -405,7 +405,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,equipment,owner,gravity,inventory
+    traitnames: inventory,mounttrait,equipment,scoreboardtrait,spawned,skintrait,type,location,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -423,7 +423,7 @@ npc:
         pitch: '0.0'
         bodyYaw: !!float 'NaN'
       spawned: true
-    traitnames: spawned,type,mounttrait,location
+    traitnames: mounttrait,spawned,type,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -441,7 +441,7 @@ npc:
         yaw: '0.0'
         pitch: '0.0'
         bodyYaw: !!float 'NaN'
-    traitnames: spawned,type,mounttrait,location
+    traitnames: mounttrait,spawned,type,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -459,7 +459,7 @@ npc:
         yaw: '0.0'
         pitch: '0.0'
         bodyYaw: !!float 'NaN'
-    traitnames: spawned,type,mounttrait,location
+    traitnames: mounttrait,spawned,type,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -477,7 +477,7 @@ npc:
         yaw: '0.0'
         pitch: '0.0'
         bodyYaw: !!float 'NaN'
-    traitnames: spawned,type,mounttrait,location
+    traitnames: mounttrait,spawned,type,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -495,7 +495,7 @@ npc:
         pitch: '0.0'
         bodyYaw: !!float 'NaN'
       spawned: true
-    traitnames: spawned,type,mounttrait,location
+    traitnames: mounttrait,spawned,type,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -546,7 +546,7 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: spawned,type,mounttrait,skintrait,scoreboardtrait,location,lookclose,equipment,gravity,owner,inventory
+    traitnames: inventory,mounttrait,equipment,scoreboardtrait,spawned,skintrait,type,location,lookclose,owner,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
