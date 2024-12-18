@@ -158,3 +158,13 @@ a555b1a2-8fa6-4423-aa16-4ae2833738f5:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+4bc14e5c-182c-45ad-805c-72161e917fe7:
+  Username: Wirebit
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
