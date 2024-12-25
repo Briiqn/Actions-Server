@@ -41,6 +41,9 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: '&a&lServer restarting...'
+stats:
+  disable-saving: false
+  forced-stats: {}
 commands:
   log: true
   tab-complete: 0
@@ -53,9 +56,6 @@ commands:
   - testforblock
   - tellraw
   send-namespaced: false
-stats:
-  disable-saving: false
-  forced-stats: {}
 timings:
   enabled: true
   verbose: true
@@ -74,6 +74,17 @@ world-settings:
       exp: 3.0
       item: 2.5
     mob-spawn-range: 4
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 100
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -120,17 +131,6 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.3
-      regen-exhaustion: 3.0
-    max-tnt-per-tick: 100
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
