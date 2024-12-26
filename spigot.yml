@@ -69,6 +69,8 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 6
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -89,13 +91,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    random-light-updates: false
-    save-structure-info: true
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -121,6 +116,12 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -140,7 +141,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    mob-spawn-range: 6
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
