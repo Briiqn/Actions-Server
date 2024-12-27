@@ -43,12 +43,12 @@ world-settings:
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
-    cache-chunk-maps: false
-    remove-invalid-mob-spawner-tile-entities: true
     disable-teleportation-suffocation-check: false
-    portal-search-radius: 128
     tnt-explosion-volume: 4.0
     optimize-explosions: false
+    portal-search-radius: 128
+    cache-chunk-maps: false
+    remove-invalid-mob-spawner-tile-entities: true
     fast-drain:
       lava: false
       water: false
