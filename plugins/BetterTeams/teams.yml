@@ -1,5 +1,8 @@
 storageType: YAML
-teamNameLookup: []
-playerLookup: []
+teamNameLookup:
+- aga:6aed10e2-4f00-4302-8bc8-ccdd421ec5fb
+playerLookup:
+- 1b37c105-c8c3-4441-8a85-4269ad0716b6:6aed10e2-4f00-4302-8bc8-ccdd421ec5fb
+- 9fc49692-9f55-498c-9adc-ebbce7258977:6aed10e2-4f00-4302-8bc8-ccdd421ec5fb
 chestClaims: []
 holos: []
