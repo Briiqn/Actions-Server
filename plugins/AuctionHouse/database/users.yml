@@ -188,3 +188,13 @@ a555b1a2-8fa6-4423-aa16-4ae2833738f5:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+658d6f8c-ae3a-4bf8-8b9f-ab34e176a4b9:
+  Username: ItsDewww
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
