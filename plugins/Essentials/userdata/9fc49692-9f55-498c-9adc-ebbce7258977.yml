@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1735435042877
   login: 1735434724780
 money: '0'
 last-account-name: codeHusky
@@ -28,3 +28,11 @@ lastlocation:
   z: 1.5327470953343525
   yaw: 173.25521850585938
   pitch: -2.259272575378418
+logoutlocation:
+  world: aa3076c4-b781-4422-8ddd-280a5a1047ee
+  world-name: world
+  x: -552.7624999880791
+  y: 74.0
+  z: 427.5200684829183
+  yaw: 87.84548950195312
+  pitch: 4.856113433837891

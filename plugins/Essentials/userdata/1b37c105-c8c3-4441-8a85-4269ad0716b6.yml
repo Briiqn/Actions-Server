@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1735435050621
   login: 1735434751714
 money: '0'
 last-account-name: Snugget347
@@ -28,3 +28,11 @@ lastlocation:
   z: -8.102007971861541
   yaw: -124.78746032714844
   pitch: 18.15003204345703
+logoutlocation:
+  world: aa3076c4-b781-4422-8ddd-280a5a1047ee
+  world-name: world
+  x: -433.93773781991297
+  y: 70.0
+  z: 774.1759498412896
+  yaw: 79.21246337890625
+  pitch: 10.800037384033203
