@@ -1,4 +1,12 @@
 lastAccountName: ItsDewww
 timestamps:
   login: 1735437000457
+  logout: 1735437100320
 ipAddress: 127.141.134.228
+logoutlocation:
+  world: world
+  x: -11.276211776574513
+  y: 67.0
+  z: 1.3320567354830104
+  yaw: -88.68386
+  pitch: 4.8024025
