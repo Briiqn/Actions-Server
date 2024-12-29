@@ -18,3 +18,4 @@
 2024-12-28 21:52:47 [INFO]: Attempting to queue up some more safe locations...
 2024-12-28 21:52:47 [INFO]: Queueing paused, max queue limit reached!
 2024-12-29 01:12:30 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-210.5,y=97.0,z=560.5,pitch=-2.2592726,yaw=173.25522}
+2024-12-29 01:14:57 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-419.5,y=75.0,z=890.5,pitch=18.150032,yaw=-124.78746}
