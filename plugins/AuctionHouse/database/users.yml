@@ -168,3 +168,13 @@ a555b1a2-8fa6-4423-aa16-4ae2833738f5:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+9fc49692-9f55-498c-9adc-ebbce7258977:
+  Username: codeHusky
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
