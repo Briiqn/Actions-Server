@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "Briiqn",
-      "uniqueId": "cb42ff6a-36b7-4ad8-8c9b-74d28b7b8973"
-    },
-    "time": 1730487296296,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/vxHzuTEA8h"
-    }
-  }
-]
+[]
