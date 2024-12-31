@@ -70,6 +70,27 @@ world-settings:
   default:
     verbose: true
     mob-spawn-range: 6
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    nerf-spawner-mobs: false
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -120,27 +141,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
-    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
