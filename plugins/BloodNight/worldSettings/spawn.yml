@@ -68,6 +68,29 @@ settings:
     dropAmount: 3
     mobTypes:
       ==: bloodNightMobTypes
+      Enderman:
+      - ==: bloodNightMobSetting
+        mobName: FearfulEnderman
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: ToxicEnderman
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
       Zombie:
       - ==: bloodNightMobSetting
         mobName: InvisibleZombie
@@ -104,29 +127,6 @@ settings:
         damage: 2.0
       - ==: bloodNightMobSetting
         mobName: SpeedZombie
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      Enderman:
-      - ==: bloodNightMobSetting
-        mobName: FearfulEnderman
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: ToxicEnderman
         displayName: ''
         active: true
         dropAmount: -1
@@ -203,40 +203,6 @@ settings:
         health: 2.0
         damageModifier: DEFAULT
         damage: 2.0
-      Spider:
-      - ==: bloodNightMobSetting
-        mobName: BlazeRider
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: SpeedSkeletonRider
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: WitherSkeletonRider
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
       Phantom:
       - ==: bloodNightMobSetting
         mobName: FearfulPhantom
@@ -262,6 +228,40 @@ settings:
         damage: 2.0
       - ==: bloodNightMobSetting
         mobName: PhantomSoul
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      Spider:
+      - ==: bloodNightMobSetting
+        mobName: BlazeRider
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: SpeedSkeletonRider
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: WitherSkeletonRider
         displayName: ''
         active: true
         dropAmount: -1
