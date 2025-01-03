@@ -1,19 +1,10 @@
-2025-01-03 08:38:31 [INFO]: Loading Overrides...
-2025-01-03 08:38:31 [INFO]: Loading World Types...
-2025-01-03 08:38:31 [INFO]: - World Type for 'world' set to 'NORMAL'
-2025-01-03 08:38:31 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2025-01-03 08:38:31 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2025-01-03 08:38:31 [INFO]: Loading Defaults...
-2025-01-03 08:38:31 [INFO]: Loading Custom Worlds...
-2025-01-03 08:38:31 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-01-03 08:38:31 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-01-03 08:38:31 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
-2025-01-03 08:38:33 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-01-03 08:38:33 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-01-03 08:38:33 [INFO]: Database COOLDOWN:world configured and loaded!
-2025-01-03 08:38:33 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2025-01-03 08:38:33 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2025-01-03 08:38:33 [INFO]: Database COOLDOWN:spawn configured and loaded!
-2025-01-03 08:38:33 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-01-03 08:38:34 [INFO]: Attempting to queue up some more safe locations...
-2025-01-03 08:38:34 [INFO]: Queueing paused, max queue limit reached!
+2025-01-03 13:40:11 [INFO]: Loading Overrides...
+2025-01-03 13:40:11 [INFO]: Loading World Types...
+2025-01-03 13:40:11 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-01-03 13:40:11 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-01-03 13:40:11 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-01-03 13:40:11 [INFO]: Loading Defaults...
+2025-01-03 13:40:11 [INFO]: Loading Custom Worlds...
+2025-01-03 13:40:11 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-01-03 13:40:11 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-01-03 13:40:11 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
