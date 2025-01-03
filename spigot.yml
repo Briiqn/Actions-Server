@@ -84,11 +84,7 @@ world-settings:
       potato-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -124,10 +120,11 @@ world-settings:
       swim-multiplier: 0.01
       sprint-multiplier: 0.1
       other-multiplier: 0.0
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
     entity-tracking-range:
       players: 48
       animals: 48
@@ -140,7 +137,10 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
-    nerf-spawner-mobs: false
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
