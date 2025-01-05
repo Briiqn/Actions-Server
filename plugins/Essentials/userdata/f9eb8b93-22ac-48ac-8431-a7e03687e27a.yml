@@ -1,4 +1,12 @@
 lastAccountName: Marcelektro
 timestamps:
   login: 1736079394621
+  logout: 1736079472558
 ipAddress: 127.207.64.224
+logoutlocation:
+  world: world
+  x: 16.05866461453183
+  y: 63.0
+  z: 0.5415740829538465
+  yaw: -91.61801
+  pitch: 12.192459
