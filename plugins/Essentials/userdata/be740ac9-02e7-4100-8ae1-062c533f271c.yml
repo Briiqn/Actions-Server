@@ -1,4 +1,12 @@
 lastAccountName: ItzKorawith
 timestamps:
   login: 1736081031721
+  logout: 1736081078394
 ipAddress: 127.234.27.1
+logoutlocation:
+  world: world
+  x: 22.421036189261535
+  y: 63.0
+  z: -5.262238784453446
+  yaw: -205.13863
+  pitch: 10.031997
