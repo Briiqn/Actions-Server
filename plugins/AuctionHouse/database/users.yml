@@ -208,3 +208,13 @@ f9eb8b93-22ac-48ac-8431-a7e03687e27a:
   Alert Listing Bought: false
   Auto Confirm Listing: false
   Sounds: true
+be740ac9-02e7-4100-8ae1-062c533f271c:
+  Username: ItzKorawith
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
