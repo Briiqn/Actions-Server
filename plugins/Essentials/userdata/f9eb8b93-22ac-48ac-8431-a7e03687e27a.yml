@@ -20,3 +20,11 @@ timestamps:
   login: 1736079683695
 money: '0'
 last-account-name: Marcelektro
+lastlocation:
+  world: aa62f484-2878-4288-a3a3-9fe66db7eba2
+  world-name: spawn
+  x: -26.611067809830974
+  y: 71.0
+  z: -89.86329780082171
+  yaw: -1.40484619140625
+  pitch: 14.089371681213379
