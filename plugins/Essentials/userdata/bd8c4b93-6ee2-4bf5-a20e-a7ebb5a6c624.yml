@@ -1,4 +1,12 @@
 lastAccountName: Guailoudou
 timestamps:
   login: 1736092217218
+  logout: 1736092340227
 ipAddress: 127.236.96.253
+logoutlocation:
+  world: world
+  x: -27.30000001192093
+  y: 71.0
+  z: -3.699999988079071
+  yaw: -160.38385
+  pitch: 10.202403
