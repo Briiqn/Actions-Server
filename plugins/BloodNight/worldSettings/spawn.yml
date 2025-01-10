@@ -203,40 +203,6 @@ settings:
         health: 2.0
         damageModifier: DEFAULT
         damage: 2.0
-      Spider:
-      - ==: bloodNightMobSetting
-        mobName: BlazeRider
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: SpeedSkeletonRider
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      - ==: bloodNightMobSetting
-        mobName: WitherSkeletonRider
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
       Phantom:
       - ==: bloodNightMobSetting
         mobName: FearfulPhantom
@@ -271,6 +237,40 @@ settings:
         health: 2.0
         damageModifier: DEFAULT
         damage: 2.0
+      Spider:
+      - ==: bloodNightMobSetting
+        mobName: BlazeRider
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: SpeedSkeletonRider
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      - ==: bloodNightMobSetting
+        mobName: WitherSkeletonRider
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
       Skeleton:
       - ==: bloodNightMobSetting
         mobName: MagicSkeleton
@@ -285,18 +285,6 @@ settings:
         damage: 2.0
       - ==: bloodNightMobSetting
         mobName: InvisibleSkeleton
-        displayName: ''
-        active: true
-        dropAmount: -1
-        overrideDefaultDrops: false
-        drops: []
-        healthModifier: DEFAULT
-        health: 2.0
-        damageModifier: DEFAULT
-        damage: 2.0
-      Slime:
-      - ==: bloodNightMobSetting
-        mobName: ToxicSlime
         displayName: ''
         active: true
         dropAmount: -1
@@ -331,6 +319,18 @@ settings:
         damage: 2.0
       - ==: bloodNightMobSetting
         mobName: WitherWizard
+        displayName: ''
+        active: true
+        dropAmount: -1
+        overrideDefaultDrops: false
+        drops: []
+        healthModifier: DEFAULT
+        health: 2.0
+        damageModifier: DEFAULT
+        damage: 2.0
+      Slime:
+      - ==: bloodNightMobSetting
+        mobName: ToxicSlime
         displayName: ''
         active: true
         dropAmount: -1
